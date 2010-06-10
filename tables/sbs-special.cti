@@ -1,0 +1,44 @@
+#-------------------------------------------------------------------------------
+#
+#  sbs-special.cti
+#
+#  SBS Character Definitions für Spezialzeichen (Trennmarken etc.)
+#
+#
+#  Version 2010-04-21
+#  SBS Schweizerische Bibliothek für Blinde und Sehbehinderte
+#
+#-------------------------------------------------------------------------------
+
+
+# ===== LATIN-1 SUPPLEMENT: 0080-00FF ==========================================
+
+# KUERZUNGSVERBOT
+letter        \x00A6 a               #166   ¦ BROKEN BAR
+
+
+# TRENNMARKE (WORT)
+letter        \x00AC f               #172   ¬ NOT SIGN
+
+# TRENNMARKE (SILBE)
+letter        \x00AD e               #173   ­ SOFT HYPHEN
+
+# ===== BOX DRAWING: 2500-257F =================================================
+
+# VOLLSCHRIFT Einzelwort (P6-3)
+punctuation   \x2559 6-3             #9561    BOX DRAWINGS UP DOUBLE AND RIGHT SINGLE
+
+# VOLLSCHRIFT Anfang (P36-3)
+punctuation   \x255A 36-3            #9562    BOX DRAWINGS DOUBLE UP AND RIGHT
+
+# VOLLSCHRIFT Ende (P6-3)
+punctuation   \x255D 6-3             #9565    BOX DRAWINGS DOUBLE UP AND LEFT
+
+# GROSSBUCHSTABE (P46) für sbs-de-abbr.ctb
+sign          \x2564 46              #9572    BOX DRAWINGS DOWN SINGLE AND HORIZONTAL DOUBLE
+
+# GROSSBUCHSTABENFOLGE (P45) für sbs-de-abbr.ctb
+sign          \x2566 45              #9574    BOX DRAWINGS DOUBLE DOWN AND HORIZONTAL
+
+# KLEINBUCHSTABE (P6) für sbs-de-abbr.ctb
+sign          \x2569 6               #9577    BOX DRAWINGS DOUBLE UP AND HORIZONTAL

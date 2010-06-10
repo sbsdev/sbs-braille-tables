@@ -1,0 +1,21 @@
+INTRODUCTION
+
+This project contains auxiliary tables that are used at SBS to
+generate good German Braille using liblouis.
+
+DOCUMENTATION
+
+None so far.
+
+INSTALLATION
+
+Unpack the the distribution tarball, go to the directory it creates and run
+
+./configure
+make
+sudo make install
+
+This will add the sbs braille tables to the liblouis installed on the system.
+
+
+
