@@ -1,7 +1,5 @@
-*~
-Makefile
-Makefile.in
 
+*~
 /aclocal.m4
 /autom4te.cache
 /config.log
@@ -9,3 +7,6 @@ Makefile.in
 /configure
 /install-sh
 /missing
+/sbs-braille-tables-*.tar.gz
+Makefile
+Makefile.in
