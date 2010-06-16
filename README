@@ -17,5 +17,7 @@ sudo make install
 
 This will add the sbs braille tables to the liblouis installed on the system.
 
+LICENSE
 
-
+The tables contained within this package are free software. See the
+file COPYING.LESSERv3 for copying conditions.
