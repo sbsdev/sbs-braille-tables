@@ -1,2 +1,1 @@
-SUBDIRS = tables
-
+SUBDIRS = tables tests

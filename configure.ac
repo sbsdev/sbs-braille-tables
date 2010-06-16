@@ -4,6 +4,7 @@ AM_INIT_AUTOMAKE([foreign])
 AC_CONFIG_FILES([
 	Makefile
 	tables/Makefile
+	tests/Makefile
 ])
 
 AC_OUTPUT
