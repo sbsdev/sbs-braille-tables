@@ -5,7 +5,7 @@
 #  Grade-Übergreifendes: Hervorhebungen, Satzzeichen, Mathematische Zeichen,
 #  Computer-Braille etc.
 #
-#  Version 2010-04-21
+#  Version 2010-06-16
 #  SBS Schweizerische Bibliothek für Blinde und Sehbehinderte
 #
 #-------------------------------------------------------------------------------
@@ -13,14 +13,9 @@
 # --- Emphasis opcodes ---------------------------------------------------------
 
 # Momentaner Workaraound:
-# Mehrere hervorgehobene Wörter:  Mode italic
-# Einzelnes hervorgehobenes Wort: Mode bold
+# Hilfszeichen, liblouis kein mode-Wechsel
 
-firstwordital 456-456
-lastworditalafter 6-3
-lenitalphrase 1
 
-boldsign 456
 
 
 begcomp 6-46
@@ -30,6 +25,10 @@ begcomp 6-46
 hyphen - 36
 
 # --- Translation opcodes ------------------------------------------------------
+
+prepunc \x255F 456 KURSIV Einzelwort
+prepunc \x2560 456-456 KURSIV Anfang
+postpunc \x2563 6-3 KURSIV Ende
 
 prepunc \x2559 6-3 VOLLSCHRIFT Einzelwort
 prepunc \x255A 36-3 VOLLSCHRIFT Anfang
@@ -108,6 +107,7 @@ joinnum $ 4-234 Dollar
 always $ 4-234 Dollar
 joinnum ¢ 4-14 Cent
 joinnum ¥ 4-13456 Yen
+joinnum \x20A0 4-15 Euro
 joinnum Fr. 124-1235-3 Franken    !!! TUT NICHT !!!
 joinnum Fr 124-1235
 

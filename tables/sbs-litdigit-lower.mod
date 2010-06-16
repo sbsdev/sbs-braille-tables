@@ -4,7 +4,7 @@
 #
 #  TIEFGESTELLTE ZAHLEN
 #
-#  Version 2010-04-21
+#  Version 2010-06-16
 #  SBS Schweizerische Bibliothek für Blinde und Sehbehinderte
 #
 #-------------------------------------------------------------------------------

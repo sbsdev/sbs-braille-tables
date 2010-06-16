@@ -5,7 +5,7 @@
 #  SBS Character Definitions für Spezialzeichen (Trennmarken etc.)
 #
 #
-#  Version 2010-04-21
+#  Version 2010-06-16
 #  SBS Schweizerische Bibliothek für Blinde und Sehbehinderte
 #
 #-------------------------------------------------------------------------------
@@ -42,3 +42,12 @@ sign          \x2566 45              #9574    BOX DRAWINGS DOUBLE DOWN AND HORIZ
 
 # KLEINBUCHSTABE (P6) für sbs-de-abbr.ctb
 sign          \x2569 6               #9577    BOX DRAWINGS DOUBLE UP AND HORIZONTAL
+
+# KURSIV Einzelwort (P456)
+punctuation   \x255F 456             #9567    BOX DRAWINGS VERTICAL VERTICAL DOUBLE AND RIGHT SINGLE
+
+# KURSIV Anfang (P456-456)
+punctuation   \x2560 456-456         #9568    BOX DRAWINGS VERTICAL DOUBLE VERTICAL AND RIGHT
+
+# KURSIV Ende (P6-3)
+punctuation   \x2563 6-3             #9571    BOX DRAWINGS VERTICAL DOUBLE VERTICAL AND LEFT
