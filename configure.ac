@@ -1,5 +1,5 @@
 AC_INIT([sbs-braille-tables], [1.0.2])
-AM_INIT_AUTOMAKE([foreign])
+AM_INIT_AUTOMAKE()
 
 AC_CONFIG_FILES([
 	Makefile

@@ -1,0 +1,6 @@
+liblouis NEWS -- history of user-visible changes.
+
+* Noteworthy changes in release 1.0.2
+  Added a verion table which allows to query the version of the installed tables
+
+
