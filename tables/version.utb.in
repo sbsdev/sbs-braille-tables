@@ -1,0 +1,49 @@
+#
+#  Copyright (C) 2010 SBS Swiss Library for the Blind, Visually
+#  Impaired and Print Disabled
+#
+#  This file is part of sbs-braille-tables.
+#
+#  sbs-braille-tables is free software: you can redistribute it and/or
+#  modify it under the terms of the GNU Lesser General Public License
+#  as published by the Free Software Foundation, either version 3 of
+#  the License, or (at your option) any later version.
+#
+#  sbs-braille-tables is distributed in the hope that it will be
+#  useful, but WITHOUT ANY WARRANTY; without even the implied warranty
+#  of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+#  Lesser General Public License for more details.
+#
+#  You should have received a copy of the GNU Lesser General Public
+#  License along with liblouis. If not, see
+#  <http://www.gnu.org/licenses/>.
+
+punctuation . 3
+punctuation   \x007B 12356           #123   {  LEFT CURLY BRACKET
+punctuation   \x007D 23456           #125   }  RIGHT CURLY BRACKET
+punctuation   \x002D 36              #45    - HYPHEN-MINUS
+
+digit       0 346
+digit       1 16
+digit       2 126
+digit       3 146
+digit       4 1456
+digit       5 156
+digit       6 1246
+digit       7 12456
+digit       8 1256
+digit       9 246
+
+uplow         \x0041\x0061  1        #65 #97   Aa LATIN CAPITAL LETTER A - LATIN SMALL LETTER A
+uplow         \x0042\x0062  12       #66 #98   Bb LATIN CAPITAL LETTER B - LATIN SMALL LETTER B
+uplow         \x0045\x0065  15       #69 #101  Ee LATIN CAPITAL LETTER E - LATIN SMALL LETTER E
+uplow         \x0049\x0069  24       #73 #105  Ii LATIN CAPITAL LETTER I - LATIN SMALL LETTER I
+uplow         \x004C\x006C  123      #76 #108  Ll LATIN CAPITAL LETTER L - LATIN SMALL LETTER L
+uplow         \x004E\x006E  1345     #78 #110  Nn LATIN CAPITAL LETTER N - LATIN SMALL LETTER N
+uplow         \x004F\x006F  135      #79 #111  Oo LATIN CAPITAL LETTER O - LATIN SMALL LETTER O
+uplow         \x0052\x0072  1235     #82 #114  Rr LATIN CAPITAL LETTER R - LATIN SMALL LETTER R
+uplow         \x0053\x0073  234      #83 #115  Ss LATIN CAPITAL LETTER S - LATIN SMALL LETTER S
+uplow         \x0054\x0074  2345     #84 #116  Tt LATIN CAPITAL LETTER T - LATIN SMALL LETTER T
+uplow         \x0056\x0076  1236     #86 #118  Vv LATIN CAPITAL LETTER V - LATIN SMALL LETTER V
+
+correct "{{sbs-braille-tables-version}}" "@VERSION@"

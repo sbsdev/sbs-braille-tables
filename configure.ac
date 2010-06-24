@@ -1,9 +1,10 @@
-AC_INIT([sbs-braille-tables], [1.0.1])
+AC_INIT([sbs-braille-tables], [1.0.2])
 AM_INIT_AUTOMAKE([foreign])
 
 AC_CONFIG_FILES([
 	Makefile
 	tables/Makefile
+	tables/version.utb
 	tests/Makefile
 ])
 

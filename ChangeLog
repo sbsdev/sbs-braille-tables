@@ -1,0 +1,7 @@
+2010-06-24  Christian Egli  <christian.egli@sbszh.ch>
+
+	* tables/Makefile.am (table_files):
+	* tables/version.utb.in:
+	* configure.ac: Add a table that allows to query the version of
+	the tables installed.
+
