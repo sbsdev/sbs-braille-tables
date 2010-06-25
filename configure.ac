@@ -4,7 +4,7 @@ AM_INIT_AUTOMAKE()
 AC_CONFIG_FILES([
 	Makefile
 	tables/Makefile
-	tables/version.utb
+	tables/sbs-version.utb
 	tests/Makefile
 ])
 
