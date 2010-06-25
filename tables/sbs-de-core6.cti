@@ -5,7 +5,7 @@
 #  Character Definitions für 6-Punkt-Tabellen Deutsch (SBS)
 #
 #
-#  Version 2010-06-16
+#  Version 2010-06-25
 #  SBS Schweizerische Bibliothek für Blinde und Sehbehinderte
 #
 #-------------------------------------------------------------------------------
@@ -100,16 +100,12 @@ sign          \x00A2 4-14            #162   ¢ CENT SIGN
 sign          \x00A3 4-123           #163   £ POUND SIGN
 sign          \x00A4 0               #164   ¤ CURRENCY SIGN
 sign          \x00A5 4-13456         #165   ¥ YEN SIGN
-sign          \x00A6 0               #166   ¦ BROKEN BAR
 sign          \x00A7 4-346           #167   § SECTION SIGN
 sign          \x00A8 0               #168   ¨ DIAERESIS
 sign          \x00A9 2356-45-14-2356 #169   © COPYRIGHT SIGN
 lowercase     \x00AA 1               #170   ª FEMININE ORDINAL INDICATOR
 punctuation   \x00AB 236             #171   « LEFT-POINTING DOUBLE ANGLE QUOTATION MARK
-sign          \x00AC 0               #172   ¬ NOT SIGN
-sign          \x00AD 0               #173   ­ SOFT HYPHEN
 sign          \x00AE 2356-45-1235-2356   #174 ® REGISTERED SIGN
-sign          \x00AF 0               #175   ¯ MACRON
 sign          \x00B0 4-356           #176   ° DEGREE SIGN
 math          \x00B1 235-36          #177   ± PLUS-MINUS SIGN
 sign          \x00B2 346-23          #178   ² SUPERSCRIPT TWO

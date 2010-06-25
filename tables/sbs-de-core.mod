@@ -5,7 +5,7 @@
 #  Grade-Übergreifendes: Hervorhebungen, Satzzeichen, Mathematische Zeichen,
 #  Computer-Braille etc.
 #
-#  Version 2010-06-16
+#  Version 2010-06-25
 #  SBS Schweizerische Bibliothek für Blinde und Sehbehinderte
 #
 #-------------------------------------------------------------------------------
@@ -22,7 +22,7 @@ begcomp 6-46
 
 # --- Special Symbol Opcodes ---------------------------------------------------
 
-hyphen - 36
+hyphen - 36-d
 
 # --- Translation opcodes ------------------------------------------------------
 
@@ -91,15 +91,21 @@ begnum § 346 Paragrafzeichen
 joinnum § 346
 
 endnum .-- 3-36-36
+endnum .\x2013 3-36-36 mit EN DASH
 endnum ,-- 2-36-36
+endnum ,\x2013 2-36-36 mit EN DASH
 
 always \s-\s 6-36-0 Gedankenstrich
 always \s-- 6-36
-always -- 6-36 Streckenstrich
 always \s\x2013 6-36 EN DASH
 always \s\x2014 6-36 EM DASH
+always -- 6-36 Streckenstrich
+always \x2013 6-36 mit EN DASH
+always \x2014 6-36 mit EM DASH
+always - 36-d Bindestrich
 
 always / 5-2 Schrägstrich
+always \s/\s 5-2
 always | 0-456-123-0 Senkrechter Strich
 
 joinnum £ 4-123 Pfund
@@ -118,7 +124,7 @@ midnum + 0-4-235-3456
 always + 4-235
 # Minus:
 begnum \s- 0-4-36-3456
-always \s- 0-6-36
+always \s- 0-d-6-36-d Wortersatzstrich
 midnum \s\x2212\s 0-4-36-3456
 midnum \s\x2212 0-4-36-3456
 midnum \x2212 0-4-36-3456

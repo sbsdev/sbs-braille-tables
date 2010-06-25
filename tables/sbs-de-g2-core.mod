@@ -4,7 +4,7 @@
 #
 #  DEUTSCHE KURZSCHRIFT
 #
-#  Version 2010-06-16
+#  Version 2010-06-25
 #  SBS Schweizerische Bibliothek für Blinde und Sehbehinderte
 #
 #-------------------------------------------------------------------------------
@@ -4557,6 +4557,7 @@ begmidword trollhätt 2345-1235-135-12345-e-125-345-2345-e-2345
 prfword manhattan 134-235-e-125-1-2345-e-2345-1-1345
 begmidword manhattan 134-235-e-125-1-2345-e-2345-235
 always shatterhand 234-125-1-2345-e-2345-12456-f-125-235-145
+word he 6-125-15
 
 # HÄTT (4.3.4 Einformige Kürzungen, alleinstehend, mit Endungen oder in Wortverbindungen)
 always hätt 345
@@ -6347,6 +6348,7 @@ always enzym 14-1356-6-13456-134
 word möcht 134-246-1456-2345
 always möcht's 134-246-1456-2345-6-234
 always möcht 1456
+word che 6-1456-15
 
 # MÖG (4.3.6 Kommakürzungen)
 always mög 2-246
@@ -9682,8 +9684,6 @@ always zunter 1356-f-2-256
 
 # VER- (4.2.1 Vorsilbenkürzungen)
 begword ver 36
-always -ver 36-1236-12456
-always -verhältnis 36-1236-125
 word vera 1236-12456-1
 sufword veracruz 1236-12456-1-e-6-14-1235-136-1356
 sufword veranda 1236-12456-235-e-145-1

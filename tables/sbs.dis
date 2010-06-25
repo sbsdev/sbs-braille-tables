@@ -5,7 +5,7 @@
 #  Display-Tabelle "DIN"-Braille mit Trennmarken
 #
 #
-#  Version 2010-06-16
+#  Version 2010-06-25
 #  SBS Schweizerische Bibliothek für Blinde und Sehbehinderte
 #
 #-------------------------------------------------------------------------------
@@ -74,5 +74,6 @@ display $ 46
 display _ 456
 display < 56
 display ' 6
+display m d
 display t e
 display w f

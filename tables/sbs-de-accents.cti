@@ -4,7 +4,7 @@
 #
 #  Akzentbuchstaben (alle ausführlich)
 #
-#  Version 2010-06-16
+#  Version 2010-06-25
 #  SBS Schweizerische Bibliothek für Blinde und Sehbehinderte
 #
 #-------------------------------------------------------------------------------
@@ -40,6 +40,6 @@ uplow \x00DB\x00FB 4-156 Ûû  &#219;&#251;  LATIN LETTER U WITH CIRCUMFLEX
 uplow \x00DD\x00FD 4-12346 Ýý  &#221;&#253;  LATIN LETTER Y WITH ACUTE
 uplow \x00DE\x00FE 4-1246 Þþ  &#222;&#254;  LATIN LETTER THORN
 
-lowercase \x00FF 4-13456 ÿ   &#255;&#255;  LATIN SMALL LETTER Y WITH DIAERESIS
+lowercase \x00FF 4-13456 ÿ   &#255;        LATIN SMALL LETTER Y WITH DIAERESIS
 
 uplow \x0152\x0153 4-246 Œœ  &#338;&#339;  LATIN LIGATURE OE

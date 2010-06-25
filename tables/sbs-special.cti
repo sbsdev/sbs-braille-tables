@@ -5,7 +5,7 @@
 #  SBS Character Definitions für Spezialzeichen (Trennmarken etc.)
 #
 #
-#  Version 2010-06-16
+#  Version 2010-06-25
 #  SBS Schweizerische Bibliothek für Blinde und Sehbehinderte
 #
 #-------------------------------------------------------------------------------
@@ -16,7 +16,6 @@
 # KUERZUNGSVERBOT
 letter        \x00A6 a               #166   ¦ BROKEN BAR
 
-
 # TRENNMARKE (WORT)
 letter        \x00AC f               #172   ¬ NOT SIGN
 
@@ -24,6 +23,10 @@ letter        \x00AC f               #172   ¬ NOT SIGN
 letter        \x00AD e               #173   ­ SOFT HYPHEN
 
 # ===== BOX DRAWING: 2500-257F =================================================
+
+# TRENNMARKE "m" (Umbruch ohne Zeichen)
+# Für Windows-Test auf "Macron gelegt", in core6.cti wieder setzen ...
+punctuation   \x00AF d               #175   ¯ MACRON
 
 # VOLLSCHRIFT Einzelwort (P6-3)
 punctuation   \x2559 6-3             #9561    BOX DRAWINGS UP DOUBLE AND RIGHT SINGLE

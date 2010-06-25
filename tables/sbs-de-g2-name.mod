@@ -4,7 +4,7 @@
 #
 #  SBS DEUTSCHE KURZSCHRIFT - Eigennamen (Nur Lautgruppenkürzungen)
 #
-#  Version 2010-06-16
+#  Version 2010-06-25
 #  SBS Schweizerische Bibliothek für Blinde und Sehbehinderte
 #
 #-------------------------------------------------------------------------------
@@ -1477,4 +1477,8 @@ word y 6-13456
 always y 6-13456
 # Grossgeschriebene Wortanfänge erhalten sonst keinen Pt.6!
 context ["Y"]$u @6-13456
+
+
+
+word von 1236
 

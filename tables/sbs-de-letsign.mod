@@ -4,7 +4,7 @@
 #
 #  "Lettersign" Deutsch (nur Kurzschrift)
 #
-#  Version 2010-06-16
+#  Version 2010-06-25
 #  SBS Schweizerische Bibliothek für Blinde und Sehbehinderte
 #
 #-------------------------------------------------------------------------------
