@@ -4,7 +4,7 @@
 #
 #  DEUTSCHE KURZSCHRIFT
 #
-#  Version 2010-06-25
+#  Version 2010-06-29
 #  SBS Schweizerische Bibliothek für Blinde und Sehbehinderte
 #
 #-------------------------------------------------------------------------------
@@ -1415,6 +1415,7 @@ prfword schraubringe 156-1235-16-12-e-1235-35-12346
 # C   (4.1 Lautgruppenkürzungen)
 word c 6-14
 always c 6-14
+always c. 6-14-3
 # Grossgeschriebene Wortanfänge erhalten sonst keinen Pt.6!
 context ["C"]$u @6-14
 
@@ -6778,6 +6779,7 @@ always pünkt 5-1234-2345
 # Q   (4.1 Lautgruppenkürzungen)
 word q 6-12345
 always q 6-12345
+always q. 6-12345-3
 # Grossgeschriebene Wortanfänge erhalten sonst keinen Pt.6!
 context ["Q"]$u @6-12345
 
@@ -10026,6 +10028,7 @@ always würdig 2456-1256-1235-145-45
 # X   (4.1 Lautgruppenkürzungen)
 word x 6-1346
 always x 6-1346
+always x. 6-1346-3
 # Grossgeschriebene Wortanfänge erhalten sonst keinen Pt.6!
 context ["X"]$u @6-1346
 
