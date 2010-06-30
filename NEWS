@@ -1,5 +1,11 @@
 sbs-braille-tables NEWS -- history of user-visible changes.
 
+* Noteworthy changes in release 1.0.5
+    - minor white list corrections due to faulty automatic generation
+
+* Noteworthy changes in release 1.0.4
+    - Fix a bug with abbrevs
+
 * Noteworthy changes in release 1.0.3
     - white list improvements
     - hyphenation improvements

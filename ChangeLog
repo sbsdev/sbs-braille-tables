@@ -1,3 +1,9 @@
+2010-06-30  Christian Egli  <christian.egli@sbszh.ch>
+
+	* tables/sbs-de-g1-white.mod:
+	* tables/sbs-de-g2-white.mod: Fix some issues where the tables
+	contained garbage from the automatic generation
+
 2010-06-29  Christian Egli  <christian.egli@sbszh.ch>
 
 	* tables/sbs-de-g2-core.mod: Fix a bug with abbreviations
