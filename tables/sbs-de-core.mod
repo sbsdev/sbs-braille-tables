@@ -5,10 +5,19 @@
 #  Grade-Übergreifendes: Hervorhebungen, Satzzeichen, Mathematische Zeichen,
 #  Computer-Braille etc.
 #
-#  Version 2010-06-25
-#  SBS Schweizerische Bibliothek für Blinde und Sehbehinderte
-#
 #-------------------------------------------------------------------------------
+
+# --- Korrektur der Bindestrich-Probleme -----------------------------------
+
+# Kürzung "ver" nach Binde- und Wortersatzstrich verhindern
+correct "\s-ver" "\s-¦ver"
+correct "-ver" "-¦ver"
+# Wortersatzstrich: nacher begword verhindern
+correct "\s-" "\s-¦"
+# endword vor Wortersatzstrich verhindern
+correct "-\s" "¦-\s"
+# endword vor Wortersatzstrich und Komma verhindern
+correct "-,\s" "¦-,\s"
 
 # --- Emphasis opcodes ---------------------------------------------------------
 
@@ -22,7 +31,7 @@ begcomp 6-46
 
 # --- Special Symbol Opcodes ---------------------------------------------------
 
-hyphen - 36-d
+hyphen - 36
 
 # --- Translation opcodes ------------------------------------------------------
 
@@ -31,7 +40,7 @@ prepunc \x2560 456-456 KURSIV Anfang
 postpunc \x2563 6-3 KURSIV Ende
 
 prepunc \x2559 6-3 VOLLSCHRIFT Einzelwort
-prepunc \x255A 36-3 VOLLSCHRIFT Anfang
+prepunc \x255A 36a-3 VOLLSCHRIFT Anfang
 postpunc \x255D 6-3 VOLLSCHRIFT Ende
 
 midnum , 2 Komma
@@ -90,19 +99,18 @@ always \s\x2033 4-35-35 Winkelsekunde
 begnum § 346 Paragrafzeichen
 joinnum § 346
 
-endnum .-- 3-36-36
-endnum .\x2013 3-36-36 mit EN DASH
-endnum ,-- 2-36-36
-endnum ,\x2013 2-36-36 mit EN DASH
+endnum .-- 3-36a-36a
+endnum .\x2013 3-36a-36a mit EN DASH
+endnum ,-- 2-36a-36a
+endnum ,\x2013 2-36a-36a mit EN DASH
 
-always \s-\s 6-36-0 Gedankenstrich
-always \s-- 6-36
-always \s\x2013 6-36 EN DASH
-always \s\x2014 6-36 EM DASH
-always -- 6-36 Streckenstrich
-always \x2013 6-36 mit EN DASH
-always \x2014 6-36 mit EM DASH
-always - 36-d Bindestrich
+always \s-\s 6-36a-0 Gedankenstrich
+always \s-- 6-36a
+always \s\x2013 6-36a EN DASH
+always \s\x2014 6-36a EM DASH
+always -- 6-36a Streckenstrich
+always \x2013 6-36a mit EN DASH
+always \x2014 6-36a mit EM DASH
 
 always / 5-2 Schrägstrich
 always \s/\s 5-2
@@ -123,17 +131,17 @@ midnum \s+ 0-4-235-3456
 midnum + 0-4-235-3456
 always + 4-235
 # Minus:
-begnum \s- 0-4-36-3456
-always \s- 0-d-6-36-d Wortersatzstrich
-midnum \s\x2212\s 0-4-36-3456
-midnum \s\x2212 0-4-36-3456
-midnum \x2212 0-4-36-3456
-always \x2212 4-36
+begnum \s- 0-4-36a-3456
+always \s- 0-6-36a
+midnum \s\x2212\s 0-4-36a-3456
+midnum \s\x2212 0-4-36a-3456
+midnum \x2212 0-4-36a-3456
+always \x2212 4-36a
 # Plus Minus:
-midnum \s±\s 0-4-235-36-3456
-midnum \s± 0-4-235-36-3456
-midnum ± 0-4-235-36-3456
-always ± 4-235-36
+midnum \s±\s 0-4-235-36a-3456
+midnum \s± 0-4-235-36a-3456
+midnum ± 0-4-235-36a-3456
+always ± 4-235-36a
 # Gleich:
 midnum \s=\s 0-4-2356-3456
 midnum \s= 0-4-2356-3456

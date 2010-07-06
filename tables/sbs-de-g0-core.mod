@@ -4,9 +4,6 @@
 #
 #  DEUTSCHE BASISSCHRIFT
 #
-#  Version 2010-06-25
-#  SBS Schweizerische Bibliothek für Blinde und Sehbehinderte
-#
 #-------------------------------------------------------------------------------
 
 endnum a 6-1

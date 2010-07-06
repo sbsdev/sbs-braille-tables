@@ -4,20 +4,20 @@
 #
 #  Rausputzen von Hilfsmarkierungen (Kürzungsverbot etc.)
 #
-#  Version 2010-06-25
-#  SBS Schweizerische Bibliothek für Blinde und Sehbehinderte
-#
 #-------------------------------------------------------------------------------
 
-
-# "ver" nach Bindestrich auflösen.
-pass2 @36-d-36 @36-d-1236-12456
-
-# "ver" nach Wortersatzstrich auflösen.
-pass2 @d-6-36-d-36 @6-36-1236-12456
-
-# Wortersatzstrich: Trennmarke weg
-pass2 @d-6-36-d @6-36
-
-# Kürzungsverbote entfernen
+# Kürzungsverbot entfernen
 pass2 @a ?
+
+# Trennmarke "m" nach Bindestrich
+pass2 @36 @36-d
+
+# Korrektur: Als Bindestrich geschriebens Minuszeichen vor Zahl
+pass3 @0-6-36a-6-3456 @0-4-36-3456
+# Bei allen weiteren P36 virtuellen Punkt a entfernen
+pass3 @36a @36
+
+# Trennmarke "m" vor Leerzeichen entfernen
+pass3 @d-0 @0
+# Trennmarke "m" vor Komma und Leerzeichen entfernen
+pass3 @d-2-0 @2-0
