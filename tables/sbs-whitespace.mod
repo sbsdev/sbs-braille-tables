@@ -5,13 +5,13 @@
 #-------------------------------------------------------------------------------
 
 # Formfeed mit Leerzeichen ersetzen
-replace \f \s
+correct "\f" "\s"
 # Newline mit Leerzeichen ersetzen
-replace \n \s
+correct "\n" "\s"
 # Return mit Leerzeichen ersetzen
-replace \r \s
+correct "\r" "\s"
 # Tabstop mit Leerzeichen ersetzen
-replace \t \s
+correct "\t" "\s"
 
 # Mehrfach-Leerschläge eliminieren
 repeated \s 0
