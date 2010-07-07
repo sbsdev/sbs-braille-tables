@@ -4,9 +4,6 @@
 #
 #  SBS DEUTSCHE KURZSCHRIFT - Eigennamen (Nur Lautgruppenkürzungen)
 #
-#  Version 2010-06-25
-#  SBS Schweizerische Bibliothek für Blinde und Sehbehinderte
-#
 #-------------------------------------------------------------------------------
 
 # class definitions

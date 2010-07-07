@@ -4,10 +4,6 @@
 #
 #  Character Definitions für 6-Punkt-Tabellen Deutsch (SBS)
 #
-#
-#  Version 2010-06-25
-#  SBS Schweizerische Bibliothek für Blinde und Sehbehinderte
-#
 #-------------------------------------------------------------------------------
 
 
@@ -104,7 +100,7 @@ sign          \x00A7 4-346           #167   § SECTION SIGN
 sign          \x00A8 0               #168   ¨ DIAERESIS
 sign          \x00A9 2356-45-14-2356 #169   © COPYRIGHT SIGN
 lowercase     \x00AA 1               #170   ª FEMININE ORDINAL INDICATOR
-punctuation   \x00AB 236             #171   « LEFT-POINTING DOUBLE ANGLE QUOTATION MARK
+punctuation   \x00AB 356             #171   « LEFT-POINTING DOUBLE ANGLE QUOTATION MARK
 sign          \x00AE 2356-45-1235-2356   #174 ® REGISTERED SIGN
 sign          \x00B0 4-356           #176   ° DEGREE SIGN
 math          \x00B1 235-36          #177   ± PLUS-MINUS SIGN
@@ -117,7 +113,7 @@ sign          \x00B7 0               #183   · MIDDLE DOT
 sign          \x00B8 0               #184   ¸ CEDILLA
 sign          \x00B9 0               #185   ¹ SUPERSCRIPT ONE
 lowercase     \x00BA 135             #186   º MASCULINE ORDINAL INDICATOR
-punctuation   \x00BB 356             #187   » RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK
+punctuation   \x00BB 236             #187   » RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK
 math          \x00BC 3456-1-256      #188   ¼ VULGAR FRACTION ONE QUARTER
 math          \x00BD 3456-1-23       #189   ½ VULGAR FRACTION ONE HALF
 math          \x00BE 3456-14-256     #190   ¾ VULGAR FRACTION THREE QUARTERS
@@ -145,8 +141,8 @@ sign          \x2030 3456-245-356-356      #8240    PER MILLE SIGN
 sign          \x2031 3456-245-356-356-356  #8241    PER TEN THOUSAND SIGN
 sign          \x2032 4-35            #8242          PRIME
 sign          \x2033 4-35-35         #8243          DOUBLE PRIME
-punctuation   \x2039 6-236                          SINGLE LEFT-POINTING ANGLE QUOTATION MARK
-punctuation   \x203a 6-356                          SINGLE RIGHT-POINTING ANGLE QUOTATION MARK
+punctuation   \x2039 6-356                          SINGLE LEFT-POINTING ANGLE QUOTATION MARK
+punctuation   \x203a 6-236                          SINGLE RIGHT-POINTING ANGLE QUOTATION MARK
 
 # ===== CURRENCY SYMBOLS: 20A0-20CF ============================================
 
@@ -175,7 +171,7 @@ sign          \x2194 0-246-25-25-135-0       LEFT RIGHT ARROW
 
 # ===== MATHEMATICAL OPERATORS: 2200-22FF ======================================
 
-math          \x2212 36              #8722   MINUS SIGN
+math          \x2212 36a             #8722   MINUS SIGN
 math          \x2215 25              #8725   DIVISION SLASH
 math          \x2217 35              #8727   ASTERISK OPERATOR
 math          \x223C 25-25           #8764   TILDE OPERATOR

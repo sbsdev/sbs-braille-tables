@@ -4,9 +4,6 @@
 #
 #  Hochgestellte Zahlen (Standard)
 #
-#  Version 2010-06-25
-#  SBS Schweizerische Bibliothek für Blinde und Sehbehinderte
-#
 #-------------------------------------------------------------------------------
 
 litdigit 0 245

@@ -4,9 +4,6 @@
 #
 #  SBS DEUTSCHE KURZSCHRIFT - Ortschaften, Strassennamen etc.
 #
-#  Version 2010-06-25
-#  SBS Schweizerische Bibliothek für Blinde und Sehbehinderte
-#
 #-------------------------------------------------------------------------------
 
 # ÜBER (4.3.2 Einformige Kürzungen, alleinstehend oder in Wortverbindungen)
