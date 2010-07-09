@@ -138,7 +138,6 @@ always waber 2456-1-e-12-12456
 
 # ACH (4.1 Lautgruppenkürzungen)
 midendword ach 56
-midendword 'ach 6-1-1456
 endword achip 1-f-1456-24-1234
 endword achips 1-f-1456-24-1234-234
 begword aach 1-1-1456
@@ -176,7 +175,8 @@ always ähnlich 345-456
 
 # AL  (4.1 Lautgruppenkürzungen)
 begmidword al 25
-midendword 'al 6-1-123
+# Lautgruppe nach Apostroph verhindern
+pass2 !$D[@6-25]!$ps @6-1-123
 always aal 1-1-123
 begmidword chinaalk 1456-35-1-f-25-13
 always dalag 145-1-f-123-1-1245
@@ -365,7 +365,8 @@ begmidword instrumental 35-23456-1235-136-e-134-14-e-2345-25
 # AN  (4.1 Lautgruppenkürzungen)
 word an 235
 begmidword an 235
-midendword 'an 6-1-1345
+# Lautgruppe nach Apostroph verhindern
+pass2 !$D[@6-235]!$ps @6-1-1345
 always anistisch 235-5-156
 always anation 1-1345-5-1345
 always afrikaans 1-124-e-1235-24-e-13-1-1-1345-234
@@ -455,7 +456,8 @@ always zander 1356-235-e-145-12456
 
 # AR  (4.1 Lautgruppenkürzungen)
 begmidword ar 356
-midendword 'ar 6-1-1235
+# Lautgruppe nach Apostroph verhindern
+pass2 !$D[@6-356]!$ps @6-1-1235
 before r begmidword kuba 13-136-e-12-1
 always amerika 1-134-12456-24-e-13-1
 before r always afrika 1-124-1235-24-e-13-1
@@ -5412,7 +5414,8 @@ always zimmer 1356-24-1346-12456
 
 # IN  (4.1 Lautgruppenkürzungen)
 always in 35
-midendword 'in 6-24-1345
+# Lautgruppe nach Apostroph verhindern
+pass2 !$D[@6-35]!$ps @6-24-1345
 always cain 6-14-1-24-1345
 always novocain 1345-135-e-1236-135-e-6-14-1-35
 always bougain 12-135-136-e-1245-1-24-1345
@@ -6622,7 +6625,8 @@ always wohn 2456-135-125-1345
 
 # OR  (4.1 Lautgruppenkürzungen)
 begmidword or 26
-midword 'or 6-135-1235
+# Lautgruppe nach Apostroph verhindern
+pass2 !$D[@6-26]!$ps @6-135-1235
 always kakao 13-1-e-13-1-135
 always disco 145-24-234-e-6-14-135
 always discount 145-24-234-e-6-14-135-136-1345-2345
@@ -9649,8 +9653,6 @@ always zunter 1356-f-2-256
 
 # VER- (4.2.1 Vorsilbenkürzungen)
 begword ver 36a
-always -ver 36-d-1236-12456
-always -verhältnis 36-d-1236-125
 word vera 1236-12456-1
 sufword veracruz 1236-12456-1-e-6-14-1235-136-1356
 sufword veranda 1236-12456-235-e-145-1

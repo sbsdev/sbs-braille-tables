@@ -9,10 +9,7 @@
 
 # --- Korrektur der Bindestrich-Probleme -----------------------------------
 
-# Kürzung "ver" nach Binde- und Wortersatzstrich verhindern
-correct "\s-ver" "\s-¦ver"
-correct "-ver" "-¦ver"
-# Wortersatzstrich: nacher begword verhindern
+# begword nach Wortersatzstrich verhindern
 correct "\s-" "\s-¦"
 # endword vor Wortersatzstrich verhindern
 correct "-\s" "¦-\s"
@@ -62,7 +59,9 @@ prepunc « 236
 prepunc » 236
 endnum " 6-356 Anführungszeichen am Ende
 postpunc " 356
+endnum » 6-356
 postpunc » 356
+endnum « 6-356
 postpunc « 356
 midnum . 3 Punkt
 always .\s.\s. 3-3-3

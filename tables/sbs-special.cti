@@ -10,8 +10,10 @@
 
 # ===== LATIN-1 SUPPLEMENT: 0080-00FF ==========================================
 
-# KUERZUNGSVERBOT
+# KUERZUNGSVERBOT und "DUMMY"-TEXT
 letter        \x00A6 a               #166   ¦ BROKEN BAR
+# "DUMMY"-ZAHL
+digit         \x00B7 b               #183   · MIDDLE DOT
 
 # TRENNMARKE (WORT)
 letter        \x00AC f               #172   ¬ NOT SIGN
