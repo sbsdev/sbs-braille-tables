@@ -1388,7 +1388,7 @@ prfword schraubringe 156-1235-16-12-e-1235-35-12346
 # C   (4.1 Lautgruppenkürzungen)
 word c 6-14
 always c 6-14
-always C. 6-14-3
+always c. 6-14-3
 # Grossgeschriebene Wortanfänge erhalten sonst keinen Pt.6!
 context ["C"]$u @6-14
 
