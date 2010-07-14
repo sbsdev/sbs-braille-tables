@@ -1,5 +1,20 @@
 sbs-braille-tables NEWS -- history of user-visible changes.
 
+* Noteworthy changes in release 1.0.10
+    - Add git-version-gen
+
+* Noteworthy changes in release 1.0.9
+    - Update whitelists
+
+* Noteworthy changes in release 1.0.8
+    - Whitespace handling fixes
+    - Lautgruppen nach Apo
+    - Dummy-Zahlen
+    - Korrektur "ver"
+    
+* Noteworthy changes in release 1.0.7
+    - Fix error in whitespace handling
+
 * Noteworthy changes in release 1.0.6
     - Fix g1 white list
 

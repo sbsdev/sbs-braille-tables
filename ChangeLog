@@ -1,3 +1,7 @@
+2010-07-14  Christian Egli  <christian.egli@sbszh.ch>
+
+	* configure.ac: Add the git-version-gen from gnulib
+
 2010-07-02  Christian Egli  <christian.egli@sbszh.ch>
 
 	* tables/sbs-de-g1-white.mod: Small fixes
