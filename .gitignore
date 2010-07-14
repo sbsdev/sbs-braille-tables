@@ -6,6 +6,7 @@
 /config.log
 /config.status
 /configure
+/depcomp
 /install-sh
 /missing
 /sbs-braille-tables-*.tar.gz
