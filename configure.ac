@@ -1,4 +1,5 @@
-AC_INIT([sbs-braille-tables], [1.0.9])
+AC_INIT([sbs-braille-tables],
+        m4_esyscmd([build-aux/git-version-gen .tarball-version]))
 AM_INIT_AUTOMAKE()
 
 AC_CONFIG_FILES([
@@ -6,6 +7,11 @@ AC_CONFIG_FILES([
   tables/Makefile
   tables/sbs-version.utb
   tests/Makefile
+  lib/Makefile
 ])
+
+AC_PROG_CC
+gl_EARLY
+gl_INIT
 
 AC_OUTPUT

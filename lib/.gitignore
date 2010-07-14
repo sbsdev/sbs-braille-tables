@@ -1,0 +1,5 @@
+/Makefile.am
+/dummy.c
+/dummy.o
+/libgnu.a
+/.deps/
