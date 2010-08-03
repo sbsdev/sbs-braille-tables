@@ -6,6 +6,12 @@
 #
 #-------------------------------------------------------------------------------
 
+
+# Trennungen:
+sufword gaither 1245-1-24-e-2345-125-12456
+
+
+
 # class definitions
 class a a
 class b b
@@ -474,6 +480,7 @@ always schmiedenagel 156-134-346-e-145-15-f-1345-1-e-1245-13456
 begmidword heidenelk 125-146-e-145-15-f-1345-13456-e-13
 begmidword pferdenas 1234-124-12456-e-145-15-f-1345-1-234
 always aberdeen 1-12-12456-e-145-15-15-1345
+sufword aileen 1-24-e-123-15-15-1345
 sufword eileen 146-123-15-15-1345
 prfword steen 23456-15-15-1345
 prfword steens 23456-15-15-1345-234
@@ -1431,6 +1438,7 @@ always gutedel 1245-136-2345-f-15-145-13456
 
 # TEh
 begmidword teh 2345-2356
+before h begmidword white 2456-125-24-236-f
 always buxtehud 12-136-6-1346-236-e-125-136-145
 
 # TEl

@@ -14,6 +14,10 @@ pass2 @3456-b ?
 # Trennmarke "m" nach Bindestrich
 pass2 @36 @36-d
 
+# Korrektur: Kürzung "des" zwischen Bindestrichen auflösen
+pass3 @36-d-3-36-d @36-d-145-123456-36-d
+# Korrektur: Kürzung "im" zwischen Bindestrichen auflösen
+pass3 @36-d-36a-36-d @36-d-24-134-36-d
 # Korrektur: Als Bindestrich geschriebens Minuszeichen vor Zahl
 pass3 @0-6-36a-6-3456 @0-4-36-3456
 # Korrektur: Kürzung "ver" nach Bindestrich auflösen
