@@ -53,3 +53,6 @@ punctuation   \x2560 456-456         #9568    BOX DRAWINGS VERTICAL DOUBLE VERTI
 
 # KURSIV Ende (P6-3)
 punctuation   \x2563 6-3             #9571    BOX DRAWINGS VERTICAL DOUBLE VERTICAL AND LEFT
+
+# KURSIV Anfang, Mitten im Wort (P6-36)
+punctuation   \x2561 6-456           #9569    BOX DRAWINGS VERTICAL SINGLE AND LEFT DOUBLE
