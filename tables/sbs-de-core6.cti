@@ -185,6 +185,11 @@ math          \x2267 135-2356        #8807   GREATER-THAN OVER EQUAL TO
 math          \x22c5 3               #8901   DOT OPERATOR
 math          \x22c6 3               #8902   STAR OPERATOR
 
+# ===== MISCELLANEOUS SYMBOLS: 2600-26FF =======================================
+
+sign          \x2639 6-46-25-36-236  #9785   WHITE FROWNING FACE
+sign          \x263a 6-46-25-36-356  #9786   WHITE SMILING FACE
+
 # ===== BRAILLE PATTERNS: 2800-28FF ============================================
 
 space         \x2800 0               #10240  BRAILLE PATTERN BLANK
