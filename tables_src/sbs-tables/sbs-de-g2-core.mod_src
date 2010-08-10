@@ -2263,6 +2263,7 @@ always                               ampel                  AMtPY
 always                              doppel                  DOPtPY
 always                             stoppel                  ]OPtPY
 always                             skrupel                  SKRUtPY
+before_l_begmidword                 haare                   HAAtREw
 before_l_begmidword              software                   SOFTwW)E
 before_l_begmidword                timbre                   TIMtBRE
 before_l_begmidword              karriere                   K)tRIt7E
@@ -6059,11 +6060,12 @@ always                                telebild              TYEtBILD
 always                                telebox               TYEtBO'X
 always                                telebrief             TYEtBF
 begmidword                            zelebr                ZYEBR
-begmidword                           kohleb                 KOHLEtB
-begmidword                           kohlebe                KOHLEt;
-begmidword                           kohlebei               KOHLEt,B
-always                               kohlebenzin            KOHLEtBCtZ*
-always                               kohleberg              KOHLEtB7G
+begmidword                           kohleb                 KOHLEwB
+begmidword                           kohlebe                KOHLEw;
+begmidword                           kohlebei               KOHLEw,B
+always                               kohlebenzin            KOHLEwBCtZ*
+always                               kohleberg              KOHLEwB7G
+always                               kohlebügel             KOHLEwB8tGY
 always                                phlebit               PHLEwBIT
 always                             ventileben               VCtTILtEBC
 always                               stileben               ]ILtEBC
@@ -6992,6 +6994,7 @@ begmidword                              or                  ?
 # Lautgruppe nach Apostroph verhindern
 #=#pass2 !$D[@6-26]!$ps @6-135-1235
 always                              kakao                   KAtKAO
+always                             mexico                   MEt'XIt'CO
 always                              disco                   DISt'CO
 always                              discount                DISt'COUNT
 always                           kommando                   KX+tDO
@@ -7014,6 +7017,7 @@ always                          inforadio                   *tFOwRAtDIO
 always                              audio                   1tDIO
 always                             studio                   ]UtDIO
 always                             risiko                   RItSItKO
+always                             mexiko                   MEt'XItKO
 always                             schoko                   5OtKO
 always                              disko                   DIStKO
 begmidword                            kloreinig             KLOwR3N>
@@ -9104,6 +9108,8 @@ always                                kastagnet             KAt]AGtNET
 always                               glastank               GLASwT+K
 always                               glasteil               GLASwT3L
 always                               glastisch              GLASwTI5
+always                               glastopf               GLASwTOPF
+always                               glastöpf               GLASwT9PF
 always                               glasturm               GLASwTURM
 always                               glastürm               GLASwT8RM
 always                                mastermind            MA]7wM*D
@@ -10660,6 +10666,7 @@ always                           frequenz                   FREt'QUCZ
 # ZUM (4.4 Zweiformige Kürzungen)
 word                                    zum                 ZM
 always                                  zumal               ,ZM
+begmidword                        schwarzum                 5W)ZwUM
 word                                 kurzum                 KZtUM
 begmidword                         lizenzum                 LItZCZwUM
 begmidword                          blitzum                 BLITZtUM

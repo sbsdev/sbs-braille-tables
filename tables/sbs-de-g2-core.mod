@@ -2245,6 +2245,7 @@ always ampel 1-134-e-1234-13456
 always doppel 145-135-1234-e-1234-13456
 always stoppel 23456-135-1234-e-1234-13456
 always skrupel 234-13-1235-136-e-1234-13456
+before l begmidword haare 125-1-1-e-1235-15-f
 before l begmidword software 234-135-124-2345-f-2456-356-15
 before l begmidword timbre 2345-24-134-e-12-1235-15
 before l begmidword karriere 13-356-e-1235-24-e-12456-15
@@ -6009,11 +6010,12 @@ always telebild 2345-13456-15-e-12-24-123-145
 always telebox 2345-13456-15-e-12-135-6-1346
 always telebrief 2345-13456-15-e-12-124
 begmidword zelebr 1356-13456-15-12-1235
-begmidword kohleb 13-135-125-123-15-e-12
-begmidword kohlebe 13-135-125-123-15-e-23
-begmidword kohlebei 13-135-125-123-15-e-2-12
-always kohlebenzin 13-135-125-123-15-e-12-14-e-1356-35
-always kohleberg 13-135-125-123-15-e-12-12456-1245
+begmidword kohleb 13-135-125-123-15-f-12
+begmidword kohlebe 13-135-125-123-15-f-23
+begmidword kohlebei 13-135-125-123-15-f-2-12
+always kohlebenzin 13-135-125-123-15-f-12-14-e-1356-35
+always kohleberg 13-135-125-123-15-f-12-12456-1245
+always kohlebügel 13-135-125-123-15-f-12-1256-e-1245-13456
 always phlebit 1234-125-123-15-f-12-24-2345
 always ventileben 1236-14-e-2345-24-123-e-15-12-14
 always stileben 23456-24-123-e-15-12-14
@@ -6939,6 +6941,7 @@ begmidword or 26
 # Lautgruppe nach Apostroph verhindern
 pass2 !$D[@6-26]!$ps @6-135-1235
 always kakao 13-1-e-13-1-135
+always mexico 134-15-e-6-1346-24-e-6-14-135
 always disco 145-24-234-e-6-14-135
 always discount 145-24-234-e-6-14-135-136-1345-2345
 always kommando 13-1346-235-e-145-135
@@ -6961,6 +6964,7 @@ always inforadio 35-e-124-135-f-1235-1-e-145-24-135
 always audio 16-e-145-24-135
 always studio 23456-136-e-145-24-135
 always risiko 1235-24-e-234-24-e-13-135
+always mexiko 134-15-e-6-1346-24-e-13-135
 always schoko 156-135-e-13-135
 always disko 145-24-234-e-13-135
 begmidword kloreinig 13-123-135-f-1235-146-1345-45
@@ -9016,6 +9020,8 @@ always kastagnet 13-1-e-23456-1-1245-e-1345-15-2345
 always glastank 1245-123-1-234-f-2345-235-13
 always glasteil 1245-123-1-234-f-2345-146-123
 always glastisch 1245-123-1-234-f-2345-24-156
+always glastopf 1245-123-1-234-f-2345-135-1234-124
+always glastöpf 1245-123-1-234-f-2345-246-1234-124
 always glasturm 1245-123-1-234-f-2345-136-1235-134
 always glastürm 1245-123-1-234-f-2345-1256-1235-134
 always mastermind 134-1-23456-12456-f-134-35-145
@@ -10561,6 +10567,7 @@ always frequenz 124-1235-15-e-6-12345-136-14-1356
 # ZUM (4.4 Zweiformige Kürzungen)
 word zum 1356-134
 always zumal 2-1356-134
+begmidword schwarzum 156-2456-356-1356-f-136-134
 word kurzum 13-1356-e-136-134
 begmidword lizenzum 123-24-e-1356-14-1356-f-136-134
 begmidword blitzum 12-123-24-2345-1356-e-136-134

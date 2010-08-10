@@ -11,48 +11,48 @@
 # ===== LATIN-1 SUPPLEMENT: 0080-00FF ==========================================
 
 # KUERZUNGSVERBOT und "DUMMY"-TEXT
-letter        \x00A6 a               #166   ¦ BROKEN BAR
+letter \x00A6  #166   ¦ BROKEN BAR
 # "DUMMY"-ZAHL
-digit         \x00B7 b               #183   · MIDDLE DOT
+digit \x00B7 0 #183   · MIDDLE DOT
 
 # TRENNMARKE (WORT)
-letter        \x00AC f               #172   ¬ NOT SIGN
+letter \x00AC  #172   ¬ NOT SIGN
 
 # TRENNMARKE (SILBE)
-letter        \x00AD e               #173   ­ SOFT HYPHEN
+letter \x00AD  #173   ­ SOFT HYPHEN
 
 # ===== BOX DRAWING: 2500-257F =================================================
 
 # TRENNMARKE "m" (Umbruch ohne Zeichen)
 # Für Windows-Test auf "Macron gelegt", in core6.cti wieder setzen ...
-punctuation   \x00AF d               #175   ¯ MACRON
+punctuation \x00AF  #175   ¯ MACRON
 
 # VOLLSCHRIFT Einzelwort (P6-3)
-punctuation   \x2559 6-3             #9561    BOX DRAWINGS UP DOUBLE AND RIGHT SINGLE
+punctuation \x2559 1246-36-146 #9561    BOX DRAWINGS UP DOUBLE AND RIGHT SINGLE
 
 # VOLLSCHRIFT Anfang (P36-3)
-punctuation   \x255A 36-3            #9562    BOX DRAWINGS DOUBLE UP AND RIGHT
+punctuation \x255A 146-1246-36-146 #9562    BOX DRAWINGS DOUBLE UP AND RIGHT
 
 # VOLLSCHRIFT Ende (P6-3)
-punctuation   \x255D 6-3             #9565    BOX DRAWINGS DOUBLE UP AND LEFT
+punctuation \x255D 1246-36-146 #9565    BOX DRAWINGS DOUBLE UP AND LEFT
 
 # GROSSBUCHSTABE (P46) für sbs-de-abbr.ctb
-sign          \x2564 46              #9572    BOX DRAWINGS DOWN SINGLE AND HORIZONTAL DOUBLE
+sign \x2564 1456-1246 #9572    BOX DRAWINGS DOWN SINGLE AND HORIZONTAL DOUBLE
 
 # GROSSBUCHSTABENFOLGE (P45) für sbs-de-abbr.ctb
-sign          \x2566 45              #9574    BOX DRAWINGS DOUBLE DOWN AND HORIZONTAL
+sign \x2566 1456-156 #9574    BOX DRAWINGS DOUBLE DOWN AND HORIZONTAL
 
 # KLEINBUCHSTABE (P6) für sbs-de-abbr.ctb
-sign          \x2569 6               #9577    BOX DRAWINGS DOUBLE UP AND HORIZONTAL
+sign \x2569 1246 #9577    BOX DRAWINGS DOUBLE UP AND HORIZONTAL
 
 # KURSIV Einzelwort (P456)
-punctuation   \x255F 456             #9567    BOX DRAWINGS VERTICAL VERTICAL DOUBLE AND RIGHT SINGLE
+punctuation \x255F 1456-156-1246 #9567    BOX DRAWINGS VERTICAL VERTICAL DOUBLE AND RIGHT SINGLE
 
 # KURSIV Anfang (P456-456)
-punctuation   \x2560 456-456         #9568    BOX DRAWINGS VERTICAL DOUBLE VERTICAL AND RIGHT
+punctuation \x2560 1456-156-1246-36-1456-156-1246 #9568    BOX DRAWINGS VERTICAL DOUBLE VERTICAL AND RIGHT
 
 # KURSIV Ende (P6-3)
-punctuation   \x2563 6-3             #9571    BOX DRAWINGS VERTICAL DOUBLE VERTICAL AND LEFT
+punctuation \x2563 1246-36-146 #9571    BOX DRAWINGS VERTICAL DOUBLE VERTICAL AND LEFT
 
 # KURSIV Anfang, Mitten im Wort (P6-456)
-punctuation   \x2561 6-456           #9569    BOX DRAWINGS VERTICAL SINGLE AND LEFT DOUBLE
+punctuation \x2561 1246-36-1456-156-1246 #9569    BOX DRAWINGS VERTICAL SINGLE AND LEFT DOUBLE
