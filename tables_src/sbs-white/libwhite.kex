@@ -1,0 +1,159 @@
+* Schreibt Liblouis-Tabellen für Voll- und Kurzschrift
+* aus WHITE.MOD_SRC-Quelle
+
+* 09.07.10 09:48 (chr): Zeichen v wird 36a ("ver")
+* 10.08.10 14:45 (chr): Out-Pfad geändert
+
+
+* Grade 1:
+call prep 1
+call cleanhyphens
+call dots
+call finish
+
+* Grade 2:
+call prep 2
+call cleanhyphens
+call dots
+call finish
+
+exit
+
+prep:
+  arg grade
+  n=0
+  'kedit ..\..\tables\sbs-de-g' || grade || '-white.mod'
+  if size.1()>0 then del all
+  'nomsg get white.mod_src'
+  if grade=2 then 'cl:100'
+  else 'cl:50'
+  ':1';'cursor column'
+  'macro a+b'
+  'bottom';'sos makecurr'
+  'cl +49'
+  'cursor column'
+  'macro a+b'
+  'macro a+g'
+  ':1';'sos current firstcol'
+  'zone 50 *'
+  return
+
+cleanhyphens:
+  'top'
+  *OFF 'set = cappend  |'
+  'repeat *'
+  * ver am Anfang des Wortes nicht trennen:
+  'nomsg change / vw/ v/ all'
+  *OFF * Am Anfang des Wortes mindestens zwei Zeichen:
+  *OFF 'nomsg change reg /{ ?}t/&1/ all'
+  *OFF * Am Ende des Wortes mindestens zwei Zeichen:
+  *OFF 'nomsg change reg /t{? }/&1/ all'
+  *OFF * Schwere Trennstellen mitten im Wort bevorzugen:
+  *OFF 'nomsg change reg /t{?w}/&1/ all*'
+  *OFF 'nomsg change reg /{w?}t/&1/ all*'
+  *OFF 'nomsg change /|// all'
+  return
+
+dots:
+  * Für Dotpatterns reservierte Zeichen zuerst escapen:
+  'nomsg change \0\È\ all*'
+  'nomsg change \1\É\ all*'
+  'nomsg change \2\Ê\ all*'
+  'nomsg change \3\Ë\ all*'
+  'nomsg change \4\Ì\ all*'
+  'nomsg change \5\Í\ all*'
+  'nomsg change \6\Î\ all*'
+  'nomsg change \7\Ï\ all*'
+  'nomsg change \8\Ð\ all*'
+  'nomsg change \9\Ñ\ all*'
+  'nomsg change \-\Ò\ all*'
+
+  'nomsg change \È\346-\ all*'     ; counter(n)
+  'nomsg change \É\16-\ all*'      ; counter(n)
+  'nomsg change \Ê\126-\ all*'     ; counter(n)
+  'nomsg change \Ë\146-\ all*'     ; counter(n)
+  'nomsg change \Ì\1456-\ all*'    ; counter(n)
+  'nomsg change \Í\156-\ all*'     ; counter(n)
+  'nomsg change \Î\1246-\ all*'    ; counter(n)
+  'nomsg change \Ï\12456-\ all*'   ; counter(n)
+  'nomsg change \Ð\1256-\ all*'    ; counter(n)
+  'nomsg change \Ñ\246-\ all*'     ; counter(n)
+  'nomsg change \Ò\36-\ all*'      ; counter(n)
+
+  * Der unbedenkliche Rest:
+  'nomsg change \A\1-\ all*'       ; counter(n)
+  'nomsg change \B\12-\ all*'      ; counter(n)
+  'nomsg change \C\14-\ all*'      ; counter(n)
+  'nomsg change \D\145-\ all*'     ; counter(n)
+  'nomsg change \E\15-\ all*'      ; counter(n)
+  'nomsg change \F\124-\ all*'     ; counter(n)
+  'nomsg change \G\1245-\ all*'    ; counter(n)
+  'nomsg change \H\125-\ all*'     ; counter(n)
+  'nomsg change \I\24-\ all*'      ; counter(n)
+  'nomsg change \J\245-\ all*'     ; counter(n)
+  'nomsg change \K\13-\ all*'      ; counter(n)
+  'nomsg change \L\123-\ all*'     ; counter(n)
+  'nomsg change \M\134-\ all*'     ; counter(n)
+  'nomsg change \N\1345-\ all*'    ; counter(n)
+  'nomsg change \O\135-\ all*'     ; counter(n)
+  'nomsg change \P\1234-\ all*'    ; counter(n)
+  'nomsg change \Q\12345-\ all*'   ; counter(n)
+  'nomsg change \R\1235-\ all*'    ; counter(n)
+  'nomsg change \S\234-\ all*'     ; counter(n)
+  'nomsg change \T\2345-\ all*'    ; counter(n)
+  'nomsg change \U\136-\ all*'     ; counter(n)
+  'nomsg change \V\1236-\ all*'    ; counter(n)
+  'nomsg change \X\1346-\ all*'    ; counter(n)
+  'nomsg change \Y\13456-\ all*'   ; counter(n)
+  'nomsg change \Z\1356-\ all*'    ; counter(n)
+  'nomsg change \&\12346-\ all*'   ; counter(n)
+  'nomsg change \%\123456-\ all*'  ; counter(n)
+  'nomsg change \[\12356-\ all*'   ; counter(n)
+  'nomsg change \^\2346-\ all*'    ; counter(n)
+  'nomsg change \]\23456-\ all*'   ; counter(n)
+  'nomsg change \W\2456-\ all*'    ; counter(n)
+  'nomsg change \,\2-\ all*'       ; counter(n)
+  'nomsg change \;\23-\ all*'      ; counter(n)
+  'nomsg change \:\25-\ all*'      ; counter(n)
+  'nomsg change \/\256-\ all*'     ; counter(n)
+  'nomsg change \?\26-\ all*'      ; counter(n)
+  'nomsg change \+\235-\ all*'     ; counter(n)
+  'nomsg change \=\2356-\ all*'    ; counter(n)
+  'nomsg change \(\236-\ all*'     ; counter(n)
+  'nomsg change \*\35-\ all*'      ; counter(n)
+  'nomsg change \)\356-\ all*'     ; counter(n)
+  'nomsg change \.\3-\ all*'       ; counter(n)
+  'nomsg change /\/34-/ all*'      ; counter(n)
+  'nomsg change \@\345-\ all*'     ; counter(n)
+  'nomsg change \#\3456-\ all*'    ; counter(n)
+  'nomsg change \"\4-\ all*'       ; counter(n)
+  'nomsg change \!\5-\ all*'       ; counter(n)
+  'nomsg change \>\45-\ all*'      ; counter(n)
+  'nomsg change \$\46-\ all*'      ; counter(n)
+  'nomsg change \_\456-\ all*'     ; counter(n)
+  'nomsg change \<\56-\ all*'      ; counter(n)
+  'nomsg change \''\6-\ all*'      ; counter(n)
+  'nomsg change \v\36a-\ all*'     ; counter(n)
+  'nomsg change \b\0-\ all*'       ; counter(n)
+  'nomsg change \m\d-\ all*'       ; counter(n)
+  'nomsg change \t\e-\ all*'       ; counter(n)
+  'nomsg change \w\f-\ all*'       ; counter(n)
+  * Beim Letzten Zeichen Bindestrich entfernen:
+  'nomsg change \-   \\ all'       ; counter(n)
+  return
+
+counter:
+  arg n
+  m = 69
+  n = n+1
+  'set reser 1 white on dark blue Done:' n '/' m
+  if n=m then 'set reser 1 off'
+  'refresh'
+  return n
+
+finish:
+  'zone 1 *'
+  'shift right 1 all'
+  'c\ \word \ all'
+  'file'
+  return

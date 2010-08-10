@@ -1,0 +1,139 @@
+* LIBTABLE.KEX
+* Übersetzt DINBRL-"Wort" in Dotpatterns
+
+* 03.07.10 14:30 (chr): "v" ergänzt
+* 06.07.10 12:07 (chr): Version ausgeschaltet
+* 10.08.10 14:39 (chr): outdir geändert
+
+outdir = '..\..\tables\'
+fname = fname.2()
+fext  = ftype.2()
+'kedit' outdir || fname || '.' || substr(fext.2(),1,3)
+if size.1() > 0 then 'del all'
+'get' fname || '.' || fext
+Datum = time.1()
+parse var Datum with ''dd'.'mm'.'yy
+Version = '20' || yy || '-' || mm || '-' || dd
+
+'top'
+do i=1 to size.1()
+  'down'
+  if eof() then leave
+  if words(curline.3()) = 0 then iterate
+  w1 = word(curline.3(),1)
+  if w1 = '' | w1 = '#' | substr(w1,1,3) = '#=#' then iterate /* Leerzeilen und Kommentarzeilen ignorieren */
+  w2 = word(curline.3(),2)
+  w3 = word(curline.3(),3)
+  if words(curline.3())>3 then do
+    w4pos = wordindex(curline.3(),4)
+    w4 = substr(curline.3(),w4pos)
+    end
+  else w4 = ''
+  'replace' translate(w1,' ','_') w2 StringToDots(w3) w4
+  end
+
+'zone 1 3'
+'nomsg change \#=#\\'all
+'nomsg all \###'
+if rc<2 then 'del all'
+'all'
+'zone 1 *'
+*call Version
+'ffile'
+say 'Tabelle erneuert'
+
+exit
+
+StringToDots:
+  parse arg s
+  l = length(s)
+  o = ''
+  do j = 1 to l
+    z = CharToDots(substr(s,j,1))
+    o = o || z
+    if (j < l) & (z \= '') then o = o || '-'
+    end
+  return o
+
+CharToDots:
+  parse arg c
+  select
+    when c = 'A' then d = '1'
+    when c = 'B' then d = '12'
+    when c = 'C' then d = '14'
+    when c = 'D' then d = '145'
+    when c = 'E' then d = '15'
+    when c = 'F' then d = '124'
+    when c = 'G' then d = '1245'
+    when c = 'H' then d = '125'
+    when c = 'I' then d = '24'
+    when c = 'J' then d = '245'
+    when c = 'K' then d = '13'
+    when c = 'L' then d = '123'
+    when c = 'M' then d = '134'
+    when c = 'N' then d = '1345'
+    when c = 'O' then d = '135'
+    when c = 'P' then d = '1234'
+    when c = 'Q' then d = '12345'
+    when c = 'R' then d = '1235'
+    when c = 'S' then d = '234'
+    when c = 'T' then d = '2345'
+    when c = 'U' then d = '136'
+    when c = 'V' then d = '1236'
+    when c = 'X' then d = '1346'
+    when c = 'Y' then d = '13456'
+    when c = 'Z' then d = '1356'
+    when c = '&' then d = '12346'
+    when c = '%' then d = '123456'
+    when c = '[' then d = '12356'
+    when c = '^' then d = '2346'
+    when c = ']' then d = '23456'
+    when c = '1' then d = '16'
+    when c = '2' then d = '126'
+    when c = '3' then d = '146'
+    when c = '4' then d = '1456'
+    when c = '5' then d = '156'
+    when c = '6' then d = '1246'
+    when c = '7' then d = '12456'
+    when c = '8' then d = '1256'
+    when c = '9' then d = '246'
+    when c = 'W' then d = '2456'
+    when c = ',' then d = '2'
+    when c = ';' then d = '23'
+    when c = ':' then d = '25'
+    when c = '/' then d = '256'
+    when c = '?' then d = '26'
+    when c = '+' then d = '235'
+    when c = '=' then d = '2356'
+    when c = '(' then d = '236'
+    when c = '*' then d = '35'
+    when c = ')' then d = '356'
+    when c = '.' then d = '3'
+    when c = '-' then d = '36'
+    when c = '\' then d = '34'
+    when c = '0' then d = '346'
+    when c = '@' then d = '345'
+    when c = '#' then d = '3456'
+    when c = '"' then d = '4'
+    when c = '!' then d = '5'
+    when c = '>' then d = '45'
+    when c = '$' then d = '46'
+    when c = '_' then d = '456'
+    when c = '<' then d = '56'
+    when c = '''' then d = '6'
+    when c = 'v' then d = '36a'
+    when c = 'b' then d = '0'
+    when c = 'm' then d = 'd'
+    when c = 't' then d = 'e'
+    when c = 'w' then d = 'f'
+    otherwise d = ''
+    end
+  return d
+
+Version:
+  'top'
+  '\#~Version~#'
+  'replace #'
+  'input #  Version' Version
+  'input #  SBS Schweizerische Bibliothek für Blinde und Sehbehinderte'
+  return

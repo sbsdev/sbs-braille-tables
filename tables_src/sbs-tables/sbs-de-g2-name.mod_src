@@ -1,0 +1,1499 @@
+#-------------------------------------------------------------------------------
+#
+#  sbs-de-g2-name.mod
+#
+#  SBS DEUTSCHE KURZSCHRIFT - Eigennamen (Nur Lautgruppenkürzungen)
+#
+#-------------------------------------------------------------------------------
+
+
+# Trennungen:
+sufword                             gaither                        GAItTH7
+
+
+
+# class definitions
+#=#class a a
+#=#class b b
+#=#class c c
+#=#class d d
+#=#class e e
+#=#class er er
+#=#class f f
+#=#class h h
+#=#class g g
+#=#class i i
+#=#class j j
+#=#class k k
+#=#class l l
+#=#class m m
+#=#class n n
+#=#class r r
+#=#class s s
+#=#class t t
+#=#class u u
+#=#class z z
+#=#class kpvw kpvw
+### Stummgeschaltet wegen Table-Overflow
+###class strich -
+#=#class konsonant bcdfghjklmnpqrstvwxyz
+
+
+# (4.1 Lautgruppenkürzungen)
+
+# Doppelvokale
+always                            dorothee                  D?OtTHEE
+always                              yankee                  'Y+tKEE
+always                                klee                  KLEE
+always                              schnee                  5NEE
+always                               spree                  SPREE
+always                                queen                 'QUEEN
+
+always                              hawaii                  HAtWAII
+always                               ascii                  AS'CII
+
+always                               yahoo                  'YAtHOO
+always                            waterloo                  WAtT7tLOO
+always                              daewoo                  DAEtWOO
+always                                 zoo                  ZOO
+
+# ACH (4.1 Lautgruppenkürzungen)
+midendword                              ach                 <
+begword                                aach                 AA4
+always                                 cach                 'CA4
+prfword                                each                 EA4
+always                                beach                 BEA4
+
+# AL  (4.1 Lautgruppenkürzungen)
+begmidword                              al                  :
+always                                 aal                  AAL
+
+# AN  (4.1 Lautgruppenkürzungen)
+word                                    an                  +
+begmidword                              an                  +
+always                            afrikaans                 AFtRItKAANS
+always                                saanen                SAAtNC
+always                          andromedanebel              +DROtMEtDAtNEtBY
+prfword                               bean                  BEAN
+prfword                               beans                 BEANS
+always                              orleans                 ?LEANS
+always                                jean                  JEAN
+always                            olympia                   OL'YMtPIA
+
+# AR  (4.1 Lautgruppenkürzungen)
+begmidword                              ar                  )
+always                          kassandra                   KA^+DRA
+always                                 aar                  AAR
+always                         teneriffa                    TC7IFtFA
+begmidword                          barbaross               B)tBAwRO^
+always                                pearl                 PEARL
+begmidword                      shakespear                  SHAK%tPEAR
+sufword                               sears                 SEARS
+begmidword                          costaric                'CO]AwRIt'C
+
+# AU  (4.1 Lautgruppenkürzungen)
+word                                    au                  '1
+always                                  au                  1
+always                            kapernaum                 KAtP7tNAtUM
+
+# ÄU  (4.1 Lautgruppenkürzungen)
+always                                  äu                  \
+always                            skarabäus                 SK)AtB@tUS
+always                             thaddäus                 THADtD@tUS
+always                             zebedäus                 ZE;tD@tUS
+always                             matthäus                 MATtTH@tUS
+always                             trochäus                 TROt4@tUS
+always                            ptolemäus                 PTOtL[@tUS
+always                            bartimäus                 B)tTItM@tUS
+always                         bartholomäus                 B)tTHOtLOtM@tUS
+always                            borromäus                 B?tROtM@tUS
+always                             athenäum                 ATHC@tUM
+always                               piräus                 PItR@tUS
+
+# BE  (4.1 Lautgruppenkürzungen)
+word                                    be                  BE
+begmidword                              be                  ;
+sufword                                 beagl               BEAGL
+prfword                                 bee                 BEE
+prfword                                 beer                BEER
+prfword                                 beere               BEERE
+prfword                                 beeren              BEERC
+prfword                                 beers               BEERS
+prfword                                 bees                BEES
+always                                  beet                BEET
+prfword                                 beete               BEE(
+always                                  beug                B2G
+prfword                                 beuge               B2&
+always                                  beul                B2L
+always                                  beuren              B2tRC
+begmidword                              beurr               B2RR
+always                                  beute               B2(
+always                                  beutel              B2tTY
+always                                  beuten              B2tTC
+always                                  beuter              B2tT7
+always                                  beutl               B2TtL
+always                                  beutn               B2TtN
+always                                  beutung             B2tTU
+always                                  beuschel            B2t5Y
+always                                  beuys               B2'YS
+always                                abbey                 ABtBE'Y
+midword                                 bex                 BwE'X
+always                                 abebb                ABtEBB
+sufword                                abel                 ABY
+# BEh
+prfword                              gabbeh                 GABtBEH
+begmidword                           gabbeh                 GABtB=
+# BEl
+prfword                                 bel                 BY
+word                                    bela                BYA
+always                                  belarus             BYAtRUS
+always                                  belarussisch        BYAwRU^I5
+always                                  belemnit            BY[tNIT
+always                                  belfast             BYtFA]
+always                                  belfer              BYtF7
+begmidword                              belgi               BYtGI
+always                                  belgrad             BYtGRAD
+begmidword                              belind              BY*D
+begmidword                              beliz               BYIZ
+sufword                                 belm                BYtM
+endword                                 beln                BYN
+always                                  belorussisch        BYOwRU^I5
+prfword                                 belsazar            BYtSAtZAR
+begmidword                              belsazar            BYtSAtZ)
+sufword                                 belt                BYT
+always                                  beluga              BYUtGA
+always                                  belutsch            BYUT5
+begmidword                              belved              BYtVED
+always                                  belz                BYZ
+word                                   abel                 ABY
+always                                babel                 BAtBY
+midendword                            dabel                 DAtBY
+always                                fabel                 FAtBY
+always                                kabel                 KAtBY
+always                                label                 LAtBY
+always                                nabel                 NAtBY
+always                              annabell                +NAt;Q
+always                             schnabel                 5NAtBY
+always                             schnäbel                 5N@tBY
+always                                rabel                 RAtBY
+always                                sabel                 SAtBY
+always                               isabell                ISAt;Q
+always                              rosabell                ROtSAt;Q
+always                                säbel                 S@tBY
+always                                tabel                 TAtBY
+always                                tabell                TAt;Q
+always                             schwäbel                 5W@tBY
+always                               babbel                 BABtBY
+always                               kabbel                 KABtBY
+always                              quabbel                 'QUABtBY
+always                              brabbel                 BRABtBY
+always                              grabbel                 GRABtBY
+always                            schräbbel                 5R@BtBY
+always                              krabbel                 KRABtBY
+always                               sabbel                 SABtBY
+always                               wabbel                 WABtBY
+midendword                            ibbel                 IBtBY
+always                              goebbels                GOEBtBYS
+midendword                            ubbel                 UBtBY
+always                                bebel                 ;tBY
+always                                hebel                 HEtBY
+always                               giebel                 G0tBY
+always                               liebel                 L0tBY
+always                              zwiebel                 ZW0tBY
+always                                nebel                 NEtBY
+always                                bibel                 BItBY
+always                               deibel                 D3tBY
+always                               weibel                 W3tBY
+always                                fibel                 FItBY
+always                                sibel                 SItBY
+midendword                            tibel                 TItBY
+always                                zibel                 ZItBY
+always                               falbel                 F:tBY
+always                               zimbel                 ZIMtBY
+always                                 obelisk              OBYISK
+always                                 obelix               OBYI'X
+always                                gobelin               GOtBY*
+always                                hobel                 HOtBY
+always                                kobel                 KOtBY
+always                                möbel                 M9tBY
+always                                nobel                 NOtBY
+always                               knobel                 KNOtBY
+always                                pöbel                 P9tBY
+always                                zobel                 ZOtBY
+always                               bärbel                 B@RtBY
+always                             scherbel                 57tBY
+always                               kerbel                 K7tBY
+always                               wirbel                 WIRtBY
+always                               zirbel                 ZIRtBY
+always                               kurbel                 KURtBY
+always                                 übel                 8BY
+always                                dubel                 DUtBY
+always                               deubel                 D2tBY
+always                               doubel                 DOUtBY
+always                                hubel                 HUtBY
+always                                jubel                 JUtBY
+always                                rubel                 RUtBY
+always                                rubella               RUt;QA
+# BEm
+endword                                 bem                 B[
+always                                  bemm                ;X
+always                                  bemann              ;tM+N
+always                                  bemänn              ;t!MN
+always                                  bembel              B[tBY
+# BEn
+always                                  ben                 BC
+always                                  benach              ;tN<
+always                                  benag               ;tNAG
+always                                  benebel             ;wNEtBY
+always                                  benebel             ;wNEtBY
+always                                  benebl              ;wNEBtL
+always                                  benehm              ;tNH
+always                                  beneid              ;tN3D
+always                                  benenn              ;tNCN
+always                                  benetz              ;tNETZ
+always                                  benies              ;tN0S
+always                                  benimm              ;tNIX
+always                                  benot               ;tNOT
+always                               grubenotter            GRUtBCwOTtT7
+# BEr
+always                                  ber                 B7
+# BEs
+prfword                                 bes                 B%
+always                                  best                ;]
+always                                  bessarabi           ;^)AtBI
+always                                  bessemer            ;^[7
+always                               arabesk                )AtB%K
+always                               arabesqu               )AtB%'QU
+begmidword                            robespierr            ROB%tPI7tR
+
+# C   (4.1 Lautgruppenkürzungen)
+word                                    c                   'C
+always                                  c                   'C
+# Grossgeschriebene Wortanfänge erhalten sonst keinen Pt.6!
+#=#context ["C"]$u @6-14
+
+# CH  (4.1 Lautgruppenkürzungen)
+word                                    ch                  '4
+always                                  ch                  4
+
+# CK  (4.1 Lautgruppenkürzungen)
+word                                    ck                  'CK
+midendword                              ck                  $
+
+# EH  (4.1 Lautgruppenkürzungen)
+midword                                 eh                  =
+midendword                              ehand               EwH+D
+midendword                              ehaut               EwH1T
+midendword                              eherd               EwH7D
+midendword                              ehilf               EwHILF
+midendword                              ehirt               EwHIRT
+midendword                              ehobel              EwHOBY
+midendword                              ehoch               EwHO4
+midendword                              ehohl               EwHOHL
+midendword                              ehöhl               EwH9HtL
+midendword                              eholz               EwHOLZ
+midendword                              ehölz               EwH9LZ
+midendword                              ehotel              EwHOTY
+midendword                              ehund               EwH/D
+midendword                              ehunger             EwH/tG7
+endword                                 ehöhe               EwH9tHE
+midendword                              ehöhen              EwH9tHC
+always                               radehack               RAtDEwHA$
+before_h_begmidword                  bade                   BAtDE
+before_h_begmidword                  lade                   LAtDE
+before_h_begmidword                  jade                   JAtDE
+before_h_begmidword              schmiede                   5M0tDE
+before_h_begmidword                 siede                   S0tDE
+always                              wiedehopf               W0tDEwHOPF
+before_h_begmidword              getreide                   &tTR3tDE
+before_h_begmidword                 wende                   WCtDE
+before_h_begmidword                 hunde                   H/tDE
+before_h_begmidword                pferde                   PF7tDE
+begmidword                           sheeh                  SHEEwH
+begmidword                            seehas                SEEwHAS
+always                                seehecht              SEEwHE4T
+prfword                               seehechte             SEEwHE4(
+always                                seehei                SEEwH3
+always                                seeheld               SEEwHYD
+always                                seeherr               SEEwH7R
+always                                seehimmel             SEEwHIXY
+always                                seehügel              SEEwH8GY
+before_h_begmidword                 trage                   TGE
+before_h_begmidword                 wache                   W<E
+before_h_begmidword                 asche                   A5E
+before_h_begmidword                goethe                   GOEtTHE
+before_h_begmidword                 kohle                   KOHtLE
+before_h_begmidword              schweine                   5W6E
+before_h_begmidword               katrine                   KATR*E
+before_h_begmidword                  inne                   *NE
+prfword                             stonehenge              ]ONEwHC&
+always                              stoneheng               ]ONEwHCG
+before_h_begmidword                  aloe                   :OE
+always                             benzoeharz               BCtZOEwH)Z
+always                               warehaus               W)EwH1S
+begmidword                           warehäus               W)EwH\S
+midendword                              eholz               W)EwH\S
+always                               nasehorn               NAtSEwH?N
+always                               nasehörn               NAtSEwH9RN
+before_h_begmidword                 gänse                   G@NtSE
+before_h_begmidword                  löse                   L9tSE
+before_h_begmidword                 messe                   ME^E
+begmidword                          lausehark               L1tSEwH)K
+before_h_begmidword                gemüse                   &tM8tSE
+before_h_begmidword                 watte                   WAT(
+before_h_begmidword              gewichte                   &tW#(
+before_h_begmidword                 brave                   BRAVE
+before_h_begmidword                bronze                   BRONtZE
+begword                              itzeho                 ITZEtHO
+
+# EI  (4.1 Lautgruppenkürzungen)
+word                                    ei                  '3
+always                                  ei                  3
+midword                                 eikon               EwIKOtN
+begmidword                            freikon               FR3tKON
+midword                                 eille               EIQE
+midword                                 eilleus             EIQ2S
+begmidword                          marseill                M)tSEIQ
+midword                                 eilloy              EwIQO'Y
+always                               codein                 'COtDE*
+always                               kodein                 KOtDE*
+midendword                             eeinsel              EEw*SY
+always                                seeigel               SEEw>Y
+always                              coffein                 'COFtFE*
+always                              koffein                 KOFtFE*
+always                           prometheisch               PROtMEtTHEtI5
+always                             galilei                  G:ItLEI
+always                             acrolein                 A'CROtLEtIN
+always                             akrolein                 AKROtLE*
+before_i_begmidword                 wärme                   W@RtME
+always                                äneis                 @NEtIS
+always                               aeneis                 AENEtIS
+always                              guineisch               GU*EtI5
+always                                boeing                BOEt*G
+always                          pythagoreisch               P'YtTHAtG?EtI5
+always                            epikureisch               EPItKUtREtI5
+always                             eritreisch               7ITREtI5
+always                               kureismus              KUtRE!I
+always                               kasein                 KAtSE*
+before_i_begmidword                 kälte                   K@L(
+always                                 weight               WEIGHT
+
+# EIN (4.1 Lautgruppenkürzungen)
+always                                  ein                 6
+always                              khomeini                KHOtME*I
+always                                speinuss              SP3wNU^
+begmidword                            speinüss              SP3wN8^
+
+# EL  (4.1 Lautgruppenkürzungen)
+word                                    el                  EL
+always                                  el                  Y
+word                                    elen                ELC
+always                                 eel                  EEL
+midendword                             eeland               EEwL+D
+midendword                             eeländ               EEwL@ND
+always                                 eelili               EEwLItLI
+always                                 eelini               EEwL*I
+always                                  ell                 EQ
+always                                 eell                 EEQ
+always                               abaelard               ABAEtL)D
+before_l_begmidword                  lebe                   LEBE
+always                              spacelab                SPA'CEwLAB
+always                              graceland               GRA'CEwL+D
+always                               facelift               FA'CEwLIFT
+always                             stachel                  ]<Y
+always                            mortadell                 M?TAtDEQ
+always                              heideland               H3tDEwL+D
+begmidword                          heidelerch              H3tDEwL74
+begmidword                          heidelind               H3tDEwL*D
+before_l_begmidword               scheide                   53tDE
+always                             treidell                 TR3tDYwL
+before_l_begmidword              getreide                   &tTR3tDE
+midendword                             eelicht              EEw_T
+always                               tafelland              TAFYwL+D
+begmidword                           tafelländ              TAFYwL@ND
+always                            schwefel                  5WEtFY
+always                             stiefel                  ]0tFY
+always                             staffel                  ]AFtFY
+always                             trüffel                  TR8FtFY
+always                              gipfel                  GIPtFY
+always                            schaufel                  51tFY
+always                               hufeland               HUtFEwL+D
+always                               hufeländ               HUtFEwL@ND
+before_l_begmidword                goethe                   GOEtTHE
+before_l_begmidword                  ruhe                   RUtHE
+before_l_begmidword                  lake                   LAKE
+always                              fackel                  FA$Y
+always                              sockel                  SO$Y
+always                            schenkel                  5CtKY
+always                              dunkel                  D/tKY
+always                           schnörkel                  5N9RtKY
+always                              muskel                  MUStKY
+always                               pökel                  P9tKY
+before_l_begmidword                 kohle                   KOHtLE
+before_l_begmidword           koschenille                   KOt5CIQE
+always                               memelland              M[YwL+D
+always                               memelländ              M[YwL@ND
+always                              sammel                  SAXY
+always                               homeland               HOMEwL+D
+before_l_begmidword                  ärmel                  @RtMY
+before_l_begmidword                saigne                   SAIGNE
+always                               annelies               +NEwL0S
+begmidword                           annelieschen           +NEwL0St4C
+begmidword                          hannelor                H+tNEwL?
+begmidword                          marnelini               M)tNEwL*I
+always                              stapel                  ]AtPY
+begmidword                           pipelin                PIPEwL*
+always                               ampel                  AMtPY
+always                              doppel                  DOPtPY
+always                             stoppel                  ]OPtPY
+always                             skrupel                  SKRUtPY
+always                                ireland               IREtL+D
+before_l_begmidword                  basel                  BAtSY
+always                               faseleber              FAtSYwEB7
+before_l_begmidword                 gänse                   G@NtSE
+always                               mosel                  MOtSY
+always                              cleveland               'CLEtVEwL+D
+always                               havelland              HAtVYwL+D
+begmidword                           havelländ              HAtVYwL@NtD
+
+# EM  (4.1 Lautgruppenkürzungen)
+word                                    em                  EM
+always                                  em                  [
+always                                  emm                 EX
+midendword                              emacher             EwM<7
+midendword                              emann               EwM+N
+midendword                              emark               wM)K
+midendword                              emärk               wM@RK
+before_m_begmidword                reggae                   REGtGAE
+always                               annemarie              +NEtM)0
+always                              grönemeyer              GR9tNEwME'Y7
+always                              warnemünd               W)tNEwM8ND
+always                                 remagen              REtMAtGC
+always                                 remark               REtM)K
+before_m_begmidword                ampere                   AMtP7E
+begmidword                           rosemar                ROSEtM)
+always                             krauseminz               KR1tSEwM*Z
+begmidword                          travemünd               TRAtVEwM8NtD
+
+# EN  (4.1 Lautgruppenkürzungen)
+word                                    en                  EN
+always                                  en                  C
+always                           schmiedenagel              5M0tDEwNAtGY
+begmidword                          heidenelk               H3tDEwNYtK
+begmidword                         pferdenas                PF7tDEwNAS
+always                            aberdeen                  AB7tDEEN
+sufword                             aileen                  AItLEEN
+sufword                             eileen                  3LEEN
+prfword                              steen                  ]EEN
+prfword                              steens                 ]EENS
+always                             colleen                  'COQEEN
+begmidword                            seenelk               SEEwNYK
+begmidword                            peenemünd             PEEtNEwM8NtD
+sufword                            maureen                  M1REEN
+sufword                               siena                 SICA
+always                                sienesisch            SIC%I5
+always                              villeneuv               VIQEwN2V
+always                               phoenix                PHOENI'X
+
+# ER  (4.1 Lautgruppenkürzungen)
+always                                  er                  7
+always                                 aerobic              AEROtBI'C
+always                                beer                  BEER
+always                                heer                  HEER
+before_er_begmidword               kohle                    KOHtLE
+prfword                            kohler                   KOHtL7
+before_e_always                      klee                   KLEE
+before_r_begmidword           koschenille                   KOt5CIQE
+always                                meer                  MEER
+always                                neer                  NEER
+always                             guineer                  GU*E7
+always                                peer                  PEER
+always                               speer                  SPEER
+before_er_always                      see                   SEE
+before_e_always                       tee                   TEE
+always                                teer                  TEER
+before_er_begmidword                hunde                   H/tDE
+always                              hundert                 H/tD7T
+always                              heiderauch              H3tDEwR14
+begmidword                          heiderös                H3tDEwR9S
+always                              weiderind               W3tDEwR*D
+before_er_begmidword               pferde                   PF7tDE
+always                              ascheregen              A5EwREtGC
+before_er_always                     ruhe                   RUtHE
+prfword                              ruher                  RUtH7
+prfword                              ruhern                 RUtH7N
+prfword                              ruhers                 RUtH7S
+always                              taljereep               T:tJEwREEP
+before_er_begmidword             schweine                   5W6E
+before_er_begmidword               sterne                   ]7tNE
+sufword                               moers                 MOERS
+always                            rhinoze                   RHItNOtZE
+
+# ES  (4.1 Lautgruppenkürzungen)
+always                                  es                  %
+midendword                              eshire              EwSHIRE
+midendword                              eshires             EwSHIR%
+midendword                              eshow               EwSHOW
+always                                  ess                 E^
+always                                  essch               %5
+endword                                 esschen             E^t4C
+endword                                 esschens            E^t4CS
+always                                  est                 E]
+midendword                              estell              Ew]EQ
+midendword                              estund              Ew]/D
+prfword                               caesar                'CAEtSAR
+begmidword                            caesar                'CAEtS)
+before_s_always                      bade                   BAtDE
+prfword                              bades                  BAtD%
+prfword                              bades                  BAtD%
+before_s_always                  schmiede                   5M0tDE
+prfword                          schmiedes                  5M0tD%
+endword                                ees                  EES
+before_s_always                       lee                   LEE
+before_s_always                      klee                   KLEE
+always                                meesenburg            MEEtSCwBURG
+always                                reesa                 REEtSA
+before_s_always                       see                   SEE
+prfword                               sees                  SEES
+prfword                             gesees                  &wSEES
+before_s_always                       tee                   TEE
+before_s_always                     kohle                   KOHtLE
+always                               ganesh                 G+ESH
+before_s_always                  schweine                   5W6E
+prfword                          schweines                  5W6%
+before_s_always                     wonne                   WONtNE
+before_s_always                     apnoe                   APNOE
+prfword                            amperes                  AMtP7%
+before_s_begmidword                ampere                   AMtP7E
+prfword                              freesie                FREEtSIE
+always                                heesters              HEE]7S
+always                               moleskin               MOLEwSK*
+always                              möhnesee                M9HtNEwSEE
+always                                coesfeld              'COESwFYD
+always                                soest                 SOE]
+begmidword                          shiresauc               SHIREwS1'C
+always                               matestrauch            MA(w]R14
+always                               matesträucher          MA(w]R\47
+begmidword                           bayessch               BA'Y%5
+
+# EU  (4.1 Lautgruppenkürzungen)
+word                                    eu                  EU
+always                                  eu                  2
+always                                     timaeus          TItMAEtUS
+always                                    glutaeus          GLUtTAEtUS
+always                                     amadeus          AMAtDEtUS
+always                                    spondeus          SPONtDEtUS
+always                                      codeum          'COtDEtUM
+always                                     spreeufer        SPREEtUF7
+always                                       seeufer        SEEwUF7
+always                                       seeum          SEEwUM
+always                                       seeun          SEEw/
+always                                       theurg         THEURG
+midendword                                   theus          THEtUS
+always                                       aleuten        :EUtTC
+always                                       aleutisch      :EUtTI5
+always                                 herculaneum          H7t'CUtL+EtUM
+always                                    themseufer        TH[tSEtUF7
+always                                   colosseum          'COtLO^EtUM
+always                                   kolosseum          KOtLO^EtUM
+always                                      museum          MUtSEtUM
+always                                   andrözeum          +DR9tZEtUM
+
+# GE  (4.1 Lautgruppenkürzungen)
+word                                    ge                  GE
+always                                  ge                  &
+endword                                 geur                G2R
+endword                                 geure               G2RE
+endword                                 geurs               G2RS
+endword                                 geuze               G2ZE
+# GEi
+always                                  gei                 G3
+# GEin
+always                                  gein                G6
+# GEl
+prfword                                 gel                 GY
+before_konsonant_begword                gel                 GY
+always                                  gelatin             GYAtT*
+always                                  geln                GYN
+prfword                                 gels                GYS
+always                                  gelchen             GYt4C
+always                                  gelb                GYB
+always                                  geld                GYD
+always                                  gell                &Q
+always                                  gelnhaus            GYNtH1S
+prfword                                 gelst               GY]
+always                                  gelt                GYT
+prfword                                 gelte               GY(
+prfword                                 geltet              GY(T
+always                                  gelz                GYZ
+always                                hagel                 HAtGY
+always                                nagel                 NAtGY
+always                                nägel                 N@tGY
+always                                wägel                 W@tGY
+always                                zagel                 ZAtGY
+always                                 egel                 EGY
+always                            schniegel                 5N0tGY
+always                              spiegel                 SP0tGY
+always                               riegel                 R0tGY
+always                               siegel                 S0tGY
+always                               tiegel                 T0tGY
+always                               wiegel                 W0tGY
+always                               ziegel                 Z0tGY
+always                                kegel                 KEtGY
+always                               flegel                 FLEtGY
+always                             schlegel                 5LEtGY
+always                                pegel                 PEtGY
+always                                regel                 REtGY
+always                                segel                 SEtGY
+always                            schmuggel                 5MUGtGY
+sufword                                igel                 IGY
+midendword                             igel                 >Y
+always                                eigel                 3tGY
+always                               fejgel                 FEJtGY
+always                              seeigel                 SEEt>Y
+always                                angel                 +GY
+always                                engel                 CtGY
+always                               tengel                 TCGY
+always                               bengel                 BCtGY
+always                              stengel                 ]CtGY
+always                                ingelheim             *tGYtH3M
+always                            schlingel                 5L*tGY
+always                              klingel                 KL*tGY
+always                               pingel                 P*tGY
+always                               ringel                 R*tGY
+always                               tingel                 T*tGY
+always                               zingel                 Z*tGY
+always                              klüngel                 KL8NtGY
+always                               züngel                 Z8NtGY
+always                                kogel                 KOtGY
+always                                mogel                 MOtGY
+always                                vogel                 VOtGY
+always                                vögel                 V9tGY
+always                              spargel                 SP)tGY
+always                               mergel                 M7tGY
+always                               pergel                 P7tGY
+always                                orgel                 ?tGY
+always                               nörgel                 N9RtGY
+always                              spörgel                 SP9RtGY
+always                               gurgel                 GURtGY
+always                                äugel                 \tGY
+always                                bügel                 B8tGY
+always                                hügel                 H8tGY
+always                                gugel                 GUtGY
+always                                kugel                 KUtGY
+always                                kügel                 K8tGY
+always                               klügel                 KL8tGY
+always                               flügel                 FL8tGY
+always                               prügel                 PR8tGY
+always                                zügel                 Z8tGY
+# GEm
+prfword                                 gem                 G[
+always                                  gemini              G[*I
+always                               trigeminus             TRItG[*US
+syllable                                gems                G[S
+# GEn
+always                                  gen                 GC
+# GEr
+prfword                                 ger                 G7
+sufword                                 gerd                G7D
+always                                  gers                G7S
+always                                  gersund             G7wS/D
+sufword                                 gert                G7T
+word                                    gerte               G7(
+always                                  gern                G7N
+always                                  gerald              G7:D
+always                                  gerani              G7+I
+always                                  gerant              G7+T
+always                                  gerard              G7)D
+always                                  gerb                G7B
+midword                                 gerbe               G7w;
+midendword                              gerberg             G7wB7G
+endword                                 gerberge            G7wB7&
+prfword                                 gerben              G7tBC
+prfword                                 gerber              G7tB7
+always                                  gerbera             G7tB7A
+always                                  gerberei            G7tB73
+always                                  gerberin            G7tB7*
+prfword                                 gerbern             G7tB7N
+prfword                                 gerbers             G7tB7S
+always                                  gerbrück            G7wBR8$
+always                                  gerecht             &tRE4T
+syllable                                gerfalk             G7tF:K
+midword                                 gergeb              Gw7t&B
+always                                  gerh                G7tH
+always                             prediger                 PREtD>7
+always                                  geria               G7IA
+always                                niger                 N>7
+prfword                                 gerie               G70
+prfword                                 gerien              G7IC
+midendword                             ggerli               GtG7LI
+syllable                                gerlind             G7tL*D
+always                                  germ                G7M
+always                                 igerm                >7M
+always                                  gern                G7N
+word                                    gero                G7O
+word                                    geros               G7OS
+always                                  gerold              G7OLD
+always                                  gerolf              G7OLF
+always                                  geroni              G7ONI
+always                                  geront              G7ONT
+always                                  gerr                G7R
+### Was stimmt?
+always                               skagerak               SKAtG7AK
+always                               skagerrak              SKAtG7tRAK
+always                                  gershwin            G7SHtW*
+always                                  gerst               G7]
+prfword                                 gert                G7T
+always                                  gertrud             G7tTRUD
+always                                  gertel              G7TY
+endword                                 gertem              G7T[
+endword                                 gerten              G7TC
+endword                                 gerter              G7T7
+endword                                 gertes              G7T%
+always                                  gerten              G7TC
+prfword                                 gerts               G7TS
+syllable                                gerundi             G7/tDI
+syllable                                gerusi              G7UtSI
+syllable                                gervasi             G7tVAtSI
+syllable                                gerwig              G7tW>
+syllable                                gerwin              G7tW*
+always                               haager                 HAAtG7
+always                                hager                 HAtG7
+always                                häger                 H@tG7
+always                                jäger                 J@tG7
+always                                lager                 LAtG7
+always                                läger                 L@tG7
+always                               prager                 PRAtG7
+always                                vager                 VAtG7
+always                             schwager                 5WAtG7
+always                             schwäger                 5W@tG7
+always                              voyager                 VO'YAtG7
+always                           cambridger                 'CAMtBRIDtG7
+always                               ludger                 LUDtG7
+always                                feger                 FEtG7
+always                                heger                 HEtG7
+always                                hegereiter            HE&tR3T7
+always                               bieger                 B0tG7
+always                              flieger                 FL0tG7
+always                              krieger                 KR0tG7
+always                               sieger                 S0tG7
+always                            schwieger                 5W0tG7
+always                               wieger                 W0tG7
+always                                leger                 LEtG7
+always                                neger                 NEtG7
+always                                reger                 REtG7
+always                              integer                 *(G7
+prfword                               weger                 WEG7
+prfword                               wegern                WEG7N
+prfword                               wegers                WEG7S
+always                                wegerecht             WEGEtRE4T
+always                               bagger                 BAGtG7
+always                               jagger                 JAGtG7
+always                                egger                 EGtG7
+always                               digger                 D>tG7
+always                               jigger                 J>tG7
+always                               nigger                 N>tG7
+always                               fugger                 FUGtG7
+always                               feiger                 F3tG7
+always                              steiger                 ]3tG7
+always                               geiger                 G3tG7
+always                               weiger                 W3tG7
+always                               pilger                 PILtG7
+always                               tilger                 TILtG7
+always                               holger                 HOLtG7
+prfword                               anger                 +G7
+sufword                               angerdorf             +G7wD?F
+sufword                               angerdörfer           +G7wD9RtF7
+prfword                               angern                +G7N
+prfword                               angern                +G7S
+always                               fänger                 F@NtG7
+always                               gänger                 G@NtG7
+always                               hanger                 H+tG7
+always                               hänger                 H@NtG7
+always                              pranger                 PR+tG7
+always                               sänger                 S@NtG7
+always                               tanger                 T+tG7
+always                               vanger                 V+tG7
+always                               wanger                 W+tG7
+prfword                               enger                 CtG7
+prfword                               engere                CtG7E
+prfword                               engerem               CtG7[
+prfword                               engeren               CtG7C
+prfword                               engerer               CtG77
+prfword                               engeres               CtG7%
+always                                engerling             CtG7tL*G
+prfword                               engerlinge            CtG7tL*&
+always                                inger                 *tG7
+always                            vaihinger                 VAItH*tG7
+always                           hongkonger                 HONGtKONG7
+always                               hunger                 H/tG7
+always                               junger                 J/tG7
+always                               dünger                 D8NtG7
+always                               jünger                 J8NtG7
+always                                roger                 ROtG7
+always                               dröger                 DR9tG7
+always                                zöger                 Z9tG7
+always                                arger                 )tG7
+always                               berger                 B7tG7
+always                               birger                 BIRtG7
+always                               sorger                 S?tG7
+always                               burger                 BURtG7
+always                               bürger                 B8RtG7
+always                               würger                 W8RtG7
+always                              böttger                 B9TTtG7
+always                               sauger                 S1tG7
+always                               säuger                 S\tG7
+always                               beuger                 B2tG7
+always                               zeuger                 Z2G7
+always                               kluger                 KLUtG7
+always                               klüger                 KL8tG7
+always                              pflüger                 PFL8tG7
+always                               trüger                 TR8tG7
+always                               krüger                 KR8tG7
+prfword                               zuger                 ZUtG7
+always                                züger                 Z8tG7
+always                              metzger                 METZtG7
+
+# GEs
+prfword                                 ges                 G%
+
+# ICH (4.1 Lautgruppenkürzungen)
+word                                    ich                 #
+midendword                              ich                 #
+prfword                                dichlor              DIt4LOR
+begmidword                             dichlor              DIt4L?
+
+# IE  (4.1 Lautgruppenkürzungen)
+midendword                              ie                  0
+# IEll
+midendword                              iell                ItEQ
+begmidword                           schiellies             50LtL0S
+midendword                              ieuw                I2W
+midendword                              ieux                I2'X
+# aIE
+always                                 ai                   AI
+always                                 ainsel               Aw*SY
+sufword                               kain                  KA*
+# bIE
+always                            amphibi                   AMtPHItBI
+# HOMONYM
+sufword                                bien                 B0N
+begword                                bienfai              BICtFAI
+midendword                             bien                 BIC
+prfword                                bienchen             B0Nt4C
+prfword                                biene                B0tNE
+prfword                                bienen               B0tNC
+always                                 bienn                BICN
+begmidword                        kolumbi                   KOtLUMtBI
+always                            kolumbin                  KOtLUMtB*
+always                              lesbier                 L%tBI7
+begmidword                           nubi                   NUtBI
+# cIE
+always                             galici                   G:It'CI
+always                               ancien                 +t'CIC
+always                               ancier                 +t'CI7
+always                              lancier                 L+t'C0R
+# dIE
+always                                 diego                DIEtGO
+### stimmt wohl nicht so ...
+midendword                             dien                 DIC
+always                                 diener               D0tN7
+always                                 dienst               D0N]
+always                                 dienstag             D0NStTAG
+prfword                                dienstage            D0NStTA&
+word                                   diet                 DIET
+always                                 diethyl              DItETH'YL
+always                            barbadier                 B)tBAtDI7
+always                             arkadier                 )tKAtDI7
+always                             kanadier                 K+AtDI7
+always                            burundier                 BUtR/tDI7
+always                           kapverdier                 KAPtV7tDI7
+prfword                                dieu                 DI2
+prfword                                dieus                DI2S
+# eIE
+# fIE
+always                              golfier                 GOLtFI7
+# gIE
+midendword                             gien                 GIC
+always                             georgi                   &?tGI
+# hIE
+always                                chien                 4IC
+always                               schien                 50N
+always                             alighieri                :>HI7I
+always                              sophien                 SOtPHIC
+prfword                               thieu                 THI2
+prfword                               thieus                THI2S
+begmidword                       forsythi                   F?tS'YtTHI
+# iIE
+# jIE
+# kIE
+always                                 kiew                 KIEW
+begmidword                       thraki                     THRAtKI
+# lIE
+begword                              calien                 'C:IC
+begmidword                         somali                   SOtM:I
+begmidword                          arali                   ):I
+always                           australi                   1]R:I
+always                               salieri                S:I7I
+always                             rosali                   ROtS:I
+always                             rosalind                 ROtS:*D
+begmidword                       thessali                   THE^:I
+always                              italien                 IT:IC
+always                           viktuali                   VIKtTUt:I
+always                            chevalier                 4EtV:I7
+always                            richelieu                 R#YI2
+prfword                            kamelie                  KAtMYIE
+always                             kamelien                 KAtMYIC
+always                            sommelier                 SOXYI7
+always                            bromeli                   BROtMYI
+# HOMONYM
+prfword                             dahlie                  DAHtLIE
+always                              dahlien                 DAHtLIC
+prfword                              lilie                  LItLIE
+always                               lilien                 LItLIC
+begmidword                          emili                   [ItLI
+begmidword                      petersili                   PEtT7tSItLI
+begmidword                         ottili                   OTtTItLI
+always                              galli                   GAQI
+always                              gallig                  GAQ>
+always                                llier                 QI7
+always                            gondolier                 GONtDOtLI7
+begmidword                        magnoli                   MAGtNOtLI
+always                            anatoli                   +AtTOtLI
+always                               juliet                 JUtLItET
+begmidword                          apuli                   APUtLI
+# mIE
+midendword                             mien                 MIC
+prfword                                miene                M0tNE
+always                                 mienen               M0tNC
+begmidword                     mesopotami                   M%OtPOtTAtMI
+midendword                            emien                 [IC
+begmidword                           mumi                   MUtMI
+# nIE
+midendword                             nien                 NIC
+begmidword                         albani                   :B+I
+begmidword                        jordani                   J?tD+I
+always                               daniel                 D+IY
+begmidword                         ozeani                   OZE+I
+always                            nathaniel                 NAtTH+IY
+begmidword                        bethani                   ;TH+I
+always                            germanien                 G7tM+IC
+always                            tasmani                   TAStM+I
+begmidword                          spani                   SP+I
+always                              spaniel                 SP+IY
+begmidword                         akrani                   AKR+I
+begmidword                          orani                   ?+I
+begmidword                         gerani                   G7+I
+begmidword                         turani                   TUtR+I
+begmidword                        tansani                   T+tS+I
+begmidword                      mauretani                   M1REtT+I
+begmidword                       aquitani                   A'QUItT+I
+begmidword                        kastani                   KA]+I
+begmidword                        silvani                   SILtV+I
+always                       tschetscheni                   T5ET5CI
+always                       tschetschenin                  T5ET5C*
+always                           turkmeni                   TURKtMCI
+always                             armeni                   )tMCI
+begmidword                        sloweni                   SLOtWCI
+begmidword                           xeni                   'XCI
+begmidword                        insigni                   *tS>tNI
+always                             robini                   ROtB*I
+always                            jardinier                 J)tD*I7
+begmidword                        sardini                   S)tD*I
+begmidword                           finien                 F*IC
+begmidword                           lini                   L*I
+word                              pollini                   POQ*I
+prfword                              pinie                  P*IE
+always                               pinien                 P*IC
+begmidword                       abessini                   A;^*I
+begmidword                        grusini                   GRUtS*I
+begmidword                      argentini                   )tGCtT*I
+begmidword                         aktini                   AKtT*I
+always                             aktinin                  AKtT**
+prfword                              zinie                  Z*IE
+always                               zinien                 Z*IC
+### und die korrekte Schreibweise ...
+prfword                             zinnie                  Z*tNIE
+always                              zinnien                 Z*tNIC
+begmidword                       kaledoni                   K:EtDOtNI
+begmidword                       makedoni                   MAtKEtDOtNI
+begmidword                       mazedoni                   MAtZEtDOtNI
+begmidword                        aragoni                   )AtGOtNI
+always                             begoni                   ;GOtNI
+begmidword                       babyloni                   BAtB'YtLOtNI
+begmidword                       kataloni                   KAtT:OtNI
+begmidword                        slawoni                   SLAtWOtNI
+begmidword                      kaliforni                   K:ItF?tNI
+always                              bosnien                 BOStNIC
+always                              bosnier                 BOStNI7
+begmidword                           puni                   P/I
+begmidword                         petuni                   PEtT/I
+begmidword                        bithyni                   BItTH'YtNI
+# oIE
+prfword                               boie                  BOIE
+always                                boien                 BOIC
+word                                  foie                  FOIE
+always                                voien                 VOIC
+# pIE
+word                                   pie                  PIE
+sufword                                piedra               PIEDRA
+always                                 piemont              PIEtMONT
+midendword                             pien                 PIC
+sufword                                piensa               PICSA
+sufword                                piero                PI7O
+always                                 pierre               PI7tRE
+always                                 pierres              PI7tR%
+always                                 pierrot              PI7tROT
+always                                 pieta                PIEtTA
+### auch mit Akzent   pieta                      PIEtTA
+always                                 pietro               PIEtTRO
+begmidword                        äthiopi                   @THIOtPI
+prfword                              rupie                  RUtPIE
+always                               rupien                 RUtPIC
+# qIE
+# rIE
+word                                   rien                 RIC
+midendword                             rien                 RIC
+prfword                               arie                  )IE
+sufword                               ariel                 )IY
+prfword                               arielle               )IEQE
+prfword                               arielles              )IEQ%
+always                               marie                  M)0
+prfword                              mariette               M)ItET(
+always                               mariett                M)ItETT
+always                               marien                 M)IC
+always                                arier                 )I7
+always                              gabriel                 GABRIY
+always                                erien                 7IC
+always                              iberien                 IB7IC
+always                               terien                 T7IC
+begmidword                         algeri                   :G7I
+begmidword                         sibiri                   SItBItRI
+begmidword                          henriett                HCtRItETtT
+prfword                             henriette               HCtRItET(
+always                                orient                ?ICT
+begmidword                          glori                   GL?I
+begmidword                        zichori                   Z#?I
+always                              carrier                 'C)tRI7
+always                              barrier                 B)tRIt7
+always                              harriet                 H)tRIET
+always                              perrier                 P7tRI7
+always                              terrier                 T7tRI7
+begmidword                          corrier                 'C?tRI7
+always                                triest                TRIE]
+always                              saurier                 S1tRI7
+prfword                              muriel                 MUtRIY
+prfword                              muriels                MUtRIYS
+always                              courier                 'COUtRI7
+always                             illyrier                 IQ'YtRI7
+begmidword                           syri                   S'YtRI
+begmidword                           syrin                  S'YtR*
+begmidword                         assyri                   A^'YtRI
+# sIE
+midendword                             sien                 SIC
+begword                                sierr                SI7tR
+always                                 sierra               SI7tRA
+always                                 siesta               SIE]A
+midendword                             sieur                SI2R
+begmidword                        kaukasi                   K1tKAtSI
+begmidword                       douglasi                   DOUGLAtSI
+begmidword                       austrasi                   1]RAtSI
+begmidword                         eurasi                   2tRAtSI
+midendword                         antasie                  +tTAtS0
+endword                            antasien                 +tTAtSIC
+endword                               esien                 %IC
+begmidword                        rhodesi                   RHOtD%I
+begmidword                         freesi                   FREEtSI
+begmidword                        schlesi                   5L%I
+always                             milesier                 MItL%I7
+begmidword                       melanesi                   MY+%I
+begmidword                       indonesi                   *tDOtN%I
+begmidword                      mikronesi                   MItKROtN%I
+begmidword                         tunesi                   T/%I
+begmidword                       polynesi                   POtL'YtN%I
+always                            theresien                 TH7%IC
+begmidword                         fuchsi                   FU4tSI
+always                             fuchsig                  FU4tS>
+always                            chemisier                 4[ItSI7
+always                            lavoisier                 LAtVOItSI7
+begmidword                       hortensi                   H?tTCtSI
+midendword                            ssien                 ^IC
+midendword                          messieur                ME^I2R
+always                            jurassier                 JUtRA^I7
+always                           arkebusier                 )tKEtBUtSI7
+always                            corbusier                 'C?tBUtSI7
+begmidword                       andalusi                   +tD:UtSI
+always                            malaysier                 M:A'YtSI7
+# tIE
+midendword                             tien                 TIC
+midendword                            atien                 AtTIC
+prfword                                tiens                TICS
+prfword                                tient                TICT
+always                              poitiers                POItTI7S
+begmidword                        helveti                   HYtVEtTI
+always                              poitiers                POItTI7S
+always                              cartier                 'C)tTI7
+midendword                            stien                 ]IC
+midendword                           estien                 E]IC
+always                              gautier                 G1tTI7
+always                              moutier                 MOUtTI7
+# uIE
+always                                quieu                 'QUI2
+# vIE
+begmidword                             vienn                VICN
+always                                 viet                 VIET
+always                                 view                 VIEW
+always                               javier                 JAtVI7
+begmidword                     skandinavi                   SK+tD*AtVI
+always                               xavier                 'XAtVI7
+begmidword                         endivi                   CtDItVI
+begmidword                         bolivi                   BOtLItVI
+always                               riviera                RItVI7A
+always                               vivien                 VItVIC
+# wIE
+always                          jugoslawi                   JUtGOtSLAtWI
+always                          jugoslawin                  JUtGOtSLAtW*
+always                            moldawi                   MOLtDAtWI
+# xIE
+always                             galaxien                 G:At'XIC
+begmidword                          gloxini                 GLOt'X*I
+# yIE
+begmidword                         harpyi                   H)tP'YtI
+# zIE
+midendword                             zien                 ZIC
+begmidword                          akazi                   AKAtZI
+begmidword                          grazi                   GRAtZI
+begmidword                        pistazi                   PI]AtZI
+begmidword                      allochezi                   AQOt4EtZI
+begmidword                        alopezi                   :OtPEtZI
+begmidword                        phönizi                   PH9tNItZI
+always                            patrizier                 PAtTRItZI7
+begmidword                      alkylanzi                   :tK'YtL+tZI
+
+# IG  (4.1 Lautgruppenkürzungen)
+midendword                              ig                  >
+midword                                 ignor               IGN?
+endword                                 ignor               IGNOR
+midendword                              igold               IwGOLD
+midendword                              igolf               IwGOLF
+always                                 aig                  AIG
+always                                hai                   HAI
+always                              sinai                   S*AI
+always                             bonsai                   BONtSAI
+always                               rigigrat               RItGIwGRAT
+always                                 high                 HIGH
+always                              khaki                   KHAtKI
+always                                 light                LIGHT
+always                                 mignon               MIGNON
+always                                 night                NIGHT
+always                             armani                   )tM+I
+always                             champignon               4AMtPIGNON
+always                                 right                RIGHT
+always                                 rigips               RItGIPS
+always                           lollobrigida               LOQOtBRItGItDA
+always                              aborigine               ABt?>*E
+always                              aborigines              ABt?>*%
+always                                trigeminus            TRIwG[*US
+always                                 sight                SIGHT
+prfword                                sign                 SIGN
+### Akzent              signifié
+prfword                                signs                SIGNS
+always                                luigi                 LUItGI
+always                                avignon               AVIGNON
+always                               savigny                SAtVIGN'Y
+always                              sauvignon               S1tVIGNON
+always                                dwight                DWIGHT
+
+# IN  (4.1 Lautgruppenkürzungen)
+always                                  in                  *
+always                                cain                  'CAIN
+always                            novocain                  NOtVOt'CA*
+always                             bougain                  BOUtGAIN
+begmidword                       bermudain                  B7tMUtDAt*
+always                                hain                  HAIN
+always                                kain                  KAIN
+always                              kokain                  KOtKA*
+always                         chamberlain                  4AMtB7tLAIN
+always                               plain                  PLAIN
+always                                main                  MAIN
+begmidword                        bahama                    BAtHAtMA
+always                                paint                 PAINT
+always                                rain                  RAIN
+begmidword                          ukrain                  UKRA*
+always                                rainier               RAItNI7
+always                               training               TRAIN*G
+prfword                               saint                 SAINT
+prfword                               sainte                SAIN(
+always                                tain                  TAIN
+always                            mountain                  MOUNtTAIN
+always                               twain                  TWAIN
+before_n_begmidword                  juli                   JUtLI
+before_n_begmidword                  juni                   J/I
+always                                cointreau             'COINtTRE1
+always                                joint                 JOINT
+always                                point                 POINT
+always                              antoin                  +TOIN
+always                           allantoin                  AQ+TO*
+always                              multination             MULtTIwN!N
+always                           aschantinuss               A5+tTItNU^
+always                           aschantinüss               A5+tTItN8^
+always                           mannequin                  M+NEt'QU*
+
+# LICH (4.1 Lautgruppenkürzungen)
+midendword                              lich                _
+
+# LL  (4.1 Lautgruppenkürzungen)
+midendword                              ll                  Q
+# Alte Rechtschreibung
+always                             büffel                   B8FtFY
+always                          schlängel                   5L@NtGY
+begmidword                         henkellöch               HCtKYwL94
+always                           schunkel                   5/tKY
+always                             bummel                   BUXY
+always                             murmel                   MURtMY
+always                             kessel                   KE^Y
+always                           schüssel                   58^Y
+always                          schlüssel                   5L8^Y
+before_l_midword                       hl                   HL
+before_l_begmidword                  fehl                   F=L
+before_l_begmidword                  kehl                   K=L
+always                           krokodil                   KROtKOtDIL
+before_l_begmidword                  heil                   H3L
+before_l_begmidword                  teil                   T3L
+before_l_begmidword                 steil                   ]3L
+always                            bouteill                  BOUtTEIQ
+before_l_begmidword                 april                   APRIL
+
+# MM  (4.1 Lautgruppenkürzungen)
+before_m_begmidword                  heim                   H3M
+before_m_begmidword                  leim                   L3M
+before_m_begmidword                    lm                   LM
+before_m_begmidword                   alm                   :M
+before_m_begmidword                   elm                   YM
+before_m_begmidword                    rm                   RM
+before_m_begmidword                   arm                   )M
+before_m_begmidword                   orm                   ?M
+before_m_begmidword                   aum                   1M
+before_m_begmidword                   äum                   \M
+before_m_begmidword                   ium                   IUM
+
+# OR  (4.1 Lautgruppenkürzungen)
+begmidword                              or                  ?
+always                              kongo                   KONtGO
+always                            jericho                   J7#O
+begmidword                           beloru                 BYOtRU
+always                              gallo                   GAQO
+always                             eskimo                   %KItMO
+always                                  oor                 OOR
+always                                 rororo               RORORO
+always                               rätorom                R@tTOtROM
+
+# Q   (4.1 Lautgruppenkürzungen)
+word                                    q                   'Q
+always                                  q                   'Q
+# Grossgeschriebene Wortanfänge erhalten sonst keinen Pt.6!
+#=#context ["Q"]$u @6-12345
+
+# SCH (4.1 Lautgruppenkürzungen)
+word                                    sch                 '5
+always                                  sch                 5
+always                              maraschino              M)ASt4*O
+begmidword                             eschatolo            %t4AtTOtLO
+always                               lieschen               L0St4C
+always                               wieschen               W0St4C
+always                                 ischia               ISt4IA
+always                               hänschen               H@NSt4C
+
+# ß   (4.1 Lautgruppenkürzungen)
+always                                  ß                   ^
+### MACH NOCH ....
+
+# SS  (4.1 Lautgruppenkürzungen)
+midendword                              ss                  ^
+midword                                 ssch                St5
+midendword                              sschnee             Sw5NEE
+midword                                sssch                ^t5
+syllable                                 sattel             SATTY
+syllable                                 savann             SAtV+tN
+syllable                                 stadien            ]AtDIC
+syllable                                 stadion            ]AtDION
+syllable                                 stadium            ]AtDIUM
+syllable                                 staffel            ]AFtFY
+syllable                                 stahl              ]AHL
+syllable                                 stausee            ]1wSEE
+syllable                                 stauseen           ]1wSEC
+syllable                                 städte             ]@D(
+syllable                                 städten            ]@DtTC
+syllable                                 städter            ]@DtT7
+syllable                                 stöck              ]9$
+syllable                                 sylvani            S'YLtV+I
+midendword                              ssaal               SwSAAL
+always                               flussaal               FLU^wAAL
+midendword                              ssee                SwSEE
+always                              chaussee                41^EE
+prfword                             chausseen               41^EC
+always                               odyssee                OD'Y^EE
+prfword                              odysseen               OD'Y^EC
+midendword                              sseel               SwSEEL
+midendword                              sseen               SwSEC
+always                                hussein               HU^E*
+endword                                 sseite              SwS3(
+midendword                              sseiten             SwS3TC
+midword                                 ssektor             SwSEKtT?
+endword                                 ssektor             SwSEKtTOR
+always                             peterssen                PEtT7StSC
+midendword                              ssohn               SwSOHN
+after_konsonant_midendword              sson                StSON
+midendword                              ssonder             SwSONtD7
+endword                                 ssonne              SwSONtNE
+midendword                              ssonnen             SwSONtNC
+midendword                              sspiegel            SwSP0tGY
+midendword                              sspiel              SwSP0L
+always                              aronsstab               )ONSw]AB
+midendword                             rsstab               RSw]AB
+always                                  sstachel            Sw]<Y
+always                                  sstapel             Sw]AtPY
+midword                                ssst                 ^w]
+midword                                ssstell              ^w]EQ
+endword                                 sstaude             Sw]1tDE
+midendword                              sstauden            Sw]1tDC
+midendword                              ssteak              Sw]EAK
+endword                                 ssteppe             Sw]EPtPE
+midendword                              ssteppen            Sw]EPtPC
+midendword                              sstock              Sw]O$
+midendword                              sstollen            Sw]OQC
+midendword                              sstolz              Sw]OLZ
+midendword                              sstrand             Sw]R+D
+midendword                              sstrauch            Sw]R14
+midendword                              sstraß              Sw]RA^
+endword                                 sstreck             Sw]RE$
+endword                                 sstube              Sw]UtBE
+midendword                              sstuben             Sw]UtBC
+endword                                 sstute              Sw]U(
+midendword                              sstuten             Sw]UtTC
+midendword                              sstutz              Sw]UTZ
+midendword                              ssumpf              SwSUMPF
+endword                                 ssäle               SwS@tLE
+midendword                              ssälen              SwS@tLC
+midendword                              ssäuger             SwS\tG7
+midendword                              ssäugetier          SwS\&tT0R
+endword                                 ssäule              SwS\tLE
+midendword                              ssäulen             SwS\tLC
+always                             niklas                   NIKtLAS
+always                            nicklas                   NI$tLAS
+always                              krebs                   KREBS
+before_s_begmidword                 leibs                   L3BS
+always                              weibs                   W3BS
+always                              kalbs                   K:BS
+always                             jakobs                   JAtKOBS
+always                             jakobstraß               JAtKOBw]RA^
+always                              ericsson                7I'CStSON
+always                            herolds                   H7OLDS
+always                            heroldstab                H7OLDw]AB
+always                            rolands                   ROtL+DS
+always                               anissamen              +ISwSAMC
+always                           johannis                   JOtH+tNIS
+always                              karls                   K)LS
+always                              karlstad                K)Lt]AD
+begmidword                          karlstraß               K)Lt]RA^
+before_s_begword                    kokos                   KOtKOS
+always                             kosmos                   KOStMOS
+before_s_begmidword                  moos                   MOOS
+always                              lotos                   LOtTOS
+always                            schnaps                   5NAPS
+before_s_begmidword                  mars                   M)S
+always                            velours                   VYOURS
+always                            merkur                    M7tKUR
+always                             bambus                   BAMtBUS
+always                            pyrrhus                   P'YRRHUS
+always                             gallus                   GAQUS
+always                              venus                   VCUS
+always                             taunus                   T1tNUS
+always                            papyrus                   PAtP'YtRUS
+
+# ST  (4.1 Lautgruppenkürzungen)
+word                                    st                  ST
+always                                  st                  ]
+word                                    sta                 STA
+always                              herbst                  H7B]
+midendword                              stown               SwTOWN
+always                                  sthm                STHM
+always                            hephaistostempel          HEtPHAI]OSwT[tPY
+prfword                             fallstor                FQSwTOR
+always                              fallstor                FQSwT?
+prfword                          hadrianstor                HAtDRIt+StTOR
+always                           hadrianstor                HAtDRIt+StT?
+always                           agulhasstrom               AGULtHASw]ROM
+always                            thomasst                  THOtMASt]
+always                             juliusturm               JUtLItUSwTURM
+always                          konfuziustempel             KONtFUtZItUSwT[tPY
+
+# TE  (4.1 Lautgruppenkürzungen)
+midendword                              te                  (
+always                                  tee                 TEE
+midendword                              tei                 T3
+midendword                              tein                T6
+always                                  teuer               T27
+always                                  teuf                T2F
+always                                  teupitz             T2tPITZ
+always                                  teur                T2R
+always                                  teutoburg           T2tTOtBURG
+always                                  teuton              T2tTON
+always                               saateul                SAATw2L
+### Verallgemeinerung zu gefährlich?
+midendword                              teau                TE1
+always                               proteus                PROtT2S
+always                                gutedel               GUTwEDY
+
+# TEh
+begmidword                              teh                 T=
+before_h_begmidword                  white                  WHI(w
+always                               buxtehud               BU'X(tHUD
+
+# TEl
+always                                  tel                 TY
+sufword                                 tell                TEQ
+midendword                              tell                (Q
+# TEm
+always                                  tem                 T[
+midendword                              temann              (wM+N
+# TEn
+always                                  ten                 TC
+# TEr
+always                                  ter                 T7
+# TEs
+always                                  tes                 T%
+# TEsch
+always                                  tesch               (5
+prfword                              weltesche              WYTwE5E
+prfword                              welteschen             WYTwE5C
+# TEss
+midendword                              tess                (^
+sufword                                 tess                TE^
+# TEst
+sufword                                 test                TE]
+midendword                              test                (]
+
+# UN  (4.1 Lautgruppenkürzungen)
+word                                    un                  UN
+always                                  un                  /
+always                                mount                 MOUNT
+always                              bantuneger              B+TUwNEtG7
+
+# X   (4.1 Lautgruppenkürzungen)
+word                                    x                   'X
+always                                  x                   'X
+# Grossgeschriebene Wortanfänge erhalten sonst keinen Pt.6!
+#=#context ["X"]$u @6-1346
+
+# Y   (4.1 Lautgruppenkürzungen)
+word                                    y                   'Y
+always                                  y                   'Y
+# Grossgeschriebene Wortanfänge erhalten sonst keinen Pt.6!
+#=#context ["Y"]$u @6-13456
+
+
+###############  Weitere erlaubte Kürzungen ####################
+
+word                                    von                 V
+
