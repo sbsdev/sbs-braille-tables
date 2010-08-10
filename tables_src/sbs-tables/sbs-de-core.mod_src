@@ -67,7 +67,7 @@ postpunc     \x255D                  '.      VOLLSCHRIFT Ende
 ### *** 2.2 Interpunktions- und Sonderzeichen **********************************
 midnum       ,                       ,       Komma
 endnum       ;                       ';      Strichpunkt
-endnum       :                       ':
+###Nach hinten gezügelt, siehe Divisionszeichen: endnum : ':
 endnum       ?                       '?      Fragezeichen
 endnum       !                       '+      Ausrufezeichen
 always       !                       +
@@ -288,6 +288,7 @@ midnum       \x22c6                  .#
 midnum       \s:\s                   ":#
 midnum       \s:                     ":#
 midnum       :                       ":#
+endnum       :                       ':
 midnum       \s÷\s                   b":#
 midnum       \s÷                     b":#
 midnum       ÷                       b":#

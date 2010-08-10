@@ -42,7 +42,6 @@ postpunc \x255D 6-3 VOLLSCHRIFT Ende
 
 midnum , 2 Komma
 endnum ; 6-23 Strichpunkt
-endnum : 6-25
 endnum ? 6-26 Fragezeichen
 endnum ! 6-235 Ausrufezeichen
 always ! 235
@@ -192,6 +191,7 @@ midnum \x22c6 3-3456
 midnum \s:\s 4-25-3456
 midnum \s: 4-25-3456
 midnum : 4-25-3456
+endnum : 6-25
 midnum \s÷\s 0-4-25-3456
 midnum \s÷ 0-4-25-3456
 midnum ÷ 0-4-25-3456
