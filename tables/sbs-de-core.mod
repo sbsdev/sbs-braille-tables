@@ -43,8 +43,9 @@ postpunc \x255D 6-3 VOLLSCHRIFT Ende
 midnum , 2 Komma
 endnum ; 6-23 Strichpunkt
 endnum ? 6-26 Fragezeichen
+word ? 6-26
 endnum ! 6-235 Ausrufezeichen
-always ! 235
+word ! 6-235
 midword ( 6-2356 Runde Klammer auf
 midnum ( 6-2356-3456
 endnum ( 6-2356
