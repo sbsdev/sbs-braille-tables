@@ -1461,7 +1461,7 @@ word                                    c                   'C
 always                                  c                   'C
 always                                  c.                  'C.
 # Grossgeschriebene Wortanfänge erhalten sonst keinen Pt.6!
-#=#context ["C"]$u @6-14
+#=#context ["C"]$a @6-14
 
 # CH  (4.1 Lautgruppenkürzungen)
 word                                    ch                  '4
@@ -7139,7 +7139,7 @@ word                                    q                   'Q
 always                                  q                   'Q
 always                                  q.                  'Q.
 # Grossgeschriebene Wortanfänge erhalten sonst keinen Pt.6!
-#=#context ["Q"]$u @6-12345
+#=#context ["Q"]$a @6-12345
 
 # RECHT (4.4 Zweiformige Kürzungen)
 always                                  recht               RT
@@ -10513,13 +10513,13 @@ word                                    x                   'X
 always                                  x                   'X
 always                                  x.                  'X.
 # Grossgeschriebene Wortanfänge erhalten sonst keinen Pt.6!
-#=#context ["X"]$u @6-1346
+#=#context ["X"]$a @6-1346
 
 # Y   (4.1 Lautgruppenkürzungen)
 word                                    y                   'Y
 always                                  y                   'Y
 # Grossgeschriebene Wortanfänge erhalten sonst keinen Pt.6!
-#=#context ["Y"]$u @6-13456
+#=#context ["Y"]$a @6-13456
 
 # ZAHL ZÄHL (4.4 Zweiformige Kürzungen)
 always                                  zahl                ZL
