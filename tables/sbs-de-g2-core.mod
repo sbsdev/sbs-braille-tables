@@ -177,7 +177,10 @@ always ähnlich 345-456
 # AL  (4.1 Lautgruppenkürzungen)
 begmidword al 25
 # Lautgruppe nach Apostroph verhindern
-pass2 !$D[@6-25]!$ps @6-1-123
+correct "'"["al"] "a¦l"
+correct "'"["Al"] "A¦l"
+correct "'"["aL"] "a¦L"
+correct "'"["AL"] "A¦L"
 midendword alikör 1-f-123-24-e-13-246-1235
 always aal 1-1-123
 begmidword chinaalk 1456-35-1-f-25-13
@@ -379,7 +382,10 @@ begmidword instrumental 35-23456-1235-136-e-134-14-e-2345-25
 word an 235
 begmidword an 235
 # Lautgruppe nach Apostroph verhindern
-pass2 !$D[@6-235]!$ps @6-1-1345
+correct "'"["an"] "a¦n"
+correct "'"["An"] "A¦n"
+correct "'"["aN"] "a¦N"
+correct "'"["AN"] "A¦N"
 always anistisch 235-5-156
 always anation 1-1345-5-1345
 always afrikaans 1-124-e-1235-24-e-13-1-1-1345-234
@@ -473,7 +479,10 @@ always zander 1356-235-e-145-12456
 # AR  (4.1 Lautgruppenkürzungen)
 begmidword ar 356
 # Lautgruppe nach Apostroph verhindern
-pass2 !$D[@6-356]!$ps @6-1-1235
+correct "'"["ar"] "a¦r"
+correct "'"["Ar"] "A¦r"
+correct "'"["aR"] "a¦R"
+correct "'"["AR"] "A¦R"
 before r begmidword kuba 13-136-e-12-1
 always amerika 1-134-12456-24-e-13-1-f
 before r always afrika 1-124-1235-24-e-13-1-f
@@ -5679,7 +5688,10 @@ always zimmer 1356-24-1346-12456
 # IN  (4.1 Lautgruppenkürzungen)
 always in 35
 # Lautgruppe nach Apostroph verhindern
-pass2 !$D[@6-35]!$ps @6-24-1345
+correct "'"["in"] "i¦n"
+correct "'"["In"] "I¦n"
+correct "'"["iN"] "i¦N"
+correct "'"["IN"] "I¦N"
 always cain 6-14-1-24-1345
 always novocain 1345-135-e-1236-135-e-6-14-1-35
 always bougain 12-135-136-e-1245-1-24-1345
@@ -6939,7 +6951,10 @@ always wohn 2456-135-125-1345
 # OR  (4.1 Lautgruppenkürzungen)
 begmidword or 26
 # Lautgruppe nach Apostroph verhindern
-pass2 !$D[@6-26]!$ps @6-135-1235
+correct "'"["or"] "o¦r"
+correct "'"["Or"] "O¦r"
+correct "'"["oR"] "o¦R"
+correct "'"["OR"] "O¦R"
 always kakao 13-1-e-13-1-135
 always mexico 134-15-e-6-1346-24-e-6-14-135
 always disco 145-24-234-e-6-14-135
