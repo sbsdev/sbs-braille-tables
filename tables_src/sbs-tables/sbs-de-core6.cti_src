@@ -29,7 +29,7 @@
 #=#punctuation   \x002C 2               #44    , COMMA
 #=#punctuation   \x002D 36              #45    - HYPHEN-MINUS
 #=#punctuation   \x002E 3               #46    . FULL STOP PERIOD
-#=#sign          \x002F 256             #47    / SOLIDUS SLASH
+#=#punctuation   \x002F 256             #47    / SOLIDUS SLASH
 #=#digit         \x0030 346             #48    0 DIGIT ZERO
 #=#digit         \x0031 16              #49    1 DIGIT ONE
 #=#digit         \x0032 126             #50    2 DIGIT TWO
