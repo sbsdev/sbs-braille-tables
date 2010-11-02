@@ -46,6 +46,7 @@ endnum ? 6-26 Fragezeichen
 word ? 6-26
 endnum ! 6-235 Ausrufezeichen
 word ! 6-235
+always ! 235
 midword ( 6-2356 Runde Klammer auf
 midnum ( 6-2356-3456
 endnum ( 6-2356
