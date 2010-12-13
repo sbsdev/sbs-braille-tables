@@ -70,8 +70,16 @@ endnum       ;                       ';      Strichpunkt
 ###Nach hinten gezügelt, siehe Divisionszeichen: endnum : ':
 endnum       ?                       '?      Fragezeichen
 word         ?                       '?
+word         ??                      '??
+always       ??                      ??
 endnum       !                       '+      Ausrufezeichen
 word         !                       '+
+word         !!                      '++
+always       !!                      ++
+word         !?                      '+?
+always       !?                      +?
+word         ?!                      '?+
+always       ?!                      ?+
 always       !                       +
 midword      (                       '=      Runde Klammer auf
 midnum       (                       '=#

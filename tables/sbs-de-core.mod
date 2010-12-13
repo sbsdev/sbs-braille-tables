@@ -44,8 +44,16 @@ midnum , 2 Komma
 endnum ; 6-23 Strichpunkt
 endnum ? 6-26 Fragezeichen
 word ? 6-26
+word ?? 6-26-26
+always ?? 26-26
 endnum ! 6-235 Ausrufezeichen
 word ! 6-235
+word !! 6-235-235
+always !! 235-235
+word !? 6-235-26
+always !? 235-26
+word ?! 6-26-235
+always ?! 26-235
 always ! 235
 midword ( 6-2356 Runde Klammer auf
 midnum ( 6-2356-3456
