@@ -1618,6 +1618,8 @@ word ebendieses 15-12-14-e-346-123456
 # DIR (4.4 Zweiformige Kürzungen)
 word dir 145-1235
 word dir's 145-1235-6-234
+word dr 6-145-1235
+always dr. 145-1235-3
 
 # DOCH (4.4 Zweiformige Kürzungen)
 word doch 145-1456
@@ -6454,6 +6456,10 @@ always mehr 2-2356
 # MIR (4.4 Zweiformige Kürzungen)
 always mir 134-1235
 always mir's 134-1235-6-234
+word mr 6-134-1235
+always mr. 134-1235-3
+word mrs 6-134-1235-234
+always mrs. 134-1235-234-3
 always mira 134-24-e-1235-1
 always miranda 134-24-e-1235-235-e-145-1
 sufword mirek 134-24-e-1235-15-13
