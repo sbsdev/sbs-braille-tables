@@ -2492,6 +2492,7 @@ midendword                              emäßig              EwM@^>
 midendword                              emäuer              EwM\7
 midword                                 eminerali           EwM*7:I
 midendword                              emischung           EwMIt5U
+midendword                              emodell             EwMOtDEQ
 prfword                                 emund               EwM/D
 prfword                                 emunds              EwM/DS
 before_m_begmidword                reggae                   REGtGAE
@@ -2733,6 +2734,8 @@ always                              meldenetz               MYtDEwNETZ
 always                              meldenot                MYtDEwNOT
 always                            geländeneigung            &tL@NtDEwN3GU
 always                           gemeindenah                &tM6tDEwNAH
+always                              hundenack               H/tDEwNA$
+always                              hundenahr               H/tDEwNAHR
 always                              hundenapf               H/tDEwNAPF
 begmidword                          hundenam                H/tDEwNAtM
 always                              hundenarr               H/tDEwN)R
@@ -3001,6 +3004,8 @@ begmidword                          näheer                  N@HEw7
 always                               cheer                  4EER
 before_e_always                 schwäche                    5W@4E
 before_er_begmidword           recherche                    REt47t4Ew
+begmidword                         ascheraup                A5EwR1P
+begmidword                         ascheräup                A5EwR\P
 begmidword                         ascheroll                A5EwROQ
 begmidword                         ascheröll                A5EwR9Q
 always                            wäscheraum                W@5EwR1M
@@ -3172,6 +3177,7 @@ prfword                             wärmerinnen             W@RtM7*tNC
 prfword                             wärmern                 W@RtM7N
 prfword                             wärmers                 W@RtM7S
 always                           schwärmer                  5W@RtM7
+always                              türmereich              T8RtMEwR34
 begmidword                          sahneroll               SAHtNEwROQ
 prfword                             sühneritual             S8HtNEwRItTUtAL
 begmidword                          sühneritual             S8HtNEwRItTU:
@@ -3246,6 +3252,7 @@ prfword                             halteringe              H:(wR*&
 always                              warteraum               W)(wR1M
 begmidword                          warteräum               W)(wR\M
 before_er_begmidword                gäste                   G@]E
+always                              resteramp               RE]EwRAMP
 always                              pusterohr               PU]EwROHR
 begmidword                          pusteröhr               PU]EwR9HR
 begmidword                           räteregier             R@(wRG
@@ -3403,6 +3410,7 @@ prfword                            puzzles                  PUZZL%
 before_s_always                   reklame                   REKLAtME
 before_s_always                     creme                   'CR[E
 prfword                             cremes                  'CR[%
+begmidword                          filmeseh                FILtMEwS=
 prfword                              homesite               HOMEwSI(
 before_s_always                     wärme                   W@RtME
 always                               ganesh                 G+ESH
@@ -4234,6 +4242,8 @@ begmidword                              genarr              &tN)R
 prfword                                 genas               &tNAS
 always                                  genäs               &tN@S
 always                                  genäss              &tN@^
+# Alte Rechtschreibung
+always                                  genäß               &tN@^
 always                                  genäschig           &tN@t5>
 always                                  genascht            &tNA5T
 prfword                                 genaschte           &tNA5(
@@ -4295,6 +4305,7 @@ always                                  genick              &tNI$
 word                                    genien              GCIC
 always                                  geniesel            &tN0tSY
 prfword                                 geniest             &tN0]
+prfword                                 genieste            &tN0]E
 always                                  genieß              &tN0^
 always                                  genietet            &tN0t(T
 prfword                                 genietete           &tN0((
@@ -4371,6 +4382,7 @@ prfword                                 gerien              G7IC
 sufword                                 gerier              G70R
 always                               suggerier              SUGtG70R
 always                               sengerig               SCtG7>
+midendword                              gerinnerung         Gw7*tN7U
 midendword                             ggerli               GtG7LI
 syllable                                gerlind             G7tL*D
 always                                  germ                G7M
@@ -4694,6 +4706,7 @@ always                               entgegenwarten         ^t,GtW)tTC
 # GELEGEN (4.4 Zweiformige Kürzungen)
 # HOMONYM
 always                                  gelegen             GG
+always                              dringelegen             DR*tGG
 
 # GESCHÄFT (4.4 Zweiformige Kürzungen)
 always                                  geschäft            GF
@@ -6225,6 +6238,10 @@ always                               knöll                  KN9Q
 always                                pollauf               POLwL1F
 always                                polläuf               POLwL\F
 always                                röll                  R9Q
+# Alte Rechtschreibung
+always                                rolladen              ROLLADC
+# Alte Rechtschreibung
+always                                rolläden              ROLL@DC
 before_l_begmidword                petrol                   PETROLw
 always                              lysol                   L'YtSOL
 always                                söller                S9Q7
@@ -6413,6 +6430,7 @@ always                                 small                SMAQ
 begmidword                         wachsmal                 W<StM:
 begmidword                          lautmal                 L1TtM:
 begmidword                            rumalber              RUMw:B7
+begmidword                          abzumal                 ABt,ZtM:
 begmidword                         aufzumal                 ,1t,ZtM:
 begword                            rumzumal                 RUMt,ZtM:
 begword                          herumzumal                 H7UMt,ZtM:
@@ -6933,6 +6951,7 @@ always                               ronnis                 RONtNIS
 word                               draconis                 DRAt'COtNIS
 always                          berlusconis                 B7tLUtS'COtNIS
 always                                 onismus              ON!I
+prfword                               bonis                 BOtNIS
 always                               adonis                 ADOtNIS
 always                               adonisch               ADOtNI5
 always                            mahagoni                  MAtHAtGOtNI
@@ -7054,6 +7073,7 @@ begmidword                              or                  ?
 #=#correct "'"["Or"] "O¦r"
 #=#correct "'"["oR"] "o¦R"
 #=#correct "'"["OR"] "O¦R"
+midendword                              oreduktion          OwREtDUKtTJ
 always                              kakao                   KAtKAO
 always                             mexico                   MEt'XIt'CO
 always                              disco                   DISt'CO
@@ -7153,6 +7173,8 @@ always                                supersonder           SUtP7tSONtD7
 
 # PHILOSOPH (4.4 Zweiformige Kürzungen)
 always                                  philosoph           PH
+# wegen "Phem":
+always                                  philosophem         PHItLOtSOtPH[
 
 # PLATZ PLÄTZ (4.4 Zweiformige Kürzungen)
 always                                  platz               PZ
@@ -8276,6 +8298,7 @@ always                           ganztags                   GZtTAGS
 always                           sonntags                   SONNtTAGS
 always                             kriegs                   KR0GS
 before_a_begmidword                kriegst                  KR0GSwT
+always                             kriegstänz               KR0GSwT@NZ
 before_r_begmidword                kriegst                  KR0GSwT
 always                             kriegstüchtig            KR0GSwT84tT>
 always                             kriegst                  KR0G]
@@ -8484,6 +8507,10 @@ always                              werkschrift             W7Kt5T
 always                            gewerkschaft              &tW7Kt5
 always                            gewerkschafts             &tW7Kt5S
 prfword                             werkst                  W7K]
+always                              werkstadt               W7Kw]ADT
+always                              werkstädt               W7Kw]@DT
+always                              werkstädte              W7Kw]@D(
+always                              werkstädten             W7Kw]@DtTC
 always                              werkstatt               W7Kw]ATT
 always                              werkstätt               W7Kw]@TT
 always                              werkstätte              W7Kw]@T(
@@ -10171,6 +10198,7 @@ always                              seezungen               SEEwZ/tGC
 always                            betonzungen               ;tTONwZ/tGC
 always                          flammenzungen               FLAXCwZ/tGC
 always                           ochsenzungen               O4tSCwZ/tGC
+always                           katzenzungen               KATtZCwZ/tGC
 always                           lästerzungen               L@]7wZ/tGC
 midendword                           erzungen               7wZ/tGC
 midendword                       sabberzungen               SABtB7wZ/tGC
@@ -10342,6 +10370,8 @@ word                                    voll                Q
 always                                  voll                ,Q
 always                                  völl                !Q
 always                                  volley              VOQE'Y
+# Alte Rechtschreibung
+word                                    vollaufen           VOLL1tFC
 
 # VOM (4.4 Zweiformige Kürzungen)
 always                                  vom                 VM
@@ -10598,6 +10628,7 @@ midendword                        prophezei                 PROtPHEtZ3
 # ZU (4.3.2 Einformige Kürzungen, alleinstehend oder in Wortverbindungen)
 word                                    zu                  Z
 always                                  zu                  ,Z
+before_u_begmidword                bilanz                   BItLANZw
 prfword                                 zuber               ZUtB7
 sufword                                 zuberbühler         ZUtB7tB8HtL7
 prfword                                 zubers              ZUtB7S

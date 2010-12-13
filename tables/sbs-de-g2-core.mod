@@ -2474,6 +2474,7 @@ midendword emäßig 15-f-134-345-2346-45
 midendword emäuer 15-f-134-34-12456
 midword eminerali 15-f-134-35-12456-25-24
 midendword emischung 15-f-134-24-e-156-136
+midendword emodell 15-f-134-135-e-145-15-12345
 prfword emund 15-f-134-256-145
 prfword emunds 15-f-134-256-145-234
 before m begmidword reggae 1235-15-1245-e-1245-1-15
@@ -2715,6 +2716,8 @@ always meldenetz 134-13456-e-145-15-f-1345-15-2345-1356
 always meldenot 134-13456-e-145-15-f-1345-135-2345
 always geländeneigung 12346-e-123-345-1345-e-145-15-f-1345-146-1245-136
 always gemeindenah 12346-e-134-1246-e-145-15-f-1345-1-125
+always hundenack 125-256-e-145-15-f-1345-1-46
+always hundenahr 125-256-e-145-15-f-1345-1-125-1235
 always hundenapf 125-256-e-145-15-f-1345-1-1234-124
 begmidword hundenam 125-256-e-145-15-f-1345-1-e-134
 always hundenarr 125-256-e-145-15-f-1345-356-1235
@@ -2983,6 +2986,8 @@ begmidword näheer 1345-345-125-15-f-12456
 always cheer 1456-15-15-1235
 before e always schwäche 156-2456-345-1456-15
 before er begmidword recherche 1235-15-e-1456-12456-e-1456-15-f
+begmidword ascheraup 1-156-15-f-1235-16-1234
+begmidword ascheräup 1-156-15-f-1235-34-1234
 begmidword ascheroll 1-156-15-f-1235-135-12345
 begmidword ascheröll 1-156-15-f-1235-246-12345
 always wäscheraum 2456-345-156-15-f-1235-16-134
@@ -3154,6 +3159,7 @@ prfword wärmerinnen 2456-345-1235-e-134-12456-35-e-1345-14
 prfword wärmern 2456-345-1235-e-134-12456-1345
 prfword wärmers 2456-345-1235-e-134-12456-234
 always schwärmer 156-2456-345-1235-e-134-12456
+always türmereich 2345-1256-1235-e-134-15-f-1235-146-1456
 begmidword sahneroll 234-1-125-e-1345-15-f-1235-135-12345
 prfword sühneritual 234-1256-125-e-1345-15-f-1235-24-e-2345-136-e-1-123
 begmidword sühneritual 234-1256-125-e-1345-15-f-1235-24-e-2345-136-25
@@ -3228,6 +3234,7 @@ prfword halteringe 125-25-236-f-1235-35-12346
 always warteraum 2456-356-236-f-1235-16-134
 begmidword warteräum 2456-356-236-f-1235-34-134
 before er begmidword gäste 1245-345-23456-15
+always resteramp 1235-15-23456-15-f-1235-1-134-1234
 always pusterohr 1234-136-23456-15-f-1235-135-125-1235
 begmidword pusteröhr 1234-136-23456-15-f-1235-246-125-1235
 begmidword räteregier 1235-345-236-f-1235-1245
@@ -3382,6 +3389,7 @@ prfword puzzles 1234-136-1356-1356-123-123456
 before s always reklame 1235-15-13-123-1-e-134-15
 before s always creme 6-14-1235-12356-15
 prfword cremes 6-14-1235-12356-123456
+begmidword filmeseh 124-24-123-e-134-15-f-234-2356
 prfword homesite 125-135-134-15-f-234-24-236
 before s always wärme 2456-345-1235-e-134-15
 always ganesh 1245-235-15-234-125
@@ -4210,6 +4218,8 @@ begmidword genarr 12346-e-1345-356-1235
 prfword genas 12346-e-1345-1-234
 always genäs 12346-e-1345-345-234
 always genäss 12346-e-1345-345-2346
+# Alte Rechtschreibung
+always genäß 12346-e-1345-345-2346
 always genäschig 12346-e-1345-345-e-156-45
 always genascht 12346-e-1345-1-156-2345
 prfword genaschte 12346-e-1345-1-156-236
@@ -4271,6 +4281,7 @@ always genick 12346-e-1345-24-46
 word genien 1245-14-24-14
 always geniesel 12346-e-1345-346-e-234-13456
 prfword geniest 12346-e-1345-346-23456
+prfword genieste 12346-e-1345-346-23456-15
 always genieß 12346-e-1345-346-2346
 always genietet 12346-e-1345-346-e-236-2345
 prfword genietete 12346-e-1345-346-236-236
@@ -4347,6 +4358,7 @@ prfword gerien 1245-12456-24-14
 sufword gerier 1245-12456-346-1235
 always suggerier 234-136-1245-e-1245-12456-346-1235
 always sengerig 234-14-e-1245-12456-45
+midendword gerinnerung 1245-f-12456-35-e-1345-12456-136
 midendword ggerli 1245-e-1245-12456-123-24
 syllable gerlind 1245-12456-e-123-35-145
 always germ 1245-12456-134
@@ -4668,6 +4680,7 @@ always entgegenwarten 2346-e-2-1245-e-2456-356-e-2345-14
 # GELEGEN (4.4 Zweiformige Kürzungen)
 # HOMONYM
 always gelegen 1245-1245
+always dringelegen 145-1235-35-e-1245-1245
 
 # GESCHÄFT (4.4 Zweiformige Kürzungen)
 always geschäft 1245-124
@@ -6173,6 +6186,10 @@ always knöll 13-1345-246-12345
 always pollauf 1234-135-123-f-123-16-124
 always polläuf 1234-135-123-f-123-34-124
 always röll 1235-246-12345
+# Alte Rechtschreibung
+always rolladen 1235-135-123-123-1-145-14
+# Alte Rechtschreibung
+always rolläden 1235-135-123-123-345-145-14
 before l begmidword petrol 1234-15-2345-1235-135-123-f
 always lysol 123-6-13456-e-234-135-123
 always söller 234-246-12345-12456
@@ -6361,6 +6378,7 @@ always small 234-134-1-12345
 begmidword wachsmal 2456-56-234-e-134-25
 begmidword lautmal 123-16-2345-e-134-25
 begmidword rumalber 1235-136-134-f-25-12-12456
+begmidword abzumal 1-12-e-2-1356-e-134-25
 begmidword aufzumal 2-16-e-2-1356-e-134-25
 begword rumzumal 1235-136-134-e-2-1356-e-134-25
 begword herumzumal 125-12456-136-134-e-2-1356-e-134-25
@@ -6880,6 +6898,7 @@ always ronnis 1235-135-1345-e-1345-24-234
 word draconis 145-1235-1-e-6-14-135-e-1345-24-234
 always berlusconis 12-12456-e-123-136-e-234-6-14-135-e-1345-24-234
 always onismus 135-1345-5-24
+prfword bonis 12-135-e-1345-24-234
 always adonis 1-145-135-e-1345-24-234
 always adonisch 1-145-135-e-1345-24-156
 always mahagoni 134-1-e-125-1-e-1245-135-e-1345-24
@@ -7001,6 +7020,7 @@ correct "'"["or"] "o¦r"
 correct "'"["Or"] "O¦r"
 correct "'"["oR"] "o¦R"
 correct "'"["OR"] "O¦R"
+midendword oreduktion 135-f-1235-15-e-145-136-13-e-2345-245
 always kakao 13-1-e-13-1-135
 always mexico 134-15-e-6-1346-24-e-6-14-135
 always disco 145-24-234-e-6-14-135
@@ -7100,6 +7120,8 @@ always supersonder 234-136-e-1234-12456-e-234-135-1345-e-145-12456
 
 # PHILOSOPH (4.4 Zweiformige Kürzungen)
 always philosoph 1234-125
+# wegen "Phem":
+always philosophem 1234-125-24-e-123-135-e-234-135-e-1234-125-12356
 
 # PLATZ PLÄTZ (4.4 Zweiformige Kürzungen)
 always platz 1234-1356
@@ -8219,6 +8241,7 @@ always ganztags 1245-1356-e-2345-1-1245-234
 always sonntags 234-135-1345-1345-e-2345-1-1245-234
 always kriegs 13-1235-346-1245-234
 before a begmidword kriegst 13-1235-346-1245-234-f-2345
+always kriegstänz 13-1235-346-1245-234-f-2345-345-1345-1356
 before r begmidword kriegst 13-1235-346-1245-234-f-2345
 always kriegstüchtig 13-1235-346-1245-234-f-2345-1256-1456-e-2345-45
 always kriegst 13-1235-346-1245-23456
@@ -8425,6 +8448,10 @@ always werkschrift 2456-12456-13-e-156-2345
 always gewerkschaft 12346-e-2456-12456-13-e-156
 always gewerkschafts 12346-e-2456-12456-13-e-156-234
 prfword werkst 2456-12456-13-23456
+always werkstadt 2456-12456-13-f-23456-1-145-2345
+always werkstädt 2456-12456-13-f-23456-345-145-2345
+always werkstädte 2456-12456-13-f-23456-345-145-236
+always werkstädten 2456-12456-13-f-23456-345-145-e-2345-14
 always werkstatt 2456-12456-13-f-23456-1-2345-2345
 always werkstätt 2456-12456-13-f-23456-345-2345-2345
 always werkstätte 2456-12456-13-f-23456-345-2345-236
@@ -10079,6 +10106,7 @@ always seezungen 234-15-15-f-1356-256-e-1245-14
 always betonzungen 23-e-2345-135-1345-f-1356-256-e-1245-14
 always flammenzungen 124-123-1-1346-14-f-1356-256-e-1245-14
 always ochsenzungen 135-1456-e-234-14-f-1356-256-e-1245-14
+always katzenzungen 13-1-2345-e-1356-14-f-1356-256-e-1245-14
 always lästerzungen 123-345-23456-12456-f-1356-256-e-1245-14
 midendword erzungen 12456-f-1356-256-e-1245-14
 midendword sabberzungen 234-1-12-e-12-12456-f-1356-256-e-1245-14
@@ -10244,6 +10272,8 @@ word voll 12345
 always voll 2-12345
 always völl 5-12345
 always volley 1236-135-12345-15-6-13456
+# Alte Rechtschreibung
+word vollaufen 1236-135-123-123-16-e-124-14
 
 # VOM (4.4 Zweiformige Kürzungen)
 always vom 1236-134
@@ -10500,6 +10530,7 @@ midendword prophezei 1234-1235-135-e-1234-125-15-e-1356-146
 # ZU (4.3.2 Einformige Kürzungen, alleinstehend oder in Wortverbindungen)
 word zu 1356
 always zu 2-1356
+before u begmidword bilanz 12-24-e-123-1-1345-1356-f
 prfword zuber 1356-136-e-12-12456
 sufword zuberbühler 1356-136-e-12-12456-e-12-1256-125-e-123-12456
 prfword zubers 1356-136-e-12-12456-234
