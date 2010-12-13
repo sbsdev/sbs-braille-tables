@@ -31,7 +31,7 @@ punctuation   \x00AF d               #175   ¯ MACRON
 punctuation   \x2559 6-3             #9561    BOX DRAWINGS UP DOUBLE AND RIGHT SINGLE
 
 # VOLLSCHRIFT Anfang (P36-3)
-punctuation   \x255A 36-3            #9562    BOX DRAWINGS DOUBLE UP AND RIGHT
+punctuation   \x255A 36a-3           #9562    BOX DRAWINGS DOUBLE UP AND RIGHT
 
 # VOLLSCHRIFT Ende (P6-3)
 punctuation   \x255D 6-3             #9565    BOX DRAWINGS DOUBLE UP AND LEFT
