@@ -2296,6 +2296,8 @@ begmidword naseläng 1345-1-e-234-15-f-5-123-1245
 always diesellok 145-346-e-234-13456-f-123-135-13
 always kiesel 13-346-e-234-13456
 always leselamp 123-123456-15-f-123-1-134-1234
+prfword leselatte 123-123456-15-f-123-1-2345-236
+always leselatt 123-123456-15-f-123-1-2345-2345
 always leseleicht 123-123456-15-f-123-1456
 always leselist 123-123456-15-f-123-24-23456
 begmidword leselup 123-123456-15-f-123-136-e-1234
@@ -3167,6 +3169,7 @@ begmidword routinerech 1235-135-136-e-2345-35-15-f-1235-15-1456
 before er begmidword schweine 156-2456-1246-15
 always schweinerei 156-2456-1246-12456-146
 before er begmidword sterne 23456-12456-e-1345-15
+always oerlikon 135-15-1235-e-123-24-e-13-135-1345
 sufword moers 134-135-15-1235-234
 always sparerib 234-1234-356-15-f-1235-24-12
 always wareries 2456-356-15-f-1235-346-234
@@ -5684,6 +5687,7 @@ always graffiti 1245-1235-1-124-e-124-24-e-2345-24
 always altigraf 25-2345-24-f-1245-1235-1-124
 always altigraph 25-2345-24-f-1245-1235-1-1234-125
 always antigen 235-2345-24-f-1245-14
+always antiguerilla 235-2345-24-f-1245-136-12456-24-12345-1
 always kantigen 13-235-e-2345-45-14
 always grantigen 1245-1235-235-e-2345-45-14
 always antigestalt 235-2345-24-f-12346-e-23456-25-2345
@@ -6134,6 +6138,10 @@ always lavendel 123-1-e-1236-14-e-145-13456
 always modellösung 134-135-e-145-13456-f-123-246-e-234-136
 always büffel 12-1256-124-e-124-13456
 always schlängel 156-123-345-1345-e-1245-13456
+# Alte Rechtschreibung
+sufword hellicht 125-13456-e-456-2345
+# Alte Rechtschreibung
+prfword hellichte 125-13456-e-456-236
 always muschel 134-136-e-156-13456
 always parallel 1234-356-1-12345-13456
 always artikel 356-2345-24-e-13-13456
@@ -6163,6 +6171,7 @@ always bouteill 12-135-136-e-2345-15-24-12345
 before l begword profil 12345-124-24-123-f
 before l midword profil 1234-1235-135-e-124-24-123-f
 before l midword steril 23456-12456-24-123-f
+always stilleben 23456-24-123-123-12-14
 always stilliegen 23456-24-123-123-346-e-1245-14
 always stillos 23456-24-123-e-123-135-234
 before l begmidword april 1-1234-1235-24-123

@@ -2314,6 +2314,8 @@ begmidword                           naseläng               NAtSEw!LG
 always                              diesellok               D0tSYwLOK
 always                              kiesel                  K0tSY
 always                               leselamp               L%EwLAMP
+prfword                              leselatte              L%EwLAT(
+always                               leselatt               L%EwLATT
 always                               leseleicht             L%EwL4
 always                               leselist               L%EwLI]
 begmidword                           leselup                L%EwLUtP
@@ -3185,6 +3187,7 @@ begmidword                        routinerech               ROUtT*EwRE4
 before_er_begmidword             schweine                   5W6E
 always                           schweinerei                5W673
 before_er_begmidword               sterne                   ]7tNE
+always                                 oerlikon             OERtLItKON
 sufword                               moers                 MOERS
 always                              sparerib                SP)EwRIB
 always                               wareries               W)EwR0S
@@ -5724,6 +5727,7 @@ always                           graffiti                   GRAFtFItTI
 always                               altigraf               :TIwGRAF
 always                               altigraph              :TIwGRAPH
 always                               antigen                +TIwGC
+always                               antiguerilla           +TIwGU7IQA
 always                              kantigen                K+tT>C
 always                             grantigen                GR+tT>C
 always                               antigestalt            +TIw&t]:T
@@ -6184,6 +6188,10 @@ always                           lavendel                   LAtVCtDY
 always                              modellösung             MOtDYwL9tSU
 always                             büffel                   B8FtFY
 always                          schlängel                   5L@NtGY
+# Alte Rechtschreibung
+sufword                               hellicht              HYt_T
+# Alte Rechtschreibung
+prfword                               hellichte             HYt_(
 always                            muschel                   MUt5Y
 always                           parallel                   P)AQY
 always                            artikel                   )TItKY
@@ -6213,7 +6221,9 @@ always                            bouteill                  BOUtTEIQ
 before_l_begword                   profil                   QFILw
 before_l_midword                   profil                   PROtFILw
 before_l_midword                   steril                   ]7ILw
-### weitere alte Orthographie ...?
+### Alte Rechtschreibung
+always                               stilleben              ]ILLBC
+### Alte Rechtschreibung
 always                               stilliegen             ]ILL0tGC
 always                               stillos                ]ILtLOS
 before_l_begmidword                 april                   APRIL
