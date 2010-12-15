@@ -11,8 +11,11 @@ letsign 6
 noletsignbefore '
 noletsignafter .'
 
-noletsign ÀàÁáÂâÃãÅåÆæÇçÈè
-noletsign ÉéÊêËëÌìÍíÎîÏïĞğ
-noletsign ÑñÒòÓóÔôÕõØøÙùÚú
-noletsign ÛûİıŞşÿ\x0152\x0153
+noletsign ÀàÁáÅåÈèÉéÓóØø
+
+# Stummgeschaltet, bis Liblouis-Beschränkung erhöht ist:
+# #=#noletsign ÀàÁáÂâÃãÅåÆæÇçÈè
+# #=#noletsign ÉéÊêËëÌìÍíÎîÏïĞğ
+# #=#noletsign ÑñÒòÓóÔôÕõØøÙùÚú
+# #=#noletsign ÛûİıŞşÿ\x0152\x0153
 
