@@ -3,7 +3,11 @@
 
 * 09.07.10 09:48 (chr): Zeichen v wird 36a ("ver")
 * 10.08.10 14:45 (chr): Out-Pfad geändert
-
+* 06.10.10 14:05 (chr): Frisst jetzt Weitere Marken:
+*                       "n" Silbentrennung nur neue Rechtschreibung
+*                       "a" Silbentrennung nur alte Rechtschreibung
+*                       "p" Silbentrennung Dreifachkonsonant alte Rechtschreibung
+*                       "k" Silbentrennung ck Rechtschreibung
 
 * Grade 1:
 call prep 1
@@ -11,11 +15,11 @@ call cleanhyphens
 call dots
 call finish
 
-* Grade 2:
-call prep 2
-call cleanhyphens
-call dots
-call finish
+** Grade 2:
+*call prep 2
+*call cleanhyphens
+*call dots
+*call finish
 
 exit
 
@@ -25,6 +29,7 @@ prep:
   'kedit ..\..\tables\sbs-de-g' || grade || '-white.mod'
   if size.1()>0 then del all
   'nomsg get white.mod_src'
+  * Markierung Dec.001 bei Dreifachkonsonanten in alter Rechtschreibung entfernen
   if grade=2 then 'cl:100'
   else 'cl:50'
   ':1';'cursor column'
@@ -34,6 +39,9 @@ prep:
   'cursor column'
   'macro a+b'
   'macro a+g'
+  'trunc 50'
+  'nomsg change \' || d2c(001) || '\\ all*'
+  'trunc *'
   ':1';'sos current firstcol'
   'zone 50 *'
   return
@@ -138,6 +146,11 @@ dots:
   'nomsg change \m\d-\ all*'       ; counter(n)
   'nomsg change \t\e-\ all*'       ; counter(n)
   'nomsg change \w\f-\ all*'       ; counter(n)
+  'nomsg change \a\ca-\ all*'      ; counter(n)
+  'nomsg change \n\cb-\ all*'      ; counter(n)
+  'nomsg change \p\cd-\ all*'      ; counter(n)
+  'nomsg change \k\ce-\ all*'      ; counter(n)
+  'nomsg change \z\\ all*'         ; counter(n)
   * Beim Letzten Zeichen Bindestrich entfernen:
   'nomsg change \-   \\ all'       ; counter(n)
   return

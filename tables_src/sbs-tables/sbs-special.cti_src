@@ -27,6 +27,19 @@
 # Für Windows-Test auf "Macron gelegt", in core6.cti wieder setzen ...
 #=#punctuation   \x00AF d               #175   ¯ MACRON
 
+# TRENNMARKE (nur alte Rechtschreibung)
+#=#letter        \x2502 ca
+
+# TRENNMARKE (nur neue Rechtschreibung)
+#=#letter        \x2503 cb
+
+# TRENNMARKE (Dreifachkonsonant, nur alte Rechtschreibung)
+#=#letter        \x2506 cd
+
+# TRENNMARKE ("CK", nur alte Rechtschreibung)
+#=#letter        \x2507 ce
+
+
 # VOLLSCHRIFT Einzelwort (P6-3)
 #=#punctuation   \x2559 6-3             #9561    BOX DRAWINGS UP DOUBLE AND RIGHT SINGLE
 
