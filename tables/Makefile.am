@@ -1,3 +1,5 @@
+# generate the list of tables as follows:
+# $ ls | grep -v Makefile | grep -v README | grep -v maketablelist.sh | grep -v '.in$' | grep -v '.*~$' | sort | sed -e 's/$/ \\/' -e 's/^/\t/' | head --bytes=-2
 table_files = \
 	sbs-de-accents-ch.cti \
 	sbs-de-accents.cti \
@@ -13,6 +15,10 @@ table_files = \
 	sbs-de-g2-name.mod \
 	sbs-de-g2-place.mod \
 	sbs-de-g2-white.mod \
+	sbs-de-hyph-new.mod \
+	sbs-de-hyph-none.mod \
+	sbs-de-hyph-old.mod \
+	sbs-de-hyph-word.mod \
 	sbs-de-letsign.mod \
 	sbs.dis \
 	sbs-litdigit-lower.mod \
@@ -20,8 +26,8 @@ table_files = \
 	sbs-numsign.mod \
 	sbs-special.cti \
 	sbs-special.mod \
-	sbs-whitespace.mod \
-	sbs-version.utb
+	sbs-version.utb \
+	sbs-whitespace.mod 
 
 tablesdir = $(datadir)/liblouis/tables
 tables_DATA = $(table_files)
