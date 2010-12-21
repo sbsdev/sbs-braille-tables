@@ -11,7 +11,7 @@ letsign 6
 noletsignbefore '
 noletsignafter .'
 
-noletsign ÀàÁáÅåÈèÉéÓóØø
+noletsign cCqQxXyYÀàÁáÅå
 
 # Stummgeschaltet, bis Liblouis-Beschränkung erhöht ist:
 # #=#noletsign ÀàÁáÂâÃãÅåÆæÇçÈè

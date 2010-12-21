@@ -1461,11 +1461,9 @@ always schraubring 156-1235-16-12-e-1235-35-1245
 prfword schraubringe 156-1235-16-12-e-1235-35-12346
 
 # C   (4.1 Lautgruppenkürzungen)
-word c 6-14
 always c 6-14
-always c. 6-14-3
-# Grossgeschriebene Wortanfänge erhalten sonst keinen Pt.6!
-context ["C"]$a @6-14
+# Liblouis ist Grossschreibung egal, hier aber nicht!
+always C 6-14
 
 # CH  (4.1 Lautgruppenkürzungen)
 word ch 6-1456
@@ -7159,11 +7157,9 @@ always punkt 1234-2345
 always pünkt 5-1234-2345
 
 # Q   (4.1 Lautgruppenkürzungen)
-word q 6-12345
 always q 6-12345
-always q. 6-12345-3
-# Grossgeschriebene Wortanfänge erhalten sonst keinen Pt.6!
-context ["Q"]$a @6-12345
+# Liblouis ist Grossschreibung egal, hier aber nicht!
+always Q 6-12345
 
 # RECHT (4.4 Zweiformige Kürzungen)
 always recht 1235-2345
@@ -10511,17 +10507,14 @@ always würd's 1256-6-234
 always würdig 2456-1256-1235-145-45
 
 # X   (4.1 Lautgruppenkürzungen)
-word x 6-1346
 always x 6-1346
-always x. 6-1346-3
-# Grossgeschriebene Wortanfänge erhalten sonst keinen Pt.6!
-context ["X"]$a @6-1346
+# Liblouis ist Grossschreibung egal, hier aber nicht!
+always X 6-1346
 
 # Y   (4.1 Lautgruppenkürzungen)
-word y 6-13456
 always y 6-13456
-# Grossgeschriebene Wortanfänge erhalten sonst keinen Pt.6!
-context ["Y"]$a @6-13456
+# Liblouis ist Grossschreibung egal, hier aber nicht!
+always Y 6-13456
 
 # ZAHL ZÄHL (4.4 Zweiformige Kürzungen)
 always zahl 1356-123
