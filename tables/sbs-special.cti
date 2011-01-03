@@ -12,6 +12,7 @@
 
 # KUERZUNGSVERBOT und "DUMMY"-TEXT
 letter        \x00A6 a               #166   ¦ BROKEN BAR
+
 # "DUMMY"-ZAHL
 digit         \x00B7 b               #183   · MIDDLE DOT
 
@@ -28,16 +29,16 @@ letter        \x00AD e               #173   ­ SOFT HYPHEN
 punctuation   \x00AF d               #175   ¯ MACRON
 
 # TRENNMARKE (nur alte Rechtschreibung)
-letter        \x2502 ca
+letter        \x2502 ca              #9474    BOX DRAWINGS LIGHT VERTICAL
 
 # TRENNMARKE (nur neue Rechtschreibung)
-letter        \x2503 cb
+letter        \x2503 cb              #9475    BOX DRAWINGS HEAVY VERTICAL
 
 # TRENNMARKE (Dreifachkonsonant, nur alte Rechtschreibung)
-letter        \x2506 cd
+letter        \x2506 cd              #9478    BOX DRAWINGS LIGHT TRIPLE DASH VERTICAL
 
 # TRENNMARKE ("CK", nur alte Rechtschreibung)
-letter        \x2507 ce
+letter        \x2507 ce              #9479    BOX DRAWINGS HEAVY TRIPLE DASH VERTICAL
 
 
 # VOLLSCHRIFT Einzelwort (P6-3)
@@ -68,4 +69,7 @@ punctuation   \x2560 456-456         #9568    BOX DRAWINGS VERTICAL DOUBLE VERTI
 punctuation   \x2563 6-3             #9571    BOX DRAWINGS VERTICAL DOUBLE VERTICAL AND LEFT
 
 # KURSIV Anfang, Mitten im Wort (P6-456)
-punctuation   \x2561 6-456           #9569    BOX DRAWINGS VERTICAL SINGLE AND LEFT DOUBLE
+letter        \x255E 6-456           #9566    BOX DRAWINGS VERTICAL SINGLE AND RIGHT DOUBLE
+
+# KURSIV Ende, Mitten im Wort (P6-3)
+letter        \x2561 6-456           #9569    BOX DRAWINGS VERTICAL SINGLE AND LEFT DOUBLE
