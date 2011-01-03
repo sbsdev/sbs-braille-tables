@@ -2,41 +2,36 @@
 #
 #  sbs-de-accents.cti
 #
-#  Akzentbuchstaben (alle ausführlich)
+#  Akzentbuchstaben
 #
 #-------------------------------------------------------------------------------
 
-uplow        \x00C0\x00E0      "[              Àà  &#192;&#224;  LATIN LETTER A WITH GRAVE
-uplow        \x00C1\x00E1      "[              Áá  &#193;&#225;  LATIN LETTER A WITH ACUTE
-uplow        \x00C2\x00E2      "1              Ââ  &#194;&#226;  LATIN LETTER A WITH CIRCUMFLEX
-uplow        \x00C3\x00E3      "@              Ãã  &#195;&#227;  LATIN LETTER A WITH TILDE
-
-uplow        \x00C5\x00E5      "1              Åå  &#197;&#229;  LATIN LETTER A WITH RING ABOVE
-uplow        \x00C6\x00E6      "@              Ææ  &#198;&#230;  LATIN LETTER AE
-uplow        \x00C7\x00E7      "&              Çç  &#199;&#231;  LATIN LETTER C WITH CEDILLA
-uplow        \x00C8\x00E8      "^              Èè  &#200;&#232;  LATIN LETTER E WITH GRAVE
-uplow        \x00C9\x00E9      "%              Éé  &#201;&#233;  LATIN LETTER E WITH ACUTE
-uplow        \x00CA\x00EA      "2              Êê  &#202;&#234;  LATIN LETTER E WITH CIRCUMFLEX
-uplow        \x00CB\x00EB      "6              Ëë  &#203;&#235;  LATIN LETTER E WITH DIAERESIS
-uplow        \x00CC\x00EC      "\              Ìì  &#204;&#236;  LATIN LETTER I WITH GRAVE
-uplow        \x00CD\x00ED      "\              Íí  &#205;&#237;  LATIN LETTER I WITH ACUTE
-uplow        \x00CE\x00EE      "3              Îî  &#206;&#238;  LATIN LETTER I WITH CIRCUMFLEX
-uplow        \x00CF\x00EF      "7              Ïï  &#207;&#239;  LATIN LETTER I WITH DIAERESIS
-uplow        \x00D0\x00F0      "5              Ðð  &#208;&#240;  LATIN LETTER ETH
-uplow        \x00D1\x00F1      "7              Ññ  &#209;&#241;  LATIN LETTER N WITH TILDE
-uplow        \x00D2\x00F2      "0              Òò  &#210;&#242;  LATIN LETTER O WITH GRAVE
-uplow        \x00D3\x00F3      "0              Óó  &#211;&#243;  LATIN LETTER O WITH ACUTE
-uplow        \x00D4\x00F4      "4              Ôô  &#212;&#244;  LATIN LETTER O WITH CIRCUMFLEX
-uplow        \x00D5\x00F5      "9              Õõ  &#213;&#245;  LATIN LETTER O WITH TILDE
-
-uplow        \x00D8\x00F8      "9              Øø  &#216;&#248;  LATIN LETTER O WITH STROKE
-uplow        \x00D9\x00F9      "]              Ùù  &#217;&#249;  LATIN LETTER U WITH GRAVE
-uplow        \x00DA\x00FA      "]              Úú  &#218;&#250;  LATIN LETTER U WITH ACUTE
-uplow        \x00DB\x00FB      "5              Ûû  &#219;&#251;  LATIN LETTER U WITH CIRCUMFLEX
-
-uplow        \x00DD\x00FD      "&              Ýý  &#221;&#253;  LATIN LETTER Y WITH ACUTE
-uplow        \x00DE\x00FE      "6              Þþ  &#222;&#254;  LATIN LETTER THORN
-
-lowercase    \x00FF            "Y              ÿ   &#255;        LATIN SMALL LETTER Y WITH DIAERESIS
-
-uplow        \x0152\x0153      "9              Œœ  &#338;&#339;  LATIN LIGATURE OE
+#=#uplow        \x00C0\x00E0      123568        Àà  &#192;&#224;  LATIN LETTER A WITH GRAVE
+#=#uplow        \x00C1\x00E1      168           Áá  &#193;&#225;  LATIN LETTER A WITH ACUTE
+#=#uplow        \x00C2\x00E2      1678          Ââ  &#194;&#226;  LATIN LETTER A WITH CIRCUMFLEX
+#=#uplow        \x00C3\x00E3      34678         Ãã  &#195;&#227;  LATIN LETTER A WITH TILDE
+#=#uplow        \x00C5\x00E5      345678        Åå  &#197;&#229;  LATIN LETTER A WITH RING ABOVE
+#=#uplow        \x00C6\x00E6      478           Ææ  &#198;&#230;  LATIN LETTER AE
+#=#uplow        \x00C7\x00E7      1234678       Çç  &#199;&#231;  LATIN LETTER C WITH CEDILLA
+#=#uplow        \x00C8\x00E8      23468         Èè  &#200;&#232;  LATIN LETTER E WITH GRAVE
+#=#uplow        \x00C9\x00E9      1234568       Éé  &#201;&#233;  LATIN LETTER E WITH ACUTE
+#=#uplow        \x00CA\x00EA      12678         Êê  &#202;&#234;  LATIN LETTER E WITH CIRCUMFLEX
+#=#uplow        \x00CB\x00EB      12468         Ëë  &#203;&#235;  LATIN LETTER E WITH DIAERESIS
+#=#uplow        \x00CC\x00EC      348           Ìì  &#204;&#236;  LATIN LETTER I WITH GRAVE
+#=#uplow        \x00CD\x00ED      1468          Íí  &#205;&#237;  LATIN LETTER I WITH ACUTE
+#=#uplow        \x00CE\x00EE      14678         Îî  &#206;&#238;  LATIN LETTER I WITH CIRCUMFLEX
+#=#uplow        \x00CF\x00EF      124568        Ïï  &#207;&#239;  LATIN LETTER I WITH DIAERESIS
+#=#uplow        \x00D0\x00F0      23458         Ðð  &#208;&#240;  LATIN LETTER ETH
+#=#uplow        \x00D1\x00F1      13458         Ññ  &#209;&#241;  LATIN LETTER N WITH TILDE
+#=#uplow        \x00D2\x00F2      3468          Òò  &#210;&#242;  LATIN LETTER O WITH GRAVE
+#=#uplow        \x00D3\x00F3      14568         Óó  &#211;&#243;  LATIN LETTER O WITH ACUTE
+#=#uplow        \x00D4\x00F4      145678        Ôô  &#212;&#244;  LATIN LETTER O WITH CIRCUMFLEX
+#=#uplow        \x00D5\x00F5      1358          Õõ  &#213;&#245;  LATIN LETTER O WITH TILDE
+#=#uplow        \x00D8\x00F8      24678         Øø  &#216;&#248;  LATIN LETTER O WITH STROKE
+#=#uplow        \x00D9\x00F9      234568        Ùù  &#217;&#249;  LATIN LETTER U WITH GRAVE
+#=#uplow        \x00DA\x00FA      1568          Úú  &#218;&#250;  LATIN LETTER U WITH ACUTE
+#=#uplow        \x00DB\x00FB      15678         Ûû  &#219;&#251;  LATIN LETTER U WITH CIRCUMFLEX
+#=#uplow        \x00DD\x00FD      24568         Ýý  &#221;&#253;  LATIN LETTER Y WITH ACUTE
+#=#uplow        \x00DE\x00FE      12348         Þþ  &#222;&#254;  LATIN LETTER THORN
+#=#lowercase    \x00FF            134568        ÿ   &#255;        LATIN SMALL LETTER Y WITH DIAERESIS
+#=#uplow        \x0152\x0153      246789        Œœ  &#338;&#339;  LATIN LIGATURE OE
