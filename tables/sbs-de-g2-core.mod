@@ -6529,8 +6529,8 @@ begmidword mithr 134-24-2345-125-e-1235
 always mitil 134-24-e-2345-24-123
 always mitochond 134-24-e-2345-135-e-1456-135-1345-145
 always mitos 134-24-e-2345-135-234
-always mitra 134-24-2345-e-1235-1
-always mitraill 134-24-2345-e-1235-1-24-12345
+always mitra 134-24-2345-1235-1
+always mitraill 134-24-2345-1235-1-24-12345
 always mitrauch 2-2345-e-1235-16-1456
 begword mitrida 134-24-2345-1235-24-e-145-1
 always mitropa 134-24-2345-1235-135-e-1234-1
