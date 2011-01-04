@@ -72,4 +72,4 @@ punctuation   \x2563 6-3             #9571    BOX DRAWINGS VERTICAL DOUBLE VERTI
 letter        \x255E 6-456           #9566    BOX DRAWINGS VERTICAL SINGLE AND RIGHT DOUBLE
 
 # KURSIV Ende, Mitten im Wort (P6-3)
-letter        \x2561 6-456           #9569    BOX DRAWINGS VERTICAL SINGLE AND LEFT DOUBLE
+letter        \x2561 6-3             #9569    BOX DRAWINGS VERTICAL SINGLE AND LEFT DOUBLE
