@@ -1,9 +1,10 @@
 # generate the list of tables as follows:
 # $ ls | grep -v Makefile | grep -v README | grep -v maketablelist.sh | grep -v '.in$' | grep -v '.*~$' | sort | sed -e 's/$/ \\/' -e 's/^/\t/' | head --bytes=-2
 table_files = \
-	sbs-de-accents-ch.cti \
+	sbs-de-accents-ch.mod \
 	sbs-de-accents.cti \
-	sbs-de-accents-reduced.cti \
+	sbs-de-accents.mod \
+	sbs-de-accents-reduced.mod \
 	sbs-de-begendcaps.mod \
 	sbs-de-capsign.mod \
 	sbs-de-core6.cti \
