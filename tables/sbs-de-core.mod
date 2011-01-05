@@ -50,6 +50,8 @@ endnum ! 6-235 Ausrufezeichen
 word ! 6-235
 word !! 6-235-235
 always !! 235-235
+word !!! 6-235-235-235
+always !!! 235-235-235
 word !? 6-235-26
 always !? 235-26
 word ?! 6-26-235

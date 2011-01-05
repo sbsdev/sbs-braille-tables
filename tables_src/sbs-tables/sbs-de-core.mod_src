@@ -76,6 +76,8 @@ endnum       !                       '+      Ausrufezeichen
 word         !                       '+
 word         !!                      '++
 always       !!                      ++
+word         !!!                     '+++
+always       !!!                     +++
 word         !?                      '+?
 always       !?                      +?
 word         ?!                      '?+
