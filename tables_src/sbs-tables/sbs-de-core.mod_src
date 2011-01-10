@@ -312,10 +312,10 @@ always       \x2215                  ":
 ### FEHLT                              8       Bruchstrich
 ### FEHLT                              ::      proportional
 # Proportional:
-midnum       \s~\s                   b"::#
-midnum       \s~                     b"::#
-midnum       ~                       b"::#
-always       ~                       "::
+#=#midnum       \s~\s                   0-4-25-25-3456
+#=#midnum       \s~                     0-4-25-25-3456
+#=#midnum       ~                       0-4-25-25-3456
+#=#always       ~                       0-4-25-25
 midnum       \s\x223C\s              b"::#
 midnum       \s\x223C                b"::#
 midnum       \x223C                  b"::#

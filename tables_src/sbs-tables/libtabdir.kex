@@ -1,9 +1,0 @@
-'dir *.*_src'
-'less \g1-white'
-'less \g2-white'
-if dir() then do i = 1 to size.1()
-':'i
-'macro a+x'
-'macro libtable'
-'qq'
-end

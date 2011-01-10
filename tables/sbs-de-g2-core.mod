@@ -5294,7 +5294,7 @@ sufword piero 1234-24-12456-135
 always pierre 1234-24-12456-e-1235-15
 always pierres 1234-24-12456-e-1235-123456
 always papier 1234-1-e-1234-346-1235
-#always papiermaché 1234-1-e-1234-24-12456-e-134-56-4-123456
+#always                               papiermaché            PAtPI7tM<"%
 always pierrot 1234-24-12456-e-1235-135-2345
 always kopier 13-135-e-1234-346-1235
 always kanopier 13-235-135-e-1234-24-12456
