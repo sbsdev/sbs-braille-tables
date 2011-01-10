@@ -7,16 +7,10 @@
 #-------------------------------------------------------------------------------
 
 
+#  Einschränkungen
+#  ---------------
 #
-#   Einschränkungen
-#   ---------------
-#
-#   - Optimiert für Neue Rechtschreibung
-#   - Schweizer ss-Schreibung nicht berücksichtigt
-#
-
-
-
+#  - Schweizer ss-Schreibung nicht berücksichtigt
 
 # class definitions
 class a a
@@ -57,11 +51,11 @@ always pappmaschee 1234-1-1234-1234-f-134-1-156-15-15
 always klischee 13-123-24-e-156-15-15
 always yankee 6-13456-235-e-13-15-15
 always gelee 1245-13456-15-15
-always soufflee 234-135-136-124-124-123-15-15
+always soufflee 234-135-136-124-e-124-cb-123-15-15
 always defilee 145-15-e-124-24-e-123-15-15
 always klee 13-123-15-15
 always renommee 1235-14-135-1346-15-15
-always armee 356-134-15-15
+always armee 356-e-134-15-15
 always resümee 1235-123456-1256-e-134-15-15
 always schnee 156-1345-15-15
 always trainee 2345-1235-1-24-e-1345-15-15
@@ -78,9 +72,9 @@ always porree 1234-26-e-1235-15-15
 always püree 1234-1256-e-1235-15-15
 always frikassee 124-1235-24-e-13-1-2346-15-15
 always plissee 1234-123-24-2346-15-15
-always varietee 1236-356-24-15-e-2345-15-15
+always varietee 1236-356-24-cb-15-e-2345-15-15
 always komitee 13-135-e-134-24-e-2345-15-15
-always trustee 2345-1235-136-23456-15-15
+always trustee 2345-1235-136-ca-23456-15-15
 always frottee 124-1235-135-2345-e-2345-15-15
 always queen 6-12345-136-15-15-1345
 always halloween 125-1-12345-135-e-2456-15-15-1345
@@ -111,13 +105,13 @@ midendword abericht 1-f-23-e-2-3456
 begmidword aberkann 1-12-f-12456-e-13-235-1345
 always aberkenn 1-12-f-12456-e-13-14-1345
 begmidword abernt 1-12-f-12456-1345-2345
-prfword abernte 1-12-f-12456-1345-236
-prfword aberntest 1-12-f-12456-1345-236-23456
-prfword aberntet 1-12-f-12456-1345-236-2345
-prfword aberntete 1-12-f-12456-1345-236-236
-prfword abernteten 1-12-f-12456-1345-236-2345-14
-prfword aberntetest 1-12-f-12456-1345-236-236-23456
-prfword aberntetet 1-12-f-12456-1345-236-236-2345
+prfword abernte 1-12-f-12456-1345-e-236
+prfword aberntest 1-12-f-12456-1345-e-236-23456
+prfword aberntet 1-12-f-12456-1345-e-236-2345
+prfword aberntete 1-12-f-12456-1345-e-236-e-236
+prfword abernteten 1-12-f-12456-1345-e-236-e-2345-14
+prfword aberntetest 1-12-f-12456-1345-e-236-e-236-23456
+prfword aberntetet 1-12-f-12456-1345-e-236-e-236-2345
 always aberrans 1-12-f-12456-e-1235-235-234
 always aberratio 1-12-f-12456-e-1235-1-e-2345-24-135
 always aberration 1-12-f-12456-e-1235-5-1345
@@ -156,10 +150,11 @@ prfword beachte 23-e-56-236
 always beachtest 23-e-56-236-23456
 always beachtet 23-e-56-236-2345
 prfword beachtete 23-e-56-236-236
-always teacher 2345-15-1-1456-12456
-always teaching 2345-15-1-1456-35-1245
+always teacher 2345-15-1-e-1456-12456
+always teaching 2345-15-1-e-1456-35-1245
 begmidword megach 134-15-e-1245-1-f-1456
 always diachron 145-24-1-f-1456-1235-135-1345
+always maché 134-1-e-1456-1234568
 always machia 134-1-e-1456-24-1
 always machin 134-1-e-1456-35
 always machis 134-1-e-1456-24-234
@@ -172,6 +167,7 @@ midword tetrach 236-e-2345-1235-1-f-1456
 always attach 1-2345-e-2345-1-1456
 always blattachsel 12-123-1-2345-2345-f-56-234-13456
 always detach 145-15-e-2345-1-1456
+always détach 145-1234568-e-2345-1-1456
 begmidword metach 134-15-e-2345-1-f-1456
 begmidword gouach 1245-135-136-e-1-1456
 
@@ -196,22 +192,23 @@ prfword daliege 145-1-f-123-346-12346
 before l begmidword gala 1245-25-1-f
 sufword deal 145-15-1-123
 always dealer 145-15-1-e-123-12456
-always idealer 24-145-15-25-12456
+always idealer 24-145-15-e-25-12456
+sufword ealing 15-1-123-35-1245
 always health 125-15-1-123-2345-125
-begmidword sofalehn 234-135-e-124-1-e-123-2356-e-1345
+begmidword sofalehn 234-135-e-124-1-f-123-2356-e-1345
 prfword megaladen 134-15-e-1245-1-f-123-1-e-145-14
 prfword megaläden 134-15-e-1245-1-f-123-345-e-145-14
 always megalieb 134-15-e-1245-1-f-123-346-12
 begmidword yogalehr 6-13456-135-e-1245-1-f-123-2356-e-1235
 before l begmidword pauschal 1234-16-e-156-25-f
-begmidword medialeit 134-15-e-145-24-1-e-123-146-2345
+begmidword medialeit 134-15-e-145-24-1-f-123-146-2345
 before l begmidword mafia 134-1-e-124-24-1
-begmidword asialad 1-234-24-1-e-123-1-e-145
-begmidword asialäd 1-234-24-1-e-123-345-e-145
-begmidword asialink 1-234-24-1-e-123-35-13
+begmidword asialad 1-234-24-1-f-123-1-e-145
+begmidword asialäd 1-234-24-1-f-123-345-e-145
+begmidword asialink 1-234-24-1-f-123-35-13
 midword vinzial 1236-35-e-1356-24-25
-begmidword sojalezi 234-135-e-245-1-e-123-15-e-1356-24
-before l begmidword zodiakal 1356-135-e-145-24-1-e-13-25
+begmidword sojalezi 234-135-e-245-1-f-123-15-e-1356-24
+before l begmidword zodiakal 1356-135-e-145-24-cb-1-e-13-25
 before l begmidword wodka 2456-135-145-e-13-1
 begmidword biotikal 12-24-135-e-2345-24-e-13-1-f-123
 before l begmidword mokka 134-135-13-e-13-1-f
@@ -222,29 +219,30 @@ always tombola 2345-135-134-e-12-135-e-123-1
 begmidword kanal 13-235-25
 before l begmidword sauna 234-16-e-1345-1
 before l begmidword pharma 1234-125-356-e-134-1
-begmidword europalet 126-1235-135-e-1234-25-15-2345
+always goalie 1245-135-1-e-123-346
+begmidword europalet 126-e-1235-135-f-1234-25-15-2345
 begmidword europalig 126-e-1235-135-e-1234-1-f-123-45
 always nappaleder 1345-1-1234-e-1234-1-f-123-15-e-145-12456
 before l begmidword kamera 13-1-e-134-12456-1
 always kameralia 13-1-e-134-12456-25-24-1
 always kameralist 13-1-e-134-12456-25-24-23456
 always kameralistisch 13-1-e-134-12456-25-5-156
-begmidword paraling 1234-356-1-f-123-35-e-1245
-begmidword paralymp 1234-356-1-f-123-6-13456-134-e-1234
-before l begmidword tundra 2345-256-145-1235-1-f
+begmidword paraling 1234-356-1-e-123-35-e-1245
+begmidword paralymp 1234-356-1-e-123-6-13456-134-e-1234
+before l begmidword tundra 2345-256-e-145-cb-1235-1-f
 before l begmidword thora 2345-125-26-1-f
-begmidword supraleit 234-136-1234-1235-1-f-123-146-2345
-before l begmidword ultra 136-123-2345-1235-1
-before l begword extra 1346-2345-1235-1
-before l midword extra 15-6-1346-2345-1235-1
-before l begword prosa 12345-234-1
+begmidword supraleit 234-136-e-1234-cb-1235-1-f-123-146-2345
+before l begmidword ultra 136-123-e-2345-cb-1235-1
+before l begword extra 1346-e-2345-cb-1235-1
+before l midword extra 15-6-1346-e-2345-cb-1235-1
+before l begword prosa 12345-e-234-1
 before l midword prosa 1234-1235-135-e-234-1
 begmidword metaling 134-15-e-2345-1-f-123-35-1245
 begmidword metalog 134-15-e-2345-1-f-123-135-1245
-always rastalock 1235-1-23456-1-f-123-135-46
+always rastalock 1235-1-ca-23456-1-f-123-135-46
 begmidword lavalamp 123-1-e-1236-1-f-123-1-134-e-1234
 begmidword lavalämp 123-1-e-1236-1-f-123-345-134-1234
-before l begmidword maya 134-1-6-13456-1
+before l begmidword maya 134-1-e-6-13456-1
 before l begmidword pizza 1234-24-1356-e-1356-1
 
 # ALL (4.3.5 Einformige Kürzungen, nur mit Erweiterung)
@@ -271,7 +269,7 @@ sufword zualler 2-1356-e-1-12456
 sufword zualleraller 2-1356-e-1-12456-e-1-12456
 begmidword herzaller 125-12456-1356-e-1-12456
 sufword alles 1-123456
-always einundalles 1246-e-2-136-e-1-123456
+always einundalles 1246-f-2-136-f-1-123456
 word allesamt 1-15-e-234-1-134-2345
 always alleg 1-12345-15-e-1245
 prfword allergen 1-12345-12456-e-1245-14
@@ -279,36 +277,36 @@ prfword allergene 1-12345-12456-e-1245-14-15
 prfword allergenen 1-12345-12456-e-1245-14-14
 prfword allergens 1-12345-12456-e-1245-14-234
 always allergie 1-12345-12456-e-1245-346
-always allergien 1-12345-12456-e-1245-24-14
-always allergiker 1-12345-12456-e-1245-24-13-12456
+always allergien 1-12345-12456-e-1245-24-e-14
+always allergiker 1-12345-12456-e-1245-24-e-13-12456
 always allergisch 1-12345-12456-e-1245-24-156
 always allergolo 1-12345-12456-e-1245-135-e-123-135
 always alley 1-12345-15-6-13456
 # Alte Rechtschreibung
-always balleben 12-25-e-123-12-14
+always balleben 12-25-123-12-14
 # Alte Rechtschreibung
-always ballehr 12-25-e-123-2356-1235
+always ballehr 12-25-123-2356-1235
 # Alte Rechtschreibung
-always ballizenz 12-25-e-123-24-e-1356-14-1356
+always ballizenz 12-25-123-24-e-1356-14-1356
 begmidword modal 134-135-e-145-25
-begmidword ideal 24-145-15-25
-begmidword real 1235-15-25
+begmidword ideal 24-145-15-e-25
+begmidword real 1235-15-e-25
 always really 1235-15-1-12345-6-13456
 begmidword regal 1235-15-e-1245-25
 # Alte Rechtschreibung
-sufword schalloch 156-25-e-123-135-1456
+sufword schalloch 156-25-123-135-1456
 # Alte Rechtschreibung
-sufword schallöch 156-25-e-123-246-1456
-begmidword labial 123-1-e-12-24-25
-begmidword radial 1235-1-e-145-24-25
-begmidword kollegial 13-135-12345-15-e-1245-24-25
-begmidword filial 124-24-e-123-24-25
-begmidword kolonial 13-135-e-123-135-e-1345-24-25
-begmidword gymnasial 1245-6-13456-134-e-1345-1-e-234-24-25
-begmidword trivial 2345-1235-24-e-1236-24-25
-begmidword axial 1-6-1346-24-25
-begmidword glazial 1245-123-1-e-1356-24-25
-begmidword spezial 234-1234-15-e-1356-24-25
+sufword schallöch 156-25-123-246-1456
+begmidword labial 123-1-e-12-24-e-25
+begmidword radial 1235-1-e-145-24-e-25
+begmidword kollegial 13-135-12345-15-e-1245-24-e-25
+begmidword filial 124-24-e-123-24-e-25
+begmidword kolonial 13-135-e-123-135-e-1345-24-e-25
+begmidword gymnasial 1245-6-13456-134-e-1345-1-e-234-24-e-25
+begmidword trivial 2345-1235-24-e-1236-24-e-25
+begmidword axial 1-6-1346-24-e-25
+begmidword glazial 1245-123-1-e-1356-24-e-25
+begmidword spezial 234-1234-15-e-1356-24-e-25
 begmidword fokal 124-135-e-13-25
 begmidword formal 124-26-e-134-25
 begmidword maximal 134-1-e-6-1346-24-e-134-25
@@ -329,41 +327,41 @@ begmidword astral 1-23456-1235-25
 begmidword general 1245-14-12456-25
 begmidword lateral 123-1-e-2345-12456-25
 begmidword natural 1345-2345-25
-begmidword spektral 234-1234-15-13-2345-e-1235-25
+begmidword spektral 234-1234-15-13-e-2345-cb-1235-25
 begmidword spiral 234-1234-24-e-1235-25
 begmidword oral 26-25
 midword orallür 26-f-1-12345-1256-e-1235
 always korall 13-26-1-12345
 begmidword moral 134-26-25
-begmidword zentral 1356-14-2345-e-1235-25
-begmidword zerebral 1356-12456-15-12-1235-25
-begmidword integral 35-236-1245-1235-25
+begmidword zentral 1356-14-e-2345-cb-1235-25
+begmidword zerebral 1356-12456-15-e-12-cb-1235-25
+begmidword integral 35-236-e-1245-cb-1235-25
 begmidword guttural 1245-136-2345-e-2345-136-e-1235-25
-begmidword salleist 234-25-e-123-146-23456
+begmidword salleist 234-25-f-123-146-23456
 begmidword dorsal 145-26-e-234-25
 begmidword nasal 1345-1-e-234-25
 begmidword universal 256-24-e-1236-12456-e-234-25
 begmidword palatal 1234-25-1-e-2345-25
 # Alte Rechtschreibung
-always metalleiter 134-15-e-2345-25-f-123-146-e-2345-12456
+always metalleiter 134-15-e-2345-25-123-146-e-2345-12456
 begmidword dental 145-14-e-2345-25
 begmidword frontal 124-1235-135-1345-e-2345-25
 begmidword horizontal 125-26-24-e-1356-135-1345-e-2345-25
 begmidword okzipital 135-13-e-1356-24-e-1234-24-e-2345-25
-begmidword dual 145-136-25
-begmidword lingual 123-35-e-1245-136-25
-begmidword sexual 234-15-6-1346-136-25
-begmidword festival 124-15-23456-24-e-1236-25
+begmidword dual 145-136-e-25
+begmidword lingual 123-35-e-1245-136-e-25
+begmidword sexual 234-15-e-6-1346-136-e-25
+begmidword festival 124-15-ca-23456-24-e-1236-25
 # Alte Rechtschreibung
-begmidword schallehr 156-25-f-123-2356-e-1235
+begmidword schallehr 156-25-123-2356-e-1235
 # Alte Rechtschreibung
-begmidword schalleit 156-25-f-123-146-2345
+begmidword schalleit 156-25-123-146-2345
 begmidword vokalläng 1236-135-e-13-25-f-5-123-1245
 begmidword schmallipp 156-134-25-f-123-24-1234-e-1234
 # Alte Rechtschreibung
-begmidword kristalleuch 13-1235-24-23456-25-f-123-126-1456
+begmidword kristalleuch 13-1235-24-ca-23456-25-123-126-1456
 # Alte Rechtschreibung
-begmidword kristallüst 13-1235-24-23456-25-f-123-1256-23456
+begmidword kristallüst 13-1235-24-ca-23456-25-123-1256-23456
 begmidword wallaus 2456-25-f-123-16-234
 
 # ALS   (4.3.1 Einformige Wortkürzungen, nur alleinstehend)
@@ -371,16 +369,16 @@ word als 146
 
 # ALSO (4.4 Zweiformige Kürzungen)
 always also 1-135
-always realsozial 1235-15-25-f-234-123
-begmidword spezial 234-1234-15-e-1356-24-25
+always realsozial 1235-15-e-25-f-234-123
+begmidword spezial 234-1234-15-e-1356-24-e-25
 begmidword vokalsol 1236-135-e-13-25-f-234-135-e-123
 begmidword kanalsohl 13-235-25-f-234-135-125-e-123
 begmidword national 1345-5-1345-25
-begmidword zentral 1356-14-2345-e-1235-25
+begmidword zentral 1356-14-e-2345-cb-1235-25
 begmidword kontinental 13-135-1345-e-2345-35-14-e-2345-25
 begmidword talsohl 2345-25-f-234-135-125-e-123
 begmidword orbital 26-12-24-e-2345-25
-begmidword instrumental 35-23456-1235-136-e-134-14-e-2345-25
+begmidword instrumental 35-ca-23456-1235-136-e-134-14-e-2345-25
 
 # AN  (4.1 Lautgruppenkürzungen)
 word an 235
@@ -396,11 +394,11 @@ always afrikaans 1-124-e-1235-24-e-13-1-1-1345-234
 always saanen 234-1-1-e-1345-14
 always emanation 12356-235-5-1345
 always trepanation 2345-1235-15-e-1234-235-5-1345
-always andromedanebel 235-145-1235-135-e-134-15-e-145-1-e-1345-15-e-12-13456
+always andromedanebel 235-145-1235-135-e-134-15-e-145-1-f-1345-15-e-12-13456
 always daneben 145-1-e-1345-12
 always danieden 145-1-e-1345-346-e-145-14
 always danieder 145-1-e-1345-346-e-145-12456
-always lambda 123-1-134-12-145-1
+always lambda 123-1-134-12-e-145-1
 prfword bean 12-15-1-1345
 prfword beans 12-15-1-1345-234
 always clean 6-14-123-15-1-1345
@@ -412,16 +410,22 @@ always liganiveau 123-45-1-e-1345-24-e-1236-15-16
 begmidword alphanum 25-1234-125-1-f-1345-136-134
 always mafia 134-1-e-124-24-1
 always olympia 135-123-6-13456-134-e-1234-24-1
-always arekanuss 356-15-e-13-1-e-1345-136-2346
-begmidword arekanüss 356-15-e-13-1-e-1345-1256-2346
+always arekanuss 356-15-e-13-1-f-1345-136-2346
+always arekanuß 356-15-e-13-1-f-1345-136-2346
+begmidword arekanüss 356-15-e-13-1-f-1345-1256-2346
+begmidword arekanüß 356-15-e-13-1-f-1345-1256-2346
 begmidword amerikan 1-134-12456-24-e-13-235
-always kolanuss 13-135-123-1-f-1345-136-2346
-begmidword kolanüss 13-135-123-1-f-1345-1256-2346
-begmidword supranation 234-136-1234-1235-1-f-1345-5-1345
-begmidword supranatur 234-136-1234-1235-1-f-1345-2345
-always intranet 35-2345-1235-1-f-1345-15-2345
+always kolanuss 13-135-e-123-1-f-1345-136-2346
+always kolanuß 13-135-e-123-1-f-1345-136-2346
+begmidword kolanüss 13-135-e-123-1-f-1345-1256-2346
+begmidword kolanüß 13-135-e-123-1-f-1345-1256-2346
+begmidword supranation 234-136-e-1234-cb-1235-1-f-1345-5-1345
+begmidword supranatur 234-136-e-1234-cb-1235-1-f-1345-2345
+always intranet 35-ca-2345-cb-1235-1-f-1345-15-2345
 always paranuss 1234-356-1-f-1345-136-2346
+always paranuß 1234-356-1-f-1345-136-2346
 begmidword paranüss 1234-356-1-f-1345-1256-2346
+begmidword paranüß 1234-356-1-f-1345-1256-2346
 always ricotta 1235-24-e-6-14-135-2345-e-2345-1
 
 # ANDER ÄNDER (4.3.6 Kommakürzungen)
@@ -436,7 +440,7 @@ begmidword banderol 12-235-e-145-12456-135-e-123
 always bänder 12-345-1345-e-145-12456
 always abänder 1-12-e-5-12456
 always rosabänder 1235-135-e-234-1-f-12-345-1345-e-145-12456
-always erbänderung 12456-12-e-5-12456-136
+always erbänderung 12456-12-f-5-12456-136
 always pfänder 1234-124-345-1345-e-145-12456
 sufword leander 123-15-e-235-e-145-12456
 always oleander 135-123-15-e-235-e-145-12456
@@ -489,9 +493,9 @@ correct "'"["Ar"] "A¦r"
 correct "'"["aR"] "a¦R"
 correct "'"["AR"] "A¦R"
 before r begmidword kuba 13-136-e-12-1
-always amerika 1-134-12456-24-e-13-1-f
-before r always afrika 1-124-1235-24-e-13-1-f
-always paprika 1234-1-e-1234-1235-24-e-13-1
+always amerika 1-134-12456-24-e-13-1
+before r always afrika 1-124-1235-24-e-13-1
+always paprika 1234-1-e-1234-cb-1235-24-e-13-1
 before r begmidword gala 1245-25-1-f
 always rucola 1235-136-e-6-14-135-e-123-1
 always granola 1245-1235-235-135-e-123-1
@@ -502,14 +506,14 @@ always komma 13-1346-1
 begmidword kommand 13-1346-235-145
 always klima 13-123-24-e-134-1
 always aroma 356-135-e-134-1
-always marihuana 134-356-24-e-125-136-e-235-1
+always marihuana 134-356-24-e-125-136-cb-235-1
 always china 1456-35-1
 before r always henna 125-14-e-1345-1
-always europa 126-1235-135-e-1234-1
-sufword extra 1346-2345-1235-1
-midendword extra 15-6-1346-2345-1235-1
+always europa 126-e-1235-135-e-1234-1
+sufword extra 1346-e-2345-cb-1235-1
+midendword extra 15-6-1346-e-2345-cb-1235-1
 always kamera 13-1-e-134-12456-1
-always kassandra 13-1-2346-235-145-1235-1
+always kassandra 13-1-2346-235-e-145-cb-1235-1
 sufword areligiös 1-1235-13456-45-24-e-246-234
 midword areligiös 1-f-1235-13456-45-24-e-246-234
 midendword areport 1-f-1235-15-e-1234-26-2345
@@ -520,20 +524,23 @@ always aar 1-1-1235
 always teneriffa 2345-14-12456-24-124-e-124-1
 always diaarchiv 145-24-1-f-356-1456-24-1236
 midword aarithmet 1-e-356-24-2345-125-e-134-15-2345
-prfword aarmee 1-f-356-134-15-15
-always aarmeen 1-f-356-134-15-14
+prfword aarmee 1-f-356-e-134-15-15
+always aarmeen 1-f-356-e-134-15-e-14
 always komaart 13-135-e-134-1-f-356-2345
-always mantraart 134-235-e-2345-1235-1-f-356-2345
+always mantraart 134-235-e-2345-cb-1235-1-f-356-2345
 begmidword barbaross 12-356-e-12-1-f-1235-135-2346
 word earl 15-1-1235-123
 word earls 15-1-1235-123-234
+sufword earth 15-1-1235-2345-125
 sufword fear 124-15-1-1235
+prfword heart 125-15-1-1235-2345
+prfword hearts 125-15-1-1235-2345-234
 always learn 123-15-1-1235-1345
 always clear 6-14-123-15-1-1235
-always hearing 125-15-1-1235-35-1245
+always hearing 125-15-1-e-1235-35-1245
 always pearl 1234-15-1-1235-123
 always appear 1-1234-e-1234-15-1-1235
-begmidword shakespear 234-125-1-13-123456-e-1234-15-1-1235
+begmidword shakespear 234-125-1-13-15-e-234-1234-15-1-1235
 always search 234-15-1-1235-1456
 sufword sears 234-15-1-1235-234
 always tearoom 2345-15-1-f-1235-135-135-134
@@ -542,25 +549,25 @@ before r begmidword sofa 234-135-e-124-1
 always ligarund 123-45-1-f-1235-256-145
 always diarahm 145-24-1-f-1235-1-125-134
 begmidword diarähm 145-24-1-f-1235-345-125-134
-begmidword mafiaroll 134-1-124-24-1-f-1235-135-12345
-always inkareich 35-13-1-f-1235-146-1456
+begmidword mafiaroll 134-1-e-124-24-1-f-1235-135-12345
+always inkareich 35-e-13-1-f-1235-146-1456
 begmidword spermaröhr 234-1234-12456-e-134-1-f-1235-246-125-1235
 always board 12-135-1-1235-145
-always roaring 1235-135-1-1235-35-1245
-always infrarot 35-124-1235-1-f-1235-135-2345
-prfword infrarote 35-124-1235-1-f-1235-135-236
+always roaring 1235-135-1-e-1235-35-1245
+always infrarot 35-e-124-cb-1235-1-f-1235-135-2345
+prfword infrarote 35-e-124-cb-1235-1-f-1235-135-236
 begmidword toraroll 2345-26-1-f-1235-135-12345
 begmidword thoraroll 2345-125-26-1-f-1235-135-12345
 always hurraruf 125-136-1235-e-1235-1-f-1235-136-124
-always ultrarot 136-123-2345-1235-1-f-1235-135-2345
-prfword ultrarote 136-123-2345-1235-1-f-1235-135-236
+always ultrarot 136-123-e-2345-cb-1235-1-f-1235-135-2345
+prfword ultrarote 136-123-e-2345-cb-1235-1-f-1235-135-236
 always rosarot 1235-135-e-234-1-f-1235-135-2345
 prfword rosarote 1235-135-e-234-1-f-1235-135-236
-always metareflex 134-15-e-2345-1-f-1235-15-124-123-15-6-1346
+always metareflex 134-15-e-2345-1-f-1235-15-e-124-123-15-6-1346
 before r begmidword manta 134-235-e-2345-1
 before r begmidword magenta 134-1-e-1245-14-e-2345-1
-always pastarest 1234-1-23456-1-f-1235-15-23456
-begmidword costaric 6-14-135-23456-1-f-1235-24-e-6-14
+always pastarest 1234-1-ca-23456-1-f-1235-15-23456
+begmidword costaric 6-14-135-ca-23456-1-f-1235-24-e-6-14
 before r begmidword pizza 1234-24-1356-e-1356-1-f
 
 # ARBEIT (4.4 Zweiformige Kürzungen)
@@ -579,13 +586,13 @@ midendword ativ 5-1236
 word au 6-16
 always au 16
 always kapernaum 13-1-e-1234-12456-e-1345-1-e-136-134
-always europa 126-1235-135-1234-1
-before u begword extra 1346-2345-1235-1
-before u midword extra 15-6-1346-2345-1235-1
-always galauniform 1245-25-1-e-256-24-e-124-26-134
-always intrauterin 35-2345-1235-1-e-136-2345-12456-35
-always kamera 13-1-134-12456-1
-always pharma 1234-125-356-134-1
+always europa 126-e-1235-135-e-1234-1
+before u begword extra 1346-e-2345-cb-1235-1
+before u midword extra 15-6-1346-e-2345-cb-1235-1
+always galauniform 1245-25-1-f-256-24-e-124-26-134
+always intrauterin 35-e-2345-cb-1235-1-e-136-2345-12456-35
+always kamera 13-1-e-134-12456-1
+always pharma 1234-125-356-e-134-1
 
 # ÄU  (4.1 Lautgruppenkürzungen)
 always äu 34
@@ -615,140 +622,140 @@ sufword bau 12-16
 always baum 12-16-134
 always baumaschin 12-16-f-134-156
 always baumaterial 12-16-f-134-123
-always abbau 1-12-e-12-16
-always ackerbau 1-46-12456-e-12-16
-always neubau 1345-126-e-12-16
-syllable aufbau 2-16-e-12-16
-always aufberei 2-16-e-23-e-1235-146
-always kaufberei 13-16-124-e-23-e-1235-146
-always laufberei 123-16-124-e-23-e-1235-146
-always durchlauf 2-1456-e-123-16-124
-prfword signal 234-45-e-1345-1-123
-begmidword signal 234-45-e-1345-25
-syllable aufbesser 2-16-e-234-234
-syllable aufbewahr 2-16-e-23-2456-125
-always aufgebot 2-16-e-12346-12-135-2345
-prfword aufgebote 2-16-e-12346-12-135-236
-syllable aufheb 2-16-e-125-15-12
-syllable aufhäng 2-16-e-125-345-1345-1245
-syllable aufhänge 2-16-e-125-345-1345-12346
-syllable aufhängen 2-16-e-125-345-1345-1245-14
-syllable aufhängenas 2-16-e-125-345-1345-12346-f-1345-1-234
-syllable aufhänger 2-16-e-125-345-1345-1245-12456
-syllable aufklär 2-16-e-13-123-345-1235
-syllable aufkomm 2-16-e-13-1346
-syllable auflauf 2-16-e-123-16-124
-syllable aufläuf 2-16-e-123-34-124
-syllable aufmach 2-16-e-134-56
-syllable aufruf 2-16-e-1235-136-124
-syllable aufruhr 2-16-e-1235-136-125-1235
-syllable aufschrei 2-16-e-156-1235-146
-syllable aufschreib 2-16-e-156-12
-syllable daraufschreib 2-16-e-156-12
-syllable umlaufschreiben 136-134-e-123-16-124-f-156-12-14
-syllable aufschwung 2-16-e-156-2456-256-1245
-syllable aufschwün 2-16-e-156-2456-1256-1345
-syllable aufstieg 2-16-e-23456-346-1245
-prfword aufstiege 2-16-e-23456-346-12346
-syllable auftrag 2-16-e-2345-1245
-syllable aufträg 2-16-e-5-2345-1245
-syllable auftrags 2-16-e-2345-1245-234
-syllable auftrieb 2-16-e-2345-1235-346-12
+always abbau 1-12-f-12-16
+always ackerbau 1-46-12456-f-12-16
+always neubau 1345-126-f-12-16
+syllable aufbau 2-16-f-12-16
+always aufberei 2-16-f-23-e-1235-146
+always kaufberei 13-16-124-f-23-e-1235-146
+always laufberei 123-16-124-f-23-e-1235-146
+always durchlauf 2-1456-f-123-16-124
+prfword signal 234-45-cb-1345-1-123
+begmidword signal 234-45-cb-1345-25
+syllable aufbesser 2-16-f-234-234
+syllable aufbewahr 2-16-f-23-2456-125
+always aufgebot 2-16-f-12346-12-135-2345
+prfword aufgebote 2-16-f-12346-12-135-236
+syllable aufheb 2-16-f-125-15-12
+syllable aufhäng 2-16-f-125-345-1345-1245
+syllable aufhänge 2-16-f-125-345-1345-e-12346
+syllable aufhängen 2-16-f-125-345-1345-e-1245-14
+syllable aufhängenas 2-16-f-125-345-1345-e-12346-f-1345-1-234
+syllable aufhänger 2-16-f-125-345-1345-e-1245-12456
+syllable aufklär 2-16-f-13-123-345-1235
+syllable aufkomm 2-16-f-13-1346
+syllable auflauf 2-16-f-123-16-124
+syllable aufläuf 2-16-f-123-34-124
+syllable aufmach 2-16-f-134-56
+syllable aufruf 2-16-f-1235-136-124
+syllable aufruhr 2-16-f-1235-136-125-1235
+syllable aufschrei 2-16-f-156-1235-146
+syllable aufschreib 2-16-f-156-12
+syllable daraufschreib 2-16-f-156-12
+syllable umlaufschreiben 136-134-f-123-16-124-f-156-12-14
+syllable aufschwung 2-16-f-156-2456-256-1245
+syllable aufschwün 2-16-f-156-2456-1256-1345
+syllable aufstieg 2-16-f-23456-346-1245
+prfword aufstiege 2-16-f-23456-346-12346
+syllable auftrag 2-16-f-2345-1245
+syllable aufträg 2-16-f-5-2345-1245
+syllable auftrags 2-16-f-2345-1245-234
+syllable auftrieb 2-16-f-2345-1235-346-12
 syllable anbau 235-e-12-16
 always ärmel 345-1235-e-134-13456
-begmidword wärmel 2456-345-1235-e-134-15-e-123
+begmidword wärmel 2456-345-1235-e-134-15-f-123
 begword ausbau 34-e-12-16
 midendword ausbau 16-234-e-12-16
-always baufach 12-16-e-124-56
-always baufähig 12-16-e-124-345-125-45
-always baufällig 12-16-e-5-124-12345-45
-always baufehler 12-16-e-124-2356-e-123-12456
-always baufertig 12-16-e-124-45
-always baufest 12-16-e-124-15-23456
-begmidword baufinanzier 12-16-e-124-35-235-e-1356-346-1235
-prfword baufinanzier 12-16-e-124-35-235-e-1356-24-12456
-prfword baufinanziers 12-16-e-124-35-235-e-1356-24-12456-234
-begmidword baufirm 12-16-e-124-24-1235-e-134
-begmidword baufläch 12-16-e-124-123-345-e-1456
-always bauflucht 12-16-e-124-123-136-1456-2345
-begmidword bauförder 12-16-e-124-246-1235-e-145-12456
-always bauform 12-16-e-124-26-134
-begmidword bauforsch 12-16-e-124-26-156
-begmidword baufort 12-16-e-124-26-2345
-always baufrei 12-16-e-124-1235-146
-begmidword bauführ 12-16-e-124-125
+always baufach 12-16-f-124-56
+always baufähig 12-16-f-124-345-125-45
+always baufällig 12-16-f-5-124-12345-45
+always baufehler 12-16-f-124-2356-e-123-12456
+always baufertig 12-16-f-124-45
+always baufest 12-16-f-124-15-23456
+begmidword baufinanzier 12-16-f-124-35-235-e-1356-346-1235
+prfword baufinanzier 12-16-f-124-35-235-e-1356-24-12456
+prfword baufinanziers 12-16-f-124-35-235-e-1356-24-12456-234
+begmidword baufirm 12-16-f-124-24-1235-e-134
+begmidword baufläch 12-16-f-124-123-345-e-1456
+always bauflucht 12-16-f-124-123-136-1456-2345
+begmidword bauförder 12-16-f-124-246-1235-e-145-12456
+always bauform 12-16-f-124-26-134
+begmidword bauforsch 12-16-f-124-26-156
+begmidword baufort 12-16-f-124-26-2345
+always baufrei 12-16-f-124-1235-146
+begmidword bauführ 12-16-f-124-125
 always beaufort 12-15-16-e-124-26-2345
 always niveau 1345-24-e-1236-15-16
-begmidword blaufarb 12-123-16-e-124-356-12
-begmidword blaufärb 12-123-16-e-124-345-1235-12
-begmidword blaufäul 12-123-16-e-124-34-123
-begmidword blaufelch 12-123-16-e-124-13456-1456
-begmidword blaufich 12-123-16-e-124-3456
-always blaufilter 12-123-16-e-124-24-123-e-2345-12456
+begmidword blaufarb 12-123-16-f-124-356-12
+begmidword blaufärb 12-123-16-f-124-345-1235-12
+begmidword blaufäul 12-123-16-f-124-34-123
+begmidword blaufelch 12-123-16-f-124-13456-1456
+begmidword blaufich 12-123-16-f-124-3456
+always blaufilter 12-123-16-f-124-24-123-e-2345-12456
 begmidword chauff 1456-16-124-e-124
 syllable fuchs 124-136-1456-234
 syllable füchs 124-1256-1456-234
-always gaufürst 1245-16-e-124-1256-1235-23456
-begmidword graufäul 1245-1235-16-e-124-34-123
-always graufisch 1245-1235-16-e-124-24-156
+always gaufürst 1245-16-f-124-1256-1235-23456
+begmidword graufäul 1245-1235-16-f-124-34-123
+always graufisch 1245-1235-16-f-124-24-156
 always hauf 125-16-124
-always nahauf 1345-1-125-e-2-16
-always frühauf 124-1235-1256-125-e-2-16
-begmidword stehauf 23456-2356-e-2-16
-begmidword viehauf 1236-346-125-e-2-16
+always nahauf 1345-1-125-f-2-16
+always frühauf 124-1235-1256-125-f-2-16
+begmidword stehauf 23456-2356-f-2-16
+begmidword viehauf 1236-346-125-f-2-16
 always kabeljau 13-1-e-12-13456-e-245-16
 always kauf 13-16-124
 always hypothek 125-6-13456-e-1234-135-e-2345-125-15-13
 always klinik 13-123-35-24-13
-always logistik 123-135-e-1245-24-23456-24-13
+always logistik 123-135-e-1245-24-ca-23456-24-13
 always mathematik 134-1-e-2345-125-12356-1-e-2345-24-13
 always physik 1234-125-6-13456-e-234-24-13
 begmidword grafikauf 1245-1235-1-e-124-24-13-f-2-16
 begmidword graphikauf 1245-1235-1-e-1234-125-24-13-f-2-16
-begmidword bankauf 12-235-13-e-2-16
-begmidword schwenkauf 156-2456-14-13-e-2-16
-begmidword denkaufga 145-14-13-e-2-16-e-1245-1
-begmidword lenkauf 123-14-13-e-2-16
-begmidword funkauf 124-256-13-e-2-16
-begmidword parkauf 1234-356-13-e-2-16
-begmidword werkauf 2456-12456-13-e-2-16
+begmidword bankauf 12-235-13-f-2-16
+begmidword schwenkauf 156-2456-14-13-f-2-16
+begmidword denkaufga 145-14-13-f-2-16-e-1245-1
+begmidword lenkauf 123-14-13-f-2-16
+begmidword funkauf 124-256-13-f-2-16
+begmidword parkauf 1234-356-13-f-2-16
+begmidword werkauf 2456-12456-13-f-2-16
 always knauf 13-1345-16-124
 always lauf 123-16-124
-always eilauftrag 146-123-e-2-16-e-2345-1245
-always eilaufträg 146-123-e-2-16-e-5-2345-1245
+always eilauftrag 146-123-f-2-16-e-2345-1245
+always eilaufträg 146-123-f-2-16-e-5-2345-1245
 always monopol 134-135-e-1345-135-e-1234-135-123
 always stuhlauf 23456-136-125-123-f-2-16
 always teilauf 2345-146-123-f-2-16
-always umlauf 136-134-e-123-16-124
+always umlauf 136-134-f-123-16-124
 always schulauf 156-136-123-f-2-16
-midendword laufbau 123-e-2-16-e-12-16
-midendword laufnehm 123-e-2-16-e-1345-125
-midendword laufnahm 123-e-2-16-e-1345-134
-midendword laufbereitung 123-e-2-16-e-23-1235-146-e-2345-136
-midendword laufklär 123-e-2-16-e-13-123-345-1235
-always schallaufnehm 156-1-12345-e-2-16-e-1345-125
-always plateauform 1234-123-1-e-2345-15-16-e-124-26-134
-begmidword plateauförm 1234-123-1-e-2345-15-16-e-124-246-1235-134
+midendword laufbau 123-f-2-16-e-12-16
+midendword laufnehm 123-f-2-16-e-1345-125
+midendword laufnahm 123-f-2-16-e-1345-134
+midendword laufbereitung 123-f-2-16-e-23-1235-146-e-2345-136
+midendword laufklär 123-f-2-16-e-13-123-345-1235
+always schallaufnehm 156-1-12345-f-2-16-e-1345-125
+always plateauform 1234-123-1-e-2345-15-16-f-124-26-134
+begmidword plateauförm 1234-123-1-e-2345-15-16-f-124-246-1235-134
 begmidword schauf 156-16-124
 begmidword geschauf 12346-e-156-16-124
-always mischauf 134-24-156-e-2-16
-always tischauf 2345-24-156-e-2-16
-always frischauf 124-1235-24-156-e-2-16
+always mischauf 134-24-156-f-2-16
+always tischauf 2345-24-156-f-2-16
+always frischauf 124-1235-24-156-f-2-16
 always arschauf 356-156-f-2-16
 always schnauf 156-1345-16-124
 always geschnauf 12346-e-156-1345-16-124
 # HOMONYM
 always rauf 1235-2-16
-always raufaser 1235-16-e-124-1-e-234-12456
-always raufbold 1235-16-124-e-12-135-123-145
-prfword raufe 1235-16-124-15
-prfword raufen 1235-16-124-14
+always raufaser 1235-16-f-124-1-e-234-12456
+always raufbold 1235-16-124-f-12-135-123-145
+prfword raufe 1235-16-e-124-15
+prfword raufen 1235-16-e-124-14
 always raufend 1235-16-e-124-14-145
 prfword raufer 1235-16-e-124-12456
 always rauferei 1235-16-e-124-12456-146
 always raufhandel 1235-16-124-f-125-145-13456
 always raufhändel 1235-16-124-f-5-125-145-13456
-midendword rauflieger 1235-e-2-16-e-123-346-e-1245-12456
+midendword rauflieger 1235-f-2-16-e-123-346-e-1245-12456
 always rauflust 1235-16-124-f-123-136-23456
 always raufrost 1235-16-f-124-1235-135-23456
 prfword raufst 1235-16-124-23456
@@ -761,12 +768,12 @@ always grammier 1245-1235-1-1346-346-1235
 always reparatur 1235-15-e-1234-356-1-e-2345-136-1235
 always gebühr 12346-e-12-1256-125-1235
 always lehrauf 123-2356-1235-f-2-16
-prfword raufte 1235-16-124-236
-prfword rauftest 1235-16-124-236-23456
-prfword rauftet 1235-16-124-236-2345
-always raufutter 1235-16-e-124-136-2345-e-2345-12456
-always raufuß 1235-16-e-124-136-2346
-always raufüß 1235-16-e-124-1256-2346
+prfword raufte 1235-16-124-e-236
+prfword rauftest 1235-16-124-e-236-23456
+prfword rauftet 1235-16-124-e-236-2345
+always raufutter 1235-16-f-124-136-2345-e-2345-12456
+always raufuß 1235-16-f-124-136-2346
+always raufüß 1235-16-f-124-1256-2346
 begmidword wiederauf 346-145-e-2-16
 always trauf 2345-1235-16-124
 always sauf 234-16-124
@@ -776,7 +783,7 @@ always fondsauf 124-135-1345-145-234-f-2-16
 always tagsauf 2345-1-1245-234-e-2-16
 midword ungsauf 136-234-f-2-16
 always reichsauf 1235-146-1456-234-f-2-16
-always bereichsauf 23-e-1235-146-1456-234-e-2-16
+always bereichsauf 23-e-1235-146-1456-234-f-2-16
 midword ationsauf 5-1345-234-f-2-16
 always stücksauf 23456-1256-46-234-f-2-16
 always flussauf 124-123-136-2346-f-2-16
@@ -785,12 +792,12 @@ midword schaftsauf 156-234-f-2-16
 always hausauf 125-16-234-f-2-16
 always tauf 2345-16-124
 always spätauf 234-1234-345-2345-f-2-16
-always porträtauf 1234-26-e-2345-1235-345-2345-f-2-16
+always porträtauf 1234-26-e-2345-cb-1235-345-2345-f-2-16
 always etatauf 15-2345-1-2345-f-2-16
 always privatauf 1234-1235-24-e-1236-1-2345-f-2-16
 always stadtauf 23456-1-145-2345-f-2-16
 always mietauf 134-346-2345-f-2-16
-always magnetauf 134-1-1245-1345-15-2345-f-2-16
+always magnetauf 134-1-e-1245-cb-1345-15-2345-f-2-16
 always budgetauf 12-136-145-e-12346-2345-f-2-16
 always internetauf 35-2345-12456-e-1345-15-2345-f-2-16
 always luftauf 123-136-124-2345-f-2-16
@@ -801,7 +808,7 @@ always frachtauf 124-1235-56-2345-f-2-16
 always dichtauf 145-3456-2345-f-2-16
 begword lichtauf 123-3456-2345-f-2-16
 midword lichtauf 456-2345-f-2-16
-always portraitauf 1234-26-e-2345-1235-1-24-2345-f-2-16
+always portraitauf 1234-26-e-2345-cb-1235-1-24-2345-f-2-16
 always kreditauf 13-1235-15-e-145-24-2345-f-2-16
 always aktauf 1-13-2345-f-2-16
 always nacktauf 1345-1-46-2345-f-2-16
@@ -831,29 +838,29 @@ midendword stauftrag 23456-f-2-16-e-2345-1245
 midword staufträg 23456-f-2-16-e-5-2345-1245
 begmidword gastauf 1245-1-23456-f-2-16
 begmidword knastauf 13-1345-1-23456-f-2-16
-begmidword kindstauf 13-35-145-234-e-2345-16-124
-begmidword postauf 1234-135-23456-e-2-16
-begmidword erstauf 12456-23456-e-2-16
-begmidword wurstauf 2456-136-1235-23456-e-2-16
-begmidword blutauf 12-123-136-2345-e-2-16
-begword textauf 2345-15-6-1346-2345-e-2-16
-midword textauf 236-6-1346-2345-e-2-16
+begmidword kindstauf 13-35-145-234-f-2345-16-124
+begmidword postauf 1234-135-23456-f-2-16
+begmidword erstauf 12456-23456-f-2-16
+begmidword wurstauf 2456-136-1235-23456-f-2-16
+begmidword blutauf 12-123-136-2345-f-2-16
+begword textauf 2345-15-6-1346-2345-f-2-16
+midword textauf 236-6-1346-2345-f-2-16
 
 # AUS- (4.2.1 Vorsilbenkürzungen)
 begword aus 34
-always auschwitz 16-156-2456-24-2345-1356
+always auschwitz 16-156-e-2456-24-2345-1356
 begmidword auspizi 16-234-e-1234-24-e-1356-24
 word aussi 16-2346-24
 prfword aussie 16-2346-346
 prfword aussies 16-2346-346-234
-sufword austen 16-23456-14
-always auster 16-23456-12456
-sufword austin 16-23456-35
-begmidword austral 16-23456-1235-25
-begmidword australi 16-23456-1235-25-24
-always austria 16-23456-1235-24-1
-always austrien 16-23456-1235-24-14
-always austrones 16-23456-1235-135-e-1345-123456
+sufword austen 16-ca-23456-14
+always auster 16-ca-23456-12456
+sufword austin 16-ca-23456-35
+begmidword austral 16-ca-23456-1235-25
+begmidword australi 16-ca-23456-1235-25-24
+always austria 16-ca-23456-1235-24-1
+always austrien 16-ca-23456-1235-24-e-14
+always austrones 16-ca-23456-1235-135-e-1345-123456
 
 # BE  (4.1 Lautgruppenkürzungen)
 word be 12-15
@@ -862,27 +869,27 @@ always beacon 12-15-1-e-6-14-135-1345
 sufword beagl 12-15-1-1245-123
 prfword beam 12-15-1-134
 prfword beams 12-15-1-134-234
-always beamen 12-15-1-134-14
-always beamer 12-15-1-134-12456
+always beamen 12-15-1-e-134-14
+always beamer 12-15-1-e-134-12456
 prfword gebeamt 12346-e-12-15-1-134-2345
 always beatband 12-15-1-2345-f-12-235-145
 always beatm 23-1-2345-134
 always beatmusik 12-15-1-2345-f-134-13
-begmidword beatri 23-1-2345-1235-24
+begmidword beatri 23-cb-1-e-2345-1235-24
 before konsonant begmidword beat 12-15-1-2345
 always offbeat 135-124-124-e-12-15-1-2345
-midendword stoffbeatmung 23456-135-124-124-f-23-1-2345-134-136
+midendword stoffbeatmung 23456-135-124-124-f-23-e-1-2345-e-134-136
 always off-beat 135-124-124-36-12-15-1-2345
 always computerbeat 6-14-135-134-e-1234-136-e-2345-12456-f-12-15-1-2345
 prfword beau 12-15-16
 always beaujolais 12-15-16-e-245-135-e-123-1-24-234
 always beaulieu 12-15-16-e-123-24-126
 prfword beaus 12-15-16-234
-always beautiful 12-15-16-2345-24-e-124-136-123
-always beauty 12-15-16-2345-6-13456
+always beautiful 12-15-16-e-2345-24-e-124-136-123
+always beauty 12-15-16-e-2345-6-13456
 prfword beaux 12-15-16-6-1346
 always farbecht 124-356-12-f-15-1456-2345
-prfword farbechte 124-356-12-f-15-1456-236
+prfword farbechte 124-356-12-f-15-1456-e-236
 always halbeben 125-25-12-f-15-12-14
 always halbedel 125-25-12-f-15-145-13456
 prfword bee 12-15-15
@@ -892,25 +899,25 @@ always beef 12-15-15-124
 always beelz 12-15-15-123-1356
 always beep 12-15-15-1234
 prfword beer 12-15-15-1235
-prfword beere 12-15-15-1235-15
-prfword beeren 12-15-15-1235-14
+prfword beere 12-15-15-e-1235-15
+prfword beeren 12-15-15-e-1235-14
 prfword beers 12-15-15-1235-234
 prfword bees 12-15-15-234
 always beet 12-15-15-2345
-prfword beete 12-15-15-236
+prfword beete 12-15-15-e-236
 always farbeffek 124-356-12-f-15-124-e-124-15-13
 always beug 12-126-1245
 always halbesel 125-25-12-f-123456-13456
-prfword beuge 12-126-12346
-always beugebeweg 12-126-12346-f-23-e-2456-1245
-before h begmidword beuge 12-126-12346
-before m begmidword beuge 12-126-12346
-before s begmidword beuge 12-126-12346
+prfword beuge 12-126-e-12346
+always beugebeweg 12-126-e-12346-f-23-e-2456-1245
+before h begmidword beuge 12-126-e-12346
+before m begmidword beuge 12-126-e-12346
+before s begmidword beuge 12-126-e-12346
 always beul 12-126-123
 always flambeur 124-123-1-134-e-12-126-1235
 always beuren 12-126-e-1235-14
 begmidword beurr 12-126-1235-1235
-always beute 12-126-236
+always beute 12-126-e-236
 always beutel 12-126-e-2345-13456
 always beuten 12-126-e-2345-14
 always beuter 12-126-e-2345-12456
@@ -938,7 +945,7 @@ word bela 12-13456-1
 always belami 12-13456-1-134-24
 always belarus 12-13456-1-e-1235-136-234
 always belarussisch 12-13456-1-f-1235-136-2346-24-156
-always belcanto 12-13456-f-6-14-235-e-2345-135
+always belcanto 12-13456-e-6-14-235-e-2345-135
 always belchen 12-13456-e-1456-14
 always belemnit 12-13456-12356-e-1345-24-2345
 always belesprit 12-13456-e-123456-1234-1235-24-2345
@@ -979,8 +986,8 @@ before l begmidword eingabe 1246-e-1245-1-23
 before l begmidword wiedergabe 346-145-e-1245-1-23
 before l begword ausgabe 34-e-1245-1-23
 before l midword ausgabe 16-234-e-1245-1-23
-always variabel 1236-356-24-e-1-12-13456
-always justiziabel 245-136-23456-24-e-1356-24-e-1-12-13456
+always variabel 1236-356-24-cb-1-e-12-13456
+always justiziabel 245-136-ca-23456-24-e-1356-24-e-1-12-13456
 always kabel 13-1-e-12-13456
 always label 123-1-e-12-13456
 begmidword flabellin 124-123-1-e-23-12345-35
@@ -988,7 +995,7 @@ midendword llabel 12345-1-e-12-13456
 always blamabel 12-123-1-e-134-1-e-12-13456
 always nabel 1345-1-e-12-13456
 always inkunabel 35-e-13-256-1-e-12-13456
-always annabell 235-1345-1-e-23-12345
+always annabell 235-e-1345-1-e-23-12345
 always schnabel 156-1345-1-e-12-13456
 always schnäbel 156-1345-345-e-12-13456
 always palpabel 1234-25-e-1234-1-e-12-13456
@@ -1028,7 +1035,7 @@ always deibel 145-146-e-12-13456
 always weibel 2456-146-e-12-13456
 always fibel 124-24-e-12-13456
 always erigibel 12456-45-24-e-12-13456
-always reagibel 1235-15-e-1-1245-24-e-12-13456
+always reagibel 1235-15-cb-1-e-1245-24-e-12-13456
 always fallibel 124-1-12345-24-e-12-13456
 always disponibel 145-24-234-e-1234-135-e-1345-24-e-12-13456
 always penibel 1234-14-24-e-12-13456
@@ -1058,7 +1065,7 @@ always bärbel 12-345-1235-e-12-13456
 always scherbel 156-12456-e-12-13456
 always kerbel 13-12456-e-12-13456
 always hyperbel 125-6-13456-e-1234-12456-e-12-13456
-before l begmidword werbe 2456-12456-23
+before l begmidword werbe 2456-12456-e-23
 always schwerbeladen 156-2456-12456-f-23-e-123-1-e-145-14
 always wirbel 2456-24-1235-e-12-13456
 always zirbel 1356-24-1235-e-12-13456
@@ -1066,6 +1073,8 @@ always kurbel 13-136-1235-e-12-13456
 always übel 1256-12-13456
 always menübeleg 134-14-1256-f-23-123-15-1245
 prfword menübelege 134-14-1256-f-23-123-15-12346
+# Plural Homonym
+prfword staubecke 23456-16-12-f-15-46-15
 always hugendubel 125-136-e-1245-14-f-145-136-e-12-13456
 always deubel 145-126-e-12-13456
 always doubel 145-135-136-e-12-13456
@@ -1076,16 +1085,16 @@ always rubella 1235-136-e-23-12345-1
 # BEm
 endword bem 12-12356
 always bemm 23-1346
-always bemann 23-e-134-1345
-always bemänn 23-e-5-134-1345
-midendword bemaschin 23-e-134-156
-midendword bematerial 23-e-134-123
-always bemittel 23-e-134-2345
-midendword bemöglich 23-e-134-456
-midendword bemusik 23-e-134-13
-midendword bemuss 23-e-134-2346
+always bemann 23-f-134-1345
+always bemänn 23-f-5-134-1345
+midendword bemaschin 23-f-134-156
+midendword bematerial 23-f-134-123
+always bemittel 23-f-134-2345
+midendword bemöglich 23-f-134-456
+midendword bemusik 23-f-134-13
+midendword bemuss 23-f-134-2346
 always bembel 12-12356-e-12-13456
-midendword bemail 12-f-12356-1-24-123
+midendword bemail 23-f-134-1-24-123
 midword bemaill 12-f-12356-1-24-12345
 midword bemanz 12-f-12356-235-e-1356
 midword bemball 12-f-12356-12-1-12345
@@ -1096,7 +1105,7 @@ midendword bement 12-12356-14-2345
 midendword bemerit 12-f-12356-12456-24-2345
 midword bemigr 12-f-12356-45-1245-1235
 midendword beminent 12-f-12356-35-14-2345
-endword beminente 12-f-12356-35-14-236
+endword beminente 12-f-12356-35-14-e-236
 midendword bemission 12-f-12356-24-2346-245
 midendword bemotion 12-f-12356-135-2345-245
 midword bempath 12-f-12356-1234-1-e-2345-125
@@ -1139,10 +1148,10 @@ always benommen 23-e-1345-1346
 always benot 23-e-1345-135-2345
 always grubenotter 1245-1235-136-e-12-14-f-135-2345-e-2345-12456
 always benöt 23-e-1345-246-2345
-prfword benote 23-e-1345-135-236
+prfword benote 23-e-1345-135-e-236
 always benotest 23-e-1345-135-e-236-23456
 always benotet 23-e-1345-135-e-236-2345
-prfword benotete 23-e-1345-135-e-236-236
+prfword benotete 23-e-1345-135-e-236-e-236
 prfword benotetet 23-e-1345-135-e-236-e-236-2345
 always benotetest 23-e-1345-135-e-236-e-236-23456
 midendword benötig 23-e-1345-246-e-2345-45
@@ -1159,36 +1168,36 @@ always berat 23-f-1235-1-2345
 always deliberativ 145-13456-24-e-12-12456-5-1236
 always fieber 124-346-e-12-12456
 always beration 12-12456-5-1345
-always berät 23-f-1235-345-2345
-prfword berate 23-f-1235-1-236
-always beratet 23-f-1235-1-e-236-2345
-always beratest 23-f-1235-1-e-236-23456
-always beraub 23-f-1235-16-12
+always berät 23-e-1235-345-2345
+prfword berate 23-e-1235-1-236
+always beratet 23-e-1235-1-e-236-2345
+always beratest 23-e-1235-1-e-236-23456
+always beraub 23-e-1235-16-12
 always beräuch 23-e-1235-34-1456
 always beraum 23-f-1235-16-134
 always beräum 23-f-1235-34-134
 always berausch 23-f-1235-16-156
-always berech 23-f-1235-15-1456
+always berech 23-e-1235-15-1456
 always berecht 23-f-1235-2345
-always schwebereck 156-2456-15-23-f-1235-15-46
-always bered 23-f-1235-15-145
-always bereed 23-f-1235-15-15-145
-always bereg 23-f-1235-15-1245
+always schwebereck 156-2456-15-e-23-f-1235-15-46
+always bered 23-e-1235-15-145
+always bereed 23-e-1235-15-15-145
+always bereg 23-e-1235-15-1245
 endword berei 12-12456-146
-always berei 23-f-1235-146
-always berein 23-f-1235-1246
+always berei 23-e-1235-146
+always berein 23-e-1235-1246
 begmidword räuberein 1235-34-e-12-12456-f-1246
 begmidword selbereinla 234-13456-e-12-12456-f-1246-e-123-1
 endword bereien 12-12456-146-14
-always alberei 25-12-12456-146
+always alberei 25-e-12-12456-146
 midendword albereich 25-f-23-e-1235-146-1456
 always reiberei 1235-146-e-12-12456-146
 always zauberei 1356-16-f-12-12456-146
 always berenn 23-f-1235-14-1345
 always berent 23-f-1235-14-1345-2345
-endword berente 23-f-1235-14-1345-236
-always berentet 23-f-1235-14-1345-236-2345
-always berentest 23-f-1235-14-1345-236-23456
+endword berente 23-f-1235-14-1345-e-236
+always berentet 23-f-1235-14-1345-e-236-2345
+always berentest 23-f-1235-14-1345-e-236-23456
 always bereu 23-f-1235-126
 always sperber 234-1234-12456-e-12-12456
 always bericht 23-f-2-3456
@@ -1197,7 +1206,7 @@ always berieb 23-f-1235-346-12
 always berief 23-f-1235-346-124
 always beries 23-f-1235-346-234
 always beriet 23-f-1235-346-2345
-prfword beriete 23-f-1235-346-236
+prfword beriete 23-f-1235-346-e-236
 prfword berietest 23-f-1235-346-e-236-23456
 prfword berietet 23-f-1235-346-e-236-2345
 always bering 23-f-1235-35-1245
@@ -1205,15 +1214,15 @@ always oberingenieur 135-12-12456-f-35-1245-14-24-e-126-1235
 always beringmeer 12-12456-35-1245-f-134-15-15-1235
 always beringsee 12-12456-35-1245-f-234-15-15
 always beringstr 12-12456-35-1245-f-23456-1235
-always beritt 23-f-1235-24-2345-2345
-always berüch 23-f-1235-1256-1456
-always berück 23-f-1235-46
-always berüsch 23-f-1235-1256-156
-always beruf 23-f-1235-136-124
-always beruh 23-f-1235-136-125
-always berühm 23-f-1235-1256-125-134
-always berühr 23-f-1235-1256-125-1235
-always beruß 23-f-1235-136-2346
+always beritt 23-e-1235-24-2345-2345
+always berüch 23-e-1235-1256-1456
+always berück 23-e-1235-46
+always berüsch 23-e-1235-1256-156
+always beruf 23-e-1235-136-124
+always beruh 23-e-1235-136-125
+always berühm 23-e-1235-1256-125-134
+always berühr 23-e-1235-1256-125-1235
+always beruß 23-e-1235-136-2346
 # BEs
 prfword bes 12-123456
 always besch 23-156
@@ -1224,8 +1233,8 @@ always beschleich 23-e-156-123-146-1456
 always beschreib 23-e-156-12
 always beschrieb 23-e-2-156
 always beschrift 23-e-156-2345
-always besetz 23-f-2-15
-always besitz 23-f-2-24
+always besetz 23-e-2-15
+always besitz 23-e-2-24
 always besoll 23-f-2-234
 always best 23-23456
 always bestimmung 23-e-23456-24-1346-136
@@ -1240,13 +1249,13 @@ always besang 23-e-234-235-1245
 always besandung 23-e-234-235-e-145-136
 always besann 23-e-234-235-1345
 always besen 12-123456-14
-midendword besendung 23-e-234-14-e-145-136
+midendword besendung 23-f-234-14-e-145-136
 always beseng 23-e-234-14-1245
 always besenginster 12-123456-14-f-1245-35-23456-12456
 word besenge 23-e-234-14-12346
 always beserl 12-123456-12456-123
 always beskiden 12-123456-13-24-145-14
-always bessarabi 23-2346-356-1-e-12-24
+always bessarabi 23-2346-e-356-1-e-12-24
 always bessemer 23-2346-12356-12456
 always bessrung 23-2346-e-1235-136
 always arabesk 356-1-e-12-123456-13
@@ -1257,16 +1266,16 @@ always diebes 145-346-e-12-123456
 always liebes 123-346-e-12-123456
 always siebes 234-346-e-12-123456
 prfword triebes 2345-1235-346-e-12-123456
-before s midword triebe 2345-1235-346-23
+before s midword triebe 2345-1235-346-e-23-f
 always leibes 123-146-e-12-123456
 always weibes 2456-146-e-12-123456
 always lobes 123-135-e-12-123456
 always silo 234-24-e-123-135
-word lobesam 123-135-23-2346
+word lobesam 123-135-e-23-e-2346
 always lobest 123-135-e-23-23456
-always klobesuch 13-123-135-e-23-234-136-1456
+always klobesuch 13-123-135-f-23-e-234-136-1456
 begmidword robespierr 1235-135-12-123456-e-1234-24-12456-e-1235
-before s begmidword werbe 2456-12456-23
+before s begmidword werbe 2456-12456-e-23-f
 prfword werbes 2456-12456-e-12-123456
 always raubes 1235-16-e-12-123456
 always graubeschlag 1245-1235-16-f-23-156-1245
@@ -1278,21 +1287,21 @@ always bei 2-12
 prfword farbei 124-356-12-f-146
 always beich 12-146-1456
 always beier 12-146-12456
-prfword beige 12-146-12346
-always beigebraun 12-146-12346-f-12-1235-16-1345
-always beigebräun 12-146-12346-f-12-1235-34-1345
-always beigefarb 12-146-12346-f-124-356-12
-always beigegrau 12-146-12346-f-1245-1235-16
-always beigegräu 12-146-12346-f-1245-1235-34
+prfword beige 12-146-e-12346
+always beigebraun 12-146-e-12346-f-12-1235-16-1345
+always beigebräun 12-146-e-12346-f-12-1235-34-1345
+always beigefarb 12-146-e-12346-f-124-356-12
+always beigegrau 12-146-e-12346-f-1245-1235-16
+always beigegräu 12-146-e-12346-f-1245-1235-34
 prfword beigem 12-146-e-1245-12356
 always beigen 12-146-e-1245-14
 prfword beiger 12-146-e-1245-12456
 prfword beiges 12-146-e-1245-123456
 always beigt 12-146-1245-2345
-always beigte 12-146-1245-236
+always beigte 12-146-1245-e-236
 always beigten 12-146-1245-e-2345-14
 always beignet 12-146-1245-e-1345-15-2345
-always beijing 23-24-245-35-1245
+always beijing 23-24-e-245-35-1245
 prfword beil 12-146-123
 prfword beile 12-146-e-123-15
 always beilen 12-146-e-123-14
@@ -1304,7 +1313,7 @@ always beinah 2-12-e-1345-1-125
 always beinam 2-12-f-1345-1-134
 begmidword beinamput 12-1246-f-1-134-e-1234-136-e-2345
 always abeinander 1-12-e-2-1246
-always beinhal 23-e-35-125-25
+always beinhal 23-e-35-e-125-25
 always beirr 23-e-24-1235-1235
 always beirut 12-146-e-1235-136-2345
 always beisel 12-146-e-234-13456
@@ -1314,22 +1323,22 @@ syllable beitrag 2-12-e-2345-1245
 syllable beiträg 2-12-e-5-2345-1245
 always beiß 12-146-2346
 always beisl 12-146-234-123
-always beitel 12-146-2345-13456
+always beitel 12-146-e-2345-13456
 always beiz 12-146-1356
 always beizu 2-12-e-2-1356
 always herbei 125-12456-e-2-12
 always reiherbeiz 1235-146-e-125-12456-f-12-146-1356
 always beizahl 2-12-e-1356-123
 always beizähl 2-12-e-5-1356-123
-always beizäum 2-12-f-1356-34-134
-always beizeit 2-12-f-1356-2345
-always beizieh 2-12-f-1356-346-125
-always beizu 2-12-f-2-1356
+always beizäum 2-12-e-1356-34-134
+always beizeit 2-12-e-1356-2345
+always beizieh 2-12-e-1356-346-125
+always beizu 2-12-e-2-1356
 always beizung 12-146-e-1356-136
-always schabeisen 156-1-12-f-146-234-14
-always reibeisen 1235-146-12-f-146-234-14
+always schabeisen 156-1-12-f-146-e-234-14
+always reibeisen 1235-146-12-f-146-e-234-14
 always salbei 234-25-e-12-146
-before i begmidword werbe 2456-12456-23
+before i begmidword werbe 2456-12456-e-23-f
 
 # BEID (4.4 Zweiformige Kürzungen)
 always beid 12-145
@@ -1339,7 +1348,7 @@ always beidruck 2-12-e-145-46
 always beidrück 2-12-e-5-145-46
 always beidreh 2-12-e-145-1235-2356
 always beidürf 2-12-e-2-145
-midendword gabeidee 1245-1-23-f-24-145-15-15
+midendword gabeidee 1245-1-e-23-f-24-145-15-15
 
 # BEIM (4.4 Zweiformige Kürzungen)
 always beim 12-134
@@ -1347,11 +1356,13 @@ always beimann 2-12-e-134-1345
 begmidword beimänn 2-12-e-5-134-1345
 always beimaß 2-12-e-134-1-2346
 always beimeng 2-12-e-134-14-1245
-always beimenge 2-12-e-134-14-12346
+always beimenge 2-12-e-134-14-e-12346
 always beimengen 2-12-e-134-14-e-1245-14
 begmidword beimess 2-12-e-134-15-2346
+begmidword beimeß 2-12-e-134-15-2346
 always beimisch 2-12-e-134-24-156
 begmidword beimiss 2-12-e-134-24-2346
+begmidword beimiß 2-12-e-134-24-2346
 always beimittel 2-12-e-134-2345
 begmidword beimpf 23-e-24-134-1234-124
 always farbeimer 124-356-12-f-146-134-12456
@@ -1360,7 +1371,7 @@ always vorbei 2-26-e-2-12
 # BESONDER (4.3.5 Einformige Kürzungen, nur mit Erweiterung)
 word besonder 23-e-234-135-1345-e-145-12456
 always besonder 23
-begmidword werbesonder 2456-12456-23-f-234-135-1345-e-145-12456
+begmidword werbesonder 2456-12456-e-23-f-234-135-1345-e-145-12456
 
 # BESSER (4.4 Zweiformige Kürzungen)
 always besser 234-234
@@ -1372,7 +1383,7 @@ always biscaya 12-24-234-e-6-14-1-e-6-13456-1
 always bisch 12-24-156
 always bise 12-24-e-234-15
 always bisen 12-24-e-234-14
-always bishop 12-24-234-125-135-1234
+always bishop 12-24-e-234-125-135-1234
 always bisimulation 12-24-e-234-24-e-134-136-e-123-5-1345
 always bisk 12-24-234-e-13
 always bisl 12-24-234-e-123
@@ -1395,7 +1406,9 @@ always rabbis 1235-1-12-e-12-24-234
 prfword ibis 24-12-24-234
 always ibiss 24-12-24-2346
 always alibis 25-24-e-12-24-234
-always albis 25-12-24-234
+always albis 25-e-12-24-234
+always neutralbiss 1345-126-e-2345-cb-1235-25-f-12-24-2346
+always neutralbiß 1345-126-e-2345-cb-1235-25-f-12-24-2346
 always bambis 12-1-134-e-12-24-234
 always kombi 13-135-134-e-12-24
 always kombin 13-135-134-e-12-35
@@ -1419,9 +1432,9 @@ always azubis 1-1356-136-e-12-24-234
 # BIST (4.4 Zweiformige Kürzungen)
 always bist 12-23456
 midendword bistisch 12-5-156
-always bistro 12-24-23456-1235-135
-always bistum 12-234-2345-136-134
-always bistüm 12-234-2345-1256-134
+always bistro 12-24-ca-23456-1235-135
+always bistum 12-234-e-2345-136-134
+always bistüm 12-234-e-2345-1256-134
 always arabist 356-1-e-12-24-23456
 always snobistisch 234-1345-135-e-12-5-156
 always kubist 13-136-e-12-24-23456
@@ -1509,7 +1522,6 @@ word das 145
 
 # DASS  (4.3.1 Einformige Wortkürzungen, nur alleinstehend)
 word dass 2346
-# Alte Rechtschreibung
 word daß 2346
 
 # DARAUF (4.4 Zweiformige Kürzungen)
@@ -1517,7 +1529,7 @@ always darauf 145-16
 
 # DARÜBER (4.4 Zweiformige Kürzungen)
 always darüber 145-1256
-always radarüber 1235-1-145-356-f-2-1256
+always radarüber 1235-1-e-145-356-f-2-1256
 
 # DAVON (4.4 Zweiformige Kürzungen)
 always davon 145-1236
@@ -1536,7 +1548,7 @@ word dazumal 145-1-e-2-1356-134
 begmidword dazusitz 145-1-e-2-1356-e-2-24
 # HOMONYM?
 always dazustehen 145-1-e-2-1356-e-23456-2356-14
-always pandazucht 1234-235-e-145-1-e-1356-136-1456-2345
+always pandazucht 1234-235-e-145-1-f-1356-136-1456-2345
 
 # DEM (4.3.2 Einformige Kürzungen, alleinstehend oder in Wortverbindungen)
 word dem 12356
@@ -1585,7 +1597,7 @@ always des-dur 145-123456-36-145-136-1235
 # DESSEN (4.4 Zweiformige Kürzungen)
 always dessen 145-2346
 always abendessen 1-12-14-145-e-15-2346-14
-always landessend 123-235-145-123456-e-234-14-e-145
+always landessend 123-235-e-145-123456-f-234-14-e-145
 always stewardessen 23456-15-e-2456-356-e-145-15-2346-14
 
 # DEUTSCH (4.4 Zweiformige Kürzungen)
@@ -1598,15 +1610,15 @@ word die's 346-6-234
 # DIES (4.3.5 Einformige Kürzungen, nur mit Erweiterung)
 word dies 145-346-234
 sufword dies 346
-always diesig 145-346-234-45
+always diesig 145-346-e-234-45
 always diesseitig 145-346-234-e-234-146-2345-45
 always diesseits 145-346-234-e-234-146-2345-234
 always diesbezüglich 145-346-234-e-23-e-1356-1256-1245-456
-always diesel 145-346-234-13456
+always diesel 145-346-e-234-13456
 always diesjährig 145-346-234-e-5-245-1235-45
 # Diese Schreibweise scheint's auch zu geben ...
-always diestelfink 145-346-23456-13456-f-124-35-13
-always diesterweg 145-346-23456-12456-f-2456-15-1245
+always diestelfink 145-346-ca-23456-13456-f-124-35-13
+always diesterweg 145-346-ca-23456-12456-f-2456-15-1245
 word ebendiese 15-12-14-e-346-15
 word ebendiesem 15-12-14-e-346-12356
 word ebendiesen 15-12-14-e-346-14
@@ -1647,7 +1659,7 @@ always dürf 2-145
 always ebenso 15-135
 always ebensolch 15-12-14-e-234-1456
 word eo 6-15-135
-begmidword lebensord 123-12-14-234-e-26-145
+begmidword lebensord 123-12-14-234-f-26-145
 begmidword nebensonn 1345-12-f-234-135-1345-e-1345
 
 # EH  (4.1 Lautgruppenkürzungen)
@@ -1668,10 +1680,10 @@ midendword ehand 15-f-125-145
 midword ehänd 15-f-5-125-145
 midendword ehaut 15-f-125-16-2345
 midword ehäut 15-f-125-34-2345
-endword ehäute 15-f-125-34-236
+endword ehäute 15-f-125-34-e-236
 midword ehebamm 15-f-125-15-12-e-1-1346
 midendword eheft 15-f-125-15-124-2345
-endword ehefte 15-f-125-15-124-236
+endword ehefte 15-f-125-15-124-e-236
 midword ehelf 15-f-125-13456-124
 midword ehemm 15-f-125-15-1346
 midendword eherd 15-f-125-12456-145
@@ -1679,16 +1691,16 @@ midword steherdrüs 23456-2356-12456-f-145-1235-1256-e-234
 midword eherstell 15-f-125-12456-e-2-13456
 midendword ehilf 15-f-125-24-123-124
 midendword ehirt 15-f-125-24-1235-2345
-endword ehirte 15-f-125-24-1235-236
-midendword ehobel 15-f-125-135-12-13456
+endword ehirte 15-f-125-24-1235-e-236
+midendword ehobel 15-f-125-135-e-12-13456
 midendword ehoch 15-f-125-135-1456
 midendword ehohl 15-f-125-135-125-123
 midendword ehöhl 15-f-125-246-125-e-123
 midendword eholz 15-f-125-135-123-1356
 midendword ehölz 15-f-125-246-123-1356
-midword ehospit 15-f-125-135-234-1234-24-e-2345
-midendword ehospiz 15-f-125-135-234-1234-24-1356
-midendword ehotel 15-f-125-135-2345-13456
+midword ehospit 15-f-125-135-234-e-1234-24-e-2345
+midendword ehospiz 15-f-125-135-234-e-1234-24-1356
+midendword ehotel 15-f-125-135-e-2345-13456
 midendword ehund 15-f-125-256-145
 midendword ehunger 15-f-125-256-e-1245-12456
 midendword ehyd 15-e-125-6-13456-145
@@ -1730,13 +1742,13 @@ begmidword seehähn 234-15-15-f-125-345-125-1345
 begmidword seehall 234-15-15-f-125-1-12345
 begmidword seehas 234-15-15-f-125-1-234
 always seehecht 234-15-15-f-125-15-1456-2345
-prfword seehechte 234-15-15-f-125-15-1456-236
+prfword seehechte 234-15-15-f-125-15-1456-e-236
 always seehei 234-15-15-f-125-146
 always seeheld 234-15-15-f-125-13456-145
 always seeherr 234-15-15-f-1235-1235
 always seeherrschaft 234-15-15-f-1235-1235-e-156-1-124-2345
 always seehimmel 234-15-15-f-125-24-1346-13456
-always seehügel 234-15-15-f-125-1256-1245-13456
+always seehügel 234-15-15-f-125-1256-e-1245-13456
 always teehaub 2345-15-15-f-125-16-12
 always teehaus 2345-15-15-f-125-16-234
 begmidword teehäus 2345-15-15-f-125-34-234
@@ -1752,22 +1764,22 @@ before h begmidword single 234-35-1245-123-15-f
 before h begmidword kohle 13-135-125-e-123-15-f
 before h begmidword vanille 1236-235-24-12345-15
 before h begmidword creme 6-14-1235-12356-15-f
-before h begmidword reklame 1235-15-13-123-1-e-134-15-f
+before h begmidword reklame 1235-15-e-13-123-1-e-134-15-f
 always somehow 234-135-134-15-e-125-135-2456
 before h begmidword wärme 2456-345-1235-e-134-15-f
 before h begmidword sahne 234-1-125-e-1345-15-f
 before h begmidword schweine 156-2456-1246-15-f
-before h begmidword katrine 13-1-2345-1235-35-15
+before h begmidword katrine 13-1-ca-2345-cb-1235-35-15
 before h begmidword inne 35-1345-15
 always hinnehm 125-35-f-1345-125
 prfword stonehenge 23456-135-1345-15-f-125-14-12346
 always stoneheng 23456-135-1345-15-f-125-14-1245
-always vorneher 2-26-1345-15-f-125-12456
+always vorneher 2-26-e-1345-15-f-125-12456
 before h begmidword aloe 25-135-15
 always benzoeharz 12-14-e-1356-135-15-f-125-356-1356
-begmidword rehabehand 1235-15-125-1-f-23-e-125-145
-always rehaklinik 1235-15-125-1-f-13-123-35-24-13
-begmidword rehazentr 1235-15-125-1-f-1356-14-2345-1235
+begmidword rehabehand 1235-15-e-125-1-f-23-e-125-145
+always rehaklinik 1235-15-e-125-1-f-13-123-35-24-13
+begmidword rehazentr 1235-15-e-125-1-f-1356-14-2345-1235
 always sharehold 234-125-356-15-f-125-135-123-145
 always warehaus 2456-356-15-f-125-16-234
 begmidword warehäus 2456-356-15-f-125-34-234
@@ -1782,17 +1794,17 @@ before h begmidword messe 134-15-2346-15
 begmidword lausehark 123-16-e-234-15-f-125-356-13
 before h begmidword mäuse 134-34-e-234-15
 before h begmidword gemüse 12346-e-134-1256-e-234-15
-before h begmidword watte 2456-1-2345-236
-before h begmidword gewichte 12346-e-2456-3456-236
+before h begmidword watte 2456-1-2345-e-236
+before h begmidword gewichte 12346-e-2456-3456-e-236
 before h begmidword camargue 6-14-1-e-134-356-e-1245-136-15
 before h begmidword brave 12-1235-1-1236-15
 before h begmidword bronze 12-1235-135-1345-e-1356-15
-begword itzeho 24-2345-1356-15-e-125-135
+begword itzeho 24-2345-e-1356-15-e-125-135
 
 # EI  (4.1 Lautgruppenkürzungen)
 word ei 6-146
 always ei 146
-midendword eideal 15-f-24-145-15-1-123
+midendword eideal 15-f-24-145-15-e-1-123
 midendword eidee 15-f-24-145-15-15
 begmidword schneideein 156-1345-146-e-145-15-f-1246
 midendword eidentifi 15-f-24-145-14-e-2345-24-e-124-24
@@ -1815,11 +1827,11 @@ midword eillu 15-f-24-12345-136
 midword eimag 15-f-24-134-1-e-1245
 midendword eimbiss 15-f-24-134-e-12-24-2346
 midword eimit 15-f-24-134-24-e-2345
-always arzneimittel 356-1356-1345-146-f-134-2345
+always arzneimittel 356-1356-e-1345-146-f-134-2345
 midendword eimitarbeit 146-f-2-2345-e-356-12
 midword eimitgl 146-f-2-2345-e-1245-123
 midword eimitt 146-f-134-24-2345-2345
-midendword eimker 15-f-24-134-13-12456
+midendword eimker 15-f-24-134-e-13-12456
 midendword eimm 15-f-24-1346
 midendword eimp 15-f-24-134-1234
 always reimpaar 1235-146-134-f-1234-1-1-1235
@@ -1843,28 +1855,28 @@ prfword beinhalteter 23-e-35-e-125-25-e-236-e-2345-12456
 prfword beinhaltetet 23-e-35-e-125-25-e-236-e-236-2345
 prfword beinhaltetest 23-e-35-e-125-25-e-236-e-236-23456
 word dei 145-15-24
-always deifikation 145-15-24-e-124-24-e-13-5-1345
+always deifikation 145-15-cb-24-e-124-24-e-13-5-1345
 always deindividuation 145-15-e-35-145-24-e-1236-24-e-145-136-e-5-1345
-always deismus 145-15-5-24
+always deismus 145-15-e-5-24
 always deist 145-15-e-24-23456
 always deistisch 145-15-e-5-156
 always badeinsel 12-1-e-145-15-f-35-234-13456
 sufword fidei 124-24-e-145-15-24
-always codein 6-14-135-e-145-15-35
-always kodein 13-135-e-145-15-35
+always codein 6-14-135-e-145-15-e-35
+always kodein 13-135-e-145-15-e-35
 midendword eeinsel 15-15-f-35-234-13456
 always seeigel 234-15-15-f-45-13456
 midendword seeisch 234-15-15-e-24-156
 always sightseeing 234-24-1245-125-2345-e-234-15-15-e-35-1245
-always coffein 6-14-135-124-e-124-15-35
-always koffein 13-135-124-e-124-15-35
+always coffein 6-14-135-124-e-124-15-e-35
+always koffein 13-135-124-e-124-15-e-35
 midendword geinhalt 12346-f-35-e-125-25-2345
-endword geinhalte 12346-f-35-e-125-25-236
-always diagnose 145-24-1-1245-1345-135-234-15
-always diagnosen 145-24-1-1245-1345-135-234-14
+endword geinhalte 12346-f-35-e-125-25-e-236
+always diagnose 145-24-cb-1-ca-1245-cb-1345-135-e-234-15
+always diagnosen 145-24-cb-1-ca-1245-cb-1345-135-e-234-14
 always heim 125-146-134
-begword eheinstitu 15-125-15-f-35-23456-24-e-2345-136
-midword eheinstitu 2356-15-f-35-23456-24-e-2345-136
+begword eheinstitu 15-125-15-f-35-ca-23456-24-e-2345-136
+midword eheinstitu 2356-15-f-35-ca-23456-24-e-2345-136
 always geheim 12346-e-125-146-134
 always theismus 2345-125-15-e-5-24
 always theist 2345-125-15-e-24-23456
@@ -1873,15 +1885,16 @@ always prometheisch 1234-1235-135-e-134-15-e-2345-125-15-e-24-156
 always keim 13-146-134
 before i begmidword kohle 13-135-125-e-123-15
 always leim 123-146-134
+always nuclein 1345-136-ca-6-14-cb-123-15-e-35
 always galilei 1245-25-24-e-123-15-24
-always nuklein 1345-136-13-123-15-35
-always acrolein 1-6-14-1235-135-e-123-15-e-24-1345
-always akrolein 1-13-1235-135-e-123-15-35
+always nuklein 1345-136-ca-13-cb-123-15-e-35
+always acrolein 1-6-14-cb-1235-135-e-123-15-e-24-1345
+always akrolein 1-13-cb-1235-135-e-123-15-35
 before i begmidword wärme 2456-345-1235-e-134-15
 midendword aneität 235-15-e-5-345
 always äneis 345-1345-15-e-24-234
 always aeneis 1-15-1345-15-e-24-234
-sufword alineier 25-35-15-346-1235
+sufword alineier 25-35-15-e-346-1235
 always guineisch 1245-136-35-15-e-24-156
 always boeing 12-135-15-e-35-1245
 always nereid 1345-12456-15-e-24-145
@@ -1889,14 +1902,14 @@ always barriereinsel 12-356-e-1235-24-e-12456-15-f-35-234-13456
 always kreier 13-1235-15-e-346-1235
 always pythagoreisch 1234-6-13456-e-2345-125-1-e-1245-26-15-e-24-156
 always epikureisch 15-1234-24-e-13-136-e-1235-15-e-24-156
-always eritreisch 12456-24-2345-1235-15-e-24-156
-always kureismus 13-136-e-1235-15-5-24
-always kasein 13-1-e-234-15-35
-before i begmidword kälte 13-345-123-236
-sufword protein 12345-236-35
-midendword protein 1234-1235-135-e-236-35
+always eritreisch 12456-24-e-2345-1235-15-e-24-156
+always kureismus 13-136-e-1235-15-e-5-24
+always kasein 13-1-e-234-15-e-35
+before i begmidword kälte 13-345-123-e-236
+sufword protein 12345-e-236-e-35
+midendword protein 1234-1235-135-e-236-e-35
 always weight 2456-15-24-1245-125-2345
-always schweineigel 156-2456-1246-15-e-45-13456
+always schweineigel 156-2456-1246-15-f-45-13456
 
 # EIN (4.1 Lautgruppenkürzungen)
 always ein 1246
@@ -1905,7 +1918,7 @@ midword eindik 15-f-35-e-145-24-e-13
 midendword eindio 15-f-35-145-24-135
 midendword eindiz 15-f-35-e-145-24-1356
 midword einduk 15-f-35-e-145-136-13
-midword eindust 15-f-35-e-145-136-23456
+midword eindust 15-f-35-e-145-136-ca-23456
 midendword einduzier 15-f-35-e-145-136-e-1356-346-1235
 midword eineff 15-f-35-e-15-124-e-124
 midendword einfant 15-f-35-e-124-235-2345
@@ -1938,7 +1951,7 @@ midword einkomp 15-f-35-e-13-135-134-e-1234
 begmidword hineinkomp 125-35-1246-f-13-135-134-1234
 midword einkon 15-f-35-e-13-135-1345
 midword einkonnt 1246-e-13-2345
-midword einkub 15-f-35-e-13-136-12
+midword einkub 15-f-35-e-13-136-e-12
 midendword einland 15-f-35-f-123-235-145
 midendword einnen 15-f-35-e-1345-14
 midendword einner 15-f-35-e-1345-12456
@@ -1954,7 +1967,7 @@ midendword einserier 15-f-35-e-234-12456-346-1235
 midendword einsert 15-f-35-e-234-12456-2345
 midendword einsider 15-f-35-e-234-24-145-12456
 midword einsign 15-f-35-e-234-45-1345
-midword einsist 15-f-35-e-234-24-23456
+midword einsist 15-f-35-e-234-24-ca-23456
 midword einsolv 15-f-35-e-234-135-123-e-1236
 midword einspekt 15-f-35-e-234-1234-15-13-e-2345
 midword einspir 15-f-35-e-234-1234-24-e-1235
@@ -1962,14 +1975,16 @@ midword einspiz 15-f-35-e-234-1234-24-e-1356
 midendword einstabil 15-f-35-e-23456-1-e-12-24-123
 midendword einstall 15-f-35-23456-1-12345
 midendword einstanz 15-f-35-e-23456-235-1356
-midword einstink 15-f-35-23456-35-13
+midword einstink 15-f-35-e-23456-35-13
 midword einstit 15-f-35-e-23456-24-e-2345
 midword einstruk 15-f-35-e-23456-1235-136-13
 midword einstrum 15-f-35-e-23456-1235-136-e-134
+midword seinstrum 234-15-f-35-e-23456-1235-136-e-134
 always feinstrumpf 124-1246-f-23456-1235-136-134-1234-124
+midendword einsuffizienz 15-f-35-e-234-136-124-e-124-24-e-1356-24-e-14-1356
 midword einsul 15-f-35-e-234-136-123
 midword einszen 15-f-35-e-234-1356-14
-midword eintegr 15-f-35-e-236-1245-1235
+midword eintegr 15-f-35-e-236-e-1245-cb-1235
 midword eintell 15-f-35-e-236-12345
 midword eintend 15-f-35-e-2345-14-e-145
 midword eintens 15-f-35-e-2345-14-e-234
@@ -1985,7 +2000,7 @@ midendword einteress 15-f-2-35
 midword eintol 15-f-35-e-2345-135-e-123
 midword eintra 15-f-35-e-2345-1235-1
 endword eintraust 1246-e-2345-1235-16-23456
-endword eintraute 1246-e-2345-1235-16-236
+endword eintraute 1246-e-2345-1235-16-e-236
 midendword eintraut 1246-e-2345-1235-16-2345
 always eintracht 1246-f-2345-1235-56-2345
 always eintraf 1246-f-2345-1235-1-124
@@ -2017,7 +2032,9 @@ always khomeini 13-125-135-e-134-15-35-24
 midendword vermein 1236-12456-e-134-1246
 midendword vernein 1236-12456-e-1345-1246
 always speinuss 234-1234-146-f-1345-136-2346
+always speinuß 234-1234-146-f-1345-136-2346
 begmidword speinüss 234-1234-146-f-1345-1256-2346
+begmidword speinüß 234-1234-146-f-1345-1256-2346
 always reinform 1235-1246-f-124-26-134
 always reinschrift 1235-1246-f-156-2345
 always freinacht 124-1235-146-f-1345-56-2345
@@ -2026,9 +2043,11 @@ always freinahm 124-1235-146-f-1345-134
 always freinehm 124-1235-146-f-1345-125
 always freinimmt 124-1235-146-f-1345-24-1346-2345
 midendword vereinter 1236-12456-e-1246-e-2345-12456
+before i begword protease 12345-e-236-1-234-15-f
+before i midword protease 1234-1235-135-e-236-1-234-15-f
 always datein 145-1-e-2345-146-f-1345
 always latein 123-1-e-2345-1246
-before i begmidword geräte 12346-e-1235-345-236
+before i begmidword geräte 12346-e-1235-345-e-236
 always geräteinheit 12346-e-1235-345-2345-f-1246-125
 always partei 1234-356-e-2345-146
 always stein 23456-1246
@@ -2051,7 +2070,7 @@ always eelili 15-15-f-123-24-e-123-24
 always eelini 15-15-f-123-35-24
 always ell 15-12345
 # Alte Rechtschreibung
-begmidword helleuch 125-13456-e-123-126-1456
+begmidword helleuch 125-13456-123-126-1456
 always eell 15-15-12345
 always abaelard 1-12-1-15-e-123-356-145
 before l begmidword lebe 123-12-15
@@ -2065,13 +2084,13 @@ always stachel 23456-56-13456
 before l begmidword sprache 234-1234-15-f
 always speichel 234-1234-146-e-1456-13456
 before l begmidword gerade 12346-e-1235-1-e-145-15-f
-endword delokal 145-15-e-123-135-13-1-123
-begmidword delokal 145-15-e-123-135-13-25
+endword delokal 145-15-f-123-135-e-13-1-123
+begmidword delokal 145-15-f-123-135-e-13-25
 before l begmidword rede 1235-15-e-145-15
 before l begmidword schneide 156-1345-146-e-145-15
 before l begmidword glasschneide 1245-123-1-234-f-156-1345-146-e-145-15
 before l begmidword kreide 13-1235-146-e-145-15
-before l begmidword melde 134-13456-145-15
+before l begmidword melde 134-13456-e-145-15
 before l always lande 123-235-e-145-15
 before l begmidword gelände 12346-e-123-345-1345-e-145-15
 before l always gemeinde 12346-e-134-1246-e-145-15
@@ -2085,13 +2104,13 @@ begmidword ladelini 123-1-e-145-15-f-123-35-24
 begmidword ladelist 123-1-e-145-15-f-123-24-23456
 before l begmidword tadel 2345-1-e-145-13456
 always zitadell 1356-24-e-2345-1-e-145-15-12345
-always mortadell 134-26-2345-1-e-145-15-12345
+always mortadell 134-26-e-2345-1-e-145-15-12345
 always ladeluft 123-1-e-145-15-f-123-136-124-2345
 always ladeluk 123-1-e-145-15-f-123-136-13
 always schmiedelehr 156-134-346-e-145-15-f-123-2356-1235
 prfword edelleute 15-145-13456-f-123-126-236
 always edelleuten 15-145-13456-f-123-126-e-2345-14
-begmidword edellupin 15-145-13456-e-123-136-e-1234-35
+begmidword edellupin 15-145-13456-f-123-136-e-1234-35
 always heideland 125-146-e-145-15-f-123-235-145
 begmidword heidelerch 125-146-e-145-15-f-123-12456-1456
 begmidword heidelind 125-146-e-145-15-f-123-35-145
@@ -2102,10 +2121,10 @@ begmidword schneidelini 156-1345-146-e-145-15-f-123-35-24
 always treidell 2345-1235-146-e-145-13456-f-123
 before l begmidword getreide 12346-e-2345-1235-146-e-145-15
 always getreidelt 12346-e-2345-1235-146-e-145-13456-2345
-prfword getreidelte 12346-e-2345-1235-146-e-145-13456-236
+prfword getreidelte 12346-e-2345-1235-146-e-145-13456-e-236
 always weideland 2456-146-e-145-15-f-123-235-145
 always weideländ 2456-146-e-145-15-f-123-345-1345-145
-always kandelaber 13-235-e-145-15-13456-1-12-12456
+always kandelaber 13-235-e-145-13456-1-e-12-12456
 always pendel 1234-14-e-145-13456
 always abendelang 1-12-14-e-145-15-f-123-1245
 always jahrtausendelang 245-2345-15-f-123-1245
@@ -2132,27 +2151,27 @@ always modeläden 134-135-e-145-15-f-123-345-e-145-14
 begmidword modelaun 134-135-e-145-15-f-123-16-e-1345
 prfword modelinie 134-135-e-145-15-f-123-35-24-15
 always modelinien 134-135-e-145-15-f-123-35-24-14
-always rodeland 1235-135-e-145-15-e-123-235-145
+always rodeland 1235-135-e-145-15-f-123-235-145
 always trödel 2345-1235-246-e-145-13456
 prfword pferdel 1234-124-12456-e-145-13456
 before l begmidword pferde 1234-124-12456-e-145-15-f
-before l begmidword förde 124-246-1235-e-145-15
+before l begmidword förde 124-246-1235-e-145-15-f
 always bürdelast 12-1256-1235-e-145-15-f-123-1-23456
 always würdelos 1256-15-f-123-135-234
-before l begmidword nudel 1345-136-e-145-13456
+before l begmidword nudel 1345-136-e-145-13456-f
 always strudel 23456-1235-136-e-145-13456
 always freudeleer 124-1235-126-e-145-15-f-123-15-15-1235
 always freudelos 124-1235-126-e-145-15-f-123-135-234
 begmidword gebäudeleit 12346-e-12-34-145-15-f-123-146-2345
 midendword eelicht 15-15-f-456-2345
-begmidword werbeelemen 2456-12456-23-f-13456-12356-14
-begmidword ladeelektr 123-1-e-145-15-f-13456-15-13-2345-1235
+begmidword werbeelemen 2456-12456-e-23-f-13456-12356-14
+begmidword ladeelektr 123-1-e-145-15-f-13456-15-13-e-2345-cb-1235
 begmidword codeelemen 6-14-135-145-15-f-13456-12356-14
 always hundeelend 125-256-e-145-15-f-13456-14-145
-begmidword kohleelektr 13-135-125-e-123-15-f-13456-15-13-2345-1235
-begmidword masseelektr 134-1-2346-15-f-13456-15-13-2345-1235
-begmidword werteelektr 2456-12456-236-f-13456-15-13-2345-1235
-always tafelland 2345-1-124-13456-f-123-235-145
+begmidword kohleelektr 13-135-125-e-123-15-f-13456-15-13-e-2345-cb-1235
+begmidword masseelektr 134-1-2346-15-f-13456-15-13-e-2345-cb-1235
+begmidword werteelektr 2456-12456-236-f-13456-15-13-e-2345-cb-1235
+always tafelland 2345-1-e-124-13456-f-123-235-145
 always tafelleim 2345-1-e-124-13456-f-123-146-134
 always tafelleinen 2345-1-e-124-13456-f-123-1246-14
 begmidword tafelleuch 2345-1-e-124-13456-f-123-126-1456
@@ -2172,80 +2191,80 @@ always hufeländ 125-136-e-124-15-f-123-345-1345-145
 always legeleist 123-15-e-12346-f-123-146-23456
 before l begmidword vorlege 2-26-e-123-15-12346
 before l begmidword wege 2456-1245-15
-before l begmidword steige 23456-146-12346
+before l begmidword steige 23456-146-e-12346
 begmidword naheleg 1345-1-e-125-15-f-123-15-1245
 prfword nahelege 1345-1-e-125-15-f-123-15-12346
 begmidword nahelieg 1345-1-e-125-15-f-123-346-1245
 prfword naheliege 1345-1-e-125-15-f-123-346-12346
-always rachelust 1235-56-15-e-123-136-23456
-begmidword rachelüst 1235-56-15-e-123-1256-23456
+always rachelust 1235-56-15-f-123-136-23456
+begmidword rachelüst 1235-56-15-f-123-1256-23456
 always knöchel 13-1345-246-e-1456-13456
 always aschelump 1-156-15-f-123-136-134-1234
 always schellack 156-13456-f-123-1-46
 begmidword wäschelein 2456-345-e-156-15-f-123-1246
-sufword eheleb 15-125-15-e-123-12
-midword eheleb 2356-15-e-123-12
-sufword eheleiblich 15-125-15-e-123-146-12-456
-midendword eheleiblich 2356-15-e-123-146-12-456
+sufword eheleb 15-125-15-f-123-12
+midword eheleb 2356-15-f-123-12
+sufword eheleiblich 15-125-15-f-123-146-12-456
+midendword eheleiblich 2356-15-f-123-146-12-456
 word eheleute 15-125-15-f-123-126-236
 midendword eheleute 2356-15-f-123-126-236
 word eheleuten 15-125-15-f-123-126-e-2345-14
 midendword eheleuten 2356-15-f-123-126-e-2345-14
-sufword ehelich 15-125-15-456
-midendword ehelich 2356-15-456
+sufword ehelich 15-125-15-e-456
+midendword ehelich 2356-15-e-456
 sufword ehelos 15-125-15-f-123-135-234
 midendword ehelos 2356-15-f-123-135-234
 always weihelied 2456-146-e-125-15-f-123-346-145
 always hohelied 125-135-e-125-15-f-123-346-145
-begmidword mathelehr 134-1-e-2345-125-15-f-123-2356-1235
+begmidword mathelehr 134-1-e-2345-125-15-f-123-2356-e-1235
 before l begmidword goethe 1245-135-15-e-2345-125-15
 always mühelos 134-1256-e-125-15-f-123-135-234
 before l begmidword ruhe 1235-136-e-125-15
 before l begmidword materie 134-1-e-2345-12456-24-15-f
-always jelieber 245-15-f-123-346-12-12456
-always jelänger 245-15-f-5-123-1245-12456
+always jelieber 245-15-e-123-346-12-12456
+always jelänger 245-15-e-5-123-1245-12456
 before l begmidword lake 123-1-13-15
 always makellos 134-1-e-13-13456-f-123-135-234
-always fackel 124-1-46-13456
-always sockel 234-135-46-13456
-always stückeleser 23456-1256-46-15-f-123-123456-12456
+always fackel 124-1-cb-46-13456
+always sockel 234-135-cb-46-13456
+always stückeleser 23456-1256-cb-46-15-f-123-123456-12456
 always spikeloch 234-1234-24-13-15-f-123-135-1456
 always spikelöch 234-1234-24-13-15-f-123-246-1456
 before l begmidword getränke 12346-e-2345-1235-345-1345-e-13-15-f
 always bänkellied 12-345-1345-e-13-13456-f-123-346-145
-before l begmidword geschenke 12346-e-156-14-e-13-15
+before l begmidword geschenke 12346-e-156-14-e-13-15-f
 always schenkel 156-14-e-13-13456
 always dunkel 145-256-e-13-13456
 always schnörkel 156-1345-246-1235-e-13-13456
 always muskel 134-136-234-e-13-13456
 always pökel 1234-246-e-13-13456
-begmidword ensembleleist 14-234-12356-12-123-15-f-123-146-23456
+begmidword ensembleleist 14-e-234-12356-e-12-123-15-f-123-146-23456
 always candlelight 6-14-235-145-123-15-f-123-24-1245-125-2345
 before l begmidword kohle 13-135-125-e-123-15
 always strahlelächeln 23456-1235-1-125-e-123-15-f-123-345-e-1456-13456-1345
-before l begmidword kohle 13-135-125-e-123-15
+before l begmidword kohle 13-135-125-e-123-15-f
 always teilelager 2345-146-e-123-15-f-123-1-e-1245-12456
 begmidword teilelist 2345-146-e-123-15-f-123-24-23456
 always emaillelack 12356-1-24-12345-15-f-123-1-46
 before l begmidword braille 12-1235-1-24-12345-15
 before l begmidword koschenille 13-135-e-156-14-24-12345-15
-before l begmidword reklame 1235-15-13-123-1-e-134-15
+before l begmidword reklame 1235-15-e-13-123-1-e-134-15-f
 always memelland 134-12356-13456-f-123-235-145
 always memelländ 134-12356-13456-f-123-345-1345-145
 before l begmidword creme 6-14-1235-12356-15-f
-always nahmelager 1345-134-15-e-123-1-e-1245-12456
-always nahmelamp 1345-134-15-e-123-1-134-1234
-always nahmeland 1345-134-15-e-123-235-145
+always nahmelager 1345-134-15-f-123-1-e-1245-12456
+always nahmelamp 1345-134-15-f-123-1-134-1234
+always nahmeland 1345-134-15-f-123-235-145
 always nahmelauf 1345-134-15-f-123-16-124
-always nahmeleit 1345-134-15-e-123-146-2345
+always nahmeleit 1345-134-15-f-123-146-2345
 always nahmelicht 1345-134-15-f-456-2345
 always nahmelini 1345-134-15-f-123-35-24
 always nahmelist 1345-134-15-f-123-24-23456
-always nahmeländ 1345-134-15-e-123-345-1345-145
+always nahmeländ 1345-134-15-f-123-345-1345-145
 always nahmeläuf 1345-134-15-f-123-34-124
 always sammel 234-1-1346-13456
 always homeland 125-135-134-15-f-123-235-145
-always armeleute 356-134-15-f-123-126-236
+always armeleute 356-e-134-15-f-123-126-e-236
 before l begmidword ärmel 345-1235-e-134-13456
 begmidword wärmelehr 2456-345-1235-e-134-15-f-123-2356-1235
 begmidword wärmeleist 2456-345-1235-e-134-15-f-123-146-23456
@@ -2258,15 +2277,15 @@ before l begmidword saigne 234-1-24-1245-1345-15
 always schweinelend 156-2456-1246-15-f-123-14-145
 before l begmidword marine 134-356-35-15
 before l begmidword routine 1235-135-136-e-2345-35-15
-always annelies 235-1345-15-f-123-346-234
-begmidword annelieschen 235-1345-15-f-123-346-234-e-1456-14
+always annelies 235-e-1345-15-f-123-346-234
+begmidword annelieschen 235-e-1345-15-f-123-346-234-e-1456-14
 always spannelang 234-1234-235-e-1345-15-f-123-1245
 always minnelied 134-35-e-1345-15-f-123-346-145
 always tunnel 2345-256-e-1345-13456
 begmidword hannelor 125-235-e-1345-15-f-123-26
 begmidword marnelini 134-356-e-1345-15-f-123-35-24
 sufword oelek 135-15-123-15-13
-always coelestin 6-14-135-15-e-123-15-23456-35
+always coelestin 6-14-135-15-e-123-15-ca-23456-35
 always stapel 23456-1-e-1234-13456
 begmidword pipelin 1234-24-1234-15-f-123-35
 always ampel 1-134-e-1234-13456
@@ -2281,6 +2300,7 @@ always schwerelos 156-2456-12456-15-f-123-135-234
 always jahrelang 245-1235-15-f-123-1245
 always ireland 24-1235-15-e-123-235-145
 always wireless 2456-24-1235-15-e-123-15-2346
+always wireleß 2456-24-1235-15-e-123-15-2346
 begmidword irrelei 24-1235-e-1235-15-f-123-146
 begmidword säurelös 234-34-e-1235-15-f-123-246-234
 before l begmidword türe 2345-1256-e-1235-15
@@ -2294,7 +2314,7 @@ begmidword naseläng 1345-1-e-234-15-f-5-123-1245
 always diesellok 145-346-e-234-13456-f-123-135-13
 always kiesel 13-346-e-234-13456
 always leselamp 123-123456-15-f-123-1-134-1234
-prfword leselatte 123-123456-15-f-123-1-2345-236
+prfword leselatte 123-123456-15-f-123-1-2345-e-236
 always leselatt 123-123456-15-f-123-1-2345-2345
 always leseleicht 123-123456-15-f-123-1456
 always leselist 123-123456-15-f-123-24-23456
@@ -2325,30 +2345,30 @@ always mauseloch 134-16-e-234-15-f-123-135-1456
 begmidword mauselöch 134-16-e-234-15-f-123-246-e-1456
 always kräusel 13-1235-34-e-234-13456
 always käselaib 13-345-e-234-15-f-123-1-24-12
-before l begmidword gemüse 12346-e-134-1256-e-234-15
-before l begmidword analyse 235-25-6-13456-e-234-15
+before l begmidword gemüse 12346-e-134-1256-e-234-15-f
+before l begmidword analyse 235-25-6-13456-e-234-15-f
 before l begmidword geräte 12346-e-1235-345-236-f
-before l begmidword gäste 1245-345-23456-15
+before l begmidword gäste 1245-345-23456-15-f
 before l midword dukte 145-136-13-e-236-f
 begmidword alteleute 25-e-2345-236-e-123-126-e-236-f
 begmidword altetrusk 25-2345-f-15-2345-1235-136-234-e-13
-begmidword gutelaun 1245-136-236-f-123-16-e-1345
-before l begmidword jahrhunderte 245-125-15
-before l begmidword pleuel 1234-123-126-13456
+begmidword gutelaun 1245-136-e-236-f-123-16-e-1345
+before l begmidword jahrhunderte 245-125-15-f
+before l begmidword pleuel 1234-123-126-e-13456-f
 always reuelos 1235-126-15-f-123-135-234
 always cleveland 6-14-123-15-e-1236-15-f-123-235-145
 always havelland 125-1-e-1236-13456-f-123-235-145
 begmidword havelländ 125-1-e-1236-13456-f-123-345-1345-e-145
 always shavelotion 234-125-1-1236-15-f-123-135-2345-245
-before l begmidword reserve 1235-123456-12456-e-1236-15
+before l begmidword reserve 1235-123456-12456-e-1236-15-f
 always eyeliner 15-6-13456-15-f-123-35-12456
-before l begmidword einzel 1246-e-1356-13456
+before l begmidword einzel 1246-e-1356-13456-f
 always einzeller 1246-e-1356-15-12345-12456
 always einzellig 1246-e-1356-15-12345-45
-before l begmidword bronze 12-1235-135-1345-e-1356-15
+before l begmidword bronze 12-1235-135-1345-e-1356-15-f
 always herzeleid 125-12456-e-1356-15-f-123-146-145
-before l begmidword wurzel 2456-136-1235-e-1356-13456
-before l begmidword kürzel 5-13-1356-13456
+before l begmidword wurzel 2456-136-1235-e-1356-13456-f
+before l begmidword kürzel 5-13-1356-13456-f
 
 # EM  (4.1 Lautgruppenkürzungen)
 word em 15-134
@@ -2410,7 +2430,7 @@ after e midendword meldung f-134-13456-e-145-136
 after e midendword melken f-134-13456-e-13-14
 after e midendword melker f-134-13456-e-13-12456
 after e midendword melodie f-134-13456-135-e-145-346
-after e midendword melodien f-134-13456-135-e-145-24-14
+after e midendword melodien f-134-13456-135-e-145-24-e-14
 after e midendword merkmal f-134-12456-13-134
 after e midendword messer f-134-15-2346-12456
 after e midendword messung f-134-15-2346-136
@@ -2418,8 +2438,8 @@ after e midword method f-134-15-e-2345-125-135-e-145
 after e endword metzg f-134-15-2345-1356-1245
 after e midword metzg f-134-15-2345-1356-e-1245
 after e midendword mikro f-134-24-13-1235-135
-after e midendword minister f-134-35-24-23456-12456
-after e endword minute f-134-35-136-236
+after e midendword minister f-134-35-24-ca-23456-12456
+after e endword minute f-134-35-136-e-236
 after e midendword minuten f-134-35-136-e-2345-14
 after e midendword mitarbeit f-2-2345-e-356-12
 after e midendword mitteil f-2-2345-e-2345-146-123
@@ -2431,9 +2451,9 @@ after e midendword modul f-134-135-e-145-136-123
 after e midendword modus f-134-135-e-145-136-234
 after e midendword möglich f-134-456
 after e midendword moment f-134-135-e-134-14-2345
-after e endword momente f-134-135-e-134-14-236
+after e endword momente f-134-135-e-134-14-e-236
 after e midendword monat f-134-135-e-1345-1-2345
-after e endword monate f-134-135-e-1345-1-236
+after e endword monate f-134-135-e-1345-1-e-236
 after e midendword moor f-134-135-135-1235
 after e endword mord f-134-26-145
 after e midendword mords f-134-26-145-234
@@ -2477,23 +2497,24 @@ midendword emischung 15-f-134-24-e-156-136
 midendword emodell 15-f-134-135-e-145-15-12345
 prfword emund 15-f-134-256-145
 prfword emunds 15-f-134-256-145-234
-before m begmidword reggae 1235-15-1245-e-1245-1-15
+before m begmidword reggae 1235-15-1245-e-1245-1-15-f
 always anaemia 235-1-15-e-134-24-1
-before m begmidword werbe 2456-12456-23
-before m begmidword geschiebe 12346-e-156-346-23
+before m begmidword werbe 2456-12456-23-f
+before m begmidword geschiebe 12346-e-156-346-23-f
 always lebemann 123-12-15-f-134-1345
 begmidword lebemänn 123-12-15-f-5-134-1345
-begmidword klebemod 13-123-15-23-f-134-135-145
+begmidword klebemod 13-123-15-e-23-f-134-135-145
 before m begmidword peace 1234-15-1-6-14-15
-always pacemaker 1234-1-6-14-15-f-134-1-13-12456
+always pacemaker 1234-1-6-14-15-f-134-1-e-13-12456
 before m begmidword space 234-1234-1-6-14-15-f
 before m begmidword service 234-12456-e-1236-24-6-14-15-f
-before m always renaissance 1235-14-1-24-2346-235-e-6-14-15-f
+before m begmidword renaissance 1235-14-1-24-2346-235-e-6-14-15-f
 before m begmidword schmiede 156-134-346-e-145-15-f
 before m begmidword rede 1235-15-e-145-15-f
 always redempt 1235-15-e-145-12356-1234-2345
 begmidword modemasch 134-135-e-145-15-f-134-1-156
 always modemensch 134-135-e-145-15-f-134-14-156
+word eem 15-15-134
 before m begmidword streiche 23456-1235-146-e-1456-15
 prfword streichem 23456-f-1235-146-e-1456-12356
 sufword dematerial 145-15-e-134-123
@@ -2527,163 +2548,163 @@ before m begmidword wende 2456-14-e-145-15
 before m begmidword binde 12-35-e-145-15
 before m begmidword gemeinde 12346-e-134-1246-e-145-15
 always hindemith 125-35-e-145-15-e-134-24-2345-125
-before m begmidword gesinde 12346-e-234-145-15
-before m begmidword hunde 125-256-e-145-15
-before m begmidword kunde 13-256-e-145-15
+before m begmidword gesinde 12346-e-234-145-15-f
+before m begmidword hunde 125-256-e-145-15-f
+before m begmidword kunde 13-256-e-145-15-f
 always modemach 134-135-e-145-15-f-134-56
 always modemagazin 134-135-e-145-15-f-134-1-e-1245-1-e-1356-35
 always modemark 134-135-e-145-15-f-134-356-13
 always modemess 134-135-e-145-15-f-134-15-2346
-before m begmidword garde 1245-356-e-145-15
-before m begmidword pferde 1234-124-12456-e-145-15
-before m always gebäude 12346-e-12-34-e-145-15
+before m begmidword garde 1245-356-e-145-15-f
+before m begmidword pferde 1234-124-12456-e-145-15-f
+before m begmidword gebäude 12346-e-12-34-e-145-15-f
 prfword freeman 124-1235-15-15-e-134-1-1345
 begmidword freeman 124-1235-15-15-e-134-235
-always reemtsma 1235-15-15-134-2345-234-134-1
+always reemtsma 1235-15-15-134-2345-234-e-134-1
 before m always see 234-15-15
 always freemail 124-1235-15-15-f-134-1-24-123
 always agreement 1-1245-1235-15-15-e-134-14-2345
-before m begmidword hilfe 125-24-123-e-124-15
-before m begmidword sage 234-1245-15
-before m begmidword trage 2345-1245-15
-before m begmidword wege 2456-1245-15
-before m begmidword sprache 234-1234-15
+before m begmidword hilfe 125-24-123-e-124-15-f
+before m begmidword sage 234-1245-15-f
+before m begmidword trage 2345-1245-15-f
+before m begmidword wege 2456-1245-15-f
+before m begmidword sprache 234-1234-15-f
 always sprachempfind 234-1234-e-12356-1234-e-124-35-145
-before m begmidword epoche 15-1234-135-e-1456-15
-before m begmidword recherche 1235-15-e-1456-12456-e-1456-15
-before m begmidword wäsche 2456-345-e-156-15
-before m begmidword tusche 2345-136-e-156-15
-before m begmidword watsche 2456-1-2345-e-156-15
-before m begword ehe 15-125-15
+before m begmidword epoche 15-1234-135-e-1456-15-f
+before m begmidword recherche 1235-15-e-1456-12456-e-1456-15-f
+before m begmidword wäsche 2456-345-e-156-15-f
+before m begmidword tusche 2345-136-e-156-15-f
+before m begmidword watsche 2456-1-2345-e-156-15-f
+before m begword ehe 15-125-15-f
 sufword ehemalig 15-125-15-e-134-45
 midendword ehemalig 2356-15-e-134-45
 sufword ehemals 15-125-15-e-134-234
 midendword ehemals 2356-15-e-134-234
-before m always anleihe 235-e-123-146-e-125-15
-before m always ruhe 1235-136-e-125-15
+before m always anleihe 235-e-123-146-e-125-15-f
+before m always ruhe 1235-136-e-125-15-f
 begmidword kleiemen 13-123-146-15-f-134-14
 begmidword tantiem 2345-235-e-2345-24-12356
 always jemals 245-15-e-134-234
-before m begmidword anke 235-13-15
-endword ankem 235-13-12356
-before m begmidword getränke 12346-e-2345-1235-345-1345-e-13-15
-before m always stärke 23456-345-1235-e-13-15
-before m always ensemble 14-234-12356-12-123-15
+before m begmidword anke 235-e-13-15-f
+endword ankem 235-e-13-12356
+before m begmidword getränke 12346-e-2345-1235-345-1345-e-13-15-f
+before m always stärke 23456-345-1235-e-13-15-f
+before m always ensemble 14-e-234-12356-e-12-123-15-f
 always googlemail 1245-135-135-e-1245-123-15-f-134-1-24-123
 always allemal 1-15-134
-before m begmidword gentle 1245-14-2345-123-15
-before m always spiele 2-346-15
+before m begmidword gentle 1245-14-2345-123-15-f
+before m always spiele 2-346-15-f
 always telemark 2345-13456-15-f-134-356-13
 begmidword telemedi 2345-13456-15-f-134-15-e-145-24
 always telemeter 2345-13456-15-f-134-15-e-2345-12456
-always telemetrie 2345-13456-15-f-134-15-2345-1235-346
-always telemetrisch 2345-13456-15-f-134-15-2345-1235-24-156
-before m begmidword kohle 13-135-125-e-123-15
-before m begmidword fälle 5-124-12345-15
+always telemetrie 2345-13456-15-f-134-15-e-2345-1235-346
+always telemetrisch 2345-13456-15-f-134-15-e-2345-1235-24-156
+before m begmidword kohle 13-135-125-e-123-15-f
+before m begmidword fälle 5-124-12345-15-f
 always horlemann 125-26-123-15-f-134-235-1345
 endword memenge 134-15-f-134-14-12346
 midendword memengen 134-15-f-134-14-e-1245-14
-before m begmidword reklame 1235-15-13-123-1-e-134-15
+before m begmidword reklame 1235-15-e-13-123-1-e-134-15-f
 midendword nahmemensch 1345-134-15-e-134-14-156
 always fememord 124-12356-15-f-134-26-145
 always fememörder 124-12356-15-f-134-246-1235-e-145-12456
-before m begmidword filme 124-24-123-e-134-15
+before m begmidword filme 124-24-123-e-134-15-f
 begmidword filmempfind 124-24-123-134-f-12356-1234-e-124-35-145
-before m begmidword wärme 2456-345-1235-e-134-15
+before m begmidword wärme 2456-345-1235-e-134-15-f
 always dänemark 145-345-e-1345-15-e-134-356-13
-before m begmidword hygiene 125-6-13456-e-1245-24-e-14-15
+before m begmidword hygiene 125-6-13456-e-1245-24-e-14-15-f
 prfword reinem 1235-1246-12356
-before m begmidword reine 1235-1246-15
-before m begmidword schweine 156-2456-1246-15
-before m begmidword gabardine 1245-1-e-12-356-e-145-35-15
-before m begmidword margarine 134-356-e-1245-356-35-15
-before m begmidword marine 134-356-35-15
+before m begmidword reine 1235-1246-15-f
+before m begmidword schweine 156-2456-1246-15-f
+before m begmidword gabardine 1245-1-e-12-356-e-145-35-15-f
+before m begmidword margarine 134-356-e-1245-356-35-15-f
+before m begmidword marine 134-356-35-15-f
 prfword marinem 134-356-35-12356
-before m begmidword sohne 234-135-125-1345-15
-before m begmidword söhne 234-246-125-1345-15
-before m begmidword popeline 1234-135-e-1234-13456-35-15
-before m begmidword online 135-1345-e-123-35-15
-before m begmidword routine 1235-135-136-e-2345-35-15
-before m begmidword sahne 234-1-125-e-1345-15
-before m begmidword sühne 234-1256-125-e-1345-15
+before m begmidword sohne 234-135-125-1345-15-f
+before m begmidword söhne 234-246-125-1345-15-f
+before m begmidword popeline 1234-135-e-1234-13456-35-15-f
+before m begmidword online 135-1345-e-123-35-15-f
+before m begmidword routine 1235-135-136-e-2345-35-15-f
+before m begmidword sahne 234-1-125-e-1345-15-f
+before m begmidword sühne 234-1256-125-e-1345-15-f
 midword nemach 1345-15-f-134-56
 endword nemenge 1345-15-f-134-14-12346
 midendword nemengen 1345-15-f-134-14-e-1245-14
-always annemarie 235-1345-15-e-134-356-346
+always annemarie 235-e-1345-15-e-134-356-346
 before m begmidword wonne 2456-135-1345-e-1345-15
 always grönemeyer 1245-1235-246-e-1345-15-f-134-15-6-13456-12456
 always warnemünd 2456-356-e-1345-15-f-134-1256-1345-145
 always remagen 1235-15-e-134-1-e-1245-14
 always remake 1235-15-e-134-1-13-15
 always remakes 1235-15-e-134-1-13-123456
-always rematerial 1235-15-e-134-123
+always rematerial 1235-15-f-134-123
 always remark 1235-15-e-134-356-13
-before m begmidword hardware 125-356-145-f-2456-356-15
-before m begmidword karriere 13-356-e-1235-24-f-12456-15
+before m begmidword hardware 125-356-145-f-2456-356-15-f
+before m begmidword karriere 13-356-e-1235-24-f-12456-15-f
 always genremaler 1245-14-e-1235-15-f-134-25-12456
-before m begmidword genre 1245-14-e-1235-15
-always entremet 14-2345-1235-15-f-134-15-2345
-always outremont 135-136-2345-1235-15-f-134-135-1345-2345
+before m begmidword genre 1245-14-e-1235-15-f
+always entremet 14-e-2345-1235-15-f-134-15-2345
+always outremont 135-136-e-2345-1235-15-f-134-135-1345-2345
 before m begmidword ampere 1-134-e-1234-12456-15
 begmidword irremach 24-1235-e-1235-15-f-134-56
 before m begmidword säure 234-34-e-1235-15
 always buremeit 12-136-e-1235-15-f-134-146-2345
-before m begmidword gebläse 12346-e-12-123-345-e-234-15
+before m begmidword gebläse 12346-e-12-123-345-e-234-15-f
 begmidword kasemat 13-1-e-234-15-e-134-1-2345
-before m begmidword käse 13-345-e-234-15
-before m begmidword lese 123-123456-15
-before m begmidword geräusche 12346-e-1235-34-e-156-15
+before m begmidword käse 13-345-e-234-15-f
+before m begmidword lese 123-123456-15-f
+before m begmidword geräusche 12346-e-1235-34-e-156-15-f
 begmidword geräuschempfind 12346-e-1235-34-156-f-12356-1234-e-124-35-145
-before m begmidword speise 234-1234-146-e-234-15
-before m begmidword reise 1235-146-e-234-15
+before m begmidword speise 234-1234-146-e-234-15-f
+before m begmidword reise 1235-146-e-234-15-f
 prfword greisem 1245-1235-146-e-234-12356
-before m begmidword gänse 1245-345-1345-e-234-15
-before m always narkose 1345-356-e-13-135-e-234-15
-before m begmidword löse 123-246-e-234-15
+before m begmidword gänse 1245-345-1345-e-234-15-f
+before m begmidword narkose 1345-356-e-13-135-e-234-15-f
+before m begmidword löse 123-246-e-234-15-f
 prfword lösem 123-246-e-234-12356
-before m begword prognose 12345-1245-e-1345-135-e-234-15
-before m midword prognose 1234-1235-135-1245-e-1345-135-e-234-15
-begmidword rosemar 1235-135-234-15-e-134-356
-before m always baisse 12-1-24-2346-15
-before m always crosse 6-14-1235-135-2346-15
-before m always hausse 125-16-2346-15
-before m begmidword gehäuse 12346-e-125-34-e-234-15
+before m begword prognose 12345-e-1245-cb-1345-135-e-234-15-f
+before m midword prognose 1234-1235-135-e-1245-cb-1345-135-e-234-15-f
+begmidword rosemar 1235-135-e-234-15-e-134-356
+before m begmidword baisse 12-1-24-2346-15-f
+before m begmidword crosse 6-14-1235-135-2346-15-f
+before m begmidword hausse 125-16-2346-15-f
+before m begmidword gehäuse 12346-e-125-34-e-234-15-f
 before m begmidword läuse 123-34-e-234-15
 before m begmidword mäuse 134-34-e-234-15
 always brausemund 12-1235-16-e-234-15-f-134-256-145
 always krauseminz 13-1235-16-e-234-15-f-134-35-1356
-before m begmidword gemüse 12346-e-134-1256-e-234-15
-before m begmidword schmuse 156-134-136-e-234-15
-before m begmidword analyse 235-25-6-13456-e-234-15
-always posemuckel 1234-135-e-234-15-f-134-136-46-13456
+before m begmidword gemüse 12346-e-134-1256-e-234-15-f
+before m begmidword schmuse 156-134-136-e-234-15-f
+before m begmidword analyse 235-25-6-13456-e-234-15-f
+always posemuckel 1234-135-e-234-15-f-134-136-cb-46-13456
 endword temal 236-134
 always sitemap 234-24-236-f-134-1-1234
-before m begmidword geschäfte 1245-124-15
-before m begmidword geräte 12346-e-1235-345-236
-before m begmidword kräfte 5-13-124-15
+before m begmidword geschäfte 1245-124-15-f
+before m begmidword geräte 12346-e-1235-345-e-236-f
+before m begmidword kräfte 5-13-124-15-f
 before m begmidword gerüchte 12346-e-1235-1256-1456-236-f
 before m begmidword früchte 124-1235-1256-1456-236-f
 before m begword projekte 12345-245-15-13-236-f
 before m midword projekte 1234-1235-135-e-245-15-13-236-f
-before m always ernte 12456-1345-236
+before m begmidword ernte 12456-1345-236-f
 prfword erntem 12456-1345-2345-12356
 always kerntem 13-12456-1345-e-2345-12356
 begmidword lerntemp 123-12456-1345-f-2345-12356-e-1234
 endword stemal 23456-15-134
-before m begmidword watte 2456-1-2345-236
-before m begmidword motte 134-135-2345-236
-before m begmidword bräute 12-1235-34-236
-before m begmidword leute 123-126-236
-before m begmidword fondue 124-135-1345-e-145-136-15
+before m begmidword watte 2456-1-2345-e-236-f
+before m begmidword motte 134-135-2345-e-236-f
+before m begmidword bräute 12-1235-34-e-236-f
+before m begmidword leute 123-126-e-236-f
+before m begmidword fondue 124-135-1345-e-145-136-15-f
 begmidword travemünd 2345-1235-1-e-1236-15-f-134-1256-1345-e-145
 begmidword livemit 123-24-1236-15-f-2-2345
-before m begmidword parallaxe 1234-356-1-12345-1-e-6-1346-15
-before m begmidword vize 1236-24-e-1356-15
-before m begmidword bronze 12-1235-135-1345-e-1356-15
-before m begmidword katze 13-1-2345-e-1356-15
-before m begmidword witze 2456-24-2345-e-1356-15
-before m begmidword krätze 13-1235-345-2345-e-1356-15
-before m begmidword butze 12-136-2345-e-1356-15
+before m begmidword parallaxe 1234-356-1-12345-1-e-6-1346-15-f
+before m begmidword vize 1236-24-e-1356-15-f
+before m begmidword bronze 12-1235-135-1345-e-1356-15-f
+before m begmidword katze 13-1-2345-e-1356-15-f
+before m begmidword witze 2456-24-2345-e-1356-15-f
+before m begmidword krätze 13-1235-345-2345-e-1356-15-f
+before m begmidword butze 12-136-2345-e-1356-15-f
 
 # EN  (4.1 Lautgruppenkürzungen)
 word en 15-1345
@@ -2691,21 +2712,21 @@ midendword 'en 6-15-1345
 always en 14
 syllable nippel 1345-24-1234-e-1234-13456
 syllable nymph 1345-6-13456-134-1234-125
-begmidword werbenach 2456-12456-23-f-1345-56
-prfword gabename 1245-1-23-f-1345-1-e-134-15
-always gabenamen 1245-1-23-f-1345-1-e-134-14
+begmidword werbenach 2456-12456-e-23-f-1345-56
+prfword gabename 1245-1-e-23-f-1345-1-e-134-15
+always gabenamen 1245-1-e-23-f-1345-1-e-134-14
 always beneath 23-e-1345-15-1-2345-125
-always gabeneigung 1245-1-23-f-1345-146-e-1245-136
-always werbeneuheit 2456-12456-23-f-1345-126-125
+always gabeneigung 1245-1-e-23-f-1345-146-e-1245-136
+always werbeneuheit 2456-12456-e-23-f-1345-126-125
 always habenichts 2-125-15-f-1345-234
-sufword probenummer 12345-23-f-1345-136-1346-12456
-midendword probenummer 1234-1235-135-23-f-1345-136-1346-12456
-always werbenummer 2456-12456-23-f-1345-136-1346-12456
-always servicenetz 234-12456-e-1236-24-6-14-15-f-1345-15-2345-1356
-begmidword serviceniv 234-12456-e-1236-24-6-14-15-f-1345-24-e-1236
+sufword probenummer 12345-e-23-f-1345-136-1346-12456
+midendword probenummer 1234-1235-135-e-23-f-1345-136-1346-12456
+always werbenummer 2456-12456-e-23-f-1345-136-1346-12456
+always servicenetz 234-12456-e-1236-24-e-6-14-15-f-1345-15-2345-1356
+begmidword serviceniv 234-12456-e-1236-24-e-6-14-15-f-1345-24-e-1236
 always denatur 145-15-e-1345-2345
 always denazifiz 145-15-e-1345-1-e-1356-24-e-124-24-e-1356
-always sendenetz 234-14-e-145-15-e-1345-15-2345-1356
+always sendenetz 234-14-e-145-15-f-1345-15-2345-1356
 always denerv 145-15-e-1345-12456-1236
 begmidword badenix 12-1-e-145-15-f-1345-24-6-1346
 always schmiedenagel 156-134-346-e-145-15-f-1345-1-e-1245-13456
@@ -2735,7 +2756,7 @@ always pferdenatur 1234-124-12456-e-145-15-f-1345-2345
 always pferdenüster 1234-124-12456-e-145-15-f-1345-1256-23456-12456
 always aberdeen 1-12-12456-e-145-15-15-1345
 sufword aileen 1-24-e-123-15-15-1345
-sufword eileen 146-123-15-15-1345
+sufword eileen 146-e-123-15-15-1345
 always spleen 234-1234-123-15-15-1345
 always screen 234-6-14-1235-15-15-1345
 always green 1245-1235-15-15-1345
@@ -2746,72 +2767,73 @@ always seeniveau 234-15-15-f-1345-24-e-1236-15-16
 always teenager 2345-15-15-1345-f-1-1245-12456
 prfword steen 23456-15-15-1345
 prfword steens 23456-15-15-1345-234
-always ideenarm 24-145-15-14-f-356-134
-always seenartig 234-15-14-f-356-2345-45
-begmidword ideenassozi 24-145-15-14-f-1-2346-135-e-1356-24
-always ideenaustausch 24-145-15-14-f-16-234-f-2345-16-156
+always ideenarm 24-145-15-e-14-f-356-134
+always seenartig 234-15-e-14-f-356-2345-45
+begmidword ideenassozi 24-145-15-e-14-f-1-2346-135-e-1356-24
+always ideenaustausch 24-145-15-e-14-f-16-234-e-2345-16-156
 always colleen 6-14-135-12345-15-15-1345
-prfword armeen 356-134-15-14
+prfword armeen 356-e-134-15-e-14
 begmidword seenelk 234-15-15-f-1345-13456-13
 begmidword peenemünd 1234-15-15-e-1345-15-f-134-1256-1345-e-145
 always freenet 124-1235-15-15-f-1345-15-2345
-sufword maureen 134-16-1235-15-15-1345
+sufword maureen 134-16-e-1235-15-15-1345
 always seenot 234-15-15-f-1345-135-2345
 begmidword seenöt 234-15-15-f-1345-246-e-2345
-prfword seenöt 234-15-15-f-1345-246-236
+prfword seenöt 234-15-15-f-1345-246-e-236
 begmidword seenymph 234-15-15-f-1345-6-13456-134-1234-125
 always seenäh 234-15-15-f-1345-345-125
 begmidword seenäh 234-15-15-f-1345-345-125
 always teenie 2345-15-15-1345-346
 always teeny 2345-15-15-1345-6-13456
 always between 23-2345-2456-15-15-1345
-prfword hefenote 125-15-e-124-15-f-1345-135-236
+prfword hefenote 125-15-e-124-15-f-1345-135-e-236
 always hefenoten 125-15-e-124-15-f-1345-135-e-2345-14
 begmidword hilfenahm 125-24-123-e-124-15-f-1345-134
 always hilfeniveau 125-24-123-e-124-15-f-1345-24-e-1236-15-16
-always zeigenadel 1356-146-12346-f-1345-1-e-145-13456
-prfword hängenase 125-345-1345-12346-f-1345-1-234-15
-always hängenasen 125-345-1345-12346-f-1345-1-234-14
-always spionagenetz 234-1234-24-135-e-1345-1-12346-f-1345-15-2345-1356
+always zeigenadel 1356-146-e-12346-f-1345-1-e-145-13456
+prfword hängenase 125-345-1345-e-12346-f-1345-1-e-234-15
+always hängenasen 125-345-1345-e-12346-f-1345-1-e-234-14
+always spionagenetz 234-1234-24-135-e-1345-1-e-12346-f-1345-15-2345-1356
 always wegenetz 2456-1245-15-f-1345-15-2345-1356
-always taugenichts 2345-16-12346-f-1345-234
-always patschenass 1234-1-e-2345-156-15-f-1345-1-2346
+always taugenichts 2345-16-e-12346-f-1345-234
+always patschenass 1234-1-2345-e-156-15-f-1345-1-2346
+always patschenaß 1234-1-2345-e-156-15-f-1345-1-2346
 word ehename 15-125-15-f-1345-1-e-134-15
 endword ehename 2356-15-f-1345-1-e-134-15
 always ehenamen 2356-15-f-1345-1-e-134-14
-always mathenach 134-1-2345-125-15-f-1345-56
-prfword mathenote 134-1-2345-125-15-f-1345-135-236
-always mathenoten 134-1-2345-125-15-f-1345-135-e-2345-14
+always mathenach 134-1-e-2345-125-15-f-1345-56
+prfword mathenote 134-1-e-2345-125-15-f-1345-135-e-236
+always mathenoten 134-1-e-2345-125-15-f-1345-135-e-2345-14
 always leihenehmer 123-146-e-125-15-f-1345-125-12456
 sufword siena 234-24-14-1
 always sienesisch 234-24-14-123456-24-156
-prfword theorieneutral 2345-125-15-e-26-346-f-1345-126-2345-1235-1-123
-begmidword theorieneutral 2345-125-15-e-26-346-f-1345-126-2345-1235-25
-always spuckenass 234-1234-136-46-15-f-1345-1-2346
+prfword theorieneutral 2345-125-15-cb-26-346-f-1345-126-e-2345-cb-1235-1-123
+begmidword theorieneutral 2345-125-15-cb-26-346-f-1345-126-e-2345-cb-1235-25
+always spuckenass 234-1234-136-cb-46-15-f-1345-1-2346
 begmidword getränkenam 12346-e-2345-1235-345-1345-e-13-15-f-1345-1-134
 always stärkenahrung 23456-345-1235-e-13-15-f-1345-1-125-1235-136
 always bottleneck 12-135-2345-2345-123-15-f-1345-15-46
 always villeneuv 1236-24-12345-15-f-1345-126-1236
 always telenovela 2345-13456-15-f-1345-135-e-1236-13456-1
-always teilenummer 2345-146-123-15-f-1345-136-1346-12456
-begmidword teilenam 2345-146-123-15-f-1345-1-e-134
+always teilenummer 2345-146-e-123-15-f-1345-136-1346-12456
+begmidword teilenam 2345-146-e-123-15-f-1345-1-e-134
 always braillenotation 12-1235-1-24-12345-15-f-1345-135-e-2345-5-1345
-prfword braillenote 12-1235-1-24-12345-15-f-1345-135-236
+prfword braillenote 12-1235-1-24-12345-15-f-1345-135-e-236
 always braillenoten 12-1235-1-24-12345-15-f-1345-135-e-2345-14
 always nahmeneigung 1345-134-15-f-1345-146-e-1245-136
 always wärmenetz 2456-345-1235-e-134-15-f-1345-15-2345-1356
 always wärmenetz 2456-345-1235-e-134-15-f-1345-15-2345-1356
 always einenacht 1246-15-f-1345-56-2345
-begmidword schweinenier 156-2456-1246-15-f-1345-346-e-1235
+begmidword schweinenier 156-2456-1246-15-f-1345-346-1235
 midendword enähr 15-f-1345-345-125-1235
 always aknen 1-13-e-1345-15-f-1345
-always phoenix 1234-125-135-15-1345-24-6-1346
+always phoenix 1234-125-135-15-e-1345-24-6-1346
 always aren't 1-1235-15-1345-6-2345
-before n begmidword hardware 125-356-145-f-2456-356-15
+before n begmidword hardware 125-356-145-f-2456-356-15-f
 always renatur 1235-15-e-1345-2345
 always schwerenot 156-2456-12456-15-f-1345-135-2345
-always chiffrenummer 1456-24-124-124-1235-15-f-1345-136-1346-12456
-before n begmidword softwarenutz 234-135-124-2345-f-2456-356-15-f-1345-1356
+always chiffrenummer 1456-24-124-e-124-cb-1235-15-f-1345-136-1346-12456
+before n begmidword software 234-135-124-2345-f-2456-356-15-f
 always schwerenöter 156-2456-12456-15-f-1345-246-e-2345-12456
 begmidword kosenam 13-135-e-234-15-f-1345-1-134
 begmidword glucosenach 1245-123-136-e-6-14-135-e-234-15-f-1345-56
@@ -2819,20 +2841,22 @@ begmidword morsenach 134-26-234-15-f-1345-56
 begmidword messeneu 134-15-2346-15-f-1345-126
 begmidword pressenach 1234-1235-15-2346-15-f-1345-56
 always pressenotiz 1234-1235-15-2346-15-f-1345-135-e-2345-24-1356
-before n always baisse 12-1-24-2346-15
+before n begmidword baisse 12-1-24-2346-15-f
+prfword baissen 12-1-24-2346-14
 always mäusenest 134-34-e-234-15-f-1345-15-23456
 always usenet 136-234-15-f-1345-15-2345
-always gemüsenugget 12346-e-134-1256-234-15-f-1345-136-1245-e-12346-2345
-begmidword städtenam 23456-345-145-236-f-1345-1-e-134
+always gemüsenugget 12346-e-134-1256-e-234-15-f-1345-136-1245-e-12346-2345
+begmidword gerätenam 12346-e-1235-345-e-236-f-1345-1-e-134
+begmidword städtenam 23456-345-145-e-236-f-1345-1-e-134
 always kräftenach 5-13-124-15-f-1345-56
 always kältenebel 13-345-123-e-236-f-1345-15-e-12-13456
-always gutenacht 1245-136-236-f-1345-56-2345
-prfword haltenase 125-25-236-f-1345-1-e-234-15
-always haltenasen 125-25-236-f-1345-1-e-234-14
-always gütenorm 1245-1256-236-f-1345-26-134
+always gutenacht 1245-136-e-236-f-1345-56-2345
+prfword haltenase 125-25-e-236-f-1345-1-e-234-15
+always haltenasen 125-25-e-236-f-1345-1-e-234-14
+always gütenorm 1245-1256-e-236-f-1345-26-134
 always bytenummer 12-6-13456-236-f-1345-136-1346-12456
 always reservenest 1235-15-e-234-12456-e-1236-15-f-1345-15-23456
-before n begmidword bronze 12-1235-135-1345-e-1356-15
+before n begmidword bronze 12-1235-135-1345-e-1356-15-f
 prfword bronzen 12-1235-135-1345-e-1356-14
 prfword bronzene 12-1235-135-1345-e-1356-14-15
 prfword bronzenem 12-1235-135-1345-e-1356-14-12356
@@ -2846,83 +2870,86 @@ begword ent 2346
 sufword entchen 14-2345-e-1456-14
 word ente 14-236
 always entelech 14-e-2345-13456-15-e-1456
-always enten 14-2345-14
+always enten 14-e-2345-14
 always hallentennis 125-1-12345-14-f-2345-14-e-1345-24-234
 always rasentennis 1235-1-e-234-14-f-2345-14-e-1345-24-234
 always frauentennis 124-1235-16-14-f-2345-14-e-1345-24-234
-always entente 14-2345-14-236
-always ententeil 14-2345-14-f-2345-146-123
-always ententeich 14-2345-14-f-2345-146-1456
-prfword enter 14-2345-12456
-always enterbeil 14-2345-12456-f-12-146-123
-always enterbrück 14-2345-12456-f-12-1235-1256-46
-always enter- 14-2345-12456-36
-always entere 14-2345-12456-15
-always enterem 14-2345-12456-12356
-always enteren 14-2345-12456-14
-always enterer 14-2345-12456-12456
-always enteres 14-2345-12456-123456
-always enterhak 14-2345-12456-f-125-1-13
-always enterich 14-2345-12456-3456
-always enteritis 14-2345-12456-24-e-2345-24-234
-always entermesser 14-2345-12456-f-134-15-2346-12456
-always entern 14-2345-12456-1345
-always entero 14-2345-12456-135
-always enterogen 14-2345-12456-135-e-1245-14
-always enterpris 14-2345-12456-f-1234-1235-24-234
-always enterst 14-2345-12456-23456
-always entert 14-2345-12456-2345
-always entertain 14-2345-12456-e-2345-1-24-1345
-always entertast 14-2345-12456-f-2345-1-23456
-prfword enterte 14-2345-12456-236
-prfword entertem 14-2345-12456-e-2345-12356
-prfword enterten 14-2345-12456-e-2345-14
-prfword enterter 14-2345-12456-e-2345-12456
-prfword entertes 14-2345-12456-e-2345-123456
-prfword entertest 14-2345-12456-e-236-23456
-prfword entertet 14-2345-12456-e-236-2345
-always enterung 14-2345-12456-136
+always entente 14-e-2345-14-e-236
+always ententeil 14-e-2345-14-f-2345-146-123
+always ententeich 14-e-2345-14-f-2345-146-1456
+prfword enter 14-e-2345-12456
+always enterbeil 14-e-2345-12456-f-12-146-123
+always enterbrück 14-e-2345-12456-f-12-1235-1256-46
+always entere 14-e-2345-12456-15
+always enterem 14-e-2345-12456-12356
+always enteren 14-e-2345-12456-14
+always enterer 14-e-2345-12456-12456
+always enteres 14-e-2345-12456-123456
+always enterhak 14-e-2345-12456-f-125-1-e-13
+always enterich 14-e-2345-12456-3456
+always enteritis 14-e-2345-12456-24-e-2345-24-234
+always entermesser 14-e-2345-12456-f-134-15-2346-12456
+always entern 14-e-2345-12456-1345
+always entero 14-e-2345-12456-135
+always enterogen 14-e-2345-12456-135-e-1245-14
+always enterpris 14-e-2345-12456-f-1234-1235-24-234
+always enterst 14-e-2345-12456-23456
+always entert 14-e-2345-12456-2345
+always entertain 14-e-2345-12456-e-2345-1-24-1345
+always entertast 14-e-2345-12456-f-2345-1-23456
+prfword enterte 14-e-2345-12456-236
+prfword entertem 14-e-2345-12456-e-2345-12356
+prfword enterten 14-e-2345-12456-e-2345-14
+prfword enterter 14-e-2345-12456-e-2345-12456
+prfword entertes 14-e-2345-12456-e-2345-123456
+prfword entertest 14-e-2345-12456-e-236-23456
+prfword entertet 14-e-2345-12456-e-236-2345
+always enterung 14-e-2345-12456-136
 always enthusia 14-2345-125-136-e-234-24-e-1
 always enthymem 14-2345-125-6-13456-e-134-12356
-always entität 14-2345-5-345
-always entities 14-2345-24-e-2345-346-234
-always entity 14-2345-24-e-2345-6-13456
+always entität 14-e-2345-5-345
+always entities 14-e-2345-24-e-2345-346-234
+always entity 14-e-2345-24-e-2345-6-13456
 always entlein 14-2345-e-123-1246
-always entoderm 14-2345-135-e-145-12456-134
-always entomo 14-2345-135-e-134-135
-midendword entomori 14-2345-135-e-134-26-24
-always entopisch 14-2345-135-e-1234-24-156
-always entoptisch 14-2345-135-1234-e-2345-24-156
-always entotisch 14-2345-135-e-2345-24-156
-prfword entourage 14-2345-135-136-e-1235-1-12346
-always entourag 14-2345-135-136-e-1235-1-e-1245
-always entrec 14-2345-1235-15-e-6-14
+always entoderm 14-e-2345-135-e-145-12456-134
+always entomo 14-e-2345-135-e-134-135
+midendword entomori 14-e-2345-135-e-134-26-24
+always entopisch 14-e-2345-135-e-1234-24-156
+always entoptisch 14-e-2345-135-1234-e-2345-24-156
+always entotisch 14-e-2345-135-e-2345-24-156
+prfword entourage 14-e-2345-135-136-e-1235-1-12346
+always entourag 14-e-2345-135-136-e-1235-1-e-1245
+always entrec 14-e-2345-1235-15-e-6-14
 always entrecht 2346-e-1235-2345
 always zentrech 1356-14-2345-f-1235-15-1456
-word entre 14-2345-1235-15
-always entree 14-2345-1235-15-15
-always entremet 14-2345-1235-15-f-134-15-2345
-always entrepreneur 14-2345-1235-15-f-1234-1235-14-126-1235
-always entresol 14-2345-1235-15-f-234-135-123
+word entre 14-e-2345-1235-15
+always entré 14-e-2345-1235-1234568
+always entree 14-e-2345-1235-15-15
+always entremet 14-e-2345-1235-15-f-134-15-2345
+always entrepreneur 14-e-2345-1235-15-f-1234-1235-14-126-1235
+always entresol 14-e-2345-1235-15-f-234-135-123
 always entrevu 14-2345-1235-15-f-1236-136
-always entrismus 14-2345-1235-5-24
-always entristisch 14-2345-1235-5-156
-always entrop 14-2345-1235-135-e-1234
+always entrismus 14-e-2345-1235-5-24
+always entristisch 14-e-2345-1235-5-156
+always entrop 14-e-2345-1235-135-e-1234
 
 # ER  (4.1 Lautgruppenkürzungen)
 always er 12456
 syllable ressourc 1235-15-2346-135-136-1235-e-6-14
+midword erevolt 15-f-1235-15-e-1236-135-123-e-2345
+prfword erevolte 15-f-1235-15-e-1236-135-123-e-236
+midword erevolu 15-f-1235-15-e-1236-135-e-123-136
 midendword eraubend 15-f-1235-16-e-12-14-145
 always aerobic 1-15-1235-135-e-12-24-6-14
-before er begword ausgabe 34-e-1245-1-23
-before er midword ausgabe 16-234-e-1245-1-23
-before er midword gewölbe 12346-e-2456-246-123-23
-before e begword probe 12345-e-23
-before e midword probe 1234-1235-135-e-23
-before er always gewebe 12346-e-2456-15-e-23
-before er always sterbe 23456-12456-e-23
+before er begword ausgabe 34-e-1245-1-e-23-f
+before er midword ausgabe 16-234-e-1245-1-e-23-f
+before er midword gewölbe 12346-e-2456-246-123-e-23-f
+before e begword probe 12345-e-23-f
+before e midword probe 1234-1235-135-e-23-f
+before er always gewebe 12346-e-2456-15-e-23-f
+before er always sterbe 23456-12456-e-23-f
 always sterberei 23456-12456-e-12-12456-146
-before er always werbe 2456-12456-e-23
+before er always werbe 2456-12456-e-23-f
 prfword werber 2456-12456-e-12-12456
 always bewerber 23-e-2456-12456-e-12-12456
 always erwerber 12456-e-2456-12456-e-12-12456
@@ -2936,35 +2963,35 @@ begmidword berundal 12-12456-256-e-145-25
 before e always bade 12-1-e-145-15
 always badereich 12-1-e-145-15-f-1235-146-1456
 always baderock 12-1-e-145-15-f-1235-135-46
-before er begmidword jade 245-1-e-145-15
+before er begmidword jade 245-1-e-145-15-f
 before er begmidword schokolade 156-135-e-13-135-e-123-1-e-145-15-f
-before er always parade 1234-356-1-e-145-15
-before er begmidword kreide 13-1235-146-e-145-15
-before er midword ance 235-6-14-15
-prfword ancer 235-6-14-12456
-prfword ancera 235-6-14-12456-1
-prfword ancers 235-6-14-12456-234
-before er begmidword service 234-12456-e-1236-24-6-14-15
+before er begmidword parade 1234-356-1-e-145-15-f
+before er begmidword kreide 13-1235-146-e-145-15-f
+before er midword ance 235-e-6-14-15
+prfword ancer 235-e-6-14-12456
+prfword ancera 235-e-6-14-12456-1
+prfword ancers 235-e-6-14-12456-234
+before er begmidword service 234-12456-e-1236-24-e-6-14-15
 begmidword deregul 145-15-e-1235-15-e-1245-136-e-123
 begmidword derangier 145-15-e-1235-235-e-1245-346-1235
-before er always getreide 12346-e-2345-1235-146-e-145-15
-before r always melde 134-13456-e-145-15
+before er always getreide 12346-e-2345-1235-146-e-145-15-f
+before r always melde 134-13456-e-145-15-f
 prfword melder 134-13456-e-145-12456
 begmidword melderattrapp 134-13456-e-145-12456-f-1-2345-e-2345-1235-1-1234-e-1234
 prfword meldern 134-13456-e-145-12456-1345
 prfword melderin 134-13456-e-145-12456-35
 prfword melderinnen 134-13456-e-145-12456-35-e-1345-14
 prfword melders 134-13456-e-145-12456-234
-before er always gemälde 12346-e-134-345-123-e-145-15
-before e always lande 123-235-e-145-15
-before e always mode 134-135-e-145-15
-before er always gebäude 12346-e-12-34-e-145-15
+before er always gemälde 12346-e-134-345-123-e-145-15-f
+before e always lande 123-235-e-145-15-f
+before e always mode 134-135-e-145-15-f
+before er always gebäude 12346-e-12-34-e-145-15-f
 always beer 12-15-15-1235
 prfword beerbe 23-e-12456-e-12-15
 always beerben 23-e-12456-e-12-14
 always beerbst 23-e-12456-12-23456
 always beerbt 23-e-12456-12-2345
-prfword beerbte 23-e-12456-12-236
+prfword beerbte 23-e-12456-12-e-236
 always beerbtest 23-e-12456-12-e-236-23456
 always beerbung 23-e-12456-e-12-136
 always beerdig 23-e-12456-e-145-45
@@ -2979,22 +3006,23 @@ always hefering 125-15-e-124-15-f-1235-35-1245
 prfword heferinge 125-15-e-124-15-f-1235-35-e-12346
 before er always hilfe 125-24-123-e-124-15
 always beruferat 23-e-1235-136-e-124-15-f-1235-1-2345
-before er begmidword trage 2345-1245-15
-before er begmidword prestige 1234-1235-15-23456-45-15
+before er begmidword trage 2345-1245-15-f
+before er begmidword prestige 1234-1235-15-ca-23456-45-15-f
 always heer 125-15-15-1235
 begmidword näheer 1345-345-125-15-f-12456
 always cheer 1456-15-15-1235
-before e always schwäche 156-2456-345-1456-15
+before e always schwäche 156-2456-345-e-1456-15-f
 before er begmidword recherche 1235-15-e-1456-12456-e-1456-15-f
 begmidword ascheraup 1-156-15-f-1235-16-1234
 begmidword ascheräup 1-156-15-f-1235-34-1234
 begmidword ascheroll 1-156-15-f-1235-135-12345
 begmidword ascheröll 1-156-15-f-1235-246-12345
-always wäscheraum 2456-345-156-15-f-1235-16-134
-begmidword wäscheräum 2456-345-156-15-f-1235-34-134
+always wäscheraum 2456-345-e-156-15-f-1235-16-134
+begmidword wäscheräum 2456-345-e-156-15-f-1235-34-134
 always weheruf 2456-2356-15-f-1235-136-124
-before e always anleihe 235-e-123-146-e-125-15
-before er always mathe 134-1-e-2345-125-15
+before e begmidword anleihe 235-e-123-146-e-125-15-f
+before er begmidword mathe 134-1-e-2345-125-15-f
+begmidword spikereif 234-1234-24-13-15-f-1235-146-124
 always stärkereg 23456-345-1235-e-13-15-f-1235-15-1245
 always leer 123-15-15-1235
 always galeer 1245-25-15-15-1235
@@ -3002,76 +3030,77 @@ always liebeleer 123-346-e-23-f-123-15-15-1235
 before er begmidword kohle 13-135-125-e-123-15-f
 prfword kohler 13-135-125-e-123-12456
 before er begmidword mühle 134-1256-125-e-123-15-f
-before e always klee 13-123-15-15
-before r begmidword koschenille 13-135-e-156-14-24-12345-15
+before e begmidword klee 13-123-15-15-f
+before r begmidword koschenille 13-135-e-156-14-24-12345-15-f
 always meer 134-15-15-1235
-before er always nahme 1345-134-15
-before e always wärme 2456-345-1235-e-134-15
+before er begmidword nahme 1345-134-15-f
+before e begmidword wärme 2456-345-1235-e-134-15-f
 always neer 1345-15-15-1235
 always engeneer 14-e-1245-14-15-15-1235
-before r begmidword hygiene 125-6-13456-e-1245-24-e-14-15
+before r begmidword hygiene 125-6-13456-e-1245-24-e-14-15-f
 before e always sahne 234-1-125-e-1345-15-f
 before e always akne 1-13-e-1345-15-f
-always guineer 1245-136-35-15-12456
+always guineer 1245-136-35-15-e-12456
 always peer 1234-15-15-1235
-before e always grippe 1245-1235-24-1234-e-1234-15
+before e always grippe 1245-1235-24-1234-e-1234-15-f
 always speer 234-1234-15-15-1235
 begmidword haarerauf 125-1-1-e-1235-15-f-1235-16-124
-before e always software 234-135-124-2345-e-2456-356-15
-before er begmidword säure 234-34-e-1235-15
-before er always see 234-15-15
+before e always software 234-135-124-2345-e-2456-356-15-f
+before er begmidword säure 234-34-e-1235-15-f
+before er always see 234-15-15-f
 prfword leserabe 123-123456-15-f-1235-1-e-12-15
 prfword leseraben 123-123456-15-f-1235-1-e-12-14
+always leseraster 123-123456-15-f-1235-1-ca-23456-12456
 prfword lesereihe 123-123456-15-f-1235-146-e-125-15
 prfword lesereihen 123-123456-15-f-1235-146-e-125-14
 always leserhythm 123-123456-15-f-1235-125-6-13456-2345-125-e-134
-before e always reise 1235-146-e-234-15
+before e always reise 1235-146-e-234-15-f
 before er always thrombose 2345-125-1235-135-134-e-12-135-e-234-15-f
 before er always diagnose 145-24-1-1245-1345-135-e-234-15-f
-before e always presse 1234-1235-15-2346-15
-before er begmidword mäuse 134-34-e-234-15
-before er always analyse 235-25-6-13456-e-234-15
-before e always tee 2345-15-15
+before e always presse 1234-1235-15-2346-15-f
+before er begmidword mäuse 134-34-e-234-15-f
+before er always analyse 235-25-6-13456-e-234-15-f
+before e always tee 2345-15-15-f
 always teer 2345-15-15-1235
-always haltering 125-25-236-f-1235-35-1245
-prfword halteringe 125-25-236-f-1235-35-12346
-always halteroll 125-25-236-f-1235-135-12345
-before e always kälte 13-345-123-236
-always kälteraum 13-345-123-236-f-1235-16-134
-begmidword kälteräum 13-345-123-236-f-1235-34-134
-before e always elite 13456-24-236
-before e always ernte 12456-1345-236
-always metteruf 134-15-2345-236-f-1235-136-124
-before er begmidword getriebe 12346-e-2345-1235-346-23
-before er begmidword schiebe 156-346-23
+always haltering 125-25-e-236-f-1235-35-1245
+prfword halteringe 125-25-e-236-f-1235-35-12346
+always halteroll 125-25-e-236-f-1235-135-12345
+before e always kälte 13-345-123-e-236-f
+always kälteraum 13-345-123-e-236-f-1235-16-134
+begmidword kälteräum 13-345-123-e-236-f-1235-34-134
+before e always elite 13456-24-e-236-f
+before e begmidword ernte 12456-1345-e-236-f
+always metteruf 134-15-2345-e-236-f-1235-136-124
+before er begmidword getriebe 12346-e-2345-1235-346-e-23-f
+before er begmidword schiebe 156-346-e-23-f
 prfword schieber 156-346-e-12-12456
 before konsonant begmidword schieber 156-346-e-12-12456
 prfword schieberei 156-346-e-12-12456-146
 prfword schiebereien 156-346-e-12-12456-146-14
-before er begword probe 12345-23
-before er midword probe 1234-1235-135-23
-before er midword bleibe 12-12-15
+before er begword probe 12345-e-23-f
+before er midword probe 1234-1235-135-e-23-f
+before er midword bleibe 12-12-15-f
 always bleiber 12-12-12456
 always bleibers 12-12-12456-234
-before er midword gabe 1245-1-23
+before er midword gabe 1245-1-e-23-f
 always haberecht 2-125-15-f-1235-2345
-begmidword heberoll 125-15-23-f-1235-135-12345
-begmidword kleberoll 13-123-15-23-f-1235-135-12345
+begmidword heberoll 125-15-e-23-f-1235-135-12345
+begmidword kleberoll 13-123-15-e-23-f-1235-135-12345
 before er begmidword parforce 1234-356-e-124-26-6-14-15
 prfword laderampe 123-1-e-145-15-f-1235-1-134-e-1234-15
 always laderampen 123-1-e-145-15-f-1235-1-134-e-1234-14
-before er begmidword hunde 125-256-e-145-15
+before er begmidword hunde 125-256-e-145-15-f
 always thunder 2345-125-256-e-145-12456
 always hundert 125-256-e-145-12456-2345
 prfword hunderte 125-256-e-145-12456-236
-before er begmidword gemeinde 12346-e-134-1246-e-145-15
+before er begmidword gemeinde 12346-e-134-1246-e-145-15-f
 always ständerat 5-23456-15-f-1235-1-2345
 always ständerät 5-23456-15-f-1235-345-2345
-always ständeräte 5-23456-15-f-1235-345-236
+always ständeräte 5-23456-15-f-1235-345-e-236
 always heiderauch 125-146-e-145-15-f-1235-16-1456
 midendword deraum 145-15-f-1235-16-134
 midword deräum 145-15-f-1235-34-134
-always derealisation 145-15-e-1235-15-25-24-e-234-5-1345
+always derealisation 145-15-f-1235-15-25-24-e-234-5-1345
 midendword derecht 145-15-f-1235-2345
 always ständerecht 5-23456-15-f-1235-2345
 midendword dereduktion 145-15-f-1235-15-e-145-136-13-e-2345-245
@@ -3083,7 +3112,7 @@ midendword deregulation 145-15-f-1235-15-e-1245-136-e-123-5-1345
 midendword deregulier 145-15-f-1235-15-e-1245-136-e-123-346-1235
 prfword badereise 12-1-e-145-15-f-1235-146-e-234-15
 always badereisen 12-1-e-145-15-f-1235-146-e-234-14
-prfword laderunge 123-1-e-145-15-f-1235-256-12346
+prfword laderunge 123-1-e-145-15-f-1235-256-e-12346
 always laderungen 123-1-e-145-15-f-1235-256-e-1245-14
 always siederohr 234-346-e-145-15-f-1235-135-125-1235
 begmidword siederöhr 234-346-e-145-15-f-1235-246-125-1235
@@ -3098,18 +3127,18 @@ begmidword geländerst 12346-e-123-345-1345-e-145-12456-f-23456
 prfword sendereihe 234-14-e-145-15-f-1235-146-e-125-15
 always sendereihen 234-14-e-145-15-f-1235-146-e-125-14
 begmidword senderöhr 234-14-e-145-15-f-1235-246-125-1235
-before er begmidword gewinde 12346-e-2456-35-e-145-15
+before er begmidword gewinde 12346-e-2456-35-e-145-15-f
 begmidword moderedakt 134-135-e-145-15-f-1235-15-e-145-1-13-e-2345
 begmidword modereis 134-135-e-145-15-f-1235-146-e-234
 always moderessort 134-135-e-145-15-f-1235-15-2346-26-2345
 always moderichtung 134-135-e-145-15-f-2-3456-136
-before er begmidword garde 1245-356-e-145-15
-prfword garderobe 1245-356-e-145-12456-135-12-15
-begmidword garderobe 1245-356-e-145-12456-135-23
-always garderoben 1245-356-e-145-12456-135-12-14
-before er begmidword pferde 1234-124-12456-e-145-15
-before er begmidword gebäude 12346-e-12-34-e-145-15
-always engineer 14-1245-35-15-15-1235
+before er begmidword garde 1245-356-e-145-15-f
+prfword garderobe 1245-356-e-145-12456-135-e-12-15
+begmidword garderobe 1245-356-e-145-12456-135-e-23
+always garderoben 1245-356-e-145-12456-135-e-12-14
+before er begmidword pferde 1234-124-12456-e-145-15-f
+before er begmidword gebäude 12346-e-12-34-e-145-15-f
+always engineer 14-e-1245-35-15-15-1235
 always hilferuf 125-24-123-e-124-15-f-1235-136-124
 always schärferelation 156-345-1235-e-124-15-f-1235-13456-5-1345
 always spracherecht 234-1234-15-f-1235-2345
@@ -3117,36 +3146,37 @@ always ascheregen 1-156-15-f-1235-15-e-1245-14
 begmidword wäscheroll 2456-345-e-156-15-f-1235-135-12345
 sufword eherecht 15-125-15-f-1235-2345
 midendword eherecht 2356-15-f-1235-2345
-sufword eheregister 15-125-15-f-1235-15-e-1245-24-23456-12456
-midendword eheregister 2356-15-f-1235-15-e-1245-24-23456-12456
+sufword eheregister 15-125-15-f-1235-15-e-1245-24-ca-23456-12456
+midendword eheregister 2356-15-f-1235-15-e-1245-24-ca-23456-12456
 sufword ehering 15-125-15-f-1235-35-1245
 midendword ehering 2356-15-f-1235-35-1245
-word eheringe 15-125-15-f-1235-35-12346
-endword eheringe 2356-15-f-1235-35-12346
-word eheroman 15-125-15-e-1235-135-e-134-1-1345
-begword eheroman 15-125-15-e-1235-135-e-134-235
-midword eheroman 2356-15-e-1235-135-e-134-235
-endword eheroman 2356-15-e-1235-135-e-134-1-1345
-begword eheromän 15-125-15-e-1235-135-e-134-345-e-1345
-midword eheromän 2356-15-e-1235-135-e-134-345-e-1345
-prfword weiherede 2456-146-125-15-f-1235-15-e-145-15
-always weihereden 2456-146-125-15-f-1235-15-e-145-14
-before er always ruhe 1235-136-e-125-15
+word eheringe 15-125-15-f-1235-35-e-12346
+endword eheringe 2356-15-f-1235-35-e-12346
+word eheroman 15-125-15-f-1235-135-e-134-1-1345
+begword eheroman 15-125-15-f-1235-135-e-134-235
+midword eheroman 2356-15-f-1235-135-e-134-235
+endword eheroman 2356-15-f-1235-135-e-134-1-1345
+begword eheromän 15-125-15-f-1235-135-e-134-345-e-1345
+midword eheromän 2356-15-f-1235-135-e-134-345-e-1345
+prfword weiherede 2456-146-e-125-15-f-1235-15-e-145-15
+always weihereden 2456-146-e-125-15-f-1235-15-e-145-14
+before er always ruhe 1235-136-e-125-15-f
 prfword ruher 1235-136-e-125-12456
 prfword ruhern 1235-136-e-125-12456-1345
 prfword ruhers 1235-136-e-125-12456-234
-before er begmidword knie 13-1345-346
+before er begmidword knie 13-1345-346-f
 always sacknier 234-1-46-f-1345-346-1235
 always schocknier 156-135-46-f-1345-346-1235
 always taljereep 2345-25-e-245-15-f-1235-15-15-1234
 before er begmidword getränke 12346-e-2345-1235-345-1345-e-13-15
 always stärkereaktion 23456-345-1235-e-13-15-f-1235-15-e-1-13-e-2345-245
 always stärkereich 23456-345-1235-e-13-15-f-1235-146-1456
+before er begmidword reklame 1235-15-e-13-123-1-e-134-15-f
 prfword primerate 1234-1235-24-134-15-f-1235-1-236
 always primerates 1234-1235-24-134-15-f-1235-1-2345-123456
 always nahmeregel 1345-134-15-f-1235-15-e-1245-13456
 always homerun 125-135-134-15-f-1235-256
-before er begmidword wärme 2456-345-1235-e-134-15
+before er begmidword wärme 2456-345-1235-e-134-15-f
 prfword wärmer 2456-345-1235-e-134-12456
 prfword wärmere 2456-345-1235-e-134-12456-15
 prfword wärmerem 2456-345-1235-e-134-12456-12356
@@ -3162,16 +3192,17 @@ always schwärmer 156-2456-345-1235-e-134-12456
 always türmereich 2345-1256-1235-e-134-15-f-1235-146-1456
 begmidword sahneroll 234-1-125-e-1345-15-f-1235-135-12345
 prfword sühneritual 234-1256-125-e-1345-15-f-1235-24-e-2345-136-e-1-123
-begmidword sühneritual 234-1256-125-e-1345-15-f-1235-24-e-2345-136-25
+begmidword sühneritual 234-1256-125-e-1345-15-f-1235-24-e-2345-136-e-25
+before er begmidword online 135-1345-e-123-35-15-f
 begmidword routinerech 1235-135-136-e-2345-35-15-f-1235-15-1456
-before er begmidword schweine 156-2456-1246-15
+before er begmidword schweine 156-2456-1246-15-f
 always schweinerei 156-2456-1246-12456-146
-before er begmidword sterne 23456-12456-e-1345-15
+before er begmidword sterne 23456-12456-e-1345-15-f
 always oerlikon 135-15-1235-e-123-24-e-13-135-1345
 sufword moers 134-135-15-1235-234
 always sparerib 234-1234-356-15-f-1235-24-12
 always wareries 2456-356-15-f-1235-346-234
-prfword wareroute 2456-356-15-f-1235-135-136-236
+prfword wareroute 2456-356-15-f-1235-135-136-e-236
 begmidword warerout 2456-356-15-f-1235-135-136-2345
 always irrered 24-1235-e-1235-15-f-1235-15-145
 always oxidasereaktion 135-6-1346-24-e-145-1-e-234-15-f-1235-15-e-1-13-e-2345-245
@@ -3181,18 +3212,18 @@ prfword käsereiben 13-345-e-234-15-f-1235-146-e-12-14
 always käserest 13-345-e-234-15-f-1235-15-23456
 begmidword käserezep 13-345-e-234-15-f-1235-15-e-1356-15-1234
 begmidword käserind 13-345-e-234-15-f-1235-35-145
-before er begmidword gebläse 12346-e-12-123-345-e-234-15
+before er begmidword gebläse 12346-e-12-123-345-e-234-15-f
 begmidword naserümpf 1345-1-e-234-15-f-1235-1256-134-1234-124
 begmidword leseratt 123-123456-15-f-1235-1-2345-2345
-prfword leseratte 123-123456-15-f-1235-1-2345-236
+prfword leseratte 123-123456-15-f-1235-1-2345-e-236
 always leseraum 123-123456-15-f-1235-16-134
-always leseregister 123-123456-15-f-1235-15-e-1245-24-23456-12456
+always leseregister 123-123456-15-f-1235-15-e-1245-24-ca-23456-12456
 prfword lesereise 123-123456-15-f-1235-146-e-234-15
 always lesereisen 123-123456-15-f-1235-146-e-234-14
-prfword leseringe 123-123456-15-f-1235-35-12346
+prfword leseringe 123-123456-15-f-1235-35-e-12346
 always lesering 123-123456-15-f-1235-35-1245
 begmidword leseräum 123-123456-15-f-1235-34-134
-before er begmidword speise 234-1234-146-e-234-15
+before er begmidword speise 234-1234-146-e-234-15-f
 prfword speiser 234-1234-146-e-234-12456
 prfword speisern 234-1234-146-e-234-12456-1345
 prfword speisers 234-1234-146-e-234-12456-234
@@ -3201,14 +3232,14 @@ begmidword reiserech 1235-146-e-234-15-f-1235-15-1456
 always reiseregel 1235-146-e-234-15-f-1235-15-e-1245-13456
 always reisereport 1235-146-e-234-15-f-1235-15-e-1234-26-2345
 begmidword reiserhythm 1235-146-e-234-15-f-1235-125-6-13456-2345-125-e-134
-prfword reiseroute 1235-146-e-234-15-f-1235-135-136-236
+prfword reiseroute 1235-146-e-234-15-f-1235-135-136-e-236
 begmidword reiserout 1235-146-e-234-15-f-1235-135-136-2345
 always reiseruf 1235-146-e-234-15-f-1235-136-124
 always hälsereck 125-345-123-e-234-15-f-1235-15-46
 always gänseragout 1245-345-1345-e-234-15-f-1235-1-e-1245-135-136-2345
-before er begword narkose 1345-356-e-13-135-e-234-15
-before er begword prognose 12345-1245-e-1345-135-e-234-15
-before er midword prognose 1234-1235-135-1245-e-1345-135-e-234-15
+before er begword narkose 1345-356-e-13-135-e-234-15-f
+before er begword prognose 12345-e-1245-cb-1345-135-e-234-15-f
+before er midword prognose 1234-1235-135-e-1245-cb-1345-135-e-234-15
 always massereich 134-1-2346-15-f-1235-146-1456
 always rasserein 1235-1-2346-15-f-1235-1246
 always presserat 1234-1235-15-2346-15-f-1235-1-2345
@@ -3219,42 +3250,43 @@ begmidword presserefer 1234-1235-15-2346-15-f-1235-15-e-124-12456
 begmidword presserezen 1234-1235-15-2346-15-f-1235-15-e-1356-14
 always presserummel 1234-1235-15-2346-15-f-1235-136-1346-13456
 always presserundschau 1234-1235-15-2346-15-f-1235-256-145-f-156-16
-before er begmidword gehäuse 12346-e-125-34-e-234-15
+before er begmidword gehäuse 12346-e-125-34-e-234-15-f
 prfword gehäuser 12346-e-125-34-e-234-12456
 prfword gehäusern 12346-e-125-34-e-234-12456-1345
-before er begmidword analyse 235-25-6-13456-e-234-15
-prfword städtereise 23456-345-145-236-f-1235-146-e-234-15
-always städtereisen 23456-345-145-236-f-1235-146-e-234-14
-before er begmidword kräfte 5-13-124-15
-before er begmidword früchte 124-1235-1256-1456-236
+before er always gemüse 12346-e-134-1256-e-234-15-f
+before er begmidword analyse 235-25-6-13456-e-234-15-f
+prfword städtereise 23456-345-145-e-236-f-1235-146-e-234-15
+always städtereisen 23456-345-145-e-236-f-1235-146-e-234-14
+before er begmidword kräfte 5-13-124-15-f
+before er begmidword früchte 124-1235-1256-1456-e-236-f
 before er begmidword punkte 1234-2345-15-f
-always halteriegel 125-25-236-f-1235-346-e-1245-13456
-always halteriemen 125-25-236-f-1235-346-e-134-14
-always haltering 125-25-236-e-1235-35-1245
-prfword halteringe 125-25-236-f-1235-35-12346
-always warteraum 2456-356-236-f-1235-16-134
-begmidword warteräum 2456-356-236-f-1235-34-134
-before er begmidword gäste 1245-345-23456-15
-always resteramp 1235-15-23456-15-f-1235-1-134-1234
-always pusterohr 1234-136-23456-15-f-1235-135-125-1235
-begmidword pusteröhr 1234-136-23456-15-f-1235-246-125-1235
-begmidword räteregier 1235-345-236-f-1235-1245
-always räterepublik 1235-345-236-f-1235-13
-prfword treueringe 2345-1235-126-15-f-1235-35-12346
+always halteriegel 125-25-e-236-f-1235-346-e-1245-13456
+always halteriemen 125-25-e-236-f-1235-346-e-134-14
+always haltering 125-25-e-236-f-1235-35-1245
+prfword halteringe 125-25-e-236-f-1235-35-12346
+always warteraum 2456-356-e-236-f-1235-16-134
+begmidword warteräum 2456-356-e-236-f-1235-34-134
+before er begmidword gäste 1245-345-ca-23456-15-f
+always resteramp 1235-15-ca-23456-15-f-1235-1-134-1234
+always pusterohr 1234-136-ca-23456-15-f-1235-135-125-1235
+begmidword pusteröhr 1234-136-ca-23456-15-f-1235-246-125-1235
+begmidword räteregier 1235-345-e-236-f-1235-1245
+always räterepublik 1235-345-e-236-f-1235-13
+prfword treueringe 2345-1235-126-15-f-1235-35-e-12346
 always treuering 2345-1235-126-15-f-1235-35-1245
 begmidword treuerabat 2345-1235-126-15-f-1235-1-e-12-1-2345
-before er always reserve 1235-123456-12456-e-1236-15
-before er begmidword vize 1236-24-e-1356-15
+before er always reserve 1235-123456-12456-e-1236-15-f
+before er begmidword vize 1236-24-e-1356-15-f
 before r begmidword bronze 12-1235-135-1345-e-1356-15-f
-before er begmidword hitze 125-24-2345-e-1356-15
+before er begmidword hitze 125-24-2345-e-1356-15-f
 prfword hitzer 125-24-2345-e-1356-12456
 prfword hitzern 125-24-2345-e-1356-12456-1345
 prfword hitzers 125-24-2345-e-1356-12456-234
-before er begmidword grütze 1245-1235-1256-2345-e-1356-15
+before er begmidword grütze 1245-1235-1256-2345-e-1356-15-f
 
 # ES  (4.1 Lautgruppenkürzungen)
 always es 123456
-midword esäutl 15-f-234-34-e-123
+midword esäul 15-f-234-34-e-123
 midword esammel 15-f-234-1-1346-13456
 midword esamml 15-f-234-1-1346-e-123
 midendword esandwich 15-f-234-235-145-e-2456-3456
@@ -3264,13 +3296,14 @@ midendword eshire 15-f-234-125-24-1235-15
 midendword eshires 15-f-234-125-24-1235-123456
 midendword eshow 15-f-234-125-135-2456
 midendword esiegel 15-f-234-346-e-1245-13456
-endword esignal 15-f-234-45-1345-1-123
-midword esignal 15-f-234-45-1345-25
+endword esignal 15-f-234-45-cb-1345-1-123
+midword esignal 15-f-234-45-cb-1345-25
 endword espezial 15-f-234-1234-15-e-1356-24-e-1-123
-midword espezial 15-f-234-1234-15-e-1356-24-25
+midword espezial 15-f-234-1234-15-e-1356-24-e-25
 always ess 15-2346
 always eisesstill 146-e-234-123456-f-23456-24-12345
-always essch 123456-156
+always eisesstimm 146-e-234-123456-f-23456-24-1346
+always essch 123456-e-156
 endword esschen 15-2346-e-1456-14
 endword esschens 15-2346-e-1456-14-234
 always est 15-23456
@@ -3278,206 +3311,207 @@ midendword estell 15-f-2-13456
 midendword estund 15-f-23456-256-145
 prfword caesar 6-14-1-15-e-234-1-1235
 begmidword caesar 6-14-1-15-e-234-356
-before s always sterbe 23456-12456-e-23
-before s always service 234-12456-e-1236-24-6-14-15
+before s always sterbe 23456-12456-e-23-f
+before s always service 234-12456-e-1236-24-6-14-15-f
 prfword services 234-12456-e-1236-24-6-14-123456
-before s always patience 1234-1-e-2345-24-e-14-e-6-14-15
-before s always renaissance 1235-14-1-24-2346-235-e-6-14-15
+before s always patience 1234-1-e-2345-24-e-14-e-6-14-15-f
+before s always renaissance 1235-14-1-24-2346-235-e-6-14-15-f
 begmidword desensibilis 145-15-e-234-14-e-234-24-e-12-24-e-123-24-e-234
 begmidword despektier 145-15-e-234-1234-15-13-e-2345-346-1235
-before s always bade 12-1-e-145-15
+before s always bade 12-1-e-145-15-f
 prfword bades 12-1-e-145-123456
 prfword bades 12-1-e-145-123456
 prfword badest 12-1-e-145-15-23456
 always badestell 12-1-e-145-15-f-2-13456
 begmidword badest 12-1-e-145-15-f-23456
-before s begmidword jade 245-1-e-145-15
+before s begmidword jade 245-1-e-145-15-f
 prfword jades 245-1-e-145-123456
-before s always lade 123-1-e-145-15
+before s always lade 123-1-e-145-15-f
 prfword blades 12-123-1-145-123456
 prfword glades 1245-123-1-145-123456
-before s always gerade 12346-e-1235-1-e-145-15
+before s always gerade 12346-e-1235-1-e-145-15-f
 always geradeswegs 12346-e-1235-1-e-145-123456-f-2456-1245-234
 prfword gerades 12346-e-1235-1-e-145-123456
-before s always parade 1234-356-1-e-145-15
-before s always schmiede 156-134-346-e-145-15
+before s always parade 1234-356-1-e-145-15-f
+before s always schmiede 156-134-346-e-145-15-f
 prfword schmiedes 156-134-346-e-145-123456
-before s always rede 1235-15-e-145-15
+before s always rede 1235-15-e-145-15-f
 prfword redes 1235-15-e-145-123456
-before s always getreide 12346-e-2345-1235-146-e-145-15
+before s always getreide 12346-e-2345-1235-146-e-145-15-f
 prfword getreides 12346-e-2345-1235-146-e-145-123456
-before s always eingeweide 1246-e-12346-e-2456-146-e-145-15
-before s always gemälde 12346-e-134-345-123-e-145-15
+before s always eingeweide 1246-e-12346-e-2456-146-e-145-15-f
+before s always gemälde 12346-e-134-345-123-e-145-15-f
 prfword gemäldes 12346-e-134-345-123-e-145-123456
-before s always melde 134-13456-e-145-15
-before s begmidword gelände 12346-e-123-345-1345-e-145-15
+before s always melde 134-13456-e-145-15-f
+before s begmidword gelände 12346-e-123-345-1345-e-145-15-f
 prfword geländes 12346-e-123-345-1345-e-145-123456
-before s always stände 5-23456-15
+before s always stände 5-23456-15-f
 always bindesatz 12-35-e-145-15-f-234-1356
 always bindesätz 12-35-e-145-15-f-5-234-1356
-before s always gemeinde 12346-e-134-1246-e-145-15
-before s always gewinde 12346-e-2456-35-e-145-15
+before s always gemeinde 12346-e-134-1246-e-145-15-f
+before s always gewinde 12346-e-2456-35-e-145-15-f
 prfword gewindes 12346-e-2456-35-e-145-123456
-before s always hunde 125-256-e-145-15
+before s always hunde 125-256-e-145-15-f
 prfword hundes 125-256-e-145-123456
-before s always sende 234-14-e-145-15
+before s always sende 234-14-e-145-15-f
 prfword sendes 234-14-e-145-123456
-always börsendesaster 12-246-1235-e-234-14-e-145-123456-1-23456-12456
+always börsendesaster 12-246-1235-e-234-14-f-145-123456-1-ca-23456-12456
 always rasend 1235-1-e-234-14-145
 always lösend 123-246-e-234-14-145
-before s always wende 2456-14-e-145-15
-before s always mode 134-135-e-145-15
-before s always garde 1245-356-e-145-15
-before s always pferde 1234-124-12456-e-145-15
+before s always wende 2456-14-e-145-15-f
+before s always mode 134-135-e-145-15-f
+before s always garde 1245-356-e-145-15-f
+before s always pferde 1234-124-12456-e-145-15-f
 prfword pferdes 1234-124-12456-e-145-123456
-before s always gebäude 12346-e-12-34-e-145-15
+before s always gebäude 12346-e-12-34-e-145-15-f
 prfword gebäudes 12346-e-12-34-e-145-123456
 endword ees 15-15-234
 before s always lee 123-15-15
 before s always klee 13-123-15-15
 always meesenburg 134-15-15-e-234-14-f-12-136-1235-1245
 always reesa 1235-15-15-e-234-1
-before s always see 234-15-15
+before s always see 234-15-15-f
 prfword sees 234-15-15-234
 prfword gesees 12346-f-234-15-15-234
 before s always tee 2345-15-15
-before s always hilfe 125-24-123-e-124-15
-before s always reife 1235-146-e-124-15
+before s always hilfe 125-24-123-e-124-15-f
+before s always reife 1235-146-e-124-15-f
 prfword reifes 1235-146-e-124-123456
-before s always schärfe 156-345-1235-e-124-15
-before s always lage 123-1-12346
+before s always schärfe 156-345-1235-e-124-15-f
+before s always lage 123-1-12346-f
 prfword lages 123-1-e-1245-123456
-before s always säge 5-234-1245-15
-before s always präge 1234-1235-345-12346
+before s always säge 5-234-1245-15-f
+before s always präge 1234-1235-345-e-12346-f
 always tragesack 2345-1245-15-f-234-1-46
 begmidword tragesäck 2345-1245-15-f-234-345-46
 always tragesitz 2345-1245-15-f-2-24
-before s begmidword prestige 1234-1235-15-23456-45-15
-prfword prestiges 1234-1235-15-23456-45-123456
-before s always rache 1235-56-15
-before s always wäsche 2456-345-e-156-15
-before s always weihe 2456-146-125-15
-before s always ruhe 1235-136-e-125-15
+before s begmidword prestige 1234-1235-15-ca-23456-45-15
+prfword prestiges 1234-1235-15-ca-23456-45-123456
+before s always rache 1235-56-15-f
+before s always wäsche 2456-345-e-156-15-f
+before s always weihe 2456-146-e-125-15-f
+before s always ruhe 1235-136-e-125-15-f
 always brühespur 12-1235-1256-e-125-15-f-234-1234-136-1235
-before s always regie 1235-15-1245-346
+before s always regie 1235-15-1245-346-f
 before s begmidword materie 134-1-e-2345-12456-24-15-f
 begmidword dankestele 145-13-123456-f-2345-13456-15
-before s always ränke 1235-345-1345-e-13-15
+before s always ränke 1235-345-1345-e-13-15-f
 prfword ränkes 1235-345-1345-e-13-123456
 begmidword stinkesock 23456-35-e-13-15-f-234-135-46
-before s always stärke 23456-345-1235-e-13-15
+before s always stärke 23456-345-1235-e-13-15-f
 always bubblesort 12-136-12-e-12-123-15-e-234-26-2345
-before s always ensemble 14-234-12356-12-123-15
-prfword ensembles 14-234-12356-12-123-123456
-before s always spiele 2-346-15
+before s always ensemble 14-e-234-12356-e-12-123-15-f
+prfword ensembles 14-e-234-12356-e-12-123-123456
+before s always spiele 2-346-15-f
 prfword spieles 2-346-123456
-before s always tele 2345-13456-15
+before s always tele 2345-13456-15-f
 prfword teles 2345-13456-123456
-before s always kohle 13-135-125-e-123-15
-before s always file 124-24-123-15
+before s always kohle 13-135-125-e-123-15-f
+before s always file 124-24-123-15-f
 prfword files 124-24-123-123456
-before s begmidword galle 1245-1-12345-15
-before s midword promille 1234-1235-135-e-134-24-12345-15
-before s sufword promille 12345-134-24-12345-15
-before s always vanille 1236-235-24-12345-15
-before s always emaille 12356-1-24-12345-15
+before s begmidword galle 1245-1-12345-15-f
+before s midword promille 1234-1235-135-e-134-24-12345-15-f
+before s sufword promille 12345-e-134-24-12345-15-f
+before s always vanille 1236-235-24-12345-15-f
+before s always emaille 12356-1-24-12345-15-f
 prfword emailles 12356-1-24-12345-123456
-always stillesein 23456-24-12345-15-e-234-1246
+always stillesein 23456-24-12345-15-f-234-1246
 always coleslaw 6-14-135-123-15-e-234-123-1-2456
-before s always schule 156-136-e-123-15
-before s always puzzle 1234-136-1356-1356-123-15
+before s always schule 156-136-e-123-15-f
+before s always puzzle 1234-136-1356-1356-123-15-f
 prfword puzzles 1234-136-1356-1356-123-123456
-before s always reklame 1235-15-13-123-1-e-134-15
-before s always creme 6-14-1235-12356-15
+before s always reklame 1235-15-e-13-123-1-e-134-15-f
+always nameserver 1345-1-134-15-f-234-12456-e-1236-12456
+before s always creme 6-14-1235-12356-15-f
 prfword cremes 6-14-1235-12356-123456
 begmidword filmeseh 124-24-123-e-134-15-f-234-2356
 prfword homesite 125-135-134-15-f-234-24-236
-before s always wärme 2456-345-1235-e-134-15
+before s always wärme 2456-345-1235-e-134-15-f
 always ganesh 1245-235-15-234-125
-before s always hygiene 125-6-13456-e-1245-24-e-14-15
-before s always szene 234-1356-14-15
-before s always sahne 234-1-125-e-1345-15
+before s always hygiene 125-6-13456-e-1245-24-e-14-15-f
+before s always szene 234-1356-14-15-f
+before s always sahne 234-1-125-e-1345-15-f
 always grenadinesaft 1245-1235-14-1-e-145-35-15-f-234-1-124-2345
-before s always schweine 156-2456-1246-15
+before s always schweine 156-2456-1246-15-f
 prfword schweines 156-2456-1246-123456
-before s always online 135-1345-e-123-35-15
-before s always marine 134-356-35-15
+before s always online 135-1345-e-123-35-15-f
+before s always marine 134-356-35-15-f
 prfword marines 134-356-35-123456
-before s always routine 1235-135-136-e-2345-35-15
+before s always routine 1235-135-136-e-2345-35-15-f
 prfword routines 1235-135-136-e-2345-35-123456
-before s always wonne 2456-135-1345-e-1345-15
-before s always quarantäne 6-12345-136-356-235-e-2345-345-e-1345-15
-before s always pläne 1234-123-345-e-1345-15
-before s always apnoe 1-1234-1345-135-15
-before s always nippes 1345-24-1234-e-1234-123456
-before s always grippe 1245-1235-24-1234-e-1234-15
-before s always hardware 125-356-145-f-2456-356-15
-before s always software 234-135-124-2345-f-2456-356-15
-before s always schmiere 156-134-346-e-1235-15
+before s always wonne 2456-135-1345-e-1345-15-f
+before s always quarantäne 6-12345-136-356-235-e-2345-345-e-1345-15-f
+before s always pläne 1234-123-345-e-1345-15-f
+before s always apnoe 1-1234-1345-135-15-f
+before s always nippes 1345-24-1234-e-1234-123456-f
+before s always grippe 1245-1235-24-1234-e-1234-15-f
+before s always hardware 125-356-145-e-2456-356-15-f
+before s always software 234-135-124-2345-e-2456-356-15-f
+before s always schmiere 156-134-346-e-1235-15-f
 prfword schmieres 156-134-346-e-1235-123456
-before s always karriere 13-356-e-1235-24-e-12456-15
+before s always karriere 13-356-e-1235-24-e-12456-15-f
+before s begmidword ampere 1-134-e-1234-12456-15-f
 prfword amperes 1-134-e-1234-12456-123456
-before s begmidword ampere 1-134-e-1234-12456-15
-before s always repertoire 1235-15-e-1234-12456-e-2345-135-24-e-1235-15
+before s always repertoire 1235-15-e-1234-12456-e-2345-135-24-e-1235-15-f
 prfword repertoires 1235-15-e-1234-12456-e-2345-135-24-e-1235-123456
-before s always satire 234-1-e-2345-24-e-1235-15
-before s begmidword genre 1245-14-e-1235-15
+before s always satire 234-1-e-2345-24-e-1235-15-f
+before s begmidword genre 1245-14-e-1235-15-f
 prfword genres 1245-14-e-1235-123456
-before s always folklore 124-135-123-13-123-26-15
-before s always säure 234-34-e-1235-15
-before s always lektüre 123-15-13-e-2345-1256-e-1235-15
-before s always käse 13-345-e-234-15
+before s always folklore 124-135-123-13-123-26-15-f
+before s always säure 234-34-e-1235-15-f
+before s always lektüre 123-15-13-e-2345-1256-e-1235-15-f
+before s always käse 13-345-e-234-15-f
 prfword käses 13-345-e-234-123456
-before s always lese 123-123456-15
-before s always reise 1235-146-e-234-15
+before s always lese 123-123456-15-f
+before s always reise 1235-146-e-234-15-f
 prfword reises 1235-146-e-234-123456
-before s always speise 234-1234-146-e-234-15
-before s always gänse 1245-345-1345-e-234-15
-before s always diagnose 145-24-1-1245-1345-135-e-234-15
-before s always narkose 1345-356-e-13-135-e-234-15
-before s always glukose 1245-123-136-e-13-135-e-234-15
-before s always hirse 125-24-1235-e-234-15
+before s always speise 234-1234-146-e-234-15-f
+before s always gänse 1245-345-1345-e-234-15-f
+before s always diagnose 145-24-1-1245-1345-135-e-234-15-f
+before s always narkose 1345-356-e-13-135-e-234-15-f
+before s always glukose 1245-123-136-e-13-135-e-234-15-f
+before s always hirse 125-24-1235-e-234-15-f
 always horsesho 125-26-e-234-15-f-234-125-135
 before s always baisse 12-1-24-2346-15
 always pissespur 1234-24-2346-15-f-234-1234-136-1235
-before s always hausse 125-16-2346-15
-before s always masse 134-1-2346-15
-before s always muße 134-136-2346-15
-before s always gehäuse 12346-e-125-34-e-234-15
+before s always hausse 125-16-2346-15-f
+before s always masse 134-1-2346-15-f
+before s always muße 134-136-2346-15-f
+before s always gehäuse 12346-e-125-34-e-234-15-f
 prfword gehäuses 12346-e-125-34-e-234-123456
-before s begmidword mäuse 134-34-e-234-15
-before s always gemüse 12346-e-134-1256-e-234-15
+before s begmidword mäuse 134-34-e-234-15-f
+before s always gemüse 12346-e-134-1256-e-234-15-f
 prfword gemüses 12346-e-134-1256-e-234-123456
-before s always dialyse 145-24-25-6-13456-e-234-15
-before s always rate 1235-1-236
-prfword rates 1235-1-2345-123456
-before s always geräteselbst 12346-e-1235-345-e-234-23456
-before s always städte 23456-345-145-236
-before s always kräfte 5-13-124-15
-before s always mächte 134-345-1456-236
-before s always seite 234-146-e-236
-before s always rendite 1235-14-e-145-24-236
-before s always punkte 1234-2345-15
+before s always dialyse 145-24-25-6-13456-e-234-15-f
+before s always rate 1235-1-e-236-f
+prfword rates 1235-1-e-2345-123456
+always geräteselbst 12346-e-1235-345-e-236-e-234-23456
+before s always städte 23456-345-145-e-236-f
+before s always kräfte 5-13-124-15-f
+before s always mächte 134-345-1456-e-236-f
+before s always seite 234-146-e-236-f
+before s always rendite 1235-14-e-145-24-e-236-f
+before s always punkte 1234-2345-15-f
 prfword punktes 1234-2345-123456
-before s always kälte 13-345-123-236
-before s always argumente 356-1245-136-e-134-14-236
+before s always kälte 13-345-123-e-236-f
+before s always argumente 356-1245-136-e-134-14-e-236-f
 prfword argumentes 356-1245-136-e-134-14-e-2345-123456
+before s begmidword ernte 12456-1345-236-f
 endword erntes 12456-1345-e-2345-123456
-before s always ernte 12456-1345-236
-before s always warte 2456-356-236
+before s always warte 2456-356-e-236-f
 prfword wartes 2456-356-e-2345-123456
-before s always werte 2456-12456-236
+before s always werte 2456-12456-e-236-f
 prfword wertes 2456-12456-e-2345-123456
-before s always gäste 1245-345-23456-15
-before s always watte 2456-1-2345-236
-before s always jute 245-136-236
-before s always güte 1245-1256-236
-before s always reserve 1235-123456-12456-e-1236-15
-before s always gaze 1245-1-e-1356-15
+before s always gäste 1245-345-ca-23456-15-f
+before s always watte 2456-1-2345-e-236-f
+before s always jute 245-136-e-236-f
+before s always güte 1245-1256-e-236-f
+before s always reserve 1235-123456-12456-e-1236-15-f
+before s always gaze 1245-1-e-1356-15-f
 begmidword pilzesuch 1234-24-123-e-1356-15-f-234-136-1456
 begmidword sülzesala 234-1256-123-e-1356-15-f-234-25-1
-before s always bronze 12-1235-135-1345-e-1356-15
-before s always hitze 125-24-2345-e-1356-15
+before s always bronze 12-1235-135-1345-e-1356-15-f
+before s always hitze 125-24-2345-e-1356-15-f
 midendword ession 15-2346-245
 always praesens 1234-1235-1-15-e-234-14-234
 begmidword spaceshutt 234-1234-1-6-14-15-f-234-125-136-2345-2345
@@ -3512,8 +3546,8 @@ begmidword freudestrahl 124-1235-126-e-145-15-f-23456-1235-1-125-123
 prfword freesie 124-1235-15-15-e-234-24-15
 begmidword bungeespr 12-256-e-1245-15-15-f-234-1234-1235
 begmidword erdeess 12456-145-15-f-15-2346
-always heesters 125-15-15-23456-12456-234
-prfword hefesorte 125-15-e-124-15-f-234-26-236
+always heesters 125-15-15-ca-23456-12456-234
+prfword hefesorte 125-15-e-124-15-f-234-26-e-236
 always hefesorten 125-15-e-124-15-f-234-26-e-2345-14
 prfword hefespore 125-15-e-124-15-f-234-1234-26-15
 always hefesporen 125-15-e-124-15-f-234-1234-26-14
@@ -3532,8 +3566,8 @@ always nahestand 1345-1-e-125-15-f-2-23456
 always cachespeicher 6-14-56-15-f-234-1234-146-e-1456-12456
 midendword ehesach 2356-15-f-234-56
 sufword ehesach 15-125-15-f-234-56
-midword ehesakramen 2356-15-f-234-1-13-1235-1-e-134-14
-begword ehesakramen 15-125-15-f-234-1-13-1235-1-e-134-14
+midword ehesakramen 2356-15-f-234-1-e-13-cb-1235-1-e-134-14
+begword ehesakramen 15-125-15-f-234-1-e-13-cb-1235-1-e-134-14
 begword eheschließ 15-125-15-f-156-2346
 midword eheschließ 2356-15-f-156-2346
 sufword ehesegen 15-125-15-f-234-15-e-1245-14
@@ -3549,15 +3583,15 @@ always leiheschuld 123-146-e-125-15-f-156-136-123-145
 always mathestund 134-1-e-2345-125-15-f-23456-256-145
 always vlies 1236-123-346-234
 always geniestreich 1245-14-346-f-23456-1235-146-1456
-always spezies 234-1234-15-e-1356-24-123456
-always troubleshoot 2345-1235-135-136-12-123-15-f-234-125-135-135-2345
+always spezies 234-1234-15-e-1356-24-e-123456
+always troubleshoot 2345-1235-135-136-e-12-123-15-f-234-125-135-135-2345
 always mühlespiel 134-1256-125-e-123-15-f-2-346
-always teileseit 2345-146-123-15-f-234-146-2345
-prfword teileseite 2345-146-123-15-f-234-146-236
-always chilesalpeter 1456-24-123-15-f-234-25-e-1234-15-e-2345-12456
+always teileseit 2345-146-e-123-15-f-234-146-2345
+prfword teileseite 2345-146-e-123-15-f-234-146-236
+always chilesalpeter 1456-24-e-123-15-f-234-25-e-1234-15-e-2345-12456
 sufword achilles 1-1456-24-12345-123456
 midword achilles 56-24-12345-123456
-always güllesilo 1245-1256-12345-15-f-234-24-123-135
+always güllesilo 1245-1256-12345-15-f-234-24-e-123-135
 always moleskin 134-135-123-15-f-234-13-35
 always solesalz 234-135-e-123-15-f-234-25-1356
 always herkules 125-12456-e-13-136-e-123-123456
@@ -3583,7 +3617,7 @@ begmidword juliennesupp 245-136-e-123-24-e-14-e-1345-15-f-234-136-1234-e-1234
 always minnesänger 134-35-e-1345-15-f-234-345-1345-e-1245-12456
 always lonesome 123-135-1345-15-e-234-135-134-15
 always onestep 135-1345-15-f-23456-15-1234
-always marneschlacht 134-356-1345-15-f-156-123-56-2345
+always marneschlacht 134-356-e-1345-15-f-156-123-56-2345
 always coesfeld 6-14-135-15-234-f-124-13456-145
 always soest 234-135-15-23456
 begmidword benzoesäur 12-14-e-1356-135-15-f-234-34-e-1235
@@ -3596,22 +3630,22 @@ always research 1235-15-e-234-15-1-1235-1456
 prfword reset 1235-15-e-234-15-2345
 begword reset 1235-15-e-234-15-2345
 always resozial 1235-15-f-234-123
-begmidword crescend 6-14-1235-15-234-6-14-14-145
-always heeres 125-15-15-1235-123456
-always meeres 134-15-15-1235-123456
+begmidword crescend 6-14-1235-15-e-234-6-14-14-e-145
+always heeres 125-15-15-e-1235-123456
+always meeres 134-15-15-e-1235-123456
 always schweresinn 156-2456-12456-15-f-234-35-1345
 always unseresteils 256-234-12456-123456-f-2345-146-123-234
-always chiffreschrift 1456-24-124-124-1235-15-f-156-2345
+always chiffreschrift 1456-24-124-e-124-cb-1235-15-f-156-2345
 always kongress 13-135-1345-e-1245-1235-15-2346
 always jahres 245-1235-123456
 begmidword shiresauc 234-125-24-1235-15-f-234-16-6-14
-always empirestil 12356-1234-24-1235-15-f-23456-24-123
+always empirestil 12356-e-1234-24-1235-15-f-23456-24-123
 always toresschluss 2345-26-123456-f-156-123-136-2346
 always preshave 1234-1235-15-e-234-125-1-1236-15
 always presse 1234-1235-15-2346-15
 prfword pressen 1234-1235-15-2346-14
 prfword pressens 1234-1235-15-2346-14-234
-always zypressen 1356-6-13456-1234-1235-15-2346-14
+always zypressen 1356-6-13456-e-1234-cb-1235-15-2346-14
 always pressend 1234-1235-15-2346-14-145
 always pressengestell 1234-1235-15-2346-14-f-12346-e-2-13456
 prfword presser 1234-1235-15-2346-12456
@@ -3624,42 +3658,42 @@ prfword pressest 1234-1235-15-2346-15-23456
 always dürreschaden 145-1256-1235-e-1235-15-f-156-1-e-145-14
 always dürreschäden 145-1256-1235-e-1235-15-f-156-345-e-145-14
 always irresein 24-1235-e-1235-15-f-234-1246
-always entresol 14-2345-1235-15-e-234-135-123
+always entresol 14-e-2345-1235-15-e-234-135-123
 begmidword löseschalt 123-246-e-234-15-f-156-25-2345
 always verseschmied 1236-12456-e-234-15-f-156-134-346-145
 always brausespritz 12-1235-16-e-234-15-f-234-1234-1235-24-2345-e-1356
 always sauseschritt 234-16-e-234-15-f-156-1235-24-2345-2345
 begmidword löseschwell 123-246-e-234-15-f-156-2456-15-12345
-before s begmidword messe 134-15-2346-15
-before s begmidword klasse 13-123-1-2346-15
+before s begmidword messe 134-15-2346-15-f
+before s begmidword klasse 13-123-1-2346-15-f
 always reisessen 1235-146-234-f-15-2346-14
 always hansestadt 125-235-e-234-15-f-23456-1-145-2345
 begmidword hansestäd 125-235-e-234-15-f-23456-345-145
 begmidword lösesumm 123-246-e-234-15-f-234-136-1346
 always matestrauch 134-1-236-f-23456-1235-16-1456
 always matesträucher 134-1-236-f-23456-1235-34-1456-12456
-always diabetes 145-24-1-e-23-2345-123456
+always diabetes 145-24-1-e-23-e-2345-123456
 begmidword whitespac 2456-125-24-236-f-234-1234-1-6-14
-prfword werteste 2456-12456-e-236-23456-15
-prfword wertestem 2456-12456-e-236-23456-12356
-prfword wertesten 2456-12456-e-236-23456-14
-prfword wertester 2456-12456-e-236-23456-12456
-prfword wertestes 2456-12456-e-236-23456-123456
-always geistes 1245-146-23456-123456
+prfword werteste 2456-12456-e-236-ca-23456-15
+prfword wertestem 2456-12456-e-236-ca-23456-12356
+prfword wertesten 2456-12456-e-236-ca-23456-14
+prfword wertester 2456-12456-e-236-ca-23456-12456
+prfword wertestes 2456-12456-e-236-ca-23456-123456
+always geistes 1245-146-ca-23456-123456
 always gottes 1245-135-2345-e-2345-123456
-always noisetteschoko 1345-135-24-234-15-2345-236-f-156-135-e-13-135
-always flötespiel 124-123-246-236-f-2-346
+always noisetteschoko 1345-135-24-e-234-15-2345-e-236-f-156-135-e-13-135
+always flötespiel 124-123-246-e-236-f-2-346
 always treueschwur 2345-1235-126-15-f-156-2456-136-1235
 always blues 12-123-136-15-234
 always lovestory 123-135-1236-15-f-23456-26-6-13456
 begmidword bayessch 12-1-6-13456-123456-156
 always rallyesport 1235-1-12345-6-13456-15-f-234-1234-26-2345
-sufword prozess 12345-1356-15-2346
-sufword prozession 12345-1356-15-2346-245
+sufword prozess 12345-e-1356-15-2346
+sufword prozession 12345-e-1356-15-2346-245
 midendword prozess 1234-1235-135-e-1356-15-2346
 midendword prozession 1234-1235-135-e-1356-15-2346-245
 always gesetzes 12346-e-2-15-123456
-before s begmidword lakritze 123-1-e-13-1235-24-2345-e-1356-15
+before s begmidword lakritze 123-1-e-13-1235-24-2345-e-1356-15-f
 
 # ETWA (4.4 Zweiformige Kürzungen)
 always etwa 15-1
@@ -3677,77 +3711,78 @@ always etwas 2345-2456
 # EU  (4.1 Lautgruppenkürzungen)
 word eu 15-136
 always eu 126
-midendword eunkosten 15-e-256-f-13-135-23456-14
+midendword eunkosten 15-f-256-e-13-135-23456-14
+midendword eunsicher 15-f-256-e-234-3456-12456
 always timaeus 2345-24-e-134-1-15-e-136-234
 always glutaeus 1245-123-136-e-2345-1-15-e-136-234
-always sterbeuhr 23456-12456-23-f-136-125-1235
-before u begmidword werbe 2456-12456-23
-always beunruhig 23-e-256-f-1235-136-e-125-45
-always beurkund 23-f-136-1235-e-13-256-e-145
-always beurlaub 23-f-136-1235-e-123-16-12
-always beurteil 23-f-136-1235-e-2345-146-123
-before u begmidword gewebe 12346-e-2456-15-23
-before u begword probe 12345-23
-before u midword probe 1234-1235-135-23
-before u begmidword vice 1236-24-e-6-14-15
-before u begmidword lyce 123-6-13456-e-6-14-15
+always sterbeuhr 23456-12456-e-23-f-136-125-1235
+before u begmidword werbe 2456-12456-e-23-f
+always beunruhig 23-e-256-e-1235-136-e-125-45
+always beurkund 23-e-136-1235-e-13-256-e-145
+always beurlaub 23-e-136-1235-e-123-16-12
+always beurteil 23-e-136-1235-e-2345-146-123
+before u begmidword gewebe 12346-e-2456-15-e-23-f
+before u begword probe 12345-e-23-f
+before u midword probe 1234-1235-135-e-23-f
+before u begmidword vice 1236-24-e-6-14-15-f
+before u begmidword lyce 123-6-13456-e-6-14-15-e
 word deum 145-15-e-136-134
 always deus 145-15-e-136-234
-before u begmidword lade 123-1-e-145-15
-before u begmidword bade 12-1-e-145-15
+before u begmidword lade 123-1-e-145-15-f
+before u begmidword bade 12-1-e-145-15-f
 always amadeus 1-134-1-e-145-15-e-136-234
-before u begmidword parade 1234-356-1-e-145-15
+before u begmidword parade 1234-356-1-e-145-15-f
 sufword tedeum 2345-15-e-145-15-e-136-134
 always tedeum 236-145-15-e-136-134
-before u begmidword lande 123-235-e-145-15
-before u begmidword ländeunter 123-345-1345-e-145-15
-before u begmidword gemeinde 12346-e-134-1246-e-145-15
+before u begmidword lande 123-235-e-145-15-f
+before u begmidword ländeunter 123-345-1345-e-145-15-f
+before u begmidword gemeinde 12346-e-134-1246-e-145-15-f
 always gemeindeutsch 12346-e-134-1246-f-145-156
 always spondeus 234-1234-135-1345-e-145-15-e-136-234
-before u begmidword kunde 13-256-e-145-15
+before u begmidword kunde 13-256-e-145-15-f
 always codeum 6-14-135-e-145-15-e-136-134
-always spreeufer 234-1234-1235-15-15-e-136-124-12456
+always spreeufer 234-1234-1235-15-15-f-136-124-12456
 always seeufer 234-15-15-f-136-124-12456
 always seeum 234-15-15-f-136-134
 always seeun 234-15-15-f-256
-before u begmidword hilfe 125-24-123-e-124-15
-before u begmidword beinahe 2-12-e-1345-1-e-125-15
+before u begmidword hilfe 125-24-123-e-124-15-f
+before u begmidword beinahe 2-12-e-1345-1-e-125-15-f
 always rechercheur 1235-15-e-1456-12456-e-1456-126-1235
-before u begmidword recherche 1235-15-e-1456-12456-e-1456-15
-before u begmidword ruhe 1235-136-e-125-15
-before u begmidword leihe 123-146-125-15
-always theurg 2345-125-15-136-1235-1245
+before u begmidword recherche 1235-15-e-1456-12456-e-1456-15-f
+before u begmidword ruhe 1235-136-e-125-15-f
+before u begmidword leihe 123-146-e-125-15-f
+always theurg 2345-125-15-e-136-1235-1245
 midendword theus 2345-125-15-e-136-234
 always makeup 134-1-13-15-e-136-1234
 always bakkalaure 12-1-13-e-13-25-16-e-1235-15
-before u begmidword stärke 23456-345-1235-e-13-15
-always aleuten 25-15-136-e-2345-14
-always aleutisch 25-15-136-e-2345-24-156
-always nucleus 1345-136-6-14-123-15-e-136-234
-before u begmidword kohle 13-135-125-e-123-15
+before u begmidword stärke 23456-345-1235-e-13-15-f
+always aleuten 25-15-cb-136-e-2345-14
+always aleutisch 25-15-cb-136-e-2345-24-156
+always nucleus 1345-136-e-6-14-cb-123-15-e-136-234
+before u begmidword kohle 13-135-125-e-123-15-f
 always ileus 24-123-15-e-136-234
-always nukleus 1345-136-13-123-15-e-136-234
+always nukleus 1345-136-e-13-cb-123-15-e-136-234
 always oleum 135-123-15-e-136-134
 always linoleum 123-35-135-e-123-15-e-136-134
-always petroleum 1234-15-2345-1235-135-e-123-15-e-136-134
+always petroleum 1234-15-e-2345-cb-1235-135-e-123-15-e-136-134
 always mausoleum 134-16-e-234-135-e-123-15-e-136-134
 always herculaneum 125-12456-e-6-14-136-e-123-235-15-e-136-134
-before u begmidword marine 134-356-35-15
-before u begmidword routine 1235-135-136-e-2345-35-15
-always marneufer 134-356-e-1345-15-e-136-124-12456
+before u begmidword marine 134-356-35-15-f
+before u begmidword routine 1235-135-136-e-2345-35-15-f
+always marneufer 134-356-e-1345-15-f-136-124-12456
 always oeuvre 246-136-1236-1235-15
-before u begmidword ware 2456-356-15
+before u begmidword ware 2456-356-15-f
 always käseunion 13-345-e-234-15-f-256-24-135-1345
-before u begmidword reise 1235-146-e-234-15
-always themseufer 2345-125-12356-e-234-15-e-136-124-12456
-before u begmidword presse 1234-1235-15-2346-15
+before u begmidword reise 1235-146-e-234-15-f
+always themseufer 2345-125-12356-e-234-15-f-136-124-12456
+before u begmidword presse 1234-1235-15-2346-15-f
 always colosseum 6-14-135-e-123-135-2346-15-e-136-134
 always kolosseum 13-135-e-123-135-2346-15-e-136-134
 always museum 134-136-e-234-15-e-136-134
-before u begmidword gehäuse 12346-e-125-34-e-234-15
-before u begmidword geräte 12346-e-1235-345-236
-before u begmidword elite 13456-24-236
-before u begmidword vize 1236-24-e-1356-15
+before u begmidword gehäuse 12346-e-125-34-e-234-15-f
+before u begmidword geräte 12346-e-1235-345-e-236-f
+before u begmidword elite 13456-24-e-236-f
+before u begmidword vize 1236-24-e-1356-15-f
 always andrözeum 235-145-1235-246-e-1356-15-e-136-134
 always lyzeum 123-6-13456-e-1356-15-e-136-134
 
@@ -3776,7 +3811,7 @@ always fallstatist 124-12345-f-23456-1-e-2345-24-23456
 begmidword fallstr 124-12345-f-23456-1235
 begmidword fallstudi 124-12345-f-23456-136-145-24
 always fallsucht 124-12345-f-234-136-1456-2345
-always fallsüchtig 124-12345-f-234-1256-1456-2345-45
+always fallsüchtig 124-12345-f-234-1256-1456-e-2345-45
 always abfall 1-12-f-124-12345
 always randfall 1235-235-145-f-124-12345
 always mordfall 134-26-145-f-124-12345
@@ -3787,23 +3822,23 @@ always garantiefall 1245-356-235-e-2345-346-f-124-12345
 always kniefall 13-1345-346-f-124-12345
 sufword ausnahmefall 34-e-1345-134-15-f-124-12345
 always ausnahmefall 16-234-e-1345-134-15-f-124-12345
-always härtefall 125-345-1235-236-f-124-12345
+always härtefall 125-345-1235-e-236-f-124-12345
 always wegfall 2456-1245-f-124-12345
-always durchfall 2-1456-f-124-12345
+always durchfall 2-1456-e-124-12345
 always beifall 2-12-e-124-12345
 always rückfall 1235-46-f-124-12345
-always idealfall 24-145-15-25-f-124-12345
-always spezialfall 234-1234-15-e-1356-24-25-f-124-12345
+always idealfall 24-145-15-e-25-f-124-12345
+always spezialfall 234-1234-15-e-1356-24-e-25-f-124-12345
 always normalfall 1345-26-e-134-25-f-124-12345
 always kriminalfall 13-1235-24-e-134-35-25-f-124-12345
-always eventualfall 15-1236-14-e-2345-136-25-f-124-12345
+always eventualfall 15-1236-14-e-2345-136-e-25-f-124-12345
 always regelfall 1235-15-e-1245-13456-f-124-12345
 always spielfall 2-346-f-124-12345
 always einzelfall 1246-e-1356-13456-f-124-12345
-sufword problemfall 12345-12-e-123-12356-f-124-12345
-always problemfall 1234-1235-135-12-e-123-12356-f-124-12345
-sufword extremfall 1346-2345-1235-12356-f-124-12345
-always extremfall 15-6-1346-2345-1235-12356-f-124-12345
+sufword problemfall 12345-e-12-cb-123-12356-f-124-12345
+always problemfall 1234-1235-135-e-12-cb-123-12356-f-124-12345
+sufword extremfall 1346-e-2345-cb-1235-12356-f-124-12345
+always extremfall 15-6-1346-e-2345-cb-1235-12356-f-124-12345
 always heimfall 125-146-134-e-124-12345
 always anfall 235-e-124-12345
 always sündenfall 234-1256-1345-e-145-14-f-124-12345
@@ -3814,7 +3849,7 @@ always einfall 1246-f-124-12345
 always rheinfall 1235-125-1246-f-124-12345
 always tonfall 2345-135-1345-f-124-12345
 always unfall 256-e-124-12345
-always überfall 2-1256-f-124-12345
+always überfall 2-1256-e-124-12345
 always sonderfall 234-135-1345-e-145-12456-f-124-12345
 always fehlerfall 124-2356-e-123-12456-f-124-12345
 always wasserfall 2456-1-2346-12456-f-124-12345
@@ -3824,7 +3859,7 @@ always trauerfall 2345-1235-16-e-12456-f-124-12345
 sufword verfall 36a-124-12345
 always verfall 1236-12456-e-124-12345
 always zerfall 1356-12456-e-124-12345
-always vorfall 2-26-f-124-12345
+always vorfall 2-26-e-124-12345
 always störfall 23456-246-1235-f-124-12345
 always krebsfall 13-1235-15-12-234-f-124-12345
 always todesfall 2345-135-e-145-123456-f-124-12345
@@ -3889,8 +3924,8 @@ always folgerschaft 124-1245-12456-156
 prfword folgerserie 124-1245-12456-f-234-12456-24-15
 always folgerst 124-1245-12456-23456
 always folgert 124-1245-12456-2345
-prfword folgerte 124-1245-12456-236
-prfword folgertet 124-1245-12456-236-2345
+prfword folgerte 124-1245-12456-e-236
+prfword folgertet 124-1245-12456-e-236-2345
 prfword folgertest 124-1245-12456-e-236-23456
 always folgerung 124-1245-12456-136
 always thronfolger 2345-125-1235-135-1345-f-124-1245-12456
@@ -3925,7 +3960,7 @@ always führ 124-125
 word für 124
 word für's 124-6-234
 always für 2-124
-always fürchte 124-1256-1235-1456-236
+always fürchte 124-1256-1235-1456-e-236
 always fürchten 124-1256-1235-1456-e-2345-14
 always fürchter 124-1256-1235-1456-e-2345-12456
 always fürchtig 124-1256-1235-1456-e-2345-45
@@ -3938,7 +3973,7 @@ prfword fürzen 124-1256-1235-e-1356-14
 # GANZ (4.4 Zweiformige Kürzungen)
 always ganz 1245-1356
 always gänz 5-1245-1356
-begmidword analoganzei 235-25-135-1245-e-235-1356-146
+begmidword analoganzei 235-25-135-1245-f-235-e-1356-146
 always arroganz 356-e-1235-135-e-1245-235-1356
 always eleganz 13456-15-e-1245-235-1356
 begmidword jogginganz 245-135-1245-e-1245-35-1245-f-235-e-1356
@@ -3950,48 +3985,51 @@ word ge 1245-15
 always ge 12346
 always teigeck 2345-146-1245-f-15-46
 always ringeck 1235-35-1245-f-15-46
+always ringedelstein 1235-35-1245-f-15-145-13456-f-23456-1246
 always bungee 12-256-e-1245-15-15
 always dragee 145-1235-1-e-1245-15-15
-always neglig 1345-15-1245-123-24-e-1245
+prfword etagere 15-2345-1-e-1245-12456-15
+always etageren 15-2345-1-e-1245-12456-14
+always neglig 1345-15-e-1245-cb-123-24-e-1245
 begmidword flugech 124-123-136-1245-f-15-1456
 begmidword fluger 124-123-136-1245-f-12456
 always geysir 1245-15-6-13456-e-234-24-1235
-before u begmidword folge 124-1245-15
-before u begmidword sorge 234-26-e-12346
+before u begmidword folge 124-1245-15-f
+before u begmidword sorge 234-26-e-12346-f
 sufword vergeud 36a-1245-126-145
 midendword vergeud 1236-12456-e-1245-126-145
-sufword ausgeufer 34-e-12346-f-136-124-12456
-always ausgeufer 16-234-e-12346-f-136-124-12456
-always geupdated 12346-f-136-1234-e-145-1-236-145
+sufword ausgeufer 34-e-12346-e-136-124-12456
+always ausgeufer 16-234-e-12346-e-136-124-12456
+always geupdated 12346-e-136-1234-e-145-1-e-236-145
 endword geur 1245-126-1235
 always geurteil 12346-f-136-1235-e-2345-146-123
-endword geure 1245-126-1235-15
+endword geure 1245-126-e-1235-15
 endword geurs 1245-126-1235-234
-endword geuze 1245-126-1356-15
+endword geuze 1245-126-e-1356-15
 midword gex 1245-f-15-6-1346
 begmidword zugex 1356-136-1245-f-15-6-1346
 
 # GEh
 prfword geh 1245-15-125
-midendword gehabend 1245-2356-e-1-12-14-145
-begmidword gehanz 1245-2356-e-235-e-1356
-always gehbahn 1245-2356-e-12-1-125-1345
+midendword gehabend 1245-2356-f-1-12-14-145
+begmidword gehanz 1245-2356-f-235-e-1356
+always gehbahn 1245-2356-f-12-1-125-1345
 prfword gehbar 1245-2356-e-12-1-1235
 begmidword gehbar 1245-2356-e-12-356
-always gehbelag 1245-2356-e-23-e-123-1-1245
-begmidword gehbeläg 1245-2356-e-23-e-123-345-1245
+always gehbelag 1245-2356-f-23-e-123-1-1245
+begmidword gehbeläg 1245-2356-f-23-e-123-345-1245
 always gehbehind 1245-2356-e-23-125-35-e-145
 prfword gehe 1245-2356-15
 always gehen 1245-2356-14
 always gehenk 12346-e-125-14-13
-begmidword legehenn 123-15-12346-e-125-14-e-1345
+begmidword legehenn 123-15-e-12346-f-125-14-e-1345
 always geher 1245-2356-12456
 always geherrsch 12346-e-1235-1235-156
-always geherrschaft 12346-e-1235-1235-156-1-124-2345
+always geherrschaft 12346-f-1235-1235-156-1-124-2345
 before konsonant begmidword geh 1245-2356
 prfword gehet 1245-2356-15-2345
-always gehunfähig 1245-2356-e-256-e-124-345-e-125-45
-always gehuni 1245-2356-e-256-24
+always gehunfähig 1245-2356-f-256-e-124-345-e-125-45
+always gehuni 1245-2356-f-256-24
 always gehung 1245-2356-136
 # GEi
 always gei 1245-146
@@ -4002,42 +4040,42 @@ begmidword folgeimpf 124-1245-15-f-24-134-1234-124
 always gein 1245-1246
 midword geinhal 12346-f-35-125-25
 midword geinit 12346-f-35-24-e-2345
-midword geinstit 12346-f-35-23456-24-e-2345
-midword geinstrum 12346-f-35-23456-1235-136-e-134
-midword geintens 12346-f-35-2345-14-234
-midword geintent 12346-f-35-2345-14-2345
-midword geinter 12346-f-35-2345-12456
+midword geinstit 12346-f-35-ca-23456-24-e-2345
+midword geinstrum 12346-f-35-ca-23456-1235-136-e-134
+midword geintens 12346-f-35-e-2345-14-234
+midword geintent 12346-f-35-e-2345-14-2345
+midword geinter 12346-f-35-e-2345-12456
 # GEl
 prfword gel 1245-13456
 before konsonant begword gel 1245-13456
 always gelateria 1245-13456-1-e-2345-12456-24-1
 always gelaterie 1245-13456-1-e-2345-12456-346
-always gelaterien 1245-13456-1-e-2345-12456-24-14
+always gelaterien 1245-13456-1-e-2345-12456-24-e-14
 always gelatin 1245-13456-1-e-2345-35
 always geln 1245-13456-1345
 prfword gels 1245-13456-234
 always gelchen 1245-13456-e-1456-14
 always gelb 1245-13456-12
-prfword gelbe 1245-13456-12-15
+prfword gelbe 1245-13456-e-12-15
 always geld 1245-13456-145
 always gelee 1245-13456-15-15
-prfword geleerte 12346-e-123-15-15-1235-236
+prfword geleerte 12346-e-123-15-15-1235-e-236
 always geleert 12346-e-123-15-15-1235-2345
-after g midword elektr 13456-15-13-2345-1235
-midword gelektr 1245-f-13456-15-13-2345-1235
+after g midword elektr 13456-15-13-e-2345-cb-1235
+midword gelektr 1245-f-13456-15-13-e-2345-cb-1235
 syllable gelier 1245-13456-346-1235
 always gell 12346-12345
-always gelnhaus 1245-13456-1345-e-125-16-234
+always gelnhaus 1245-13456-1345-f-125-16-234
 always gelotolo 1245-13456-135-e-2345-135-e-123-135
 always gels 1245-13456-234
 prfword gelst 1245-13456-23456
 always gelt 1245-13456-2345
-prfword gelte 1245-13456-236
-prfword geltet 1245-13456-236-2345
+prfword gelte 1245-13456-e-236
+prfword geltet 1245-13456-e-236-2345
 always gelynch 12346-e-123-6-13456-1345-1456
 always gelz 1245-13456-1356
-before l midendword drainage 145-1235-1-24-e-1345-1-12346
-before l midendword dränage 145-1235-345-e-1345-1-12346
+before l midendword drainage 145-1235-1-24-e-1345-1-e-12346-f
+before l midendword dränage 145-1235-345-e-1345-1-e-12346-f
 always hagel 125-1-e-1245-13456
 always nagel 1345-1-e-1245-13456
 always nägel 1345-345-e-1245-13456
@@ -4064,68 +4102,68 @@ always wiegel 2456-346-e-1245-13456
 always ziegel 1356-346-e-1245-13456
 always kegel 13-15-e-1245-13456
 always flegel 124-123-15-e-1245-13456
-before l begmidword pflege 1234-124-123-15-12346
+before l begmidword pflege 1234-124-123-15-e-12346-f
 always schlegel 156-123-15-e-1245-13456
-before l begmidword college 6-14-135-12345-15-12346
+before l begmidword college 6-14-135-12345-15-e-12346-f
 always pegel 1234-15-e-1245-13456
 always regel 1235-15-e-1245-13456
 begmidword irrege 24-1235-e-1235-15-f-12346
 begmidword irregeh 24-1235-e-1235-15-f-1245-2356
 always segel 234-15-e-1245-13456
 always schmuggel 156-134-136-1245-e-1245-13456
-always duschgel 145-136-156-e-1245-13456
-always duschgelegenheit 145-136-156-e-1245-1245-125
+always duschgel 145-136-156-f-1245-13456
+always duschgelegenheit 145-136-156-f-1245-1245-125
 sufword igel 24-1245-13456
 midendword igel 45-13456
 always chiligelee 1456-24-e-123-24-f-1245-13456-15-15
 always eigel 146-e-1245-13456
 always fejgel 124-15-245-e-1245-13456
-before l begmidword zeige 1356-146-12346
+before l begmidword zeige 1356-146-e-12346
 before l begmidword freige 124-1235-146-e-12346
-always freigelegen 124-1235-146-e-1245-1245
+always freigelegen 124-1235-146-f-1245-1245
 before l begmidword zweige 1356-2456-146-e-12346
-always seeigel 234-15-15-e-45-13456
+always seeigel 234-15-15-f-45-13456
 always angel 235-1245-13456
-begmidword angelach 235-12346-e-123-56
-begmidword angeläch 235-12346-e-123-345-e-1456
-always angelager 235-12346-e-123-1-e-1245-12456
-always angeland 235-12346-e-123-235-145
-always angelang 235-12346-e-123-1245
-always angelass 235-12346-e-2-123
-always angelast 235-12346-e-123-1-23456
-always angelatsch 235-12346-e-123-1-2345-156
-always angelauf 235-12346-e-123-16-124
-always angelautet 235-12346-e-123-16-236-2345
-prfword angelautete 235-12346-e-123-16-236-236
-always angeläutet 235-12346-e-123-34-236-2345
-prfword angeläutete 235-12346-e-123-34-236-236
+begmidword angelach 235-e-12346-e-123-56
+begmidword angeläch 235-e-12346-e-123-345-e-1456
+always angelager 235-e-12346-e-123-1-e-1245-12456
+always angeland 235-e-12346-e-123-235-145
+always angelang 235-e-12346-e-123-1245
+always angelass 235-e-12346-e-2-123
+always angelast 235-e-12346-e-123-1-23456
+always angelatsch 235-e-12346-e-123-1-2345-156
+always angelauf 235-e-12346-e-123-16-124
+always angelautet 235-e-12346-e-123-16-e-236-2345
+prfword angelautete 235-e-12346-e-123-16-e-236-e-236
+always angeläutet 235-e-12346-e-123-34-e-236-2345
+prfword angeläutete 235-e-12346-e-123-34-e-236-e-236
 always angelegen 235-e-1245-1245
 always angelegt 235-e-12346-e-123-15-1245-2345
-prfword angelegte 235-e-12346-e-123-15-1245-236
+prfword angelegte 235-e-12346-e-123-15-1245-e-236
 always angelegtest 235-e-12346-e-123-15-1245-e-236-23456
 begmidword angelehn 235-e-12346-e-123-2356-1345
 begmidword angeleier 235-e-12346-e-123-146-12456
 always angeleimt 235-e-12346-e-123-146-134-2345
-prfword angeleimte 235-e-12346-e-123-146-134-236
+prfword angeleimte 235-e-12346-e-123-146-134-e-236
 always angeleint 235-e-12346-e-123-1246-2345
-prfword angeleinte 235-e-12346-e-123-1246-236
-always angeleitet 235-e-12346-e-123-146-236-2345
-prfword angeleitete 235-e-12346-e-123-146-236-236
+prfword angeleinte 235-e-12346-e-123-1246-e-236
+always angeleitet 235-e-12346-e-123-146-e-236-2345
+prfword angeleitete 235-e-12346-e-123-146-e-236-e-236
 always angelenk 235-e-12346-e-123-14-13
 always angelernt 235-e-12346-e-123-12456-1345-2345
-prfword angelernte 235-e-12346-e-123-12456-1345-236
+prfword angelernte 235-e-12346-e-123-12456-1345-e-236
 always angelesen 235-e-12346-e-123-123456-14
 begmidword angeleuch 235-e-12346-e-123-126-1456
 always evangeli 15-1236-235-e-1245-13456-24
 always evangelistisch 15-1236-235-e-1245-13456-5-156
 always angeliefert 235-e-12346-e-123-346-e-124-12456-2345
-prfword angelieferte 235-e-12346-e-123-346-e-124-12456-236
+prfword angelieferte 235-e-12346-e-123-346-e-124-12456-e-236
 always angelob 235-e-12346-e-123-135-12
 always angelock 235-e-12346-e-123-135-46
-always angelog 235-12346-f-123-135-1245
-always angelötet 235-12346-f-123-246-236-2345
-prfword angelötete 235-12346-f-123-246-236-236
-always gängel 1245-345-1345-1245-13456
+always angelog 235-e-12346-e-123-135-1245
+always angelötet 235-e-12346-e-123-246-e-236-2345
+prfword angelötete 235-e-12346-e-123-246-e-236-e-236
+always gängel 1245-345-1345-e-1245-13456
 always mangel 134-235-e-1245-13456
 always mängel 134-345-1345-e-1245-13456
 always drängel 145-1235-345-1345-e-1245-13456
@@ -4133,26 +4171,26 @@ always stängel 23456-345-1345-e-1245-13456
 always engel 14-e-1245-13456
 always stuben 23456-136-e-12-14
 always kirchen 13-24-1235-e-1456-14
-always glocken 1245-123-135-46-14
-always trocken 2345-1235-135-46-14
+always glocken 1245-123-135-cb-46-14
+always trocken 2345-1235-135-cb-46-14
 always offen 135-124-e-124-14
 always schellen 156-15-12345-14
 always rollen 1235-135-12345-14
-always tengel 2345-14-1245-13456
-begmidword totenge 2345-135-e-2345-14-e-12346
+always tengel 2345-14-e-1245-13456
+begmidword totenge 2345-135-e-2345-14-f-12346
 begmidword wüstenge 2456-1256-23456-14-f-12346
-always kettengelenk 13-15-2345-e-2345-14-e-12346-e-123-14-13
+always kettengelenk 13-15-2345-e-2345-14-f-12346-e-123-14-13
 always spitzen 234-1234-24-2345-e-1356-14
 midword engelächt 14-e-12346-e-123-345-1456-2345
 midword engeländ 14-e-12346-e-123-345-1345-e-145
-always engelass 14-f-12346-e-2-123
+always engelass 14-e-12346-e-2-123
 always engelaut 14-e-12346-e-123-16-2345
 prfword engelaute 14-e-12346-e-123-16-236
 midendword engeleit 14-e-12346-e-123-146-2345
 midendword engelenk 14-e-12346-e-123-14-13
 midword engelern 14-e-12346-e-123-12456-1345
 always bengel 12-14-e-1245-13456
-prfword gemengelage 12346-e-134-14-e-12346-e-123-1-12346
+prfword gemengelage 12346-e-134-14-e-12346-e-123-1-e-12346
 prfword gemengelagen 12346-e-134-14-e-12346-e-123-1-e-1245-14
 begmidword außengeländ 16-2346-14-e-12346-e-123-345-1345-e-145
 always stengel 23456-14-e-1245-13456
@@ -4161,6 +4199,7 @@ always schlingel 156-123-35-e-1245-13456
 always klingel 13-123-35-e-1245-13456
 always pingel 1234-35-e-1245-13456
 always ringel 1235-35-e-1245-13456
+always marketing 134-356-e-13-15-e-2345-35-1245
 always tingel 2345-35-e-1245-13456
 always zingel 1356-35-e-1245-13456
 always klüngel 13-123-1256-1345-e-1245-13456
@@ -4173,9 +4212,9 @@ always spargel 234-1234-356-e-1245-13456
 always mergel 134-12456-e-1245-13456
 always pergel 1234-12456-e-1245-13456
 always orgel 26-e-1245-13456
-before l midword fürsorge 2-124-e-234-26-12346
-before l midword vorsorge 2-26-e-234-26-12346
-always torgelegen 2345-26-e-1245-1245
+before l midword fürsorge 2-124-e-234-26-e-12346-f
+before l midword vorsorge 2-26-e-234-26-e-12346-f
+always torgelegen 2345-26-f-1245-1245
 always nörgel 1345-246-1235-e-1245-13456
 always spörgel 234-1234-246-1235-e-1245-13456
 always gurgel 1245-136-1235-e-1245-13456
@@ -4202,28 +4241,27 @@ syllable gems 1245-12356-234
 # GEn
 always gen 1245-14
 always genabel 12346-e-1345-1-e-12-13456
-prfword genadelte 12346-e-1345-1-e-145-13456-236
+prfword genadelte 12346-e-1345-1-e-145-13456-e-236
 always genadelt 12346-e-1345-1-e-145-13456-2345
 begmidword genäch 12346-e-1345-345-1456
-begmidword genag 12346-e-1345-1-e-1245
-begmidword genagent 1245-14-e-1-1245-14-2345
+begmidword genag 12346-e-1345-1-1245
+begmidword genagent 1245-14-f-1-1245-14-2345
 begmidword genäh 12346-e-1345-345-e-125
 begmidword roggenähr 1235-135-1245-e-1245-14-f-345-125-1235
-midendword genähnlich 1245-14-e-345-456
+midendword genähnlich 1245-14-f-345-456
 always genannt 12346-e-1345-235-1345-2345
-prfword genannte 12346-e-1345-235-1345-236
-always genanntest 12346-e-1345-235-1345-236-23456
+prfword genannte 12346-e-1345-235-1345-e-236
+always genanntest 12346-e-1345-235-1345-e-236-23456
 begmidword genarb 12346-e-1345-356-12
 midendword genarbeit 1245-14-f-356-12
 begmidword genarr 12346-e-1345-356-1235
 prfword genas 12346-e-1345-1-234
 always genäs 12346-e-1345-345-234
 always genäss 12346-e-1345-345-2346
-# Alte Rechtschreibung
 always genäß 12346-e-1345-345-2346
 always genäschig 12346-e-1345-345-e-156-45
 always genascht 12346-e-1345-1-156-2345
-prfword genaschte 12346-e-1345-1-156-236
+prfword genaschte 12346-e-1345-1-156-e-236
 prfword genasen 12346-e-1345-1-e-234-14
 always genasführ 12346-e-1345-1-234-e-124-125
 always genatur 12346-e-1345-2345
@@ -4232,34 +4270,34 @@ always genau 12346-e-1345-16
 always garagen 1245-356-1-e-1245-14
 always lagenauf 123-1-e-1245-14-f-2-16
 always lagenaus 123-1-e-1245-14-f-16-234
-always magenauf 134-1-1245-14-f-2-16
-always magenaus 134-1-1245-14-f-16-234
-always regenauf 1235-15-1245-14-f-2-16
-always regenaus 1235-15-1245-14-f-16-234
-always eigenauf 146-1245-14-e-2-16
-always eigenaus 146-1245-14-e-16-234
+always magenauf 134-1-e-1245-14-f-2-16
+always magenaus 134-1-e-1245-14-f-16-234
+always regenauf 1235-15-e-1245-14-f-2-16
+always regenaus 1235-15-e-1245-14-f-16-234
+always eigenauf 146-e-1245-14-f-2-16
+always eigenaus 146-e-1245-14-f-16-234
 always felgenaus 124-13456-e-1245-14-f-16-234
-always stangenauf 23456-235-e-1245-14-e-2-16
-always stangenaus 23456-235-e-1245-14-e-16-234
-always mengenauf 134-14-e-1245-14-e-2-16
-always mengenaus 134-14-e-1245-14-e-16-234
+always stangenauf 23456-235-e-1245-14-f-2-16
+always stangenaus 23456-235-e-1245-14-f-16-234
+always mengenauf 134-14-e-1245-14-f-2-16
+always mengenaus 134-14-e-1245-14-f-16-234
 always zwergen 1356-2456-12456-e-1245-14
 always morgenauf 134-26-e-1245-14-f-2-16
 always morgenaus 134-26-e-1245-14-f-16-234
 always röntgen 1235-246-1345-2345-e-1245-14
-always augenauf 16-1245-14-e-2-16
-always augenaus 16-1245-14-e-16-234
-always zeugen 1356-126-1245-14
-always zeugeneid 1356-126-12346-f-1345-146-145
+always augenauf 16-1245-14-f-2-16
+always augenaus 16-1245-14-f-16-234
+always zeugen 1356-126-e-1245-14
+always zeugeneid 1356-126-e-12346-f-1345-146-145
 always geneckt 12346-e-1345-15-46-2345
-prfword geneckte 12346-e-1345-15-46-236
+prfword geneckte 12346-e-1345-15-46-e-236
 always genehm 12346-e-1345-125
 always geneidet 12346-e-1345-146-e-145-15-2345
-prfword geneidete 12346-e-1345-146-e-145-15-236
+prfword geneidete 12346-e-1345-146-e-145-15-e-236
 always geneig 12346-e-1345-146-1245
 always genennet 12346-e-1345-14-e-1345-15-2345
 always geneppt 12346-e-1345-15-1234-1234-2345
-prfword geneppte 12346-e-1345-15-1234-1234-236
+prfword geneppte 12346-e-1345-15-1234-1234-e-236
 always generv 12346-e-1345-12456-1236
 # HOMONYM
 sufword genes 1245-14-123456
@@ -4282,43 +4320,45 @@ always genick 12346-e-1345-24-46
 word genien 1245-14-24-14
 always geniesel 12346-e-1345-346-e-234-13456
 prfword geniest 12346-e-1345-346-23456
-prfword genieste 12346-e-1345-346-23456-15
+prfword genieste 12346-e-1345-346-ca-23456-15
 always genieß 12346-e-1345-346-2346
 always genietet 12346-e-1345-346-e-236-2345
-prfword genietete 12346-e-1345-346-236-236
+prfword genietete 12346-e-1345-346-e-236-e-236
 always genipp 12346-e-1345-24-1234-1234
-always genistet 12346-e-1345-24-23456-15-2345
-prfword genistete 12346-e-1345-24-23456-15-236
+always genistet 12346-e-1345-24-ca-23456-15-2345
+prfword genistete 12346-e-1345-24-ca-23456-15-e-236
 always genöl 12346-e-1345-246-123
 always orangenöl 26-235-e-1245-14-f-246-123
 always genommen 12346-e-1345-1346
 always genopp 12346-e-1345-135-1234-1234
 always genörgel 12346-e-1345-246-1235-e-1245-13456
 always genordet 12346-e-1345-26-e-145-15-2345
-prfword genordete 12346-e-1345-26-e-145-15-236
+prfword genordete 12346-e-1345-26-e-145-15-e-236
 always genormt 12346-e-1345-26-134-2345
-prfword genormte 12346-e-1345-26-134-236
+prfword genormte 12346-e-1345-26-134-e-236
 always genötig 12346-e-1345-246-2345-45
 syllable genoss 12346-e-1345-135-2346
+syllable genoß 12346-e-1345-135-2346
 syllable genöss 12346-e-1345-246-2346
-always genuckel 12346-e-1345-136-46-13456
+syllable genöß 12346-e-1345-246-2346
+always genuckel 12346-e-1345-136-cb-46-13456
 always genudel 12346-e-1345-136-e-145-13456
 always genug 12346-e-1345-136-1245
 always genüg 12346-e-1345-1256-1245
-always genüge 12346-e-1345-1256-12346
+always genüge 12346-e-1345-1256-e-12346
 always genügen 12346-e-1345-1256-e-1245-14
 always genüchter 12346-e-1345-1256-1456-e-2345-12456
 always genuschel 12346-e-1345-136-e-156-13456
 always genuss 12346-e-1345-136-2346
-# Alte Rechtschreibung
 always genuß 12346-e-1345-136-2346
 syllable genüss 12346-e-1345-1256-2346
+syllable genüß 12346-e-1345-1256-2346
 always genutz 12346-e-1345-1356
 always genütz 12346-e-5-1345-1356
 # GEr
 prfword ger 1245-12456
 word gera 1245-12456-1
-after g midendword erlaubnis 12456-e-123-16-12-1346
+after g midendword erlaubnis 12456-e-123-16-12-e-1346
 sufword gerd 1245-12456-145
 prfword gere 1245-12456-15
 prfword gerei 1245-12456-146
@@ -4327,7 +4367,7 @@ prfword geren 1245-12456-14
 always gers 1245-12456-234
 always gersund 1245-12456-f-234-256-145
 sufword gert 1245-12456-2345
-word gerte 1245-12456-236
+word gerte 1245-12456-e-236
 always gern 1245-12456-1345
 midendword gerlich 1245-12456-456
 always gerald 1245-12456-25-145
@@ -4347,7 +4387,7 @@ prfword gerbern 1245-12456-e-12-12456-1345
 prfword gerbers 1245-12456-e-12-12456-234
 always gerbrück 1245-12456-f-12-1235-1256-46
 always gerecht 12346-e-1235-2345
-always folgerecht 124-1245-15-e-1235-2345
+always folgerecht 124-1245-15-f-1235-2345
 syllable gerfalk 1245-12456-e-124-25-13
 midword gergeb 1245-f-12456-e-12346-12
 always gerh 1245-12456-e-125
@@ -4355,7 +4395,7 @@ always prediger 1234-1235-15-e-145-45-12456
 always geria 1245-12456-24-1
 always niger 1345-45-12456
 prfword gerie 1245-12456-346
-prfword gerien 1245-12456-24-14
+prfword gerien 1245-12456-24-e-14
 sufword gerier 1245-12456-346-1235
 always suggerier 234-136-1245-e-1245-12456-346-1235
 always sengerig 234-14-e-1245-12456-45
@@ -4363,7 +4403,7 @@ midendword gerinnerung 1245-f-12456-35-e-1345-12456-136
 midendword ggerli 1245-e-1245-12456-123-24
 syllable gerlind 1245-12456-e-123-35-145
 always germ 1245-12456-134
-always angermund 235-1245-12456-f-134-256-145
+always angermund 235-e-1245-12456-f-134-256-145
 always igerm 45-12456-134
 always gern 1245-12456-1345
 word gero 1245-12456-135
@@ -4382,15 +4422,15 @@ always gerstand 1245-12456-f-2-23456
 always gerständ 1245-12456-f-5-23456
 prfword gert 1245-12456-2345
 always gertrud 1245-12456-e-2345-1235-136-145
-prfword gerte 1245-12456-236
-prfword gertest 1245-12456-236-23456
-prfword gertet 1245-12456-236-2345
-always gertel 1245-12456-2345-13456
-endword gertem 1245-12456-2345-12356
-endword gerten 1245-12456-2345-14
-endword gerter 1245-12456-2345-12456
-endword gertes 1245-12456-2345-123456
-always gerten 1245-12456-2345-14
+prfword gerte 1245-12456-e-236
+prfword gertest 1245-12456-e-236-23456
+prfword gertet 1245-12456-e-236-2345
+always gertel 1245-12456-e-2345-13456
+endword gertem 1245-12456-e-2345-12356
+endword gerten 1245-12456-e-2345-14
+endword gerter 1245-12456-e-2345-12456
+endword gertes 1245-12456-e-2345-123456
+always gerten 1245-12456-e-2345-14
 prfword gerts 1245-12456-2345-234
 midendword gertrag 1245-f-12456-e-2345-1245
 midword gerträg 1245-f-12456-e-5-2345-1245
@@ -4405,46 +4445,46 @@ always hager 125-1-e-1245-12456
 always häger 125-345-e-1245-12456
 always jäger 245-345-e-1245-12456
 always lager 123-1-e-1245-12456
-always lagerichtig 123-1-12346-e-2-3456-45
-always lagereg 123-1-12346-f-1235-15-1245
+always lagerichtig 123-1-e-12346-e-2-3456-45
+always lagereg 123-1-e-12346-f-1235-15-1245
 always läger 123-345-e-1245-12456
-always lageraum 123-1-12346-f-1235-16-134
-always lageräum 123-1-12346-f-1235-34-134
-before er begmidword anlage 235-e-123-1-12346
+always lageraum 123-1-e-12346-f-1235-16-134
+always lageräum 123-1-e-12346-f-1235-34-134
+before er begmidword anlage 235-e-123-1-e-12346
 prfword anlagern 235-e-123-1-e-1245-12456-1345
 always anlagert 235-e-123-1-e-1245-12456-2345
 always anlagerst 235-e-123-1-e-1245-12456-23456
-prfword anlagerte 235-e-123-1-e-1245-12456-236
+prfword anlagerte 235-e-123-1-e-1245-12456-e-236
 always anlagerung 235-e-123-1-e-1245-12456-136
-before er begmidword klage 13-123-1-12346
+before er begmidword klage 13-123-1-e-12346-f
 prfword klager 13-f-123-1-e-1245-12456
 prfword klagern 13-f-123-1-e-1245-12456-1345
 prfword klagers 13-f-123-1-e-1245-12456-234
 always kläger 13-123-345-e-1245-12456
 always einlieger 1246-e-123-346-e-1245-12456
 always mager 134-1-e-1245-12456
-always klimagerät 13-123-24-e-134-1-e-12346-e-1235-345-2345
-prfword klimageräte 13-123-24-e-134-1-e-12346-e-1235-345-236
+always klimagerät 13-123-24-e-134-1-f-12346-e-1235-345-2345
+prfword klimageräte 13-123-24-e-134-1-f-12346-e-1235-345-e-236
 begmidword spermage 234-1234-12456-e-134-1-f-12346
 always nager 1345-1-e-1245-12456
 always manager 134-235-1-e-1245-12456
-always drainagerohr 145-1235-1-24-1345-1-12346-e-1235-135-125-1235
-always spionagering 234-1234-24-135-e-1345-1-12346-f-1235-35-1245
-prfword spionageringe 234-1234-24-135-e-1345-1-12346-f-1235-35-12346
-always spionageroman 234-1234-24-135-e-1345-1-12346-f-1235-135-e-134-1-1345
-begmidword spionageroman 234-1234-24-135-e-1345-1-12346-f-1235-135-e-134-235
+always drainagerohr 145-1235-1-24-e-1345-1-e-12346-f-1235-135-125-1235
+always spionagering 234-1234-24-135-e-1345-1-e-12346-f-1235-35-1245
+prfword spionageringe 234-1234-24-135-e-1345-1-e-12346-f-1235-35-e-12346
+always spionageroman 234-1234-24-135-e-1345-1-e-12346-f-1235-135-e-134-1-1345
+begmidword spionageroman 234-1234-24-135-e-1345-1-e-12346-f-1235-135-e-134-235
 always teenager 2345-15-15-1345-e-1-1245-12456
 always schräger 156-1235-345-e-1245-12456
 always prager 1234-1235-1-e-1245-12456
 always vager 1236-1-e-1245-12456
 always schwager 156-2456-1-e-1245-12456
 always schwäger 156-2456-345-e-1245-12456
-always voyager 1236-135-6-13456-1-e-1245-12456
+always voyager 1236-135-e-6-13456-1-e-1245-12456
 always cambridger 6-14-1-134-e-12-1235-24-145-e-1245-12456
 always ludger 123-136-145-e-1245-12456
 always feger 124-15-e-1245-12456
 always heger 125-15-e-1245-12456
-always hegereiter 125-15-12346-e-1235-146-2345-12456
+always hegereiter 125-15-e-12346-e-1235-146-2345-12456
 syllable gerüch 12346-e-1235-1256-1456
 always nahegerück 1345-1-e-125-15-f-12346-e-1235-46
 always bieger 12-346-e-1245-12456
@@ -4457,23 +4497,23 @@ always sieger 234-346-e-1245-12456
 always schwieger 156-2456-346-e-1245-12456
 always wieger 2456-346-e-1245-12456
 always leger 123-15-e-1245-12456
-prfword ablegeregal 1-12-e-123-15-12346-e-1235-15-e-1245-1-123
-always ablegeregal 1-12-e-123-15-12346-e-1235-15-e-1245-25
-always legerohr 123-15-12346-e-1235-135-125-1235
-always legeröhr 123-15-12346-e-1235-246-125-1235
+prfword ablegeregal 1-12-e-123-15-e-12346-f-1235-15-e-1245-1-123
+always ablegeregal 1-12-e-123-15-e-12346-f-1235-15-e-1245-25
+always legerohr 123-15-e-12346-f-1235-135-125-1235
+always legeröhr 123-15-e-12346-f-1235-246-125-1235
 always neger 1345-15-e-1245-12456
 always sühne 234-1256-125-e-1345-15
 prfword sühnel 234-1256-125-e-1345-13456
 always sühnen 234-1256-125-e-1345-14
 always reger 1235-15-e-1245-12456
-always integer 35-236-1245-12456
+always integer 35-e-236-e-1245-12456
 before er begmidword wege 2456-1245-15
 prfword weger 2456-1245-12456
 prfword wegern 2456-1245-12456-1345
 prfword wegers 2456-1245-12456-234
 always wegerung 2456-1245-12456-136
 always norweger 1345-26-e-2456-15-e-1245-12456
-always wegerecht 2456-1245-15-e-1235-2345
+always wegerecht 2456-1245-15-f-1235-2345
 always bagger 12-1-1245-e-1245-12456
 always jagger 245-1-1245-e-1245-12456
 always egger 15-1245-e-1245-12456
@@ -4489,29 +4529,29 @@ always feiger 124-146-e-1245-12456
 always steiger 23456-146-e-1245-12456
 always geiger 1245-146-e-1245-12456
 always weiger 2456-146-e-1245-12456
-always schweigerecht 156-2456-146-12346-e-1235-2345
+always schweigerecht 156-2456-146-e-12346-f-1235-2345
 always schwelger 156-2456-13456-e-1245-12456
-always schwelgeruch 156-2456-13456-e-12346-e-1235-136-1456
-always schwelgerüch 156-2456-13456-e-12346-e-1235-1256-1456
+always schwelgeruch 156-2456-13456-f-12346-e-1235-136-1456
+always schwelgerüch 156-2456-13456-f-12346-e-1235-1256-1456
 always zeiger 1356-146-e-1245-12456
-always zeigeregister 1356-146-e-12346-f-1235-15-e-1245-24-23456-12456
+always zeigeregister 1356-146-e-12346-f-1235-15-e-1245-24-ca-23456-12456
 always pilger 1234-24-123-e-1245-12456
 always tilger 2345-24-123-e-1245-12456
 always holger 125-135-123-e-1245-12456
-begmidword mentholge 134-14-2345-125-135-123-e-12346
-prfword anger 235-1245-12456
-sufword angerdorf 235-1245-12456-f-145-26-124
-sufword angerdörfer 235-1245-12456-f-145-246-1235-e-124-12456
-prfword angern 235-1245-12456-1345
-prfword angern 235-1245-12456-234
+begmidword mentholge 134-14-e-2345-125-135-123-e-12346
+prfword anger 235-e-1245-12456
+sufword angerdorf 235-e-1245-12456-f-145-26-124
+sufword angerdörfer 235-e-1245-12456-f-145-246-1235-e-124-12456
+prfword angern 235-e-1245-12456-1345
+prfword angern 235-e-1245-12456-234
 always fänger 124-345-1345-e-1245-12456
 always gänger 1245-345-1345-e-1245-12456
 always hanger 125-235-e-1245-12456
 always hänger 125-345-1345-e-1245-12456
-always hängereck 125-345-1345-12346-f-1235-15-46
-always hängereg 125-345-1345-12346-f-1235-15-1245
+always hängereck 125-345-1345-e-12346-f-1235-15-46
+always hängereg 125-345-1345-e-12346-f-1235-15-1245
 always orangerie 26-235-e-1245-12456-346
-always orangerien 26-235-e-1245-12456-24-14
+always orangerien 26-235-e-1245-12456-24-e-14
 always pranger 1234-1235-235-e-1245-12456
 always sänger 234-345-1345-e-1245-12456
 always tanger 2345-235-e-1245-12456
@@ -4526,9 +4566,9 @@ prfword engeres 14-e-1245-12456-123456
 always engerling 14-e-1245-12456-e-123-35-1245
 prfword engerlinge 14-e-1245-12456-e-123-35-12346
 always inger 35-e-1245-12456
-midword ingerä 35-e-12346-e-1235-345
-midendword ingeruch 35-e-12346-e-1235-136-1456
-midword ingerüch 35-e-12346-e-1235-1256-1456
+midword ingerä 35-f-12346-e-1235-345
+midendword ingeruch 35-f-12346-e-1235-136-1456
+midword ingerüch 35-f-12346-e-1235-1256-1456
 always kerosin 13-12456-135-e-234-35
 always einge 1246-e-12346
 before r begmidword hinge 125-35-e-12346
@@ -4539,13 +4579,13 @@ always eingehst 1246-e-1245-2356-23456
 always eingeht 1246-e-1245-2356-2345
 always eingehung 1246-e-1245-2356-136
 always eingelb 1246-e-1245-13456-12
-always koffeingehalt 13-135-124-e-124-15-35-f-12346-e-125-25-2345
-always chemieingenieur 1456-12356-346-f-35-1245-14-24-126-1235
-always softwareingenieur 234-135-124-2345-e-2456-356-15-f-35-1245-14-24-126-1235
+always koffeingehalt 13-135-124-e-124-15-e-35-f-12346-e-125-25-2345
+always chemieingenieur 1456-12356-346-f-35-e-1245-14-24-e-126-1235
+always softwareingenieur 234-135-124-2345-e-2456-356-15-f-35-e-1245-14-24-e-126-1235
 always steingeiß 23456-1246-f-1245-146-2346
 always weingeist 2456-1246-f-1245-146-23456
 always termin 2345-12456-e-134-35
-always hongkonger 125-135-1345-1245-e-13-135-1345-1245-12456
+always hongkonger 125-135-1345-1245-e-13-135-1345-e-1245-12456
 always hunger 125-256-e-1245-12456
 always junger 245-256-e-1245-12456
 always dünger 145-1256-1345-e-1245-12456
@@ -4553,8 +4593,8 @@ always jünger 245-1256-1345-e-1245-12456
 always analoger 235-25-135-e-1245-12456
 always homologer 125-135-e-134-135-e-123-135-e-1245-12456
 always roger 1235-135-e-1245-12456
-always mikro 134-24-13-1235-135
-always elektro 13456-15-13-2345-1235-135
+always mikro 134-24-e-13-cb-1235-135
+always elektro 13456-15-13-e-2345-cb-1235-135
 always büro 12-1256-e-1235-135
 always dröger 145-1235-246-e-1245-12456
 always zöger 1356-246-e-1245-12456
@@ -4574,14 +4614,14 @@ always faltarbeit 124-25-2345-f-356-12
 always ärger 345-1235-e-1245-12456
 always militär 134-24-e-123-24-e-2345-345-1235
 always berger 12-12456-e-1245-12456
-midendword bergeräusch 12-12456-e-12346-e-1235-34-156
+midendword bergeräusch 12-12456-f-12346-e-1235-34-156
 always silber 234-24-123-e-12-12456
 always oberge 135-12-12456-f-12346
 always obergeil 135-12-12456-f-1245-146-123
 begmidword obergerman 135-12-12456-f-1245-12456-e-134-235
 always birger 12-24-1235-e-1245-12456
 always sorger 234-26-e-1245-12456
-always sorgerecht 234-26-12346-f-1235-2345
+always sorgerecht 234-26-e-12346-f-1235-2345
 always burger 12-136-1235-e-1245-12456
 always bürger 12-1256-1235-e-1245-12456
 always würger 2456-1256-1235-e-1245-12456
@@ -4589,8 +4629,8 @@ always böttger 12-246-2345-2345-e-1245-12456
 always sauger 234-16-e-1245-12456
 always säuger 234-34-e-1245-12456
 always beuger 12-126-e-1245-12456
-always beugere 12-126-12346-e-1235-15
-always zeuger 1356-126-1245-12456
+always beugere 12-126-e-12346-e-1235-15
+always zeuger 1356-126-e-1245-12456
 always kluger 13-123-136-e-1245-12456
 always klüger 13-123-1256-e-1245-12456
 always pflüger 1234-124-123-1256-e-1245-12456
@@ -4604,11 +4644,11 @@ always metzger 134-15-2345-1356-e-1245-12456
 prfword ges 1245-123456
 always sagesatz 234-1245-15-f-234-1356
 always sagesätz 234-1245-15-f-5-234-1356
-always tages 2345-1-1245-123456
+always tages 2345-1-e-1245-123456
 always valuta 1236-25-136-e-2345-1
-always montage 134-135-1345-e-2345-1-12346
+always montage 134-135-1345-e-2345-1-e-12346
 prfword montagen 134-135-1345-e-2345-1-e-1245-14
-always sieges 234-346-1245-123456
+always sieges 234-346-e-1245-123456
 begword exeges 1346-15-e-1245-123456
 midword exeges 15-6-1346-15-e-1245-123456
 always ganges 1245-235-e-1245-123456
@@ -4636,7 +4676,7 @@ always geschunden 12346-e-156-256-e-145-14
 prfword geser 1245-123456-12456
 prfword gesers 1245-123456-12456-234
 always gesetz 12346-e-2-15
-always algesie 25-1245-123456-346
+always algesie 25-e-1245-123456-346
 midendword gesima 1245-123456-24-e-134-1
 always gesind 12346-e-234-145
 always gesitz 12346-e-2-24
@@ -4645,7 +4685,7 @@ always gest 12346-23456
 always gestaat 12346-e-23456-2345
 always gestand 12346-e-2-23456
 always geständ 12346-e-5-23456
-always gestion 12346-23456-245
+always gestion 12346-ca-23456-245
 begmidword gestund 12346-e-23456-256-145
 always gesund 12346-e-234-256-145
 begmidword gesünd 12346-e-234-1256-1345-145
@@ -4653,19 +4693,19 @@ word gesa 1245-123456-1
 word gesas 1245-123456-1-234
 word gese 1245-123456-15
 word geses 1245-123456-123456
-always gesozial 12346-e-234-123
+always gesozial 12346-f-234-123
 midword gesprach 12346-e-234-1234
 always gespräch 12346-e-5-234-1234
-midendword gesprung 12346-e-234-1234-1235-256-1245
-midword gesprüng 12346-e-234-1234-1235-1256-1345-e-1245
-endword gesprünge 12346-e-234-1234-1235-1256-1345-12346
+midendword gesprung 12346-f-234-1234-1235-256-1245
+midword gesprüng 12346-f-234-1234-1235-1256-1345-e-1245
+endword gesprünge 12346-f-234-1234-1235-1256-1345-e-12346
 always gestell 12346-e-2-13456
 
 # GEGEN (4.3.2 Einformige Kürzungen, alleinstehend oder in Wortverbindungen)
 word gegen 1245
 always gegen 2-1245
-prfword gegend 12346-1245-14-145
-prfword gegenden 12346-1245-14-e-145-14
+prfword gegend 12346-e-1245-14-145
+prfword gegenden 12346-e-1245-14-e-145-14
 midword gegenüg 12346-f-12346-e-1345-1256-1245
 
 # GEGENÜBER (4.4 Zweiformige Kürzungen)
@@ -4681,7 +4721,7 @@ always entgegenwarten 2346-e-2-1245-e-2456-356-e-2345-14
 # GELEGEN (4.4 Zweiformige Kürzungen)
 # HOMONYM
 always gelegen 1245-1245
-always dringelegen 145-1235-35-e-1245-1245
+always dringelegen 145-1235-35-f-1245-1245
 
 # GESCHÄFT (4.4 Zweiformige Kürzungen)
 always geschäft 1245-124
@@ -4709,7 +4749,7 @@ always gleich 1245-1456
 
 # GLÜCK (4.4 Zweiformige Kürzungen)
 always glück 1245-46
-always unglück 256-1245-46
+always unglück 256-e-1245-46
 
 # GROß GRÖß (4.4 Zweiformige Kürzungen)
 always groß 1245-2346
@@ -4722,7 +4762,7 @@ word grundig 1245-1235-256-145-45
 always gründonnerstag 1245-1235-1256-1345-f-145-135-1345-e-1345-12456-234-e-2345-1-1245
 always gründrach 1245-1235-1256-1345-f-145-1235-56
 always gründüng 1245-1235-1256-1345-f-145-1256-1345-1245
-always joggingrund 245-135-1245-1245-35-1245-f-1235-256-145
+always joggingrund 245-135-1245-e-1245-35-1245-f-1235-256-145
 always ringrund 1235-35-1245-f-1235-256-145
 
 # HAB HÄB (4.3.6 Kommakürzungen)
@@ -4730,17 +4770,19 @@ always hab 2-125
 always häb 5-125
 always habakuk 125-1-e-12-1-e-13-136-13
 always habanero 125-1-e-12-235-12456-135
+always habegger 125-1-12-e-15-1245-e-1245-12456
 always habergeiß 125-1-e-12-12456-f-1245-146-2346
 sufword habermas 125-1-e-12-12456-e-134-1-234
 always habsburg 125-1-12-234-e-12-136-1235-1245
 sufword ahab 1-125-1-12
 sufword cahab 6-14-1-e-125-1-12
-sufword dhabi 145-125-1-12-24
+sufword dhabi 145-125-1-e-12-24
 always viehab 1236-346-125-f-1-12
+always gorkha 1245-26-13-125-1
 always piranha 1234-24-e-1235-235-e-125-1
 always rohab 1235-135-125-f-1-12
 always alphabet 25-e-1234-125-1-e-23-2345
-prfword alphabete 25-e-1234-125-1-e-23-236
+prfword alphabete 25-e-1234-125-1-e-23-e-236
 always alphablock 25-e-1234-125-1-e-12-123-135-46
 always rhabarber 1235-125-1-e-12-356-e-12-12456
 always shabbat 234-125-1-12-e-12-1-2345
@@ -4757,9 +4799,9 @@ sufword shaft 234-125-1-124-2345
 # HAND HÄND (4.4 Zweiformige Kürzungen)
 always hand 125-145
 always händ 5-125-145
-word händels 125-345-1345-145-13456-234
-word handke 125-235-145-13-15
-word handkes 125-235-145-13-123456
+word händels 125-345-1345-e-145-13456-234
+word handke 125-235-145-e-13-15
+word handkes 125-235-145-e-13-123456
 midendword ehand 15-f-125-145
 midword ehänd 15-f-5-125-145
 midendword tehand 236-f-125-145
@@ -4770,14 +4812,14 @@ always frühandacht 124-1235-1256-125-f-235-e-145-56-2345
 # HAST (4.4 Zweiformige Kürzungen)
 always hast 125-23456
 always hastings 125-1-23456-35-1245-234
-always buddha 12-136-145-145-125-1
-always alphastrahl 25-1234-125-1-f-23456-1235-1-125-123
+always buddha 12-136-145-e-145-125-1
+always alphastrahl 25-e-1234-125-1-f-23456-1235-1-125-123
 
 # HAT (4.4 Zweiformige Kürzungen)
 always hat 125-2345
 begmidword aliphat 25-24-e-1234-125-1-e-2345
-prfword aliphate 25-24-e-1234-125-1-236
-begmidword alphat 25-1234-125-1-f-2345
+prfword aliphate 25-24-e-1234-125-1-e-236
+begmidword alphat 25-e-1234-125-1-f-2345
 always daihatsu 145-1-24-e-125-1-2345-e-234-136
 sufword hatch 125-1-2345-1456
 always hatschi 125-1-2345-e-156-24
@@ -4786,7 +4828,7 @@ always mahatma 134-1-e-125-1-2345-e-134-1
 prfword phatisch 1234-125-1-e-2345-24-156
 begmidword phatisch 1234-125-1-e-2345-24-e-156
 always phosphat 1234-125-135-234-e-1234-125-1-2345
-prfword phosphate 1234-125-135-234-e-1234-125-1-236
+prfword phosphate 1234-125-135-234-e-1234-125-1-e-236
 always shatoo 234-125-1-e-2345-135-135
 sufword that 2345-125-1-2345
 always triumphat 2345-1235-24-e-136-134-e-1234-125-1-e-2345
@@ -4832,7 +4874,7 @@ always herreich 125-12456-e-1235-146-1456
 always herreis 125-12456-e-1235-146-234
 always herreist 125-12456-e-1235-146-23456
 always herreit 125-12456-e-1235-146-e-2345
-endword herreite 125-12456-e-1235-146-236
+endword herreite 125-12456-e-1235-146-e-236
 always herreiß 125-12456-e-1235-146-2346
 always herrenn 125-12456-e-1235-14-1345
 always herricht 125-12456-e-2-3456
@@ -4846,9 +4888,9 @@ always herruf 125-12456-e-1235-136-124
 always herrück 125-12456-e-1235-46
 always herrühr 125-12456-e-1235-1256-125-1235
 always herrutsch 125-12456-e-1235-136-2345-156
-always daherr 145-125-e-1235
-always einherr 1246-e-125-12456-e-1235
-always höherr 125-246-e-125-12456-e-1235
+always daherr 145-125-f-1235
+always einherr 1246-e-125-12456-f-1235
+always höherr 125-246-e-125-12456-f-1235
 always hinterher 125-35-e-2345-12456-e-125-12456
 always sherry 234-125-12456-e-1235-6-13456
 always äther 345-2345-125-12456
@@ -4856,14 +4898,14 @@ always luther 123-136-e-2345-125-12456
 
 # HIER (4.4 Zweiformige Kürzungen)
 always hier 125-1235
-always hierarch 125-24-12456-356-1456
+always hierarch 125-24-12456-e-356-1456
 always hiero 125-24-12456-135
 always hierorts 125-1235-e-26-2345-234
 always cahier 6-14-1-125-24-12456
 midendword trahier 2345-1235-1-e-125-346-1235
 midendword strahier 23456-1235-1-e-125-346-1235
-sufword extrahier 1346-2345-1235-1-e-125-346-1235
-midendword extrahier 15-6-1346-2345-1235-1-e-125-346-1235
+sufword extrahier 1346-e-2345-cb-1235-1-e-125-346-1235
+midendword extrahier 15-6-1346-e-2345-cb-1235-1-e-125-346-1235
 always paraphier 1234-356-1-e-1234-125-346-1235
 always graphier 1245-1235-1-e-1234-125-346-1235
 always triumphier 2345-1235-24-e-136-134-e-1234-125-346-1235
@@ -4885,13 +4927,14 @@ begmidword hoffman 125-135-124-124-e-134-235
 always hoffmann 125-135-124-124-e-134-235-1345
 always hoffrau 125-135-124-f-124-1235-16
 always hoffräu 125-135-124-f-124-1235-34
-always hoffrei 125-135-124-e-124-1235-146
-always hoffähig 125-135-124-e-124-345-e-125-45
+always hoffrei 125-135-124-f-124-1235-146
+always hoffähig 125-135-124-f-124-345-e-125-45
+always kirchhoff 13-24-1235-1456-e-125-135-124-124
 always kerckhoff 13-12456-46-e-125-135-124-124
 syllable öffnung 246-124-124-e-1345-136
 always steinhoff 23456-1246-e-125-135-124-124
 always bauernhof 12-16-12456-1345-f-125-135-124
-always drohoffesiv 145-1235-135-125-e-135-124-e-124-14-e-234-24-1236
+always drohoffesiv 145-1235-135-125-f-135-124-e-124-14-e-234-24-1236
 always hülshoff 125-1256-123-234-e-125-135-124-124
 
 # ICH (4.1 Lautgruppenkürzungen)
@@ -4915,14 +4958,14 @@ always samichläus 234-1-e-134-24-f-1456-123-34-234
 always musichall 134-136-e-234-24-6-14-f-125-1-12345
 before c begmidword anti 235-2345-24-f
 always lavichord 123-1-e-1236-24-e-1456-26-145
-always comic 6-14-135-134-24-6-14
+always comic 6-14-135-e-134-24-6-14
 before c begmidword taxi 2345-1-e-6-1346-24-f
 
 # IE  (4.1 Lautgruppenkürzungen)
 midendword ie 346
 # IEll
 midendword iell 24-e-15-12345
-begmidword schiellies 156-346-123-e-123-346-234
+begmidword schiellies 156-346-123-f-123-346-234
 always ziellaser 1356-346-123-f-123-1-e-234-12456
 midendword ieuw 24-126-2456
 midendword ieux 24-126-6-1346
@@ -4955,25 +4998,25 @@ prfword bienchen 12-346-1345-e-1456-14
 prfword biene 12-346-e-1345-15
 prfword bienen 12-346-e-1345-14
 always bienn 12-24-14-1345
-always skabies 234-13-1-e-12-24-123456
+always skabies 234-13-1-e-12-24-e-123456
 begmidword honigbien 125-135-e-1345-45-f-12-346-1345
 begmidword mörtelbien 134-246-1235-e-2345-13456-f-12-346-1345
-always gambier 1245-1-134-e-12-24-12456
+always gambier 1245-1-134-e-12-24-e-12456
 begmidword kolumbi 13-135-e-123-136-134-e-12-24
 always kolumbin 13-135-e-123-136-134-e-12-35
 begmidword wespenbien 2456-123456-e-1234-14-f-12-346-1345
 begmidword hosenbien 125-135-e-234-14-f-12-346-1345
-always snobiety 234-1345-135-12-24-15-2345-6-13456
-always anaerobier 235-1-12456-135-e-12-24-12456
+always snobiety 234-1345-135-e-12-24-15-e-2345-6-13456
+always anaerobier 235-e-1-12456-135-e-12-24-12456
 always garderobier 1245-356-e-145-12456-135-e-12-24-12456
 begmidword killerbien 13-24-12345-12456-f-12-346-1345
-begmidword mauerbien 134-16-12456-f-12-346-1345
-begmidword trauerbien 2345-1235-16-12456-f-12-346-1345
-begmidword feuerbien 124-126-12456-f-12-346-1345
+begmidword mauerbien 134-16-e-12456-f-12-346-1345
+begmidword trauerbien 2345-1235-16-e-12456-f-12-346-1345
+begmidword feuerbien 124-126-e-12456-f-12-346-1345
 begmidword arbeiterbien 356-12-12456-f-12-346-1345
 begmidword futterbien 124-136-2345-e-2345-12456-f-12-346-1345
 begmidword arbeitsbien 356-12-234-f-12-346-1345
-always lesbier 123-123456-e-12-24-12456
+always lesbier 123-123456-e-12-24-e-12456
 begmidword trachtbien 2345-1235-56-2345-f-12-346-1345
 begmidword nubi 1345-136-e-12-24
 begmidword pelzbien 1234-13456-1356-f-12-346-1345
@@ -4981,23 +5024,23 @@ begmidword holzbien 125-135-123-1356-f-12-346-1345
 # cIE
 always ciego 6-14-24-15-e-1245-135
 always galici 1245-25-24-e-6-14-24
-begmidword sufficien 234-136-124-e-124-24-e-6-14-24-14
-always ancien 235-e-6-14-24-14
-always ancier 235-e-6-14-24-12456
+begmidword sufficien 234-136-124-e-124-24-e-6-14-24-e-14
+always ancien 235-e-6-14-24-e-14
+always ancier 235-e-6-14-24-e-12456
 always lancier 123-235-e-6-14-346-1235
 always balancier 12-25-235-e-6-14-346-1235
-always nuancier 1345-136-235-e-6-14-346-1235
-always avancier 1-1236-235-e-6-14-346-1235
-always rencier 1235-14-e-6-14-24-12456
-always ferencier 124-12456-14-e-6-14-24-12456
-always concierge 6-14-135-1345-e-6-14-24-e-12456-12346
+always nuancier 1345-136-e-235-e-6-14-346-1235
+always avancier 1-1236-e-235-e-6-14-346-1235
+always rencier 1235-14-e-6-14-24-e-12456
+always ferencier 124-12456-14-e-6-14-24-e-12456
+always concierge 6-14-135-1345-e-6-14-24-e-12456-e-12346
 always socie 234-135-e-6-14-24-15
 always scien 234-6-14-24-14
-always saucier 234-16-e-6-14-24-12456
-always lucien 123-136-e-6-14-24-14
+always saucier 234-16-e-6-14-24-e-12456
+always lucien 123-136-e-6-14-24-e-14
 # dIE
 always diego 145-24-15-e-1245-135
-always dielektr 145-24-e-13456-15-13-2345-1235
+always dielektr 145-24-e-13456-15-13-e-2345-cb-1235
 word dien 145-346-1345
 midendword dien 145-24-14
 prfword diene 145-346-e-1345-15
@@ -5006,109 +5049,109 @@ always diener 145-346-e-1345-12456
 always dienlich 145-346-1345-456
 always dienst 145-346-1345-23456
 always dienstag 145-346-1345-234-e-2345-1-1245
-prfword dienstage 145-346-1345-234-e-2345-1-12346
+prfword dienstage 145-346-1345-234-e-2345-1-e-12346
 always dient 145-346-1345-2345
-prfword diente 145-346-1345-236
+prfword diente 145-346-1345-e-236
 always dientest 145-346-1345-e-236-23456
 always dientet 145-346-1345-e-236-2345
-always medien 134-15-e-145-24-14
+always medien 134-15-e-145-24-e-14
 word diet 145-24-15-2345
 always diethyl 145-24-e-15-2345-125-6-13456-123
-always barbadier 12-356-e-12-1-e-145-24-12456
-always brigadier 12-1235-45-1-e-145-24-12456
-always arkadier 356-e-13-1-e-145-24-12456
-always kanadier 13-235-1-e-145-24-12456
-always gradien 1245-1235-1-e-145-24-14
+always barbadier 12-356-e-12-1-e-145-24-e-12456
+always brigadier 12-1235-45-1-e-145-24-e-12456
+always arkadier 356-e-13-1-e-145-24-e-12456
+always kanadier 13-235-1-e-145-24-e-12456
+always gradien 1245-1235-1-e-145-24-e-14
 always bedien 23-e-145-346-1345
 always gedient 12346-e-145-346-1345-2345
-prfword gediente 12346-e-145-346-1345-236
+prfword gediente 12346-e-145-346-1345-e-236
 begword expedien 1346-e-1234-15-e-145-24-e-14
 midword expedien 15-6-1346-e-1234-15-e-145-24-e-14
 always andien 235-e-145-346-1345
-begmidword indientin 35-e-145-24-14-f-2345-35
+begmidword indientin 35-e-145-24-e-14-f-2345-35
 always latifundi 123-1-e-2345-24-e-124-256-e-145-24
-always burundier 12-136-e-1235-256-e-145-24-12456
+always burundier 12-136-e-1235-256-e-145-24-e-12456
 always komödi 13-135-e-134-246-e-145-24
 always tragödi 2345-1245-246-e-145-24
 always tragödin 2345-1245-246-e-145-35
 sufword verdien 36a-145-346-1345
 midendword verdien 1236-12456-e-145-346-1345
-always kapverdier 13-1-1234-e-1236-12456-e-145-24-12456
+always kapverdier 13-1-1234-e-1236-12456-e-145-24-e-12456
 prfword studie 23456-136-e-145-24-15
-always studien 23456-136-e-145-24-14
+always studien 23456-136-e-145-24-e-14
 always studier 23456-136-e-145-346-1235
 prfword dieu 145-24-126
 # eIE
 # fIE
-always fiesta 124-24-15-23456-1
-endword grafien 1245-1235-1-e-124-24-14
-always golfier 1245-135-123-e-124-24-12456
-sufword profierfahr 12345-124-24-f-12456-2-1235
-midword profierfahr 1234-1235-135-e-124-24-f-12456-2-1235
-endword graphien 1245-1235-1-e-1234-125-24-14
+always fiesta 124-24-15-ca-23456-1
+endword grafien 1245-1235-1-e-124-24-e-14
+always golfier 1245-135-123-e-124-24-e-12456
+sufword profierfahr 12345-e-124-24-f-12456-e-2-1235
+midword profierfahr 1234-1235-135-e-124-24-f-12456-e-2-1235
+endword graphien 1245-1235-1-e-1234-125-24-e-14
 # gIE
-midendword gien 1245-24-14
+midendword gien 1245-24-e-14
 midword gienach 1245-346-f-1345-56
-endword gieneutral 1245-346-f-1345-126-2345-1235-1-123
-midword gieneutral 1245-346-f-1345-126-2345-1235-25
+endword gieneutral 1245-346-f-1345-126-e-2345-cb-1235-1-123
+midword gieneutral 1245-346-f-1345-126-e-2345-cb-1235-25
 midendword gienetz 1245-346-f-1345-15-2345-1356
 midendword gieniveau 1245-346-f-1345-24-e-1236-15-16
 midendword gienutz 1245-346-f-1345-1356
 midendword gienütz 1245-346-f-5-1345-1356
-always magier 134-1-e-1245-24-12456
+always magier 134-1-e-1245-24-e-12456
 prfword orgie 26-e-1245-24-15
-always orgien 26-e-1245-24-14
+always orgien 26-e-1245-24-e-14
 always georgi 12346-26-e-1245-24
-sufword lesgier 123-123456-e-1245-24-12456
+sufword lesgier 123-123456-e-1245-24-e-12456
 # hIE
-always hierarch 125-24-12456-e-356-1456
-always hierarchie 125-24-12456-e-356-1456-346
-always hierarchien 125-24-12456-e-356-1456-24-14
-always hieroglyph 125-24-12456-135-e-1245-123-6-13456-1234-125
-always hieronymus 125-24-12456-135-e-1345-6-13456-e-134-136-234
+always hierarch 125-24-e-12456-e-356-1456
+always hierarchie 125-24-e-12456-e-356-1456-346
+always hierarchien 125-24-e-12456-e-356-1456-24-14
+always hieroglyph 125-24-e-12456-135-e-1245-123-6-13456-1234-125
+always hieronymus 125-24-e-12456-135-e-1345-6-13456-e-134-136-234
 always chien 1456-24-14
 always schien 156-346-1345
 always alighieri 25-45-125-24-12456-24
-endword graphien 1245-1235-1-e-1234-125-24-14
-always sophien 234-135-e-1234-125-24-14
-prfword philosophien 1234-125-24-14
+endword graphien 1245-1235-1-e-1234-125-24-e-14
+always sophien 234-135-e-1234-125-24-e-14
+prfword philosophien 1234-125-24-e-14
 prfword thieu 2345-125-24-126
-always pathien 1234-1-e-2345-125-24-14
+always pathien 1234-1-e-2345-125-24-e-14
 begmidword forsythi 124-26-e-234-6-13456-e-2345-125-24
 # iIE
 # jIE
 # kIE
-always bankier 12-235-e-13-24-12456
+always bankier 12-235-e-13-24-e-12456
 always kiew 13-24-15-2456
-sufword skier 234-13-24-12456
-always abfahrtsskier 1-12-e-2-1235-2345-234-f-234-13-24-12456
-always laufskier 123-16-124-f-234-13-24-12456
-always tourenskier 2345-135-136-e-1235-14-f-234-13-24-12456
-always wasserskier 2456-1-2346-12456-f-234-13-24-12456
+sufword skier 234-13-24-e-12456
+always abfahrtsskier 1-12-e-2-1235-2345-234-f-234-13-24-e-12456
+always laufskier 123-16-124-f-234-13-24-e-12456
+always tourenskier 2345-135-136-e-1235-14-f-234-13-24-e-12456
+always wasserskier 2456-1-2346-12456-f-234-13-24-e-12456
 begmidword thraki 2345-125-1235-1-e-13-24
 # lIE
-midendword lien 123-24-14
-always lieutenant 123-24-126-2345-14-235-2345
+midendword lien 123-24-e-14
+always lieutenant 123-24-126-e-2345-14-235-2345
 sufword alien 25-24-14
 endword alien 25-24-14
-always alienhand 25-24-14-e-125-145
+always alienhand 25-24-14-f-125-145
 begword calien 6-14-25-24-14
 word alalie 25-25-24-15
 always regali 1235-15-e-1245-25-24
-always personalien 1234-1345-25-24-14
-always mineralien 134-35-12456-25-24-14
-always pastoralien 1234-1-23456-26-25-24-14
-always naturalien 1345-2345-25-24-14
+always personalien 1234-1345-25-24-e-14
+always mineralien 134-35-12456-25-24-e-14
+always pastoralien 1234-1-ca-23456-26-25-24-e-14
+always naturalien 1345-2345-25-24-e-14
 begmidword versali 1236-12456-e-234-25-24
 begmidword universalinstr 256-24-e-1236-12456-e-234-25-f-35-23456-1235
 always universalismus 256-24-e-1236-12456-e-234-25-5-24
 always universalistisch 256-24-e-1236-12456-e-234-25-5-156
 always universalität 256-24-e-1236-12456-e-234-25-5-345
-always realien 1235-15-25-24-14
-always materialien 134-123-24-14
-begmidword nationalien 1345-5-1345-25-24-14
+always realien 1235-15-25-24-e-14
+always materialien 134-123-24-e-14
+begmidword nationalien 1345-5-1345-25-24-e-14
 begmidword zereali 1356-12456-15-e-25-24
-always minerialien 134-35-12456-25-24-14
+always minerialien 134-35-12456-25-24-e-14
 begmidword chemikali 1456-12356-24-e-13-25-24
 begmidword somali 234-135-e-134-25-24
 begmidword formali 124-26-e-134-25-24
@@ -5120,86 +5163,86 @@ begmidword marginali 134-356-e-1245-35-25-24
 always marginalität 134-356-e-1245-35-25-5-345
 begmidword lappali 123-1-1234-e-1234-25-24
 begmidword arali 356-25-24
-always australi 16-23456-1235-25-24
+always australi 16-ca-23456-1235-25-24
 always salieri 234-25-24-12456-24
 always rosali 1235-135-e-234-25-24
 always rosalind 1235-135-e-234-25-35-145
 begmidword thessali 2345-125-15-2346-25-24
 begmidword repressali 1235-15-e-1234-1235-15-2346-25-24
-always italien 24-2345-25-24-14
+always italien 24-2345-25-24-e-14
 always viktuali 1236-24-13-e-2345-136-e-25-24
-always chevalier 1456-15-e-1236-25-24-12456
+always chevalier 1456-15-e-1236-25-24-e-12456
 always richelieu 1235-3456-13456-24-126
 prfword kamelie 13-1-e-134-13456-24-15
-always kamelien 13-1-e-134-13456-24-14
-always sommelier 234-135-1346-13456-24-12456
+always kamelien 13-1-e-134-13456-24-e-14
+always sommelier 234-135-1346-13456-24-e-12456
 always bromeli 12-1235-135-e-134-13456-24
 # HOMONYM
-always relief 1235-13456-24-15-124
+always relief 1235-13456-24-e-15-124
 always karelier 13-356-15-e-123-24-e-12456
-always atelier 1-2345-13456-24-12456
-always hotelier 125-135-e-2345-13456-24-12456
-always pellier 1234-15-12345-24-12456
+always atelier 1-2345-13456-24-e-12456
+always hotelier 125-135-e-2345-13456-24-e-12456
+always pellier 1234-15-12345-24-e-12456
 always interpellier 35-e-2345-12456-e-1234-15-12345-346-1235
-always appellier 1-1234-1234-15-12345-346-1235
+always appellier 1-1234-e-1234-15-12345-346-1235
 prfword dahlie 145-1-125-e-123-24-15
-always dahlien 145-1-125-e-123-24-14
+always dahlien 145-1-125-e-123-24-e-14
 begmidword immobili 24-1346-135-e-12-24-e-123-24
 always immobilität 24-1346-135-e-12-24-e-123-5-345
 prfword lilie 123-24-e-123-24-15
-always lilien 123-24-e-123-24-14
+always lilien 123-24-e-123-24-e-14
 begmidword emili 12356-24-e-123-24
 begmidword famili 124-1-e-134-24-e-123-24
-always milieu 134-24-e-123-24-126
+always milieu 134-24-e-123-24-e-126
 begmidword petersili 1234-15-e-2345-12456-e-234-24-e-123-24
 begmidword ottili 135-2345-e-2345-24-e-123-24
 always galli 1245-1-12345-24
 always gallig 1245-1-12345-45
-always collier 6-14-135-12345-24-12456
-always kollier 13-135-12345-24-12456
+always collier 6-14-135-12345-24-e-12456
+always kollier 13-135-12345-24-e-12456
 always tokollier 2345-135-e-13-135-12345-346-1235
-always banlieu 12-235-e-123-24-126
-always gondolier 1245-135-1345-e-145-135-e-123-24-12456
+always banlieu 12-235-e-123-24-e-126
+always gondolier 1245-135-1345-e-145-135-e-123-24-e-12456
 prfword folie 124-135-e-123-24-15
-always folien 124-135-e-123-24-14
+always folien 124-135-e-123-24-e-14
 begmidword magnoli 134-1-1245-e-1345-135-e-123-24
 always anatoli 235-1-e-2345-135-e-123-24
-always volier 1236-135-e-123-24-12456
+always volier 1236-135-e-123-24-e-12456
 always märlierzähl 134-345-1235-e-123-24-f-12456-e-5-1356-123
 begmidword giuliet 1245-24-136-e-123-24-e-15-2345
-always julier 245-136-e-123-24-12456
+always julier 245-136-e-123-24-e-12456
 always juliet 245-136-e-123-24-e-15-2345
 begmidword apuli 1-1234-136-e-123-24
 # mIE
-midendword mien 134-24-14
+midendword mien 134-24-e-14
 prfword miene 134-346-e-1345-15
 always mienen 134-346-e-1345-14
 always prämi 1234-1235-345-e-134-24
 always prämier 1234-1235-345-e-134-346-1235
 begmidword mesopotami 134-123456-135-e-1234-135-e-2345-1-e-134-24
-midendword emien 12356-24-14
-always akademien 1-13-1-e-145-12356-24-14
-always premier 1234-1235-12356-24-12456
-always krimieck 13-1235-24-e-134-24-e-15-46
+midendword emien 12356-24-e-14
+always akademien 1-13-1-e-145-12356-24-e-14
+always premier 1234-1235-12356-24-e-12456
+always krimieck 13-1235-24-e-134-24-f-15-46
 begmidword mumi 134-136-e-134-24
 # nIE
-midendword nien 1345-24-14
-prfword niente 1345-24-14-236
-prfword teniendo 2345-14-24-14-145-135
-prfword teniente 2345-14-24-14-236
-begmidword albani 25-12-235-24
+midendword nien 1345-24-e-14
+prfword niente 1345-24-14-e-236
+prfword teniendo 2345-14-24-e-14-e-145-135
+prfword teniente 2345-14-24-e-14-e-236
+begmidword albani 25-e-12-235-24
 begmidword jordani 245-26-e-145-235-24
-always daniel 145-235-24-13456
+always daniel 145-235-24-e-13456
 begmidword ozeani 135-1356-15-235-24
-always nathaniel 1345-1-e-2345-125-235-24-13456
-begmidword bethani 23-2345-125-235-24
-begmidword katalani 13-1-e-2345-25-1-e-1345-24
-prfword manien 134-235-24-14
-always germanien 1245-12456-e-134-235-24-14
+always nathaniel 1345-1-e-2345-125-235-24-e-13456
+begmidword bethani 23-e-2345-125-235-24
+begmidword katalani 13-1-e-2345-25-235-24
+prfword manien 134-235-24-e-14
+always germanien 1245-12456-e-134-235-24-e-14
 always tasmani 2345-1-234-e-134-235-24
-prfword kompanien 13-135-134-e-1234-235-24-14
+prfword kompanien 13-135-134-e-1234-235-24-e-14
 begmidword spani 234-1234-235-24
-always spaniel 234-1234-235-24-13456
+always spaniel 234-1234-235-24-e-13456
 always hispanismus 125-24-234-e-1234-235-5-24
 begmidword akrani 1-13-1235-235-24
 midendword akranich 1-f-13-1235-235-3456
@@ -5207,28 +5250,28 @@ begmidword orani 26-235-24
 begmidword gerani 1245-12456-235-24
 begmidword turani 2345-136-e-1235-235-24
 begmidword tansani 2345-235-e-234-235-24
-begmidword mauretani 134-16-1235-15-e-2345-235-24
+begmidword mauretani 134-16-e-1235-15-e-2345-235-24
 begmidword aquitani 1-6-12345-136-24-e-2345-235-24
-begmidword kastani 13-1-23456-235-24
+begmidword kastani 13-1-ca-23456-235-24
 begmidword silvani 234-24-123-e-1236-235-24
-always ingenieur 35-e-1245-14-24-126-1235
-always tschetscheni 2345-156-15-2345-156-14-24
-always tschetschenin 2345-156-15-2345-156-14-35
+always ingenieur 35-e-1245-14-24-e-126-1235
+always tschetscheni 2345-156-15-e-2345-cb-156-14-24
+always tschetschenin 2345-156-15-e-2345-cb-156-14-35
 always turkmeni 2345-136-1235-13-e-134-14-24
 always armeni 356-e-134-14-24
-always phrenien 1234-125-1235-14-24-14
-midendword venience 1236-14-24-14-e-6-14-15
-midendword venient 1236-14-24-14-2345
-midendword venienz 1236-14-24-14-1356
+always phrenien 1234-125-1235-14-24-e-14
+midendword venience 1236-14-24-e-14-e-6-14-15
+midendword venient 1236-14-24-e-14-2345
+midendword venienz 1236-14-24-e-14-1356
 always konvenier 13-135-1345-e-1236-14-346-1235
 begmidword sloweni 234-123-135-e-2456-14-24
 begmidword xeni 6-1346-14-24
 begmidword insigni 35-e-234-45-e-1345-24
-always carabinier 6-14-356-1-e-12-35-24-12456
+always carabinier 6-14-356-1-e-12-35-24-e-12456
 always robini 1235-135-e-12-35-24
-always jardinier 245-356-e-145-35-24-12456
+always jardinier 245-356-e-145-35-24-e-12456
 begmidword sardini 234-356-e-145-35-24
-begmidword finien 124-35-24-14
+begmidword finien 124-35-24-e-14
 begmidword lini 123-35-24
 begmidword pollini 1234-135-123-f-123-35-24
 always apollinisch 1-1234-135-12345-35-24-156
@@ -5239,285 +5282,287 @@ midendword linig 123-35-45
 always miniechs 134-35-24-f-15-1456-234
 always minieis 134-35-24-f-146-234
 prfword pinie 1234-35-24-15
-always pinien 1234-35-24-14
+always pinien 1234-35-24-e-14
 begmidword abessini 1-23-2346-35-24
 begmidword grusini 1245-1235-136-e-234-35-24
 begmidword argentini 356-e-1245-14-e-2345-35-24
 begmidword aktini 1-13-e-2345-35-24
 always aktinin 1-13-e-2345-35-35
-prfword routinier 1235-135-136-e-2345-35-24-12456
-prfword routiniers 1235-135-136-e-2345-35-24-12456-234
+prfword routinier 1235-135-136-e-2345-35-24-e-12456
+prfword routiniers 1235-135-136-e-2345-35-24-e-12456-234
 prfword zinie 1356-35-24-15
-always zinien 1356-35-24-14
+always zinien 1356-35-24-e-14
 prfword zinnie 1356-35-e-1345-24-15
-always zinnien 1356-35-e-1345-24-14
-always insomnien 35-e-234-135-134-e-1345-24-14
-begmidword bonbonier 12-135-1345-e-12-135-e-1345-24-12456
-begmidword bonbonnier 12-135-1345-e-12-135-1345-e-1345-24-12456
-always saisonnier 234-1-24-e-234-135-1345-e-1345-24-12456
-always chansonnier 1456-235-e-234-135-1345-e-1345-24-12456
+always zinnien 1356-35-e-1345-24-e-14
+always insomnien 35-e-234-135-134-e-1345-24-e-14
+begmidword bonbonier 12-135-1345-e-12-135-e-1345-24-e-12456
+begmidword bonbonnier 12-135-1345-e-12-135-1345-e-1345-24-e-12456
+always saisonnier 234-1-24-e-234-135-1345-e-1345-24-e-12456
+always chansonnier 1456-235-e-234-135-1345-e-1345-24-e-12456
 begmidword kaledoni 13-25-15-e-145-135-e-1345-24
 begmidword makedoni 134-1-e-13-15-e-145-135-e-1345-24
 begmidword mazedoni 134-1-e-1356-15-e-145-135-e-1345-24
-always chiffonier 1456-24-124-e-124-135-e-1345-24-12456
+always chiffonier 1456-24-124-e-124-135-e-1345-24-e-12456
 begmidword aragoni 356-1-e-1245-135-e-1345-24
-always begoni 23-1245-135-e-1345-24
+always begoni 23-e-1245-135-e-1345-24
 begmidword babyloni 12-1-e-12-6-13456-e-123-135-e-1345-24
 begmidword kataloni 13-1-e-2345-25-135-e-1345-24
 begmidword slawoni 234-123-1-e-2456-135-e-1345-24
-always marnier 134-356-e-1345-24-12456
-always dernier 145-12456-e-1345-24-12456
+always marnier 134-356-e-1345-24-e-12456
+always dernier 145-12456-e-1345-24-e-12456
 begmidword indernier 35-e-145-12456-f-1345-346-e-1235
 begmidword spendernier 234-1234-14-e-145-12456-f-1345-346-e-1235
 begmidword wandernier 2456-235-e-145-12456-f-1345-346-e-1235
 prfword hernie 125-12456-e-1345-24-15
-always hernien 125-12456-e-1345-24-14
+always hernien 125-12456-e-1345-24-e-14
 begmidword kaliforni 13-25-24-e-124-26-e-1345-24
-always bosnien 12-135-234-e-1345-24-14
-always bosnier 12-135-234-e-1345-24-12456
+always bosnien 12-135-234-e-1345-24-e-14
+always bosnier 12-135-234-e-1345-24-e-12456
 begmidword puni 1234-256-24
 always harpunier 125-356-e-1234-256-346-1235
 begmidword petuni 1234-15-e-2345-256-24
 begmidword bithyni 12-24-e-2345-125-6-13456-e-1345-24
 # oIE
-prfword boie 12-135-24-15
-always boien 12-135-24-14
+prfword boie 12-135-e-24-15
+always boien 12-135-e-24-14
 word foie 124-135-24-15
 always voien 1236-135-24-14
 # pIE
 word pie 1234-24-15
-sufword piedra 1234-24-15-145-1235-1
+sufword piedra 1234-24-15-e-145-cb-1235-1
 always piemont 1234-24-15-e-134-135-1345-2345
 midendword pien 1234-24-14
-sufword piensa 1234-24-14-234-1
+sufword piensa 1234-24-14-e-234-1
 sufword piero 1234-24-12456-135
 always pierre 1234-24-12456-e-1235-15
 always pierres 1234-24-12456-e-1235-123456
 always papier 1234-1-e-1234-346-1235
-#always                               papiermaché            PAtPI7tM<"%
+always papiermaché 1234-1-e-1234-24-12456-f-134-1-e-1456-1234568
 always pierrot 1234-24-12456-e-1235-135-2345
 always kopier 13-135-e-1234-346-1235
-always kanopier 13-235-135-e-1234-24-12456
+always kanopier 13-235-135-e-1234-24-e-12456
 prfword pies 1234-24-15-234
 prfword hippies 125-24-1234-e-1234-346-234
 prfword yuppies 6-13456-136-1234-e-1234-346-234
 always pieta 1234-24-15-e-2345-1
+always pietà 1234-24-15-e-2345-123568
 always pietismus 1234-24-15-2345-5-24
 always pietist 1234-24-15-e-2345-24-23456
 always pietistisch 1234-24-15-e-2345-5-156
-always pietro 1234-24-15-e-2345-1235-135
+always pietro 1234-24-15-e-2345-cb-1235-135
 always pietät 1234-24-15-e-2345-345-2345
 always piezo 1234-24-15-e-1356-135
-always kneipier 13-1345-146-e-1234-24-12456
-always olympier 135-123-6-13456-134-e-1234-24-12456
-begmidword äthiopi 345-2345-125-24-135-e-1234-24
-always croupier 6-14-1235-135-136-e-1234-24-12456
+always kneipier 13-1345-146-e-1234-24-e-12456
+always olympier 135-123-6-13456-134-e-1234-24-e-12456
+begmidword äthiopi 345-2345-125-24-cb-135-e-1234-24
+always croupier 6-14-1235-135-136-e-1234-24-e-12456
 prfword rupie 1235-136-e-1234-24-15
-always rupien 1235-136-e-1234-24-14
+always rupien 1235-136-e-1234-24-e-14
 # qIE
 # rIE
 word rien 1235-24-14
-midendword rien 1235-24-14
+midendword rien 1235-24-e-14
 prfword arie 356-24-15
-sufword ariel 356-24-13456
-prfword arielle 356-24-15-12345-15
-prfword arielles 356-24-15-12345-123456
+sufword ariel 356-24-e-13456
+prfword arielle 356-24-e-15-12345-15
+prfword arielles 356-24-e-15-12345-123456
 always marie 134-356-346
-prfword mariette 134-356-24-e-15-2345-236
+prfword mariette 134-356-24-e-15-2345-e-236
 always mariett 134-356-24-e-15-2345-2345
-prfword parietal 1234-356-24-e-15-e-2345-1-123
-always parietal 1234-356-24-e-15-e-2345-25
+prfword parietal 1234-356-24-cb-15-e-2345-1-123
+always parietal 1234-356-24-cb-15-e-2345-25
 always havarie 125-1-e-1236-356-346
-always arien 356-24-14
-always marien 134-356-24-14
-always havarien 125-1-e-1236-356-24-14
-always arier 356-24-12456
+always arien 356-24-e-14
+always marien 134-356-24-e-14
+always havarien 125-1-e-1236-356-24-e-14
+always arier 356-24-e-12456
 always karier 13-356-346-1235
-always karies 13-356-24-123456
+always karies 13-356-24-e-123456
 always klarier 13-123-356-346-1235
 always parier 1234-356-346-1235
 always tarier 2345-356-346-1235
-always ozetarier 135-1356-15-e-2345-356-24-12456
-always rotarier 1235-135-e-2345-356-24-12456
-always vegetarier 1236-15-e-12346-e-2345-356-24-12456
-midendword letarier 123-15-e-2345-356-24-12456
-always unitarier 256-24-e-2345-356-24-12456
-always trinitarier 2345-1235-35-24-e-2345-356-24-12456
-always parlamentarier 1234-356-e-123-1-e-134-14-e-2345-356-24-12456
+always ozetarier 135-1356-15-e-2345-356-24-e-12456
+always rotarier 1235-135-e-2345-356-24-e-12456
+always vegetarier 1236-15-e-12346-e-2345-356-24-e-12456
+midendword letarier 123-15-e-2345-356-24-e-12456
+always unitarier 256-24-e-2345-356-24-e-12456
+always trinitarier 2345-1235-35-24-e-2345-356-24-e-12456
+always parlamentarier 1234-356-e-123-1-e-134-14-e-2345-356-24-e-12456
 begmidword variet 1236-356-24-15-e-2345
-prfword variete 1236-356-24-15-236
-always gabriel 1245-1-12-1235-24-13456
-always erien 12456-24-14
-always iberien 24-12-12456-24-14
-always drogerien 145-1235-135-e-1245-12456-24-14
+prfword variete 1236-356-24-15-e-236
+always gabriel 1245-1-e-12-cb-1235-24-e-13456
+always erien 12456-24-e-14
+always iberien 24-12-12456-24-e-14
+always drogerien 145-1235-135-e-1245-12456-24-e-14
 prfword serie 234-12456-24-15
-always terien 2345-12456-24-14
-begmidword algeri 25-1245-12456-24
+always terien 2345-12456-24-e-14
+begmidword algeri 25-e-1245-12456-24
 prfword serie 234-12456-24-15
 midendword onfiserie 135-1345-e-124-24-e-234-12456-346
-prfword onfiserien 135-1345-e-124-24-e-234-12456-24-14
+prfword onfiserien 135-1345-e-124-24-e-234-12456-24-e-14
 always chinoiserie 1456-35-135-24-e-234-12456-346
-prfword chinoiserien 1456-35-135-24-e-234-12456-24-14
+prfword chinoiserien 1456-35-135-24-e-234-12456-24-e-14
 always inserier 35-e-234-12456-346-1235
 always komparserie 13-135-134-e-1234-356-e-234-12456-346
-prfword komparserien 13-135-134-e-1234-356-e-234-12456-24-14
+prfword komparserien 13-135-134-e-1234-356-e-234-12456-24-e-14
 always asserier 1-2346-12456-346-1235
 always brasserie 12-1235-1-2346-12456-346
 always tapisserie 2345-1-e-1234-24-2346-12456-346
-prfword tapisserien 2345-1-e-1234-24-2346-12456-24-14
+prfword tapisserien 2345-1-e-1234-24-2346-12456-24-e-14
 always patisserie 1234-1-e-2345-24-2346-12456-346
-prfword patisserien 1234-1-e-2345-24-2346-12456-24-14
+prfword patisserien 1234-1-e-2345-24-2346-12456-e-24-14
 always karosserie 13-356-135-2346-12456-346
-prfword karosserien 13-356-135-2346-12456-24-14
+prfword karosserien 13-356-135-2346-12456-24-e-14
 begmidword materi 134-1-e-2345-12456-24
 begmidword bakteri 12-1-13-e-2345-12456-24
 always interieur 35-2345-12456-24-e-126-1235
 before e begmidword arteri 356-2345-12456-24
 always grien 1245-1235-346-1345
-begmidword sangrien 234-235-1245-1235-24-14
+begmidword sangrien 234-235-e-1245-1235-24-e-14
 begmidword ugri 136-1245-1235-24
 begmidword sibiri 234-24-e-12-24-e-1235-24
 begmidword henriett 125-14-e-1235-24-e-15-2345-e-2345
-prfword henriette 125-14-e-1235-24-e-15-2345-236
+prfword henriette 125-14-e-1235-24-e-15-2345-e-236
 endword orien 26-24-14
 always kategorien 13-1-236-e-1245-26-24-14
-always kalorien 13-25-26-24-14
-always theorie 2345-125-15-26-346
-always theorien 2345-125-15-26-24-14
+always kalorien 13-25-26-24-e-14
+always theorie 2345-125-15-cb-26-346
+always theorien 2345-125-15-cb-26-24-e-14
 always orient 26-24-14-2345
 begmidword glori 1245-123-26-24
 always moriend 134-26-24-e-14-145
 begmidword akzessori 1-13-e-1356-15-2346-26-24
-begmidword histori 125-24-23456-26-24
-always historismus 125-24-23456-26-5-24
+begmidword histori 125-24-ca-23456-26-24
+always historismus 125-24-ca-23456-26-5-24
 begmidword zichori 1356-3456-26-24
-begmidword tutorien 2345-136-e-2345-26-24-14
+begmidword tutorien 2345-136-e-2345-26-24-e-14
 begword propriet 12345-e-1234-1235-24-15-e-2345
 always propriet 1234-1235-135-e-1234-1235-24-15-e-2345
-always carrier 6-14-356-e-1235-24-12456
+always carrier 6-14-356-e-1235-24-e-12456
 always barrier 12-356-e-1235-24-e-12456
-always harriet 125-356-e-1235-24-15-2345
-always karrier 13-356-e-1235-24-12456
-always perrier 1234-12456-e-1235-24-12456
-always terrier 2345-12456-e-1235-24-12456
-begmidword corrier 6-14-26-e-1235-24-12456
+always harriet 125-356-e-1235-24-e-15-2345
+always karrier 13-356-e-1235-24-e-12456
+always perrier 1234-12456-e-1235-24-e-12456
+always terrier 2345-12456-e-1235-24-e-12456
+begmidword corrier 6-14-26-e-1235-24-e-12456
 always triest 2345-1235-24-15-23456
 always zoroastrier 1356-26-135-f-1-23456-1235-24-e-12456
-always industrie 35-e-145-136-23456-1235-346
-always industriell 35-e-145-136-23456-1235-24-e-15-12345
-prfword industrien 35-e-145-136-23456-1235-24-14
-always saurier 234-16-e-1235-24-12456
+always industrie 35-e-145-136-ca-23456-1235-346
+always industriell 35-e-145-136-ca-23456-1235-24-e-15-12345
+prfword industrien 35-e-145-136-ca-23456-1235-24-e-14
+always saurier 234-16-e-1235-24-e-12456
 prfword furie 124-136-e-1235-24-15
-always furien 124-136-e-1235-24-14
+always furien 124-136-e-1235-24-e-14
 always furier 124-136-e-1235-346-1235
 prfword injurie 35-e-245-136-e-1235-24-15
-always injurien 35-e-245-136-e-1235-24-14
+always injurien 35-e-245-136-e-1235-24-e-14
 always injurier 35-e-245-136-e-1235-346-1235
 prfword kurie 13-136-e-1235-24-15
-always kurien 13-136-e-1235-24-14
+always kurien 13-136-e-1235-24-e-14
 always kurier 13-136-e-1235-346-1235
 always dekurie 145-15-e-13-136-e-1235-24-15
-prfword muriel 134-136-e-1235-24-13456
-prfword muriels 134-136-e-1235-24-13456-234
-always courier 6-14-135-136-e-1235-24-12456
+prfword muriel 134-136-e-1235-24-e-13456
+prfword muriels 134-136-e-1235-24-e-13456-234
+always courier 6-14-135-136-e-1235-24-e-12456
 begmidword zenturi 1356-14-e-2345-136-e-1235-24
-always couturier 6-14-135-136-e-2345-136-e-1235-24-12456
+always couturier 6-14-135-136-e-2345-136-e-1235-24-e-12456
 begmidword kyri 13-6-13456-e-1235-24
-always illyrier 24-12345-6-13456-e-1235-24-12456
+always illyrier 24-12345-6-13456-e-1235-24-e-12456
 begmidword syri 234-6-13456-e-1235-24
 begmidword syrin 234-6-13456-e-1235-35
 begmidword assyri 1-2346-6-13456-e-1235-24
 # sIE
-midendword sien 234-24-14
+midendword sien 234-24-e-14
 begword sierr 234-24-12456-e-1235
 always sierra 234-24-12456-e-1235-1
 always sterilisier 23456-12456-24-e-123-24-e-234-346-1235
-always siesta 234-24-15-23456-1
-midendword sieur 234-24-126-1235
-word messieurs 134-15-2346-24-126-1235-234
+always siesta 234-24-15-ca-23456-1
+midendword sieur 234-24-e-126-1235
+word messieurs 134-15-2346-24-e-126-1235-234
 begmidword kaukasi 13-16-e-13-1-e-234-24
-begmidword douglasi 145-135-136-1245-123-1-e-234-24
-begmidword austrasi 16-23456-1235-1-e-234-24
+begmidword douglasi 145-135-136-e-1245-cb-123-1-e-234-24
+begmidword austrasi 16-ca-23456-1235-1-e-234-24
 begmidword eurasi 126-e-1235-1-e-234-24
 midendword antasie 235-e-2345-1-e-234-346
-endword antasien 235-e-2345-1-e-234-24-14
-endword esien 123456-24-14
+endword antasien 235-e-2345-1-e-234-24-e-14
+endword esien 123456-24-e-14
 begmidword rhodesi 1235-125-135-e-145-123456-24
 begmidword freesi 124-1235-15-15-e-234-24
 begmidword schlesi 156-123-123456-24
-always milesier 134-24-e-123-123456-24-12456
+always milesier 134-24-e-123-123456-24-e-12456
 begmidword melanesi 134-13456-235-123456-24
 begmidword indonesi 35-e-145-135-e-1345-123456-24
 begmidword mikronesi 134-24-e-13-1235-135-e-1345-123456-24
 begmidword tunesi 2345-256-123456-24
 begmidword polynesi 1234-135-e-123-6-13456-e-1345-123456-24
-always theresien 2345-125-12456-123456-24-14
+always theresien 2345-125-12456-123456-24-e-14
 begmidword fuchsi 124-136-1456-e-234-24
 always fuchsig 124-136-1456-e-234-45
-always chemisier 1456-12356-24-e-234-24-12456
-always lavoisier 123-1-e-1236-135-24-e-234-24-12456
+always chemisier 1456-12356-24-e-234-24-e-12456
+always lavoisier 123-1-e-1236-135-24-e-234-24-e-12456
 begmidword hortensi 125-26-e-2345-14-e-234-24
-midendword ssien 2346-24-14
-midendword messieur 134-15-2346-24-126-1235
-always jurassier 245-136-e-1235-1-2346-24-12456
-always patissier 1234-1-e-2345-24-2346-24-12456
-always dossier 145-135-2346-24-12456
-always dossierung 145-135-2346-346-1235-136
-prfword haussier 125-16-2346-24-12456
-prfword haussiers 125-16-2346-24-12456-234
-always arkebusier 356-e-13-15-e-12-136-e-234-24-12456
-always corbusier 6-14-26-e-12-136-e-234-24-12456
+midendword ssien 2346-24-e-14
+midendword messieur 134-15-2346-24-e-126-1235
+always jurassier 245-136-e-1235-1-2346-24-e-12456
+always patissier 1234-1-e-2345-24-2346-24-e-12456
+always dossier 145-135-2346-24-e-12456
+always dossierung 145-135-2346-346-e-1235-136
+prfword haussier 125-16-2346-24-e-12456
+prfword haussiers 125-16-2346-24-e-12456-234
+always arkebusier 356-e-13-15-e-12-136-e-234-24-e-12456
+always corbusier 6-14-26-e-12-136-e-234-24-e-12456
 begmidword andalusi 235-e-145-25-136-e-234-24
-begmidword salusier 234-25-136-e-234-24-12456
-always malaysier 134-25-1-6-13456-e-234-24-12456
+begmidword salusier 234-25-136-e-234-24-e-12456
+always malaysier 134-25-1-6-13456-e-234-24-e-12456
 # tIE
 word tien 2345-24-14
-midendword tien 2345-24-14
+midendword tien 2345-24-e-14
 prfword tiende 2345-24-14-e-145-15
 prfword tiende 2345-24-14-e-145-15
-midendword atien 1-e-2345-24-14
+midendword atien 1-e-2345-24-e-14
 prfword tiens 2345-24-14-234
 prfword tient 2345-24-14-2345
-always poitiers 1234-135-24-e-2345-24-12456-234
-always chocolatier 1456-135-e-6-14-135-e-123-1-e-2345-24-12456
-prfword demokratien 145-2345-24-14
-always privatier 1234-1235-24-e-1236-1-e-2345-24-12456
-always cafetier 6-14-1-e-124-15-e-2345-24-12456
-always metier 134-15-e-2345-24-12456
+always poitiers 1234-135-24-e-2345-24-e-12456-234
+always chocolatier 1456-135-e-6-14-135-e-123-1-e-2345-24-e-12456
+prfword demokratien 145-2345-24-e-14
+always privatier 1234-1235-24-e-1236-1-e-2345-24-e-12456
+always cafetier 6-14-1-e-124-15-e-2345-24-e-12456
+always metier 134-15-e-2345-24-e-12456
 begmidword helveti 125-13456-e-1236-15-e-2345-24
 always helvetismus 125-13456-e-1236-15-e-2345-5-24
 always helvetismen 125-13456-e-1236-15-e-2345-24-234-e-134-14
-always pleitier 1234-123-146-e-2345-24-12456
-always poitiers 1234-135-24-e-2345-24-12456-234
+always pleitier 1234-123-146-e-2345-24-e-12456
+always poitiers 1234-135-24-e-2345-24-e-12456-234
+always mauritier 134-16-e-1235-24-e-2345-24-e-12456
 prfword aktie 1-13-e-2345-24-15
-always aktien 1-13-e-2345-24-14
+always aktien 1-13-e-2345-24-e-14
 always paktier 1234-1-13-e-2345-346-1235
 always traktier 2345-1235-1-13-e-2345-346-1235
 always taktier 2345-1-13-e-2345-346-1235
 always multi 134-136-123-e-2345-24
 before e begmidword anti 235-2345-24
 prfword antie 235-2345-346
-always orkantief 26-13-235-e-2345-346-124
+always orkantief 26-13-235-f-2345-346-124
 always hantier 125-235-e-2345-346-1235
 always garantie 1245-356-235-e-2345-346
-always garantien 1245-356-235-e-2345-24-14
-sufword proviantier 12345-1236-24-235-e-2345-346-1235
-midendword proviantier 1234-1235-135-e-1236-24-235-e-2345-346-1235
+always garantien 1245-356-235-e-2345-24-e-14
+sufword proviantier 12345-e-1236-24-e-235-e-2345-346-1235
+midendword proviantier 1234-1235-135-e-1236-24-e-235-e-2345-346-1235
 always kantier 13-235-e-2345-346-1235
 always plantier 1234-123-235-e-2345-346-1235
 always tantiem 2345-235-e-2345-24-12356
-always cartier 6-14-356-e-2345-24-12456
+always cartier 6-14-356-e-2345-24-e-12456
 # HOMONYM
-always portier 1234-26-e-2345-24-12456
+always portier 1234-26-e-2345-24-e-12456
 prfword portierbar 1234-26-e-2345-346-1235-e-12-1-1235
 begmidword portierbar 1234-26-e-2345-346-1235-e-12-356
 # HOMONYM
-prfword portiere 1234-26-e-2345-346-e-1235-15
+prfword portiere 1234-26-e-2345-24-e-12456-15
 prfword portieren 1234-26-e-2345-346-e-1235-14
 always portierend 1234-26-e-2345-346-e-1235-14-145
 prfword portierst 1234-26-e-2345-346-1235-23456
 always portiert 1234-26-e-2345-346-1235-2345
-prfword portierte 1234-26-e-2345-346-1235-236
+prfword portierte 1234-26-e-2345-346-1235-e-236
 prfword portiertest 1234-26-e-2345-346-1235-e-236-23456
 prfword portiertet 1234-26-e-2345-346-1235-e-236-2345
 always portierung 1234-26-e-2345-346-e-1235-136
@@ -5529,20 +5574,20 @@ always apportier 1-1234-e-1234-26-e-2345-346-1235
 sufword exportier 1346-e-1234-26-e-2345-346-1235
 midendword exportier 15-6-1346-e-1234-26-e-2345-346-1235
 always transportier 2345-1235-235-234-e-1234-26-e-2345-346-1235
-midendword stien 23456-24-14
-midendword estien 15-23456-24-14
-prfword bestie 23-23456-24-15
-always bestien 23-23456-24-14
-begmidword hosti 125-135-23456-24
+midendword stien 23456-24-e-14
+midendword estien 15-ca-23456-24-e-14
+prfword bestie 23-ca-23456-24-15
+always bestien 23-ca-23456-24-e-14
+begmidword hosti 125-135-ca-23456-24
 always hosting 125-135-23456-35-1245
-always hostinter 125-135-23456-e-35-2345-12456
-always bustier 12-136-23456-24-12456
-always büfettier 12-1256-e-124-15-2345-e-2345-24-12456
-always spaghettiess 234-1234-1-1245-125-15-2345-e-2345-24-f-15-2346
-always spaghettieis 234-1234-1-1245-125-15-2345-e-2345-24-f-146-234
-always gautier 1245-16-e-2345-24-12456
-always bijoutier 12-24-e-245-135-136-e-2345-24-12456
-always moutier 134-135-136-e-2345-24-12456
+always hostinter 125-135-23456-f-35-e-2345-12456
+always bustier 12-136-ca-23456-24-e-12456
+always büfettier 12-1256-e-124-15-2345-e-2345-24-e-12456
+always spaghettiess 234-1234-1-e-1245-125-15-2345-e-2345-24-f-15-2346
+always spaghettieis 234-1234-1-e-1245-125-15-2345-e-2345-24-f-146-234
+always gautier 1245-16-e-2345-24-e-12456
+always bijoutier 12-24-e-245-135-136-e-2345-24-e-12456
+always moutier 134-135-136-e-2345-24-e-12456
 # uIE
 always quietismus 6-12345-136-24-15-e-2345-5-24
 always quietistisch 6-12345-136-24-15-e-2345-5-156
@@ -5554,62 +5599,62 @@ begmidword reliqui 1235-13456-24-e-6-12345-136-24
 begmidword vienn 1236-24-14-1345
 always viet 1236-24-15-2345
 always view 1236-24-15-2456
-always javier 245-1-e-1236-24-12456
+always javier 245-1-e-1236-24-e-12456
 begmidword skandinavi 234-13-235-e-145-35-1-e-1236-24
-always xavier 6-1346-1-e-1236-24-12456
+always xavier 6-1346-1-e-1236-24-e-12456
 begmidword endivi 14-e-145-24-e-1236-24
 begmidword bolivi 12-135-e-123-24-e-1236-24
-always riviera 1235-24-e-1236-24-12456-1
-always vivien 1236-24-e-1236-24-14
+always riviera 1235-24-e-1236-24-e-12456-1
+always vivien 1236-24-e-1236-24-e-14
 # wIE
 always jugoslawi 245-136-e-1245-135-e-234-123-1-e-2456-24
 always jugoslawin 245-136-e-1245-135-e-234-123-1-e-2456-35
 always moldawi 134-135-123-e-145-1-e-2456-24
 # xIE
-always galaxien 1245-25-1-e-6-1346-24-14
-always sexier 234-15-6-1346-24-12456
-always sexiest 234-15-6-1346-24-15-23456
-always paradoxien 1234-356-1-e-145-135-6-1346-24-14
+always galaxien 1245-25-1-e-6-1346-24-e-14
+always sexier 234-15-e-6-1346-24-e-12456
+always sexiest 234-15-e-6-1346-24-e-15-23456
+always paradoxien 1234-356-1-e-145-135-e-6-1346-24-e-14
 begmidword gloxini 1245-123-135-e-6-1346-35-24
 # yIE
 begmidword harpyi 125-356-e-1234-6-13456-e-24
 # zIE
-midendword zien 1356-24-14
+midendword zien 1356-24-e-14
 begmidword akazi 1-13-1-e-1356-24
 begmidword grazi 1245-1235-1-e-1356-24
 begmidword pistazi 1234-24-23456-1-e-1356-24
 begmidword allochezi 1-12345-135-e-1456-15-e-1356-24
 begmidword alopezi 25-135-e-1234-15-e-1356-24
-always spezies 234-1234-15-e-1356-24-123456
+always spezies 234-1234-15-e-1356-24-e-123456
 begmidword phönizi 1234-125-246-e-1345-24-e-1356-24
-always patrizier 1234-1-e-2345-1235-24-e-1356-24-12456
+always patrizier 1234-1-e-2345-1235-24-e-1356-24-e-12456
 begmidword alkylanzi 25-e-13-6-13456-e-123-235-e-1356-24
 begmidword koagulanzi 13-135-e-1-1245-136-e-123-235-e-1356-24
-prfword finanzier 124-35-235-e-1356-24-12456
-prfword finanziers 124-35-235-e-1356-24-12456-234
-always soziet 234-135-e-1356-24-15-e-2345
+prfword finanzier 124-35-235-e-1356-24-e-12456
+prfword finanziers 124-35-235-e-1356-24-e-12456-234
+always soziet 234-135-e-1356-24-cb-15-e-2345
 
 # IG  (4.1 Lautgruppenkürzungen)
 midendword ig 45
 midendword igarten 24-f-1245-356-e-2345-14
 midendword igebiet 24-f-12346-e-12-346-2345
-endword igebiete 24-f-12346-e-12-346-236
+endword igebiete 24-f-12346-e-12-346-e-236
 midword igebäud 24-f-12346-e-12-34-e-145
 midendword igegner 24-f-12346-1245-e-1345-12456
 midendword igehalt 24-f-12346-e-125-25-2345
 midendword igeist 24-f-1245-146-23456
 midword igeländ 24-f-12346-e-123-345-1345-e-145
-endword igenre 24-f-1245-14-1235-15
-endword igenres 24-f-1245-14-1235-123456
+endword igenre 24-f-1245-14-e-1235-15
+endword igenres 24-f-1245-14-e-1235-123456
 midendword igeschoss 24-f-12346-e-156-135-2346
 midendword igeschäft 24-f-1245-124
 midendword igeschmack 24-f-12346-e-156-134-1-46
 midword igess 45-15-2346
-midword igewerbe 24-f-12346-e-2456-12456-23
-endword igewerbe 24-f-12346-e-2456-12456-12-15
+midword igewerbe 24-f-12346-e-2456-12456-e-23
+endword igewerbe 24-f-12346-e-2456-12456-e-12-15
 midendword igewinn 24-f-12346-e-2456-35-1345
-midword ignor 24-1245-1345-26
-endword ignor 24-1245-1345-135-1235
+midword ignor 24-1245-cb-1345-26
+endword ignor 24-1245-cb-1345-135-1235
 midendword igold 24-f-1245-135-123-145
 midendword igolf 24-f-1245-135-123-124
 midendword igratin 24-f-1245-1235-1-e-2345-35
@@ -5624,11 +5669,11 @@ always bonsai 12-135-1345-e-234-1-24
 always alibi 25-24-e-12-24
 always kombi 13-135-134-e-12-24
 always digamma 145-24-e-1245-1-1346-1
-word digest 145-24-1245-15-23456
+word digest 145-24-e-1245-15-23456
 always digestif 145-45-15-23456-24-124
 begmidword digitiz 145-24-e-1245-24-2345-24-1356
 always fight 124-24-1245-125-2345
-before g begword profi 12345-124-24
+before g begword profi 12345-e-124-24
 before g midword profi 1234-1235-135-e-124-24
 always schoggiguet 156-135-1245-e-1245-24-f-1245-136-15-2345
 always rigigrat 1235-24-e-1245-24-f-1245-1235-1-2345
@@ -5639,75 +5684,78 @@ always skigott 234-13-24-f-1245-135-2345-2345
 begmidword skigött 234-13-24-f-1245-246-2345-2345
 always light 123-24-1245-125-2345
 always align 1-123-24-1245-1345
-always alignier 25-45-1345-346-1235
+always alignier 25-45-cb-1345-346-1235
 always alkaliglasur 25-13-1-e-123-24-f-1245-123-1-e-234-136-1235
 always psaligraf 1234-234-25-24-f-1245-1235-1-124
 always psaligraph 1234-234-25-24-f-1245-1235-1-1234-125
-always negligee 1345-15-1245-123-24-e-1245-15-15
+always negligee 1345-15-e-1245-cb-123-24-e-1245-15-15
+always negligé 1345-15-e-1245-cb-123-24-e-1245-1234568
 always kalligraf 13-1-12345-24-f-1245-1235-1-124
-always kalligrafien 13-1-12345-24-f-1245-1235-1-e-124-24-14
+always kalligrafien 13-1-12345-24-f-1245-1235-1-e-124-24-e-14
 always kalligraph 13-1-12345-24-f-1245-1235-1-1234-125
 always milligramm 134-24-12345-24-f-1245-1235-1-1346
-always mignon 134-24-1245-1345-135-1345
-always talmiglanz 2345-25-134-24-f-1245-123-235-1356
+always mignon 134-24-1245-cb-1345-135-1345
+always talmiglanz 2345-25-e-134-24-f-1245-123-235-1356
 always night 1345-24-1245-125-2345
 always armani 356-e-134-235-24
-always organigramm 26-1245-235-24-e-1245-1235-1-1346
+always organigramm 26-e-1245-235-24-e-1245-1235-1-1346
 begmidword pleniglazi 1234-123-14-24-f-1245-123-1-e-1356-24
 always bikini 12-24-e-13-35-24
 always martini 134-356-e-2345-35-24
-always soignier 234-135-24-1245-1345-346-1235
+always soignier 234-135-24-e-1245-cb-1345-346-1235
 always epigeneti 15-1234-24-f-1245-14-15-e-2345-24
 always epigraf 15-1234-24-f-1245-1235-1-124
 always epigramm 15-1234-24-f-1245-1235-1-1346
 always epigraph 15-1234-24-f-1245-1235-1-1234-125
-always champignon 1456-1-134-e-1234-24-1245-1345-135-1345
+always champignon 1456-1-134-e-1234-24-e-1245-cb-1345-135-1345
 always right 1235-24-1245-125-2345
 always rigips 1235-24-e-1245-24-1234-234
 always lollobrigida 123-135-12345-135-e-12-1235-24-e-1245-24-e-145-1
 always serigraf 234-12456-24-f-1245-1235-1-124
 begmidword periglazi 1234-12456-24-f-1245-123-1-e-1356-24
 always serigraph 234-12456-24-f-1245-1235-1-1234-125
+always grigio 1245-1235-24-e-1245-24-135
 always aborigine 1-12-e-26-45-35-15
 always aborigines 1-12-e-26-45-35-123456
 always trigeminus 2345-1235-24-f-1245-12356-35-136-234
 always triglyzerin 2345-1235-24-f-1245-123-6-13456-e-1356-12456-35
 always sight 234-24-1245-125-2345
 prfword sign 234-24-1245-1345
+always signifié 234-24-e-1245-cb-1345-24-e-124-24-1234568
 prfword signs 234-24-1245-1345-234
 always design 145-123456-24-1245-1345
 always designation 145-123456-45-e-1345-5-1345
 always designat 145-123456-45-e-1345-1-2345
 always designier 145-123456-45-e-1345-346-1235
-always unsigned 256-234-24-1245-1345-15-145
+always unsigned 256-e-234-24-1245-1345-15-145
 begmidword gassigeh 1245-1-2346-24-f-1245-2356
 always graffiti 1245-1235-1-124-e-124-24-e-2345-24
-always altigraf 25-2345-24-f-1245-1235-1-124
-always altigraph 25-2345-24-f-1245-1235-1-1234-125
-always antigen 235-2345-24-f-1245-14
-always antiguerilla 235-2345-24-f-1245-136-12456-24-12345-1
+always altigraf 25-e-2345-24-f-1245-1235-1-124
+always altigraph 25-e-2345-24-f-1245-1235-1-1234-125
+always antigen 235-e-2345-24-f-1245-14
+always antiguerilla 235-e-2345-24-f-1245-136-12456-24-12345-1
 always kantigen 13-235-e-2345-45-14
 always grantigen 1245-1235-235-e-2345-45-14
-always antigestalt 235-2345-24-f-12346-e-23456-25-2345
-begmidword antiglob 235-2345-24-f-1245-123-135-e-12
-begmidword antigrav 235-2345-24-f-1245-1235-1-e-1236
-always antiguerr 235-2345-24-f-1245-136-12456-1235
-always zentigrad 1356-14-2345-24-f-1245-1235-1-145
-always zentigramm 1356-14-2345-24-f-1245-1235-1-1346
-always szintigraf 234-1356-35-2345-24-f-1245-1235-1-124
-always szintigramm 234-1356-35-2345-24-f-1245-1235-1-1346
-always szintigraph 234-1356-35-2345-24-f-1245-1235-1-1234-125
+always antigestalt 235-e-2345-24-f-12346-e-23456-25-2345
+begmidword antiglob 235-e-2345-24-f-1245-123-135-e-12
+begmidword antigrav 235-e-2345-24-f-1245-1235-1-e-1236
+always antiguerr 235-e-2345-24-f-1245-136-12456-1235
+always zentigrad 1356-14-e-2345-24-f-1245-1235-1-145
+always zentigramm 1356-14-e-2345-24-f-1245-1235-1-1346
+always szintigraf 234-1356-35-e-2345-24-f-1245-1235-1-124
+always szintigramm 234-1356-35-e-2345-24-f-1245-1235-1-1346
+always szintigraph 234-1356-35-e-2345-24-f-1245-1235-1-1234-125
 begmidword spontigrupp 234-1234-135-1345-e-2345-24-f-1245-1235-136-1234-e-1234
 always konfetti 13-135-1345-e-124-15-2345-e-2345-24
-always antipasti 235-2345-24-e-1234-1-23456-24
+always antipasti 235-e-2345-24-e-1234-1-ca-23456-24
 always luigi 123-136-24-e-1245-24
-prfword vignette 1236-24-1245-1345-15-2345-236
-always vignetten 1236-24-1245-1345-15-2345-e-2345-14
-always avignon 1-1236-24-1245-1345-135-1345
-always savigny 234-1-e-1236-24-1245-1345-6-13456
-always sauvignon 234-16-e-1236-24-1245-1345-135-1345
+prfword vignette 1236-24-e-1245-cb-1345-15-2345-236
+always vignetten 1236-24-e-1245-cb-1345-15-2345-e-2345-14
+always avignon 1-1236-24-e-1245-cb-1345-135-1345
+always savigny 234-1-e-1236-24-e-1245-cb-1345-6-13456
+always sauvignon 234-16-e-1236-24-e-1245-cb-1345-135-1345
 always dwight 145-2456-24-1245-125-2345
-before g begmidword plexi 1234-123-15-6-1346-24
+before g begmidword plexi 1234-123-15-e-6-1346-24-f
 before g begmidword nazi 1345-1-e-1356-24-f
 always dezigramm 145-15-e-1356-24-f-1245-1235-1-1346
 
@@ -5720,6 +5768,7 @@ word ihnen 24-125-14
 
 # IHR (4.3.3 Einformige Kürzungen, alleinstehend oder am Wortanfang)
 sufword ihr 24
+sufword ihrz 24-125-1235-1356
 word ihr's 24-6-234
 
 # IM    (4.3.1 Einformige Wortkürzungen, nur alleinstehend)
@@ -5767,16 +5816,16 @@ always paint 1234-1-24-1345-2345
 always rain 1235-1-24-1345
 begmidword cholerain 1456-135-e-123-12456-1-f-35
 begmidword kamerain 13-1-e-134-12456-1-f-35
-begmidword ukrain 136-13-1235-1-35
-begmidword kontrain 13-135-1345-2345-1235-1-f-35
+begmidword ukrain 136-13-1235-1-cb-35
+begmidword kontrain 13-135-1345-e-2345-cb-1235-1-f-35
 always trainee 2345-1235-1-24-e-1345-15-15
 always trainer 2345-1235-1-24-e-1345-12456
-always rainier 1235-1-24-e-1345-24-12456
+always rainier 1235-1-24-e-1345-24-e-12456
 always drainier 145-1235-1-24-e-1345-346-1235
 always trainier 2345-1235-1-24-e-1345-346-1235
-always training 2345-1235-1-24-1345-35-1245
+always training 2345-1235-1-24-e-1345-35-1245
 prfword saint 234-1-24-1345-2345
-prfword sainte 234-1-24-1345-236
+prfword sainte 234-1-24-1345-e-236
 always tain 2345-1-24-1345
 always mountain 134-135-136-1345-e-2345-1-24-1345
 begmidword metain 134-15-e-2345-1-f-35
@@ -5786,33 +5835,36 @@ prfword binational 12-24-e-1345-5-1345-1-123
 always binational 12-24-e-1345-5-1345-25
 begword profinut 12345-e-124-24-f-1345-136-2345
 midword profinut 1234-1235-135-e-124-24-f-1345-136-2345
+always kalinatron 13-25-24-f-1345-1-e-2345-cb-1235-135-1345
 before n begmidword juli 245-136-e-123-24
 begmidword gumminier 1245-136-1346-24-f-1345-346-1235
 before n begmidword juni 245-256-24
 always cointreau 6-14-135-24-1345-e-2345-1235-15-16
 always joint 245-135-24-1345-2345
 always point 1234-135-24-1345-2345
-prfword pointe 1234-135-35-236
+prfword pointe 1234-135-35-e-236
 always pointen 1234-135-35-e-2345-14
 always pointier 1234-135-35-e-2345-346-1235
 begmidword pointill 1234-135-35-e-2345-24-12345
-always antoin 235-2345-135-24-1345
+always antoin 235-e-2345-135-24-1345
 always allantoin 1-12345-235-2345-135-35
 always multination 134-136-123-e-2345-24-f-1345-5-1345
-always antinano 235-2345-24-f-1345-235-135
-always antinapol 235-2345-24-f-1345-1-e-1234-135-123
-always antinazi 235-2345-24-f-1345-1-e-1356-24
-always antineo 235-2345-24-f-1345-15-135
-begmidword antineuralg 235-2345-24-f-1345-126-e-1235-25-1245
-always antineutron 235-2345-24-f-1345-126-2345-1235-135-1345
-always antinomie 235-2345-24-f-1345-135-e-134-346
-always antinomien 235-2345-24-f-1345-135-e-134-24-14
-begmidword antinukle 235-2345-24-f-1345-136-13-123-15
-begmidword multinukle 134-136-123-e-2345-24-f-1345-136-13-123-15
-always aschantinuss 1-156-235-e-2345-24-e-1345-136-2346
-always aschantinüss 1-156-235-e-2345-24-e-1345-1256-2346
+always antinano 235-e-2345-24-f-1345-235-135
+always antinapol 235-e-2345-24-f-1345-1-e-1234-135-123
+always antinazi 235-e-2345-24-f-1345-1-e-1356-24
+always antineo 235-e-2345-24-f-1345-15-135
+begmidword antineuralg 235-e-2345-24-f-1345-126-e-1235-25-1245
+always antineutron 235-e-2345-24-f-1345-126-2345-1235-135-1345
+always antinomie 235-e-2345-24-f-1345-135-e-134-346
+always antinomien 235-e-2345-24-f-1345-135-e-134-24-14
+begmidword antinukle 235-e-2345-24-f-1345-136-e-13-cb-123-15
+begmidword multinukle 134-136-123-e-2345-24-f-1345-136-e-13-cb-123-15
+always aschantinuss 1-156-235-e-2345-24-f-1345-136-2346
+always aschantinuß 1-156-235-e-2345-24-f-1345-136-2346
+always aschantinüss 1-156-235-e-2345-24-f-1345-1256-2346
+always aschantinüß 1-156-235-e-2345-24-f-1345-1256-2346
 always spaghettinudel 234-1234-1-e-1245-125-15-2345-e-2345-24-f-1345-136-e-145-13456
-always mannequin 134-235-1345-15-e-6-12345-136-35
+always mannequin 134-235-e-1345-15-e-6-12345-136-35
 always nazinest 1345-1-e-1356-24-f-1345-15-23456
 
 # INTERESS (4.3.6 Kommakürzungen)
@@ -5853,7 +5905,7 @@ word ist 23456
 
 # -ISTISCH (4.2.2 b) Nachsilbenkürzungen)
 midendword istisch 5-156
-always tischtennistisch 2345-24-156-e-2345-14-e-1345-24-234-e-2345-24-156
+always tischtennistisch 2345-24-156-f-2345-14-e-1345-24-234-f-2345-24-156
 
 # -ITÄT  (4.2.2 b) Nachsilbenkürzungen)
 midendword ität 5-345
@@ -5875,7 +5927,7 @@ always jahrzehnt 245-1356
 
 # JED (4.4 Zweiformige Kürzungen)
 begword jed 245-145
-sufword jedi 245-15-145-24
+sufword jedi 245-15-e-145-24
 
 # JEDOCH (4.4 Zweiformige Kürzungen)
 always jedoch 245-1456
@@ -5895,7 +5947,7 @@ always kannst 13-23456
 
 # KAPITAL KAPITÄL (4.4 Zweiformige Kürzungen)
 always kapital 13-1234
-always kapitalien 13-1234-24-14
+always kapitalien 13-1234-24-e-14
 always kapitäl 5-13-1234
 
 # -KEIT  4.2.1 a) Nachsilbenkürzungen
@@ -5920,15 +5972,15 @@ always kräft 5-13-124
 always kurz 13-1356
 always kürz 5-13-1356
 always kurzeit 13-136-1235-f-1356-2345
-begmidword kurzentr 13-136-1235-f-1356-14-2345-1235
+begmidword kurzentr 13-136-1235-f-1356-14-e-2345-cb-1235
 
 # LANG LÄNG (4.4 Zweiformige Kürzungen)
 always lang 123-1245
 always läng 5-123-1245
 prfword langabe 123-f-235-e-1245-1-e-12-15
 prfword angabe 235-e-1245-1-e-12-15
-always langabe 123-f-235-e-1245-1-23
-always angabe 235-e-1245-1-23
+always langabe 123-f-235-e-1245-1-e-23
+always angabe 235-e-1245-1-e-23
 always langaben 123-f-235-e-1245-1-e-12-14
 always angaben 235-e-1245-1-e-12-14
 syllable angehörig 235-e-12346-e-125-246-e-1235-45
@@ -5937,50 +5989,51 @@ syllable angelegenheit 235-e-1245-1245-125
 syllable angleich 235-e-1245-1456
 syllable angestell 235-e-12346-e-2-13456
 syllable angebot 235-e-12346-e-12-135-2345
-syllable angebote 235-e-12346-e-12-135-236
+syllable angebote 235-e-12346-e-12-135-e-236
 syllable angebotes 235-e-12346-e-12-135-e-2345-123456
 syllable angeboten 235-e-12346-e-12-135-e-2345-14
-always langenberg 123-235-1245-14-f-12-12456-1245
-always langenfeld 123-235-1245-14-f-124-13456-145
-always langenscheidt 123-235-1245-14-f-156-146-145-2345
-always langerhans 123-235-1245-12456-f-125-235-234
+always langenberg 123-235-e-1245-14-f-12-12456-1245
+always langenfeld 123-235-e-1245-14-f-124-13456-145
+always langenscheidt 123-235-e-1245-14-f-156-146-145-2345
+always langerhans 123-235-e-1245-12456-f-125-235-234
 always langnes 123-235-1245-e-1345-123456
 always langobard 123-235-e-1245-135-e-12-356-145
 always languag 123-235-e-1245-136-1-1245
-prfword language 123-235-e-1245-136-1-12346
+prfword language 123-235-e-1245-136-1-e-12346
 always langue 123-235-e-1245-136-15
 always langues 123-235-e-1245-136-123456
 always langust 123-235-e-1245-136-23456
-always falange 124-25-235-12346
+always falange 124-25-235-e-12346
 always falangist 124-25-235-e-1245-24-23456
 always generalangriff 1245-14-12456-25-f-235-e-1245-1235-24-124-124
 midendword tralang 2345-1235-1-f-123-1245
 midendword traläng 2345-1235-1-f-5-123-1245
 always frontalangriff 124-1235-135-1345-e-2345-25-f-235-e-1245-1235-24-124-124
-always tagelang 2345-1-12346-f-123-1245
+always tagelang 2345-1-e-12346-f-123-1245
 before g begword clan 6-14-123-235-f
 always michelangelo 134-3456-13456-f-235-1245-13456-135
 always melang 134-13456-235-1245
-prfword melange 134-13456-235-12346
+prfword melange 134-13456-235-e-12346
 always himmelangst 125-24-1346-13456-f-235-1245-23456
 always himmelängst 125-24-1346-13456-f-345-1345-1245-23456
-midendword telang 236-e-123-1245
+always hurelang 125-136-e-1235-15-f-123-1245
+midendword telang 236-f-123-1245
 always titelanga 2345-24-e-2345-13456-f-235-e-1245-1
-midendword teläng 236-e-5-123-1245
+midendword teläng 236-f-5-123-1245
 always schlang 156-123-235-1245
-prfword schlange 156-123-235-12346
-begmidword schlangesteh 156-123-235-12346-f-23456-2356
+prfword schlange 156-123-235-e-12346
+begmidword schlangesteh 156-123-235-e-12346-f-23456-2356
 always schläng 156-123-345-1345-1245
-prfword schlänge 156-123-345-1345-12346
+prfword schlänge 156-123-345-1345-e-12346
 begmidword fehlange 124-2356-123-f-235-e-12346-e
 always eilangebo 146-123-f-235-e-12346-e-12-135
 always klang 13-123-235-1245
 always kläng 13-123-345-1345-1245
-prfword klänge 13-123-345-1345-12346
+prfword klänge 13-123-345-1345-e-12346
 always stinklang 23456-35-13-f-123-1245
 syllable knöchel 13-1345-246-e-1456-13456
-midendword tellang 2345-13456-e-123-1245
-midendword telläng 2345-13456-e-5-123-1245
+midendword tellang 2345-13456-f-123-1245
+midendword telläng 2345-13456-f-5-123-1245
 always stellangel 2-13456-f-235-1245-13456
 syllable porzell 1234-26-e-1356-15-12345
 sufword plang 1234-123-235-1245
@@ -5988,7 +6041,7 @@ prfword plange 1234-123-235-e-12346
 syllable plangl 1234-123-235-e-1245-123
 sufword slang 234-123-235-1245
 always jugendslang 245-136-e-1245-14-145-f-234-123-235-1245
-always werbeslang 2456-12456-23-f-234-123-235-1245
+always werbeslang 2456-12456-e-23-f-234-123-235-1245
 always gassenslang 1245-1-2346-14-f-234-123-235-1245
 always ghettoslang 1245-125-15-2345-e-2345-135-f-234-123-235-1245
 always computerslang 6-14-135-134-e-1234-136-e-2345-12456-f-234-123-235-1245
@@ -5997,41 +6050,38 @@ always boulanger 12-135-136-e-123-235-e-1245-12456
 
 # LASS LÄSS (4.3.6 Kommakürzungen)
 always lass 2-123
+always laß 2-123
 always läss 5-123
-# Alte Rechtschreibung
 always läß 5-123
-always lassist 123-f-1-2346-24-23456
+always lasskst 123-f-1-2346-24-23456
 always rassistisch 1235-1-2346-5-156
 always lassa 123-1-2346-1
 always nachlass 1345-56-f-2-123
 always lasso 123-1-2346-135
 always thalasso 2345-125-25-1-2346-135
 always blass 12-123-1-2346
-# Alte Rechtschreibung
 always blaß 12-123-1-2346
 always bläss 12-123-345-2346
-# Alte Rechtschreibung
 always bläß 12-123-345-2346
 always ablass 1-12-e-2-123
-# Alte Rechtschreibung
 always ablaß 1-12-e-2-123
 always abläss 1-12-e-5-123
-# Alte Rechtschreibung
 always abläß 1-12-e-5-123
-# Homonym
+# HOMONYM
 always erblasser 12456-12-e-2-123-12456
 always class 6-14-123-1-2346
+always claß 6-14-123-1-2346
 always melass 134-13456-1-2346
 word glass 1245-123-1-2346
 always glassarg 1245-123-1-234-f-234-356-1245
-always glassch 1245-123-1-234-e-156
-always glasseid 1245-123-1-234-e-234-146-145
-always glassp 1245-123-1-234-e-234-1234
-always glasspiel 1245-123-1-234-e-2-346
-always glasst 1245-123-1-234-e-23456
-always weglasst 2456-1245-e-2-123-2345
-always glasständ 1245-123-1-234-e-5-23456
-always glasscheib 1245-123-1-234-e-156-146-e-12
+always glassch 1245-123-1-234-f-156
+always glasseid 1245-123-1-234-f-234-146-145
+always glassp 1245-123-1-234-f-234-1234
+always glasspiel 1245-123-1-234-f-2-346
+always glasst 1245-123-1-234-f-23456
+always weglasst 2456-1245-f-2-123-2345
+always glasständ 1245-123-1-234-f-5-23456
+always glasscheib 1245-123-1-234-f-156-146-12
 always klasse 13-123-1-2346-15
 always klassement 13-123-1-2346-12356-14-2345
 always klassen 13-123-1-2346-14
@@ -6047,16 +6097,16 @@ always klassifizier 13-123-1-2346-24-e-124-24-e-1356-346-e-1235
 prfword klassisch 13-123-1-2346-24-156
 always klassisch 13-123-1-2346-24-e-156
 always klassiz 13-123-1-2346-24-e-1356
-always klassler 13-123-1-2346-e-123-12456
 always klässler 13-123-345-2346-e-123-12456
+always kläßler 13-123-345-2346-e-123-12456
 always klässer 13-123-345-2346-12456
+always kläßer 13-123-345-2346-12456
 always molass 134-135-e-123-1-2346
 always atlasse 1-2345-e-123-1-2346-15
 always atlasses 1-2345-e-123-1-2346-123456
 
 # LÄSST (4.3.1 Einformige Wortkürzungen, nur alleinstehend)
 word lässt 123
-# Alte Rechtschreibung
 word läßt 123
 
 # LEB (4.4 Zweiformige Kürzungen)
@@ -6065,38 +6115,38 @@ always lebens 123-12-14-234
 always leberecht 123-12-15-f-1235-2345
 always leberegel 123-12-12456-f-15-e-1245-13456
 always kalebass 13-25-15-e-12-1-2346
-always tangentialeben 2345-235-e-1245-14-e-2345-24-25-e-15-12-14
-always spinaleben 234-1234-35-25-e-15-12-14
-always terminaleben 2345-12456-e-134-35-25-e-15-12-14
-always transversaleben 2345-1235-235-234-e-1236-12456-e-234-25-e-15-12-14
-always frontaleben 124-1235-135-1345-e-2345-25-e-15-12-14
-always horizontaleben 125-26-24-e-1356-135-1345-e-2345-25-e-15-12-14
-always individualeben 35-145-24-e-1236-24-e-145-136-25-e-15-12-14
+always tangentialeben 2345-235-e-1245-14-e-2345-24-25-f-15-12-14
+always spinaleben 234-1234-35-25-f-15-12-14
+always terminaleben 2345-12456-e-134-35-25-f-15-12-14
+always transversaleben 2345-1235-235-234-e-1236-12456-e-234-25-f-15-12-14
+always frontaleben 124-1235-135-1345-e-2345-25-f-15-12-14
+always horizontaleben 125-26-24-e-1356-135-1345-e-2345-25-f-15-12-14
+always individualeben 35-145-24-e-1236-24-e-145-136-25-f-15-12-14
 always zieleben 1356-346-123-f-15-12-14
-always faseleber 124-1-234-13456-e-15-12-12456
-always telebank 2345-13456-15-e-12-235-13
-always telebild 2345-13456-15-e-12-24-123-145
-always telebox 2345-13456-15-e-12-135-6-1346
-always telebrief 2345-13456-15-e-12-124
-begmidword zelebr 1356-13456-15-12-1235
-begmidword kohleb 13-135-125-123-15-f-12
-begmidword kohlebe 13-135-125-123-15-f-23
-begmidword kohlebei 13-135-125-123-15-f-2-12
-always kohlebenzin 13-135-125-123-15-f-12-14-e-1356-35
-always kohleberg 13-135-125-123-15-f-12-12456-1245
-always kohlebügel 13-135-125-123-15-f-12-1256-e-1245-13456
+always faseleber 124-1-234-13456-f-15-12-12456
+always telebank 2345-13456-15-f-12-235-13
+always telebild 2345-13456-15-f-12-24-123-145
+always telebox 2345-13456-15-f-12-135-6-1346
+always telebrief 2345-13456-15-f-12-124
+begmidword zelebr 1356-13456-15-e-12-cb-1235
+begmidword kohleb 13-135-125-e-123-15-f-12
+begmidword kohlebe 13-135-125-e-123-15-f-23
+begmidword kohlebei 13-135-125-e-123-15-f-2-12
+always kohlebenzin 13-135-125-e-123-15-f-12-14-e-1356-35
+always kohleberg 13-135-125-e-123-15-f-12-12456-1245
+always kohlebügel 13-135-125-e-123-15-f-12-1256-e-1245-13456
 always phlebit 1234-125-123-15-f-12-24-2345
-always ventileben 1236-14-e-2345-24-123-e-15-12-14
-always stileben 23456-24-123-e-15-12-14
+always ventileben 1236-14-e-2345-24-123-f-15-12-14
+always stileben 23456-24-123-f-15-12-14
 always kleb 13-123-15-12
-begmidword klebe 13-123-15-23
+begmidword klebe 13-123-15-e-23
 always kleben 13-123-15-e-12-14
 always werkleben 2456-12456-13-f-123-12-14
 always kleber 13-123-15-e-12-12456
 always huckleberry 125-136-46-123-15-e-12-12456-e-1235-6-13456
-always solebad 234-135-123-15-f-12-1-145
-always solebäd 234-135-123-15-f-12-345-e-145
-always solebecken 234-135-123-15-f-23-46-14
+always solebad 234-135-e-123-15-f-12-1-145
+always solebäd 234-135-e-123-15-f-12-345-e-145
+always solebecken 234-135-e-123-15-f-23-cb-46-14
 begmidword plebej 1234-123-15-f-23-245
 begmidword plebisz 1234-123-15-f-12-24-234-e-1356
 always plebs 1234-123-15-12-234
@@ -6109,7 +6159,7 @@ before b begmidword shuttle 234-125-136-2345-2345-123-15
 # LEICHT (4.4 Zweiformige Kürzungen)
 always leicht 123-1456
 always bleicht 12-123-146-1456-2345
-always bleichte 12-123-146-1456-236
+always bleichte 12-123-146-1456-e-236
 always bleichten 12-123-146-1456-e-2345-14
 always bleichtem 12-123-146-1456-e-2345-12356
 always bleichter 12-123-146-1456-e-2345-12456
@@ -6122,7 +6172,7 @@ always schleicht 156-123-146-1456-2345
 always letzt 123-2345
 always letztemal 123-2345-15-134
 always schletzt 156-123-15-2345-1356-2345
-prfword schletzte 156-123-15-2345-1356-236
+prfword schletzte 156-123-15-2345-1356-e-236
 always schletzten 156-123-15-2345-1356-e-2345-14
 
 # LICH (4.1 Lautgruppenkürzungen)
@@ -6131,15 +6181,16 @@ midendword lich 456
 # LL  (4.1 Lautgruppenkürzungen)
 midendword ll 12345
 midendword 'll 6-123-123
+before l midword rhoidal 1235-125-135-24-e-145-25-f
 always lavendel 123-1-e-1236-14-e-145-13456
 # Alte Rechtschreibung
-always modellösung 134-135-e-145-13456-f-123-246-e-234-136
+always modellösung 134-135-e-145-13456-123-246-e-234-136
 always büffel 12-1256-124-e-124-13456
 always schlängel 156-123-345-1345-e-1245-13456
 # Alte Rechtschreibung
-sufword hellicht 125-13456-e-456-2345
+sufword hellicht 125-13456-456-2345
 # Alte Rechtschreibung
-prfword hellichte 125-13456-e-456-236
+prfword hellichte 125-13456-456-e-236
 always muschel 134-136-e-156-13456
 always parallel 1234-356-1-12345-13456
 always artikel 356-2345-24-e-13-13456
@@ -6149,27 +6200,30 @@ always schunkel 156-256-e-13-13456
 always ferkel 124-12456-e-13-13456
 always bummel 12-136-1346-13456
 always murmel 134-136-1235-e-134-13456
-before l begmidword hasel 125-1-e-234-13456
+before l begmidword hasel 125-1-e-234-13456-f
+before l begmidword kreisel 13-1235-146-e-234-13456-f
 always kessel 13-15-2346-13456
 always schüssel 156-1256-2346-13456
 always schlüssel 156-123-1256-2346-13456
-before l midword hl 125-123
-before l begmidword fehl 124-2356-123
-before l begmidword kehl 13-2356-123
+before l midword hl 125-123-f
+before l begmidword fehl 124-2356-123-f
+before l begmidword kehl 13-2356-123-f
 always emaillack 12356-1-24-123-f-123-1-46
 before l begmidword cocktail 6-14-135-46-e-2345-1-24-123-f
 always krokodil 13-1235-135-e-13-135-e-145-24-123
 before l begmidword heil 125-146-123
 always seillinie 234-146-123-f-123-35-24-15
-always seillinien 234-146-123-f-123-35-24-14
+always seillinien 234-146-123-f-123-35-24-e-14
 always seillitz 234-146-123-f-123-24-2345-1356
 before l begmidword teil 2345-146-123
 before l begmidword steil 23456-146-123
 always bouteill 12-135-136-e-2345-15-24-12345
-before l begword profil 12345-124-24-123-f
+before l begword profil 12345-e-124-24-123-f
 before l midword profil 1234-1235-135-e-124-24-123-f
 before l midword steril 23456-12456-24-123-f
+# Alte Rechtschreibung
 always stilleben 23456-24-123-123-12-14
+# Alte Rechtschreibung
 always stilliegen 23456-24-123-123-346-e-1245-14
 always stillos 23456-24-123-e-123-135-234
 before l begmidword april 1-1234-1235-24-123
@@ -6194,10 +6248,10 @@ always pollauf 1234-135-123-f-123-16-124
 always polläuf 1234-135-123-f-123-34-124
 always röll 1235-246-12345
 # Alte Rechtschreibung
-always rolladen 1235-135-123-123-1-145-14
+always rolladen 1235-135-123-123-1-e-145-14
 # Alte Rechtschreibung
-always rolläden 1235-135-123-123-345-145-14
-before l begmidword petrol 1234-15-2345-1235-135-123-f
+always rolläden 1235-135-123-123-345-e-145-14
+before l begmidword petrol 1234-15-e-2345-cb-1235-135-123-f
 always lysol 123-6-13456-e-234-135-123
 always söller 234-246-12345-12456
 always quöll 6-12345-136-246-12345
@@ -6208,7 +6262,9 @@ begmidword wollüst 2456-135-123-e-123-1256-23456
 before l begmidword heul 125-126-123
 before l begmidword schul 156-136-123
 # Alte Rechtschreibung
-always nulleiter 1345-136-123-e-123-146-2345-12456
+always nulleiter 1345-136-123-123-146-e-2345-12456
+# Alte Rechtschreibung
+always nulleitung 1345-136-123-123-146-e-2345-136
 always spüllappen 234-1234-1256-123-f-123-1-1234-e-1234-14
 
 # -MAL   4.2.1 a) Nachsilbenkürzungen
@@ -6260,16 +6316,16 @@ always malocchi 134-25-f-135-6-14-e-1456-24
 always maloch 134-25-135-1456
 always maloja 134-25-135-e-245-1
 always malossol 134-25-135-2346-135-123
-always malpinsel 134-25-e-1234-35-e-234-13456
-always malposition 134-25-e-1234-135-e-234-24-e-2345-245
-always malprogramm 134-25-e-1234-1235-135-e-1245-1235-1-1346
+always malpinsel 134-25-f-1234-35-e-234-13456
+always malposition 134-25-f-1234-135-e-234-24-e-2345-245
+always malprogramm 134-25-f-1234-1235-135-e-1245-1235-1-1346
 always malproper 134-25-e-1234-1235-135-e-1234-12456
 always malrotation 134-25-e-1235-135-e-2345-5-1345
 endword malst 134-25-23456
 always malst 134-25-e-23456
 begmidword malsäul 134-25-e-234-34-e-123
-always malta 134-25-2345-1
-prfword maltalente 134-25-e-2345-25-14-236
+always malta 134-25-e-2345-1
+prfword maltalente 134-25-e-2345-25-14-e-236
 always maltalent 134-25-e-2345-25-14-2345
 always einmaltarif 1246-134-f-2345-356-24-124
 always maltechnik 134-25-e-2345-13
@@ -6281,16 +6337,16 @@ always malthus 134-25-e-2345-125-136-234
 always maltos 134-25-e-2345-135-234
 always malträtier 134-25-e-2345-1235-345-e-2345-346-1235
 always malus 134-25-136-234
-always malutensil 134-25-e-136-2345-14-e-234-24-123
+always malutensil 134-25-f-136-2345-14-e-234-24-123
 always malvasier 134-25-e-1236-1-e-234-346-1235
 always malve 134-25-e-1236-15
 always malven 134-25-e-1236-14
-always malverbot 134-25-e-1236-12456-e-12-135-2345
+always malverbot 134-25-f-1236-12456-e-12-135-2345
 always malvin 134-25-e-1236-35
 begmidword malwar 134-25-e-2456-356
-always malweis 134-25-e-2-146
-always neunmalweis 1345-126-1345-134-e-2-146
-always malwerk 134-25-e-2456-12456-13
+always malweis 134-25-f-2-146
+always neunmalweis 1345-126-1345-134-f-2-146
+always malwerk 134-25-f-2456-12456-13
 always malz 134-25-1356
 midendword malzahl 134-f-1356-123
 begmidword maläs 134-25-345-e-234
@@ -6303,11 +6359,11 @@ word gemal 1245-12356-1-123
 begmidword gemal 1245-12356-25
 prfword gemalt 12346-e-134-25-2345
 always gemalt 12346-e-134-25-e-2345
-prfword gemalte 12346-e-134-25-236
-prfword würgemal 2456-1256-1235-12346-e-134-1-123
-begmidword würgemal 2456-1256-1235-12346-e-134-25
+prfword gemalte 12346-e-134-25-e-236
+prfword würgemal 2456-1256-1235-e-12346-e-134-1-123
+begmidword würgemal 2456-1256-1235-e-12346-e-134-25
 always atemalkohol 1-2345-12356-e-25-13-135-e-125-135-123
-begmidword guatemal 1245-136-e-1-e-2345-12356-25
+begmidword guatemal 1245-136-cb-1-e-2345-12356-25
 begword aufmal 2-16-e-134-25
 begmidword pragmalingu 1234-1235-1-1245-e-134-1-e-123-35-e-1245-136
 prfword saugmal 234-16-1245-f-134-1-123
@@ -6337,7 +6393,7 @@ always dezimal 145-15-e-1356-24-e-134-25
 begmidword vollmal 2-12345-e-134-25
 sufword herummal 125-12456-136-134-e-134-25
 begmidword anmal 235-e-134-25
-sufword peitschenmal 1234-146-2345-156-14-f-134-25
+sufword peitschenmal 1234-146-2345-e-156-14-f-134-25
 begmidword schriftenmal 156-2345-14-f-134-25
 always hineinmalt 125-35-1246-e-134-25-2345
 prfword hineinmalte 125-35-1246-e-134-25-236
@@ -6347,8 +6403,8 @@ always anomal 235-135-e-134-25
 always anomalien 235-135-e-134-25-24-14
 always chromalaun 1456-1235-135-e-134-25-16-1345
 always somali 234-135-e-134-25-24
-prfword autosomal 16-2345-135-e-234-135-e-134-1-123
-begmidword autosomal 16-2345-135-e-234-135-134-25
+prfword autosomal 16-e-2345-135-e-234-135-e-134-1-123
+begmidword autosomal 16-e-2345-135-e-234-135-134-25
 begmidword pharmalab 1234-125-356-e-134-1-e-123-1-12
 # HOMONYM
 word dermal 145-12456-e-134-1-123
@@ -6365,7 +6421,7 @@ prfword thermal 2345-125-12456-e-134-1-123
 always thermal 2345-125-12456-e-134-25
 prfword untermal 2-256-e-134-1-123
 always untermal 2-256-e-134-25
-begmidword pflasermal 1234-124-123-1-23456-12456-e-134-25
+begmidword pflasermal 1234-124-123-1-ca-23456-12456-e-134-25
 word vermal 36a-134-1-123
 begword vermal 36a-134-25
 midword vermal 1236-12456-e-134-25
@@ -6384,7 +6440,7 @@ always turmalin 2345-136-1235-e-134-25-35
 always small 234-134-1-12345
 begmidword wachsmal 2456-56-234-e-134-25
 begmidword lautmal 123-16-2345-e-134-25
-begmidword rumalber 1235-136-134-f-25-12-12456
+begmidword rumalber 1235-136-134-f-25-e-12-12456
 begmidword abzumal 1-12-e-2-1356-e-134-25
 begmidword aufzumal 2-16-e-2-1356-e-134-25
 begword rumzumal 1235-136-134-e-2-1356-e-134-25
@@ -6392,7 +6448,7 @@ begword herumzumal 125-12456-136-134-e-2-1356-e-134-25
 begmidword anzumal 235-e-2-1356-e-134-25
 begword auszumal 34-e-2-1356-e-134-25
 midword auszumal 16-234-e-2-1356-e-134-25
-always herumalber 125-12456-136-134-e-25-12-12456
+always herumalber 125-12456-ca-136-134-e-25-12-12456
 begmidword serumallerg 234-12456-136-134-e-1-12345-12456-e-1245
 begmidword schwarzmal 156-2456-356-1356-e-134-25
 
@@ -6407,11 +6463,11 @@ always mannequin 134-235-e-1345-15-e-6-12345-136-35
 always mannesmann 134-235-e-1345-123456-e-134-235-1345
 always mannheim 134-235-1345-e-125-146-134
 always mannit 134-235-e-1345-24-2345
-always mannomann 134-235-1345-135-e-134-235-1345
+always mannomann 134-235-e-1345-135-e-134-235-1345
 always mannus 134-235-e-1345-136-234
 always hamann 125-1-e-134-235-1345
 always lindemann 123-35-e-145-15-e-134-235-1345
-always bangemann 12-235-12346-e-134-235-1345
+always bangemann 12-235-e-12346-e-134-235-1345
 always thiemann 2345-125-346-e-134-235-1345
 always riemann 1235-346-e-134-235-1345
 always alemann 25-15-e-134-235-1345
@@ -6420,7 +6476,7 @@ always dörlemann 145-246-1235-e-123-15-e-134-235-1345
 always thienemann 2345-125-346-e-1345-15-e-134-235-1345
 always heinemann 125-1246-15-e-134-235-1345
 always hannemann 125-235-e-1345-15-e-134-235-1345
-always spannemann 234-1234-235-1345-15-e-134-235-1345
+always spannemann 234-1234-235-e-1345-15-e-134-235-1345
 always stresemann 23456-1235-123456-15-e-134-235-1345
 always hoffmann 125-135-124-124-e-134-235-1345
 always hofmannsthal 125-135-124-e-134-235-1345-234-e-2345-125-1-123
@@ -6436,9 +6492,9 @@ always henkelmann 125-14-e-13-13456-e-134-235-1345
 always brinkmann 12-1235-35-13-e-134-235-1345
 always volkmann 1236-135-123-13-e-134-235-1345
 always thälmann 2345-125-345-123-e-134-235-1345
-always engelmann 14-1245-13456-e-134-235-1345
+always engelmann 14-e-1245-13456-e-134-235-1345
 always fielmann 124-346-123-e-134-235-1345
-always nickelmann 1345-24-46-13456-e-134-235-1345
+always nickelmann 1345-24-cb-46-13456-e-134-235-1345
 always mümmelmann 134-1256-1346-13456-e-134-235-1345
 always bühlmann 12-1256-125-123-e-134-235-1345
 always ammann 1-134-e-134-1345
@@ -6448,9 +6504,9 @@ always heiermann 125-146-12456-e-134-235-1345
 # HOMONYM
 always ackermann 1-46-12456-e-134-235-1345
 always eckermann 15-46-12456-e-134-235-1345
-always neckermann 1345-15-46-12456-e-134-235-1345
+always neckermann 1345-15-cb-46-12456-e-134-235-1345
 always ballermann 12-1-12345-12456-e-134-235-1345
-always mustermann 134-136-23456-12456-e-134-235-1345
+always mustermann 134-136-ca-23456-12456-e-134-235-1345
 always scheuermann 156-126-12456-e-134-235-1345
 always drewermann 145-1235-15-e-2456-12456-e-134-235-1345
 always normann 1345-26-e-134-235-1345
@@ -6465,8 +6521,8 @@ always schwarzmann 156-2456-356-1356-e-134-235-1345
 
 # MASCHIN (4.4 Zweiformige Kürzungen)
 always maschin 134-156
-always parmaschinken 1234-356-134-1-f-156-35-e-13-14
-always pasturmaschinken 1234-1-23456-136-1235-e-134-1-f-156-35-e-13-14
+always parmaschinken 1234-356-e-134-1-f-156-35-e-13-14
+always pasturmaschinken 1234-1-ca-23456-136-1235-e-134-1-f-156-35-e-13-14
 
 # MATERIAL (4.4 Zweiformige Kürzungen)
 always material 134-123
@@ -6510,9 +6566,9 @@ always vladimir 1236-123-1-e-145-24-e-134-24-1235
 always wladimir 2456-123-1-e-145-24-e-134-24-1235
 always kasimir 13-1-e-234-24-e-134-24-1235
 always krimireih 13-1235-24-e-134-24-e-1235-146-125
-always gummir 1245-136-1346-24-e-1235
+always gummir 1245-136-1346-24-f-1235
 always jaromir 245-356-135-e-134-24-1235
-always dobromir 145-135-12-1235-135-e-134-24-1235
+always dobromir 145-135-e-12-cb-1235-135-e-134-24-1235
 always dormir 145-26-e-134-24-1235
 always smirno 234-134-24-1235-e-1345-135
 always umirr 136-134-e-24-1235-1235
@@ -6529,19 +6585,19 @@ begmidword mithr 134-24-2345-125-e-1235
 always mitil 134-24-e-2345-24-123
 always mitochond 134-24-e-2345-135-e-1456-135-1345-145
 always mitos 134-24-e-2345-135-234
-always mitra 134-24-2345-1235-1
-always mitraill 134-24-2345-1235-1-24-12345
+always mitra 134-24-e-2345-cb-1235-1
+always mitraill 134-24-e-2345-cb-1235-1-24-12345
 always mitrauch 2-2345-e-1235-16-1456
-begword mitrida 134-24-2345-1235-24-e-145-1
-always mitropa 134-24-2345-1235-135-e-1234-1
+begword mitrida 134-24-e-2345-cb-1235-24-e-145-1
+always mitropa 134-24-e-2345-cb-1235-135-e-1234-1
 always mitsubishi 134-24-2345-e-234-136-e-12-24-e-234-125-24
 always mitt 134-24-2345-2345
 always mittag 134-24-2345-e-2345-1-1245
-prfword mittage 134-24-2345-e-2345-1-12346
+prfword mittage 134-24-2345-e-2345-1-e-12346
 always mittanz 2-2345-e-2345-235-1356
 always mittänz 2-2345-e-2345-345-1345-1356
 always mittäter 2-2345-e-2345-345-e-2345-12456
-prfword mitte 134-24-2345-236
+prfword mitte 134-24-2345-e-236
 always mitteil 2-2345-e-2345-146-123
 always mitten 134-24-2345-e-2345-14
 always mitter 134-24-2345-e-2345-12456
@@ -6554,8 +6610,8 @@ always mittrink 2-2345-e-2345-1235-35-13
 always mittrug 2-2345-e-2345-1235-136-1245
 always mittun 2-2345-e-2345-256
 always mittäg 134-24-2345-e-2345-345-1245
-word mitzi 134-24-2345-1356-24
-word mitzis 134-24-2345-1356-24-234
+word mitzi 134-24-2345-e-1356-24
+word mitzis 134-24-2345-e-1356-24-234
 begmidword amitos 1-134-24-e-2345-135-e-234
 always amitotisch 1-134-24-e-2345-135-e-2345-24-156
 always adamit 1-145-1-e-134-24-2345
@@ -6575,8 +6631,8 @@ always remittend 1235-12356-24-2345-e-2345-14-145
 always remittent 1235-12356-24-2345-e-2345-14-2345
 always remittier 1235-12356-24-2345-e-2345-346-1235
 always eremit 12456-12356-24-2345
-sufword extremität 1346-2345-1235-12356-5-345
-always extremität 15-6-1346-2345-1235-12356-5-345
+sufword extremität 1346-e-2345-cb-1235-12356-5-345
+always extremität 15-6-1346-e-2345-cb-1235-12356-5-345
 endword semit 234-12356-24-2345
 always semiten 234-12356-24-e-2345-14
 always semitin 234-12356-24-e-2345-35
@@ -6587,23 +6643,23 @@ prfword philosemit 1234-125-24-e-123-135-e-234-12356-24-2345
 begmidword philosemit 1234-125-24-e-123-135-e-234-12356-24-e-2345
 always stalagmit 23456-25-1-1245-e-134-24-2345
 always schmitt 156-134-24-2345-2345
-prfword schmitte 156-134-24-2345-236
+prfword schmitte 156-134-24-2345-e-236
 always schmittel 156-f-134-2345
 always schmitz 156-134-24-2345-1356
 always imitat 24-134-24-e-2345-1-2345
 prfword imitate 24-134-24-e-2345-1-236
 always imitation 24-134-24-e-2345-5-1345
 always imitier 24-134-24-e-2345-346-1235
-begmidword dimitr 145-24-e-134-24-2345-1235
+begmidword dimitr 145-24-e-134-24-e-2345-cb-1235
 always limit 123-24-e-134-24-2345
 begmidword limit 123-24-e-134-24-e-2345
-prfword limite 123-24-e-134-24-236
+prfword limite 123-24-e-134-24-e-236
 always limits 123-24-e-134-24-2345-234
 always nimita 1345-24-e-134-24-e-2345-1
 always primitiv 1234-1235-24-e-134-24-e-2345-24-1236
 always legitimität 123-15-e-1245-24-e-2345-24-e-134-5-345
-begmidword antimitoti 235-2345-24-e-134-24-e-2345-135-e-2345-24
-always intimität 35-2345-24-e-134-5-345
+begmidword antimitoti 235-e-2345-24-e-134-24-e-2345-135-e-2345-24
+always intimität 35-e-2345-24-e-134-5-345
 always gummi 1245-136-1346-24
 always gummier 1245-136-1346-346-1235
 always sodomit 234-135-e-145-135-e-134-24-2345
@@ -6614,13 +6670,13 @@ always komitee 13-135-e-134-24-e-2345-15-15
 always dolomit 145-135-e-123-135-e-134-24-2345
 always bromit 12-1235-135-e-134-24-2345
 always kompromittier 13-135-134-e-1234-1235-135-e-134-24-2345-e-2345-346-1235
-prfword marmite 134-356-e-134-24-236
+prfword marmite 134-356-e-134-24-e-236
 always marmit 134-356-e-134-24-2345
 always ermitage 12456-e-134-24-e-2345-1-e-12346
 always dermitis 145-12456-e-134-24-e-2345-24-234
 sufword kermit 13-12456-e-134-24-2345
 sufword permit 1234-12456-e-134-24-2345
-prfword termite 2345-12456-e-134-24-236
+prfword termite 2345-12456-e-134-24-e-236
 always termiten 2345-12456-e-134-24-e-2345-14
 always intermittier 35-2345-12456-e-134-24-2345-e-2345-346-1235
 always dormitori 145-26-e-134-24-e-2345-26-24
@@ -6631,7 +6687,7 @@ always abnormität 1-12-e-1345-26-e-134-5-345
 sufword smith 234-134-24-2345-125
 prfword smith 234-134-24-2345-125
 prfword smiths 234-134-24-2345-125-234
-sufword smitja 234-134-24-2345-245-1
+sufword smitja 234-134-24-e-2345-245-1
 always transmit 2345-1235-235-234-e-134-24-2345
 always anonymität 235-135-e-1345-6-13456-e-134-5-345
 always zmittag 1356-134-24-2345-e-2345-1-1245
@@ -6651,11 +6707,11 @@ always mmädchen 134-f-134-345-145-e-1456-14
 before m always team 2345-15-1-134
 always schrämmaschin 156-1235-345-134-f-134-156
 always tandem 2345-235-e-145-12356
-sufword problem 12345-12-123-12356
-midendword problem 1234-1235-135-12-123-12356
+sufword problem 12345-e-12-cb-123-12356
+midendword problem 1234-1235-135-e-12-cb-123-12356
 always einemmal 1246-12356-134
 before m always atem 1-2345-12356
-always system 234-6-13456-23456-12356
+always system 234-6-13456-ca-23456-12356
 before m always hm 125-134
 word hmm 125-134-134
 always hmmm 125-134-134-134
@@ -6669,7 +6725,7 @@ before m begmidword leim 123-146-134
 before m begmidword lm 123-134
 before m begmidword alm 25-134
 before m begmidword elm 13456-134
-always diplom 145-24-1234-123-135-134
+always diplom 145-24-e-1234-cb-123-135-134
 always genommut 1245-14-135-134-f-134-136-2345
 before m begmidword strom 23456-1235-135-134-f
 before m begmidword atom 1-2345-135-134-f
@@ -6681,13 +6737,13 @@ before m begmidword aum 16-134
 before m begmidword äum 34-134
 before m begmidword ium 24-136-134
 begmidword ummagn 136-134-e-134-1-1245-e-1345
-always ummantel 136-134-e-134-235-2345-13456
+always ummantel 136-134-e-134-235-e-2345-13456
 always ummauer 136-134-e-134-16-12456
 always ummeld 136-134-e-134-13456-145
-always ummobil 136-134-e-134-135-12-24-123
+always ummobil 136-134-e-134-135-e-12-24-123
 begmidword ummöb 136-134-e-134-246-12
-always ummodel 136-134-e-134-135-145-13456
-always ummodell 136-134-e-134-135-145-15-12345
+always ummodel 136-134-e-134-135-e-145-13456
+always ummodell 136-134-e-134-135-e-145-15-12345
 begmidword ummodl 136-134-e-134-135-145-123
 always ummont 136-134-e-134-135-1345-2345
 always ummünz 136-134-e-134-1256-1345-1356
@@ -6698,12 +6754,12 @@ always rumml 1235-136-1346-123
 prfword rumms 1235-136-1346-234
 always rummy 1235-136-1346-6-13456
 always krumm 13-1235-136-1346
-always krummesser 13-1235-136-134-e-134-15-2346-12456
+always krummesser 13-1235-136-134-134-15-2346-12456
 before m always herum 125-12456-136-134
 begmidword herummal 125-12456-136-134-f-134-25
 before m always konsum 13-135-1345-e-234-136-134
 always vakuum 1236-1-e-13-136-e-136-134
-always enzym 14-1356-6-13456-134
+always enzym 14-e-1356-6-13456-134
 
 # MÖCHT (4.3.5 Einformige Kürzungen, nur mit Erweiterung)
 word möcht 134-246-1456-2345
@@ -6719,28 +6775,27 @@ always möglich 134-456
 
 # MUSIK (4.4 Zweiformige Kürzungen)
 always musik 134-13
-always musikalien 134-13-25-24-14
+always musikalien 134-13-25-24-e-14
 
 # MUSS (4.4 Zweiformige Kürzungen)
 always muss 134-2346
-always erasmus 12456-1-234-e-134-136-234
-# Alte Rechtschreibung
 always muß 134-2346
 # Daher auch nötig:
 word muße 134-136-2346-15
 always musselin 134-136-2346-13456-35
 always mussolini 134-136-2346-135-e-123-35-24
 always rhythmus 1235-125-6-13456-2345-125-e-134-136-234
-always orgasmus 26-1245-1-234-e-134-136-234
+always orgasmus 26-e-1245-1-234-e-134-136-234
 always rasmussen 1235-1-234-e-134-136-2346-14
+always erasmus 12456-1-234-e-134-136-234
 always humusschicht 125-136-e-134-136-234-e-156-3456-2345
 always humusstoff 125-136-e-134-136-234-e-23456-135-124-124
 
 # MÜSS (4.3.6 Kommakürzungen)
 always müss 2-134
-# Alte Rechtschreibung
 always müß 2-134
-always müßig 134-1256-2346-45
+# Daher auch nötig:
+always müßig 134-1256-e-2346-45
 
 # NACHDEM (4.4 Zweiformige Kürzungen)
 always nachdem 1345-145
@@ -6759,28 +6814,28 @@ always nahmen 1345-134-14
 # NATUR (4.4 Zweiformige Kürzungen)
 always natur 1345-2345
 begmidword natural 1345-2345-25
-always signatur 234-45-e-1345-1-e-2345-136-1235
+always signatur 234-45-cb-1345-1-e-2345-136-1235
 
 # NATÜRLICH (4.4 Zweiformige Kürzungen)
 always natürlich 1345-456
 
 # NEBEN (4.4 Zweiformige Kürzungen)
 always neben 1345-12
-always medianeben 134-15-e-145-24-235-e-15-12-14
-always beckeneben 23-46-14-e-15-12-14
-always bedieneben 23-e-145-346-1345-e-15-12-14
-always dateneben 145-1-e-2345-14-e-15-12-14
-always etageneben 15-2345-1-e-1245-14-e-15-12-14
-sufword experteneben 1346-1234-12456-e-2345-14-e-15-12-14
-midendword experteneben 15-6-1346-e-1234-12456-e-2345-14-e-15-12-14
-always kosteneben 13-135-23456-14-e-15-12-14
-always koordinateneben 13-135-e-26-e-145-35-1-e-2345-14-e-15-12-14
-always küsteneben 13-1256-23456-14-e-15-12-14
-always maschineneben 134-156-14-e-15-12-14
-always platineneben 1234-123-1-e-2345-35-14-e-15-12-14
-always zeicheneben 1356-146-e-1456-14-e-15-12-14
-always bahneben 12-1-125-1345-e-15-12-14
-always rheineben 1235-125-1246-e-15-12-14
+always medianeben 134-15-e-145-24-e-235-f-15-12-14
+always beckeneben 23-cb-46-14-e-15-12-14
+always bedieneben 23-e-145-346-1345-f-15-12-14
+always dateneben 145-1-e-2345-14-f-15-12-14
+always etageneben 15-2345-1-e-1245-14-f-15-12-14
+sufword experteneben 1346-e-1234-12456-e-2345-14-f-15-12-14
+midendword experteneben 15-6-1346-e-1234-12456-e-2345-14-f-15-12-14
+always kosteneben 13-135-ca-23456-14-f-15-12-14
+always koordinateneben 13-135-e-26-e-145-35-1-e-2345-14-f-15-12-14
+always küsteneben 13-1256-23456-14-f-15-12-14
+always maschineneben 134-156-14-f-15-12-14
+always platineneben 1234-123-1-e-2345-35-14-f-15-12-14
+always zeicheneben 1356-146-e-1456-14-f-15-12-14
+always bahneben 12-1-125-1345-f-15-12-14
+always rheineben 1235-125-1246-f-15-12-14
 always brenneben 12-1235-14-1345-e-15-12-14
 always uneben 256-e-15-12-14
 
@@ -6790,12 +6845,12 @@ always nehm 1345-125
 # NICHT (4.3.2 Einformige Kürzungen, alleinstehend oder in Wortverbindungen)
 word nicht 1345
 always nicht 2-1345
-word nichte 1345-3456-236
-word nichten 1345-3456-2345-14
-endword ingsnichte 35-1245-234-f-1345-3456-236
-endword ingsnichten 35-1245-234-f-1345-3456-2345-14
-word großnichte 1245-2346-f-1345-3456-236
-word großnichten 1245-2346-f-1345-3456-2345-14
+word nichte 1345-3456-e-236
+word nichten 1345-3456-e-2345-14
+endword ingsnichte 35-1245-234-f-1345-3456-e-236
+endword ingsnichten 35-1245-234-f-1345-3456-e-2345-14
+word großnichte 1245-2346-f-1345-3456-e-236
+word großnichten 1245-2346-f-1345-3456-e-2345-14
 
 # NICHTIG (4.4 Zweiformige Kürzungen)
 always nichtig 1345-45
@@ -6808,9 +6863,10 @@ always nichtsein 2-1345-f-234-1246
 always nichtselb 2-1345-f-234-13456-12
 always nichtselbstständig 2-1345-f-234-23456-e-5-23456-45
 always nichtsehen 2-1345-f-234-2356-14
-always nichtsequentiell 2-1345-f-234-15-e-6-12345-136-14-e-2345-24-15-12345
-always nichtsequenziell 2-1345-f-234-15-e-6-12345-136-14-e-1356-24-15-12345
+always nichtsequentiell 2-1345-f-234-15-e-6-12345-136-14-e-2345-24-e-15-12345
+always nichtsequenziell 2-1345-f-234-15-e-6-12345-136-14-e-1356-24-e-15-12345
 always nichtsess 2-1345-f-234-15-2346
+always nichtseß 2-1345-f-234-15-2346
 always nichtsichtb 2-1345-f-234-3456-2345-e-12
 always nichtsommer 2-1345-f-234-135-1346-12456
 always nichtspezialisier 2-1345-f-234-1234-15-e-1356-24-e-25-24-e-234-346-1235
@@ -6830,11 +6886,11 @@ prfword minischlange 134-35-24-f-156-123-235-12346
 midendword nisier 1345-24-e-234-346-1235
 midendword nismen 1345-24-234-e-134-14
 always nist 1345-24-23456
-always ergebnis 12456-e-12346-12-1346
-midendword ängnis 345-1345-1245-1346
-midendword ächtnis 345-1456-2345-1346
-always kenntnis 13-14-1345-2345-1346
-midword nistheor 1346-f-2345-125-15-26
+always ergebnis 12456-e-12346-12-e-1346
+midendword ängnis 345-1345-1245-e-1346
+midendword ächtnis 345-1456-2345-e-1346
+always kenntnis 13-14-1345-2345-e-1346
+midword nistheor 1346-f-2345-125-15-cb-26
 always nistisch 1345-5-156
 always inistisch 35-5-156
 always anis 235-24-234
@@ -6854,13 +6910,13 @@ always organisier 26-e-1245-235-24-e-234-346-1235
 always mechanismus 134-15-e-1456-235-5-24
 midendword enisch 14-24-156
 midendword enismus 14-5-24
-midword enisol 14-e-24-234-135-123
+midword enisol 14-f-24-234-135-123
 word benis 12-14-24-234
-always denise 145-14-24-234-15
-always denises 145-14-24-234-123456
+always denise 145-14-24-e-234-15
+always denises 145-14-24-e-234-123456
 midendword genisier 1245-14-24-e-234-346-1235
-always hygienisch 125-6-13456-e-1245-24-e-14-24-156
-always hygienisier 125-6-13456-e-1245-24-e-14-24-e-234-346-1235
+always hygienisch 125-6-13456-e-1245-24-cb-14-24-156
+always hygienisier 125-6-13456-e-1245-24-cb-14-24-e-234-346-1235
 always italienisch 24-2345-25-24-e-14-24-156
 always hellenisier 125-15-12345-14-24-e-234-346-1235
 always menisk 134-14-24-234-e-13
@@ -6888,7 +6944,7 @@ always finis 124-35-24-234
 always bikinis 12-24-e-13-35-24-234
 always fellinis 124-15-12345-35-24-234
 always mussolinis 134-136-2346-135-e-123-35-24-234
-always minist 134-35-24-23456
+always minist 134-35-24-ca-23456
 always reminiszenz 1235-12356-35-24-234-e-1356-14-1356
 always paganinis 1234-1-e-1245-235-35-24-234
 always abessinisch 1-23-2346-35-24-156
@@ -6899,7 +6955,7 @@ always annis 235-e-1345-24-234
 always annisch 235-e-1345-24-156
 always alemannisch 25-15-e-134-235-e-1345-24-156
 always normannisch 1345-26-e-134-235-e-1345-24-156
-always dennis 145-14-1345-24-234
+always dennis 145-14-e-1345-24-234
 always tennis 2345-14-e-1345-24-234
 always ronnis 1235-135-1345-e-1345-24-234
 word draconis 145-1235-1-e-6-14-135-e-1345-24-234
@@ -6916,7 +6972,7 @@ prfword tonis 2345-135-e-1345-24-234
 always tönisvorst 2345-246-e-1345-24-234-e-1236-26-23456
 always garnison 1245-356-e-1345-24-e-234-135-1345
 always vernissa 1236-12456-e-1345-24-2346-1
-always modernismus 134-135-e-145-12456-1345-5-24
+always modernismus 134-135-e-145-12456-e-1345-5-24
 always firnis 124-24-1235-e-1345-24-234
 always firnisse 124-24-1235-e-1345-24-2346-15
 always firnissen 124-24-1235-e-1345-24-2346-14
@@ -6929,14 +6985,14 @@ midendword unistisch 256-5-156
 always junis 245-256-24-234
 always immunisier 24-1346-256-24-e-234-346-1235
 always punisch 1234-256-24-156
-always zynismus 1356-6-13456-1345-5-24
+always zynismus 1356-6-13456-e-1345-5-24
 
 # NOCH (4.4 Zweiformige Kürzungen)
 always noch 1345-1456
 always adrenochrom 1-145-1235-14-135-e-1456-1235-135-134
 always knoch 13-1345-135-1456
-always monochemo 134-135-1345-135-e-1456-12356-135
-always monochrom 134-135-1345-135-e-1456-1235-135-134
+always monochemo 134-135-e-1345-135-e-1456-12356-135
+always monochrom 134-135-e-1345-135-e-1456-1235-135-134
 always hornochs 125-26-1345-e-135-1456-234
 
 # NOMMEN (4.4 Zweiformige Kürzungen)
@@ -6964,9 +7020,9 @@ sufword nuruddin 1345-136-e-1235-136-145-e-145-35
 always anura 235-136-e-1235-1
 always anuren 235-136-e-1235-14
 always anurie 235-136-e-1235-346
-always anurien 235-136-e-1235-24-14
+always anurien 235-136-e-1235-24-e-14
 begmidword kanuregat 13-235-136-f-1235-15-e-1245-1-2345
-begmidword kanurenn 13-235-136-f-1235-14-1345
+begmidword kanurenn 13-235-136-f-1235-14-e-1345
 midendword enurheb 14-f-136-1235-e-125-15-12
 midendword enurkund 14-f-136-1235-e-13-256-145
 midendword enurlaub 14-f-136-1235-e-123-16-12
@@ -6975,14 +7031,14 @@ midendword enursprung 14-f-136-1235-e-234-1234-1235-256-1245
 midendword enursprüng 14-f-136-1235-e-234-1234-1235-1256-1345-1245
 midendword enursäch 14-f-136-1235-e-234-345-1456
 midendword enurteil 14-f-136-1235-e-2345-146-123
-begmidword totenurn 2345-135-e-2345-14-f-136-1235-1345
+begmidword totenurn 2345-135-e-2345-14-f-136-1235-e-1345
 always schnur 156-1345-136-1235
 midendword inurie 35-136-e-1235-346
 midendword inurien 35-136-e-1235-24-14
 always knurr 13-1345-136-1235-1235
 always baikonur 12-1-24-e-13-135-e-1345-136-1235
 midendword tonurie 2345-135-e-1345-136-e-1235-346
-midendword tonurien 2345-135-e-1345-136-e-1235-24-14
+midendword tonurien 2345-135-e-1345-136-e-1235-24-e-14
 
 # NUTZ NÜTZ (4.4 Zweiformige Kürzungen)
 always nutz 1345-1356
@@ -7051,6 +7107,7 @@ always radio 1235-1-e-145-24-135
 always inforadio 35-e-124-135-f-1235-1-e-145-24-135
 always audio 16-e-145-24-135
 always studio 23456-136-e-145-24-135
+sufword koreferen 13-135-e-1235-15-e-124-12456-14
 always risiko 1235-24-e-234-24-e-13-135
 always mexiko 134-15-e-6-1346-24-e-13-135
 always schoko 156-135-e-13-135
@@ -7071,6 +7128,7 @@ always porno 1234-26-e-1345-135
 always oor 135-135-1235
 begmidword koor 13-135-e-26
 begmidword nanoor 1345-235-135-f-26
+sufword hyporhino 125-6-13456-e-1234-135-f-1235-125-35-135
 begword poritz 1234-135-f-1235-24-2345-e-1356
 begmidword poros 1234-135-f-1235-135-234
 begmidword porosität 1234-26-135-e-234-5-345
@@ -7082,11 +7140,11 @@ prfword temporal 2345-12356-e-1234-26-1-123
 begmidword temporal 2345-12356-e-1234-26-25
 always temporär 2345-12356-e-1234-26-345-1235
 always temporier 2345-12356-e-1234-26-346-1235
-always rororo 1235-135-1235-135-1235-135
+always rororo 1235-135-e-1235-135-e-1235-135
 always libero 123-24-e-12-12456-135
-always makro 134-1-13-1235-135
-always mikro 134-24-13-1235-135
-always repro 1235-15-1234-1235-135
+always makro 134-1-e-13-cb-1235-135
+always mikro 134-24-e-13-cb-1235-135
+always repro 1235-15-e-1234-1235-135
 always büro 12-1256-e-1235-135
 always neuro 1345-126-e-1235-135
 always veto 1236-15-e-2345-135
@@ -7112,7 +7170,7 @@ always autorität 16-e-2345-26-5-345
 always autoritativ 16-e-2345-26-24-e-2345-5-1236
 always autors 16-e-2345-26-234
 always autorschaft 16-e-2345-26-156
-always rätorom 1235-345-e-2345-135-e-1235-135-134
+always rätorom 1235-345-e-2345-135-e-1235-135-e-134
 always bravo 12-1235-1-e-1236-135
 
 # PARAGRAPH (4.4 Zweiformige Kürzungen)
@@ -7122,7 +7180,7 @@ always paragraph 1234-1245
 always person 1234-1345
 always persön 5-1234-1345
 prfword personalie 1234-1345-25-24-15
-always personalien 1234-1345-25-24-14
+always personalien 1234-1345-25-24-e-14
 always supersonder 234-136-e-1234-12456-e-234-135-1345-e-145-12456
 
 # PHILOSOPH (4.4 Zweiformige Kürzungen)
@@ -7145,10 +7203,12 @@ always politisch 1234-156
 
 # PRO- (4.2.1 Vorsilbenkürzungen)
 begword pro 12345
-sufword prokofjew 1234-1235-135-e-13-135-124-245-15-2456
+sufword prokofjew 1234-1235-135-e-13-135-e-124-cb-245-15-2456
 always prometh 1234-1235-135-e-134-15-e-2345-125
 sufword proust 1234-1235-135-136-23456
 sufword protasius 1234-1235-135-e-2345-1-e-234-24-e-136-234
+sufword proteisch 1234-1235-135-e-236-e-24-156
+sufword proteus 1234-1235-135-e-2345-126-234
 begmidword provenc 1234-1235-135-e-1236-14-e-6-14
 begmidword provenz 1234-1235-135-e-1236-14-e-1356
 
@@ -7163,18 +7223,19 @@ always Q 6-12345
 
 # RECHT (4.4 Zweiformige Kürzungen)
 always recht 1235-2345
+begmidword rechtemanag 1235-2345-15-f-134-235-1-e-1245
 always rechts 1235-2345-234
 always rechtschaffen 1235-2345-f-156-1-124-e-124-14
 always rechtsetz 1235-2345-f-2-15
 always rechtsprech 1235-2345-f-2-2346
-begmidword rechtsteh 1235-2345-e-23456-2356
-always rechtstell 1235-2345-e-2-13456
-always rechtstutz 1235-2345-e-23456-136-2345-1356
-always europarecht 126-1235-135-e-1234-1-e-1235-2345
+begmidword rechtsteh 1235-2345-f-23456-2356
+always rechtstell 1235-2345-f-2-13456
+always rechtstutz 1235-2345-f-23456-136-2345-1356
+always europarecht 126-1235-135-e-1234-1-f-1235-2345
 always brecht 12-1235-15-1456-2345
-prfword brechte 12-1235-15-1456-236
+prfword brechte 12-1235-15-1456-e-236
 always schreibrecht 156-12-e-1235-2345
-always halbrecht 125-25-12-e-1235-2345
+always halbrecht 125-25-12-f-1235-2345
 # HOMNYM
 always erbrecht 12456-12-e-1235-2345
 always zerbrecht 1356-12456-e-12-1235-15-1456-2345
@@ -7186,7 +7247,7 @@ always gerecht 12346-e-1235-2345
 midendword ierecht 346-e-1235-2345
 midendword terecht 236-e-1235-2345
 always senkrecht 234-14-13-e-1235-2345
-always vetorecht 1236-15-e-2345-135-e-1235-2345
+always vetorecht 1236-15-e-2345-135-f-1235-2345
 always ruprecht 1235-136-1234-e-1235-15-1456-2345
 always utrecht 136-2345-e-1235-15-1456-2345
 
@@ -7207,9 +7268,9 @@ always republik 1235-13
 always richt 2-3456
 always bricht 12-1235-3456-2345
 always abricht 1-12-e-2-3456
-always schreibricht 156-12-e-2-3456
-always halbricht 125-25-12-e-2-3456
-always schubricht 156-136-12-e-2-3456
+always schreibricht 156-12-f-2-3456
+always halbricht 125-25-12-f-2-3456
+always schubricht 156-136-12-f-2-3456
 always crichton 6-14-1235-3456-e-2345-135-1345
 always bericht 23-e-2-3456
 always ericht 15-e-2-3456
@@ -7217,11 +7278,11 @@ always gericht 12346-e-2-3456
 always kehricht 13-2356-e-1235-3456-2345
 always röhricht 1235-246-125-e-1235-3456-2345
 always töricht 2345-246-e-1235-3456-2345
-prfword törichte 2345-246-e-1235-3456-236
+prfword törichte 2345-246-e-1235-3456-e-236
 always törichtest 2345-246-e-1235-3456-e-236-23456
 always trichter 2345-1235-3456-e-2345-12456
 prfword stricht 23456-1235-3456-2345
-always maastricht 134-1-1-23456-e-1235-3456-2345
+always maastricht 134-1-1-23456-1235-3456-2345
 
 # RÜCK (4.4 Zweiformige Kürzungen)
 always rück 1235-46
@@ -7248,25 +7309,25 @@ before l begmidword säge 5-234-1245-15
 before m begmidword säge 5-234-1245-15
 before u begmidword säge 5-234-1245-15
 always sag's 234-1245-6-234
-midendword sagent 234-e-1-1245-14-2345
+midendword sagent 234-f-1-1245-14-2345
 always sägerest 5-234-1245-15-f-1235-15-23456
 always sägerochen 5-234-1245-15-f-1235-135-e-1456-14
-midword saggreg 234-e-1-1245-e-1245-1235-15-e-1245
+midword saggreg 234-f-1-1245-e-1245-1235-15-e-1245
 always sägeunfall 5-234-1245-15-f-256-e-124-12345
 begmidword sägeunfäll 5-234-1245-15-f-256-e-5-124-12345
 always sagit 234-1-e-1245-24-2345
 always sago 234-1-e-1245-135
-always sagrada 234-1-1245-1235-1-e-145-1
-always lasagn 123-1-e-234-1-1245-1345
-midendword esagent 123456-e-1-1245-14-2345
+always sagrada 234-1-e-1245-cb-1235-1-e-145-1
+always lasagn 123-1-e-234-1-e-1245-cb-1345
+midendword esagent 123456-f-1-1245-14-2345
 always disagio 145-24-234-e-1-1245-24-135
 always visag 1236-24-e-234-1-e-1245
 prfword visage 1236-24-e-234-1-e-12346
 always canossa 6-14-235-135-2346-1
 always corsag 6-14-26-e-234-1-e-1245
-prfword corsage 6-14-26-e-234-1-12346
+prfword corsage 6-14-26-e-234-1-e-12346
 always korsag 13-26-e-234-1-e-1245
-prfword korsage 13-26-e-234-1-12346
+prfword korsage 13-26-e-234-1-e-12346
 always kanossa 13-235-135-2346-1
 always assagai 1-2346-1-e-1245-1-24
 always massage 134-1-2346-1-e-12346
@@ -7279,7 +7340,7 @@ prfword message 134-15-2346-1-e-12346
 always vernissag 1236-12456-e-1345-24-2346-1-e-1245
 prfword vernissage 1236-12456-e-1345-24-2346-1-e-12346
 midendword ausagier 16-234-e-1-1245-346-1235
-prfword sausage 234-16-e-234-1-12346
+prfword sausage 234-16-e-234-1-e-12346
 prfword sausages 234-16-e-234-1-e-1245-123456
 
 # -SAM   4.2.1 a) Nachsilbenkürzungen
@@ -7296,52 +7357,52 @@ always samm 234-1-1346
 midword sammach 2346-f-134-56
 always samo 234-1-e-134-135
 always sampl 234-1-134-1234-123
-midword samplitud 234-e-1-134-1234-e-123-24-e-2345-136-e-145
+midword samplitud 234-f-1-134-1234-e-123-24-e-2345-136-e-145
 always samson 234-1-134-e-234-135-1345
 always samstag 234-1-134-234-e-2345-1-1245
-prfword samstage 234-1-134-234-e-2345-1-12346
+prfword samstage 234-1-134-234-e-2345-1-e-12346
 always samstäg 234-1-134-234-e-2345-345-1245
 always samsung 234-1-134-e-234-256-1245
 always samt 234-1-134-2345
-sufword verlangsam 36a-123-1245-2346
-midword verlangsam 1236-12456-e-123-1245-2346
+sufword verlangsam 36a-123-1245-e-2346
+midword verlangsam 1236-12456-e-123-1245-e-2346
 always samuel 234-1-e-134-136-e-13456
 always samurai 234-1-e-134-136-e-1235-1-24
 always betriebsam 23-e-2345-1235-346-12-e-2346
 always rübsamen 1235-1256-12-e-234-1-e-134-14
 always windsamen 2456-35-145-e-234-1-e-134-14
 always fischmondsamen 124-24-156-e-134-135-1345-145-e-234-1-e-134-14
-midendword esamt 123456-e-1-134-2345
+midendword esamt 123456-f-1-134-2345
 always besam 23-e-234-1-134
 always besamm 23-e-234-1-1346
 always desambiguier 145-123456-e-1-134-e-12-45-136-e-346-1235
 always gesamt 12346-e-234-1-134-2345
-prfword gesamte 12346-e-234-1-134-236
+prfword gesamte 12346-e-234-1-134-e-236
 begmidword heeresameis 125-15-15-e-1235-123456-e-1-134-146-e-234
 sufword sesam 234-123456-1-134
 always sesamsamen 234-123456-1-134-f-234-1-e-134-14
 always gemüsesamen 12346-e-134-1256-e-234-15-e-234-1-e-134-14
 begmidword hanfsam 125-235-124-e-234-1-e-134
-before m begmidword langsam 123-1245-2346
-midendword ungsamt 136-234-e-1-134-2345
-always flugsamen 124-123-136-1245-e-234-1-e-134-14
-always lauchsamen 123-16-1456-e-234-1-e-134-14
+before m begmidword langsam 123-1245-e-2346
+midendword ungsamt 136-234-f-1-134-2345
+always flugsamen 124-123-136-1245-f-234-1-e-134-14
+always lauchsamen 123-16-1456-f-234-1-e-134-14
 always bisam 12-24-e-234-1-134
 always kürbisamen 13-1256-1235-e-12-24-234-f-234-1-e-134-14
-always chilisamen 1456-24-e-123-24-e-234-1-e-134-14
+always chilisamen 1456-24-e-123-24-f-234-1-e-134-14
 always balsam 12-25-e-234-1-134
 before m begmidword salsa 234-25-e-234-1
-always fenchelsamen 124-14-e-1456-13456-e-234-1-e-134-14
-always kümmelsamen 13-1256-1346-13456-e-234-1-e-134-14
-always dillsamen 145-24-12345-e-234-1-e-134-14
-always ölsamen 246-123-e-234-1-e-134-14
+always fenchelsamen 124-14-e-1456-13456-f-234-1-e-134-14
+always kümmelsamen 13-1256-1346-13456-f-234-1-e-134-14
+always dillsamen 145-24-12345-f-234-1-e-134-14
+always ölsamen 246-123-f-234-1-e-134-14
 always baumsamen 12-16-134-f-234-1-134-14
 begword ansam 235-e-234-1-134
 always ansamm 235-e-234-1-1346
-always feigensamen 124-146-1245-14-e-234-1-e-134-14
+always feigensamen 124-146-e-1245-14-f-234-1-e-134-14
 always liliensamen 123-24-e-123-24-e-14-f-234-1-e-134-14
 always finkensamen 124-35-e-13-14-f-234-1-e-134-14
-always mensamahl 134-14-234-1-e-134-1-125-123
+always mensamahl 134-14-e-234-1-f-134-1-125-123
 always blumensamen 12-123-136-e-134-14-f-234-1-e-134-14
 always bohnensamen 12-135-125-e-1345-14-f-234-1-e-134-14
 always lupinensamen 123-136-e-1234-35-14-f-234-1-e-134-14
@@ -7350,7 +7411,7 @@ always anemonensamen 235-12356-135-e-1345-14-f-234-1-e-134-14
 always rasensamen 1235-1-e-234-14-f-234-1-e-134-14
 always erbsensamen 12456-12-e-234-14-f-234-1-e-134-14
 always gartensamen 1245-356-e-2345-14-f-234-1-e-134-14
-always gerstensamen 1245-12456-23456-14-f-234-1-e-134-14
+always gerstensamen 1245-12456-ca-23456-14-f-234-1-e-134-14
 always pflanzensamen 1234-124-123-235-e-1356-14-f-234-1-e-134-14
 always pillensamen 1234-24-12345-14-f-234-1-e-134-14
 always erbsensamen 12456-12-e-234-14-f-234-1-e-134-14
@@ -7365,29 +7426,29 @@ always posamentier 1234-135-e-234-1-e-134-14-e-2345-346-1235
 always rosamund 1235-135-e-234-1-e-134-256-145
 sufword osama 135-234-1-e-134-1
 always brosam 12-1235-135-e-234-1-134
-always nitrosamin 1345-24-2345-1235-135-e-234-1-e-134-35
+always nitrosamin 1345-24-e-2345-cb-1235-135-e-234-1-e-134-35
 always bärlappsamen 12-345-1235-e-123-1-1234-1234-f-234-1-e-134-14
 always koriandersamen 13-26-24-e-235-e-145-12456-f-234-1-e-134-14
 midendword beersamen 12-15-15-1235-f-234-1-e-134-14
-begword verkehrsam 36a-13-2356-1235-234-e-1-134
-midendword verkehrsam 1236-12456-e-13-2356-1235-234-e-1-134
+begword verkehrsam 36a-13-2356-1235-234-f-1-134
+midendword verkehrsam 1236-12456-e-13-2356-1235-234-f-1-134
 always assam 1-2346-1-134
-always grassamen 1245-1235-1-234-e-234-1-e-134-14
-always flachssamen 124-123-56-234-e-234-1-e-134-14
+always grassamen 1245-1235-1-234-f-234-1-e-134-14
+always flachssamen 124-123-56-234-f-234-1-e-134-14
 always indossamen 35-e-145-135-2346-1-e-134-14
-begmidword unratssamm 256-e-1235-1-2345-234-e-234-1-1346
-always staatsamateur 23456-2345-234-e-1-134-1-e-2345-126-1235
-midendword schaftsamt 156-234-e-1-134-2345
-midendword sichtsamt 234-3456-2345-234-e-1-134-2345
+begmidword unratssamm 256-e-1235-1-2345-234-f-234-1-1346
+always staatsamateur 23456-2345-234-f-1-134-1-e-2345-126-1235
+midendword schaftsamt 156-234-f-1-134-2345
+midendword sichtsamt 234-3456-2345-234-f-1-134-2345
 always arbeitsam 356-12-2346
-always arbeitsameis 356-12-234-e-1-134-146-234
-always arbeitsamt 356-12-234-e-1-134-2345
-begmidword bedecktsam 23-e-145-15-46-2345-e-234-1-e-134
-begmidword nacktsam 1345-1-46-2345-e-234-1-e-134
+always arbeitsameis 356-12-234-f-1-134-146-234
+always arbeitsamt 356-12-234-f-1-134-2345
+begmidword bedecktsam 23-e-145-15-46-2345-f-234-1-e-134
+begmidword nacktsam 1345-1-46-2345-f-234-1-e-134
 sufword entsam 2346-e-234-1-134
 always entsam 14-2345-e-234-1-134
 always brotsamen 12-1235-135-2345-f-234-1-e-134-14
-midendword fahrtsamt 2-1235-2345-234-e-1-134-2345
+midendword fahrtsamt 2-1235-2345-234-f-1-134-2345
 always unkrautsamen 256-e-13-1235-16-2345-f-234-1-e-134-14
 always usambara 136-234-1-134-e-12-356-1
 always zusamen 2-1356-e-234-1-e-134-14
@@ -7400,9 +7461,10 @@ always glasätzung 1245-123-1-234-f-345-2345-1356-136
 # SCH (4.1 Lautgruppenkürzungen)
 word sch 6-156
 always sch 156
-midword schanc 234-f-1456-235-6-14
+midword schanc 234-f-1456-235-e-6-14
 midword schao 234-f-1456-1-135
 midendword scharakter 234-f-1456-13
+midendword schassis 234-f-1456-1-2346-24-234
 midendword schauffeur 234-f-1456-16-124-e-124-126-1235
 midword schauffeus 234-f-1456-16-124-e-124-126-234
 midendword schef 234-f-1456-15-124
@@ -7431,40 +7493,40 @@ always radieschen 1235-1-e-145-346-234-e-1456-14
 always lieschen 123-346-234-e-1456-14
 always brieschen 12-1235-346-234-e-1456-14
 always wieschen 2456-346-234-e-1456-14
-endword folgschor 124-1245-234-e-1456-135-1235
-midword folgschor 124-1245-234-e-1456-26
-midword folgschör 124-1245-234-e-1456-246-1235
-endword angschor 235-1245-234-e-1456-135-1235
-midword angschor 235-1245-234-e-1456-26
-midword angschör 235-1245-234-e-1456-246-1235
+endword folgschor 124-1245-234-f-1456-135-1235
+midword folgschor 124-1245-234-f-1456-26
+midword folgschör 124-1245-234-f-1456-246-1235
+endword angschor 235-1245-234-f-1456-135-1235
+midword angschor 235-1245-234-f-1456-26
+midword angschör 235-1245-234-f-1456-246-1235
 always lieblingschat 123-346-12-e-123-35-1245-234-f-1456-1-2345
 midendword üchschen 1256-1456-234-e-1456-14
 endword ungschor 136-234-e-1456-135-1235
 midword ungschor 136-234-e-1456-26
 midword ungschör 136-234-e-1456-246-1235
-prfword schreckenschor 156-1235-15-46-14-234-e-1456-135-1235
-begmidword schreckenschor 156-1235-15-46-14-234-e-1456-26
-begmidword schreckenschör 156-1235-15-46-14-234-e-1456-246-1235
+prfword schreckenschor 156-1235-15-cb-46-14-234-f-1456-135-1235
+begmidword schreckenschor 156-1235-15-cb-46-14-234-f-1456-26
+begmidword schreckenschör 156-1235-15-cb-46-14-234-f-1456-246-1235
 always ischia 24-234-e-1456-24-1
 always ischämie 24-234-e-1456-345-e-134-346
 always ischämien 24-234-e-1456-345-e-134-24-e-14
-always maischip 134-1-24-234-e-1456-24-1234
+always maischip 134-1-24-234-f-1456-24-1234
 always reischen 1235-146-234-e-1456-14
 always mischief 134-24-234-e-1456-346-124
 always prischen 1234-1235-24-234-e-1456-14
 always hälschen 125-345-123-234-e-1456-14
-prfword engelschor 14-1245-13456-234-e-1456-135-1235
-always engelschor 14-1245-13456-234-e-1456-26
-always engelschör 14-1245-13456-234-e-1456-246-1235
-prfword teufelschor 2345-126-e-124-13456-234-e-1456-135-1235
-always teufelschor 2345-126-e-124-13456-234-e-1456-26
-always teufelschör 2345-126-e-124-13456-234-e-1456-246-1235
+prfword engelschor 14-e-1245-13456-234-f-1456-135-1235
+always engelschor 14-e-1245-13456-234-f-1456-26
+always engelschör 14-e-1245-13456-234-f-1456-246-1235
+prfword teufelschor 2345-126-e-124-13456-234-f-1456-135-1235
+always teufelschor 2345-126-e-124-13456-234-f-1456-26
+always teufelschör 2345-126-e-124-13456-234-f-1456-246-1235
 always hülschen 125-1256-123-234-e-1456-14
 always gänschen 1245-345-1345-234-e-1456-14
 always hänschen 125-345-1345-234-e-1456-14
-endword enschor 14-234-e-1456-135-1235
-midword enschor 14-234-e-1456-26
-midword enschör 14-234-e-1456-246-1235
+endword enschor 14-234-f-1456-135-1235
+midword enschor 14-234-f-1456-26
+midword enschör 14-234-f-1456-246-1235
 always möpschen 134-246-1234-234-e-1456-14
 endword sschen 2346-e-1456-14
 always bisschen 12-24-2346-e-1456-14
@@ -7475,7 +7537,7 @@ always klösschen 13-123-246-2346-e-1456-14
 always flüsschen 124-123-1256-2346-e-1456-14
 always küsschen 13-1256-2346-e-1456-14
 always nüsschen 1345-1256-2346-e-1456-14
-always heitscheck 125-234-e-1456-15-46
+always heitscheck 125-234-f-1456-15-46
 always kabäuschen 13-1-e-12-34-234-e-1456-14
 always häuschen 125-34-234-e-1456-14
 always läuschen 123-34-234-e-1456-14
@@ -7497,6 +7559,7 @@ always blüschen 12-123-1256-234-e-1456-14
 # -SCHAFT 4.2.1 a) Nachsilbenkürzungen
 midendword schaft 156
 midendword schafts 156-234
+always schaftstiefel 156-1-124-2345-f-23456-346-e-124-13456
 always gschaftl 1245-156-1-124-2345-123
 always mahagonischaft 134-1-e-125-1-e-1245-135-e-1345-24-f-156-1-124-2345
 always stiefelschaft 23456-346-e-124-13456-f-156-1-124-2345
@@ -7544,9 +7607,9 @@ always sehrind 234-2356-e-1235-35-145
 always sehrohr 234-2356-e-1235-135-125-1235
 always standesehr 2-23456-123456-e-2356-1235
 begmidword fernseh 124-12456-1345-e-234-2356
-midword dersehr 145-12456-234-e-2356-1235
-midword iersehr 346-1235-234-e-2356-1235
-always hausehr 125-16-234-e-2356-1235
+midword dersehr 145-12456-234-f-2356-1235
+midword iersehr 346-1235-234-f-2356-1235
+always hausehr 125-16-234-f-2356-1235
 always bittesehr 12-24-e-236-f-234-1235
 
 # SEIN (4.3.3 Einformige Kürzungen, alleinstehend oder am Wortanfang)
@@ -7573,7 +7636,7 @@ word sie's 234-6-234
 # SIND (4.4 Zweiformige Kürzungen)
 always sind 234-145
 always sindbad 234-35-145-e-12-1-145
-midword sindefin 234-f-35-145-15-e-124-35
+midword sindefin 234-f-35-e-145-15-e-124-35
 always sindelfin 234-35-e-145-13456-e-124-35
 midendword sinder 234-f-35-145-12456
 midendword sindern 234-f-35-145-12456-1345
@@ -7584,9 +7647,9 @@ midendword sindik 234-f-35-145-24-e-13
 midendword sindiz 234-f-35-145-24-1356
 midword sindoss 234-f-35-145-135-2346
 midword sindukt 234-f-35-145-136-13-e-2345
-midendword sindustrie 234-f-35-145-136-23456-1235-346
-midendword sindustrien 234-f-35-145-136-23456-1235-24-14
-midword sindustri 234-f-35-145-136-23456-1235-24
+midendword sindustrie 234-f-35-145-136-ca-23456-1235-346
+midendword sindustrien 234-f-35-145-136-ca-23456-1235-24-e-14
+midword sindustri 234-f-35-145-136-ca-23456-1235-24
 
 # SITZ (4.3.6 Kommakürzungen)
 always sitz 2-24
@@ -7597,12 +7660,13 @@ word so 1234
 always sobald 2-1234-e-12-25-145
 always sodann 2-1234-e-145-235-1345
 always sodass 2-1234-e-145-1-2346
+always sodaß 2-1234-e-145-1-2346
 always soeben 2-1234-e-15-12-14
 always sofern 2-1234-e-124-12456-1345
 always sofort 2-1234-e-124-26-2345
 prfword sogar 2-1234-e-1245-1-1235
 always sogenannt 2-1234-e-12346-e-1345-235-1345-2345
-prfword sogenannte 2-1234-e-12346-e-1345-235-1345-236
+prfword sogenannte 2-1234-e-12346-e-1345-235-1345-e-236
 always sogleich 2-1234-e-1245-1456
 always solang 2-1234-e-123-1245
 always somit 2-1234-e-2-2345
@@ -7628,7 +7692,7 @@ always wieso 2-126-e-2-1234
 sufword umso 136-134-e-2-1234
 always umsonst 136-134-e-234-135-1345-23456
 always umsorg 136-134-e-234-26-1245
-prfword umsorge 136-134-e-234-26-12346
+prfword umsorge 136-134-e-234-26-e-12346
 always umsort 136-134-e-234-26-2345
 
 # SOLCH (4.4 Zweiformige Kürzungen)
@@ -7670,31 +7734,31 @@ midendword ssschnur 2346-f-156-1345-136-1235
 midendword ssschrift 2346-f-156-2345
 syllable saison 234-1-24-e-234-135-1345
 syllable saitig 234-1-24-e-2345-45
-syllable sakramen 234-1-e-13-1235-1-e-134-14
+syllable sakramen 234-1-e-13-cb-1235-1-e-134-14
 syllable sammellager 234-1-1346-13456-f-123-1-e-1245-12456
 syllable sammlung 234-1-1346-e-123-136
 syllable sammlungs 234-1-1346-e-123-136-234
 syllable sanierung 234-235-346-e-1235-136
 syllable sanktion 234-235-13-e-2345-245
 syllable satellit 234-1-e-236-12345-24-2345
-syllable sattel 234-1-2345-2345-13456
+syllable sattel 234-1-2345-e-2345-13456
 syllable savann 234-1-e-1236-235-e-1345
 always segment 234-15-1245-e-134-14-2345
-prfword segmente 234-15-1245-e-134-14-236
+prfword segmente 234-15-1245-e-134-14-e-236
 syllable sehnsuch 234-2356-1345-e-234-136-1456
 syllable sehnsüch 234-2356-1345-e-234-1256-1456
 syllable seidenmat 234-146-e-145-14-f-134-1-2345
-syllable sekretari 234-15-13-1235-15-e-2345-356-24
-syllable sekretär 234-15-13-1235-15-e-2345-345-1235
+syllable sekretari 234-15-e-13-cb-1235-15-e-2345-356-24
+syllable sekretär 234-15-e-13-cb-1235-15-e-2345-345-1235
 syllable sektierer 234-15-13-e-2345-346-e-1235-12456
-syllable semester 234-12356-15-23456-12456
-syllable semestrig 234-12356-15-23456-1235-45
-syllable sepsis 234-15-1234-234-24-234
+syllable semester 234-12356-15-ca-23456-12456
+syllable semestrig 234-12356-15-ca-23456-1235-45
+syllable sepsis 234-15-1234-e-234-24-234
 syllable sequenz 234-15-e-6-12345-136-14-1356
-begmidword sexual 234-15-6-1346-136-25
-syllable sexuell 234-15-6-1346-136-15-12345
+begmidword sexual 234-15-e-6-1346-136-e-25
+syllable sexuell 234-15-e-6-1346-136-e-15-12345
 syllable situation 234-24-e-2345-136-5-1345
-syllable skizz 234-13-24-1356-1356
+syllable skizz 234-13-24-1356-e-1356
 syllable sklave 234-13-123-1-e-1236-15
 syllable sklaven 234-13-123-1-e-1236-14
 syllable sklaverei 234-13-123-1-e-1236-12456-146
@@ -7704,10 +7768,10 @@ syllable software 234-135-124-2345-f-2456-356-15
 syllable sohl 234-135-125-123
 syllable soldat 234-135-123-e-145-1-2345
 syllable solidarität 234-135-e-123-24-e-145-356-5-345
-always solist 234-135-123-24-23456
-always solistisch 234-135-123-5-156
+always solist 234-135-e-123-24-23456
+always solistisch 234-135-e-123-5-156
 syllable souverän 234-135-136-e-1236-12456-345-1345
-syllable soziolo 234-135-e-1356-24-135-e-123-135
+syllable soziolo 234-135-e-1356-24-cb-135-e-123-135
 syllable sparkass 234-1234-356-f-13-1-2346
 syllable spektakel 234-1234-15-13-e-2345-1-e-13-13456
 always spektr 234-1234-15-13-2345-1235
@@ -7715,12 +7779,12 @@ syllable spekul 234-1234-15-e-13-136-123
 syllable spezialität 234-1234-15-e-1356-24-25-5-345
 syllable spezifi 234-1234-15-e-1356-24-e-124-24
 syllable spezifität 234-1234-15-e-1356-24-e-124-5-345
-syllable sphär 234-1234-125-345-1235
+syllable sphär 234-1234-125-345-e-1235
 syllable splitter 234-1234-123-24-2345-e-2345-12456
 syllable spricht 234-1234-1235-3456-2345
-syllable stadien 23456-1-e-145-24-14
-syllable stadion 23456-1-e-145-24-135-1345
-syllable stadium 23456-1-e-145-24-136-134
+syllable stadien 23456-1-e-145-24-e-14
+syllable stadion 23456-1-e-145-24-e-135-1345
+syllable stadium 23456-1-e-145-24-e-136-134
 syllable staffel 23456-1-124-e-124-13456
 syllable stahl 23456-1-125-123
 syllable statist 23456-1-e-2345-24-23456
@@ -7731,12 +7795,12 @@ syllable stauung 23456-16-136
 syllable stipendi 23456-24-e-1234-14-e-145-24
 syllable stornierung 23456-26-e-1345-346-e-1235-136
 syllable strahl 23456-1235-1-125-123
-syllable strahlemann 23456-1235-1-125-123-15-e-134-1345
+syllable strahlemann 23456-1235-1-125-e-123-15-f-134-1345
 syllable struktur 23456-1235-136-13-e-2345-136-1235
 syllable strähn 23456-1235-345-125-1345
 syllable student 23456-136-e-145-14-2345
 syllable studium 23456-136-e-145-24-e-136-134
-syllable städte 23456-345-145-236
+syllable städte 23456-345-145-e-236
 syllable städten 23456-345-145-e-2345-14
 syllable städter 23456-345-145-e-2345-12456
 syllable stämm 23456-345-1346
@@ -7753,33 +7817,33 @@ prfword subjekte 234-136-12-e-245-15-13-236
 syllable subvention 234-136-12-e-1236-14-e-2345-245
 syllable sylvani 234-6-13456-123-e-1236-235-24
 syllable symbol 234-6-13456-134-e-12-135-123
-syllable symptom 234-6-13456-134-1234-2345-135-134
-syllable syndrom 234-6-13456-1345-145-1235-135-134
-syllable synkre 234-6-13456-1345-13-1235-15
+syllable symptom 234-6-13456-134-e-1234-cb-2345-135-134
+syllable syndrom 234-6-13456-1345-e-145-cb-1235-135-134
+syllable synkre 234-6-13456-1345-e-13-cb-1235-15
 syllable synod 234-6-13456-e-1345-135-145
-syllable system 234-6-13456-23456-12356
-syllable szenarien 234-1356-14-356-24-14
-syllable säckel 234-345-46-13456
+syllable system 234-6-13456-ca-23456-12356
+syllable szenarien 234-1356-14-356-24-e-14
+syllable säckel 234-345-cb-46-13456
 syllable transfer 2345-1235-235-234-e-124-12456
 midendword ssaal 234-f-234-1-1-123
 always flussaal 124-123-136-2346-f-1-1-123
 midendword ssach 234-f-234-56
 begmidword missach 134-24-2346-f-56
 always sissach 234-24-2346-56
-always massachusetts 134-1-2346-56-136-234-15-2345-2345-234
+always massachusetts 134-1-2346-56-136-e-234-15-2345-2345-234
 begmidword sprossachs 234-1234-1235-135-2346-f-56-234
 midendword ssäcklein 234-f-234-345-46-e-123-1246
 midendword ssaft 234-f-234-1-124-2345
 endword ssage 234-f-234-1245-15
 midendword ssagen 234-f-234-1245-14
 midendword ssalat 234-f-234-25-1-2345
-endword ssalate 234-f-234-25-1-236
+endword ssalate 234-f-234-25-1-e-236
 endword ssalbe 234-f-234-25-e-12-15
 midendword ssalben 234-f-234-25-e-12-14
 midendword ssaldo 234-f-234-25-e-145-135
 midendword ssalon 234-f-234-25-135-1345
 midendword ssalut 234-f-234-25-136-2345
-endword ssalute 234-f-234-25-136-236
+endword ssalute 234-f-234-25-136-e-236
 midendword ssamen 234-f-234-1-e-134-14
 midendword ssatir 234-f-234-1-e-2345-24-1235
 midendword ssatz 234-f-234-1356
@@ -7787,31 +7851,31 @@ midendword ssätz 234-f-5-234-1356
 midendword ssaum 234-f-234-16-134
 midendword sschlag 234-f-156-1245
 midendword sschläg 234-f-5-156-1245
-midendword sschnur 234-e-156-1345-136-1235
-midendword sschul 234-e-156-136-123
-midword sschül 234-e-156-1256-123
-midendword sschrift 234-e-156-2345
+midendword sschnur 234-f-156-1345-136-1235
+midendword sschul 234-f-156-136-123
+midword sschül 234-f-156-1256-123
+midendword sschrift 234-f-156-2345
 midendword ssee 234-f-234-15-15
 always chaussee 1456-16-2346-15-15
-prfword chausseen 1456-16-2346-15-14
+prfword chausseen 1456-16-2346-15-e-14
 always odyssee 135-145-6-13456-2346-15-15
-prfword odysseen 135-145-6-13456-2346-15-14
+prfword odysseen 135-145-6-13456-2346-15-e-14
 midendword sseel 234-f-234-15-15-123
-midendword sseen 234-f-234-15-14
+midendword sseen 234-f-234-15-e-14
 before e begmidword baisse 12-1-24-2346-15
-midendword ssegel 234-f-234-15-1245-13456
+midendword ssegel 234-f-234-15-e-1245-13456
 midendword ssehen 234-f-234-2356-14
 midendword sseher 234-f-234-2356-12456
-endword ssehne 234-f-234-2356-1345-15
-midendword ssehnen 234-f-234-2356-1345-14
-midendword sseide 234-f-234-146-145-15
+endword ssehne 234-f-234-2356-e-1345-15
+midendword ssehnen 234-f-234-2356-e-1345-14
+midendword sseide 234-f-234-146-e-145-15
 midendword ssein 234-f-234-1246
 always passein 1234-1-2346-f-1246
-always hussein 125-136-2346-15-35
+always hussein 125-136-2346-15-e-35
 always schlussein 156-123-136-2346-f-1246
-endword sseite 234-f-234-146-236
-midendword sseiten 234-f-234-146-2345-14
-midendword sseitig 234-f-234-146-2345-45
+endword sseite 234-f-234-146-e-236
+midendword sseiten 234-f-234-146-e-2345-14
+midendword sseitig 234-f-234-146-e-2345-45
 midendword sseits 234-f-234-146-2345-234
 midword ssektor 234-f-234-15-13-e-2345-26
 endword ssektor 234-f-234-15-13-e-2345-135-1235
@@ -7843,10 +7907,10 @@ midendword ssenkung 234-f-234-14-e-13-136
 midword ssensor 234-f-234-14-e-234-26
 endword ssensor 234-f-234-14-e-234-135-1235
 midendword sserie 234-f-234-12456-24-15
-midendword sserien 234-f-234-12456-24-14
+midendword sserien 234-f-234-12456-24-e-14
 midendword sserver 234-f-234-12456-e-1236-12456
 begmidword wasserver 2456-1-2346-12456-f-1236-12456
-begmidword gasservic 1245-1-234-f-234-12456-e-1236-24-6-14
+begmidword gasservic 1245-1-234-f-234-12456-e-1236-24-e-6-14
 always gewässer 12346-e-2456-345-2346-12456
 midendword ssetz 234-f-2-15
 endword sseuche 234-f-234-126-e-1456-15
@@ -7858,12 +7922,12 @@ midendword ssicher 234-f-234-3456-12456
 midendword ssicht 234-f-234-3456-2345
 midendword ssiedlung 234-f-234-346-145-e-123-136
 midendword ssieg 234-f-234-346-1245
-endword ssiege 234-f-234-346-12346
+endword ssiege 234-f-234-346-e-12346
 midendword ssiegen 234-f-234-346-e-1245-14
 midendword ssiegel 234-f-234-346-e-1245-13456
-midword ssignal 234-f-234-45-1345-25
-endword ssignal 234-f-234-45-e-1345-1-123
-midendword ssignatur 234-f-234-45-e-1345-1-e-2345-136-1235
+midword ssignal 234-f-234-45-cb-1345-25
+endword ssignal 234-f-234-45-cb-1345-1-123
+midendword ssignatur 234-f-234-45-cb-1345-1-e-2345-136-1235
 midendword ssilbig 234-f-234-24-123-e-12-45
 midendword ssilvani 234-f-234-24-123-e-1236-235-24
 midendword ssinn 234-f-234-35-1345
@@ -7872,7 +7936,7 @@ always schloss 156-123-135-2346
 always russin 1235-136-2346-35
 always äbtissin 345-12-e-2345-24-2346-35
 midendword ssinus 234-f-234-35-136-234
-endword ssitte 234-f-234-24-2345-236
+endword ssitte 234-f-234-24-2345-e-236
 midendword ssitten 234-f-234-24-2345-e-2345-14
 midendword ssitz 234-f-2-24
 midendword sskala 234-f-234-13-25-1
@@ -7880,10 +7944,10 @@ midendword sskalen 234-f-234-13-25-14
 midendword sskat 234-f-234-13-1-2345
 midendword sskilauf 234-f-234-13-24-e-123-16-124
 midendword sskript 234-f-234-13-1235-24-1234-2345
-endword sskripte 234-f-234-13-1235-24-1234-236
-endword ssocke 234-f-234-135-46-15
-midendword ssockel 234-f-234-135-46-13456
-midendword ssocken 234-f-234-135-46-14
+endword sskripte 234-f-234-13-1235-24-1234-e-236
+endword ssocke 234-f-234-135-cb-46-15
+midendword ssockel 234-f-234-135-cb-46-13456
+midendword ssocken 234-f-234-135-cb-46-14
 endword ssode 234-f-234-135-e-145-15
 midendword ssoden 234-f-234-135-e-145-14
 midendword ssohn 234-f-234-135-125-1345
@@ -7892,16 +7956,16 @@ midendword ssonder 234-f-234-135-1345-e-145-12456
 midendword ssondern 234-f-234-1345
 endword ssonne 234-f-234-135-1345-e-1345-15
 midendword ssonnen 234-f-234-135-1345-e-1345-14
-endword ssorge 234-f-234-26-12346
+endword ssorge 234-f-234-26-e-12346
 midendword ssorgen 234-f-234-26-e-1245-14
 midendword ssozial 234-f-234-123
 midendword sspalt 234-f-234-1234-25-2345
-endword sspalte 234-f-234-1234-25-236
-endword sspange 234-f-234-1234-235-12346
+endword sspalte 234-f-234-1234-25-e-236
+endword sspange 234-f-234-1234-235-e-12346
 midendword sspangen 234-f-234-1234-235-e-1245-14
 midendword sspannung 234-f-234-1234-235-e-1345-136
 midendword ssparen 234-f-234-1234-356-14
-endword ssparte 234-f-234-1234-356-236
+endword ssparte 234-f-234-1234-356-e-236
 midendword ssparten 234-f-234-1234-356-e-2345-14
 midendword sspatel 234-f-234-1234-1-e-2345-13456
 midendword sspazier 234-f-234-1234-1-e-1356-346-1235
@@ -7930,7 +7994,7 @@ midendword ssport 234-f-234-1234-26-2345
 always passport 1234-1-2346-e-1234-26-2345
 midendword ssprach 234-f-234-1234
 midendword sspring 234-f-234-1234-1235-35-1245
-endword sspringe 234-f-234-1234-1235-35-12346
+endword sspringe 234-f-234-1234-1235-35-e-12346
 midendword ssprint 234-f-234-1234-1235-35-2345
 midendword sspritz 234-f-234-1234-1235-24-2345-1356
 midendword sspross 234-f-234-1234-1235-135-2346
@@ -7938,7 +8002,7 @@ midendword sspruch 234-f-234-1234-1235-136-1456
 midendword ssprung 234-f-234-1234-1235-256-1245
 midendword ssprüch 234-f-234-1234-1235-1256-1456
 midword ssprüng 234-f-234-1234-1235-1256-1345-1245
-endword ssprünge 234-f-234-1234-1235-1256-1345-12346
+endword ssprünge 234-f-234-1234-1235-1256-1345-e-12346
 midendword sspur 234-f-234-1234-136-1235
 midendword sspänner 234-f-234-1234-345-1345-e-1345-12456
 midendword sspännig 234-f-234-1234-345-1345-e-1345-45
@@ -7954,7 +8018,7 @@ always sstachel 234-f-23456-56-13456
 always sstapel 234-f-23456-1-e-1234-13456
 midword ssst 2346-f-23456
 midword ssstell 2346-f-2-13456
-before s begmidword boots 12-135-135-2345-234
+before s begmidword boots 12-135-135-2345-234-f
 midendword sstaat 234-f-23456-2345
 midendword sstabes 234-f-23456-1-12-123456
 midendword sstabil 234-f-23456-1-e-12-24-123
@@ -7965,7 +8029,7 @@ midendword sstall 234-f-23456-1-12345
 midendword sstamm 234-f-23456-1-1346
 midendword sstamperl 234-f-23456-1-134-e-1234-12456-123
 midendword sstand 234-f-2-23456
-endword sstange 234-f-23456-235-12346
+endword sstange 234-f-23456-235-e-12346
 midendword sstangen 234-f-23456-235-e-1245-14
 endword sstar 234-f-23456-1-1235
 midendword sstars 234-f-23456-356-234
@@ -7977,7 +8041,7 @@ midendword sstatt 234-f-23456-1-2345-2345
 endword sstätte 234-f-23456-345-2345-e-236
 midword sstätt 234-f-23456-345-2345-e-2345
 endword sstatue 234-f-23456-1-e-2345-136-15
-midendword sstatuen 234-f-23456-1-e-2345-136-14
+midendword sstatuen 234-f-23456-1-e-2345-136-e-14
 midendword sstatus 234-f-23456-1-e-2345-136-234
 midendword sstatut 234-f-23456-1-e-2345-136-2345
 endword sstaude 234-f-23456-16-e-145-15
@@ -7992,7 +8056,7 @@ midendword sstelen 234-f-23456-13456-14
 endword sstelle 234-f-2-13456-15
 midendword sstellen 234-f-2-13456-14
 midendword sstellig 234-f-2-13456-45
-midendword sstellreflex 234-f-2-13456-e-1235-15-e-124-123-15-6-1346
+midendword sstellreflex 234-f-2-13456-f-1235-15-e-124-123-15-6-1346
 midendword sstellung 234-f-2-13456-136
 midendword sstelz 234-f-23456-13456-1356
 midendword sstempel 234-f-23456-12356-e-1234-13456
@@ -8008,7 +8072,7 @@ midendword sstiefel 234-f-23456-346-e-124-13456
 midendword sstift 234-f-23456-24-124-2345
 midendword sstil 234-f-23456-24-123
 midendword sstill 234-f-23456-24-12345
-always bergesstill 12-12456-e-1245-123456-234-f-23456-24-12345
+always bergesstill 12-12456-e-1245-123456-f-23456-24-12345
 midendword sstimm 234-f-23456-24-1346
 midendword sstock 234-f-23456-135-46
 midendword sstoff 234-f-23456-135-124-124
@@ -8031,7 +8095,7 @@ midendword sstreich 234-f-23456-1235-146-1456
 midendword sstreif 234-f-23456-1235-146-124
 midendword sstreik 234-f-23456-1235-146-13
 midendword sstreit 234-f-23456-1235-146-2345
-endword sstreite 234-f-23456-1235-146-236
+endword sstreite 234-f-23456-1235-146-e-236
 midendword sstreuung 234-f-23456-1235-126-136
 midendword sstrich 234-f-23456-1235-3456
 midendword sstrichter 2346-f-2345-1235-3456-e-2345-12456
@@ -8048,7 +8112,7 @@ endword sstunde 234-f-23456-256-e-145-15
 midendword sstunden 234-f-23456-256-e-145-14
 midendword ssturm 234-f-23456-136-1235-134
 midendword ssturz 234-f-23456-136-1235-1356
-endword sstute 234-f-23456-136-236
+endword sstute 234-f-23456-136-e-236
 midendword sstuten 234-f-23456-136-e-2345-14
 midendword sstutz 234-f-23456-136-2345-1356
 endword sstäbe 234-f-23456-345-e-12-15
@@ -8070,7 +8134,7 @@ endword ssuppe 234-f-234-136-1234-e-1234-15
 midendword ssuppen 234-f-234-136-1234-e-1234-14
 endword sszene 234-f-234-1356-14-15
 midendword sszenen 234-f-234-1356-14-14
-endword ssäfte 234-f-234-345-124-236
+endword ssäfte 234-f-234-345-124-e-236
 midendword ssäften 234-f-234-345-124-e-2345-14
 endword ssäge 234-f-5-234-1245-15
 midendword ssägemaschin 234-f-5-234-1245-15-f-134-156
@@ -8080,7 +8144,7 @@ midendword ssälen 234-f-234-345-e-123-14
 endword ssätz 234-f-5-234-1356
 midendword ssäufer 234-f-234-34-e-124-12456
 midendword ssäuger 234-f-234-34-e-1245-12456
-midendword ssäugetier 234-f-234-34-12346-e-2345-346-1235
+midendword ssäugetier 234-f-234-34-e-12346-e-2345-346-1235
 endword ssäule 234-f-234-34-e-123-15
 midendword ssäulen 234-f-234-34-e-123-14
 midendword ssüchtig 234-f-234-1256-1456-e-2345-45
@@ -8088,9 +8152,9 @@ midendword ssünd 234-f-234-1256-1345-145
 always dasselbe 145-1-234-e-234-13456-e-12-15
 always dasselbig 145-1-234-e-234-13456-e-12-45
 always abgas 1-12-e-1245-1-234
-always niklas 1345-24-13-e-123-1-234
+always niklas 1345-24-e-13-cb-123-1-234
 always nicklas 1345-24-46-e-123-1-234
-prfword grassorte 1245-1235-1-234-f-234-26-236
+prfword grassorte 1245-1235-1-234-f-234-26-e-236
 begmidword grassort 1245-1235-1-234-f-234-26-2345
 begmidword grasst 1245-1235-1-234-f-23456
 before s begmidword diebs 145-346-12-234
@@ -8100,13 +8164,13 @@ always betriebs 23-e-2345-1235-346-12-234
 always betriebsetz 23-e-2345-1235-346-12-f-2-15
 prfword betriebst 23-e-2345-1235-346-12-23456
 begmidword betriebstätt 23-e-2345-1235-346-12-f-23456-345-2345-2345
-prfword betriebstätte 23-e-2345-1235-346-12-f-23456-345-2345-236
+prfword betriebstätte 23-e-2345-1235-346-12-f-23456-345-2345-e-236
 always krebs 13-1235-15-12-234
 sufword vertriebs 36a-2345-1235-346-12-234
 word vertriebst 36a-2345-1235-346-12-23456
 midendword vertriebs 1236-12456-e-2345-1235-346-12-234
 endword vertriebst 1236-12456-e-2345-1235-346-12-23456
-before s begmidword leibs 123-146-12-234
+before s begmidword leibs 123-146-12-234-f
 always weibs 2456-146-12-234
 always kalbs 13-25-12-234
 always jakobs 245-1-e-13-135-12-234
@@ -8134,7 +8198,7 @@ always inlands 35-e-123-235-145-234
 always rolands 1235-135-e-123-235-145-234
 always hunds 125-256-145-234
 always hundschnell 125-256-145-e-156-1345-15-12345
-always hundstock 125-256-145-23456-135-46
+always hundstock 125-256-145-e-23456-135-46
 always mords 134-26-145-234
 begmidword mordseri 134-26-145-f-234-12456-24
 always mordsch 134-26-145-f-156
@@ -8167,7 +8231,7 @@ always sieges 234-346-e-1245-123456
 always kies 13-346-234
 always kiest 13-346-23456
 always vlies 1236-123-346-234
-always spezies 234-1234-15-e-1356-24-123456
+always spezies 234-1234-15-e-1356-24-e-123456
 always achilles 1-1456-24-12345-123456
 always herkules 125-12456-e-13-136-e-123-123456
 always stammes 23456-1-1346-123456
@@ -8179,7 +8243,7 @@ always heeres 125-15-15-e-1235-123456
 always meeres 134-15-15-e-1235-123456
 always jahres 245-1235-123456
 always diabetes 145-24-1-e-23-e-2345-123456
-always geistes 1245-146-23456-123456
+always geistes 1245-146-ca-23456-123456
 always gottes 1245-135-2345-e-2345-123456
 always gesetzes 12346-e-2-15-123456
 always schiffs 156-24-124-124-234
@@ -8286,7 +8350,7 @@ always zwillings 1356-2456-24-12345-35-1245-234
 always lehrlings 123-2356-1235-e-123-35-1245-234
 always schmetterlings 156-134-15-2345-e-2345-12456-e-123-35-1245-234
 always flüchtlings 124-123-1256-1456-2345-e-123-35-1245-234
-always trainings 2345-1235-1-24-1345-35-1245-234
+always trainings 2345-1235-1-24-e-1345-35-1245-234
 always herings 125-12456-35-1245-234
 always gebirgs 12346-e-12-24-1235-1245-234
 always betrugs 23-e-2345-1235-136-1245-234
@@ -8301,7 +8365,7 @@ midendword entzugs 14-2345-e-1356-136-1245-234
 before s begmidword lachs 123-56-234-f
 always flachs 124-123-56-234
 always flachsch 124-123-56-f-156
-always flachschaber 124-123-56-f-156-1-12-12456
+always flachschaber 124-123-56-f-156-1-e-12-12456
 always flachst 124-123-56-23456
 always gesprächs 12346-e-5-234-1234-234
 before s midword chs 1456-234
@@ -8314,30 +8378,30 @@ always wachschutz 2456-56-f-156-136-2345-1356
 always wachssch 2456-56-234-f-156
 prfword wachst 2456-56-23456
 always wachstation 2456-56-f-23456-5-1345
-prfword wachste 2456-56-23456-15
-prfword wachstem 2456-56-23456-12356
-prfword wachsten 2456-56-23456-14
-prfword wachster 2456-56-23456-12456
-prfword wachstes 2456-56-23456-123456
+prfword wachste 2456-56-ca-23456-15
+prfword wachstem 2456-56-ca-23456-12356
+prfword wachsten 2456-56-ca-23456-14
+prfword wachster 2456-56-ca-23456-12456
+prfword wachstes 2456-56-ca-23456-123456
 # HOMONYM
-always wachstub 2456-56-23456-136-12
+always wachstub 2456-56-e-23456-136-12
 always schwach 156-2456-56
 always sechs 234-15-1456-234
 prfword sechst 234-15-1456-23456
 before konsonant begmidword sechst 234-15-1456-23456
-prfword sechste 234-15-1456-23456-15
-always sechstel 234-15-1456-23456-13456
-prfword sechstem 234-15-1456-23456-12356
-prfword sechsten 234-15-1456-23456-14
-prfword sechstens 234-15-1456-23456-14-234
-prfword sechster 234-15-1456-23456-12456
-prfword sechstes 234-15-1456-23456-123456
+prfword sechste 234-15-1456-ca-23456-15
+always sechstel 234-15-1456-ca-23456-13456
+prfword sechstem 234-15-1456-ca-23456-12356
+prfword sechsten 234-15-1456-ca-23456-14
+prfword sechstens 234-15-1456-ca-23456-14-234
+prfword sechster 234-15-1456-ca-23456-12456
+prfword sechstes 234-15-1456-ca-23456-123456
 sufword ausgleichs 34-e-1245-1456-234
 midendword ausgleichs 16-234-e-1245-1456-234
 sufword ausgleichsch 34-e-1245-1456-f-156
 midendword ausgleichsch 16-234-e-1245-1456-e-156
-begword ausgleichschanc 34-e-1245-1456-234-f-1456-235-6-14
-midword ausgleichschanc 16-234-e-1245-1456-234-f-1456-235-6-14
+begword ausgleichschanc 34-e-1245-1456-234-f-1456-235-e-6-14
+midword ausgleichschanc 16-234-e-1245-1456-234-f-1456-235-e-6-14
 sufword ausgleichst 34-e-1245-1456-23456
 midendword ausgleichst 16-234-e-1245-1456-23456
 word ausgleichstor 34-e-1245-1456-234-f-2345-135-1235
@@ -8353,18 +8417,18 @@ endword vergleichst 1236-12456-e-1245-1456-23456
 always reichs 1235-146-1456-234
 always streich 23456-1235-146-1456
 prfword reichst 1235-146-1456-23456
-prfword reichste 1235-146-1456-23456-15
-prfword reichstem 1235-146-1456-23456-12356
-prfword reichsten 1235-146-1456-23456-14
-prfword reichster 1235-146-1456-23456-12456
-prfword reichstes 1235-146-1456-23456-123456
+prfword reichste 1235-146-1456-ca-23456-15
+prfword reichstem 1235-146-1456-ca-23456-12356
+prfword reichsten 1235-146-1456-ca-23456-14
+prfword reichster 1235-146-1456-ca-23456-12456
+prfword reichstes 1235-146-1456-ca-23456-123456
 always mönchs 134-246-1345-1456-234
 always brauchs 2-34-234
 prfword brauchst 2-34-23456
 always brauchsteuer 2-34-f-23456-126-12456
 always fuchs 124-136-1456-234
 always fuchst 124-136-1456-23456
-always fuchsteufel 124-136-1456-234-e-2345-126-124-13456
+always fuchsteufel 124-136-1456-234-e-2345-126-e-124-13456
 always aufbruchs 2-16-e-12-1235-136-1456-234
 always aufbruchst 2-16-e-12-1235-136-1456-f-23456
 sufword ausbruchs 34-e-12-1235-136-1456-234
@@ -8386,35 +8450,36 @@ prfword wuchst 2456-136-1456-23456
 always relais 1235-13456-1-24-234
 always mais 134-1-24-234
 always maisch 134-1-24-156
+midendword gleichstest 1245-1456-234-f-236-23456
 always gleis 1245-123-146-234
 prfword gleist 1245-123-146-23456
-prfword gleiste 1245-123-146-23456-15
-prfword gleistem 1245-123-146-23456-12356
-prfword gleisten 1245-123-146-23456-14
-prfword gleister 1245-123-146-23456-12456
-prfword gleistes 1245-123-146-23456-123456
+prfword gleiste 1245-123-146-ca-23456-15
+prfword gleistem 1245-123-146-ca-23456-12356
+prfword gleisten 1245-123-146-ca-23456-14
+prfword gleister 1245-123-146-ca-23456-12456
+prfword gleistes 1245-123-146-ca-23456-123456
 # HOMONYM
-prfword gleistest 1245-123-146-23456-15-23456
-prfword gleistet 1245-123-146-23456-15-2345
-always steigleistung 23456-146-1245-f-123-146-23456-136
+prfword gleistest 1245-123-146-ca-23456-15-23456
+prfword gleistet 1245-123-146-ca-23456-15-2345
+always steigleistung 23456-146-1245-f-123-146-ca-23456-136
 always kreis 13-1235-146-234
 prfword kreist 13-1235-146-23456
-prfword kreiste 13-1235-146-23456-15
-prfword kreistem 13-1235-146-23456-12356
-prfword kreisten 13-1235-146-23456-14
-prfword kreister 13-1235-146-23456-12456
-prfword kreistes 13-1235-146-23456-123456
-prfword kreistest 13-1235-146-23456-15-23456
-prfword kreistet 13-1235-146-23456-15-2345
+prfword kreiste 13-1235-146-ca-23456-15
+prfword kreistem 13-1235-146-ca-23456-12356
+prfword kreisten 13-1235-146-ca-23456-14
+prfword kreister 13-1235-146-ca-23456-12456
+prfword kreistes 13-1235-146-ca-23456-123456
+prfword kreistest 13-1235-146-ca-23456-15-23456
+prfword kreistet 13-1235-146-ca-23456-15-2345
 always kreisch 13-1235-146-156
 always preis 1234-1235-146-234
 prfword preist 1234-1235-146-23456
-prfword preiste 1234-1235-146-23456-15
-prfword preistem 1234-1235-146-23456-12356
-prfword preisten 1234-1235-146-23456-14
-prfword preister 1234-1235-146-23456-12456
-prfword preistes 1234-1235-146-23456-123456
-always anissamen 235-24-234-f-234-1-134-14
+prfword preiste 1234-1235-146-ca-23456-15
+prfword preistem 1234-1235-146-ca-23456-12356
+prfword preisten 1234-1235-146-ca-23456-14
+prfword preister 1234-1235-146-ca-23456-12456
+prfword preistes 1234-1235-146-ca-23456-123456
+always anissamen 235-24-234-f-234-1-e-134-14
 always johannis 245-135-e-125-235-e-1345-24-234
 always tennis 2345-14-e-1345-24-234
 always basis 12-1-e-234-24-234
@@ -8432,19 +8497,19 @@ midendword ausdrucks 16-234-e-145-46-234
 midendword ausdruckst 16-234-e-145-46-23456
 always glücks 1245-46-234
 # HOMONYM
-always glücksam 1245-46-2346
+always glücksam 1245-46-e-2346
 prfword glückst 1245-46-23456
 prfword glückstadt 1245-46-f-23456-1-145-2345
 always unglücks 256-e-1245-46-234
 prfword unglückst 256-e-1245-46-23456
 always stücks 23456-1256-46-234
-always stücksteuer 23456-1256-46-e-23456-126-12456
+always stücksteuer 23456-1256-46-f-23456-126-12456
 prfword stückst 23456-1256-46-23456
-always bibliotheks 12-24-12-123-24-135-e-2345-125-15-13-234
+always bibliotheks 12-24-e-12-cb-123-24-cb-135-e-2345-125-15-13-234
 always volks 1236-13-234
 always links 123-35-13-234
 prfword linkst 123-35-13-23456
-prfword flinkste 124-123-35-13-23456-15
+prfword flinkste 124-123-35-13-ca-23456-15
 always flinkst 124-123-35-13-23456
 always bezirks 23-e-1356-24-1235-13-234
 always werks 2456-12456-13-234
@@ -8455,11 +8520,11 @@ always gewerkschafts 12346-e-2456-12456-13-e-156-234
 prfword werkst 2456-12456-13-23456
 always werkstadt 2456-12456-13-f-23456-1-145-2345
 always werkstädt 2456-12456-13-f-23456-345-145-2345
-always werkstädte 2456-12456-13-f-23456-345-145-236
+always werkstädte 2456-12456-13-f-23456-345-145-e-236
 always werkstädten 2456-12456-13-f-23456-345-145-e-2345-14
 always werkstatt 2456-12456-13-f-23456-1-2345-2345
 always werkstätt 2456-12456-13-f-23456-345-2345-2345
-always werkstätte 2456-12456-13-f-23456-345-2345-236
+always werkstätte 2456-12456-13-f-23456-345-2345-e-236
 always werkstätten 2456-12456-13-f-23456-345-2345-e-2345-14
 always werkstein 2456-12456-13-f-23456-1246
 always werkstell 2456-12456-13-f-2-13456
@@ -8469,7 +8534,7 @@ always werkstoll 2456-12456-13-f-23456-135-12345
 always werkstück 2456-12456-13-f-23456-1256-46
 always hals 125-25-234
 always halst 125-25-23456
-begmidword halstabl 125-25-234-f-2345-1-12-e-123
+begmidword halstabl 125-25-234-f-2345-1-e-12-cb-123
 always halstuch 125-25-234-f-2345-136-1456
 begmidword halstüch 125-25-234-f-2345-1256-1456
 always generals 1245-14-12456-25-234
@@ -8525,24 +8590,24 @@ always marschalls 134-356-e-156-1-12345-234
 always marschallstab 134-356-e-156-1-12345-f-23456-1-12
 always karls 13-356-123-234
 always karlstad 13-356-123-e-23456-1-145
-begmidword karlstraß 13-356-123-e-23456-1235-1-2346
+begmidword karlstraß 13-356-123-f-23456-1235-1-2346
 always impuls 24-134-e-1234-136-123-234
 always brems 12-1235-12356-234
 prfword bremst 12-1235-12356-23456
-prfword bremste 12-1235-12356-23456-15
-prfword bremstem 12-1235-12356-23456-12356
-prfword bremsten 12-1235-12356-23456-14
-prfword bremster 12-1235-12356-23456-12456
-prfword bremstes 12-1235-12356-23456-123456
+prfword bremste 12-1235-12356-ca-23456-15
+prfword bremstem 12-1235-12356-ca-23456-12356
+prfword bremsten 12-1235-12356-ca-23456-14
+prfword bremster 12-1235-12356-ca-23456-12456
+prfword bremstes 12-1235-12356-ca-23456-123456
 # HOMONYM
-prfword bremstest 12-1235-12356-23456-15-23456
-prfword bremstet 12-1235-12356-23456-15-2345
+prfword bremstest 12-1235-12356-ca-23456-15-23456
+prfword bremstet 12-1235-12356-ca-23456-15-2345
 always übernahms 2-1256-e-1345-134-234
 prfword übernahmst 2-1256-e-1345-134-23456
 always brahms 12-1235-1-125-134-234
 always bims 12-24-134-234
-always bimste 12-24-134-23456-15
-always bimsten 12-24-134-23456-14
+always bimste 12-24-134-ca-23456-15
+always bimsten 12-24-134-ca-23456-14
 always gesims 12346-e-234-24-134-234
 always gesimst 12346-e-234-24-134-23456
 always jubiläums 245-136-e-12-24-e-123-345-e-136-134-234
@@ -8560,12 +8625,12 @@ always glaubens 1245-123-16-e-12-14-234
 always schadens 156-1-e-145-14-234
 always schadenstift 156-1-e-145-14-f-23456-24-124-2345
 always friedens 124-1235-346-e-145-14-234
-prfword friedenste 124-1235-346-e-145-14-23456-15
+prfword friedenste 124-1235-346-e-145-14-f-23456-15
 always friedenstell 124-1235-346-e-145-14-f-2-13456
-prfword friedenstem 124-1235-346-e-145-14-23456-12356
-prfword friedensten 124-1235-346-e-145-14-23456-14
-prfword friedenster 124-1235-346-e-145-14-23456-12456
-prfword friedenstes 124-1235-346-e-145-14-23456-123456
+prfword friedenstem 124-1235-346-e-145-14-f-23456-12356
+prfword friedensten 124-1235-346-e-145-14-f-23456-14
+prfword friedenster 124-1235-346-e-145-14-f-23456-12456
+prfword friedenstes 124-1235-346-e-145-14-f-23456-123456
 always friedenstift 124-1235-346-e-145-14-f-23456-24-124-2345
 always kondens 13-135-1345-e-145-14-234
 always ordens 26-e-145-14-234
@@ -8573,9 +8638,9 @@ always tangens 2345-235-e-1245-14-234
 sufword vermögens 36a-2-246-14-234
 midendword vermögens 1236-12456-e-2-246-14-234
 always darlehens 145-356-e-123-2356-14-234
-always schreckens 156-1235-15-46-14-234
-always schreckensch 156-1235-15-46-14-f-156
-always schreckenstarr 156-1235-15-46-14-f-23456-356-1235
+always schreckens 156-1235-15-cb-46-14-234
+always schreckensch 156-1235-15-cb-46-14-f-156
+always schreckenstarr 156-1235-15-cb-46-14-f-23456-356-1235
 always willens 2456-12345-14-234
 always namens 1345-1-e-134-14-234
 always namensch 1345-1-e-134-14-f-156
@@ -8584,7 +8649,7 @@ always siemens 234-346-e-134-14-234
 always unternehmens 2-256-e-1345-125-14-234
 always einkommens 1246-e-13-1346-14-234
 always einkommensteuer 1246-e-13-1346-14-f-23456-126-12456
-sufword verfahrens 36a-e-2-1235-14-234
+sufword verfahrens 36a-2-1235-14-234
 midendword verfahrens 1236-12456-e-2-1235-14-234
 always ermessens 12456-e-134-15-2346-14-234
 always wissens 2456-2346-14-234
@@ -8592,22 +8657,22 @@ always wissenschaft 2456-2346-14-156
 always wissenschaftsauf 2456-2346-14-e-156-234-f-2-16
 always wissenstand 2456-2346-14-f-2-23456
 sufword verhaltens 36a-125-25-e-2345-14-234
-word verhaltenste 36a-125-25-e-2345-14-23456-15
-word verhaltenstem 36a-125-25-e-2345-14-23456-12356
-word verhaltensten 36a-125-25-e-2345-14-23456-14
-word verhaltenster 36a-125-25-e-2345-14-23456-12456
-word verhaltenstes 36a-125-25-e-2345-14-23456-123456
+word verhaltenste 36a-125-25-e-2345-14-ca-23456-15
+word verhaltenstem 36a-125-25-e-2345-14-ca-23456-12356
+word verhaltensten 36a-125-25-e-2345-14-ca-23456-14
+word verhaltenster 36a-125-25-e-2345-14-ca-23456-12456
+word verhaltenstes 36a-125-25-e-2345-14-ca-23456-123456
 midendword verhaltens 1236-12456-e-125-25-e-2345-14-234
-endword verhaltenste 1236-12456-e-125-25-e-2345-14-23456-15
-endword verhaltenstem 1236-12456-e-125-25-e-2345-14-23456-12356
-endword verhaltensten 1236-12456-e-125-25-e-2345-14-23456-14
-endword verhaltenster 1236-12456-e-125-25-e-2345-14-23456-12456
-endword verhaltenstes 1236-12456-e-125-25-e-2345-14-23456-123456
+endword verhaltenste 1236-12456-e-125-25-e-2345-14-ca-23456-15
+endword verhaltenstem 1236-12456-e-125-25-e-2345-14-ca-23456-12356
+endword verhaltensten 1236-12456-e-125-25-e-2345-14-ca-23456-14
+endword verhaltenster 1236-12456-e-125-25-e-2345-14-ca-23456-12456
+endword verhaltenstes 1236-12456-e-125-25-e-2345-14-ca-23456-123456
 sufword vertrauens 36a-2345-1235-16-e-14-234
 midendword vertrauens 1236-12456-e-2345-1235-16-e-14-234
 always herzens 125-12456-e-1356-14-234
 sufword vereins 36a-1246-234
-sufword vereinsam 36a-1246-2346
+sufword vereinsam 36a-1246-e-2346
 word vereinst 36a-1246-23456
 midendword vereins 1236-12456-e-1246-234
 midendword vereinsam 1236-12456-e-1246-2346
@@ -8616,35 +8681,35 @@ before s begmidword steins 23456-1246-234
 always schweins 156-2456-1246-234
 always zins 1356-35-234
 always finanz 124-35-235-1356
-always justiz 245-136-23456-24-1356
+always justiz 245-136-ca-23456-24-1356
 always magazin 134-1-e-1245-1-e-1356-35
 always medizin 134-15-e-145-24-e-1356-35
 always benzin 12-14-e-1356-35
 always kratz 13-1235-1-2345-1356
 prfword zinst 1356-35-23456
-prfword zinste 1356-35-23456-15
-prfword zinstem 1356-35-23456-12356
-prfword zinsten 1356-35-23456-14
-prfword zinster 1356-35-23456-12456
-prfword zinstes 1356-35-23456-123456
-prfword zinstest 1356-35-23456-15-23456
-prfword zinstet 1356-35-23456-15-2345
-before s begmidword manns 134-1345-234
+prfword zinste 1356-35-ca-23456-15
+prfword zinstem 1356-35-ca-23456-12356
+prfword zinsten 1356-35-ca-23456-14
+prfword zinster 1356-35-ca-23456-12456
+prfword zinstes 1356-35-ca-23456-123456
+prfword zinstest 1356-35-ca-23456-15-23456
+prfword zinstet 1356-35-ca-23456-15-2345
+before s begmidword manns 134-1345-234-f
 always seemanns 234-15-15-e-134-1345-234
 always seemannschaft 234-15-15-e-134-1345-156
 always kaufmanns 13-16-124-e-134-1345-234
 always kaufmannschaft 13-16-124-e-134-1345-156
 always bergmanns 12-12456-1245-e-134-1345-234
-before s midword ions 24-135-1345-234
+before s midword ions 24-135-1345-234-f
 always garnisons 1245-356-e-1345-24-e-234-135-1345-234
 always kantons 13-235-e-2345-135-1345-234
-before s begword kokos 13-135-e-13-135-234
+before s begword kokos 13-135-e-13-135-234-f
 always kosmos 13-135-234-e-134-135-234
-before s begword los 123-135-234
+before s begword los 123-135-234-f
 always erlös 12456-e-123-246-234
 always erlösch 12456-e-123-246-156
 always erlöst 12456-e-123-246-23456
-before s begmidword moos 134-135-135-234
+before s begmidword moos 134-135-135-234-f
 always lotos 123-135-e-2345-135-234
 always gips 1245-24-1234-234
 always gipst 1245-24-1234-23456
@@ -8654,7 +8719,7 @@ always alters 25-2345-12456-234
 prfword alterst 25-2345-12456-23456
 always halterschaft 125-25-e-2345-12456-156
 always schalter 156-25-e-2345-12456
-before s begmidword mars 134-356-234
+before s begmidword mars 134-356-234-f
 always neujahrs 1345-126-e-245-1235-234
 sufword verkehrs 36a-13-2356-1235-234
 word verkehrst 36a-13-2356-1235-23456
@@ -8675,7 +8740,7 @@ always heirats 125-146-e-1235-1-2345-234
 always ratsam 1235-1-2345-2346
 always ratsamt 1235-1-2345-234-f-1-134-2345
 always ratsch 1235-1-2345-156
-always ratschef 1235-1-2345-234-e-1456-15-124
+always ratschef 1235-1-2345-234-f-1456-15-124
 always ratschlag 1235-1-2345-f-156-1245
 always ratschläg 1235-1-2345-f-5-156-1245
 always ratschluss 1235-1-2345-f-156-123-136-2346
@@ -8701,6 +8766,7 @@ always kunfts 13-256-124-2345-234
 always kunftsch 13-256-124-2345-f-156
 always kunftschanc 13-256-124-2345-234-f-1456-235-e-6-14
 always wehrmachts 2456-2356-1235-f-134-56-2345-234
+always fasnachts 124-1-234-f-1345-56-2345-234
 always fastnachts 124-1-23456-f-1345-56-2345-234
 always weihnachts 2456-146-125-f-1345-56-2345-234
 always gefechts 12346-e-124-15-1456-2345-234
@@ -8772,34 +8838,35 @@ begmidword hausstäd 125-16-234-f-23456-345-145
 always hausstaub 125-16-234-f-23456-16-12
 begmidword hausstreck 125-16-234-f-23456-1235-15-46
 begmidword haussuch 125-16-234-f-234-136-e-1456
-always hinaus 125-35-16-234
+always hinaus 125-35-e-16-234
 always unaus 256-e-16-234
 before s begmidword raus 1235-16-234
 word krauss 13-1235-16-2346
-always heraus 125-12456-16-234
-always voraus 2-26-16-234
+always heraus 125-12456-e-16-234
+always voraus 2-26-e-16-234
 always bambus 12-1-134-e-12-136-234
 always kubus 13-136-e-12-136-234
-always arcus 356-6-14-136-234
-always pyrrhus 1234-6-13456-1235-1235-125-136-234
+always arcus 356-e-6-14-136-234
+always pyrrhus 1234-6-13456-1235-e-1235-125-136-234
 always sozius 234-135-e-1356-24-136-234
 always jus 245-136-234
 always jusch 245-136-156
 always just 245-136-23456
 always sympathikus 234-6-13456-134-e-1234-1-e-2345-125-24-e-13-136-234
-always arkus 356-13-136-234
+always arkus 356-e-13-136-234
 always zirkus 1356-24-1235-e-13-136-234
-prfword zirkusse 1356-24-1235-13-136-2346-15
-always zirkussen 1356-24-1235-13-136-2346-14
+prfword zirkusse 1356-24-1235-e-13-136-2346-15
+always zirkussen 1356-24-1235-e-13-136-2346-14
 always hibiskus 125-24-e-12-24-234-e-13-136-234
 always gallus 1245-1-12345-136-234
 always phallus 1234-125-1-12345-136-234
 always plus 1234-123-136-234
-always pluster 1234-123-136-23456-12456
+always pluster 1234-123-136-ca-23456-12456
+always lackmustest 123-1-46-e-134-136-234-f-236-23456
 always rhythmus 1235-125-6-13456-2345-125-e-134-136-234
 always orgasmus 26-e-1245-1-234-e-134-136-234
 sufword tetanus 2345-15-e-2345-235-136-234
-midendword tetanus 236-2345-235-136-234
+midendword tetanus f-236-e-2345-235-136-234
 always venus 1236-14-136-234
 always rizinus 1235-24-e-1356-35-136-234
 always konus 13-135-e-1345-136-234
@@ -8818,29 +8885,29 @@ word st 234-2345
 always st 23456
 syllable talkshow 2345-25-13-f-234-125-135-2456
 syllable thorax 2345-125-26-1-6-1346
-syllable trainings 2345-1235-1-24-1345-35-1245-234
+syllable trainings 2345-1235-1-24-e-1345-35-1245-234
 word sta 234-2345-1
 # HOMONYM
 midendword stabell 234-f-2345-1-e-23-12345
-midendword stablet 234-f-2345-1-12-123-15-2345
-midendword stabu 234-f-2345-1-12-136
+midendword stablet 234-f-2345-1-e-12-cb-123-15-2345
+midendword stabu 234-f-2345-1-e-12-136
 midendword stafel 234-f-2345-1-e-124-13456
 midendword stag 234-f-2345-1-1245
-midendword stagegeld 234-f-2345-1-12346-f-1245-13456-145
-endword stage 234-f-2345-1-12346
-always stagnation 23456-1-1245-e-1345-5-1345
-always stagnier 23456-1-1245-e-1345-346-1235
+midendword stagegeld 234-f-2345-1-e-12346-f-1245-13456-145
+endword stage 234-f-2345-1-e-12346
+always stagnation 23456-1-e-1245-cb-1345-5-1345
+always stagnier 23456-1-e-1245-cb-1345-346-1235
 always stagsegel 23456-1-1245-f-234-15-e-1245-13456
 midendword stakt 234-f-2345-1-13-2345
 always herbst 125-12456-12-23456
-endword stakte 234-f-2345-1-13-236
+endword stakte 234-f-2345-1-13-e-236
 endword stalar 234-f-2345-25-1-1235
 midword stalar 234-f-2345-25-356
 midendword stalent 234-f-2345-25-14-2345
 midendword staler 234-f-2345-25-12456
-always standstanz 2-23456-234-e-2345-235-1356
+always standstanz 2-23456-234-f-2345-235-1356
 midword stangent 234-f-2345-235-e-1245-14-e-2345
-endword stangente 234-f-2345-235-e-1245-14-236
+endword stangente 234-f-2345-235-e-1245-14-e-236
 endword stanne 234-f-2345-235-e-1345-15
 midendword stannen 234-f-2345-235-e-1345-14
 midendword stapezier 234-f-2345-1-e-1234-15-e-1356-346-1235
@@ -8851,12 +8918,12 @@ endword stasche 234-f-2345-1-e-156-15
 midendword staschen 234-f-2345-1-e-156-14
 endword stasse 234-f-2345-1-2346-15
 midendword stassen 234-f-2345-1-2346-14
-endword staste 234-f-2345-1-23456-15
-endword stasten 234-f-2345-1-23456-14
+endword staste 234-f-2345-1-ca-23456-15
+endword stasten 234-f-2345-1-ca-23456-14
 endword statar 234-f-2345-1-e-2345-1-1235
 midword statar 234-f-2345-1-e-2345-356
-midendword statbestand 234-f-2345-1-2345-f-23-2-23456
-midendword statbeständ 234-f-2345-1-2345-f-23-5-23456
+midendword statbestand 234-f-2345-1-2345-f-23-e-2-23456
+midendword statbeständ 234-f-2345-1-2345-f-23-e-5-23456
 midendword stätig 234-f-2345-345-e-2345-45
 always bestätig 23-e-23456-345-e-2345-45
 midendword stauglich 234-f-2345-16-1245-456
@@ -8872,11 +8939,11 @@ begword steam 23456-15-1-134
 always steamen 23456-15-1-134-14
 always steamer 23456-15-1-134-12456
 always steamt 23456-15-1-134-2345
-endword steamte 23456-15-1-134-236
+endword steamte 23456-15-1-134-e-236
 midendword stechnik 234-f-2345-13
 midendword stechnisch 234-f-2345-156
 midendword stechnolog 234-f-236-1456-e-1345-135-e-123-135-1245
-endword stechnologe 234-f-236-1456-e-1345-135-e-123-135-12346
+endword stechnologe 234-f-236-1456-e-1345-135-e-123-135-e-12346
 midendword stee 234-f-2345-15-15
 always steelband 23456-15-15-123-f-12-235-145
 midendword steich 234-f-2345-146-1456
@@ -8897,20 +8964,20 @@ endword stensor 234-f-2345-14-e-234-135-1235
 midword stensor 234-f-2345-14-e-234-26
 midendword steppich 234-f-236-1234-e-1234-3456
 midendword sterm 234-f-2345-12456-134
-always läster 123-345-23456-12456
-always pflaster 1234-124-123-1-23456-12456
-always raster 1235-1-23456-12456
-always priester 1234-1235-346-23456-12456
-always meister 134-146-23456-12456
-always geschwister 12346-e-156-2456-24-23456-12456
-always fenster 124-14-23456-12456
-always polster 1234-135-123-23456-12456
+always läster 123-345-ca-23456-12456
+always pflaster 1234-124-123-1-ca-23456-12456
+always raster 1235-1-ca-23456-12456
+always priester 1234-1235-346-ca-23456-12456
+always meister 134-146-ca-23456-12456
+always geschwister 12346-e-156-2456-24-ca-23456-12456
+always fenster 124-14-ca-23456-12456
+always polster 1234-135-123-ca-23456-12456
 always oster 135-23456-12456
 always östermalm 246-23456-12456-e-134-25-134
-always kloster 13-123-135-23456-12456
-always schuster 156-136-23456-12456
-always flüster 124-123-1256-23456-12456
-always muster 134-136-23456-12456
+always kloster 13-123-135-ca-23456-12456
+always schuster 156-136-ca-23456-12456
+always flüster 124-123-1256-ca-23456-12456
+always muster 134-136-ca-23456-12456
 midword sterrass 234-f-2345-12456-e-1235-1-2346
 midword sterrin 234-f-2345-12456-e-1235-35
 midword sterritori 234-f-2345-12456-e-1235-24-e-2345-26-24
@@ -8923,10 +8990,10 @@ always baggersteuerung 12-1-1245-e-1245-12456-f-23456-126-12456-136
 always bausteuerung 12-16-f-23456-126-12456-136
 midendword steufel 234-f-2345-126-e-124-13456
 midendword stext 234-f-236-6-1346-2345
-endword stexte 234-f-236-6-1346-236
-midword stheat 234-f-2345-125-15-1-2345
-midendword stheke 234-f-2345-125-15-13-15
-midendword stheken 234-f-2345-125-15-13-14
+endword stexte 234-f-236-6-1346-e-236
+midword stheat 234-f-2345-125-15-cb-1-e-2345
+midendword stheke 234-f-2345-125-15-e-13-15
+midendword stheken 234-f-2345-125-15-e-13-14
 midendword sthema 234-f-2345-125-12356-1
 midendword sthemen 234-f-2345-125-12356-14
 midword stheni 234-2345-125-14-24
@@ -8939,7 +9006,7 @@ midendword stherm 234-f-2345-125-12456-134
 midendword sthese 234-f-2345-125-123456-15
 midendword sthesen 234-f-2345-125-123456-14
 midendword sthron 234-f-2345-125-1235-135-1345
-midendword sticket 234-f-2345-24-46-15-2345
+midendword sticket 234-f-2345-24-cb-46-15-2345
 midendword stief 234-f-2345-346-124
 always stief 23456-346-124
 always stiefbruder 23456-346-124-f-12-1235-136-e-145-12456
@@ -8949,7 +9016,7 @@ always stiefgeschwister 23456-346-124-f-12346-e-156-2456-24-23456-12456
 always stiefkind 23456-346-124-f-13-35-145
 always stiefmutter 23456-346-124-f-134-136-2345-e-2345-12456
 always stiefmütter 23456-346-124-f-134-1256-2345-e-2345-12456
-always stiefschwester 23456-346-124-f-156-2456-15-23456-12456
+always stiefschwester 23456-346-124-f-156-2456-15-ca-23456-12456
 always stiefsohn 23456-346-124-f-234-135-125-1345
 always stiefsöhn 23456-346-124-f-234-246-125-1345
 always stieftochter 23456-346-124-f-2345-135-1456-e-2345-12456
@@ -8960,7 +9027,7 @@ endword stilge 234-f-2345-24-123-e-12346
 midendword stilgen 234-f-2345-24-123-e-1245-14
 midendword stilger 234-f-2345-24-123-e-1245-12456
 midendword stilgung 234-f-2345-24-123-e-1245-136
-endword stinte 234-f-2345-35-236
+endword stinte 234-f-2345-35-e-236
 midendword stinten 234-f-2345-35-e-2345-14
 midendword stip 234-f-2345-24-1234
 always stipend 23456-24-e-1234-14-145
@@ -8982,13 +9049,13 @@ midendword estochter 123456-f-2345-135-1456-e-2345-12456
 midendword stöchter 234-f-2345-246-1456-e-2345-12456
 midendword estochter 123456-f-2345-246-1456-e-2345-12456
 midendword stod 234-f-2345-135-145
-begmidword mastodon 134-1-23456-135-e-145-135-1345
+begmidword mastodon 134-1-ca-23456-135-e-145-135-1345
 midendword estod 123456-f-2345-135-145
 midword stoleran 234-f-2345-135-e-123-12456-235
 midendword stool 234-f-2345-135-135-123
-midendword stopo 234-f-2345-135-1234-135
+midendword stopo 234-f-2345-135-e-1234-135
 midendword storkel 234-f-2345-26-e-13-13456
-midendword storte 234-f-2345-26-236
+midendword storte 234-f-2345-26-e-236
 midendword storten 234-f-2345-26-e-2345-14
 midendword stour 234-f-2345-135-136-1235
 midendword stown 234-f-2345-135-2456-1345
@@ -8998,13 +9065,15 @@ midendword strag 234-f-2345-1245
 midendword stragödi 234-f-2345-1245-246-e-145-24
 midendword strain 234-f-2345-1235-1-24-1345
 midword strak 234-f-2345-1235-1-13
-midword stranch 234-f-2345-1235-235-1456
+midword stranch 234-f-2345-1235-235-e-1456
 midendword strank 234-f-2345-1235-235-13
 midendword strans 234-f-2345-1235-235-234
 midendword stratsch 234-f-2345-1235-1-2345-156
 midendword strauer 234-f-2345-1235-16-e-12456
 midendword straum 234-f-2345-1235-16-134
+always angstraum 235-1245-23456-f-1235-16-134
 midendword sträum 234-f-2345-1235-34-134
+always angsträum 235-1245-23456-f-1235-34-134
 always gastraum 1245-1-23456-f-1235-16-134
 begmidword gasträum 1245-1-23456-f-1235-34-134
 always lastraum 123-1-23456-f-1235-16-134
@@ -9019,19 +9088,19 @@ midendword strauung 234-f-2345-1235-16-e-136
 midendword streff 234-f-2345-124
 midendword streib 234-f-2345-1235-146-12
 midendword strend 234-f-2345-1235-14-145
-endword strendite 23456-f-1235-14-e-145-24-236
+endword strendite 23456-f-1235-14-e-145-24-e-236
 midendword strenditen 23456-f-1235-14-e-145-24-e-2345-14
 midword strenn 234-f-2345-1235-14-1345
 midword streppe 234-f-2345-1235-15-1234-e-1234
 midword stret 234-f-2345-1235-15-e-2345
-endword strete 234-f-2345-1235-15-236
+endword strete 234-f-2345-1235-15-e-236
 midendword stribun 234-f-2345-1235-24-e-12-256
 midendword strieb 234-f-2345-1235-346-12
 midendword striller 234-f-2345-1235-24-12345-12456
 midendword strink 234-f-2345-1235-35-13
 midendword strog 234-f-2345-1235-135-1245
-always gastrogel 1245-1-23456-1235-135-e-1245-13456
-always gastrogen 1245-1-23456-1235-135-e-1245-14
+always gastrogel 1245-1-ca-23456-1235-135-e-1245-13456
+always gastrogen 1245-1-ca-23456-1235-135-e-1245-14
 begmidword astrogl 1-23456-1235-135-f-1245-123
 begmidword astrogn 1-23456-1235-135-f-1245-1345
 always astrograf 1-23456-1235-135-f-1245-1235-1-124
@@ -9039,31 +9108,31 @@ always astrograph 1-23456-1235-135-f-1245-1235-1-1234-125
 always östrogen 246-23456-1235-135-e-1245-14
 midendword strommel 234-f-2345-1235-135-1346-13456
 midword strompet 234-f-2345-1235-135-134-e-1234-15-e-2345
-endword strompete 234-f-2345-1235-135-134-e-1234-15-236
+endword strompete 234-f-2345-1235-135-134-e-1234-15-e-236
 midendword strompetet 234-f-2345-1235-135-134-e-1234-15-e-236-2345
-endword strompetete 234-f-2345-1235-135-134-e-1234-15-236-236
+endword strompetete 234-f-2345-1235-135-134-e-1234-15-e-236-e-236
 midendword stropf 234-f-2345-1235-135-1234-124
 midword strophä 234-f-2345-1235-135-e-1234-125-345
 midendword stross 234-f-2345-1235-135-2346
 midendword strost 234-f-2345-1235-135-23456
 midword strot 234-f-2345-1235-135-2345
 always rostrot 1235-135-23456-f-1235-135-2345
-prfword rostrote 1235-135-23456-f-1235-135-236
+prfword rostrote 1235-135-23456-f-1235-135-e-236
 midendword strug 234-f-2345-1235-136-1245
 midendword struthahn 234-f-2345-1235-136-2345-e-125-1-125-1345
 midword struthähn 234-f-2345-1235-136-2345-e-125-345-125-1345
 midendword strächtig 234-f-2345-1235-345-1456-e-2345-45
 midendword sträg 234-f-5-2345-1245
-midword strän 234-f-2345-1235-345-e-1345
+midword strän 234-f-2345-1235-345-1345
 prfword strände 23456-1235-345-1345-e-145-15
 always stränden 23456-1235-345-1345-e-145-14
 always ostränder 135-23456-f-1235-345-1345-e-145-12456
-prfword stränge 23456-1235-345-1345-12346
+prfword stränge 23456-1235-345-1345-e-12346
 always strängen 23456-1235-345-1345-e-1245-14
 always strängig 23456-1235-345-1345-e-1245-45
 midendword sträum 234-f-2345-1235-34-134
 midword sträum 234-f-2345-1235-34-134
-endword strög 234-f-2345-1235-246-12346
+endword strög 234-f-2345-1235-246-e-12346
 midword strög 234-f-2345-1235-246-1245
 midword ströpf 234-f-2345-1235-246-1234-124
 midendword strüb 234-f-2345-1235-1256-e-12
@@ -9096,14 +9165,14 @@ always stücksteil 23456-1256-46-234-f-2345-146-123
 midword stüft 234-f-2345-1256-124-2345
 midword stüll 234-f-2345-1256-12345
 midword stümel 234-f-2345-1256-e-134-13456
-midendword stümlich 234-f-2345-1256-134-456
+midendword stümlich 234-f-2345-1256-134-e-456
 midendword stür 234-f-2345-1256-1235
 always stürb 23456-1256-1235-12
 always stürm 23456-1256-1235-134
 always stürz 23456-1256-1235-1356
-midendword stüte 234-f-2345-1256-236
-midendword estüte 123456-f-2345-1256-236
-prfword gestüte 12346-e-23456-1256-236
+midendword stüte 234-f-2345-1256-e-236
+midendword estüte 123456-f-2345-1256-e-236
+prfword gestüte 12346-e-23456-1256-e-236
 midendword stüten 234-f-2345-1256-e-2345-14
 midendword estüten 123456-f-2345-1256-e-2345-14
 prfword gestüten 12346-e-23456-1256-e-2345-14
@@ -9125,13 +9194,13 @@ always glastopf 1245-123-1-234-f-2345-135-1234-124
 always glastöpf 1245-123-1-234-f-2345-246-1234-124
 always glasturm 1245-123-1-234-f-2345-136-1235-134
 always glastürm 1245-123-1-234-f-2345-1256-1235-134
-always mastermind 134-1-23456-12456-f-134-35-145
-always anästh 235-345-234-2345-125
-always pastagericht 1234-1-23456-1-f-12346-2-3456
-always pastagrinsen 1234-1-23456-1-f-1245-1235-35-e-234-14
+always mastermind 134-1-ca-23456-12456-f-134-35-145
+always anästh 235-345-234-e-2345-125
+always pastagericht 1234-1-ca-23456-1-f-12346-2-3456
+always pastagrinsen 1234-1-ca-23456-1-f-1245-1235-35-e-234-14
 always mithrastempel 134-24-2345-125-e-1235-1-234-f-2345-12356-e-1234-13456
 always frästisch 124-1235-345-234-f-2345-24-156
-begmidword abstrak 1-12-23456-1235-1-13
+begmidword abstrak 1-12-ca-23456-1235-1-13
 always betriebsteil 23-e-2345-1235-346-12-234-f-2345-146-123
 always betriebstreu 23-e-2345-1235-346-12-234-f-2345-1235-126
 always krebstier 13-1235-15-12-234-f-2345-346-1235
@@ -9145,8 +9214,8 @@ midendword verbandstisch 1236-12456-e-12-235-145-234-f-2345-24-156
 always kindstauf 13-35-145-234-f-2345-16-124
 always kindstäuf 13-35-145-234-f-2345-34-124
 always rindstalg 1235-35-145-234-f-2345-25-1245
-always hundsteuer 125-256-145-234-f-2345-126-12456
-always mordsteuer 134-26-145-234-f-2345-126-12456
+always hundsteuer 125-256-145-234-f-2345-126-e-12456
+always mordsteuer 134-26-145-234-f-2345-126-e-12456
 always mordsteur 134-26-145-234-f-2345-126-1235
 always esther 123456-e-2345-125-12456
 always pestherd 1234-15-23456-e-125-12456-145
@@ -9157,14 +9226,14 @@ always liebestrunk 123-346-e-12-123456-f-2345-1235-256-13
 always landesteil 123-235-e-145-123456-f-2345-146-123
 always bundestrupp 12-256-e-145-123456-f-2345-1235-136-1234-1234
 always gestippt 12346-e-23456-24-1234-1234-2345
-prfword gestippte 12346-e-23456-24-1234-1234-236
+prfword gestippte 12346-e-23456-24-1234-1234-e-236
 midendword gestüt 12346-f-23456-1256-2345
-midendword gestüte 12346-e-23456-1256-236
+midendword gestüte 12346-e-23456-1256-e-236
 always frühstücksteller 124-1235-1256-125-e-23456-1256-46-234-f-236-12345-12456
 always tagesteller 2345-1-1245-123456-f-236-12345-12456
 always siegestrunk 234-346-e-1245-123456-f-2345-1235-256-13
 always ruhmestat 1235-136-125-e-134-123456-f-2345-1-2345
-before t begmidword pommes 1234-135-1346-123456
+before t begmidword pommes 1234-135-1346-123456-f
 always kirmestanz 13-24-1235-134-123456-f-2345-235-1356
 always einesteils 1246-123456-f-2345-146-123-234
 always heeresteil 125-15-15-e-1235-123456-f-2345-146-123
@@ -9175,10 +9244,10 @@ always gesetzestreu 12346-e-2-15-123456-f-2345-1235-126
 # HOMONYM
 always schiffstau 156-24-124-124-234-f-2345-16
 always schiffstäuf 156-24-124-124-234-f-2345-34-124
-prfword schiffstonnage 156-24-124-124-234-f-2345-135-1345-e-1345-1-12346
+prfword schiffstonnage 156-24-124-124-234-f-2345-135-1345-e-1345-1-e-12346
 always schiffstonnage 156-24-124-124-234-f-2345-135-1345-e-1345-1-1245
 always hilfstaucher 125-24-123-124-234-f-2345-16-e-1456-12456
-always hilfstätig 125-24-123-124-234-f-2345-345-2345-45
+always hilfstätig 125-24-123-124-234-f-2345-345-e-2345-45
 always hilfstrupp 125-24-123-124-234-f-2345-1235-136-1234-1234
 prfword hofstor 125-135-124-234-e-2345-135-1235
 begmidword hofstor 125-135-124-234-e-2345-26
@@ -9188,7 +9257,7 @@ midendword kaufstrip 13-16-124-234-f-2345-1235-24-1234
 sufword verkaufstisch 36a-13-16-124-234-f-2345-24-156
 midendword verkaufstisch 1236-12456-e-13-16-124-234-f-2345-24-156
 always berufstätig 23-e-1235-136-124-234-f-2345-345-e-2345-45
-midendword gstresen 1245-234-f-2345-1235-15-234-15-1345
+midendword gstresen 1245-234-f-2345-1235-123456-14
 sufword vertragsteil 36a-2345-1245-234-f-2345-146-123
 midendword vertragsteil 1236-12456-e-2345-1245-234-f-2345-146-123
 sufword vertragstreu 36a-2345-1245-234-f-2345-1235-126
@@ -9199,7 +9268,7 @@ always mittagstrunk 134-24-2345-e-2345-1-1245-234-f-2345-1235-256-13
 always kriegstalk 13-1235-346-1245-234-f-2345-25-13
 always kriegstanz 13-1235-346-1245-234-f-2345-235-1356
 always kriegsteil 13-1235-346-1245-234-f-2345-146-123
-always kriegstheater 13-1235-346-1245-234-f-2345-125-15-1-2345-12456
+always kriegstheater 13-1235-346-1245-234-f-2345-125-15-1-e-2345-12456
 always kriegsto 13-1235-346-1245-234-f-2345-135
 always königstreu 13-246-e-1345-45-234-f-2345-1235-126
 always anfangsteil 235-e-124-235-1245-234-f-2345-146-123
@@ -9216,7 +9285,7 @@ midendword ungstank 136-234-f-2345-235-13
 midendword ungstat 136-234-f-2345-1-2345
 midendword ungsteil 136-234-f-2345-146-123
 midendword ungstisch 136-234-f-2345-24-156
-midendword ungstresen 136-234-f-2345-1235-15-234-15-1345
+midendword ungstresen 136-234-f-2345-1235-123456-14
 midendword ungstreu 136-234-f-2345-1235-126
 midendword ungstrick 136-234-f-2345-1235-24-46
 midendword ungstrupp 136-234-f-2345-1235-136-1234-1234
@@ -9253,11 +9322,11 @@ sufword versuchstier 36a-234-136-1456-234-f-2345-346-1235
 midendword versuchstier 1236-12456-e-234-136-1456-234-f-2345-346-1235
 always frühstücksteller 124-1235-1256-125-e-23456-1256-46-234-f-2345-15-12345-12456
 always frühstückstisch 124-1235-1256-125-e-23456-1256-46-234-f-2345-24-156
-always hephaistostempel 125-15-e-1234-125-1-24-23456-135-234-f-2345-12356-e-1234-13456
+always hephaistostempel 125-15-e-1234-125-1-24-ca-23456-135-234-f-2345-12356-e-1234-13456
 always distorsion 145-24-234-e-2345-26-e-234-245
 always eistanz 146-234-f-2345-235-1356
 begmidword eistort 146-234-f-2345-26-e-2345
-prfword eistorte 146-234-f-2345-26-236
+prfword eistorte 146-234-f-2345-26-e-236
 begmidword eistört 146-234-f-2345-246-1235-2345
 always eistruhe 146-234-f-2345-1235-136-e-125-15
 always eistruhen 146-234-f-2345-1235-136-e-125-14
@@ -9266,17 +9335,17 @@ always reistopf 1235-146-234-f-2345-135-1234-124
 always kreisteil 13-1235-146-234-f-2345-146-123
 always beweisteil 23-e-2-146-f-2345-146-123
 syllable geheimnis 12346-e-125-146-134-e-1346
-always tischtennistisch 2345-24-156-e-2345-14-e-1345-24-234-f-2345-24-156
-always bündnistreu 12-1256-1345-145-e-1346-e-f-2345-1235-126
-always eucharistiefeier 126-1456-356-24-23456-346-f-124-146-12456
-begmidword elvistoll 13456-1236-24-234-f-2345-135-12345
+always tischtennistisch 2345-24-156-f-2345-14-e-1345-24-234-f-2345-24-156
+always bündnistreu 12-1256-1345-145-e-1346-f-2345-1235-126
+always eucharistiefeier 126-e-1456-356-24-ca-23456-346-f-124-146-12456
+begmidword elvistoll 13456-e-1236-24-234-f-2345-135-12345
 always backstage 12-1-46-f-23456-1-12346
 always speckstipp 234-1234-15-46-e-23456-24-1234-e-1234
 always fockstag 124-135-46-f-23456-1-1245
 prfword glückstor 1245-46-234-f-2345-135-1235
 always glückstor 1245-46-234-f-2345-26
-sufword ausdruckstanz 34-f-145-46-234-f-2345-235-1356
-always ausdruckstanz 16-234-f-145-46-234-f-2345-235-1356
+sufword ausdruckstanz 34-e-145-46-234-f-2345-235-1356
+always ausdruckstanz 16-234-e-145-46-234-f-2345-235-1356
 always volkstanz 1236-13-234-f-2345-235-1356
 always volkstänz 1236-13-234-f-2345-345-1345-1356
 always volkstum 1236-13-234-e-2345-136-134
@@ -9301,15 +9370,15 @@ always kondenstöpf 13-135-1345-e-145-14-234-f-2345-246-1234-124
 sufword vermögensteil 36a-2-246-14-234-f-2345-146-123
 midendword vermögensteil 1236-12456-e-2-246-14-234-f-2345-146-123
 always dienstagent 145-346-1345-23456-f-1-1245-14-2345
-always schreckenstat 156-1235-15-46-14-234-f-2345-1-2345
+always schreckenstat 156-1235-15-cb-46-14-234-f-2345-1-2345
 always namensteil 1345-1-e-134-14-234-f-2345-146-123
 always unternehmensteil 2-256-f-1345-125-14-234-f-2345-146-123
 always willkommenstrunk 2456-12345-e-13-1346-14-234-f-2345-1235-256-13
 always wissenstempel 2456-2346-14-234-f-2345-12356-e-1234-13456
 always einstipp 1246-e-23456-24-1234-1234
 always mannstoll 134-1345-234-f-2345-135-12345
-always wahnsinnstat 2456-1-125-1345-f-234-35-1345-234-f-2345-1-2345
-always wahnsinnstät 2456-1-125-1345-f-234-35-1345-234-f-2345-345-2345
+always wahnsinnstat 2456-1-125-1345-e-234-35-1345-234-f-2345-1-2345
+always wahnsinnstät 2456-1-125-1345-e-234-35-1345-234-f-2345-345-2345
 always irrsinnstat 24-1235-1235-e-234-35-1345-234-f-2345-1-2345
 always ionsteil 24-135-1345-234-f-2345-146-123
 always ionstisch 24-135-1345-234-f-2345-24-156
@@ -9331,25 +9400,25 @@ midendword verkehrsteil 1236-12456-e-13-2356-1235-234-e-2345-146-123
 begword verkehrsto 36a-13-2356-1235-234-f-2345-135
 midword verkehrsto 1236-12456-e-13-2356-1235-234-f-2345-135
 always kursteil 13-136-1235-234-f-2345-146-123
-sufword ausstieg 34-f-23456-346-1245
-midendword ausstieg 16-234-f-23456-346-1245
-word ausstiege 34-f-23456-346-12346
-endword ausstiege 16-234-f-23456-346-12346
+sufword ausstieg 34-e-23456-346-1245
+midendword ausstieg 16-234-e-23456-346-1245
+word ausstiege 34-e-23456-346-e-12346
+endword ausstiege 16-234-e-23456-346-e-12346
 always sstell 234-f-2-13456
 always fasst 124-1-2346-2345
-prfword fasste 124-1-2346-236
-prfword fasstest 124-1-2346-236-23456
-prfword fasstet 124-1-2346-236-2345
+prfword fasste 124-1-2346-e-236
+prfword fasstest 124-1-2346-e-236-23456
+prfword fasstet 124-1-2346-e-236-2345
 always hasst 125-1-2346-2345
 always agulhasstrom 1-1245-136-123-e-125-1-234-f-23456-1235-135-134
-prfword hasste 125-1-2346-236
-always hasstest 125-1-2346-236-23456
+prfword hasste 125-1-2346-e-236
+always hasstest 125-1-2346-e-236-23456
 always schasst 156-1-2346-2345
-prfword schasste 156-1-2346-236
-prfword schasstest 156-1-2346-236-23456
-prfword schasstet 156-1-2346-236-2345
+prfword schasste 156-1-2346-e-236
+prfword schasstest 156-1-2346-e-236-23456
+prfword schasstet 156-1-2346-e-236-2345
 midendword blasst 12-123-1-2346-2345
-endword blasste 12-123-1-2346-236
+endword blasste 12-123-1-2346-e-236
 midendword blasstest 12-123-1-2346-e-236-23456
 endword blasstet 12-123-1-2346-e-236-2345
 always thomasst 2345-125-135-e-134-1-234-e-23456
@@ -9360,7 +9429,7 @@ word isst 24-2346-2345
 always beißt 12-146-2346-2345
 sufword vergisst 36a-e-1245-24-2346-2345
 always hisst 125-24-2346-2345
-prfword hisste 125-24-2346-236
+prfword hisste 125-24-2346-e-236
 prfword hisstest 125-24-2346-e-236-23456
 prfword hisstet 125-24-2346-e-236-2345
 word wisst 2456-2346-2345
@@ -9372,18 +9441,18 @@ word pssst 1234-234-234-234-2345
 word psssst 1234-234-234-234-234-2345
 always gussteil 1245-136-2346-e-2345-146-123
 always küsst 13-1256-2346-2345
-prfword küsste 13-1256-2346-236
+prfword küsste 13-1256-2346-e-236
 prfword küsstest 13-1256-2346-e-236-23456
 prfword küsstet 13-1256-2346-e-236-2345
 prfword flusstal 124-123-136-2346-f-2345-1-123
 begmidword flusstal 124-123-136-2346-f-2345-25
 always schlussteil 156-123-136-2346-f-2345-146-123
 always wusst 2456-136-2346-2345
-prfword wusste 2456-136-2346-236
-always wusstest 2456-136-2346-236-23456
-prfword wusstet 2456-136-2346-236-2345
+prfword wusste 2456-136-2346-e-236
+always wusstest 2456-136-2346-e-236-23456
+prfword wusstet 2456-136-2346-e-236-2345
 always wüsst 2456-1256-2346-2345
-prfword wüsste 2456-1256-2346-236
+prfword wüsste 2456-1256-2346-e-236
 prfword wüsstest 2456-1256-2346-e-236-23456
 prfword wüsstet 2456-1256-2346-e-236-2345
 word tsts 2345-234-2345-234
@@ -9406,7 +9475,7 @@ always weihnachtstisch 2456-146-125-e-1345-56-2345-234-f-2345-24-156
 always gefechtsturm 12346-e-124-15-1456-2345-234-f-2345-136-1235-134
 always geschlechtsteil 12346-e-156-123-15-1456-2345-234-f-2345-146-123
 syllable gesichts 12346-e-234-3456-2345-234
-always nichtstuer 1345-234-f-2345-136-12456
+always nichtstuer 1345-234-f-2345-136-e-12456
 always nichtstun 1345-234-f-2345-256
 sufword aussichtsturm 34-f-234-3456-2345-234-f-2345-136-1235-134
 always aussichtsturm 16-234-f-234-3456-2345-234-f-2345-136-1235-134
@@ -9416,62 +9485,62 @@ always arbeitsteil 356-12-234-f-2345-146-123
 midendword heitstick 125-234-f-2345-24-46
 midendword heitstrunk 125-234-f-2345-1235-256-13
 always gewohnheitstier 12346-e-2456-135-125-1345-e-125-234-f-2345-346-1235
-always sicherheitstrupp 234-3456-12456-e-125-234-e-2345-1235-136-1234-1234
+always sicherheitstrupp 234-3456-12456-e-125-234-f-2345-1235-136-1234-1234
 always keitsteil 13-234-f-2345-146-123
 midendword keitstreu 13-234-f-2345-1235-126
-prfword abseitstor 1-12-234-146-2345-234-f-2345-135-1235
-always abseitstor 1-12-234-146-2345-234-f-2345-26
+prfword abseitstor 1-12-e-234-146-2345-234-f-2345-135-1235
+always abseitstor 1-12-e-234-146-2345-234-f-2345-26
 always veitstanz 1236-146-2345-234-f-2345-235-1356
 always veitstänz 1236-146-2345-234-f-2345-345-1345-1356
-always amtston 1-134-2345-234-e-2345-135-1345
-word auswärtstor 34-2456-f-2345-135-1235
-begword auswärtstor 34-2456-f-2345-26
-midword auswärtstor 16-234-2456-f-2345-26
-endword auswärtstor 16-234-2456-f-2345-135-1235
+always amtston 1-134-2345-234-f-2345-135-1345
+word auswärtstor 34-e-2456-f-2345-135-1235
+begword auswärtstor 34-e-2456-f-2345-26
+midword auswärtstor 16-234-e-2456-f-2345-26
+endword auswärtstor 16-234-e-2456-f-2345-135-1235
 always wirtstier 2456-24-1235-2345-234-f-2345-346-1235
 always ortsteil 26-2345-234-f-2345-146-123
 always geburtstaub 12346-e-12-136-1235-2345-234-f-2345-16-12
 always kabinettstisch 13-1-e-12-35-15-2345-2345-234-f-2345-24-156
 always blutstrunk 12-123-136-2345-234-f-2345-1235-256-13
 always haustauf 125-16-234-f-2345-16-124
-sufword austausch 34-f-2345-16-156
-always austausch 16-234-f-2345-16-156
-sufword austeil 34-f-2345-146-123
-always austeil 16-234-f-2345-146-123
-sufword austob 34-f-2345-135-12
-always austob 16-234-f-2345-135-12
-word austobe 34-f-2345-135-e-12-15
-midword austobe 16-234-f-2345-135-23
-endword austobe 16-234-f-2345-135-e-12-15
-word austoben 34-f-2345-135-e-12-14
-midendword austoben 16-234-f-2345-135-e-12-14
-sufword austoll 34-f-2345-135-12345
-always austoll 16-234-f-2345-135-12345
-sufword austonn 34-f-2345-135-1345-1345
-always austonn 16-234-f-2345-135-1345-1345
-midword stonn 234-f-2345-135-1345-e-1345
-sufword austramp 34-f-2345-1235-1-134-1234
-always austramp 16-234-f-2345-1235-1-134-1234
-sufword austrat 34-f-2345-1235-1-2345
-word austratet 34-f-2345-1235-1-236-2345
-word austratest 34-f-2345-1235-1-236-23456
-always austrat 16-234-f-2345-1235-1-2345
-endword austratet 16-234-f-2345-1235-1-236-2345
-endword austratest 16-234-f-2345-1235-1-236-23456
-sufword austrick 34-f-2345-1235-24-46
-always austrick 16-234-f-2345-1235-24-46
-sufword austritt 34-f-2345-1235-24-2345-2345
-always austritt 16-234-f-2345-1235-24-2345-2345
-word austritte 34-f-2345-1235-24-2345-236
-endword austritte 16-234-f-2345-1235-24-2345-236
-sufword austrock 34-f-2345-1235-135-46
-always austrock 16-234-f-2345-1235-135-46
-sufword austun 34-f-2345-256
-always austun 16-234-f-2345-256
-sufword austupf 34-f-2345-136-1234-124
-always austupf 16-234-f-2345-136-1234-124
-sufword austusch 34-f-2345-136-156
-always austusch 16-234-f-2345-136-156
+sufword austausch 34-e-2345-16-156
+always austausch 16-234-e-2345-16-156
+sufword austeil 34-e-2345-146-123
+always austeil 16-234-e-2345-146-123
+sufword austob 34-e-2345-135-12
+always austob 16-234-e-2345-135-12
+word austobe 34-e-2345-135-e-12-15
+midword austobe 16-234-e-2345-135-e-23
+endword austobe 16-234-e-2345-135-e-12-15
+word austoben 34-e-2345-135-e-12-14
+midendword austoben 16-234-e-2345-135-e-12-14
+sufword austoll 34-e-2345-135-12345
+always austoll 16-234-e-2345-135-12345
+sufword austonn 34-e-2345-135-1345-1345
+always austonn 16-234-e-2345-135-1345-1345
+midword stonn 234-e-2345-135-1345-e-1345
+sufword austramp 34-e-2345-1235-1-134-1234
+always austramp 16-234-e-2345-1235-1-134-1234
+sufword austrat 34-e-2345-1235-1-2345
+word austratet 34-e-2345-1235-1-e-236-2345
+word austratest 34-e-2345-1235-1-e-236-23456
+always austrat 16-234-e-2345-1235-1-2345
+endword austratet 16-234-e-2345-1235-1-e-236-2345
+endword austratest 16-234-e-2345-1235-1-e-236-23456
+sufword austrick 34-e-2345-1235-24-46
+always austrick 16-234-e-2345-1235-24-46
+sufword austritt 34-e-2345-1235-24-2345-2345
+always austritt 16-234-e-2345-1235-24-2345-2345
+word austritte 34-e-2345-1235-24-2345-e-236
+endword austritte 16-234-e-2345-1235-24-2345-e-236
+sufword austrock 34-e-2345-1235-135-46
+always austrock 16-234-e-2345-1235-135-46
+sufword austun 34-e-2345-256
+always austun 16-234-e-2345-256
+sufword austupf 34-e-2345-136-1234-124
+always austupf 16-234-e-2345-136-1234-124
+sufword austusch 34-e-2345-136-156
+always austusch 16-234-e-2345-136-156
 always haustaub 125-16-234-f-2345-16-12
 prfword haustaube 125-16-234-f-2345-16-e-12-15
 always haustempel 125-16-234-f-2345-12356-e-1234-13456
@@ -9482,15 +9551,16 @@ always haustor 125-16-234-e-2345-26
 begmidword haustrepp 125-16-234-f-2345-1235-15-1234-e-1234
 always haustrunk 125-16-234-f-2345-1235-256-13
 always hausturm 125-16-234-f-2345-136-1235-134
-always voraustrupp 2-26-16-234-f-2345-1235-136-1234-1234
+always voraustrupp 2-26-ca-16-234-f-2345-1235-136-1234-1234
 always sausteil 234-16-f-23456-146-123
 always moschustier 134-135-e-156-136-234-f-2345-346-1235
 always juliusturm 245-136-e-123-24-e-136-234-f-2345-136-1235-134
 always konfuziustempel 13-135-1345-e-124-136-e-1356-24-e-136-234-f-2345-12356-e-1234-13456
-always adjustage 1-145-e-245-136-e-23456-1-12346
-always kustode 13-136-23456-135-e-145-15
-always kustoden 13-136-23456-135-e-145-14
-always zirkustier 1356-24-1235-13-136-234-f-2345-346-1235
+always adjustage 1-145-e-245-136-e-23456-1-e-12346
+always kustode 13-136-ca-23456-135-e-145-15
+always kustoden 13-136-ca-23456-135-e-145-14
+always zirkustier 1356-24-1235-e-13-136-234-f-2345-346-1235
+before t begmidword sinus 234-35-136-234-f
 always kursusteil 13-136-1235-e-234-136-234-f-2345-146-123
 before t begmidword dys 145-6-13456-234
 always body 12-135-145-6-13456
@@ -9508,7 +9578,7 @@ always standsetz 2-23456-f-2-15
 always standsprach 2-23456-f-234-1234
 always standsprung 2-23456-f-234-1234-1235-256-1245
 prfword standst 2-23456-23456
-always standstreif 2-23456-23456-1235-146-124
+always standstreif 2-23456-f-23456-1235-146-124
 
 # STELL (4.3.6 Kommakürzungen)
 always stell 2-13456
@@ -9529,16 +9599,16 @@ always teakwäld 2345-15-1-13-f-2456-345-123-145
 always team 2345-15-1-134
 always tearoom 2345-15-1-f-1235-135-135-134
 always teaser 2345-15-1-e-234-12456
-endword teditor 2345-f-15-145-24-2345-135-1235
-midword teditor 2345-f-15-145-24-2345-26
+endword teditor 2345-f-15-145-24-e-2345-135-1235
+midword teditor 2345-f-15-145-24-e-2345-26
 always tee 2345-15-15
-always güteein 1245-1256-236-f-1246
+always güteein 1245-1256-e-236-f-1246
 midword teffek 2345-f-15-124-e-124-15-13
 midword teffizien 2345-f-15-124-e-124-24-e-1356-24-e-14
-midendword tehirn 236-e-125-24-1235-1345
+midendword tehirn 236-f-125-24-1235-1345
 midendword tei 2345-146
 midendword tein 2345-1246
-always jutein 245-136-236-f-35
+always jutein 245-136-e-236-f-35
 midendword tekzem 2345-f-15-13-e-1356-12356
 midword tepidem 2345-f-15-1234-24-e-145-12356
 midword tepilep 2345-f-15-1234-24-e-123-15-1234
@@ -9556,16 +9626,16 @@ midword tevaku 2345-f-15-1236-1-e-13-136
 midword tevalu 2345-f-15-1236-25-136
 midword tex 2345-f-15-6-1346
 midword texan 236-6-1346-235
-always latex 123-1-236-6-1346
-midendword text 236-6-1346-2345
+always latex 123-1-e-236-6-1346
+midendword text f-236-6-1346-2345
 midendword textra 2345-f-15-6-1346-e-2345-1235-1
 sufword textrand 2345-15-6-1346-2345-f-1235-235-145
-midendword textrand 236-6-1346-2345-f-1235-235-145
-endword texte 236-6-1346-236
-midendword textet 236-6-1346-236-2345
-endword textete 236-6-1346-236-236
+midendword textrand f-236-6-1346-2345-f-1235-235-145
+endword texte f-236-6-1346-e-236
+midendword textet f-236-6-1346-e-236-2345
+endword textete f-236-6-1346-e-236-e-236
 sufword textextern 2345-15-6-1346-2345-f-15-6-1346-e-2345-12456-1345
-midendword textextern 236-6-1346-2345-f-15-6-1346-e-2345-12456-1345
+midendword textextern f-236-6-1346-2345-f-15-6-1346-e-2345-12456-1345
 midword texemp 2345-f-15-6-1346-12356-1234
 midword texpand 2345-f-15-6-1346-e-1234-235-e-145
 midendword texpansion 2345-f-15-6-1346-e-1234-235-e-234-245
@@ -9576,17 +9646,17 @@ midendword texpress 2345-f-15-6-1346-e-1234-1235-15-2346
 midendword texzess 2345-f-15-6-1346-e-1356-15-2346
 always saateul 234-1-1-2345-f-126-123
 midendword teau 2345-15-16
-always raterund 1235-1-236-f-1235-256-145
-before s begmidword karate 13-356-1-236
+always raterund 1235-1-e-236-f-1235-256-145
+before s begmidword karate 13-356-1-e-236-f
 prfword karates 13-356-1-e-2345-123456
-before a begmidword geräte 12346-e-1235-345-236
-before a begmidword elite 13456-24-236
-before a begmidword härte 125-345-1235-236
+before a begmidword geräte 12346-e-1235-345-e-236-f
+before a begmidword elite 13456-24-236-f
+before a begmidword härte 125-345-1235-236-f
 begmidword spinatess 234-1234-35-1-2345-f-15-2346
-begmidword restaurantess 1235-15-23456-16-e-1235-235-2345-f-15-2346
-always geräteeigen 12346-e-1235-345-236-f-146-1245-14
-begmidword geräteein 12346-e-1235-345-236-f-1246
-begmidword geräteent 12346-e-1235-345-236-f-14-2345
+begmidword restaurantess 1235-15-ca-23456-16-e-1235-235-2345-f-15-2346
+always geräteeigen 12346-e-1235-345-e-236-f-146-1245-14
+begmidword geräteein 12346-e-1235-345-e-236-f-1246
+begmidword geräteent 12346-e-1235-345-e-236-f-14-2345
 always pentateuch 1234-14-e-2345-1-e-2345-126-1456
 always cocteau 6-14-135-6-14-e-2345-15-16
 begmidword kräfteein 5-13-124-15-f-1246
@@ -9598,90 +9668,90 @@ always achteck 56-2345-f-15-46
 always nachteul 1345-56-2345-f-126-123
 sufword lichtecht 123-3456-2345-f-15-1456-2345
 midendword lichtecht 456-2345-f-15-1456-2345
-word lichtechte 123-3456-2345-f-15-1456-236
-midendword lichtechte 456-2345-f-15-1456-236
+word lichtechte 123-3456-2345-f-15-1456-e-236
+midendword lichtechte 456-2345-f-15-1456-e-236
 always zuchteber 1356-136-1456-2345-f-15-12-12456
 always drahtextension 145-1235-1-125-2345-f-15-6-1346-e-2345-14-e-234-245
-begmidword eliteein 13456-24-236-f-1246
-always eliteelf 13456-24-236-f-13456-124
+begmidword eliteein 13456-24-e-236-f-1246
+always eliteelf 13456-24-e-236-f-13456-124
 begmidword friteus 124-1235-24-e-2345-126-234
 always sanskritepos 234-235-e-234-13-1235-24-2345-f-15-1234-135-234
-always kakteen 13-1-13-236-14
-always distrikteben 145-24-23456-1235-24-13-2345-f-15-12-14
-begmidword halteein 125-25-236-f-1246
-begmidword kälteein 13-345-123-236-f-1246
-begmidword kälteempfind 13-345-123-236-f-12356-1234-e-124-35-145
-begmidword kälteerzeug 13-345-123-236-f-12456-e-1356-126-1245
-begmidword kälteex 13-345-123-236-f-15-6-1346
+always kakteen 13-1-13-e-236-e-14
+always distrikteben 145-24-ca-23456-1235-24-13-2345-f-15-12-14
+begmidword halteein 125-25-e-236-f-1246
+begmidword kälteein 13-345-123-e-236-f-1246
+begmidword kälteempfind 13-345-123-e-236-f-12356-1234-e-124-35-145
+begmidword kälteerzeug 13-345-123-e-236-f-12456-e-1356-126-1245
+begmidword kälteex 13-345-123-e-236-f-15-6-1346
 always zelteck 1356-13456-2345-f-15-46
 always gesamtetat 12346-e-234-1-134-2345-f-15-2345-1-2345
 always gesamtex 12346-e-234-1-134-2345-f-15-6-1346
-always montezuma 134-135-1345-236-e-1356-136-e-134-1
-begmidword ernteameis 12456-1345-236-f-1-134-146-e-234
-begmidword ernteaus 12456-1345-236-f-16-234
-begmidword ernteein 12456-1345-236-f-1246
-begmidword ernteer 12456-1345-236-f-12456
+always montezuma 134-135-1345-e-236-e-1356-136-e-134-1
+begmidword ernteameis 12456-1345-e-236-f-1-134-146-e-234
+begmidword ernteaus 12456-1345-e-236-f-16-234
+begmidword ernteein 12456-1345-e-236-f-1246
+begmidword ernteer 12456-1345-e-236-f-12456
 always proteus 1234-1235-135-e-2345-126-234
-always stripteas 23456-1235-24-1234-f-2345-15-1-234
+always stripteas 23456-1235-24-1234-e-2345-15-1-234
 always stripteus 23456-1235-24-1234-e-2345-126-234
 begmidword dompteus 145-135-134-1234-e-2345-126-234
 always hunderteck 125-256-e-145-12456-2345-f-15-46
-begmidword werteein 2456-12456-236-f-1246
-begmidword werteel 2456-12456-236-f-13456
+begmidword werteein 2456-12456-e-236-f-1246
+begmidword werteel 2456-12456-e-236-f-13456
 always wertethik 2456-12456-2345-f-15-2345-125-24-13
 always wertethisch 2456-12456-2345-f-15-2345-125-24-156
 always fortexist 124-26-2345-f-15-6-1346-24-23456
-begmidword portefeuill 1234-26-236-e-124-126-24-12345
+begmidword portefeuill 1234-26-e-236-e-124-126-24-12345
 always steelband 23456-15-15-123-f-12-235-145
-begmidword gersteein 1245-12456-23456-15-f-1246
+begmidword gersteein 1245-12456-ca-23456-15-f-1246
 always glattechs 1245-123-1-2345-2345-f-15-1456-234
 always bretteffekt 12-1235-15-2345-2345-f-15-124-e-124-15-13-2345
-prfword bretteffekte 12-1235-15-2345-2345-f-15-124-e-124-15-13-236
+prfword bretteffekte 12-1235-15-2345-2345-f-15-124-e-124-15-13-e-236
 begmidword balletteus 12-1-12345-15-2345-e-2345-126-234
-begmidword wettess 2456-15-2345-2345-e-15-2346
+begmidword wettess 2456-15-2345-2345-f-15-2346
 always schnitteben 156-1345-24-2345-2345-f-15-12-14
 begmidword fritteus 124-1235-24-2345-e-2345-126-e-234
 always fauteuil 124-16-e-2345-126-24-123
-begmidword leuteess 123-126-236-f-15-2346
+begmidword leuteess 123-126-e-236-f-15-2346
 always gutedel 1245-136-2345-f-15-145-13456
-begmidword güteeigen 1245-1256-236-f-146-1245-14
+begmidword güteeigen 1245-1256-e-236-f-146-1245-14
 always blutegel 12-123-136-2345-f-15-1245-13456
 
 # TEh
 begmidword teh 2345-2356
-before h begmidword geräte 12346-e-1235-345-236
+before h begmidword geräte 12346-e-1235-345-236-f
 before h begmidword geschäfte 1245-124-15-f
 always rechtehand 1235-2345-15-f-125-145
-always früchtehändler 124-1235-1256-1456-236-f-5-125-145-e-123-12456
+always früchtehändler 124-1235-1256-1456-e-236-f-5-125-145-e-123-12456
 before h begmidword white 2456-125-24-236-f
 before h begmidword elite 13456-24-236-f
 before h begmidword ernte 12456-1345-236-f
 always remotehost 1235-12356-135-236-f-125-135-23456
-before h begmidword warte 2456-356-236
-before h begmidword gäste 1245-345-23456-15
-begmidword restehauf 1235-15-23456-15-f-125-16-124
-before h begmidword zugute 2-1356-e-1245-136-236
-always hütehund 125-1256-236-f-125-256-145
-always buxtehud 12-136-6-1346-236-e-125-136-145
-begmidword ärztehon 345-1235-1356-236-f-125-135-1345
+before h begmidword warte 2456-356-e-236-f
+before h begmidword gäste 1245-345-ca-23456-15-f
+begmidword restehauf 1235-15-ca-23456-15-f-125-16-124
+before h begmidword zugute 2-1356-e-1245-136-e-236
+always hütehund 125-1256-e-236-f-125-256-145
+always buxtehud 12-136-6-1346-e-236-e-125-136-145
+begmidword ärztehon 345-1235-1356-e-236-f-125-135-1345
 
 # TEl
 always tel 2345-13456
 midendword telang 236-f-123-1245
 midword teläng 236-f-5-123-1245
 midword teleist 236-f-123-146-23456
-midword teliefer 236-f-123-346-124-12456
+midword teliefer 236-f-123-346-e-124-12456
 midword telini 236-f-123-35-24
 sufword tell 2345-15-12345
 midendword tell 236-12345
 midendword tellang 2345-13456-e-123-1245
 midendword telläng 2345-13456-e-5-123-1245
-midendword telliter 2345-13456-e-123-24-2345-12456
+midendword telliter 2345-13456-e-123-24-e-2345-12456
 midendword tellos 2345-13456-e-123-135-234
 begmidword kräftel 5-13-124-15-f-123
 always wachtel 2456-56-e-2345-13456
 always scheitel 156-146-e-2345-13456
-before l begmidword seite 234-146-236
+before l begmidword seite 234-146-e-236-f
 always whitelist 2456-125-24-236-f-123-24-23456
 always kapitellang 13-1-e-1234-24-e-2345-13456-e-123-1245
 always kapitelläng 13-1-e-1234-24-e-2345-13456-e-5-123-1245
@@ -9691,16 +9761,16 @@ always mantel 134-235-e-2345-13456
 always jahrzehntelang 245-1356-15-e-123-1245
 always hotel 125-135-e-2345-13456
 always hoteller 125-135-236-12345-12456
-before l begmidword warte 2456-356-236
+before l begmidword warte 2456-356-e-236-f
 always jahrhundertelang 245-125-15-e-123-1245
-before l begmidword werte 2456-12456-236
+before l begmidword werte 2456-12456-e-236-f
 always gürtel 1245-1256-1235-e-2345-13456
-always debattelos 145-15-e-12-1-2345-236-f-123-135-234
+always debattelos 145-15-e-12-1-2345-e-236-f-123-135-234
 always sattel 234-1-2345-e-2345-13456
 always schüttel 156-1256-2345-e-2345-13456
-always beutelust 12-126-236-f-123-136-23456
-always beutelüst 12-126-236-f-123-1256-23456
-begmidword jutel 245-136-236-f-123
+always beutelust 12-126-e-236-f-123-136-23456
+always beutelüst 12-126-e-236-f-123-1256-23456
+begmidword jutel 245-136-e-236-f-123
 # TEm
 always tem 2345-12356
 midword temanipul 236-f-134-235-24-e-1234-136-123
@@ -9710,103 +9780,103 @@ midendword temaschin 236-f-134-156
 midword temechan 236-f-134-15-e-1456-235
 midendword temedizin 236-f-134-15-e-145-24-e-1356-35
 midendword temess 236-f-134-15-2346
-midendword temilieu 236-f-134-24-e-123-24-126
+midendword temilieu 236-f-134-24-e-123-24-e-126
 midendword temittel 236-f-134-2345
-endword temmal 2345-12356-134
-before m midendword apparate 1-1234-e-1234-356-1-236
-before m midendword geräte 12346-e-1235-345-236
+endword temmal 2345-12356-e-134
+before m midendword apparate 1-1234-e-1234-356-1-e-236
+before m midendword geräte 12346-e-1235-345-e-236
 before m midendword geschäfte 1245-124-15
 before m midendword kräfte 5-13-124-15
 before m midendword rechte 1235-2345-15
 prfword rechtem 1235-2345-12356
-before m midendword gerüchte 12346-e-1235-1256-1456-236
+before m midendword gerüchte 12346-e-1235-1256-1456-e-236
 always sitemap 234-24-236-f-134-1-1234
-begmidword haltem 125-25-236-f-134
-before m begmidword kälte 13-345-123-236
-before m begmidword warte 2456-356-236
-always portemonnaie 1234-26-236-e-134-135-1345-e-1345-1-24-15
-prfword portemonnaies 1234-26-236-e-134-135-1345-e-1345-1-24-123456
-before m begmidword gäste 1245-345-23456-15
-before m begmidword leute 123-126-236
-before m begmidword güte 1245-1256-236
-prfword ärztem 345-1235-1356-2345-12356
-before m begmidword ärzte 345-1235-1356-236
+begmidword haltem 125-25-e-236-f-134
+before m begmidword kälte 13-345-123-e-236-f
+before m begmidword warte 2456-356-e-236-f
+always portemonnaie 1234-26-e-236-e-134-135-1345-e-1345-1-24-15
+prfword portemonnaies 1234-26-e-236-e-134-135-1345-e-1345-1-24-123456
+before m begmidword gäste 1245-345-ca-23456-15-f
+before m begmidword leute 123-126-e-236-f
+before m begmidword güte 1245-1256-e-236-f
+prfword ärztem 345-1235-1356-e-2345-12356
+before m begmidword ärzte 345-1235-1356-e-236-f
 # TEn
 always ten 2345-14
 endword tename 236-f-1345-1-e-134-15
 midendword tenamen 236-f-1345-1-e-134-14
 midendword tenummer 236-f-1345-136-1346-12456
 always kräftenach 5-13-124-15-f-1345-56
-midendword seitenahm 234-146-236-f-1345-134
-midendword seitenehm 234-146-236-f-1345-125
-always monteneg 134-135-1345-236-f-1345-15-1245
-always gutenacht 1245-136-236-f-1345-56-2345
-always gütenorm 1245-1256-236-f-1345-26-134
+midendword seitenahm 234-146-e-236-f-1345-134
+midendword seitenehm 234-146-e-236-f-1345-125
+always monteneg 134-135-1345-e-236-f-1345-15-1245
+always gutenacht 1245-136-e-236-f-1345-56-2345
+always gütenorm 1245-1256-e-236-f-1345-26-134
 # TEr
 always ter 2345-12456
-always räterepublik 1235-345-236-f-1235-13
-before r midendword geräte 12346-e-1235-345-236
-always städtereform 23456-345-145-236-f-1235-15-e-124-26-134
-always städtereis 23456-345-145-236-f-1235-146-234
-begmidword früchter 124-1235-1256-1456-236-f-1235
-always halteraum 125-25-236-f-1235-16-134
-always kältereg 13-345-123-236-f-1235-15-1245
-always kälteresist 13-345-123-236-f-1235-123456-24-23456
-always halteriegel 125-25-236-f-1235-346
-always haltering 125-25-236-f-1235-35-1245
-prfword halteringe 125-25-236-f-1235-35-12346
-always halteräum 125-25-236-f-1235-34-134
-always erntereif 12456-1345-236-f-1235-146-124
-always warteraum 2456-356-236-f-1235-16-134
-always warteräum 2456-356-236-f-1235-34-134
-always werterechn 2456-12456-236-f-1235-15-1456-e-1345
-before r begmidword gäste 1245-345-23456-15
-always pusterohr 1234-136-23456-15-f-1235-135-125-1235
-always pusteröhr 1234-136-23456-15-f-1235-246-125-1235
+always räterepublik 1235-345-e-236-f-1235-13
+before r begmidword geräte 12346-e-1235-345-e-236-f
+always städtereform 23456-345-145-e-236-f-1235-15-e-124-26-134
+always städtereis 23456-345-145-e-236-f-1235-146-234
+before r begmidword früchte 124-1235-1256-1456-e-236-f
+always halteraum 125-25-e-236-f-1235-16-134
+always kältereg 13-345-123-e-236-f-1235-15-1245
+always kälteresist 13-345-123-e-236-f-1235-123456-24-23456
+always halteriegel 125-25-e-236-f-1235-346
+always haltering 125-25-e-236-f-1235-35-1245
+prfword halteringe 125-25-e-236-f-1235-35-e-12346
+always halteräum 125-25-e-236-f-1235-34-134
+always erntereif 12456-1345-e-236-f-1235-146-124
+always warteraum 2456-356-e-236-f-1235-16-134
+always warteräum 2456-356-e-236-f-1235-34-134
+always werterechn 2456-12456-e-236-f-1235-15-1456-e-1345
+before r begmidword gäste 1245-345-ca-23456-15
+always pusterohr 1234-136-ca-23456-15-f-1235-135-125-1235
+always pusteröhr 1234-136-ca-23456-15-f-1235-246-125-1235
 always ketterauch 13-15-2345-e-236-f-1235-16-1456
-always beuterecht 12-126-236-f-1235-2345
-always güteregelung 1245-1256-236-f-1235-15-e-1245-13456-136
-begmidword ärzter 345-1235-1356-236-f-1235
+always beuterecht 12-126-e-236-f-1235-2345
+always güteregelung 1245-1256-e-236-f-1235-15-e-1245-13456-136
+begmidword ärzter 345-1235-1356-e-236-f-1235
 # TEs
 always tes 2345-123456
 midendword tesaal 236-f-234-1-1-123
 midendword tesegen 236-f-234-15-e-1245-14
 midendword teseil 236-f-234-146-123
-endword teseite 236-f-234-146-236
-midendword teseiten 236-f-234-146-2345-14
+endword teseite 236-f-234-146-e-236
+midendword teseiten 236-f-234-146-e-2345-14
 midendword tesensib 236-f-234-14-e-234-24-12
 midendword teseriell 236-f-234-12456-24-e-15-12345
 midendword tesetz 236-f-2-15
 midendword tesiegel 236-f-234-346-e-1245-13456
-endword tesignal 236-f-234-45-1345-1-123
-midword tesignal 236-f-234-45-1345-25
-midendword tesilo 236-f-234-24-123-135
+endword tesignal 236-f-234-45-e-1345-1-123
+midword tesignal 236-f-234-45-e-1345-25
+midendword tesilo 236-f-234-24-e-123-135
 midendword teskala 236-f-234-13-25-1
 midendword teskalation 2345-f-123456-13-25-5-1345
 midword tesoftwar 236-f-234-135-124-2345-e-2456-356
 midendword tesoldat 236-f-234-135-123-e-145-1-2345
 midendword tesöldner 236-f-234-246-123-145-e-1345-12456
 midendword tespannung 236-f-234-1234-235-e-1345-136
-midword tespektr 236-f-234-1234-15-13-2345-1235
+midword tespektr 236-f-234-1234-15-13-e-2345-1235
 midendword tespezifisch 236-f-234-1234-15-e-1356-24-e-124-24-156
 midendword tespiel 236-f-2-346
 midendword tespray 236-f-234-1234-1235-1-6-13456
-midendword tesystem 236-f-234-6-13456-23456-12356
-endword tesäle 236-f-234-345-123-15
-midendword tesälen 236-f-234-345-123-14
-always ratesendung 1235-1-236-f-234-14-145-136
+midendword tesystem 236-f-234-6-13456-ca-23456-12356
+endword tesäle 236-f-234-345-e-123-15
+midendword tesälen 236-f-234-345-e-123-14
+always ratesendung 1235-1-e-236-f-234-14-e-145-136
 always kräftespiel 5-13-124-15-f-2-346
-always rechtesystem 1235-2345-15-e-234-6-13456-23456-12356
-always gedichtesamm 12346-e-145-3456-236-f-234-1-1346
+always rechtesystem 1235-2345-15-e-234-6-13456-ca-23456-12356
+always gedichtesamm 12346-e-145-3456-e-236-f-234-1-1346
 always whitespac 2456-125-24-236-f-234-1234-1-6-14
-always elitesport 13456-24-236-f-234-1234-26-2345
+always elitesport 13456-24-e-236-f-234-1234-26-2345
 always punktesamm 1234-2345-15-f-234-1-1346
 always punktespiel 1234-2345-15-f-2-346
-always punktesystem 1234-2345-15-f-234-6-13456-23456-12356
-begmidword montesin 134-135-1345-236-e-234-35
-always jutesack 245-136-236-f-234-1-46
-always jutespinn 245-136-236-e-234-1234-35-1345
-always jutesäck 245-136-236-f-234-345-46
+always punktesystem 1234-2345-15-f-234-6-13456-ca-23456-12356
+begmidword montesin 134-135-1345-e-236-e-234-35
+always jutesack 245-136-e-236-f-234-1-46
+always jutespinn 245-136-e-236-f-234-1234-35-1345
+always jutesäck 245-136-e-236-f-234-345-46
 # TEsch
 always tesch 236-156
 midendword teschaft 236-156
@@ -9822,11 +9892,11 @@ midendword tess 236-2346
 sufword tess 2345-15-2346
 always schabbatessen 156-1-12-e-12-1-2345-f-15-2346-14
 always acetessig 1-6-14-15-2345-f-15-2346-45
-prfword diabetesstar 145-24-1-e-23-2345-123456-f-23456-1-1235
-always diabetesstar 145-24-1-e-23-2345-123456-f-23456-356
+prfword diabetesstar 145-24-1-e-23-e-2345-123456-f-23456-1-1235
+always diabetesstar 145-24-1-e-23-e-2345-123456-f-23456-356
 always nachtessen 1345-56-2345-f-15-2346-14
 always fruchtessenz 124-1235-136-1456-2345-f-15-2346-14-1356
-before s begmidword früchte 124-1235-1256-1456-236-f
+before s begmidword früchte 124-1235-1256-1456-e-236-f
 always quintessenz 6-12345-136-35-2345-e-15-2346-14-1356
 always obstessig 135-12-23456-f-15-2346-45
 always festessen 124-15-23456-f-15-2346-14
@@ -9840,8 +9910,8 @@ midendword teständ 236-f-5-23456
 midendword testell 236-f-2-13456
 midendword testund 236-f-23456-256-145
 midendword testünd 236-f-23456-1256-1345-145
-always asphaltestrich 1-234-1234-125-25-2345-f-15-23456-1235-3456
-always zementestrich 1356-12356-14-2345-f-15-23456-1235-3456
+always asphaltestrich 1-234-e-1234-125-25-2345-f-15-23456-e-1235-3456
+always zementestrich 1356-12356-14-2345-f-15-23456-e-1235-3456
 
 # TECHNIK (4.4 Zweiformige Kürzungen)
 syllable technik 2345-13
@@ -9852,15 +9922,15 @@ syllable technisch 2345-156
 # TRAG (4.4 Zweiformige Kürzungen)
 always trag 2345-1245
 always träg 5-2345-1245
-sufword tetragon 2345-15-2345-1235-1-e-1245-135-1345
-midendword tetragon 236-2345-1235-1-e-1245-135-1345
-always arbitr 356-12-24-2345-1235
-before g begmidword ultra 136-123-2345-1235-1
+sufword tetragon 2345-15-e-2345-1235-1-e-1245-135-1345
+midendword tetragon 236-e-2345-1235-1-e-1245-135-1345
+always arbitr 356-12-24-e-2345-1235
+before g begmidword ultra 136-123-e-2345-1235-1
 prfword astragal 1-23456-1235-1-e-1245-1-123
 always astragal 1-23456-1235-1-e-1245-25
 always estragon 15-23456-1235-1-e-1245-135-1345
-before g begword extra 1346-2345-1235-1
-before g midword extra 15-6-1346-e-2345-1235-1
+before g begword extra 1346-e-2345-cb-1235-1
+before g midword extra 15-6-1346-e-2345-cb-1235-1
 
 # TREFF (4.4 Zweiformige Kürzungen)
 always treff 2345-124
@@ -9896,23 +9966,23 @@ midendword 'un 6-136-1345
 always un 256
 sufword ausbaunummer 34-12-16-f-1345-136-1346-12456
 midendword ausbaunummer 16-234-e-12-16-f-1345-136-1346-12456
-always werbeun 2456-12456-23-f-256
-always werbeunter 2456-12456-23-f-2-256
+always werbeun 2456-12456-e-23-f-256
+always werbeunter 2456-12456-e-23-f-2-256
 always reunier 1235-15-e-256-346-1235
-prfword ounce 135-136-1345-6-14-15
-prfword ounces 135-136-1345-6-14-123456
+prfword ounce 135-136-1345-e-6-14-15
+prfword ounces 135-136-1345-e-6-14-123456
 always council 6-14-135-136-1345-e-6-14-24-123
 always count 6-14-135-136-1345-2345
 always mount 134-135-136-1345-2345
-prfword mounte 134-135-136-1345-236
+prfword mounte 134-135-136-1345-e-236
 prfword mountest 134-135-136-1345-e-236-23456
 always mountet 134-135-136-1345-e-236-2345
-prfword mountete 134-135-136-1345-236-236
+prfword mountete 134-135-136-1345-e-236-e-236
 always mountetet 134-135-136-1345-e-236-e-236-2345
 always mountetest 134-135-136-1345-e-236-e-236-23456
 always thermounter 2345-125-12456-e-134-135-f-2-256
 always tunichtgut 2345-136-f-2-1345-f-1245-136-2345
-always bantuneger 12-235-2345-136-f-1345-15-e-1245-12456
+always bantuneger 12-235-e-2345-136-f-1345-15-e-1245-12456
 always neuunter 1345-126-f-2-256
 
 # UND (4.3.2 Einformige Kürzungen, alleinstehend oder in Wortverbindungen)
@@ -9922,26 +9992,26 @@ always undank 256-e-145-13
 always undatier 256-e-145-1-e-2345-346-1235
 begmidword undefin 256-e-145-15-e-124-35
 always undehn 256-e-145-2356-1345
-always undekl 256-e-145-15-13-123
+always undekl 256-e-145-15-e-13-123
 always undeklarier 256-e-145-15-e-13-123-356-346-1235
 always undemokrat 256-e-145-2345
 always undenk 256-e-145-14-13
 always under 256-e-145-12456
-always undestillier 256-e-145-15-23456-24-12345-346-1235
+always undestillier 256-e-145-15-ca-23456-24-12345-346-1235
 prfword undeutbar 256-e-145-126-2345-e-12-1-1235
 begmidword undeutbar 256-e-145-126-2345-e-12-356
-always undeutlich 256-e-145-126-2345-456
+always undeutlich 256-e-145-126-2345-e-456
 always undeutsch 256-e-145-156
 always undezim 256-e-145-15-e-1356-24-134
 always undialekt 256-e-145-24-25-15-13-2345
 always undicht 256-e-145-3456-2345
-prfword undichte 256-e-145-3456-236
-always undichtest 256-e-145-3456-236-23456
+prfword undichte 256-e-145-3456-e-236
+always undichtest 256-e-145-3456-e-236-23456
 always undifferenzier 256-e-145-24-124-e-124-12456-14-e-1356-346-1235
 sufword undin 256-e-145-35
 always unding 256-e-145-35-1245
-prfword undinge 256-e-145-35-12346
-always undiplomatisch 256-e-145-24-1234-123-135-e-134-1-e-2345-24-156
+prfword undinge 256-e-145-35-e-12346
+always undiplomatisch 256-e-145-24-e-1234-123-135-e-134-1-e-2345-24-156
 begmidword undiszi 256-e-145-24-234-e-1356-24
 always undogmatisch 256-e-145-135-1245-e-134-1-e-2345-24-156
 begmidword undokumentier 256-e-145-135-13-136-e-134-14-e-2345-346-1235
@@ -9992,13 +10062,13 @@ midendword esund 15-f-234-256-145
 always sechsund 234-15-1456-234-e-2-136
 always stund 23456-256-145
 always tund 2345-256-145
-always tundurch 2345-f-256-2-1456
+always tundurch 2345-f-256-e-2-1456
 begword achtund 1-1456-2345-e-2-136
 midendword achtund 56-2345-e-2-136
 always kattun 13-1-2345-e-2345-256
 always wund 2456-256-145
 begword yund 6-13456-256-145
-always hyundai 125-6-13456-256-145-1-24
+always hyundai 125-6-13456-256-e-145-1-24
 
 # -UNG    4.2.1 a) Nachsilbenkürzungen
 midendword ung 136
@@ -10007,7 +10077,7 @@ midword ungsauf 136-234-f-2-16
 midendword ungstell 136-f-2-13456
 begmidword ungeach 256-e-12346-e-56
 always ungebunden 256-e-12346-e-12-256-e-145-14
-always ungeheuer 256-e-12346-e-125-126-12456
+always ungeheuer 256-e-12346-e-125-126-e-12456
 always ungenau 256-e-12346-e-1345-16
 always ungetüm 256-e-12346-e-2345-1256-134
 always ungezogen 256-e-12346-e-1356-135-e-1245-14
@@ -10041,7 +10111,7 @@ syllable hungrig 125-256-1245-e-1235-45
 syllable hungry 125-256-1245-1235-6-13456
 always dschungel 145-156-256-e-1245-13456
 always jung 245-256-1245
-prfword junge 245-256-12346
+prfword junge 245-256-e-12346
 always jungem 245-256-e-1245-12356
 always jungen 245-256-e-1245-14
 always junger 245-256-e-1245-12456
@@ -10050,35 +10120,38 @@ always jungfer 245-256-1245-e-124-12456
 prfword jungs 245-256-1245-234
 sufword kung 13-256-1245
 always kungel 13-256-e-1245-13456
-prfword lunge 123-256-12346
+prfword lunge 123-256-e-12346
 sufword lungen 123-256-e-1245-14
-always lungenmaschin 123-256-e-1245-14-e-134-156
+always lungenmaschin 123-256-e-1245-14-f-134-156
+always lungenwurm 123-256-e-1245-14-f-2456-136-1235-134
 always lunger 123-256-e-1245-12456
-begmidword staublun 23456-16-12-e-123-256
+begmidword staublun 23456-16-12-f-123-256
 always nibelung 1345-24-e-12-13456-256-e-1245
-prfword nibelunge 1345-24-e-12-13456-256-12346
+prfword nibelunge 1345-24-e-12-13456-256-e-12346
 always gelungen 12346-e-123-256-e-1245-14
 always schlungen 156-123-256-e-1245-14
 always geschlungen 12346-e-156-123-256-e-1245-14
-word exilungar 1346-24-123-e-256-1245-1-1235
-begword exilungar 1346-24-123-e-256-1245-356
-midword exilungar 15-6-1346-24-123-e-256-1245-356
-endword exilungar 15-6-1346-24-123-e-256-1245-1-1235
+word exilungar 1346-24-123-f-256-e-1245-1-1235
+begword exilungar 1346-24-123-f-256-e-1245-356
+midword exilungar 15-6-1346-24-123-f-256-e-1245-356
+endword exilungar 15-6-1346-24-123-f-256-e-1245-1-1235
 always geklungen 12346-e-13-123-256-e-1245-14
 always erklungen 12456-e-13-123-256-e-1245-14
 sufword verklungen 36a-13-123-256-e-1245-14
-begmidword taucherlun 2345-16-e-1456-12456-e-123-256
+begmidword taucherlun 2345-16-e-1456-12456-f-123-256
 always misslungen 134-24-2346-e-123-256-e-1245-14
+always mißlungen 134-24-2346-e-123-256-e-1245-14
 begword mung 134-256-1245
 always immun 24-1346-256
 always immung 24-1346-136
-prfword lounge 123-135-136-1345-12346
-prfword lounges 123-135-136-1345-1245-123456
+always immungenetik 24-1346-256-f-1245-14-15-e-2345-24-13
+prfword lounge 123-135-136-1345-e-12346
+prfword lounges 123-135-136-1345-e-1245-123456
 always young 6-13456-135-136-1345-1245
 always pungier 1234-256-e-1245-346-1235
-prfword runge 1235-256-12346
-always rungentasch 1235-256-e-1245-14-e-2345-1-156
-always rungenwagen 1235-256-e-1245-14-e-2456-1-e-1245-14
+prfword runge 1235-256-e-12346
+always rungentasch 1235-256-e-1245-14-f-2345-1-156
+always rungenwagen 1235-256-e-1245-14-f-2456-1-e-1245-14
 always drungen 145-1235-256-e-1245-14
 always gerungen 12346-e-1235-256-e-1245-14
 always steigerungen 23456-146-e-1245-12456-136-14
@@ -10100,7 +10173,7 @@ always zuungunsten 2-1356-e-256-e-1245-256-23456-14
 always schwung 156-2456-256-1245
 always geschwung 12346-e-156-2456-256-1245
 always zwungen 1356-2456-256-e-1245-14
-prfword zunge 1356-256-12346
+prfword zunge 1356-256-e-12346
 always zung 1356-136
 sufword zungen 1356-256-e-1245-14
 always landzungen 123-235-145-f-1356-256-e-1245-14
@@ -10112,14 +10185,14 @@ always betonzungen 23-e-2345-135-1345-f-1356-256-e-1245-14
 always flammenzungen 124-123-1-1346-14-f-1356-256-e-1245-14
 always ochsenzungen 135-1456-e-234-14-f-1356-256-e-1245-14
 always katzenzungen 13-1-2345-e-1356-14-f-1356-256-e-1245-14
-always lästerzungen 123-345-23456-12456-f-1356-256-e-1245-14
+always lästerzungen 123-345-ca-23456-12456-f-1356-256-e-1245-14
 midendword erzungen 12456-f-1356-256-e-1245-14
 midendword sabberzungen 234-1-12-e-12-12456-f-1356-256-e-1245-14
 always unterzungen 2-256-f-1356-256-e-1245-14
 midendword eszungen 123456-f-1356-256-e-1245-14
 midendword sszungen 2346-f-1356-256-e-1245-14
 midendword szungen 234-f-1356-256-e-1245-14
-always kreuzunglücklich 13-1235-126-1356-f-256-e-1245-46-456
+always kreuzunglücklich 13-1235-126-1356-f-256-e-1245-46-e-456
 midword zungs 1356-136-234
 
 # UNTER (4.3.2 Einformige Kürzungen, alleinstehend oder in Wortverbindungen)
@@ -10131,31 +10204,31 @@ always bräunter 12-1235-34-1345-e-2345-12456
 always staunter 23456-16-1345-e-2345-12456
 always zäunter 1356-34-1345-e-2345-12456
 always bunter 12-256-e-2345-12456
-always siebunter 234-346-12-e-2-256
-always schreibunter 156-12-e-2-256
-begmidword halbunter 125-25-12-e-2-256
-begmidword farbunter 124-356-12-e-2-256
-always erbuntertänig 12456-12-e-2-256-e-2345-345-1345-45
-always subunter 234-136-12-e-2-256
+always siebunter 234-346-12-f-2-256
+always schreibunter 156-12-f-2-256
+begmidword halbunter 125-25-12-f-2-256
+begmidword farbunter 124-356-12-f-2-256
+always erbuntertänig 12456-12-f-2-256-e-2345-345-1345-45
+always subunter 234-136-12-f-2-256
 always neunter 1345-126-1345-e-2345-12456
-always routineunter 1235-135-136-e-2345-35-15-e-2-256
+always routineunter 1235-135-136-e-2345-35-15-f-2-256
 sufword gunter 1245-256-e-2345-12456
 always hunter 125-256-e-2345-12456
-always schuhunter 156-136-125-e-2-256
+always schuhunter 156-136-125-f-2-256
 always kunterbun 13-256-e-2345-12456-e-12-256
 always munter 134-256-e-2345-12456
-always islamunter 24-234-e-123-1-134-e-2-256
-always systemunter 234-6-13456-23456-12356-e-2-256
-always heimunter 125-146-134-e-2-256
-always geheimunter 12346-e-125-146-134-e-2-256
-always filmunter 124-24-123-134-e-2-256
-begword programmunter 12345-e-1245-1235-1-1346-e-2-256
-midword programmunter 1234-1235-135-e-1245-1235-1-1346-e-2-256
-always schwimmunter 156-2456-24-1346-e-2-256
-always stromunter 23456-1235-135-134-e-2-256
-always atomunter 1-2345-135-134-e-2-256
-always schirmunter 156-24-1235-134-e-2-256
-always schaumunter 156-16-134-e-2-256
+always islamunter 24-234-e-123-1-134-f-2-256
+always systemunter 234-6-13456-ca-23456-12356-f-2-256
+always heimunter 125-146-134-f-2-256
+always geheimunter 12346-e-125-146-134-f-2-256
+always filmunter 124-24-123-134-f-2-256
+begword programmunter 12345-e-1245-1235-1-1346-f-2-256
+midword programmunter 1234-1235-135-e-1245-1235-1-1346-f-2-256
+always schwimmunter 156-2456-24-1346-f-2-256
+always stromunter 23456-1235-135-134-f-2-256
+always atomunter 1-2345-135-134-f-2-256
+always schirmunter 156-24-1235-134-f-2-256
+always schaumunter 156-16-134-f-2-256
 always counter 6-14-135-136-1345-e-2345-12456
 always getunter 12346-e-2345-256-e-2345-12456
 after z midendword unter 2-256
@@ -10186,13 +10259,13 @@ begword verbstell 1236-12456-12-e-2-13456
 word verbum 1236-12456-e-12-136-134
 word verbums 1236-12456-e-12-136-134-234
 begword verbw 1236-12456-12-e-2456
-begword verbwieder 1236-12456-12-e-346-145
-sufword verbzusatz 1236-12456-12-e-2-1356-e-234-1356
+begword verbwieder 1236-12456-12-f-346-145
+sufword verbzusatz 1236-12456-12-f-2-1356-e-234-1356
 begword verbzusätz 1236-12456-12-e-2-1356-e-5-234-1356
 sufword vercingetorix 1236-12456-e-6-14-35-e-12346-e-2345-26-24-6-1346
 word verdi 1236-12456-e-145-24
 sufword verdikt 1236-12456-e-145-24-13-2345
-word verdikte 1236-12456-e-145-24-13-236
+word verdikte 1236-12456-e-145-24-13-e-236
 word verdis 1236-12456-e-145-24-234
 word verdun 1236-12456-e-145-256
 word verduns 1236-12456-e-145-256-234
@@ -10215,19 +10288,19 @@ begword versaill 1236-12456-e-234-1-24-12345
 word versal 1236-12456-e-234-1-123
 begword versal 1236-12456-e-234-25
 begword versalz 36a-234-25-1356
-always versanf 1236-12456-234-e-235-e-124
-always versart 1236-12456-234-e-356-2345
-begword versb 1236-12456-234-e-12
-begword versd 1236-12456-234-e-145
+always versanf 1236-12456-234-f-235-e-124
+always versart 1236-12456-234-f-356-2345
+begword versb 1236-12456-234-f-12
+begword versd 1236-12456-234-f-145
 word verse 1236-12456-e-234-15
 begword versemach 1236-12456-e-234-15-f-134-56
 word versen 1236-12456-e-234-14
-word versepos 1236-12456-234-e-15-1234-135-234
-word versepen 1236-12456-234-e-15-1234-14
-begword verserzähl 1236-12456-234-e-12456-e-5-1356-123
+word versepos 1236-12456-234-f-15-1234-135-234
+word versepen 1236-12456-234-f-15-1234-14
+begword verserzähl 1236-12456-234-f-12456-e-5-1356-123
 word verses 1236-12456-e-234-123456
 sufword verseschmied 1236-12456-e-234-15-f-156-134-346-145
-begword versf 1236-12456-234-e-124
+begword versf 1236-12456-234-f-124
 begword versier 1236-12456-e-234-346-1235
 sufword version 1236-12456-e-234-245
 begword versläng 1236-12456-234-f-5-123-1245
@@ -10235,8 +10308,8 @@ begword verslehr 1236-12456-234-f-123-2356-1235
 begword versk 1236-12456-234-f-13
 sufword versklav 36a-234-13-123-1-1236
 begword verskomödi 1236-12456-234-f-13-135-e-134-246-e-145-24
-begword versm 1236-12456-234-e-134
-begword versn 1236-12456-234-e-1345
+begword versm 1236-12456-234-f-134
+begword versn 1236-12456-234-f-1345
 begword versniff 36a-234-1345-24-124-124
 begword versnob 36a-234-1345-135-12
 sufword verspaar 1236-12456-234-f-1234-1-1-1235
@@ -10245,7 +10318,7 @@ begword versroman 1236-12456-234-f-1235-135-e-134-235
 sufword versspiel 1236-12456-234-f-2-346
 begword verszeil 1236-12456-234-f-1356-146-e-123
 word versus 1236-12456-e-234-136-234
-always vertebrat 1236-12456-236-e-12-1235-1-2345
+always vertebrat 1236-12456-e-236-e-12-1235-1-2345
 always vertigo 1236-12456-e-2345-24-e-1245-135
 word vertikal 1236-12456-e-2345-24-e-13-1-123
 begword vertikal 1236-12456-e-2345-24-e-13-25
@@ -10282,9 +10355,9 @@ word vollaufen 1236-135-123-123-16-e-124-14
 
 # VOM (4.4 Zweiformige Kürzungen)
 always vom 1236-134
-word servomotor 234-12456-1236-135-e-134-135-e-2345-135-1235
-begword servomotor 234-12456-1236-135-e-134-135-e-2345-26
-always ovomalt 135-1236-135-f-134-25-2345
+word servomotor 234-12456-1236-135-f-134-135-e-2345-135-1235
+begword servomotor 234-12456-1236-135-f-134-135-e-2345-26
+always ovomalt 135-1236-135-e-134-25-2345
 
 # VON (4.3.2 Einformige Kürzungen, alleinstehend oder in Wortverbindungen)
 word von 1236
@@ -10302,7 +10375,7 @@ always favorisier 124-1-e-1236-26-24-e-234-346-1235
 always favorit 124-1-e-1236-26-24-2345
 word flavor 124-123-1-e-1236-135-1235
 always flavor 124-123-1-e-1236-26
-always bravoruf 12-1235-1-e-1236-135-e-1235-136-124
+always bravoruf 12-1235-1-e-1236-135-f-1235-136-124
 always ivorer 24-1236-26-12456
 always ivory 24-1236-26-6-13456
 begmidword herbivor 125-12456-e-12-24-e-1236-26
@@ -10344,7 +10417,7 @@ word was 2456
 always weg 2456-1245
 word wega 2456-15-e-1245-1
 word wegas 2456-15-e-1245-1-234
-before h midword wege 2456-1245-15
+before h midword wege 2456-1245-15-f
 prfword weggen 2456-15-1245-e-1245-14
 prfword weggens 2456-15-1245-e-1245-14-234
 always schwegler 156-2456-15-1245-e-123-12456
@@ -10360,8 +10433,8 @@ always schweitzer 156-2456-146-2345-e-1356-12456
 always zweit 1356-2456-146-2345
 always reizweiter 1235-146-1356-f-2456-2345-12456
 always schweizweit 156-2456-146-1356-f-2456-2345
-prfword zweite 1356-2456-146-236
-always zweitemal 1356-2456-146-236-134
+prfword zweite 1356-2456-146-e-236
+always zweitemal 1356-2456-146-e-236-e-134
 
 # WENIG (4.4 Zweiformige Kürzungen)
 always wenig 2456-45
@@ -10381,20 +10454,20 @@ always weisel 2456-146-e-234-13456
 always budweiser 12-136-145-e-2456-146-e-234-12456
 always zweisait 1356-2456-146-e-234-1-24-2345
 always zweisam 1356-2456-146-e-2346
-always zweiseit 1356-2456-146-e-234-146-2345
-always zweisemest 1356-2456-146-e-234-12356-15-23456
-always zweisilb 1356-2456-146-e-234-24-123-12
+always zweiseit 1356-2456-146-f-234-146-2345
+always zweisemest 1356-2456-146-f-234-12356-15-23456
+always zweisilb 1356-2456-146-f-234-24-123-12
 always zweisch 1356-2456-146-e-156
 begmidword zweisimm 1356-2456-146-e-234-24-1346
-always zweisitz 1356-2456-146-e-2-24
-always zweisprach 1356-2456-146-e-234-1234
-always zweisp 1356-2456-146-e-234-1234
+always zweisitz 1356-2456-146-f-2-24
+always zweisprach 1356-2456-146-f-234-1234
+always zweisp 1356-2456-146-f-234-1234
 begmidword zweist 1356-2456-146-f-23456
 prfword zweist 1356-2456-146-23456
-always zweistand 1356-2456-146-e-2-23456
-always zweiständ 1356-2456-146-e-5-23456
-always zweistell 1356-2456-146-e-2-13456
-always zweistund 1356-2456-146-e-23456-256-145
+always zweistand 1356-2456-146-f-2-23456
+always zweiständ 1356-2456-146-f-5-23456
+always zweistell 1356-2456-146-f-2-13456
+always zweistund 1356-2456-146-f-23456-256-145
 sufword entzwei 2346-e-1356-2456-146
 always entzwei 14-2345-e-1356-2456-146
 
@@ -10412,7 +10485,7 @@ always beschwerd 23-e-156-2456-12456-e-145
 before l begmidword beschwerde 23-e-156-2456-12456-e-145-15-f
 before r begmidword beschwerde 23-e-156-2456-12456-e-145-15-f
 always friedrichswerder 124-1235-346-145-e-1235-3456-234-e-2456-12456-e-145-12456
-always hoyerswerda 125-135-6-13456-12456-234-e-2456-12456-e-145-1
+always hoyerswerda 125-135-e-6-13456-12456-234-e-2456-12456-e-145-1
 
 # WIE (4.3.2 Einformige Kürzungen, alleinstehend oder in Wortverbindungen)
 word wie 126
@@ -10450,7 +10523,7 @@ begword swill 234-2456-24-12345
 word zwille 1356-2456-24-12345-15
 word zwillen 1356-2456-24-12345-14
 always zwillich 1356-2456-24-12345-3456
-prfword zwillinge 1356-2456-24-12345-35-12346
+prfword zwillinge 1356-2456-24-12345-35-e-12346
 always zwilling 1356-2456-24-12345-35-1245
 
 # WIR (4.4 Zweiformige Kürzungen)
@@ -10472,14 +10545,14 @@ always wirtschafts 2456-156-234
 
 # WISS (4.4 Zweiformige Kürzungen)
 always wiss 2456-2346
-# Alte Rechtschreibung
 always wiß 2456-2346
 sufword swiss 234-2456-24-2346
+sufword swiß 234-2456-24-2346
 
 # WOHL (4.4 Zweiformige Kürzungen)
 always wohl 2456-123
 sufword rowohlt 1235-135-e-2456-135-125-123-2345
-sufword grotewohl 1245-1235-135-236-e-2456-135-125-123
+sufword grotewohl 1245-1235-135-e-236-e-2456-135-125-123
 
 # WOLL WÖLL (4.3.6 Kommakürzungen)
 always woll 2-135
@@ -10498,13 +10571,13 @@ always worden 135-14
 # WURD (4.3.5 Einformige Kürzungen, nur mit Erweiterung)
 word wurd 2456-136-1235-145
 begword wurd 136
-begword innewurd 35-1345-15-136
+begword innewurd 35-1345-15-e-136
 
 # WÜRD (4.3.5 Einformige Kürzungen, nur mit Erweiterung)
 word würd 2456-1256-1235-145
 always würd 1256
 always würd's 1256-6-234
-always würdig 2456-1256-1235-145-45
+always würdig 2456-1256-1235-e-145-45
 
 # X   (4.1 Lautgruppenkürzungen)
 always x 6-1346
@@ -10520,12 +10593,12 @@ always Y 6-13456
 always zahl 1356-123
 always zähl 5-1356-123
 always zählebig 1356-345-125-e-123-12-45
-always rübezahl 1235-1256-23-e-1356-1-125-123
+always rübezahl 1235-1256-e-23-e-1356-1-125-123
 
 # ZEIT (4.4 Zweiformige Kürzungen)
 always zeit 1356-2345
-word zeiter 1356-146-2345-12456
-word zeiters 1356-146-2345-12456-234
+word zeiter 1356-146-e-2345-12456
+word zeiters 1356-146-e-2345-12456-234
 sufword prophezei 12345-e-1234-125-15-e-1356-146
 midendword prophezei 1234-1235-135-e-1234-125-15-e-1356-146
 
@@ -10545,27 +10618,31 @@ begmidword venezuel 1236-14-15-e-1356-136-13456
 always salzuflen 234-25-1356-f-136-124-e-123-14
 prfword zug 1356-136-1245
 begmidword zugb 1356-136-1245-f-12
+always zugapparat 1356-136-1245-f-1-1234-e-1234-356-1-e-236
+prfword zugapparate 1356-136-1245-f-1-1234-e-1234-356-1-e-236
 always zugrabauk 1356-136-1245-f-1235-1-e-12-16-13
 begmidword zugreinig 1356-136-1245-f-1235-1246-45
-begmidword herumzu 125-12456-136-134-e-2-1356
-begmidword herumzupf 125-12456-136-134-e-1356-136-1234-124
-begmidword herumzupfusch 125-12456-136-134-e-2-1356-e-1234-124-136-156
-always anzugärmel 235-1356-136-1245-f-345-1235-134-13456
+begmidword herumzu 125-12456-ca-136-134-e-2-1356
+begmidword herumzupf 125-12456-ca-136-134-e-1356-136-1234-124
+begmidword herumzupfusch 125-12456-ca-136-134-e-2-1356-e-1234-124-136-156
+always anzugärmel 235-e-1356-136-1245-f-345-1235-134-13456
 always eilzug 146-123-e-1356-136-1245
-always sattelzug 234-1-2345-e-2345-13456-e-1356-136-1245
+always sattelzug 234-1-2345-e-2345-13456-f-1356-136-1245
 always bevorzug 23-e-2-26-e-1356-136-1245
 prfword bevorzuge 23-e-2-26-e-1356-136-12346
 before s begmidword zugs 1356-136-1245-234
 begmidword zugaukel 2-1356-e-1245-16-e-13-13456
 begmidword zugeb 2-1356-e-12346-12
-begmidword zugebet 2-1356-e-12346-23-2345
+begmidword zugebet 2-1356-e-12346-e-23-2345
 # HOMONYM
 begmidword zugreif 2-1356-e-1245-1235-146-124
 prfword zugst 1356-136-1245-23456
 always zugabteil 1356-136-1245-f-1-12-e-2345-146-123
 always zugabfahr 1356-136-1245-f-1-12-e-2-1235
 always zuganschluss 1356-136-1245-f-235-e-156-123-136-2346
+always zuganschluß 1356-136-1245-f-235-e-156-123-136-2346
 always zuganschlüss 1356-136-1245-f-235-e-156-123-1256-2346
+always zuganschlüß 1356-136-1245-f-235-e-156-123-1256-2346
 begmidword zugbalk 1356-136-1245-f-12-25-13
 always zugband 1356-136-1245-f-12-235-145
 begmidword zugbänd 1356-136-1245-f-12-345-1345-e-145
@@ -10573,7 +10650,7 @@ begmidword zugbr 1356-136-1245-f-12-1235
 always zugbügel 1356-136-1245-f-12-1256-e-1245-13456
 begmidword zugbe 1356-136-1245-f-23
 before d begmidword zug 1356-136-1245
-prfword zuge 1356-136-12346
+prfword zuge 1356-136-e-12346
 begmidword zuge 2-1356-e-12346
 always zugebunden 2-1356-e-12346-e-12-256-e-145-14
 always zugegen 2-1356-e-2-1245
@@ -10599,17 +10676,17 @@ always zugehfrau 2-1356-e-1245-2356-f-124-1235-16
 prfword zugehst 2-1356-e-1245-2356-23456
 prfword zugeht 2-1356-e-1245-2356-2345
 prfword zugeinricht 1356-136-1245-f-1246-e-2-3456
-prfword zuger 1356-136-1245-12456
-sufword zugerin 1356-136-1245-12456-35
-always zugerland 1356-136-1245-12456-f-123-235-145
-begmidword zugerländ 1356-136-1245-12456-f-123-345-1345-145
-always zugersee 1356-136-1245-12456-f-234-15-15
-prfword zuges 1356-136-1245-123456
+prfword zuger 1356-136-e-1245-12456
+sufword zugerin 1356-136-e-1245-12456-35
+always zugerland 1356-136-e-1245-12456-f-123-235-145
+begmidword zugerländ 1356-136-e-1245-12456-f-123-345-1345-145
+always zugersee 1356-136-e-1245-12456-f-234-15-15
+prfword zuges 1356-136-e-1245-123456
 before f begmidword zug 1356-136-1245
 before g begmidword zug 1356-136-1245
 before h begmidword zug 1356-136-1245
 before j begmidword zug 1356-136-1245
-always zugig 1356-136-1245-45
+always zugig 1356-136-e-1245-45
 before k begmidword zug 1356-136-1245
 always zugkräft 1356-136-1245-e-5-13-124
 always zuglang 1356-136-1245-e-123-1245
@@ -10634,7 +10711,7 @@ before s begmidword zugs 1356-136-1245-234
 before t begmidword zug 1356-136-1245
 always bezug 23-e-1356-136-1245
 always zugüber 1356-136-1245-f-2-1256
-always zugunglück 1356-136-1245-f-256-1245-46
+always zugunglück 1356-136-1245-f-256-e-1245-46
 before kpvw begmidword zug 1356-136-1245
 before z begmidword zug 1356-136-1245
 
@@ -10656,17 +10733,19 @@ always zunder 1356-256-e-145-12456
 begmidword schmerzun 156-134-12456-1356-f-256
 midword zunabhän 1356-f-256-e-1-12-e-125-345-1345
 always zunft 1356-256-124-2345
+always zunion 1356-f-256-24-e-135-1345
 endword zunklar 1356-f-256-e-13-123-1-1235
 midword zunklar 1356-f-256-e-13-123-356
+midword zunr 1356-f-256-e-1235
 # siehe -ung           zunge
 # siehe -ung           zungen
-always münzunion 134-1256-1345-1356-e-256-24-135-1345
+always münzunion 134-1256-1345-1356-f-256-24-135-1345
 always zupf 1356-136-1234-124
 begmidword zupfeif 2-1356-e-1234-124-146-124
 begmidword zupferch 2-1356-e-1234-124-12456-1456
 begmidword zupflanz 2-1356-e-1234-124-123-235-1356
 begmidword zupflüg 2-1356-e-1234-124-123-1256-1245
-prfword zupflüge 2-1356-e-1234-124-123-1256-12346
+prfword zupflüge 2-1356-e-1234-124-123-1256-e-12346
 begmidword zupfropf 2-1356-e-1234-124-1235-135-1234-124
 begmidword putzutensi 1234-136-2345-1356-f-136-2345-14-e-234-24
 always zutsch 1356-136-2345-156
@@ -10679,8 +10758,8 @@ always zumal 2-1356-134
 begmidword schwarzum 156-2456-356-1356-f-136-134
 word kurzum 13-1356-e-136-134
 begmidword lizenzum 123-24-e-1356-14-1356-f-136-134
-begmidword blitzum 12-123-24-2345-1356-e-136-134
-begmidword schutzum 156-136-2345-1356-e-136-134
+begmidword blitzum 12-123-24-2345-1356-f-136-134
+begmidword schutzum 156-136-2345-1356-f-136-134
 
 # ZUNÄCHST (4.4 Zweiformige Kürzungen)
 always zunächst 1356-1345
