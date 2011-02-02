@@ -11,25 +11,22 @@
 # ===== LATIN-1 SUPPLEMENT: 0080-00FF ==========================================
 
 # KUERZUNGSVERBOT und "DUMMY"-TEXT
-letter        \x00A6 a               #166   Â¦ BROKEN BAR
+letter        \x00A6 a               #166   ¦ BROKEN BAR
 
 # "DUMMY"-ZAHL
-digit         \x00B7 b               #183   Â· MIDDLE DOT
-
-# "DUMMY"-ZAHL VOR KOMMA
-digit         \x256C bc              #9580  â•¬ BOX DRAWINGS DOUBLE VERTICAL AND HORIZONTAL
+digit         \x00B7 b               #183   · MIDDLE DOT
 
 # TRENNMARKE (WORT)
-letter        \x00AC f               #172   Â¬ NOT SIGN
+letter        \x00AC f               #172   ¬ NOT SIGN
 
 # TRENNMARKE (SILBE)
-letter        \x00AD e               #173   Â­ SOFT HYPHEN
+letter        \x00AD e               #173   ­ SOFT HYPHEN
 
 # ===== BOX DRAWING: 2500-257F =================================================
 
 # TRENNMARKE "m" (Umbruch ohne Zeichen)
 # FÃ¼r Windows-Test auf "Macron gelegt", in core6.cti wieder setzen ...
-punctuation   \x00AF d               #175   Â¯ MACRON
+punctuation   \x00AF d               #175   ¯ MACRON
 
 # TRENNMARKE (nur alte Rechtschreibung)
 letter        \x2502 ca              #9474    BOX DRAWINGS LIGHT VERTICAL
@@ -75,4 +72,7 @@ punctuation   \x2563 6-3             #9571    BOX DRAWINGS VERTICAL DOUBLE VERTI
 punctuation   \x255E 6-456           #9566    BOX DRAWINGS VERTICAL SINGLE AND RIGHT DOUBLE
 
 # KURSIV Ende, Mitten im Wort (P6-3)
-punctuation   \x2561 6-3		#9569    BOX DRAWINGS VERTICAL SINGLE AND LEFT DOUBLE
+punctuation   \x2561 6-3   #9569    BOX DRAWINGS VERTICAL SINGLE AND LEFT DOUBLE
+
+# AUFHEBUNGSPUNKT vor Komma nach tiefgestellten Zahlen
+sign          \x256C ab              #9580    BOX DRAWINGS DOUBLE VERTICAL AND HORIZONTAL
