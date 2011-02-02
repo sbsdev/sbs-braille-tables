@@ -10,6 +10,8 @@
 pass2 @a ?
 # Dummy-Zahl entfernen
 pass2 @3456-b ?
+# Dummy-Zahl vor Komma ersetzen durch letter sign
+pass2 @3456-bc @6
 
 # Trennmarke "m" nach Bindestrich
 pass2 @36 @36-d

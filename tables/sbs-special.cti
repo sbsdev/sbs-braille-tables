@@ -2,8 +2,8 @@
 #
 #  sbs-special.cti
 #
-#  SBS Character Definitions für Spezialzeichen
-#  (Trennmarken, Ankündigungs-Workaraound etc.)
+#  SBS Character Definitions fÃ¼r Spezialzeichen
+#  (Trennmarken, AnkÃ¼ndigungs-Workaraound etc.)
 #
 #-------------------------------------------------------------------------------
 
@@ -11,22 +11,25 @@
 # ===== LATIN-1 SUPPLEMENT: 0080-00FF ==========================================
 
 # KUERZUNGSVERBOT und "DUMMY"-TEXT
-letter        \x00A6 a               #166   ¦ BROKEN BAR
+letter        \x00A6 a               #166   Â¦ BROKEN BAR
 
 # "DUMMY"-ZAHL
-digit         \x00B7 b               #183   · MIDDLE DOT
+digit         \x00B7 b               #183   Â· MIDDLE DOT
+
+# "DUMMY"-ZAHL VOR KOMMA
+digit         \x256C bc              #9580  â•¬ BOX DRAWINGS DOUBLE VERTICAL AND HORIZONTAL
 
 # TRENNMARKE (WORT)
-letter        \x00AC f               #172   ¬ NOT SIGN
+letter        \x00AC f               #172   Â¬ NOT SIGN
 
 # TRENNMARKE (SILBE)
-letter        \x00AD e               #173   ­ SOFT HYPHEN
+letter        \x00AD e               #173   Â­ SOFT HYPHEN
 
 # ===== BOX DRAWING: 2500-257F =================================================
 
 # TRENNMARKE "m" (Umbruch ohne Zeichen)
-# Für Windows-Test auf "Macron gelegt", in core6.cti wieder setzen ...
-punctuation   \x00AF d               #175   ¯ MACRON
+# FÃ¼r Windows-Test auf "Macron gelegt", in core6.cti wieder setzen ...
+punctuation   \x00AF d               #175   Â¯ MACRON
 
 # TRENNMARKE (nur alte Rechtschreibung)
 letter        \x2502 ca              #9474    BOX DRAWINGS LIGHT VERTICAL
@@ -50,13 +53,13 @@ punctuation   \x255A 36a-3           #9562    BOX DRAWINGS DOUBLE UP AND RIGHT
 # VOLLSCHRIFT Ende (P6-3)
 punctuation   \x255D 6-3             #9565    BOX DRAWINGS DOUBLE UP AND LEFT
 
-# GROSSBUCHSTABE (P46) für sbs-de-abbr.ctb
+# GROSSBUCHSTABE (P46) fÃ¼r sbs-de-abbr.ctb
 sign          \x2564 46              #9572    BOX DRAWINGS DOWN SINGLE AND HORIZONTAL DOUBLE
 
-# GROSSBUCHSTABENFOLGE (P45) für sbs-de-abbr.ctb
+# GROSSBUCHSTABENFOLGE (P45) fÃ¼r sbs-de-abbr.ctb
 sign          \x2566 45              #9574    BOX DRAWINGS DOUBLE DOWN AND HORIZONTAL
 
-# KLEINBUCHSTABE (P6) für sbs-de-abbr.ctb
+# KLEINBUCHSTABE (P6) fÃ¼r sbs-de-abbr.ctb
 sign          \x2569 6               #9577    BOX DRAWINGS DOUBLE UP AND HORIZONTAL
 
 # KURSIV Einzelwort (P456)
