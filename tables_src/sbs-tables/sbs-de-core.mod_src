@@ -69,19 +69,9 @@ midnum       ,                       ,       Komma
 endnum       ;                       ';      Strichpunkt
 ###Nach hinten gezügelt, siehe Divisionszeichen: endnum : ':
 endnum       ?                       '?      Fragezeichen
-word         ?                       '?
-word         ??                      '??
-always       ??                      ??
+always       \s?                     b'?
 endnum       !                       '+      Ausrufezeichen
-word         !                       '+
-word         !!                      '++
-always       !!                      ++
-word         !!!                     '+++
-always       !!!                     +++
-word         !?                      '+?
-always       !?                      +?
-word         ?!                      '?+
-always       ?!                      ?+
+always       \s!                     b'+
 always       !                       +
 midword      (                       '=      Runde Klammer auf
 midnum       (                       '=#
