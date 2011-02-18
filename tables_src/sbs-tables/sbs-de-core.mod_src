@@ -111,7 +111,7 @@ prepunc      \x203a                  '(
 prepunc      \x201b                  '(
 postpunc     \x2039                  ')      Halbes Anführungszeichen am Ende
 postpunc     \x203a                  ')
-prepunc      \x201b                  ')
+postpunc     \x201b                  ')
 
 ###                                          Schrägstrich (siehe 2.5.2)
 ###                                          Senkrechter Strich (siehe 2.5.3)
