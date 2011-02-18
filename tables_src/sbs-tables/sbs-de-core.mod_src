@@ -84,12 +84,15 @@ always       )                       =
 prepunc      "                       (       Anführungszeichen am Anfang
 prepunc      «                       (
 prepunc      »                       (
+prepunc      \x201f                  (
 endnum       "                       ')      Anführungszeichen am Ende
 postpunc     "                       )
 endnum       »                       ')
 postpunc     »                       )
 endnum       «                       ')
 postpunc     «                       )
+endnum       \x201f                  ')
+postpunc     \x201f                  )
 midnum       .                       .       Punkt
 always       .\s.\s.                 ...
 ###                                          Waagerechter Strich (siehe 2.5.1)
@@ -105,12 +108,10 @@ always       ***                     '***
 ### FEHLT                            <=      Phonetische Klammer zu
 prepunc      \x2039                  '(      Halbes Anführungszeichen am Anfang
 prepunc      \x203a                  '(
-prepunc      \x2018                  '(
-prepunc      \x2019                  '(
+prepunc      \x201b                  '(
 postpunc     \x2039                  ')      Halbes Anführungszeichen am Ende
 postpunc     \x203a                  ')
-postpunc     \x2018                  ')
-postpunc     \x2019                  ')
+prepunc      \x201b                  ')
 
 ###                                          Schrägstrich (siehe 2.5.2)
 ###                                          Senkrechter Strich (siehe 2.5.3)

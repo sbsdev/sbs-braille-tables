@@ -58,12 +58,15 @@ always ) 2356
 prepunc " 236
 prepunc « 236
 prepunc » 236
+prepunc \x201f 236
 endnum " 6-356
 postpunc " 356
 endnum » 6-356
 postpunc » 356
 endnum « 6-356
 postpunc « 356
+endnum \x201f 6-356
+postpunc \x201f 356
 midnum . 3
 always .\s.\s. 3-3-3
 midnum ' 3
@@ -72,12 +75,10 @@ always ** 6-35-35
 always *** 6-35-35-35
 prepunc \x2039 6-236
 prepunc \x203a 6-236
-prepunc \x2018 6-236
-prepunc \x2019 6-236
+prepunc \x201b 6-236
 postpunc \x2039 6-356
 postpunc \x203a 6-356
-postpunc \x2018 6-356
-postpunc \x2019 6-356
+prepunc \x201b 6-356
 
 always \x2192 0-25-25-135-0
 always \x2190 0-246-25-25-0
