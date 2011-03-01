@@ -55,30 +55,30 @@ midword ) 6-2356
 midnum ) 6-2356-3456
 endnum ) 6-2356
 always ) 2356
-prepunc " 236
-prepunc « 236
-prepunc » 236
-prepunc \x201f 236
+#prepunc      "                       (       Anführungszeichen am Anfang
+#prepunc      «                       (
+#prepunc      »                       (
+#prepunc      \x201f                  (
 endnum " 6-356
-postpunc " 356
+#postpunc     "                       )
 endnum » 6-356
-postpunc » 356
+#postpunc     »                       )
 endnum « 6-356
-postpunc « 356
+#postpunc     «                       )
 endnum \x201f 6-356
-postpunc \x201f 356
+#postpunc     \x201f                  )
 midnum . 3
 always .\s.\s. 3-3-3
 midnum ' 3
 
 always ** 6-35-35
 always *** 6-35-35-35
-prepunc \x2039 6-236
-prepunc \x203a 6-236
-prepunc \x201b 6-236
-postpunc \x2039 6-356
-postpunc \x203a 6-356
-prepunc \x201b 6-356
+#prepunc      \x2039                  '(      Halbes Anführungszeichen am Anfang
+#prepunc      \x203a                  '(
+#prepunc      \x201b                  '(
+#postpunc     \x2039                  ')      Halbes Anführungszeichen am Ende
+#postpunc     \x203a                  ')
+#postpunc     \x201b                  ')
 
 always \x2192 0-25-25-135-0
 always \x2190 0-246-25-25-0
