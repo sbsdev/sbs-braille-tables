@@ -81,18 +81,18 @@ midword      )                       '=      Runde Klammer zu
 midnum       )                       '=#
 endnum       )                       '=
 always       )                       =
-prepunc      "                       (       Anführungszeichen am Anfang
-prepunc      «                       (
-prepunc      »                       (
-prepunc      \x201f                  (
+#prepunc      "                       (       Anführungszeichen am Anfang
+#prepunc      «                       (
+#prepunc      »                       (
+#prepunc      \x201f                  (
 endnum       "                       ')      Anführungszeichen am Ende
-postpunc     "                       )
+#postpunc     "                       )
 endnum       »                       ')
-postpunc     »                       )
+#postpunc     »                       )
 endnum       «                       ')
-postpunc     «                       )
+#postpunc     «                       )
 endnum       \x201f                  ')
-postpunc     \x201f                  )
+#postpunc     \x201f                  )
 midnum       .                       .       Punkt
 always       .\s.\s.                 ...
 ###                                          Waagerechter Strich (siehe 2.5.1)
@@ -106,12 +106,12 @@ always       **                      '**     Anmerkungssternchen
 always       ***                     '***
 ### FEHLT                            <=      Phonetische Klammer auf
 ### FEHLT                            <=      Phonetische Klammer zu
-prepunc      \x2039                  '(      Halbes Anführungszeichen am Anfang
-prepunc      \x203a                  '(
-prepunc      \x201b                  '(
-postpunc     \x2039                  ')      Halbes Anführungszeichen am Ende
-postpunc     \x203a                  ')
-postpunc     \x201b                  ')
+#prepunc      \x2039                  '(      Halbes Anführungszeichen am Anfang
+#prepunc      \x203a                  '(
+#prepunc      \x201b                  '(
+#postpunc     \x2039                  ')      Halbes Anführungszeichen am Ende
+#postpunc     \x203a                  ')
+#postpunc     \x201b                  ')
 
 ###                                          Schrägstrich (siehe 2.5.2)
 ###                                          Senkrechter Strich (siehe 2.5.3)
