@@ -7,7 +7,7 @@
 #
 #-------------------------------------------------------------------------------
 
-# --- Korrektur der Bindestrich-Probleme -----------------------------------
+# --- Korrektur der Bindestrich-Probleme ---------------------------------------
 
 # begword nach Wortersatzstrich verhindern
 correct "\s-" "\s-¦"
@@ -15,6 +15,20 @@ correct "\s-" "\s-¦"
 correct "-\s" "¦-\s"
 # endword vor Wortersatzstrich und Komma verhindern
 correct "-,\s" "¦-,\s"
+
+# --- Apostroph, Punkt, Komma, Strich vor Zahl ---------------------------------
+
+correct $d["'"]$d "'"
+correct ["'"]$d "\x2500"
+correct $d["."]$d "."
+correct ["."]$d "\x2501"
+correct ["--."]$d "\x2510"
+correct ["\x2013."]$d "\x2510"
+correct ["\x2014."]$d "\x2510"
+correct ["--,"]$d "\x2511"
+correct ["\x2013,"]$d "\x2511"
+correct ["\x2014,"]$d "\x2511"
+
 
 # --- Emphasis opcodes ---------------------------------------------------------
 

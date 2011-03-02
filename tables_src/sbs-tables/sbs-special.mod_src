@@ -8,8 +8,13 @@
 
 # Kürzungsverbot entfernen
 #=#pass2 @a ?
+# Apostroph vor Zahl ('98)
+#=#pass2 @3456-69 @3456-6
+# Punkt vor Zahl (.45)
+#=#pass2 @3456-39 @3456-3
 # Dummy-Zahl entfernen
 #=#pass2 @3456-b ?
+
 # Aufhebungspunkt vor Komma nach tiefgestellten Zahlen
 #=#pass2 @ab @6
 

@@ -72,7 +72,20 @@ punctuation   \x2563 6-3             #9571    BOX DRAWINGS VERTICAL DOUBLE VERTI
 punctuation   \x255E 6-456           #9566    BOX DRAWINGS VERTICAL SINGLE AND RIGHT DOUBLE
 
 # KURSIV Ende, Mitten im Wort (P6-3)
-punctuation   \x2561 6-3   #9569    BOX DRAWINGS VERTICAL SINGLE AND LEFT DOUBLE
+punctuation   \x2561 6-3             #9569    BOX DRAWINGS VERTICAL SINGLE AND LEFT DOUBLE
+
 
 # AUFHEBUNGSPUNKT vor Komma nach tiefgestellten Zahlen
 sign          \x256C ab              #9580    BOX DRAWINGS DOUBLE VERTICAL AND HORIZONTAL
+
+# APOSTROPH VOR ZAHL (z.B. Im Jahr '97)
+digit         \x2500 69              #9472    BOX DRAWINGS LIGHT HORIZONTAL
+
+# PUNKT VOR ZAHL (z.B. Kaliber .45)
+digit         \x2501 39              #9473    BOX DRAWINGS HEAVY HORIZONTAL
+
+# Strich und Punkt vor Zahl (Fr. --.45)
+digit         \x2510 36a-36a-3       #9488    BOX DRAWINGS LIGHT DOWN AND LEFT
+
+# Strich und Komma vor Zahl (EUR --,45)
+digit         \x2511 36a-36a-2       #9489    BOX DRAWINGS DOWN LIGHT AND LEFT HEAVY
