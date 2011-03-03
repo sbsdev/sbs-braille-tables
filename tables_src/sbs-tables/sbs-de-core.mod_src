@@ -101,7 +101,7 @@ always       )                       =
 #prepunc      \x201f                  (
 endnum       "                       ')      Anführungszeichen am Ende
 #postpunc     "                       )
-endnum       »                       ')
+#endnum       »                       ')
 #postpunc     »                       )
 endnum       «                       ')
 #postpunc     «                       )

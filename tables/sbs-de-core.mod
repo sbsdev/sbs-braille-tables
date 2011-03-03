@@ -75,7 +75,7 @@ always ) 2356
 #prepunc      \x201f                  (
 endnum " 6-356
 #postpunc     "                       )
-endnum » 6-356
+#endnum       »                       ')
 #postpunc     »                       )
 endnum « 6-356
 #postpunc     «                       )
