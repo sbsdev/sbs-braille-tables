@@ -10,11 +10,11 @@
 # --- Korrektur der Bindestrich-Probleme ---------------------------------------
 
 # begword nach Wortersatzstrich verhindern
-#=#correct "\s-" "\s-¦"
+#=#correct "\s-" "\s-\x250A"
 # endword vor Wortersatzstrich verhindern
-#=#correct "-\s" "¦-\s"
+#=#correct "-\s" "\x250A-\s"
 # endword vor Wortersatzstrich und Komma verhindern
-#=#correct "-,\s" "¦-,\s"
+#=#correct "-,\s" "\x250A-,\s"
 
 # --- Apostroph, Punkt, Komma, Strich vor Zahl ---------------------------------
 

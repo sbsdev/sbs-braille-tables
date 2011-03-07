@@ -8,25 +8,24 @@
 #-------------------------------------------------------------------------------
 
 
-# ===== LATIN-1 SUPPLEMENT: 0080-00FF ==========================================
+# ===== BOX DRAWING: 2500-257F =================================================
 
 # KUERZUNGSVERBOT und "DUMMY"-TEXT
-#=#letter        \x00A6 a               #166   ¦ BROKEN BAR
+#=#letter        \x250A a               #9482    BOX DRAWINGS LIGHT QUADRUPLE DASH VERTICAL
 
 # "DUMMY"-ZAHL
-#=#digit         \x00B7 b               #183   · MIDDLE DOT
+#=#digit         \x250B b               #9483    BOX DRAWINGS HEAVY QUADRUPLE DASH VERTICAL
 
 # TRENNMARKE (WORT)
-#=#letter        \x00AC f               #172   ¬ NOT SIGN
+#=#letter        \x250C f               #9484    BOX DRAWINGS LIGHT DOWN AND RIGHT
 
 # TRENNMARKE (SILBE)
-#=#letter        \x00AD e               #173   ­ SOFT HYPHEN
+#=#letter        \x250D e               #9485    BOX DRAWINGS DOWN LIGHT AND RIGHT HEAVY
 
-# ===== BOX DRAWING: 2500-257F =================================================
 
 # TRENNMARKE "m" (Umbruch ohne Zeichen)
 # FÃ¼r Windows-Test auf "Macron gelegt", in core6.cti wieder setzen ...
-#=#punctuation   \x00AF d               #175   ¯ MACRON
+#=#punctuation   \x250E d               #9486  ¯ BOX DRAWINGS DOWN HEAVY AND RIGHT LIGHT
 
 # TRENNMARKE (nur alte Rechtschreibung)
 #=#letter        \x2502 ca              #9474    BOX DRAWINGS LIGHT VERTICAL

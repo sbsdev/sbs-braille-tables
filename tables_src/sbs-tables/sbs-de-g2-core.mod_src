@@ -177,10 +177,10 @@ always                                  ähnlich             @_
 # AL  (4.1 Lautgruppenkürzungen)
 begmidword                              al                  :
 # Lautgruppe nach Apostroph verhindern
-#=#correct "'"["al"] "a¦l"
-#=#correct "'"["Al"] "A¦l"
-#=#correct "'"["aL"] "a¦L"
-#=#correct "'"["AL"] "A¦L"
+#=#correct "'"["al"] "a\x250Al"
+#=#correct "'"["Al"] "A\x250Al"
+#=#correct "'"["aL"] "a\x250AL"
+#=#correct "'"["AL"] "A\x250AL"
 midendword                              alikör              AwLItK9R
 always                                 aal                  AAL
 begmidword                         chinaalk                 4*Aw:K
@@ -385,10 +385,10 @@ begmidword                    instrumental                  *a]RUtMCtT:
 word                                    an                  +
 begmidword                              an                  +
 # Lautgruppe nach Apostroph verhindern
-#=#correct "'"["an"] "a¦n"
-#=#correct "'"["An"] "A¦n"
-#=#correct "'"["aN"] "a¦N"
-#=#correct "'"["AN"] "A¦N"
+#=#correct "'"["an"] "a\x250An"
+#=#correct "'"["An"] "A\x250An"
+#=#correct "'"["aN"] "a\x250AN"
+#=#correct "'"["AN"] "A\x250AN"
 always                                  anistisch           +!5
 always                                  anation             AN!N
 always                            afrikaans                 AFtRItKAANS
@@ -484,10 +484,10 @@ always                                 zander               Z+tD7
 # AR  (4.1 Lautgruppenkürzungen)
 begmidword                              ar                  )
 # Lautgruppe nach Apostroph verhindern
-#=#correct "'"["ar"] "a¦r"
-#=#correct "'"["Ar"] "A¦r"
-#=#correct "'"["aR"] "a¦R"
-#=#correct "'"["AR"] "A¦R"
+#=#correct "'"["ar"] "a\x250Ar"
+#=#correct "'"["Ar"] "A\x250Ar"
+#=#correct "'"["aR"] "a\x250AR"
+#=#correct "'"["AR"] "A\x250AR"
 before_r_begmidword                  kuba                   KUtBA
 always                            amerika                   AM7ItKA
 before_r_always                    afrika                   AFRItKA
@@ -5799,10 +5799,10 @@ always                                 zimmer               ZIX7
 # IN  (4.1 Lautgruppenkürzungen)
 always                                  in                  *
 # Lautgruppe nach Apostroph verhindern
-#=#correct "'"["in"] "i¦n"
-#=#correct "'"["In"] "I¦n"
-#=#correct "'"["iN"] "i¦N"
-#=#correct "'"["IN"] "I¦N"
+#=#correct "'"["in"] "i\x250An"
+#=#correct "'"["In"] "I\x250An"
+#=#correct "'"["iN"] "i\x250AN"
+#=#correct "'"["IN"] "I\x250AN"
 always                                cain                  'CAIN
 always                            novocain                  NOtVOt'CA*
 always                             bougain                  BOUtGAIN
@@ -7083,10 +7083,10 @@ always                                 wohn                 WOHN
 # OR  (4.1 Lautgruppenkürzungen)
 begmidword                              or                  ?
 # Lautgruppe nach Apostroph verhindern
-#=#correct "'"["or"] "o¦r"
-#=#correct "'"["Or"] "O¦r"
-#=#correct "'"["oR"] "o¦R"
-#=#correct "'"["OR"] "O¦R"
+#=#correct "'"["or"] "o\x250Ar"
+#=#correct "'"["Or"] "O\x250Ar"
+#=#correct "'"["oR"] "o\x250AR"
+#=#correct "'"["OR"] "O\x250AR"
 midendword                              oreduktion          OwREtDUKtTJ
 always                              kakao                   KAtKAO
 always                             mexico                   MEt'XIt'CO
