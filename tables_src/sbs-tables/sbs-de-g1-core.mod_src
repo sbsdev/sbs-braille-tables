@@ -61,10 +61,7 @@ always                               datei                  DAtT3
 always                             polizei                  POtLItZ3
 begmidword                            freikon               FR3tKON
 begmidword                          parteikon               PARtT3wKON
-midendword                              eille               EtILLE
 begmidword                             teillei              T3LwL3
-midword                                 eilleus             EILtL2S
-begmidword                          marseill                MARtSEILtL
 midendword                              eilloy              EwILtLOY
 midendword                              eillu               EwILtLU
 midendword                              eimag               EwIMAtG
@@ -246,7 +243,6 @@ always                           diagnose                   DIAGNOSE
 always                               kasein                 KAtSEtIN
 before_i_begmidword                 kälte                   K@LtTE
 always                              protein                 PROtTEtIN
-always                                 weight               WEIGHT
 
 # EU
 always                                  eu                  2

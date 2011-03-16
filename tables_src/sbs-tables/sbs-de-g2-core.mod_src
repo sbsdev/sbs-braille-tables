@@ -1817,9 +1817,6 @@ always                           fischerei                  FIt573
 always                            molkerei                  MOLtK73
 always                             polizei                  POtLItZ3
 begmidword                            freikon               FR3tKON
-midword                                 eille               EIQE
-midword                                 eilleus             EIQ2S
-begmidword                          marseill                M)tSEIQ
 midword                                 eilloy              EwIQO'Y
 midword                                 eillu               EwIQU
 midword                                 eimag               EwIMAtG
@@ -1906,7 +1903,6 @@ always                               kasein                 KAtSEt*
 before_i_begmidword                 kälte                   K@Lt(
 sufword                             protein                 Qt(t*
 midendword                          protein                 PROt(t*
-always                                 weight               WEIGHT
 always                              schweineigel            5W6Ew>Y
 
 # EIN (4.1 Lautgruppenkürzungen)
@@ -6222,7 +6218,6 @@ always                               seillinien             S3LwL*ItC
 always                               seillitz               S3LwLITZ
 before_l_begmidword                  teil                   T3L
 before_l_begmidword                 steil                   ]3L
-always                            bouteill                  BOUtTEIQ
 before_l_begword                   profil                   QtFILw
 before_l_midword                   profil                   PROtFILw
 before_l_midword                   steril                   ]7ILw

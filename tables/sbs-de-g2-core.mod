@@ -1819,9 +1819,6 @@ always fischerei 124-24-e-156-12456-146
 always molkerei 134-135-123-e-13-12456-146
 always polizei 1234-135-e-123-24-e-1356-146
 begmidword freikon 124-1235-146-e-13-135-1345
-midword eille 15-24-12345-15
-midword eilleus 15-24-12345-126-234
-begmidword marseill 134-356-e-234-15-24-12345
 midword eilloy 15-f-24-12345-135-6-13456
 midword eillu 15-f-24-12345-136
 midword eimag 15-f-24-134-1-e-1245
@@ -1908,7 +1905,6 @@ always kasein 13-1-e-234-15-e-35
 before i begmidword kälte 13-345-123-e-236
 sufword protein 12345-e-236-e-35
 midendword protein 1234-1235-135-e-236-e-35
-always weight 2456-15-24-1245-125-2345
 always schweineigel 156-2456-1246-15-f-45-13456
 
 # EIN (4.1 Lautgruppenkürzungen)
@@ -6217,7 +6213,6 @@ always seillinien 234-146-123-f-123-35-24-e-14
 always seillitz 234-146-123-f-123-24-2345-1356
 before l begmidword teil 2345-146-123
 before l begmidword steil 23456-146-123
-always bouteill 12-135-136-e-2345-15-24-12345
 before l begword profil 12345-e-124-24-123-f
 before l midword profil 1234-1235-135-e-124-24-123-f
 before l midword steril 23456-12456-24-123-f
