@@ -66,6 +66,8 @@ always                                beach                 BEA4
 
 # AL  (4.1 Lautgruppenkürzungen)
 begmidword                              al                  :
+### Korrektur: ist in Core-Tabelle bei ALL:
+always                                  all                 AQ
 always                                 aal                  AAL
 
 # AN  (4.1 Lautgruppenkürzungen)

@@ -64,6 +64,7 @@ always beach 12-15-1-1456
 
 # AL  (4.1 Lautgruppenkürzungen)
 begmidword al 25
+always all 1-12345
 always aal 1-1-123
 
 # AN  (4.1 Lautgruppenkürzungen)
