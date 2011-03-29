@@ -823,6 +823,7 @@ midendword enschor 15-1345-234-e-1456-135-1235
 midendword enschör 15-1345-234-e-1456-246-1235
 midendword ngschor 1345-1245-234-e-1456-135-1235
 midendword ngschör 1345-1245-234-e-1456-246-1235
+always prinzesschen 1234-1235-24-1345-e-1356-15-234-234-e-1456-15-1345
 always prischen 1234-1235-24-234-e-1456-15-1345
 always radieschen 1235-1-e-145-346-234-e-1456-15-1345
 always reischen 1235-146-234-e-1456-15-1345
