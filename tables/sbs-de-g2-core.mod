@@ -159,7 +159,6 @@ always machia 134-1-e-1456-24-1
 always machin 134-1-e-1456-35
 always machis 134-1-e-1456-24-234
 always nikomachisch 1345-24-e-13-135-e-134-56-24-156
-always macho 134-1-e-1456-135
 begmidword anachron 235-1-e-1456-1235-135-e-1345
 always coach 6-14-135-1-1456
 begword tetrach 2345-15-e-2345-1235-1-f-1456
