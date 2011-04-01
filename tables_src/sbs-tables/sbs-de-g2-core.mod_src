@@ -3932,6 +3932,7 @@ always                                  frage               FRE
 always                                  fragen              FRC
 prfword                                 frager              FR7
 always                                  fragerei            FR73
+always                                  fragerin            FR7*
 prfword                                 fragern             FR7N
 prfword                                 fragers             FR7S
 always                                  fragil              FRAtGIL
@@ -10428,6 +10429,7 @@ always                                 yvorn                'YV?tN
 # WAHR WÄHR (4.4 Zweiformige Kürzungen)
 always                                  wahr                WH
 always                                  währ                !WH
+word                                    when                'WHC
 
 # WÄHREND (4.4 Zweiformige Kürzungen)
 always                              während                 @D

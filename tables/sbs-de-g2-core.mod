@@ -3933,6 +3933,7 @@ always frage 124-1235-15
 always fragen 124-1235-14
 prfword frager 124-1235-12456
 always fragerei 124-1235-12456-146
+always fragerin 124-1235-12456-35
 prfword fragern 124-1235-12456-1345
 prfword fragers 124-1235-12456-234
 always fragil 124-1235-1-e-1245-24-123
@@ -10380,6 +10381,7 @@ always yvorn 6-13456-1236-26-e-1345
 # WAHR WÄHR (4.4 Zweiformige Kürzungen)
 always wahr 2456-125
 always währ 5-2456-125
+word when 6-2456-125-14
 
 # WÄHREND (4.4 Zweiformige Kürzungen)
 always während 345-145
