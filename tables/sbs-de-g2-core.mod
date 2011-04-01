@@ -3708,6 +3708,8 @@ word eu 15-136
 always eu 126
 midendword eunkosten 15-f-256-e-13-135-23456-14
 midendword eunsicher 15-f-256-e-234-3456-12456
+endword eufer 15-f-136-124-12456
+endword eufers 15-f-136-124-12456-234
 always timaeus 2345-24-e-134-1-15-e-136-234
 always glutaeus 1245-123-136-e-2345-1-15-e-136-234
 always sterbeuhr 23456-12456-e-23-f-136-125-1235
@@ -3736,8 +3738,6 @@ always gemeindeutsch 12346-e-134-1246-f-145-156
 always spondeus 234-1234-135-1345-e-145-15-e-136-234
 before u begmidword kunde 13-256-e-145-15-f
 always codeum 6-14-135-e-145-15-e-136-134
-always spreeufer 234-1234-1235-15-15-f-136-124-12456
-always seeufer 234-15-15-f-136-124-12456
 always seeum 234-15-15-f-136-134
 always seeun 234-15-15-f-256
 before u begmidword hilfe 125-24-123-e-124-15-f
@@ -3764,12 +3764,10 @@ always mausoleum 134-16-e-234-135-e-123-15-e-136-134
 always herculaneum 125-12456-e-6-14-136-e-123-235-15-e-136-134
 before u begmidword marine 134-356-35-15-f
 before u begmidword routine 1235-135-136-e-2345-35-15-f
-always marneufer 134-356-e-1345-15-f-136-124-12456
 always oeuvre 246-136-1236-1235-15
 before u begmidword ware 2456-356-15-f
 always käseunion 13-345-e-234-15-f-256-24-135-1345
 before u begmidword reise 1235-146-e-234-15-f
-always themseufer 2345-125-12356-e-234-15-f-136-124-12456
 before u begmidword presse 1234-1235-15-2346-15-f
 always colosseum 6-14-135-e-123-135-2346-15-e-136-134
 always kolosseum 13-135-e-123-135-2346-15-e-136-134

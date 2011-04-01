@@ -246,6 +246,8 @@ always                              protein                 PROtTEtIN
 
 # EU
 always                                  eu                  2
+endword                                 eufer               EwUFER
+endword                                 eufers              EwUFERS
 midendword                              eunkosten           EwUNwKO]EN
 always                                 beunruhig            BEtUNwRUHIG
 always                                 beurkund             BEtURtKUNtD
@@ -272,10 +274,8 @@ always                             spondeus                 SPONtDEtUS
 always                               tedeum                 TEtDEtUM
 always                              armeeun                 ARtMEEwUN
 always                                peeun                 PEEwUN
-always                                seeufer               SEEwUFER
 always                                seeum                 SEEwUM
 always                                seeun                 SEEwUN
-always                              spreeufer               SPREEtUFER
 before_u_begmidword                 hilfe                   HILtFE
 always                              ausgeufert              1StGEwUFERT
 always                              folgeunter              FOLtGEwUNtTER
@@ -303,7 +303,6 @@ always                            petroleum                 PETROtLEtUM
 always                          herculaneum                 HERtCUtLAtNEtUM
 before_u_begmidword                marine                   MAtRItNE
 before_u_begmidword               routine                   ROUtTItNE
-always                              marneufer               MARtNEtUFER
 always                                 oeuvre               9UVRE
 always                         bakkalaure                   BAKtKAtL1tRE
 before_u_begmidword                  ware                   WAtRE

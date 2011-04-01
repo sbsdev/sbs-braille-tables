@@ -246,6 +246,8 @@ always protein 1234-1235-135-e-2345-15-e-24-1345
 
 # EU
 always eu 126
+endword eufer 15-f-136-124-15-1235
+endword eufers 15-f-136-124-15-1235-234
 midendword eunkosten 15-f-136-1345-f-13-135-23456-15-1345
 always beunruhig 12-15-e-136-1345-f-1235-136-125-24-1245
 always beurkund 12-15-e-136-1235-e-13-136-1345-e-145
@@ -272,10 +274,8 @@ always spondeus 234-1234-135-1345-e-145-15-e-136-234
 always tedeum 2345-15-e-145-15-e-136-134
 always armeeun 1-1235-e-134-15-15-f-136-1345
 always peeun 1234-15-15-f-136-1345
-always seeufer 234-15-15-f-136-124-15-1235
 always seeum 234-15-15-f-136-134
 always seeun 234-15-15-f-136-1345
-always spreeufer 234-1234-1235-15-15-e-136-124-15-1235
 before u begmidword hilfe 125-24-123-e-124-15
 always ausgeufert 16-234-e-1245-15-f-136-124-15-1235-2345
 always folgeunter 124-135-123-e-1245-15-f-136-1345-e-2345-15-1235
@@ -303,7 +303,6 @@ always petroleum 1234-15-2345-1235-135-e-123-15-e-136-134
 always herculaneum 125-15-1235-e-14-136-e-123-1-e-1345-15-e-136-134
 before u begmidword marine 134-1-e-1235-24-e-1345-15
 before u begmidword routine 1235-135-136-e-2345-24-e-1345-15
-always marneufer 134-1-1235-e-1345-15-e-136-124-15-1235
 always oeuvre 246-136-1236-1235-15
 always bakkalaure 12-1-13-e-13-1-e-123-16-e-1235-15
 before u begmidword ware 2456-1-e-1235-15

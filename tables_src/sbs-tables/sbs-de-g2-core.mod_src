@@ -3706,6 +3706,8 @@ word                                    eu                  EU
 always                                  eu                  2
 midendword                                     eunkosten    Ew/tKO]C
 midendword                                     eunsicher    Ew/tS#7
+endword                                        eufer        EwUF7
+endword                                        eufers       EwUF7S
 always                                     timaeus          TItMAEtUS
 always                                    glutaeus          GLUtTAEtUS
 always                                    sterbeuhr         ]7t;wUHR
@@ -3734,8 +3736,6 @@ always                                  gemeindeutsch       &tM6wD5
 always                                    spondeus          SPONtDEtUS
 before_u_begmidword                        kunde            K/tDEw
 always                                      codeum          'COtDEtUM
-always                                     spreeufer        SPREEwUF7
-always                                       seeufer        SEEwUF7
 always                                       seeum          SEEwUM
 always                                       seeun          SEEw/
 before_u_begmidword                        hilfe            HILtFEw
@@ -3762,12 +3762,10 @@ always                                   mausoleum          M1tSOtLEtUM
 always                                 herculaneum          H7t'CUtL+EtUM
 before_u_begmidword                       marine            M)*Ew
 before_u_begmidword                      routine            ROUtT*Ew
-always                                     marneufer        M)tNEwUF7
 always                                        oeuvre        9UVRE
 before_u_begmidword                         ware            W)Ew
 always                                      käseunion       K@tSEw/ION
 before_u_begmidword                        reise            R3tSEw
-always                                    themseufer        TH[tSEwUF7
 before_u_begmidword                       presse            PRE^Ew
 always                                   colosseum          'COtLO^EtUM
 always                                   kolosseum          KOtLO^EtUM
