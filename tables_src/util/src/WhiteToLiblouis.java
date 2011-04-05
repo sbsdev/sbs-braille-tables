@@ -35,6 +35,8 @@ public class WhiteToLiblouis {
     while((zeile = in.readLine()) != null) {
       i++;
       StringTokenizer st = new StringTokenizer(zeile," ");
+      // Codespalte überspringen
+      st.nextToken();
       ink = st.nextToken().replaceAll("#", "");
       kurz = st.nextToken().replaceAll("z", "");
       kurz = hyphenCheck(kurz);
