@@ -5234,6 +5234,7 @@ prfword                              teniente               TCItCt(
 begmidword                         albani                   :tB+I
 begmidword                        jordani                   J?tD+I
 always                               daniel                 D+ItY
+begmidword                           daniell                D+ItEQ
 begmidword                         ozeani                   OZE+I
 always                            nathaniel                 NAtTH+ItY
 begmidword                        bethani                   ;tTH+I
@@ -5393,6 +5394,7 @@ always                       parlamentarier                 P)tLAtMCtT)It7
 begmidword                           variet                 V)IEtT
 prfword                              variete                V)IEt(
 always                              gabriel                 GAtBnRItY
+begmidword                          gabriell                GAtBnRItEQ
 always                                erien                 7ItC
 always                              iberien                 IB7ItC
 always                            drogerien                 DROtG7ItC

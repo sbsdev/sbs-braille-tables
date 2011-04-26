@@ -5227,6 +5227,7 @@ prfword teniente 2345-14-24-e-14-e-236
 begmidword albani 25-e-12-235-24
 begmidword jordani 245-26-e-145-235-24
 always daniel 145-235-24-e-13456
+begmidword daniell 145-235-24-e-15-12345
 begmidword ozeani 135-1356-15-235-24
 always nathaniel 1345-1-e-2345-125-235-24-e-13456
 begmidword bethani 23-e-2345-125-235-24
@@ -5385,6 +5386,7 @@ always parlamentarier 1234-356-e-123-1-e-134-14-e-2345-356-24-e-12456
 begmidword variet 1236-356-24-15-e-2345
 prfword variete 1236-356-24-15-e-236
 always gabriel 1245-1-e-12-cb-1235-24-e-13456
+begmidword gabriell 1245-1-e-12-cb-1235-24-e-15-12345
 always erien 12456-24-e-14
 always iberien 24-12-12456-24-e-14
 always drogerien 145-1235-135-e-1245-12456-24-e-14
