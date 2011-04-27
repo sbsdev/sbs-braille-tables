@@ -267,6 +267,15 @@ midnum       \s\x2259                b"?#
 midnum       \x2259                  b"?#
 always       \x2259                  "?
 ### FEHLT                              *?      nicht äquivalent
+# Ungefähr:
+#=#midnum       \s~\s                   0-4-26-26-3456
+#=#midnum       \s~                     0-4-26-26-3456
+#=#midnum       ~                       0-4-26-26-3456
+#=#always       ~                       0-4-26-26
+midnum       \s\x223C\s              b"??#
+midnum       \s\x223C                b"??#
+midnum       \x223C                  b"??#
+always       \x223C                  "??
 # Ungefähr gleich:
 midnum       \s\x2245\s              b"??#
 midnum       \s\x2245                b"??#
@@ -316,15 +325,6 @@ midnum       \x2215                  b":#
 always       \x2215                  ":
 ### FEHLT                              8       Bruchstrich
 ### FEHLT                              ::      proportional
-# Proportional:
-#=#midnum       \s~\s                   0-4-25-25-3456
-#=#midnum       \s~                     0-4-25-25-3456
-#=#midnum       ~                       0-4-25-25-3456
-#=#always       ~                       0-4-25-25
-midnum       \s\x223C\s              b"::#
-midnum       \s\x223C                b"::#
-midnum       \x223C                  b"::#
-always       \x223C                  "::
 ### FEHLT                              "L      teilt
 ### FEHLT                              *"L     teilt nicht
 # Kleiner als:

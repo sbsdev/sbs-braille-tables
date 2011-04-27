@@ -177,6 +177,15 @@ midnum \s\x2259\s 0-4-26-3456
 midnum \s\x2259 0-4-26-3456
 midnum \x2259 0-4-26-3456
 always \x2259 4-26
+# Ungefähr:
+midnum       \s~\s                   0-4-26-26-3456
+midnum       \s~                     0-4-26-26-3456
+midnum       ~                       0-4-26-26-3456
+always       ~                       0-4-26-26
+midnum \s\x223C\s 0-4-26-26-3456
+midnum \s\x223C 0-4-26-26-3456
+midnum \x223C 0-4-26-26-3456
+always \x223C 4-26-26
 # Ungefähr gleich:
 midnum \s\x2245\s 0-4-26-26-3456
 midnum \s\x2245 0-4-26-26-3456
@@ -217,15 +226,6 @@ midnum \s\x2215\s 0-4-25-3456
 midnum \s\x2215 0-4-25-3456
 midnum \x2215 0-4-25-3456
 always \x2215 4-25
-# Proportional:
-midnum       \s~\s                   0-4-25-25-3456
-midnum       \s~                     0-4-25-25-3456
-midnum       ~                       0-4-25-25-3456
-always       ~                       0-4-25-25
-midnum \s\x223C\s 0-4-25-25-3456
-midnum \s\x223C 0-4-25-25-3456
-midnum \x223C 0-4-25-25-3456
-always \x223C 4-25-25
 # Kleiner als:
 midnum \s<\s 0-4-246-3-3456
 midnum \s< 0-4-246-3-3456
