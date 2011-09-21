@@ -40,22 +40,22 @@ public class WhiteToLiblouis {
 		while((zeile = in.readLine()) != null) {
 			i++;
 			StringTokenizer st = new StringTokenizer(zeile," ");
-			// Codespalte überspringen
+			// Codespalte Ã¼berspringen
 			st.nextToken();
 			ink = st.nextToken().replaceAll("#", "");
 			kurz = st.nextToken().replaceAll("z", "");
 			kurz = hyphenCheck(kurz);
 			voll = st.nextToken();
 			voll = hyphenCheck(voll);
-			// Eszett für CH auflösen
-			if (ink.indexOf("ß") != -1) {
-				writeLine(ink.replaceAll("ß", "ss"), kurz.replaceAll("tß", "^").replaceAll("ß", "^"), voll.replaceAll("t\\^", "StS").replaceAll("\\^", "SS"));
+			// Eszett fÃ¼r CH auflÃ¶sen
+			if (ink.indexOf("ÃŸ") != -1) {
+				writeLine(ink.replaceAll("ÃŸ", "ss"), kurz.replaceAll("tÃŸ", "^").replaceAll("ÃŸ", "^"), voll.replaceAll("t\\^", "StS").replaceAll("\\^", "SS"));
 			}
 			// Eszett nur alte Rechtschreibung
 			if (ink.indexOf("~") != -1) {
-				writeLine(ink.replace('~', 's'), kurz, voll.replaceAll("§", "SS"));
+				writeLine(ink.replace('~', 's'), kurz, voll.replaceAll("Â§", "SS"));
 			}
-			writeLine(ink.replaceAll("s~", "ß"), kurz, voll);
+			writeLine(ink.replaceAll("s~", "ÃŸ"), kurz, voll);
 			if (i % 25000 == 0) System.out.print(".");
 		}
 		in.close();

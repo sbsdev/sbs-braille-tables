@@ -47,7 +47,7 @@ public class TabToLiblouis {
 				writeLine(opcode, ink.replace('~', 's'), brl);
 			}
 
-			writeLine(opcode, ink.replaceAll("s~", "ß"), brl);
+			writeLine(opcode, ink.replaceAll("s~", "ÃŸ"), brl);
 		}
 		in.close();
 		out.close();
