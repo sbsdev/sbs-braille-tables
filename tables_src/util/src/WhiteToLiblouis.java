@@ -1,8 +1,11 @@
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
+import java.io.FileOutputStream;
 import java.io.FileReader;
-import java.io.FileWriter;
+import java.io.FileInputStream;
 import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
 import java.util.StringTokenizer;
 import java.util.regex.*;
 
@@ -25,9 +28,10 @@ public class WhiteToLiblouis {
 	 */
 	public static void main(String[] args) throws IOException {
 
-		in = new BufferedReader(new FileReader(IN));
-		outKurz = new BufferedWriter(new FileWriter(OUT_KURZ));
-		outVoll = new BufferedWriter(new FileWriter(OUT_VOLL));
+		final InputStreamReader inputStreamReader = new InputStreamReader(new FileInputStream (args[0]), "ISO-8859-1" );
+		in = new BufferedReader(inputStreamReader);
+		outKurz = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(OUT_KURZ), "ISO-8859-1"));
+		outKurz = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(OUT_VOLL), "ISO-8859-1"));
 		dots = new Braille();
 
 		String zeile, ink, kurz, voll;

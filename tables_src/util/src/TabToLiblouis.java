@@ -1,8 +1,11 @@
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
+import java.io.FileOutputStream;
 import java.io.FileReader;
-import java.io.FileWriter;
+import java.io.FileInputStream;
 import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
 import java.util.StringTokenizer;
 
 public class TabToLiblouis {
@@ -17,8 +20,9 @@ public class TabToLiblouis {
 	 */
 	public static void main(String[] args) throws IOException {
 
-		in = new BufferedReader(new FileReader(args[0]));
-		out = new BufferedWriter(new FileWriter(args[1]));
+		final InputStreamReader inputStreamReader = new InputStreamReader(new FileInputStream (args[0]), "ISO-8859-1" );
+		in = new BufferedReader(inputStreamReader);
+		out = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(args[1]), "ISO-8859-1"));
 
 		String zeile, opcode, ink, brl;
 		while((zeile = in.readLine()) != null) {
