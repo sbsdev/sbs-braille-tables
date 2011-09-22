@@ -26,10 +26,21 @@ public class WhiteToLiblouis {
 	 */
 	public static void main(final String[] args) throws IOException {
 
+        if(args.length != 3){
+            System.out.println();
+            System.out.println("3 args required: source kurz voll.");
+            System.out.println();
+            System.out.println("E.g. white.mod_src sbs-de-g2-white.mod  sbs-de-g1-white.mod");
+            System.out.println();
+            System.exit(1);
+        }
+
 		final Reader inputStreamReader = new InputStreamReader(new FileInputStream (args[0]), "ISO-8859-1" );
 		final BufferedReader in = new BufferedReader(inputStreamReader);
-		final Writer outKurz = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(OUT_KURZ), "ISO-8859-1"));
-		final Writer outVoll = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(OUT_VOLL), "ISO-8859-1"));
+//		final Writer outKurz = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(OUT_KURZ), "ISO-8859-1"));
+//		final Writer outVoll = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(OUT_VOLL), "ISO-8859-1"));
+		final Writer outKurz = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(args[1]), "ISO-8859-1"));
+		final Writer outVoll = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(args[2]), "ISO-8859-1"));
 
 		String zeile;
 		int i = 0;
