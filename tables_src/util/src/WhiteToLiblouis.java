@@ -14,7 +14,7 @@ public class WhiteToLiblouis {
 //	static final String IN = PATH + "white.mod_src";
 //	static final String OUT_PATH = "d:\\chr\\xmlwork\\liblouis\\sbs-braille-tables\\tables\\";
 	static final String IN = "white.mod_src";
-	static final String OUT_PATH = "..\\..\\tables\\";
+	static final String OUT_PATH = "../../tables/";
 	static final String OUT_KURZ = OUT_PATH + "sbs-de-g2-white.mod";
 	static final String OUT_VOLL = OUT_PATH + "sbs-de-g1-white.mod";
 	static BufferedReader in;
