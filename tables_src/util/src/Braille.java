@@ -2,20 +2,18 @@ import java.util.HashMap;
 
 public class Braille {
 	
-	static HashMap<Character, String> d2d = new HashMap<Character, String>(120,0.75F);
+	private static final HashMap<Character, String> d2d = new HashMap<Character, String>(120,0.75F);
 	
-	Braille () {
-		loadD2D();
-	}
+    static {
+        loadD2D();
+    }
 	
-	String din2dots(String din) {
-		StringBuilder dots = new StringBuilder();
-		for (int i = 0; i < din.length(); i++) {
-			Character c = new Character(din.charAt(i));
-			if (i > 0) {
-				dots.append("-");
-			}
-			dots.append(d2d.get(c));
+	public static String din2dots(final String din) {
+        if(din == null || din.length() == 0) return "";
+		final StringBuilder dots = new StringBuilder(d2d.get(din.charAt(0)));
+		for (int i = 1; i < din.length(); i++) {
+            dots.append("-");
+			dots.append(d2d.get(din.charAt(i)));
 		}
 		return dots.toString();
 	}
