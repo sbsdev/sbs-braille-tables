@@ -11,6 +11,11 @@ public class WhiteToLiblouisTest {
 	}
 
 	@Test
+	public void test3() {
+		assertEquals("wh", WhiteToLiblouis.hyphenCheck("wht"));
+	}
+
+	@Test
 	public void test2() {
 		assertEquals("wh-wh", WhiteToLiblouis.hyphenCheck("wha-wha"));
 	}
