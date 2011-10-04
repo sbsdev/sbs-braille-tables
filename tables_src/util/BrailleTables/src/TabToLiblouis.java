@@ -1,8 +1,7 @@
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
-import java.io.FileOutputStream;
-import java.io.FileReader;
 import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
@@ -10,25 +9,27 @@ import java.io.Writer;
 import java.util.StringTokenizer;
 
 public class TabToLiblouis {
-	
+
 	/**
 	 * @param args
-	 * @throws IOException 
+	 * @throws IOException
 	 */
 	public static void main(String[] args) throws IOException {
 
-		final InputStreamReader inputStreamReader = new InputStreamReader(new FileInputStream (args[0]), "ISO-8859-1" );
+		final InputStreamReader inputStreamReader = new InputStreamReader(
+				new FileInputStream(args[0]), "ISO-8859-1");
 		final BufferedReader in = new BufferedReader(inputStreamReader);
-		final Writer out = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(args[1]), "ISO-8859-1"));
+		final Writer out = new BufferedWriter(new OutputStreamWriter(
+				new FileOutputStream(args[1]), "ISO-8859-1"));
 
 		String zeile;
-		while((zeile = in.readLine()) != null) {
-			if(zeile.isEmpty() | zeile.startsWith("#")) {
-				if(zeile.startsWith("###")) {
+		while ((zeile = in.readLine()) != null) {
+			if (zeile.isEmpty() | zeile.startsWith("#")) {
+				if (zeile.startsWith("###")) {
 					continue;
 				}
-				if(zeile.startsWith("#")) {
-					if(zeile.startsWith("#=#")) {
+				if (zeile.startsWith("#")) {
+					if (zeile.startsWith("#=#")) {
 						zeile = zeile.substring(3);
 					}
 					out.write(zeile);
@@ -36,7 +37,7 @@ public class TabToLiblouis {
 				out.write("\n");
 				continue;
 			}
-			final StringTokenizer st = new StringTokenizer(zeile," ");
+			final StringTokenizer st = new StringTokenizer(zeile, " ");
 			final String opcode = st.nextToken().replace('_', ' ');
 			final String ink = st.nextToken();
 			final String brl = st.nextToken();
@@ -51,7 +52,8 @@ public class TabToLiblouis {
 		System.out.println("Done.");
 	}
 
-	private static void writeLine(final Writer out, final String opcode, final String ink, final String brl) throws IOException {
+	private static void writeLine(final Writer out, final String opcode,
+			final String ink, final String brl) throws IOException {
 		final String blank = " ";
 		final String newLine = "\n";
 		final StringBuilder s = new StringBuilder();
@@ -62,8 +64,7 @@ public class TabToLiblouis {
 		s.append(Braille.din2dots(brl));
 		s.append(newLine);
 		out.write(s.toString());
-//		out.write(opcode + " " + ink + " " + Braille.din2dots(brl) + "\n");
+		// out.write(opcode + " " + ink + " " + Braille.din2dots(brl) + "\n");
 	}
 
 }
-	
