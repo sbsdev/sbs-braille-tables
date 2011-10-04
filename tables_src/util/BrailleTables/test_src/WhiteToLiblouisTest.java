@@ -15,7 +15,7 @@ public class WhiteToLiblouisTest {
 		assertEquals("wh", WhiteToLiblouis.hyphenCheck("wht"));
 	}
 
-	@Test
+	@Test(expected = StringIndexOutOfBoundsException.class)
 	public void test2() {
 		assertEquals("wh-wh", WhiteToLiblouis.hyphenCheck("wha-wha"));
 	}
@@ -24,8 +24,11 @@ public class WhiteToLiblouisTest {
 	public void testStringTokenizerLumpsDelimitersTogether() {
 		final String line = "* aachenbesuch                                      AAt4Cw;tSU4                                       AAt4ENwBEtSU4";
 		final StringTokenizer st = new StringTokenizer(line, " ");
+		final String[] expected = { "*", "aachenbesuch", "AAt4Cw;tSU4",
+				"AAt4ENwBEtSU4" };
+		int i = 0;
 		while (st.hasMoreElements()) {
-			System.out.println("<" + st.nextToken() + ">");
+			assertEquals(expected[i++], st.nextToken());
 		}
 	}
 
@@ -33,8 +36,11 @@ public class WhiteToLiblouisTest {
 	public void testSplitRegexLumpingDelimitersExplicit() {
 		final String line = "* aachenbesuch                                      AAt4Cw;tSU4                                       AAt4ENwBEtSU4";
 		final String[] result = line.split("\\s+");
+		final String[] expected = { "*", "aachenbesuch", "AAt4Cw;tSU4",
+				"AAt4ENwBEtSU4" };
+		int i = 0;
 		for (final String r : result) {
-			System.out.println("<" + r + ">");
+			assertEquals(expected[i++], r);
 		}
 
 	}
