@@ -22,6 +22,14 @@ public class TabToLiblouis {
 		final Writer out = new BufferedWriter(new OutputStreamWriter(
 				new FileOutputStream(args[1]), "ISO-8859-1"));
 
+		translate(in, out);
+		in.close();
+		out.close();
+		System.out.println("Done.");
+	}
+
+	static void translate(final BufferedReader in, final Writer out)
+			throws IOException {
 		String zeile;
 		while ((zeile = in.readLine()) != null) {
 			if (zeile.isEmpty() | zeile.startsWith("#")) {
@@ -47,12 +55,9 @@ public class TabToLiblouis {
 
 			writeLine(out, opcode, ink.replaceAll("s~", "ß"), brl);
 		}
-		in.close();
-		out.close();
-		System.out.println("Done.");
 	}
 
-	private static void writeLine(final Writer out, final String opcode,
+	static void writeLine(final Writer out, final String opcode,
 			final String ink, final String brl) throws IOException {
 		final String blank = " ";
 		final String newLine = "\n";
