@@ -8,8 +8,6 @@ import java.io.OutputStreamWriter;
 import java.io.Reader;
 import java.io.Writer;
 import java.util.StringTokenizer;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 public class WhiteToLiblouis {
 	// static final String PATH =
@@ -50,6 +48,15 @@ public class WhiteToLiblouis {
 		final Writer outVoll = new BufferedWriter(new OutputStreamWriter(
 				new FileOutputStream(args[2]), "ISO-8859-1"));
 
+		translate(in, outKurz, outVoll);
+		in.close();
+		outKurz.close();
+		outVoll.close();
+		System.out.println("\nDone.");
+	}
+
+	static void translate(final BufferedReader in, final Writer outKurz,
+			final Writer outVoll) throws IOException {
 		String zeile;
 		int i = 0;
 		System.out.print("Schreibe ");
@@ -77,10 +84,6 @@ public class WhiteToLiblouis {
 				System.out.print(".");
 			}
 		}
-		in.close();
-		outKurz.close();
-		outVoll.close();
-		System.out.println("\nDone.");
 	}
 
 	static void writeLine(final Writer outKurz, final Writer outVoll,
@@ -107,22 +110,11 @@ public class WhiteToLiblouis {
 		outVoll.write(v.toString());
 	}
 
-	static String hyphenCheck(String s) {
+	static String hyphenCheck(final String s) {
 		// Trennmarke an Position 2 nach Wortgrenze eliminieren.
-		// Pattern p = Pattern.compile("w.t");
-		final Pattern p = Pattern.compile("w.[ant]");
-		final Matcher m = p.matcher(s);
-		while (m.find()) {
-			s = s.substring(0, m.end() - 1) + s.substring(m.end());
-		}
+		final String s2 = s.replaceAll("(w.)[ant]", "$1");
 		// Trennmarke an Position 2 im Wort eliminieren
-		if (s.length() > 2) {
-			if (s.charAt(1) == 't' | s.charAt(1) == 'w' | s.charAt(1) == 'a'
-					| s.charAt(1) == 'n') {
-				s = s.substring(0, 1) + s.substring(2);
-			}
-		}
-		return s;
+		return s2.length() > 2 ? s2.replaceAll("^(.)[want]", "$1") : s2;
 	}
 
 }

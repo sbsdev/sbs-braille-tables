@@ -15,9 +15,20 @@ public class WhiteToLiblouisTest {
 		assertEquals("wh", WhiteToLiblouis.hyphenCheck("wht"));
 	}
 
-	@Test(expected = StringIndexOutOfBoundsException.class)
+	@Test
+	public void test4() {
+		assertEquals("W6w+B1w&B0tT%",
+				WhiteToLiblouis.hyphenCheck("W6w+tB1w&tB0tT%"));
+	}
+
+	@Test
 	public void test2() {
 		assertEquals("wh-wh", WhiteToLiblouis.hyphenCheck("wha-wha"));
+	}
+
+	@Test
+	public void testAubain() {
+		assertEquals("1BAIN", WhiteToLiblouis.hyphenCheck("1tBAIN"));
 	}
 
 	@Test
