@@ -51,7 +51,7 @@
 
 	<target name="deploy" depends="compile" description="install classfile in bin where shell scripts refer to.">
 		<copy todir="${exe.dir}" verbose="true">
-			<fileset dir="${build.dir}" includes="**/*.class" />
+			<fileset dir="${build.dir}" includes="**/*.class" excludes="**/*Test.class,**/*Tests.class" />
 		</copy>
 	</target>
 
