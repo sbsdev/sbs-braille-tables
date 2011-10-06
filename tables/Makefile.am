@@ -32,6 +32,7 @@ table_files = \
 
 tablesdir = $(datadir)/liblouis/tables
 tables_DATA = $(table_files)
+CLEANFILES = $(table_files)
 
 utils_dir = $(top_srcdir)/utils
 
@@ -43,4 +44,4 @@ utils_dir = $(top_srcdir)/utils
 	PERL5LIB=$(utils_dir)  $(utils_dir)/tab2lou.pl $< $@
 
 sbs-de-g2-white.mod sbs-de-g1-white.mod: $(top_srcdir)/tables_src/sbs-white/white.mod_src
-	PERL5LIB=$(utils_dir)  $(utils_dir)/white.pl $< $@
+	PERL5LIB=$(utils_dir)  $(utils_dir)/white.pl $< sbs-de-g2-white.mod sbs-de-g1-white.mod
