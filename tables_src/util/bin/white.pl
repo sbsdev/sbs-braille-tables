@@ -1,4 +1,7 @@
 #!/usr/bin/perl
+#
+# This is a straight port of the corresponding WhiteToLiblouis.java program.
+#
 use strict;
 use warnings;
 use utf8;
