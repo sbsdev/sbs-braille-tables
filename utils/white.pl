@@ -31,26 +31,14 @@ close($ifh) || die "failed to close '$input':$!";
 close($ofh2) || die "failed to close '$output2':$!";
 close($ofh1) || die "failed to close '$output1':$!";
 
-print "Done.$/";
-
 sub translate {
     my ($ifh, $ofh2, $ofh1) = @_;
-    my $line;
-    my $c = 0;
-    print "Schreibe ";
-    while($line = $ifh->getline()){
+    while(my $line = $ifh->getline()){
 
-        $c++;
-        my $i = 0;
-        my @fields = split(/\s+/, $line);
-        shift @fields; # Codespalte überspringen
-
-        my $ink  = $fields[$i++];
+        my ($ignore, $ink, $kurz, $voll)  = split(/\s+/, $line);
         $ink =~ s/#//g;
-        my $kurz = $fields[$i++];
         $kurz =~ s/z//g;
         $kurz = hypenCheck($kurz);
-        my $voll = $fields[$i++];
         $voll = hypenCheck($voll);
 
         # Eszett für CH auflösen
@@ -77,8 +65,6 @@ sub translate {
         my $ink2 = $ink;
         $ink2 =~ s/s~/ß/g;
         writeLine($ofh2, $ofh1, $ink2, $kurz, $voll);
-
-        print "." if($c % 25000 == 0);
     }
 }
 
@@ -90,10 +76,9 @@ sub writeLine {
 
 sub hypenCheck {
     my ($s) = @_;
-    my $s2 = $s;
-    $s2 =~ s/(w.)[ant]/$1/g;
-    if (length($s2) > 2){
-        $s2 =~ s/^(.)[want]/$1/;
-    }
-    $s2;
+    # Trennmarke an Position 2 nach Wortgrenze eliminieren.
+    $s =~ s/(w.)[ant]/$1/g;
+    # Trennmarke an Position 2 im Wort eliminieren
+    $s =~ s/^(.)[want]/$1/ if (length($s) > 2);
+    $s;
 }

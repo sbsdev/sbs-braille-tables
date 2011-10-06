@@ -25,36 +25,27 @@ translate($ifh, $ofh);
 close($ifh) || die "failed to close '$ifh':$!";
 close($ofh) || die "failed to close '$ofh':$!";
 
-print "Done.$/";
-
 sub translate {
     my ($ifh, $ofh) = @_;
-    my $line;
-    while($line = $ifh->getline()){
+    while(my $line = $ifh->getline()){
 
-        if($line =~ m/^$/){
-            $ofh->print($line);
-            next;
-        }
-
-        next if($line =~ m/^###/);
-
+	# copy lines starting with #=# verbatim (excluding '#=#')
         if($line =~ m/^#=#/){
             $ofh->print(substr($line,3));
             next;
         }
 
-        if($line =~ m/^#/){
+	# ignore lines with ###
+        next if($line =~ m/^###/);
+
+	# simply copy empty and comment lines
+        if(($line =~ m/^$/)||($line =~ m/^#/)){
             $ofh->print($line);
             next;
         }
 
-        my @fields = split(/\s+/, $line);
-        my $i = 0;
-        my $opcode = $fields[$i++];
+	my ($opcode, $ink, $brl) = split(/\s+/, $line);
         $opcode =~ s/_/ /g;
-        my $ink = $fields[$i++];
-        my $brl = $fields[$i++];
         my $ink2 = $ink;
         if($ink =~ m/~/){
             $ink2 =~ s/~/s/g;
