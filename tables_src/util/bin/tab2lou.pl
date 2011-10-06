@@ -1,4 +1,7 @@
 #!/usr/bin/perl
+#
+# This is a straight port of TabToLiblouis.java
+#
 use strict;
 use warnings;
 use utf8;
