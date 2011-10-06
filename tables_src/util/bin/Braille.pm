@@ -1,4 +1,7 @@
 #!/usr/bin/perl
+#
+# This is a straight port of the Braille.java program
+# 
 use strict;
 use warnings;
 use utf8; # source code of this very program is utf8
