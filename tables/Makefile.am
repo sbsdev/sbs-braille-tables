@@ -32,4 +32,15 @@ table_files = \
 
 tablesdir = $(datadir)/liblouis/tables
 tables_DATA = $(table_files)
-EXTRA_DIST = $(table_files)
+
+utils_dir = $(top_srcdir)/utils
+
+%.mod: $(top_srcdir)/tables_src/sbs-tables/%.mod_src
+	PERL5LIB=$(utils_dir)  $(utils_dir)/tab2lou.pl $< $@
+%.cti: $(top_srcdir)/tables_src/sbs-tables/%.cti_src
+	PERL5LIB=$(utils_dir)  $(utils_dir)/tab2lou.pl $< $@
+%.dis: $(top_srcdir)/tables_src/sbs-tables/%.dis_src
+	PERL5LIB=$(utils_dir)  $(utils_dir)/tab2lou.pl $< $@
+
+sbs-de-g2-white.mod sbs-de-g1-white.mod: $(top_srcdir)/tables_src/sbs-white/white.mod_src
+	PERL5LIB=$(utils_dir)  $(utils_dir)/white.pl $< $@
