@@ -205,7 +205,7 @@ always       \x2014                  'v           mit EM DASH
 ### *** 2.5.1.5 Spiegelstrich
 ### *** 2.5.1.6 Strich zwischen Zahlen
 ### *** 2.5.2 Schrägstrich
-always       /                       !,      Schrägstrich
+always       /                       !,m     Schrägstrich
 always       \s/\s                   !,
 ### FEHLT "pro"-Schrägstrich "8
 ### *** 2.5.3 Senkrechter Strich
