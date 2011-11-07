@@ -21,5 +21,5 @@
 	* tables/Makefile.am (table_files):
 	* tables/version.utb.in:
 	* configure.ac: Add a table that allows to query the version of
-	the tables installed.
+	the tables installed..
 
