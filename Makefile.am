@@ -1,4 +1,4 @@
-SUBDIRS = tables tests lib
+SUBDIRS = tables tests lib tables_src utils
 
 ACLOCAL_AMFLAGS = -I m4
 EXTRA_DIST = m4/gnulib-cache.m4
