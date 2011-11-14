@@ -28,7 +28,8 @@ table_files = \
 	sbs-special.cti \
 	sbs-special.mod \
 	sbs-version.utb \
-	sbs-whitespace.mod 
+	sbs-whitespace.mod \
+	sbs-wordsplit.dis
 
 tablesdir = $(datadir)/liblouis/tables
 tables_DATA = $(table_files)

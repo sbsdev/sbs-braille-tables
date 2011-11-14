@@ -23,7 +23,8 @@ table_files = \
 	sbs-numsign.mod_src \
 	sbs-special.cti_src \
 	sbs-special.mod_src \
-	sbs-whitespace.mod_src 
+	sbs-whitespace.mod_src \
+	sbs-wordsplit.dis_src
 
 EXTRA_DIST = $(table_files)
 
