@@ -150,7 +150,12 @@
 #=#
 #=## ===== CURRENCY SYMBOLS: 20A0-20CF ============================================
 #=#
-#=#sign          \x20A0 4-15                           EURO-CURRENCY SIGN
+#=#sign          \x20A0 4-15            #8352          EURO-CURRENCY SIGN
+#=#sign          \x20AC 4-15            #8364          EURO SIGN
+#=#
+#=## ===== LETTERLIKE SYMBOLS 2100-214F ===========================================
+#=#
+#=#sign          \x2122 2356-45-2345-2356 #8482   TRADE MARK SIGN
 #=#
 #=## ===== NUMBER FORMS: 2150-218F ================================================
 #=#
@@ -189,8 +194,6 @@
 #=#math          \x2267 135-2356        #8807   GREATER-THAN OVER EQUAL TO
 #=#math          \x22c5 3               #8901   DOT OPERATOR
 #=#math          \x22c6 3               #8902   STAR OPERATOR
-#=#
-#=## ===== MISCELLANEOUS SYMBOLS: 2600-26FF =======================================
 #=#
 #=#sign          \x2639 6-46-25-36-236  #9785   WHITE FROWNING FACE
 #=#sign          \x263a 6-46-25-36-356  #9786   WHITE SMILING FACE
