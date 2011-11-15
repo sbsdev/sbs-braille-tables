@@ -35,6 +35,15 @@
 #=#correct ["\x2013,"]$d "\x2511"
 #=#correct ["\x2014,"]$d "\x2511"
 
+# --- Satzzeichen nach zahlenähnlichen Zeichen ---------------------------------
+
+#=#class puncAfterOrdinal ,;:?!()«»
+# Prozent
+#=#correct ["%"]%puncAfterOrdinal "%\x250B"
+# Promille
+#=#correct ["\x2030"]%puncAfterOrdinal "\x2030\x250B"
+# Grad
+#=#correct ["°"]%puncAfterOrdinal "°\x250B"
 
 # --- Emphasis opcodes ---------------------------------------------------------
 
