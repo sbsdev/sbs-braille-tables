@@ -9,8 +9,14 @@
 
 # --- Korrektur der Bindestrich-Probleme ---------------------------------------
 
+
+# Bindestrich nach Leerschlag vor Zahl ist Minuszeichen.
+#=#correct $s["-"]$d "\x2212"
+# Bindestrich nach öffnender Klammer vor Zahl ist Minuszeichen.
+#=#correct ["(-"]$d "(\x2212"
+#=#correct ["[-"]$d "[\x2212"
 # begword nach Wortersatzstrich verhindern
-#=#correct "\s-" "\s-\x250A"
+#=#correct $s"-" "-\x250A"
 # endword vor Wortersatzstrich verhindern
 #=#correct "-\s" "\x250A-\s"
 # endword vor Wortersatzstrich und Komma verhindern
