@@ -37,13 +37,16 @@
 
 # --- Satzzeichen nach zahlenähnlichen Zeichen ---------------------------------
 
-#=#class puncAfterOrdinal ,;:?!()«»
+#=#class puncAfterOrdinal ;:?!()«»
 # Prozent
 #=#correct ["%"]%puncAfterOrdinal "%\x250B"
+#=#correct ["%,"] "%\x256C,"
 # Promille
 #=#correct ["\x2030"]%puncAfterOrdinal "\x2030\x250B"
+#=#correct ["\x2030,"] "\x2030\x256C,"
 # Grad
 #=#correct ["°"]%puncAfterOrdinal "°\x250B"
+#=#correct ["°,"] "°\x256C,"
 
 # --- Emphasis opcodes ---------------------------------------------------------
 
