@@ -1,2 +1,3 @@
-/libgnu.a
 /.deps/
+/dummy.o
+/libgnu.a
