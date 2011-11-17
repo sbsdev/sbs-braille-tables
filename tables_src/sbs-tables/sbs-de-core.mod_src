@@ -9,8 +9,14 @@
 
 # --- Korrektur der Bindestrich-Probleme ---------------------------------------
 
+
+# Bindestrich nach Leerschlag vor Zahl ist Minuszeichen.
+#=#correct $s["-"]$d "\x2212"
+# Bindestrich nach öffnender Klammer vor Zahl ist Minuszeichen.
+#=#correct ["(-"]$d "(\x2212"
+#=#correct ["[-"]$d "[\x2212"
 # begword nach Wortersatzstrich verhindern
-#=#correct "\s-" "\s-\x250A"
+#=#correct $s"-" "-\x250A"
 # endword vor Wortersatzstrich verhindern
 #=#correct "-\s" "\x250A-\s"
 # endword vor Wortersatzstrich und Komma verhindern
@@ -29,6 +35,18 @@
 #=#correct ["\x2013,"]$d "\x2511"
 #=#correct ["\x2014,"]$d "\x2511"
 
+# --- Satzzeichen nach zahlenähnlichen Zeichen ---------------------------------
+
+#=#class puncAfterOrdinal ;:?!()«»
+# Prozent
+#=#correct ["%"]%puncAfterOrdinal "%\x250B"
+#=#correct ["%,"] "%\x256C,"
+# Promille
+#=#correct ["\x2030"]%puncAfterOrdinal "\x2030\x250B"
+#=#correct ["\x2030,"] "\x2030\x256C,"
+# Grad
+#=#correct ["°"]%puncAfterOrdinal "°\x250B"
+#=#correct ["°,"] "°\x256C,"
 
 # --- Emphasis opcodes ---------------------------------------------------------
 
@@ -205,8 +223,8 @@ always       \x2014                  'v           mit EM DASH
 ### *** 2.5.1.5 Spiegelstrich
 ### *** 2.5.1.6 Strich zwischen Zahlen
 ### *** 2.5.2 Schrägstrich
-always       /                       !,      Schrägstrich
-always       \s/\s                   !,
+always       /                       !,m     Schrägstrich
+always       \s/\s                   b!,b    "Vers"-Strich
 ### FEHLT "pro"-Schrägstrich "8
 ### *** 2.5.3 Senkrechter Strich
 always       |                       b_Lb    Senkrechter Strich
