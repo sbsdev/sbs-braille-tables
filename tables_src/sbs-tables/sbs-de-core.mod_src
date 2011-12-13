@@ -48,6 +48,10 @@
 #=#correct ["°"]%puncAfterOrdinal "°\x250B"
 #=#correct ["°,"] "°\x256C,"
 
+# --- Markieren von Zahl-Buchstabenverbindung für Kurzschrift ------------------
+
+#=#correct $d[]$l "\x2504"
+
 # --- Emphasis opcodes ---------------------------------------------------------
 
 # Momentaner Workaraound:
