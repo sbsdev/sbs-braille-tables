@@ -312,10 +312,10 @@ always       \x2245                  "??
 ### FEHLT                              4,      Pfeil nach oben
 ### FEHLT                               4.     Pfeil nach unten
 # Mal(-Kreuz):
-midnum       \s×\s                   b"(#
-midnum       \s×                     b"(#
-midnum       ×                       b"(#
-always       ×                       "(
+midnum       \s\x00D7\s               b"(#
+midnum       \s\x00D7                 b"(#
+midnum       \x00D7                   b"(#
+always       \x00D7                   "(
 # Mal(-Stern):
 midnum       \s\x2217\s              .#
 midnum       \s\x2217                .#
