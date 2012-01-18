@@ -73,6 +73,9 @@
 # KURSIV Ende, Mitten im Wort (P6-3)
 #=#punctuation   \x2561 6-3             #9569    BOX DRAWINGS VERTICAL SINGLE AND LEFT DOUBLE
 
+# COMPUTER BRAILLE Anfang (P6-46)
+#=#punctuation   \x257C 6-46            #9596    BOX DRAWINGS LIGHT LEFT AND HEAVY RIGHT
+
 
 # AUFHEBUNGSPUNKT vor Komma nach tiefgestellten Zahlen
 #=#sign          \x256C ab              #9580    BOX DRAWINGS DOUBLE VERTICAL AND HORIZONTAL
