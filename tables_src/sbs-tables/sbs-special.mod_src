@@ -18,6 +18,34 @@
 # Aufhebungspunkt vor Komma nach tiefgestellten Zahlen
 #=#pass2 @ab @6
 
+# Fehlende Lettersigns bei Zahl-Buchstaben-Verbindung in Kurzschrift bei
+# Buchstaben a-j ergänzen
+#=#pass2 @ac-1 @6-1
+#=#pass2 @ac-12 @6-12
+#=#pass2 @ac-14 @6-14
+#=#pass2 @ac-145 @6-145
+#=#pass2 @ac-15 @6-15
+#=#pass2 @ac-124 @6-124
+#=#pass2 @ac-1245 @6-1245
+#=#pass2 @ac-125 @6-125
+#=#pass2 @ac-24 @6-24
+#=#pass2 @ac-245 @6-245
+# Lettersigns bei Zahl-Buchstaben-Verbindung in Kurzschrift erhalten
+#=#pass2 @ac-6-1 @6-1
+#=#pass2 @ac-6-12 @6-12
+#=#pass2 @ac-6-14 @6-14
+#=#pass2 @ac-6-145 @6-145
+#=#pass2 @ac-6-15 @6-15
+#=#pass2 @ac-6-124 @6-124
+#=#pass2 @ac-6-1245 @6-1245
+#=#pass2 @ac-6-125 @6-125
+#=#pass2 @ac-6-24 @6-24
+#=#pass2 @ac-6-245 @6-245
+# Restliche Lettersigns bei Zahl-Buchstaben-Verbindung in Kurzschrift entfernen
+#=#pass2 @ac-6 ?
+# Markierung für Zahl-Buchstaben-Verbindung in Vollschrift entfernen
+#=#pass2 @ac ?
+
 # Trennmarke "m" nach Bindestrich
 #=#pass2 @36 @36-d
 

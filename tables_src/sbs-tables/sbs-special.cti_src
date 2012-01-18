@@ -77,6 +77,9 @@
 # AUFHEBUNGSPUNKT vor Komma nach tiefgestellten Zahlen
 #=#sign          \x256C ab              #9580    BOX DRAWINGS DOUBLE VERTICAL AND HORIZONTAL
 
+# MARKIERUNG FÜR ZAHL-BUCHSTABE-VERBINDUNG (zum Eliminieren überflüssiger Letter-Signs
+#=#digit         \x2504 ac              #9476    BOX DRAWINGS LIGHT TRIPLE DASH HORIZONTAL
+
 # APOSTROPH VOR ZAHL (z.B. Im Jahr '97)
 #=#digit         \x2500 69              #9472    BOX DRAWINGS LIGHT HORIZONTAL
 
