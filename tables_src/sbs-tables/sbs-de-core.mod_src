@@ -2,7 +2,7 @@
 #
 #  sbs-de-core.mod
 #
-#  Grade-Übergreifendes: Hervorhebungen, Satzzeichen, Mathematische Zeichen,
+#  Grade-Ãœbergreifendes: Hervorhebungen, Satzzeichen, Mathematische Zeichen,
 #  Computer-Braille etc.
 #
 #-------------------------------------------------------------------------------
@@ -12,7 +12,7 @@
 
 # Bindestrich nach Leerschlag vor Zahl ist Minuszeichen.
 #=#correct $s["-"]$d "\x2212"
-# Bindestrich nach öffnender Klammer vor Zahl ist Minuszeichen.
+# Bindestrich nach Ã¶ffnender Klammer vor Zahl ist Minuszeichen.
 #=#correct ["(-"]$d "(\x2212"
 #=#correct ["[-"]$d "[\x2212"
 # begword nach Wortersatzstrich verhindern
@@ -35,9 +35,9 @@
 #=#correct ["\x2013,"]$d "\x2511"
 #=#correct ["\x2014,"]$d "\x2511"
 
-# --- Satzzeichen nach zahlenähnlichen Zeichen ---------------------------------
+# --- Satzzeichen nach zahlenÃ¤hnlichen Zeichen ---------------------------------
 
-#=#class puncAfterOrdinal ;:?!()«»
+#=#class puncAfterOrdinal ;:?!()Â«Â»
 # Prozent
 #=#correct ["%"]%puncAfterOrdinal "%\x250B"
 #=#correct ["%,"] "%\x256C,"
@@ -45,10 +45,10 @@
 #=#correct ["\x2030"]%puncAfterOrdinal "\x2030\x250B"
 #=#correct ["\x2030,"] "\x2030\x256C,"
 # Grad
-#=#correct ["°"]%puncAfterOrdinal "°\x250B"
-#=#correct ["°,"] "°\x256C,"
+#=#correct ["Â°"]%puncAfterOrdinal "Â°\x250B"
+#=#correct ["Â°,"] "Â°\x256C,"
 
-# --- Markieren von Zahl-Buchstabenverbindung für Kurzschrift ------------------
+# --- Markieren von Zahl-Buchstabenverbindung fÃ¼r Kurzschrift ------------------
 
 #=#correct $d[]$l "\x2504"
 
@@ -81,7 +81,7 @@
 ###lastletterunder 6-3
 ###singleletterunder 456
 
-#=#begcomp 6-46
+###=#begcomp 6-46      # computer braille is now handled in the xsl
 ###endcomp 6-3         # Ausgeschaltet (only to be used when longer than one word)
 
 # --- Special Symbol Opcodes ---------------------------------------------------
@@ -90,12 +90,15 @@ hyphen       -                       -
 
 # --- Translation opcodes ------------------------------------------------------
 
-### Kursivankündigung:
+### KursivankÃ¼ndigung:
 prepunc      \x255F                  _       KURSIV Einzelwort
 prepunc      \x2560                  __      KURSIV Anfang
 postpunc     \x2563                  '.      KURSIV Ende
 
-### Vollschriftankündigung:
+### AnkÃ¼ndigung fÃ¼r Computer Braille:
+prepunc      \x257C                  '$      Computer Braille Einzelwort  
+
+### VollschriftankÃ¼ndigung:
 prepunc      \x2559                  '.      VOLLSCHRIFT Einzelwort
 prepunc      \x255A                  v.      VOLLSCHRIFT Anfang
 postpunc     \x255D                  '.      VOLLSCHRIFT Ende
@@ -103,7 +106,7 @@ postpunc     \x255D                  '.      VOLLSCHRIFT Ende
 ### *** 2.2 Interpunktions- und Sonderzeichen **********************************
 midnum       ,                       ,       Komma
 endnum       ;                       ';      Strichpunkt
-###Nach hinten gezügelt, siehe Divisionszeichen: endnum : ':
+###Nach hinten gezÃ¼gelt, siehe Divisionszeichen: endnum : ':
 endnum       ?                       '?      Fragezeichen
 always       \s?                     b'?
 endnum       !                       '+      Ausrufezeichen
@@ -117,16 +120,16 @@ midword      )                       '=      Runde Klammer zu
 midnum       )                       '=#
 endnum       )                       '=
 always       )                       =
-#prepunc      "                       (       Anführungszeichen am Anfang
-#prepunc      «                       (
-#prepunc      »                       (
+#prepunc      "                       (       AnfÃ¼hrungszeichen am Anfang
+#prepunc      Â«                       (
+#prepunc      Â»                       (
 #prepunc      \x201f                  (
-endnum       "                       ')      Anführungszeichen am Ende
+endnum       "                       ')      AnfÃ¼hrungszeichen am Ende
 #postpunc     "                       )
-#endnum       »                       ')
-#postpunc     »                       )
-endnum       «                       ')
-#postpunc     «                       )
+#endnum       Â»                       ')
+#postpunc     Â»                       )
+endnum       Â«                       ')
+#postpunc     Â«                       )
 endnum       \x201f                  ')
 #postpunc     \x201f                  )
 midnum       .                       .       Punkt
@@ -142,14 +145,14 @@ always       **                      '**     Anmerkungssternchen
 always       ***                     '***
 ### FEHLT                            <=      Phonetische Klammer auf
 ### FEHLT                            <=      Phonetische Klammer zu
-#prepunc      \x2039                  '(      Halbes Anführungszeichen am Anfang
+#prepunc      \x2039                  '(      Halbes AnfÃ¼hrungszeichen am Anfang
 #prepunc      \x203a                  '(
 #prepunc      \x201b                  '(
-#postpunc     \x2039                  ')      Halbes Anführungszeichen am Ende
+#postpunc     \x2039                  ')      Halbes AnfÃ¼hrungszeichen am Ende
 #postpunc     \x203a                  ')
 #postpunc     \x201b                  ')
 
-###                                          Schrägstrich (siehe 2.5.2)
+###                                          SchrÃ¤gstrich (siehe 2.5.2)
 ###                                          Senkrechter Strich (siehe 2.5.3)
 ###          ...                     ...     Auslassungspunkte
 always       \x2192                  b::Ob   Pfeil nach rechts
@@ -185,24 +188,24 @@ midnum       '                       .
 ### FEHLT: Tief-Hoch-Kombinationen: Markup?
 ### *** 2.3.1.4 Dezimalklassifikatoren
 ### FEHLT: Tief-Hoch-Kombinationen: Markup?
-### *** 2.3.1.5 Brüche
+### *** 2.3.1.5 BrÃ¼che
 ### FEHLT: Markup? oder immer Unicode-Bruchstrich ...
 ### *** 2.3.1.6 Prozent, Promille, Grad
 always       %                       #J)     Prozent
 always       \s%                     #J)
 always       \s\x2030                #J))    Promille 0/00
 always       \s\x2031                #J)))   0/000
-always       \s°                     ")      Grad
+always       \sÂ°                     ")      Grad
 always       \s\x2032                "*      Winkelminute
 always       \s\x2033                "**     Winkelsekunde
 
 ### *** 2.3.1.7 Paragraf- und Artikelzeichen
-begnum       §                       0       Paragrafzeichen
-joinnum      §                       0
+begnum       Â§                       0       Paragrafzeichen
+joinnum      Â§                       0
 ### FEHLT                                      Artikelzeichen (siehe 2.3.1.7)
 
 ### *** 2.3.1.8 Satzzeichen nach Zahlen
-### *** 2.3.2 Römische Zahlen
+### *** 2.3.2 RÃ¶mische Zahlen
 ### *** 2.4 Zahl-Wort-Verbindungen ***********************************************
 ### *** 2.5 Striche **************************************************************
 ### *** 2.5.1 Waagerechte Striche
@@ -226,20 +229,20 @@ always       \x2014                  'v           mit EM DASH
 
 ### *** 2.5.1.5 Spiegelstrich
 ### *** 2.5.1.6 Strich zwischen Zahlen
-### *** 2.5.2 Schrägstrich
-always       /                       !,m     Schrägstrich
+### *** 2.5.2 SchrÃ¤gstrich
+always       /                       !,m     SchrÃ¤gstrich
 always       \s/\s                   b!,b    "Vers"-Strich
-### FEHLT "pro"-Schrägstrich "8
+### FEHLT "pro"-SchrÃ¤gstrich "8
 ### *** 2.5.3 Senkrechter Strich
 always       |                       b_Lb    Senkrechter Strich
 
-### *** 2.6 Groß- und Kleinschreibung ********************************************
-###     d) Währungszeichen:
-joinnum      £                       "L      Pfund
+### *** 2.6 GroÃŸ- und Kleinschreibung ********************************************
+###     d) WÃ¤hrungszeichen:
+joinnum      Â£                       "L      Pfund
 joinnum      $                       "S      Dollar
 always       $                       "S      Dollar
-joinnum      ¢                       "C      Cent
-joinnum      ¥                       "Y      Yen
+joinnum      Â¢                       "C      Cent
+joinnum      Â¥                       "Y      Yen
 joinnum      \x20A0                  "E      Euro
 joinnum      Fr.                     FR.     Franken    !!! TUT NICHT !!!
 joinnum      Fr                      FR
@@ -247,8 +250,8 @@ joinnum      Fr                      FR
 ### *** 2.7 Hervorhebungen *******************************************************
 ### *** 2.8 Akzentbuchstaben *****************************************************
 ### siehe de-DE-akzente.cti und de-CH-akzente.cti
-### *** 2.9 Fremdsprachliche Einschübe *******************************************
-### *** 2.10 Mathematische Zeichen und Einschübe *********************************
+### *** 2.9 Fremdsprachliche EinschÃ¼be *******************************************
+### *** 2.10 Mathematische Zeichen und EinschÃ¼be *********************************
 # Plus:
 midnum       \s+\s                   b"+#
 midnum       \s+                     b"+#
@@ -262,10 +265,10 @@ midnum       \s\x2212                b"v#
 midnum       \x2212                  b"v#
 always       \x2212                  "v
 # Plus Minus:
-midnum       \s±\s                   b"+v#
-midnum       \s±                     b"+v#
-midnum       ±                       b"+v#
-always       ±                       "+v
+midnum       \sÂ±\s                   b"+v#
+midnum       \sÂ±                     b"+v#
+midnum       Â±                       b"+v#
+always       Â±                       "+v
 # Gleich:
 midnum       \s=\s                   b"=#
 midnum       \s=                     b"=#
@@ -281,15 +284,15 @@ midnum       \s\x2261\s              b"==#
 midnum       \s\x2261                b"==#
 midnum       \x2261                  b"==#
 always       \x2261                  "==
-### Das Äquivalenz-Zeichen der Systematik heisst in Unicode
+### Das Ã„quivalenz-Zeichen der Systematik heisst in Unicode
 ### "Estimates"! (Fehler?)
-# Äquivalent:
+# Ã„quivalent:
 midnum       \s\x2259\s              b"?#
 midnum       \s\x2259                b"?#
 midnum       \x2259                  b"?#
 always       \x2259                  "?
-### FEHLT                              *?      nicht äquivalent
-# Ungefähr:
+### FEHLT                              *?      nicht Ã¤quivalent
+# UngefÃ¤hr:
 #=#midnum       \s~\s                   0-4-26-26-3456
 #=#midnum       \s~                     0-4-26-26-3456
 #=#midnum       ~                       0-4-26-26-3456
@@ -298,7 +301,7 @@ midnum       \s\x223C\s              b"??#
 midnum       \s\x223C                b"??#
 midnum       \x223C                  b"??#
 always       \x223C                  "??
-# Ungefähr gleich:
+# UngefÃ¤hr gleich:
 midnum       \s\x2245\s              b"??#
 midnum       \s\x2245                b"??#
 midnum       \x2245                  b"??#
@@ -309,10 +312,10 @@ always       \x2245                  "??
 ### FEHLT                              4,      Pfeil nach oben
 ### FEHLT                               4.     Pfeil nach unten
 # Mal(-Kreuz):
-midnum       \s×\s                   b"(#
-midnum       \s×                     b"(#
-midnum       ×                       b"(#
-always       ×                       "(
+midnum       \sÃ—\s                   b"(#
+midnum       \sÃ—                     b"(#
+midnum       Ã—                       b"(#
+always       Ã—                       "(
 # Mal(-Stern):
 midnum       \s\x2217\s              .#
 midnum       \s\x2217                .#
@@ -331,16 +334,16 @@ midnum       \s\x22c6\s              .#
 midnum       \s\x22c6                .#
 midnum       \x22c6                  .#
 ### Wird in neuer Mathe wahrscheinlich abgeschafft (Marlies, 23.2.09)
-### FEHLT                              /       geteilt durch (Schrägstrich)
-# Doppelpunkt (dividiert durch, verhält sich zu):
+### FEHLT                              /       geteilt durch (SchrÃ¤gstrich)
+# Doppelpunkt (dividiert durch, verhÃ¤lt sich zu):
 midnum       \s:\s                   ":#
 midnum       \s:                     ":#
 midnum       :                       ":#
 endnum       :                       ':
-midnum       \s÷\s                   b":#
-midnum       \s÷                     b":#
-midnum       ÷                       b":#
-always       ÷                       ":
+midnum       \sÃ·\s                   b":#
+midnum       \sÃ·                     b":#
+midnum       Ã·                       b":#
+always       Ã·                       ":
 midnum       \s\x2215\s              b":#
 midnum       \s\x2215                b":#
 midnum       \x2215                  b":#
@@ -363,12 +366,12 @@ midnum       \s\x2266\s              b"9=#
 midnum       \s\x2266                b"9=#
 midnum       \x2266                  b"9=#
 always       \x2266                  "9=
-# Grösser als:
+# GrÃ¶sser als:
 midnum       \s>\s                   b"O,#
 midnum       \s>                     b"O,#
 midnum       >                       b"O,#
 always       >                       "O,
-# Grösser oder gleich:
+# GrÃ¶sser oder gleich:
 midnum       \s\x2265\s              b"O=#
 midnum       \s\x2265                b"O=#
 midnum       \x2265                  b"O=#
@@ -383,299 +386,5 @@ always       \x2267                  "O=
 ### FEHLT                              \       vorderer bzw. hinterer oberer Index
 ### FEHLT                              2...@   runde Klammern in Formeln
 ### FEHLT                              [...]   eckige Klammern in Formeln
-
-### *** 2.11 Einschübe in Computer-Braille ***************************************
-
-#=#literal ://          URLs
-#=#literal www.
-#=#literal @            Mail-address
-
-# Generische Top-Level-Domains
-#=#literal .arpa
-#=#literal .biz
-#=#literal .com
-#=#literal .info
-#=#literal .name
-#=#literal .net
-#=#literal .org
-#=#literal .pro
-#=#literal .aero
-#=#literal .asia
-#=#literal .cat
-#=#literal .coop
-#=#literal .edu
-#=#literal .gov
-#=#literal .int
-#=#literal .jobs
-#=#literal .mil
-#=#literal .mobi
-#=#literal .museum
-#=#literal .tel
-#=#literal .travel
-#=#literal .xxx
-#=#literal .post
-#=#literal .arpa
-#=#literal .bitnet
-#=#literal .example
-#=#literal .invalid
-#=#literal .local
-#=#literal .localhost
-#=#literal .nato
-#=#literal .root
-#=#literal .test
-#=#literal .uucp
-# Länderspezifische Top-Level-Domains
-#=#literal .ac
-#=#literal .ad
-#=#literal .ae
-#=#literal .af
-#=#literal .ag
-#=#literal .ai
-#=#literal .al
-#=#literal .am
-#=#literal .an
-#=#literal .ao
-#=#literal .aq
-#=#literal .ar
-#=#literal .as
-#=#literal .at
-#=#literal .au
-#=#literal .aw
-#=#literal .ax
-#=#literal .az
-#=#literal .ba
-#=#literal .bb
-#=#literal .bd
-#=#literal .be
-#=#literal .bf
-#=#literal .bg
-#=#literal .bh
-#=#literal .bi
-#=#literal .bj
-#=#literal .bm
-#=#literal .bn
-#=#literal .bo
-#=#literal .br
-#=#literal .bs
-#=#literal .bt
-#=#literal .bv
-#=#literal .bw
-#=#literal .by
-#=#literal .bz
-#=#literal .ca
-#=#literal .cc
-#=#literal .cd
-#=#literal .cf
-#=#literal .cg
-#=#literal .ch
-#=#literal .ci
-#=#literal .ck
-#=#literal .cl
-#=#literal .cm
-#=#literal .cn
-#=#literal .co
-#=#literal .cr
-#=#literal .cs
-#=#literal .cu
-#=#literal .cv
-#=#literal .cx
-#=#literal .cy
-#=#literal .cz
-#=#literal .dd
-#=#literal .de
-#=#literal .dj
-#=#literal .dk
-#=#literal .dm
-#=#literal .do
-#=#literal .dz
-#=#literal .ec
-#=#literal .ee
-#=#literal .eg
-#=#literal .eh
-#=#literal .er
-#=#literal .es
-#=#literal .et
-#=#literal .eu
-#=#literal .fi
-#=#literal .fj
-#=#literal .fk
-#=#literal .fm
-#=#literal .fo
-#=#literal .fr
-#=#literal .ga
-#=#literal .gb
-#=#literal .gd
-#=#literal .ge
-#=#literal .gf
-#=#literal .gg
-#=#literal .gh
-#=#literal .gi
-#=#literal .gl
-#=#literal .gm
-#=#literal .gn
-#=#literal .gp
-#=#literal .gq
-#=#literal .gr
-#=#literal .gs
-#=#literal .gt
-#=#literal .gu
-#=#literal .gw
-#=#literal .gy
-#=#literal .hk
-#=#literal .hm
-#=#literal .hn
-#=#literal .hr
-#=#literal .ht
-#=#literal .hu
-#=#literal .id
-#=#literal .ie
-#=#literal .il
-#=#literal .im
-#=#literal .in
-#=#literal .io
-#=#literal .iq
-#=#literal .ir
-#=#literal .is
-#=#literal .it
-#=#literal .je
-#=#literal .jm
-#=#literal .jo
-#=#literal .jp
-#=#literal .ke
-#=#literal .kg
-#=#literal .kh
-#=#literal .ki
-#=#literal .km
-#=#literal .kn
-#=#literal .kp
-#=#literal .kr
-#=#literal .kw
-#=#literal .ky
-#=#literal .kz
-#=#literal .la
-#=#literal .lb
-#=#literal .lc
-#=#literal .li
-#=#literal .lk
-#=#literal .lr
-#=#literal .ls
-#=#literal .lt
-#=#literal .lu
-#=#literal .lv
-#=#literal .ly
-#=#literal .ma
-#=#literal .mc
-#=#literal .md
-#=#literal .me
-#=#literal .mg
-#=#literal .mh
-#=#literal .mk
-#=#literal .ml
-#=#literal .mm
-#=#literal .mn
-#=#literal .mo
-#=#literal .mp
-#=#literal .mq
-#=#literal .mr
-#=#literal .ms
-#=#literal .mt
-#=#literal .mu
-#=#literal .mv
-#=#literal .mw
-#=#literal .mx
-#=#literal .my
-#=#literal .mz
-#=#literal .na
-#=#literal .nc
-#=#literal .ne
-#=#literal .nf
-#=#literal .ng
-#=#literal .ni
-#=#literal .nl
-#=#literal .no
-#=#literal .np
-#=#literal .nr
-#=#literal .nu
-#=#literal .nz
-#=#literal .om
-#=#literal .pa
-#=#literal .pe
-#=#literal .pf
-#=#literal .pg
-#=#literal .ph
-#=#literal .pk
-#=#literal .pl
-#=#literal .pm
-#=#literal .pn
-#=#literal .pr
-#=#literal .ps
-#=#literal .pt
-#=#literal .pw
-#=#literal .py
-#=#literal .qa
-#=#literal .re
-#=#literal .ro
-#=#literal .rs
-#=#literal .ru
-#=#literal .rw
-#=#literal .sa
-#=#literal .sb
-#=#literal .sc
-#=#literal .sd
-#=#literal .se
-#=#literal .sg
-#=#literal .sh
-#=#literal .si
-#=#literal .sj
-#=#literal .sk
-#=#literal .sl
-#=#literal .sm
-#=#literal .sn
-#=#literal .so
-#=#literal .sr
-#=#literal .st
-#=#literal .su
-#=#literal .sv
-#=#literal .sy
-#=#literal .sz
-#=#literal .tc
-#=#literal .td
-#=#literal .tf
-#=#literal .tg
-#=#literal .th
-#=#literal .tj
-#=#literal .tk
-#=#literal .tl
-#=#literal .tm
-#=#literal .tn
-#=#literal .to
-#=#literal .tp
-#=#literal .tr
-#=#literal .tt
-#=#literal .tv
-#=#literal .tw
-#=#literal .tz
-#=#literal .ua
-#=#literal .ug
-#=#literal .uk
-#=#literal .um
-#=#literal .us
-#=#literal .uy
-#=#literal .uz
-#=#literal .va
-#=#literal .vc
-#=#literal .ve
-#=#literal .vg
-#=#literal .vi
-#=#literal .vn
-#=#literal .vu
-#=#literal .wf
-#=#literal .ws
-#=#literal .ye
-#=#literal .yt
-#=#literal .yu
-#=#literal .za
-#=#literal .zm
-#=#literal .zw
 
 ### *** 2.12 Tabellenspaltentrennzeichen *****************************************
