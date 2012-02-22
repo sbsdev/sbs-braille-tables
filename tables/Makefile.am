@@ -1,5 +1,3 @@
-# generate the list of tables as follows:
-# $ ls | grep -v Makefile | grep -v README | grep -v maketablelist.sh | grep -v '.in$' | grep -v '.*~$' | sort | sed -e 's/$/ \\/' -e 's/^/\t/' | head --bytes=-2
 copied_tables = \
 	sbs-de-accents-ch.mod \
 	sbs-de-accents.cti \
