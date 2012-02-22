@@ -40,11 +40,11 @@ CLEANFILES = $(table_files)
 
 utils_dir = $(top_srcdir)/utils
 
-$(copied_tables): %: $(top_srcdir)/tables_src/sbs-tables/%
+$(copied_tables): %: $(top_srcdir)/src/tables/%
 	cp $< $@
 
-$(generated_tables): %.mod: $(top_srcdir)/tables_src/sbs-tables/%.mod_src
+$(generated_tables): %.mod: $(top_srcdir)/src/tables/%.mod_src
 	PERL5LIB=$(utils_dir)  $(utils_dir)/tab2lou.pl $< $@
 
-sbs-de-g2-white.mod sbs-de-g1-white.mod: $(top_srcdir)/tables_src/sbs-white/white.mod_src
+sbs-de-g2-white.mod sbs-de-g1-white.mod: $(top_srcdir)/src/whitelist/white.mod_src
 	PERL5LIB=$(utils_dir)  $(utils_dir)/white.pl $< sbs-de-g2-white.mod sbs-de-g1-white.mod
