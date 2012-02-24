@@ -6,7 +6,8 @@ import re
 import sys
 from functools import partial
 
-VALID_BRAILLE_RE = re.compile("^[A-Z0-9&%[^\],;:/?+=(*).\\\\@#\"!>$_<\'|àáâãåæçèéêëìíîïðñòóôõøùúûýþÿœv]+$")
+VALID_BRAILLE_RE = re.compile("^[A-Z0-9&%[^\],;:/?+=(*).\\\\@#\"!>$_<\'àáâãåæçèéêëìíîïðñòóôõøùúûýþÿœv]+$")
+VALID_UNTRANSLATED_RE = re.compile("^[a-zàáâãåäæçèéêëìíîïðñòóôõöøùúûüýþÿœv~ß]+$")
 INVALID_CHARS = 'twnapzk'
 
 def validate_full(untranslated, words):
@@ -26,7 +27,9 @@ for line in fileinput.input():
         type, untranslated, grade2, grade1 = line.split()
         validate = partial(validate_full, untranslated)
         grade2, grade1 = map(lambda x: x.translate(None, INVALID_CHARS), (grade2, grade1))
-        if 's~' in untranslated:
+        if not VALID_UNTRANSLATED_RE.match(untranslated):
+            print >> sys.stderr, "%s: %s, %s" % (untranslated, grade2, grade1)
+        elif 's~' in untranslated:
             # if the untranslated word contains a 's~' then add two
             # entries: one for German and one for Swiss German
             # spelling
