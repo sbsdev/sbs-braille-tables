@@ -6,12 +6,11 @@ AC_CONFIG_FILES([
   Makefile
   tables/Makefile
   src/Makefile
-  src/tables/Makefile
-  src/whitelist/Makefile
   utils/Makefile
   tables/sbs-version.utb
   tests/Makefile
   lib/Makefile
+  whitelist/Makefile
 ])
 
 AC_PROG_CC

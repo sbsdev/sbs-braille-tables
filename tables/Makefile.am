@@ -36,8 +36,8 @@ CLEANFILES = $(table_files)
 
 utils_dir = $(top_srcdir)/utils
 
-$(copied_tables): %: $(top_srcdir)/src/tables/%
+$(copied_tables): %: $(top_srcdir)/src/%
 	cp $< $@
 
-$(generated_tables): %.mod: $(top_srcdir)/src/tables/%.mod_src
+$(generated_tables): %.mod: $(top_srcdir)/src/%.mod_src
 	PERL5LIB=$(utils_dir)  $(utils_dir)/tab2lou.pl $< $@
