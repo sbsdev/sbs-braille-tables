@@ -5,6 +5,7 @@ import fileinput
 import re
 import sys
 from functools import partial
+from string import maketrans
 
 VALID_BRAILLE_RE = re.compile("^[A-Z0-9&%[^\],;:/?+=(*).\\\\@#\"!>$_<\'àáâãåæçèéêëìíîïðñòóôõøùúûýþÿœv]+$")
 VALID_UNTRANSLATED_RE = re.compile("^[a-zàáâãåäæçèéêëìíîïðñòóôõöøùúûüýþÿœv~ß]+$")
@@ -27,6 +28,7 @@ for line in fileinput.input():
         type, untranslated, grade2, grade1 = line.split()
         validate = partial(validate_full, untranslated)
         grade2, grade1 = map(lambda x: x.translate(None, INVALID_CHARS), (grade2, grade1))
+        grade2 = grade2.translate(maketrans('|','^'))
         if not VALID_UNTRANSLATED_RE.match(untranslated):
             print >> sys.stderr, "%s: %s, %s" % (untranslated, grade2, grade1)
         elif 's~' in untranslated:
