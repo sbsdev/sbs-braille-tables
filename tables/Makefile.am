@@ -28,11 +28,7 @@ generated_tables = \
 	sbs-litdigit-lower.mod \
 	sbs-litdigit-upper.mod
 
-whitelist_tables = \
-	sbs-de-g1-white.mod \
-	sbs-de-g2-white.mod
-
-table_files = $(copied_tables) $(generated_tables) $(whitelist_tables) 
+table_files = $(copied_tables) $(generated_tables)
 
 tablesdir = $(datadir)/liblouis/tables
 tables_DATA = $(table_files)
@@ -45,6 +41,3 @@ $(copied_tables): %: $(top_srcdir)/src/tables/%
 
 $(generated_tables): %.mod: $(top_srcdir)/src/tables/%.mod_src
 	PERL5LIB=$(utils_dir)  $(utils_dir)/tab2lou.pl $< $@
-
-sbs-de-g2-white.mod sbs-de-g1-white.mod: $(top_srcdir)/src/whitelist/white.mod_src
-	PERL5LIB=$(utils_dir)  $(utils_dir)/white.pl $< sbs-de-g2-white.mod sbs-de-g1-white.mod
