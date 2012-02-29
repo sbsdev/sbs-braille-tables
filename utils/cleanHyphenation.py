@@ -1,5 +1,14 @@
 #!/usr/bin/python
 # coding=utf-8
+"""Clean hyphenation points from white lists
+
+This utility script can be used to clean the hyphenation points from
+white lists.
+
+Usage: 
+
+cleanHyphenation.py table > cleanTable
+"""
 
 import fileinput
 import re
