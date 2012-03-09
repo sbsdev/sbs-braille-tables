@@ -78,6 +78,7 @@ punctuation   \x257C 6-46            #9596    BOX DRAWINGS LIGHT LEFT AND HEAVY 
 
 
 # AUFHEBUNGSPUNKT vor Komma nach tiefgestellten Zahlen
+# + Wort+Zahl-Ausdruecken (grade 2)
 sign          \x256C ab              #9580    BOX DRAWINGS DOUBLE VERTICAL AND HORIZONTAL
 
 # MARKIERUNG FÜR ZAHL-BUCHSTABE-VERBINDUNG (zum Eliminieren überflüssiger Letter-Signs

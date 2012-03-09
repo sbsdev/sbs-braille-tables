@@ -7,6 +7,20 @@
 #-------------------------------------------------------------------------------
 
 
+#  Korrekturen
+#  ---------------
+
+# fehlender Pt.6 (Apo) bei Wort-Zahl-Ausdrücken
+# !! need to double check if this doesn't break other stuff
+
+#=#correct $l[]$d "\x256C"
+
+# fehlender Pt.6 (Apo) fuer Anfuehrungszeichen im Wortinnern
+
+midword » '(
+midword « ')
+
+
 #  Einschränkungen
 #  ---------------
 #
