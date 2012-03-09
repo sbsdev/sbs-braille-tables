@@ -20,6 +20,8 @@ VALID_BRAILLE_RE = re.compile("^[A-Z0-9&%[^\],;:/?+=(*).\\\\@#\"!>$_<\'àáâã�
 VALID_UNTRANSLATED_RE = re.compile("^[a-zàáâãåäæçèéêëìíîïðñòóôõöøùúûüýþÿœv~ß']+$")
 INVALID_CHARS = 'twnapzk'
 
+entries = set()
+
 def validate_full(untranslated, words):
     for word in words:
         if not VALID_BRAILLE_RE.match(word):
@@ -28,7 +30,11 @@ def validate_full(untranslated, words):
     return True
 
 def print_line(line):
-    print "%s %s\t%s\t%s" % line
+    if line[:2] not in entries:
+        entries.add(line[:2])
+        print "%s %s\t%s\t%s" % line
+    else:
+        print >> sys.stderr, "Duplicate: %s %s %s %s" % line
     
 for line in fileinput.input():
     if line.startswith('#'):
@@ -47,19 +53,19 @@ for line in fileinput.input():
             # if the untranslated word contains a 's~' then add two
             # entries: one for German and one for Swiss German
             # spelling
-            u, g2, g1 = untranslated.replace('s~','ß'), grade1.replace('§','^'), grade2.replace('§','^')
+            u, g1, g2 = untranslated.replace('s~','ß'), grade1.replace('§','^'), grade2.replace('§','^')
             if validate((g2, g1)):
                 print_line((type, u, g2, g1))
-            u, g2, g1 = untranslated.replace('s~','ss'), grade1.replace('§','SS'), grade2.replace('§','^')
+            u, g1, g2 = untranslated.replace('s~','ss'), grade1.replace('§','SS'), grade2.replace('§','^')
             if validate((g2, g1)):
                 print_line((type, u, g2, g1))
         elif 'ß' in untranslated:
             # if the untranslated word contains a ß then add a second
             # entry for the swiss german spelling
-            u, g2, g1 = untranslated, grade1, grade2.replace('ß','^')
+            u, g1, g2 = untranslated, grade1, grade2.replace('ß','^')
             if validate((g2, g1)):
                 print_line((type, u, g2, g1))
-            u, g2, g1 = untranslated.replace('ß','ss'), grade1.replace('^','SS'), grade2.replace('ß','^')
+            u, g1, g2 = untranslated.replace('ß','ss'), grade1.replace('^','SS'), grade2.replace('ß','^')
             if validate((g2, g1)):
                 print_line((type, u, g2, g1))
         else:
