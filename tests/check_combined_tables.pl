@@ -27,7 +27,6 @@ my @g1_tables = qw(
     sbs-litdigit-lower.mod
     sbs-de-core.mod
     sbs-de-g0-core.mod
-    sbs-de-g1-white.mod
     sbs-de-g1-core.mod
     sbs-de-hyph-new.mod
     sbs-de-hyph-none.mod
@@ -51,7 +50,6 @@ my @g2_tables =	qw(
     sbs-litdigit-upper.mod
     sbs-litdigit-lower.mod
     sbs-de-core.mod
-    sbs-de-g2-white.mod
     sbs-de-g2-place.mod
     sbs-de-g2-core.mod
     sbs-de-hyph-new.mod
