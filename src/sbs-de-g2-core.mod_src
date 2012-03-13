@@ -425,16 +425,22 @@ always                               liganiveau             L>AtNItVE1
 begmidword                          alphanum                :PHAwNUM
 always                              mafia                   MAtFIA
 always                            olympia                   OL'YMtPIA
-always                              arekanus~               )EtKAwNU§
-begmidword                          arekanüs~               )EtKAwN8§
+always                              arekanuß                )EtKAwNU^
+always                              arekanuss               )EtKAwNU^
+begmidword                          arekanüß                )EtKAwN8^
+begmidword                          arekanüss               )EtKAwN8^
 begmidword                        amerikan                  AM7ItK+
-always                               kolanus~               KOtLAwNU§
-begmidword                           kolanüs~               KOtLAwN8§
+always                               kolanuß                KOtLAwNU^
+always                               kolanuss               KOtLAwNU^
+begmidword                           kolanüß                KOtLAwN8^
+begmidword                           kolanüss               KOtLAwN8^
 begmidword                          supranation             SUtPnRAwN!N
 begmidword                          supranatur              SUtPnRAwNT
 always                              intranet                *aTnRAwNET
-always                               paranus~               P)AwNU§
-begmidword                           paranüs~               P)AwN8§
+always                               paranuß                P)AwNU^
+always                               paranuss               P)AwNU^
+begmidword                           paranüß                P)AwN8^
+begmidword                           paranüss               P)AwN8^
 always                            ricotta                   RIt'COTtTA
 
 # ANDER ÄNDER (4.3.6 Kommakürzungen)
@@ -1369,9 +1375,11 @@ always                                  beimaß              ,BtMA^
 always                                  beimeng             ,BtMCG
 always                                  beimenge            ,BtMCt&
 always                                  beimengen           ,BtMCtGC
-begmidword                              beimes~             ,BtME§
+begmidword                              beimeß              ,BtME^
+begmidword                              beimess             ,BtME^
 always                                  beimisch            ,BtMI5
-begmidword                              beimis~             ,BtMI§
+begmidword                              beimiß              ,BtMI^
+begmidword                              beimiss             ,BtMI^
 always                                  beimittel           ,BtMT
 begmidword                              beimpf              ;tIMPF
 always                               farbeimer              F)Bw3M7
@@ -1417,7 +1425,8 @@ prfword                                ibis                 IBIS
 always                                 ibiss                IBI^
 always                               alibis                 :ItBIS
 always                                albis                 :tBIS
-always                           neutralbis~                N2tTnR:wBI§
+always                           neutralbiß                 N2tTnR:wBI^
+always                           neutralbiss                N2tTnR:wBI^
 always                               bambis                 BAMtBIS
 always                               kombi                  KOMtBI
 always                               kombin                 KOMtB*
@@ -1530,7 +1539,8 @@ begmidword                           mordankl               M?Dw+tKL
 word                                    das                 D
 
 # DASS  (4.3.1 Einformige Wortkürzungen, nur alleinstehend)
-word                                    das~                ^
+word                                    daß                 ^
+word                                    dass                ^
 
 # DARAUF (4.4 Zweiformige Kürzungen)
 always                                  darauf              D1
@@ -2039,8 +2049,10 @@ always                               gemein                 &tM6
 always                              khomeini                KHOtME*I
 midendword                          vermein                 V7tM6
 midendword                          vernein                 V7tN6
-always                                speinus~              SP3wNU§
-begmidword                            speinüs~              SP3wN8§
+always                                speinuß               SP3wNU^
+always                                speinuss              SP3wNU^
+begmidword                            speinüß               SP3wN8^
+begmidword                            speinüss              SP3wN8^
 always                                 reinform             R6wF?M
 always                                 reinschrift          R6w5T
 always                                freinacht             FR3wN<T
@@ -2305,7 +2317,7 @@ before_l_begmidword              karriere                   K)tRIt7E
 always                            schwerelos                5W7EwLOS
 always                              jahrelang               JREwLG
 always                                ireland               IREtL+D
-always                               wireles~               WIREtLE§
+always                               wireless               WIREtLE^
 begmidword                           irrelei                IRtREwL3
 begmidword                          säurelös                S\tREwL9S
 before_l_begmidword                  türe                   T8tRE
@@ -2801,7 +2813,8 @@ always                              hängenasen              H@Nt&wNAtSC
 always                           spionagenetz               SPIOtNAt&wNETZ
 always                               wegenetz               WGEwNETZ
 always                              taugenichts             T1t&wNS
-always                            patschenas~               PATt5EwNA§
+always                            patschenaß                PATt5EwNA^
+always                            patschenass               PATt5EwNA^
 word                                  ehename               EHEwNAtME
 endword                               ehename               =EwNAtME
 always                                ehenamen              =EwNAtMC
@@ -4266,7 +4279,8 @@ midendword                              genarbeit           GCw)B
 begmidword                              genarr              &tN)R
 prfword                                 genas               &tNAS
 always                                  genäs               &tN@S
-always                                  genäs~              &tN@§
+always                                  genäß               &tN@^
+always                                  genäss              &tN@^
 always                                  genäschig           &tN@t5>
 always                                  genascht            &tNA5T
 prfword                                 genaschte           &tNA5t(
@@ -4345,8 +4359,10 @@ prfword                                 genordete           &tN?tDEt(
 always                                  genormt             &tN?MT
 prfword                                 genormte            &tN?Mt(
 always                                  genötig             &tN9T>
-syllable                                genos~              &tNO§
-syllable                                genös~              &tN9§
+syllable                                genoß               &tNO^
+syllable                                genoss              &tNO^
+syllable                                genöß               &tN9^
+syllable                                genöss              &tN9^
 always                                  genuckel            &tNUn$Y
 always                                  genudel             &tNUtDY
 always                                  genug               &tNUG
@@ -4355,8 +4371,10 @@ always                                  genüge              &tN8t&
 always                                  genügen             &tN8tGC
 always                                  genüchter           &tN84tT7
 always                                  genuschel           &tNUt5Y
-always                                  genus~              &tNU§
-syllable                                genüs~              &tN8§
+always                                  genuß               &tNU^
+always                                  genuss              &tNU^
+syllable                                genüß               &tN8^
+syllable                                genüss              &tN8^
 always                                  genutz              &tNZ
 always                                  genütz              &t!NZ
 # GEr
@@ -5884,8 +5902,10 @@ always                               antinomie              +tTIwNOtM0
 always                               antinomien             +tTIwNOtMIC
 begmidword                           antinukle              +tTIwNUtKnLE
 begmidword                          multinukle              MULtTIwNUtKnLE
-always                           aschantinus~               A5+tTIwNU§
-always                           aschantinüs~               A5+tTIwN8§
+always                           aschantinuß                A5+tTIwNU^
+always                           aschantinuss               A5+tTIwNU^
+always                           aschantinüß                A5+tTIwN8^
+always                           aschantinüss               A5+tTIwN8^
 always                          spaghettinudel              SPAtGHETtTIwNUtDY
 always                           mannequin                  M+tNEt'QU*
 always                               nazinest               NAtZIwNE]
@@ -6074,8 +6094,10 @@ always                          gebietsslang                &tB0TSwSL+G
 always                               boulanger              BOUtL+tG7
 
 # LASS LÄSS (4.3.6 Kommakürzungen)
-always                                  las~                ,L
-always                                  läs~                !L
+always                                  laß                 ,L
+always                                  lass                ,L
+always                                  läß                 !L
+always                                  läss                !L
 always                                  lasskst             LwA^I]
 always                                  rassistisch         RA^!5
 always                                  lassa               LA^A
@@ -6083,13 +6105,17 @@ always                              nachlass                N<w,L
 always                                  lasso               LA^O
 always                               thalasso               TH:A^O
 ### blass genauer!
-always                                 blas~                BLA§
-always                                 bläs~                BL@§
-always                                ablas~                ABt,L
-always                                abläs~                ABt!L
+always                                 blaß                 BLA^
+always                                 blass                BLA^
+always                                 bläß                 BL@^
+always                                 bläss                BL@^
+always                                ablaß                 ABt,L
+always                                ablass                ABt,L
+always                                abläß                 ABt!L
+always                                abläss                ABt!L
 # HOMONYM
 always                               erblasser              7Bt,L7
-always                                 clas~                'CLA§
+always                                 class                'CLA^
 always                                melass                MYA^
 word                                   glass                GLA^
 always                                 glassarg             GLASwS)G
@@ -6116,14 +6142,17 @@ always                                 klassifizier         KLA^ItFItZ0tR
 prfword                                klassisch            KLA^I5
 always                                 klassisch            KLA^It5
 always                                 klassiz              KLA^ItZ
-always                                 kläs~ler             KL@§tL7
-always                                 kläs~er              KL@§7
+always                                 kläßler              KL@^tL7
+always                                 klässler             KL@^tL7
+always                                 kläßer               KL@^7
+always                                 klässer              KL@^7
 always                                molass                MOtLA^
 always                                atlasse               ATtLA^E
 always                                atlasses              ATtLA^%
 
 # LÄSST (4.3.1 Einformige Wortkürzungen, nur alleinstehend)
-word                                    läs~t               L
+word                                    läßt                L
+word                                    lässt               L
 
 # LEB (4.4 Zweiformige Kürzungen)
 always                                  leb                 LB
@@ -6795,7 +6824,8 @@ always                                  musik               MK
 always                                  musikalien          MK:ItC
 
 # MUSS (4.4 Zweiformige Kürzungen)
-always                                  mus~                M§
+always                                  muß                 M^
+always                                  muss                M^
 # Daher auch nötig:
 word                                    muße                MU^E
 always                                  musselin            MU^Y*
@@ -6808,7 +6838,8 @@ always                                humusschicht          HUtMUSt5#T
 always                                humusstoff            HUtMUSt]OFF
 
 # MÜSS (4.3.6 Kommakürzungen)
-always                                  müs~                ,M
+always                                  müß                 ,M
+always                                  müss                ,M
 # Daher auch nötig:
 always                                  müßig               M8t^>
 
@@ -6880,7 +6911,8 @@ always                                  nichtselbstständig  ,NwS]t!]>
 always                                  nichtsehen          ,NwS=C
 always                                  nichtsequentiell    ,NwSEt'QUCtTItEQ
 always                                  nichtsequenziell    ,NwSEt'QUCtZItEQ
-always                                  nichtses~           ,NwSE§
+always                                  nichtseß            ,NwSE^
+always                                  nichtsess           ,NwSE^
 always                                  nichtsichtb         ,NwS#TtB
 always                                  nichtsommer         ,NwSOX7
 always                                  nichtspezialisier   ,NwSPEtZIt:ItS0R
@@ -7675,7 +7707,8 @@ always                               lausitz                L1tSITZ
 word                                    so                  P
 always                                  sobald              ,PtB:D
 always                                  sodann              ,PtD+N
-always                                  sodas~              ,PtDA§
+always                                  sodaß               ,PtDA^
+always                                  sodass              ,PtDA^
 always                                  soeben              ,PtEBC
 always                                  sofern              ,PtF7N
 always                                  sofort              ,PtF?T
@@ -10191,7 +10224,8 @@ always                              geklungen               &tKL/tGC
 always                              erklungen               7tKL/tGC
 sufword                            verklungen               vKL/tGC
 begmidword                      taucherlun                  T1t47wL/
-always                             mis~lungen               MI§tL/tGC
+always                             mißlungen                MI^tL/tGC
+always                             misslungen               MI^tL/tGC
 begword                                mung                 M/G
 always                               immun                  IX/
 always                               immung                 IXU
@@ -10602,8 +10636,9 @@ always                                  wirtschaft          W5
 always                                  wirtschafts         W5S
 
 # WISS (4.4 Zweiformige Kürzungen)
-always                                  wis~                W^
-sufword                                swis~                SWI§
+always                                  wiß                 W^
+always                                  wiss                W^
+sufword                                swiss                SWI^
 
 # WOHL (4.4 Zweiformige Kürzungen)
 always                                  wohl                WL
@@ -10695,8 +10730,10 @@ begmidword                              zugreif             ,ZtGR3F
 prfword                                 zugst               ZUG]
 always                                  zugabteil           ZUGwABtT3L
 always                                  zugabfahr           ZUGwABt,R
-always                                  zuganschlus~        ZUGw+t5LU§
-always                                  zuganschlüs~        ZUGw+t5L8§
+always                                  zuganschluß         ZUGw+t5LU^
+always                                  zuganschlüß         ZUGw+t5L8^
+always                                  zuganschluss        ZUGw+t5LU^
+always                                  zuganschlüss        ZUGw+t5L8^
 begmidword                              zugbalk             ZUGwB:K
 always                                  zugband             ZUGwB+D
 begmidword                              zugbänd             ZUGwB@NtD
