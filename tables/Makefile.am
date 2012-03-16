@@ -28,7 +28,10 @@ generated_tables = \
 	sbs-litdigit-lower.mod \
 	sbs-litdigit-upper.mod
 
-table_files = $(copied_tables) $(generated_tables)
+
+version_table = sbs-version.utb
+
+table_files = $(copied_tables) $(generated_tables) $(version_table)
 
 tablesdir = $(datadir)/liblouis/tables
 tables_DATA = $(table_files)
