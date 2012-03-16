@@ -17,13 +17,13 @@ from functools import partial
 from string import maketrans
 
 VALID_BRAILLE_RE = re.compile("^[A-Z0-9&%[^\],;:/?+=(*).\\\\@#\"!>$_<\'àáâãåæçèéêëìíîïðñòóôõøùúûýþÿœv]+$")
-VALID_UNTRANSLATED_RE = re.compile("^[a-zàáâãåäæçèéêëìíîïðñòóôõöøùúûüýþÿœv~ß]+$")
+VALID_UNTRANSLATED_RE = re.compile("^[a-zàáâãåäæçèéêëìíîïðñòóôõöøùúûüýþÿœv~ß']+$")
 INVALID_CHARS = 'twnapzk'
 
 def validate_full(untranslated, words):
     for word in words:
         if not VALID_BRAILLE_RE.match(word):
-            print >> sys.stderr, "%s: %s" % (untranslated, word)
+            print >> sys.stderr, "Validate: %s: %s" % (untranslated, word)
             return False
     return True
 
@@ -38,7 +38,10 @@ for line in fileinput.input():
         validate = partial(validate_full, untranslated)
         grade2, grade1 = map(lambda x: x.translate(None, INVALID_CHARS), (grade2, grade1))
         grade2 = grade2.translate(maketrans('|','^'))
-        if not VALID_UNTRANSLATED_RE.match(untranslated):
+        untranslated = untranslated.translate(None, '#') # these were used for hyphenation hints
+        if '|' in untranslated and type == 'h' and validate((grade2, grade1)):
+            print_line((type, untranslated, grade2, grade1))
+        elif not VALID_UNTRANSLATED_RE.match(untranslated):
             print >> sys.stderr, "%s: %s, %s" % (untranslated, grade2, grade1)
         elif 's~' in untranslated:
             # if the untranslated word contains a 's~' then add two
