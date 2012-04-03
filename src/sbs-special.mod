@@ -47,7 +47,8 @@ pass2 @ac-6 ?
 pass2 @ac ?
 
 # Trennmarke "m" nach Bindestrich
-pass2 @36 @36-d
+# This is now handled by the Java bindings 
+#pass2 @36 @36-d
 
 # Korrektur: Kürzung "des" zwischen Bindestrichen auflösen
 pass3 @36-d-3-36-d @36-d-145-123456-36-d
