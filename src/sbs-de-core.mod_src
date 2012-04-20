@@ -87,7 +87,7 @@
 
 # --- Special Symbol Opcodes ---------------------------------------------------
 
-hyphen	-	-	
+#hyphen	-	-	
 
 # --- Translation opcodes ------------------------------------------------------
 
@@ -306,6 +306,7 @@ midnum	+	b"+#
 always	+	"+	
 # Minus:
 begnum	\s-	b"v#	
+begnum	-	"v
 always	\s-	b'v	
 midnum	\s\x2212\s	b"v#	
 midnum	\s\x2212	b"v#	
