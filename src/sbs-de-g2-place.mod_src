@@ -12,6 +12,9 @@ begword	über	,8
 # UNTER (4.3.2 Einformige Kürzungen, alleinstehend oder in Wortverbindungen)
 begword	unter	,/	
 
+# VOR (4.3.2 Einformige Kürzungen, alleinstehend oder in Wortverbindungen)
+begword	vor	,?
+
 # STAND STÄND (4.3.6 Kommakürzungen)
 begword	stand	,]	
 begword	ständ	!]	
