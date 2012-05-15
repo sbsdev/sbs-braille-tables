@@ -128,12 +128,16 @@ midword	(	'=	Runde Klammer auf
 
 midnum	(	'=#	
 endnum	(	'=	
-always	(	=	
+always	(	=
 midword	)	'=	Runde Klammer zu
 
 midnum	)	'=#	
 endnum	)	'=	
 always	)	=	
+
+always  {       ![      Geschweifte Klammer auf
+always  }       ![      Geschweifte Klammer zu
+
 #prepunc      "                       (       Anführungszeichen am Anfang
 #prepunc      «                       (
 #prepunc      »                       (
@@ -152,6 +156,8 @@ midnum	.	.	Punkt
 always	.\s.\s.	...	
 ###                                          Waagerechter Strich (siehe 2.5.1)
 midnum	'	.	Apostroph (Gliederung grosser Zahlen)
+
+always   #    "#                             Rautezeichen
 
 ###                                          Paragrafzeichen (siehe 2.3.1.7)
 ###                                          Artikelzeichen (siehe 2.3.1.7)
@@ -273,8 +279,7 @@ always	\s/\s	b!,b	"Vers"-Strich
 
 ### FEHLT "pro"-Schrägstrich "8
 ### *** 2.5.3 Senkrechter Strich
-always	|	b_Lb	Senkrechter Strich
-
+always  |       b!-b	Senkrechter Strich
 
 ### *** 2.6 Groß- und Kleinschreibung ********************************************
 ###     d) Währungszeichen:
