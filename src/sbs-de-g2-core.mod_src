@@ -425,21 +425,21 @@ always	liganiveau	L>ANIVE1
 begmidword	alphanum	:PHANUM	
 always	mafia	MAFIA	
 always	olympia	OL'YMPIA	
-always	arekanuß	)EKANU'^	
+always	arekanuß	)EKANU^	
 always	arekanuss	)EKANU^	
-begmidword	arekanüß	)EKAN8'^	
+begmidword	arekanüß	)EKAN8^	
 begmidword	arekanüss	)EKAN8^	
 begmidword	amerikan	AM7IK+	
-always	kolanuß	KOLANU'^	
+always	kolanuß	KOLANU^	
 always	kolanuss	KOLANU^	
-begmidword	kolanüß	KOLAN8'^	
+begmidword	kolanüß	KOLAN8^	
 begmidword	kolanüss	KOLAN8^	
 begmidword	supranation	SUPRAN!N	
 begmidword	supranatur	SUPRANT	
 always	intranet	*TRANET	
-always	paranuß	P)ANU'^	
+always	paranuß	P)ANU^	
 always	paranuss	P)ANU^	
-begmidword	paranüß	P)AN8'^	
+begmidword	paranüß	P)AN8^	
 begmidword	paranüss	P)AN8^	
 always	ricotta	RI'COTTA	
 
@@ -789,8 +789,8 @@ prfword	raufte	R1F(
 prfword	rauftest	R1F(]	
 prfword	rauftet	R1F(T	
 always	raufutter	R1FUTT7	
-always	raufuß	R1FU'^	
-always	raufüß	R1F8'^	
+always	raufuß	R1FU^	
+always	raufüß	R1F8^	
 begmidword	wiederauf	0D,1	
 always	trauf	TR1F	
 always	sauf	S1F	
@@ -1239,7 +1239,7 @@ always	beruf	;RUF
 always	beruh	;RUH	
 always	berühm	;R8HM	
 always	berühr	;R8HR	
-always	beruß	;RU'^	
+always	beruß	;RU^	
 # BEs
 prfword	bes	B%	
 always	besch	;5	
@@ -1338,7 +1338,7 @@ always	treibeis	TR3B3S
 always	stabeisen	]AB3SC	
 syllable	beitrag	,BTG	
 syllable	beiträg	,B!TG	
-always	beiß	B3'^	
+always	beiß	B3^	
 always	beisl	B3SL	
 always	beitel	B3TY	
 always	beiz	B3Z	
@@ -1371,14 +1371,14 @@ midendword	gabeidee	GA;IDEE
 always	beim	BM	
 always	beimann	,BMN	
 begmidword	beimänn	,B!MN	
-always	beimaß	,BMA'^	
+always	beimaß	,BMA^	
 always	beimeng	,BMCG	
 always	beimenge	,BMC&	
 always	beimengen	,BMCGC	
-begmidword	beimeß	,BME'^	
+begmidword	beimeß	,BME^	
 begmidword	beimess	,BME^	
 always	beimisch	,BMI5	
-begmidword	beimiß	,BMI'^	
+begmidword	beimiß	,BMI^	
 begmidword	beimiss	,BMI^	
 always	beimittel	,BMT	
 begmidword	beimpf	;IMPF	
@@ -1425,7 +1425,7 @@ prfword	ibis	IBIS
 always	ibiss	IBI^	
 always	alibis	:IBIS	
 always	albis	:BIS	
-always	neutralbiß	N2TR:BI'^	
+always	neutralbiß	N2TR:BI^	
 always	neutralbiss	N2TR:BI^	
 always	bambis	BAMBIS	
 always	kombi	KOMBI	
@@ -1574,7 +1574,7 @@ word	dem's	['S
 always	dementgegen	,[CT,G	
 always	dementsprechend	,[CT,^CD	
 always	demgegenüber	,[G8	
-always	demgemäß	,[&M@'^	
+always	demgemäß	,[&M@^	
 always	demjenig	,[JC>	
 always	demnach	,[N<	
 always	demnächst	,[N]	
@@ -1585,7 +1585,7 @@ word	alldem	AQ,[
 word	ebendem	EBC,[	
 word	seitdem	S3T,[	
 word	indem	*,[	
-word	außerdem	1'^7,[	
+word	außerdem	1^7,[	
 word	vordem	,?,[	
 word	zudem	,Z,[	
 word	trotzdem	TZ,[	
@@ -2049,9 +2049,9 @@ always	gemein	&M6
 always	khomeini	KHOME*I	
 midendword	vermein	V7M6	
 midendword	vernein	V7N6	
-always	speinuß	SP3NU'^	
+always	speinuß	SP3NU^	
 always	speinuss	SP3NU^	
-begmidword	speinüß	SP3N8'^	
+begmidword	speinüß	SP3N8^	
 begmidword	speinüss	SP3N8^	
 always	reinform	R6F?M	
 always	reinschrift	R65T	
@@ -2423,10 +2423,10 @@ after_e_midendword	maserung	MAS7U
 after_e_endword	maske	MASKE	
 after_e_midendword	masken	MASKC	
 after_e_midendword	maskottchen	MASKOTT4C	
-after_e_midendword	maß	MA'^	
+after_e_midendword	maß	MA^	
 after_e_endword	masse	MA^E	
 after_e_midendword	massen	MA^C	
-after_e_midendword	mäßig	M@'^>	
+after_e_midendword	mäßig	M@^>	
 after_e_midendword	mast	MA]	
 after_e_midword	mäst	M@]	
 after_e_midendword	material	ML	
@@ -2507,7 +2507,7 @@ always	emacho	EMA4O
 midendword	emädchen	EM@D4C	
 always	emaschin	EM5	
 midendword	emauer	EM17	
-midendword	emäßig	EM@'^>	
+midendword	emäßig	EM@^>	
 midendword	emäuer	EM\7	
 midword	eminerali	EM*7:I	
 midendword	emischung	EMI5U	
@@ -2813,7 +2813,7 @@ always	hängenasen	H@N&NASC
 always	spionagenetz	SPIONA&NETZ	
 always	wegenetz	WGENETZ	
 always	taugenichts	T1&NS	
-always	patschenaß	PAT5ENA'^	
+always	patschenaß	PAT5ENA^	
 always	patschenass	PAT5ENA^	
 word	ehename	EHENAME	
 endword	ehename	=ENAME	
@@ -3496,7 +3496,7 @@ before_s_always	baisse	BAI^E
 always	pissespur	PI^ESPUR	
 before_s_always	hausse	H1^E	
 before_s_always	masse	MA^E	
-before_s_always	muße	MU'^E	
+before_s_always	muße	MU^E	
 before_s_always	gehäuse	&H\SE	
 prfword	gehäuses	&H\S%	
 before_s_begmidword	mäuse	M\SE	
@@ -3539,7 +3539,7 @@ sufword	desselb	D%SYB
 always	desensibilisier	DESCSIBILIS0R	
 always	arcadespiel	)'CADE,0	
 always	balladesänger	BAQADES@NG7	
-always	mädesüß	M@DES8'^	
+always	mädesüß	M@DES8^	
 always	redesign	RED%IGN	
 always	kleidespiegel	KL3DESP0GY	
 begmidword	schneidescher	5N3DE57	
@@ -4214,7 +4214,7 @@ midword	engelern	C&L7N
 always	bengel	BCGY	
 prfword	gemengelage	&MC&LA&	
 prfword	gemengelagen	&MC&LAGC	
-begmidword	außengeländ	1'^C&L@ND	
+begmidword	außengeländ	1^C&L@ND	
 always	stengel	]CGY	
 always	ingelheim	*GYH3M	
 always	schlingel	5L*GY	
@@ -4279,7 +4279,7 @@ midendword	genarbeit	GC)B
 begmidword	genarr	&N)R	
 prfword	genas	&NAS	
 always	genäs	&N@S	
-always	genäß	&N@'^	
+always	genäß	&N@^	
 always	genäss	&N@^	
 always	genäschig	&N@5>	
 always	genascht	&NA5T	
@@ -4343,7 +4343,7 @@ word	genien	GCIC
 always	geniesel	&N0SY	
 prfword	geniest	&N0]	
 prfword	genieste	&N0]E	
-always	genieß	&N0'^	
+always	genieß	&N0^	
 always	genietet	&N0(T	
 prfword	genietete	&N0((	
 always	genipp	&NIPP	
@@ -4359,9 +4359,9 @@ prfword	genordete	&N?DE(
 always	genormt	&N?MT	
 prfword	genormte	&N?M(	
 always	genötig	&N9T>	
-syllable	genoß	&NO'^	
+syllable	genoß	&NO^	
 syllable	genoss	&NO^	
-syllable	genöß	&N9'^	
+syllable	genöß	&N9^	
 syllable	genöss	&N9^	
 always	genuckel	&NU$Y	
 always	genudel	&NUDY	
@@ -4371,9 +4371,9 @@ always	genüge	&N8&
 always	genügen	&N8GC	
 always	genüchter	&N84T7	
 always	genuschel	&NU5Y	
-always	genuß	&NU'^	
+always	genuß	&NU^	
 always	genuss	&NU^	
-syllable	genüß	&N8'^	
+syllable	genüß	&N8^	
 syllable	genüss	&N8^	
 always	genutz	&NZ	
 always	genütz	&!NZ	
@@ -4605,7 +4605,7 @@ always	eingelb	6GYB
 always	koffeingehalt	KOFFE*&H:T	
 always	chemieingenieur	4[0*GCI2R	
 always	softwareingenieur	SOFTW)E*GCI2R	
-always	steingeiß	]6G3'^	
+always	steingeiß	]6G3^	
 always	weingeist	W6G3]	
 always	termin	T7M*	
 always	hongkonger	HONGKONG7	
@@ -4797,7 +4797,7 @@ always	häb	!H
 always	habakuk	HABAKUK	
 always	habanero	HAB+7O	
 always	habegger	HABEGG7	
-always	habergeiß	HAB7G3'^	
+always	habergeiß	HAB7G3^	
 sufword	habermas	HAB7MAS	
 always	habsburg	HABSBURG	
 sufword	ahab	AHAB	
@@ -4902,7 +4902,7 @@ always	herreis	H7R3S
 always	herreist	H7R3]	
 always	herreit	H7R3T	
 endword	herreite	H7R3(	
-always	herreiß	H7R3'^	
+always	herreiß	H7R3^	
 always	herrenn	H7RCN	
 always	herricht	H7,#	
 always	herrief	H7R0F	
@@ -5694,7 +5694,7 @@ endword	ignor	IGNOR
 midendword	igold	IGOLD	
 midendword	igolf	IGOLF	
 midendword	igratin	IGRAT*	
-midendword	igruß	IGRU'^	
+midendword	igruß	IGRU^	
 midword	igrupp	IGRUPP	
 midword	igymn	IG'YMN	
 always	aig	AIG	
@@ -5902,9 +5902,9 @@ always	antinomie	+TINOM0
 always	antinomien	+TINOMIC	
 begmidword	antinukle	+TINUKLE	
 begmidword	multinukle	MULTINUKLE	
-always	aschantinuß	A5+TINU'^	
+always	aschantinuß	A5+TINU^	
 always	aschantinuss	A5+TINU^	
-always	aschantinüß	A5+TIN8'^	
+always	aschantinüß	A5+TIN8^	
 always	aschantinüss	A5+TIN8^	
 always	spaghettinudel	SPAGHETTINUDY	
 always	mannequin	M+NE'QU*	
@@ -5928,8 +5928,8 @@ midendword	estion	E]J
 midendword	estions	E]JS	
 midendword	ssion	^J	
 midendword	ssions	^JS	
-midendword	ßion	'^J	
-midendword	ßions	'^JS	
+midendword	ßion	^J	
+midendword	ßions	^JS	
 midendword	stion	]J	
 midendword	stions	]JS	
 always	punktion	PTJ	
@@ -6105,9 +6105,9 @@ always	nachlass	N<,L
 always	lasso	LA^O	
 always	thalasso	TH:A^O	
 ### blass genauer!
-always	blaß	BLA'^	
+always	blaß	BLA^	
 always	blass	BLA^	
-always	bläß	BL@'^	
+always	bläß	BL@^	
 always	bläss	BL@^	
 always	ablaß	AB,L	
 always	ablass	AB,L	
@@ -6142,9 +6142,9 @@ always	klassifizier	KLA^IFIZ0R
 prfword	klassisch	KLA^I5	
 always	klassisch	KLA^I5	
 always	klassiz	KLA^IZ	
-always	kläßler	KL@'^L7	
+always	kläßler	KL@^L7	
 always	klässler	KL@^L7	
-always	kläßer	KL@'^7	
+always	kläßer	KL@^7	
 always	klässer	KL@^7	
 always	molass	MOLA^	
 always	atlasse	ATLA^E	
@@ -6827,7 +6827,7 @@ always	musikalien	MK:IC
 always	muß	M^	
 always	muss	M^	
 # Daher auch nötig:
-word	muße	MU'^E	
+word	muße	MU^E	
 always	musselin	MU^Y*	
 always	mussolini	MU^OL*I	
 always	rhythmus	RH'YTHMUS	
@@ -6841,7 +6841,7 @@ always	humusstoff	HUMUS]OFF
 always	müß	,M	
 always	müss	,M	
 # Daher auch nötig:
-always	müßig	M8'^>	
+always	müßig	M8^>	
 
 # NACHDEM (4.4 Zweiformige Kürzungen)
 always	nachdem	ND	
@@ -6911,7 +6911,7 @@ always	nichtselbstständig	,NS]!]>
 always	nichtsehen	,NS=C	
 always	nichtsequentiell	,NSE'QUCTIEQ	
 always	nichtsequenziell	,NSE'QUCZIEQ	
-always	nichtseß	,NSE'^	
+always	nichtseß	,NSE^	
 always	nichtsess	,NSE^	
 always	nichtsichtb	,NS#TB	
 always	nichtsommer	,NSOX7	
@@ -7707,7 +7707,7 @@ always	lausitz	L1SITZ
 word	so	P	
 always	sobald	,PB:D	
 always	sodann	,PD+N	
-always	sodaß	,PDA'^	
+always	sodaß	,PDA^	
 always	sodass	,PDA^	
 always	soeben	,PEBC	
 always	sofern	,PF7N	
@@ -7770,7 +7770,7 @@ always	spracheck	SPR<E$
 always	sprech	,^	
 
 # ß   (4.1 Lautgruppenkürzungen)
-always	ß	'^	
+always	ß	^	
 ### MACH NOCH ....
 
 # SS  (4.1 Lautgruppenkürzungen)
@@ -7860,7 +7860,7 @@ syllable	störend	]9RCD
 syllable	störer	]9R7	
 syllable	störung	]9RU	
 syllable	störungs	]9RUS	
-syllable	stöß	]9'^	
+syllable	stöß	]9^	
 syllable	stünd	]8ND	
 always	subjekt	SUBJEKT	
 prfword	subjekte	SUBJEK(	
@@ -8019,7 +8019,7 @@ endword	ssparte	SSP)(
 midendword	ssparten	SSP)TC	
 midendword	sspatel	SSPATY	
 midendword	sspazier	SSPAZ0R	
-midendword	sspaß	SSPA'^	
+midendword	sspaß	SSPA^	
 midendword	sspeck	SSPE$	
 midendword	sspediteur	SSPEDIT2R	
 midendword	sspedition	SSPEDITJ	
@@ -8131,13 +8131,13 @@ midendword	sstolz	S]OLZ
 midendword	sstop	S]OP	
 midendword	sstopp	S]OPP	
 midendword	sstory	S]?'Y	
-midendword	sstoß	S]O'^	
+midendword	sstoß	S]O^	
 midendword	sstraf	S]RAF	
 midendword	sstrand	S]R+D	
 midendword	sstrang	S]R+G	
 midword	sstrate	S]RA(	
 midendword	sstrauch	S]R14	
-midendword	sstraß	S]RA'^	
+midendword	sstraß	S]RA^	
 midendword	sstreb	S]REB	
 endword	sstrebe	S]REBE	
 endword	sstreck	S]RE$	
@@ -8224,7 +8224,7 @@ before_s_begmidword	leibs	L3BS
 always	weibs	W3BS	
 always	kalbs	K:BS	
 always	jakobs	JAKOBS	
-always	jakobstraß	JAKOB]RA'^	
+always	jakobstraß	JAKOB]RA^	
 always	wettbewerbs	WETT;W7BS	
 always	wettbewerbstell	WETT;W7B,Y	
 always	erwerbs	7W7BS	
@@ -8636,13 +8636,13 @@ prfword	urteilst	URT3L]
 always	konzils	KONZILS	
 always	beifalls	,BFQS	
 always	einfalls	6FQS	
-always	einfallstraß	6FQ]RA'^	
+always	einfallstraß	6FQ]RA^	
 always	zufalls	,ZFQS	
 always	marschalls	M)5AQS	
 always	marschallstab	M)5AQ]AB	
 always	karls	K)LS	
 always	karlstad	K)L]AD	
-begmidword	karlstraß	K)L]RA'^	
+begmidword	karlstraß	K)L]RA^	
 always	impuls	IMPULS	
 always	brems	BR[S	
 prfword	bremst	BR[]	
@@ -8855,8 +8855,8 @@ midendword	verbots	V7BOTS
 endword	verbotst	V7BOT]	
 always	fahrts	,RTS	
 always	fahrtsch	,RT5	
-always	fahrtstraß	,RT]RA'^	
-always	fahrtsträß	,RT]R@'^	
+always	fahrtstraß	,RT]RA^	
+always	fahrtsträß	,RT]R@^	
 always	fahrtstreck	,RT]RE$	
 always	fahrtstund	,RT]/D	
 always	fahrtstag	,RTSTAG	
@@ -9383,7 +9383,7 @@ prfword	führungstor	FHUSTOR
 always	führungstor	FHUST?	
 always	führungstrupp	FHUSTRUPP	
 always	beobachtungstürm	;OB<TUST8RM	
-always	begrüßungstrunk	;GR8'^USTR/K	
+always	begrüßungstrunk	;GR8^USTR/K	
 always	zeitungstisch	ZTUSTI5	
 always	gebirgstrupp	&BIRGSTRUPP	
 always	zugsteil	ZUGST3L	
@@ -9507,7 +9507,7 @@ always	eidesstatt	3D%]ATT
 always	traumesstarr	TR1M%])R	
 always	kongressteil	KONGRE^T3L	
 word	isst	I^T	
-always	beißt	B3'^T	
+always	beißt	B3^T	
 sufword	vergisst	vGI^T	
 always	hisst	HI^T	
 prfword	hisste	HI^(	
@@ -10224,7 +10224,7 @@ always	geklungen	&KL/GC
 always	erklungen	7KL/GC	
 sufword	verklungen	vKL/GC	
 begmidword	taucherlun	T147L/	
-always	mißlungen	MI'^L/GC	
+always	mißlungen	MI^L/GC	
 always	misslungen	MI^L/GC	
 begword	mung	M/G	
 always	immun	IX/	
@@ -10730,8 +10730,8 @@ begmidword	zugreif	,ZGR3F
 prfword	zugst	ZUG]	
 always	zugabteil	ZUGABT3L	
 always	zugabfahr	ZUGAB,R	
-always	zuganschluß	ZUG+5LU'^	
-always	zuganschlüß	ZUG+5L8'^	
+always	zuganschluß	ZUG+5LU^	
+always	zuganschlüß	ZUG+5L8^	
 always	zuganschluss	ZUG+5LU^	
 always	zuganschlüss	ZUG+5L8^	
 begmidword	zugbalk	ZUGB:K	
