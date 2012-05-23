@@ -23,6 +23,11 @@
 # endword vor Wortersatzstrich und Komma verhindern
 #=#correct "-,\s" "\x250A-,\s"
 
+# --- Korrektur der einformigen Kürzungen vor/nach Klammern --------------------
+
+#=#correct $l["("]$l "\x250A("
+#=#correct $l[")"]$l ")\x250A"
+
 # --- Apostroph, Punkt, Komma, Strich vor Zahl ---------------------------------
 
 #=#correct $d["'"]$d "'"
