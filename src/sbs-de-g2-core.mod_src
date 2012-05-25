@@ -9963,7 +9963,8 @@ always	jutesack	JU(SA$
 always	jutespinn	JU(SP*N	
 always	jutesäck	JU(S@$	
 # TEsch
-always	tesch	(5	
+begword		tesch	TE5
+midendword	tesch	(5
 midendword	teschaft	(5	
 midendword	teschlag	(5G	
 midendword	teschlang	(5L+G	
