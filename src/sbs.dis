@@ -75,4 +75,5 @@ display t e
 display w f
 display p cd
 display k ce
-display - 36a
+display \x2011 36a
+
