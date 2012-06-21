@@ -73,7 +73,7 @@ display ' 6
 display m d
 display t e
 display w f
-display v 36a
+display - 36a
 display a ca
 display n cb
 display p cd
