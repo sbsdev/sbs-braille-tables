@@ -1307,7 +1307,7 @@ always	ischia	IS4IA
 always	h‰nschen	H@NS4C	
 
 # ﬂ   (4.1 Lautgruppenk¸rzungen)
-always	ﬂ	^	
+always	ﬂ	'^	
 ### MACH NOCH ....
 
 # SS  (4.1 Lautgruppenk¸rzungen)
@@ -1367,7 +1367,7 @@ midendword	sstollen	S]OQC
 midendword	sstolz	S]OLZ	
 midendword	sstrand	S]R+D	
 midendword	sstrauch	S]R14	
-midendword	sstraﬂ	S]RA^	
+midendword	sstraﬂ	S]RA'^	
 endword	sstreck	S]RE$	
 endword	sstube	S]UBE	
 midendword	sstuben	S]UBC	
@@ -1388,7 +1388,7 @@ before_s_begmidword	leibs	L3BS
 always	weibs	W3BS	
 always	kalbs	K:BS	
 always	jakobs	JAKOBS	
-always	jakobstraﬂ	JAKOB]RA^	
+always	jakobstraﬂ	JAKOB]RA'^	
 always	ericsson	7I'CSSON	
 always	herolds	H7OLDS	
 always	heroldstab	H7OLD]AB	
@@ -1397,7 +1397,7 @@ always	anissamen	+ISSAMC
 always	johannis	JOH+NIS	
 always	karls	K)LS	
 always	karlstad	K)L]AD	
-begmidword	karlstraﬂ	K)L]RA^	
+begmidword	karlstraﬂ	K)L]RA'^	
 before_s_begword	kokos	KOKOS	
 always	kosmos	KOSMOS	
 before_s_begmidword	moos	MOOS	
