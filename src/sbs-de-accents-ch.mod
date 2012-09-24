@@ -2,7 +2,7 @@
 #
 #  sbs-de-accents-ch.mod
 #
-#  Akzentbuchstaben (nur Schweizer ausführlich)
+#  Akzentbuchstaben (nur Schweizer ausfÃ¼hrlich)
 #
 #-------------------------------------------------------------------------------
 

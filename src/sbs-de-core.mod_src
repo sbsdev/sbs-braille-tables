@@ -3,7 +3,7 @@
 #
 #  sbs-de-core.mod
 #
-#  Grade-Übergreifendes: Hervorhebungen, Satzzeichen, Mathematische Zeichen,
+#  Grade-Ãœbergreifendes: Hervorhebungen, Satzzeichen, Mathematische Zeichen,
 #  Computer-Braille etc.
 #
 #-------------------------------------------------------------------------------
@@ -13,7 +13,7 @@
 
 # Bindestrich nach Leerschlag vor Zahl ist Minuszeichen.
 #=#correct $s["-"]$d "\x2212"
-# Bindestrich nach öffnender Klammer vor Zahl ist Minuszeichen.
+# Bindestrich nach Ã¶ffnender Klammer vor Zahl ist Minuszeichen.
 #=#correct ["(-"]$d "(\x2212"
 #=#correct ["[-"]$d "[\x2212"
 # begword nach Wortersatzstrich verhindern
@@ -23,7 +23,7 @@
 # endword vor Wortersatzstrich und Komma verhindern
 #=#correct "-,\s" "\x250A-,\s"
 
-# --- Korrektur der einformigen Kürzungen vor/nach Klammern --------------------
+# --- Korrektur der einformigen KÃ¼rzungen vor/nach Klammern --------------------
 
 #=#correct $l["("]$l "\x250A("
 #=#correct $l[")"]$l ")\x250A"
@@ -41,9 +41,9 @@
 #=#correct ["\x2013,"]$d "\x2511"
 #=#correct ["\x2014,"]$d "\x2511"
 
-# --- Satzzeichen nach zahlenähnlichen Zeichen ---------------------------------
+# --- Satzzeichen nach zahlenÃ¤hnlichen Zeichen ---------------------------------
 
-#=#class puncAfterOrdinal ;:?!()«»
+#=#class puncAfterOrdinal ;:?!()Â«Â»
 # Prozent
 #=#correct ["%"]%puncAfterOrdinal "%\x250B"
 #=#correct ["%,"] "%\x256C,"
@@ -51,10 +51,10 @@
 #=#correct ["\x2030"]%puncAfterOrdinal "\x2030\x250B"
 #=#correct ["\x2030,"] "\x2030\x256C,"
 # Grad
-#=#correct ["°"]%puncAfterOrdinal "°\x250B"
-#=#correct ["°,"] "°\x256C,"
+#=#correct ["Â°"]%puncAfterOrdinal "Â°\x250B"
+#=#correct ["Â°,"] "Â°\x256C,"
 
-# --- Markieren von Zahl-Buchstabenverbindung für Kurzschrift ------------------
+# --- Markieren von Zahl-Buchstabenverbindung fÃ¼r Kurzschrift ------------------
 
 #=#correct $d[]$l "\x2504"
 
@@ -96,7 +96,7 @@ hyphen	-	-
 
 # --- Translation opcodes ------------------------------------------------------
 
-### Kursivankündigung:
+### KursivankÃ¼ndigung:
 prepunc	\x255F	_	KURSIV Einzelwort
 
 prepunc	\x2560	__	KURSIV Anfang
@@ -104,11 +104,11 @@ prepunc	\x2560	__	KURSIV Anfang
 postpunc	\x2563	'.	KURSIV Ende
 
 
-### Ankündigung für Computer Braille:
+### AnkÃ¼ndigung fÃ¼r Computer Braille:
 prepunc	\x257C	'$	Computer Braille Einzelwort  
 
 
-### Vollschriftankündigung:
+### VollschriftankÃ¼ndigung:
 prepunc	\x2559	'.	VOLLSCHRIFT Einzelwort
 
 prepunc	\x255A	v.	VOLLSCHRIFT Anfang
@@ -121,7 +121,7 @@ midnum	,	,	Komma
 
 endnum	;	';	Strichpunkt
 
-###Nach hinten gezügelt, siehe Divisionszeichen: endnum : ':
+###Nach hinten gezÃ¼gelt, siehe Divisionszeichen: endnum : ':
 endnum	?	'?	Fragezeichen
 
 always	\s?	b'?	
@@ -143,17 +143,17 @@ always	)	=
 always  {       ![      Geschweifte Klammer auf
 always  }       ![      Geschweifte Klammer zu
 
-#prepunc      "                       (       Anführungszeichen am Anfang
-#prepunc      «                       (
-#prepunc      »                       (
+#prepunc      "                       (       AnfÃ¼hrungszeichen am Anfang
+#prepunc      Â«                       (
+#prepunc      Â»                       (
 #prepunc      \x201f                  (
-endnum	"	')	Anführungszeichen am Ende
+endnum	"	')	AnfÃ¼hrungszeichen am Ende
 
 #postpunc     "                       )
-#endnum       »                       ')
-#postpunc     »                       )
-endnum	«	')	
-#postpunc     «                       )
+#endnum       Â»                       ')
+#postpunc     Â»                       )
+endnum	Â«	')	
+#postpunc     Â«                       )
 endnum	\x201f	')	
 #postpunc     \x201f                  )
 midnum	.	.	Punkt
@@ -174,14 +174,14 @@ always	**	'**	Anmerkungssternchen
 always	***	'***	
 ### FEHLT                            <=      Phonetische Klammer auf
 ### FEHLT                            <=      Phonetische Klammer zu
-#prepunc      \x2039                  '(      Halbes Anführungszeichen am Anfang
+#prepunc      \x2039                  '(      Halbes AnfÃ¼hrungszeichen am Anfang
 #prepunc      \x203a                  '(
 #prepunc      \x201b                  '(
-#postpunc     \x2039                  ')      Halbes Anführungszeichen am Ende
+#postpunc     \x2039                  ')      Halbes AnfÃ¼hrungszeichen am Ende
 #postpunc     \x203a                  ')
 #postpunc     \x201b                  ')
 
-###                                          Schrägstrich (siehe 2.5.2)
+###                                          SchrÃ¤gstrich (siehe 2.5.2)
 ###                                          Senkrechter Strich (siehe 2.5.3)
 ###          ...                     ...     Auslassungspunkte
 always	\x2192	b::Ob	Pfeil nach rechts
@@ -221,7 +221,7 @@ midnum	'	.
 ### FEHLT: Tief-Hoch-Kombinationen: Markup?
 ### *** 2.3.1.4 Dezimalklassifikatoren
 ### FEHLT: Tief-Hoch-Kombinationen: Markup?
-### *** 2.3.1.5 Brüche
+### *** 2.3.1.5 BrÃ¼che
 ### FEHLT: Markup? oder immer Unicode-Bruchstrich ...
 ### *** 2.3.1.6 Prozent, Promille, Grad
 always	%	#J)	Prozent
@@ -231,7 +231,7 @@ always	\s\x2030	#J))	Promille 0/00
 
 always	\s\x2031	#J)))	0/000
 
-always	\s°	")	Grad
+always	\sÂ°	")	Grad
 
 always	\s\x2032	"*	Winkelminute
 
@@ -239,13 +239,13 @@ always	\s\x2033	"**	Winkelsekunde
 
 
 ### *** 2.3.1.7 Paragraf- und Artikelzeichen
-begnum	§	0	Paragrafzeichen
+begnum	Â§	0	Paragrafzeichen
 
-joinnum	§	0	
+joinnum	Â§	0	
 ### FEHLT                                      Artikelzeichen (siehe 2.3.1.7)
 
 ### *** 2.3.1.8 Satzzeichen nach Zahlen
-### *** 2.3.2 Römische Zahlen
+### *** 2.3.2 RÃ¶mische Zahlen
 ### *** 2.4 Zahl-Wort-Verbindungen ***********************************************
 ### *** 2.5 Striche **************************************************************
 ### *** 2.5.1 Waagerechte Striche
@@ -277,26 +277,26 @@ always	\x2014	'v	mit EM DASH
 
 ### *** 2.5.1.5 Spiegelstrich
 ### *** 2.5.1.6 Strich zwischen Zahlen
-### *** 2.5.2 Schrägstrich
-always	/	!,m	Schrägstrich
+### *** 2.5.2 SchrÃ¤gstrich
+always	/	!,m	SchrÃ¤gstrich
 
 always	\s/\s	b!,b	"Vers"-Strich
 
-### FEHLT "pro"-Schrägstrich "8
+### FEHLT "pro"-SchrÃ¤gstrich "8
 ### *** 2.5.3 Senkrechter Strich
 always  |       b!-b	Senkrechter Strich
 
-### *** 2.6 Groß- und Kleinschreibung ********************************************
-###     d) Währungszeichen:
-joinnum	£	"L	Pfund
+### *** 2.6 GroÃŸ- und Kleinschreibung ********************************************
+###     d) WÃ¤hrungszeichen:
+joinnum	Â£	"L	Pfund
 
 joinnum	$	"S	Dollar
 
 always	$	"S	Dollar
 
-joinnum	¢	"C	Cent
+joinnum	Â¢	"C	Cent
 
-joinnum	¥	"Y	Yen
+joinnum	Â¥	"Y	Yen
 
 joinnum	\x20A0	"E	Euro
 
@@ -307,8 +307,8 @@ joinnum	Fr	FR
 ### *** 2.7 Hervorhebungen *******************************************************
 ### *** 2.8 Akzentbuchstaben *****************************************************
 ### siehe de-DE-akzente.cti und de-CH-akzente.cti
-### *** 2.9 Fremdsprachliche Einschübe *******************************************
-### *** 2.10 Mathematische Zeichen und Einschübe *********************************
+### *** 2.9 Fremdsprachliche EinschÃ¼be *******************************************
+### *** 2.10 Mathematische Zeichen und EinschÃ¼be *********************************
 # Plus:
 midnum	\s+\s	b"+#	
 midnum	\s+	b"+#	
@@ -322,10 +322,10 @@ midnum	\s\x2212	b"v#
 midnum	\x2212	b"v#	
 always	\x2212	"v	
 # Plus Minus:
-midnum	\s±\s	b"+v#	
-midnum	\s±	b"+v#	
-midnum	±	b"+v#	
-always	±	"+v	
+midnum	\sÂ±\s	b"+v#	
+midnum	\sÂ±	b"+v#	
+midnum	Â±	b"+v#	
+always	Â±	"+v	
 # Gleich:
 midnum	\s=\s	b"=#	
 midnum	\s=	b"=#	
@@ -341,15 +341,15 @@ midnum	\s\x2261\s	b"==#
 midnum	\s\x2261	b"==#	
 midnum	\x2261	b"==#	
 always	\x2261	"==	
-### Das Äquivalenz-Zeichen der Systematik heisst in Unicode
+### Das Ã„quivalenz-Zeichen der Systematik heisst in Unicode
 ### "Estimates"! (Fehler?)
-# Äquivalent:
+# Ã„quivalent:
 midnum	\s\x2259\s	b"?#	
 midnum	\s\x2259	b"?#	
 midnum	\x2259	b"?#	
 always	\x2259	"?	
-### FEHLT                              *?      nicht äquivalent
-# Ungefähr:
+### FEHLT                              *?      nicht Ã¤quivalent
+# UngefÃ¤hr:
 #=#midnum       \s~\s                   0-4-26-26-3456
 #=#midnum       \s~                     0-4-26-26-3456
 #=#midnum       ~                       0-4-26-26-3456
@@ -358,7 +358,7 @@ midnum	\s\x223C\s	b"??#
 midnum	\s\x223C	b"??#	
 midnum	\x223C	b"??#	
 always	\x223C	"??	
-# Ungefähr gleich:
+# UngefÃ¤hr gleich:
 midnum	\s\x2245\s	b"??#	
 midnum	\s\x2245	b"??#	
 midnum	\x2245	b"??#	
@@ -391,16 +391,16 @@ midnum	\s\x22c6\s	.#
 midnum	\s\x22c6	.#	
 midnum	\x22c6	.#	
 ### Wird in neuer Mathe wahrscheinlich abgeschafft (Marlies, 23.2.09)
-### FEHLT                              /       geteilt durch (Schrägstrich)
-# Doppelpunkt (dividiert durch, verhält sich zu):
+### FEHLT                              /       geteilt durch (SchrÃ¤gstrich)
+# Doppelpunkt (dividiert durch, verhÃ¤lt sich zu):
 midnum	\s:\s	":#	
 midnum	\s:	":#	
 midnum	:	":#	
 endnum	:	':	
-midnum	\s÷\s	b":#	
-midnum	\s÷	b":#	
-midnum	÷	b":#	
-always	÷	":	
+midnum	\sÃ·\s	b":#	
+midnum	\sÃ·	b":#	
+midnum	Ã·	b":#	
+always	Ã·	":	
 midnum	\s\x2215\s	b":#	
 midnum	\s\x2215	b":#	
 midnum	\x2215	b":#	
@@ -423,12 +423,12 @@ midnum	\s\x2266\s	b"9=#
 midnum	\s\x2266	b"9=#	
 midnum	\x2266	b"9=#	
 always	\x2266	"9=	
-# Grösser als:
+# GrÃ¶sser als:
 midnum	\s>\s	b"O,#	
 midnum	\s>	b"O,#	
 midnum	>	b"O,#	
 always	>	"O,	
-# Grösser oder gleich:
+# GrÃ¶sser oder gleich:
 midnum	\s\x2265\s	b"O=#	
 midnum	\s\x2265	b"O=#	
 midnum	\x2265	b"O=#	

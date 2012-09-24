@@ -6,29 +6,29 @@
 #
 #-------------------------------------------------------------------------------
 
-# ÜBER (4.3.2 Einformige Kürzungen, alleinstehend oder in Wortverbindungen)
-begword	über	,8	
+# ÃœBER (4.3.2 Einformige KÃ¼rzungen, alleinstehend oder in Wortverbindungen)
+begword	Ã¼ber	,8	
 
-# UNTER (4.3.2 Einformige Kürzungen, alleinstehend oder in Wortverbindungen)
+# UNTER (4.3.2 Einformige KÃ¼rzungen, alleinstehend oder in Wortverbindungen)
 begword	unter	,/	
 
-# VOR (4.3.2 Einformige Kürzungen, alleinstehend oder in Wortverbindungen)
+# VOR (4.3.2 Einformige KÃ¼rzungen, alleinstehend oder in Wortverbindungen)
 begword	vor	,?
 
-# STAND STÄND (4.3.6 Kommakürzungen)
+# STAND STÃ„ND (4.3.6 KommakÃ¼rzungen)
 begword	stand	,]	
-begword	ständ	!]	
+begword	stÃ¤nd	!]	
 
-# DEUTSCH (4.4 Zweiformige Kürzungen)
+# DEUTSCH (4.4 Zweiformige KÃ¼rzungen)
 always	deutsch	D5	
 
-# GROß GRÖß (4.4 Zweiformige Kürzungen)
-begword	groß	G^	
+# GROÃŸ GRÃ–ÃŸ (4.4 Zweiformige KÃ¼rzungen)
+begword	groÃŸ	G^	
 
-# PLATZ PLÄTZ (4.4 Zweiformige Kürzungen)
+# PLATZ PLÃ„TZ (4.4 Zweiformige KÃ¼rzungen)
 endword	platz	PZ	
 endword	platzes	PZ%	
 
-# WEG (4.4 Zweiformige Kürzungen)
+# WEG (4.4 Zweiformige KÃ¼rzungen)
 endword	weg	WG	
 endword	wegs	WGS	

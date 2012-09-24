@@ -2,8 +2,8 @@
 #
 #  sbs-special.cti
 #
-#  SBS Character Definitions für Spezialzeichen
-#  (Trennmarken, Ankündigungs-Workaraound etc.)
+#  SBS Character Definitions fÃ¼r Spezialzeichen
+#  (Trennmarken, AnkÃ¼ndigungs-Workaraound etc.)
 #
 #-------------------------------------------------------------------------------
 
@@ -24,8 +24,8 @@ letter        \x250D e               #9485    BOX DRAWINGS DOWN LIGHT AND RIGHT 
 
 
 # TRENNMARKE "m" (Umbruch ohne Zeichen)
-# Für Windows-Test auf "Macron gelegt", in core6.cti wieder setzen ...
-punctuation   \x250E d               #9486  � BOX DRAWINGS DOWN HEAVY AND RIGHT LIGHT
+# FÃ¼r Windows-Test auf "Macron gelegt", in core6.cti wieder setzen ...
+punctuation   \x250E d               #9486  ¯ BOX DRAWINGS DOWN HEAVY AND RIGHT LIGHT
 
 # TRENNMARKE (nur alte Rechtschreibung)
 letter        \x2502 ca              #9474    BOX DRAWINGS LIGHT VERTICAL
@@ -49,13 +49,13 @@ punctuation   \x255A 36a-3           #9562    BOX DRAWINGS DOUBLE UP AND RIGHT
 # VOLLSCHRIFT Ende (P6-3)
 punctuation   \x255D 6-3             #9565    BOX DRAWINGS DOUBLE UP AND LEFT
 
-# GROSSBUCHSTABE (P46) für sbs-de-abbr.ctb
+# GROSSBUCHSTABE (P46) fÃ¼r sbs-de-abbr.ctb
 sign          \x2564 46              #9572    BOX DRAWINGS DOWN SINGLE AND HORIZONTAL DOUBLE
 
-# GROSSBUCHSTABENFOLGE (P45) für sbs-de-abbr.ctb
+# GROSSBUCHSTABENFOLGE (P45) fÃ¼r sbs-de-abbr.ctb
 sign          \x2566 45              #9574    BOX DRAWINGS DOUBLE DOWN AND HORIZONTAL
 
-# KLEINBUCHSTABE (P6) für sbs-de-abbr.ctb
+# KLEINBUCHSTABE (P6) fÃ¼r sbs-de-abbr.ctb
 sign          \x2569 6               #9577    BOX DRAWINGS DOUBLE UP AND HORIZONTAL
 
 # KURSIV Einzelwort (P456)
@@ -81,7 +81,7 @@ punctuation   \x257C 6-46            #9596    BOX DRAWINGS LIGHT LEFT AND HEAVY 
 # + Wort+Zahl-Ausdruecken (grade 2)
 sign          \x256C ab              #9580    BOX DRAWINGS DOUBLE VERTICAL AND HORIZONTAL
 
-# MARKIERUNG F�R ZAHL-BUCHSTABE-VERBINDUNG (zum Eliminieren �berfl�ssiger Letter-Signs
+# MARKIERUNG FÜR ZAHL-BUCHSTABE-VERBINDUNG (zum Eliminieren überflüssiger Letter-Signs
 digit         \x2504 ac              #9476    BOX DRAWINGS LIGHT TRIPLE DASH HORIZONTAL
 
 # APOSTROPH VOR ZAHL (z.B. Im Jahr '97)

@@ -4,5 +4,5 @@
 #
 #-------------------------------------------------------------------------------
 
-# Mehrfach-Leerschl‰ge eliminieren
+# Mehrfach-Leerschl√§ge eliminieren
 correct [$s]$s. *

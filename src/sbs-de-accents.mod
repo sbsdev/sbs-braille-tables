@@ -2,7 +2,7 @@
 #
 #  sbs-de-accents.mod
 #
-#  Akzentbuchstaben (alle ausführlich)
+#  Akzentbuchstaben (alle ausfÃ¼hrlich)
 #
 #-------------------------------------------------------------------------------
 

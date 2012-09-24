@@ -17,8 +17,8 @@ if (@ARGV != 2){
 my ($input, $output) = @ARGV;
 
 my ($ifh, $ofh);
-open($ifh, "<:crlf", $input) || die "failed to open '$input' for reading :$!";
-open($ofh, ">", $output) || die "failed to open '$output' for writing :$!";
+open($ifh, "<:crlf:encoding(utf8)", $input) || die "failed to open '$input' for reading :$!";
+open($ofh, ">:encoding(utf8)", $output) || die "failed to open '$output' for writing :$!";
 
 translate($ifh, $ofh);
 

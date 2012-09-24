@@ -11,9 +11,9 @@ letsign 6
 noletsignbefore '
 noletsignafter .'
 
-noletsign cCqQxXyYÀàÁáÅå
-noletsign ÀàÁáÂâÃãÅåÆæÇçÈè
-noletsign ÉéÊêËëÌìÍíÎîÏïĞğ
-noletsign ÑñÒòÓóÔôÕõØøÙùÚú
-noletsign ÛûİıŞşÿ\x0152\x0153
+noletsign cCqQxXyYÃ€Ã ÃÃ¡Ã…Ã¥
+noletsign Ã€Ã ÃÃ¡Ã‚Ã¢ÃƒÃ£Ã…Ã¥Ã†Ã¦Ã‡Ã§ÃˆÃ¨
+noletsign Ã‰Ã©ÃŠÃªÃ‹Ã«ÃŒÃ¬ÃÃ­ÃÃ®ÃÃ¯ÃÃ°
+noletsign Ã‘Ã±Ã’Ã²Ã“Ã³Ã”Ã´Ã•ÃµÃ˜Ã¸Ã™Ã¹ÃšÃº
+noletsign Ã›Ã»ÃÃ½ÃÃ¾Ã¿\x0152\x0153
 noletsign \x250A

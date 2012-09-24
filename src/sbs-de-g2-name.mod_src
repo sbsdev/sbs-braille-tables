@@ -2,7 +2,7 @@
 #
 #  sbs-de-g2-name.mod
 #
-#  SBS DEUTSCHE KURZSCHRIFT - Eigennamen (Nur Lautgruppenkürzungen)
+#  SBS DEUTSCHE KURZSCHRIFT - Eigennamen (Nur LautgruppenkÃ¼rzungen)
 #
 #-------------------------------------------------------------------------------
 
@@ -39,7 +39,7 @@ sufword	gaither	GAITH7
 #=#class konsonant bcdfghjklmnpqrstvwxyz
 
 
-# (4.1 Lautgruppenkürzungen)
+# (4.1 LautgruppenkÃ¼rzungen)
 
 # Doppelvokale
 always	dorothee	D?OTHEE	
@@ -57,20 +57,20 @@ always	waterloo	WAT7LOO
 always	daewoo	DAEWOO	
 always	zoo	ZOO	
 
-# ACH (4.1 Lautgruppenkürzungen)
+# ACH (4.1 LautgruppenkÃ¼rzungen)
 midendword	ach	<	
 begword	aach	AA4	
 always	cach	'CA4	
 prfword	each	EA4	
 always	beach	BEA4	
 
-# AL  (4.1 Lautgruppenkürzungen)
+# AL  (4.1 LautgruppenkÃ¼rzungen)
 begmidword	al	:	
 ### Korrektur: ist in Core-Tabelle bei ALL:
 always	all	AQ	
 always	aal	AAL	
 
-# AN  (4.1 Lautgruppenkürzungen)
+# AN  (4.1 LautgruppenkÃ¼rzungen)
 word	an	+	
 begmidword	an	+	
 always	afrikaans	AFRIKAANS	
@@ -82,7 +82,7 @@ always	orleans	?LEANS
 always	jean	JEAN	
 always	olympia	OL'YMPIA	
 
-# AR  (4.1 Lautgruppenkürzungen)
+# AR  (4.1 LautgruppenkÃ¼rzungen)
 begmidword	ar	)	
 always	kassandra	KA^+DRA	
 always	aar	AAR	
@@ -93,26 +93,26 @@ begmidword	shakespear	SHAK%PEAR
 sufword	sears	SEARS	
 begmidword	costaric	'CO]ARI'C	
 
-# AU  (4.1 Lautgruppenkürzungen)
+# AU  (4.1 LautgruppenkÃ¼rzungen)
 word	au	'1	
 always	au	1	
 always	kapernaum	KAP7NAUM	
 
-# ÄU  (4.1 Lautgruppenkürzungen)
-always	äu	\	
-always	skarabäus	SK)AB@US	
-always	thaddäus	THADD@US	
-always	zebedäus	ZE;D@US	
-always	matthäus	MATTH@US	
-always	trochäus	TRO4@US	
-always	ptolemäus	PTOL[@US	
-always	bartimäus	B)TIM@US	
-always	bartholomäus	B)THOLOM@US	
-always	borromäus	B?ROM@US	
-always	athenäum	ATHC@UM	
-always	piräus	PIR@US	
+# Ã„U  (4.1 LautgruppenkÃ¼rzungen)
+always	Ã¤u	\	
+always	skarabÃ¤us	SK)AB@US	
+always	thaddÃ¤us	THADD@US	
+always	zebedÃ¤us	ZE;D@US	
+always	matthÃ¤us	MATTH@US	
+always	trochÃ¤us	TRO4@US	
+always	ptolemÃ¤us	PTOL[@US	
+always	bartimÃ¤us	B)TIM@US	
+always	bartholomÃ¤us	B)THOLOM@US	
+always	borromÃ¤us	B?ROM@US	
+always	athenÃ¤um	ATHC@UM	
+always	pirÃ¤us	PIR@US	
 
-# BE  (4.1 Lautgruppenkürzungen)
+# BE  (4.1 LautgruppenkÃ¼rzungen)
 word	be	BE	
 begmidword	be	;	
 sufword	beagl	BEAGL	
@@ -176,21 +176,21 @@ always	label	LABY
 always	nabel	NABY	
 always	annabell	+NA;Q	
 always	schnabel	5NABY	
-always	schnäbel	5N@BY	
+always	schnÃ¤bel	5N@BY	
 always	rabel	RABY	
 always	sabel	SABY	
 always	isabell	ISA;Q	
 always	rosabell	ROSA;Q	
-always	säbel	S@BY	
+always	sÃ¤bel	S@BY	
 always	tabel	TABY	
 always	tabell	TA;Q	
-always	schwäbel	5W@BY	
+always	schwÃ¤bel	5W@BY	
 always	babbel	BABBY	
 always	kabbel	KABBY	
 always	quabbel	'QUABBY	
 always	brabbel	BRABBY	
 always	grabbel	GRABBY	
-always	schräbbel	5R@BBY	
+always	schrÃ¤bbel	5R@BBY	
 always	krabbel	KRABBY	
 always	sabbel	SABBY	
 always	wabbel	WABBY	
@@ -217,18 +217,18 @@ always	obelix	OBYI'X
 always	gobelin	GOBY*	
 always	hobel	HOBY	
 always	kobel	KOBY	
-always	möbel	M9BY	
+always	mÃ¶bel	M9BY	
 always	nobel	NOBY	
 always	knobel	KNOBY	
-always	pöbel	P9BY	
+always	pÃ¶bel	P9BY	
 always	zobel	ZOBY	
-always	bärbel	B@RBY	
+always	bÃ¤rbel	B@RBY	
 always	scherbel	57BY	
 always	kerbel	K7BY	
 always	wirbel	WIRBY	
 always	zirbel	ZIRBY	
 always	kurbel	KURBY	
-always	übel	8BY	
+always	Ã¼bel	8BY	
 always	dubel	DUBY	
 always	deubel	D2BY	
 always	doubel	DOUBY	
@@ -240,7 +240,7 @@ always	rubella	RU;QA
 endword	bem	B[	
 always	bemm	;X	
 always	bemann	;M+N	
-always	bemänn	;!MN	
+always	bemÃ¤nn	;!MN	
 always	bembel	B[BY	
 # BEn
 always	ben	BC	
@@ -268,21 +268,21 @@ always	arabesk	)AB%K
 always	arabesqu	)AB%'QU	
 begmidword	robespierr	ROB%PI7R	
 
-# C   (4.1 Lautgruppenkürzungen)
+# C   (4.1 LautgruppenkÃ¼rzungen)
 word	c	'C	
 always	c	'C	
-# Grossgeschriebene Wortanfänge erhalten sonst keinen Pt.6!
+# Grossgeschriebene WortanfÃ¤nge erhalten sonst keinen Pt.6!
 #=#context ["C"]$u @6-14
 
-# CH  (4.1 Lautgruppenkürzungen)
+# CH  (4.1 LautgruppenkÃ¼rzungen)
 word	ch	'4	
 always	ch	4	
 
-# CK  (4.1 Lautgruppenkürzungen)
+# CK  (4.1 LautgruppenkÃ¼rzungen)
 word	ck	'CK	
 midendword	ck	$	
 
-# EH  (4.1 Lautgruppenkürzungen)
+# EH  (4.1 LautgruppenkÃ¼rzungen)
 midword	eh	=	
 midendword	ehand	EH+D	
 midendword	ehaut	EH1T	
@@ -292,14 +292,14 @@ midendword	ehirt	EHIRT
 midendword	ehobel	EHOBY	
 midendword	ehoch	EHO4	
 midendword	ehohl	EHOHL	
-midendword	ehöhl	EH9HL	
+midendword	ehÃ¶hl	EH9HL	
 midendword	eholz	EHOLZ	
-midendword	ehölz	EH9LZ	
+midendword	ehÃ¶lz	EH9LZ	
 midendword	ehotel	EHOTY	
 midendword	ehund	EH/D	
 midendword	ehunger	EH/G7	
-endword	ehöhe	EH9HE	
-midendword	ehöhen	EH9HC	
+endword	ehÃ¶he	EH9HE	
+midendword	ehÃ¶hen	EH9HC	
 always	radehack	RADEHA$	
 before_h_begmidword	bade	BADE	
 before_h_begmidword	lade	LADE	
@@ -319,7 +319,7 @@ always	seehei	SEEH3
 always	seeheld	SEEHYD	
 always	seeherr	SEEH7R	
 always	seehimmel	SEEHIXY	
-always	seehügel	SEEH8GY	
+always	seehÃ¼gel	SEEH8GY	
 before_h_begmidword	trage	TGE	
 before_h_begmidword	wache	W<E	
 before_h_begmidword	asche	A5E	
@@ -333,22 +333,22 @@ always	stoneheng	]ONEHCG
 before_h_begmidword	aloe	:OE	
 always	benzoeharz	BCZOEH)Z	
 always	warehaus	W)EH1S	
-begmidword	warehäus	W)EH\S	
+begmidword	warehÃ¤us	W)EH\S	
 midendword	eholz	W)EH\S	
 always	nasehorn	NASEH?N	
-always	nasehörn	NASEH9RN	
-before_h_begmidword	gänse	G@NSE	
-before_h_begmidword	löse	L9SE	
+always	nasehÃ¶rn	NASEH9RN	
+before_h_begmidword	gÃ¤nse	G@NSE	
+before_h_begmidword	lÃ¶se	L9SE	
 before_h_begmidword	messe	ME^E	
 begmidword	lausehark	L1SEH)K	
-before_h_begmidword	gemüse	&M8SE	
+before_h_begmidword	gemÃ¼se	&M8SE	
 before_h_begmidword	watte	WAT(	
 before_h_begmidword	gewichte	&W#(	
 before_h_begmidword	brave	BRAVE	
 before_h_begmidword	bronze	BRONZE	
 begword	itzeho	ITZEHO	
 
-# EI  (4.1 Lautgruppenkürzungen)
+# EI  (4.1 LautgruppenkÃ¼rzungen)
 word	ei	'3	
 always	ei	3	
 midword	eikon	EIKON	
@@ -367,8 +367,8 @@ always	prometheisch	PROMETHEI5
 always	galilei	G:ILEI	
 always	acrolein	A'CROLEIN	
 always	akrolein	AKROLE*	
-before_i_begmidword	wärme	W@RME	
-always	äneis	@NEIS	
+before_i_begmidword	wÃ¤rme	W@RME	
+always	Ã¤neis	@NEIS	
 always	aeneis	AENEIS	
 always	guineisch	GU*EI5	
 always	boeing	BOE*G	
@@ -377,22 +377,22 @@ always	epikureisch	EPIKUREI5
 always	eritreisch	7ITREI5	
 always	kureismus	KURE!I	
 always	kasein	KASE*	
-before_i_begmidword	kälte	K@L(	
+before_i_begmidword	kÃ¤lte	K@L(	
 always	weight	WEIGHT	
 
-# EIN (4.1 Lautgruppenkürzungen)
+# EIN (4.1 LautgruppenkÃ¼rzungen)
 always	ein	6	
 always	khomeini	KHOME*I	
 always	speinuss	SP3NU^	
-begmidword	speinüss	SP3N8^	
+begmidword	speinÃ¼ss	SP3N8^	
 
-# EL  (4.1 Lautgruppenkürzungen)
+# EL  (4.1 LautgruppenkÃ¼rzungen)
 word	el	EL	
 always	el	Y	
 word	elen	ELC	
 always	eel	EEL	
 midendword	eeland	EEL+D	
-midendword	eeländ	EEL@ND	
+midendword	eelÃ¤nd	EEL@ND	
 always	eelili	EELILI	
 always	eelini	EEL*I	
 always	ell	EQ	
@@ -412,15 +412,15 @@ always	treidell	TR3DYL
 before_l_begmidword	getreide	&TR3DE	
 midendword	eelicht	EE_T	
 always	tafelland	TAFYL+D	
-begmidword	tafelländ	TAFYL@ND	
+begmidword	tafellÃ¤nd	TAFYL@ND	
 always	schwefel	5WEFY	
 always	stiefel	]0FY	
 always	staffel	]AFFY	
-always	trüffel	TR8FFY	
+always	trÃ¼ffel	TR8FFY	
 always	gipfel	GIPFY	
 always	schaufel	51FY	
 always	hufeland	HUFEL+D	
-always	hufeländ	HUFEL@ND	
+always	hufelÃ¤nd	HUFEL@ND	
 before_l_begmidword	goethe	GOETHE	
 before_l_begmidword	ruhe	RUHE	
 before_l_begmidword	lake	LAKE	
@@ -428,16 +428,16 @@ always	fackel	FA$Y
 always	sockel	SO$Y	
 always	schenkel	5CKY	
 always	dunkel	D/KY	
-always	schnörkel	5N9RKY	
+always	schnÃ¶rkel	5N9RKY	
 always	muskel	MUSKY	
-always	pökel	P9KY	
+always	pÃ¶kel	P9KY	
 before_l_begmidword	kohle	KOHLE	
 before_l_begmidword	koschenille	KO5CIQE	
 always	memelland	M[YL+D	
-always	memelländ	M[YL@ND	
+always	memellÃ¤nd	M[YL@ND	
 always	sammel	SAXY	
 always	homeland	HOMEL+D	
-before_l_begmidword	ärmel	@RMY	
+before_l_begmidword	Ã¤rmel	@RMY	
 before_l_begmidword	saigne	SAIGNE	
 always	annelies	+NEL0S	
 begmidword	annelieschen	+NEL0S4C	
@@ -452,32 +452,32 @@ always	skrupel	SKRUPY
 always	ireland	IREL+D	
 before_l_begmidword	basel	BASY	
 always	faseleber	FASYEB7	
-before_l_begmidword	gänse	G@NSE	
+before_l_begmidword	gÃ¤nse	G@NSE	
 always	mosel	MOSY	
 always	cleveland	'CLEVEL+D	
 always	havelland	HAVYL+D	
-begmidword	havelländ	HAVYL@ND	
+begmidword	havellÃ¤nd	HAVYL@ND	
 
-# EM  (4.1 Lautgruppenkürzungen)
+# EM  (4.1 LautgruppenkÃ¼rzungen)
 word	em	EM	
 always	em	[	
 always	emm	EX	
 midendword	emacher	EM<7	
 midendword	emann	EM+N	
 midendword	emark	M)K	
-midendword	emärk	M@RK	
+midendword	emÃ¤rk	M@RK	
 before_m_begmidword	reggae	REGGAE	
 always	annemarie	+NEM)0	
-always	grönemeyer	GR9NEME'Y7	
-always	warnemünd	W)NEM8ND	
+always	grÃ¶nemeyer	GR9NEME'Y7	
+always	warnemÃ¼nd	W)NEM8ND	
 always	remagen	REMAGC	
 always	remark	REM)K	
 before_m_begmidword	ampere	AMP7E	
 begmidword	rosemar	ROSEM)	
 always	krauseminz	KR1SEM*Z	
-begmidword	travemünd	TRAVEM8ND	
+begmidword	travemÃ¼nd	TRAVEM8ND	
 
-# EN  (4.1 Lautgruppenkürzungen)
+# EN  (4.1 LautgruppenkÃ¼rzungen)
 word	en	EN	
 always	en	C	
 always	schmiedenagel	5M0DENAGY	
@@ -490,14 +490,14 @@ prfword	steen	]EEN
 prfword	steens	]EENS	
 always	colleen	'COQEEN	
 begmidword	seenelk	SEENYK	
-begmidword	peenemünd	PEENEM8ND	
+begmidword	peenemÃ¼nd	PEENEM8ND	
 sufword	maureen	M1REEN	
 sufword	siena	SICA	
 always	sienesisch	SIC%I5	
 always	villeneuv	VIQEN2V	
 always	phoenix	PHOENI'X	
 
-# ER  (4.1 Lautgruppenkürzungen)
+# ER  (4.1 LautgruppenkÃ¼rzungen)
 always	er	7	
 always	aerobic	AEROBI'C	
 always	beer	BEER	
@@ -517,7 +517,7 @@ always	teer	TEER
 before_er_begmidword	hunde	H/DE	
 always	hundert	H/D7T	
 always	heiderauch	H3DER14	
-begmidword	heiderös	H3DER9S	
+begmidword	heiderÃ¶s	H3DER9S	
 always	weiderind	W3DER*D	
 before_er_begmidword	pferde	PF7DE	
 always	ascheregen	A5EREGC	
@@ -531,7 +531,7 @@ before_er_begmidword	sterne	]7NE
 sufword	moers	MOERS	
 always	rhinoze	RHINOZE	
 
-# ES  (4.1 Lautgruppenkürzungen)
+# ES  (4.1 LautgruppenkÃ¼rzungen)
 always	es	%	
 midendword	eshire	ESHIRE	
 midendword	eshires	ESHIR%	
@@ -570,15 +570,15 @@ before_s_begmidword	ampere	AMP7E
 prfword	freesie	FREESIE	
 always	heesters	HEE]7S	
 always	moleskin	MOLESK*	
-always	möhnesee	M9HNESEE	
+always	mÃ¶hnesee	M9HNESEE	
 always	coesfeld	'COESFYD	
 always	soest	SOE]	
 begmidword	shiresauc	SHIRES1'C	
 always	matestrauch	MA(]R14	
-always	matesträucher	MA(]R\47	
+always	matestrÃ¤ucher	MA(]R\47	
 begmidword	bayessch	BA'Y%5	
 
-# EU  (4.1 Lautgruppenkürzungen)
+# EU  (4.1 LautgruppenkÃ¼rzungen)
 word	eu	EU	
 always	eu	2	
 always	timaeus	TIMAEUS	
@@ -599,9 +599,9 @@ always	themseufer	TH[SEUF7
 always	colosseum	'COLO^EUM	
 always	kolosseum	KOLO^EUM	
 always	museum	MUSEUM	
-always	andrözeum	+DR9ZEUM	
+always	andrÃ¶zeum	+DR9ZEUM	
 
-# GE  (4.1 Lautgruppenkürzungen)
+# GE  (4.1 LautgruppenkÃ¼rzungen)
 word	ge	GE	
 always	ge	&	
 endword	geur	G2R	
@@ -630,8 +630,8 @@ prfword	geltet	GY(T
 always	gelz	GYZ	
 always	hagel	HAGY	
 always	nagel	NAGY	
-always	nägel	N@GY	
-always	wägel	W@GY	
+always	nÃ¤gel	N@GY	
+always	wÃ¤gel	W@GY	
 always	zagel	ZAGY	
 always	egel	EGY	
 always	schniegel	5N0GY	
@@ -665,29 +665,29 @@ always	pingel	P*GY
 always	ringel	R*GY	
 always	tingel	T*GY	
 always	zingel	Z*GY	
-always	klüngel	KL8NGY	
-always	züngel	Z8NGY	
+always	klÃ¼ngel	KL8NGY	
+always	zÃ¼ngel	Z8NGY	
 always	kogel	KOGY	
 always	mogel	MOGY	
 always	vogel	VOGY	
-always	vögel	V9GY	
+always	vÃ¶gel	V9GY	
 always	spargel	SP)GY	
 always	mergel	M7GY	
 always	pergel	P7GY	
 always	orgel	?GY	
-always	nörgel	N9RGY	
-always	spörgel	SP9RGY	
+always	nÃ¶rgel	N9RGY	
+always	spÃ¶rgel	SP9RGY	
 always	gurgel	GURGY	
-always	äugel	\GY	
-always	bügel	B8GY	
-always	hügel	H8GY	
+always	Ã¤ugel	\GY	
+always	bÃ¼gel	B8GY	
+always	hÃ¼gel	H8GY	
 always	gugel	GUGY	
 always	kugel	KUGY	
-always	kügel	K8GY	
-always	klügel	KL8GY	
-always	flügel	FL8GY	
-always	prügel	PR8GY	
-always	zügel	Z8GY	
+always	kÃ¼gel	K8GY	
+always	klÃ¼gel	KL8GY	
+always	flÃ¼gel	FL8GY	
+always	prÃ¼gel	PR8GY	
+always	zÃ¼gel	Z8GY	
 # GEm
 prfword	gem	G[	
 always	gemini	G[*I	
@@ -718,7 +718,7 @@ always	gerberei	G7B73
 always	gerberin	G7B7*	
 prfword	gerbern	G7B7N	
 prfword	gerbers	G7B7S	
-always	gerbrück	G7BR8$	
+always	gerbrÃ¼ck	G7BR8$	
 always	gerecht	&RE4T	
 syllable	gerfalk	G7F:K	
 midword	gergeb	G7&B	
@@ -761,14 +761,14 @@ syllable	gerwig	G7W>
 syllable	gerwin	G7W*	
 always	haager	HAAG7	
 always	hager	HAG7	
-always	häger	H@G7	
-always	jäger	J@G7	
+always	hÃ¤ger	H@G7	
+always	jÃ¤ger	J@G7	
 always	lager	LAG7	
-always	läger	L@G7	
+always	lÃ¤ger	L@G7	
 always	prager	PRAG7	
 always	vager	VAG7	
 always	schwager	5WAG7	
-always	schwäger	5W@G7	
+always	schwÃ¤ger	5W@G7	
 always	voyager	VO'YAG7	
 always	cambridger	'CAMBRIDG7	
 always	ludger	LUDG7	
@@ -805,15 +805,15 @@ always	tilger	TILG7
 always	holger	HOLG7	
 prfword	anger	+G7	
 sufword	angerdorf	+G7D?F	
-sufword	angerdörfer	+G7D9RF7	
+sufword	angerdÃ¶rfer	+G7D9RF7	
 prfword	angern	+G7N	
 prfword	angern	+G7S	
-always	fänger	F@NG7	
-always	gänger	G@NG7	
+always	fÃ¤nger	F@NG7	
+always	gÃ¤nger	G@NG7	
 always	hanger	H+G7	
-always	hänger	H@NG7	
+always	hÃ¤nger	H@NG7	
 always	pranger	PR+G7	
-always	sänger	S@NG7	
+always	sÃ¤nger	S@NG7	
 always	tanger	T+G7	
 always	vanger	V+G7	
 always	wanger	W+G7	
@@ -830,42 +830,42 @@ always	vaihinger	VAIH*G7
 always	hongkonger	HONGKONG7	
 always	hunger	H/G7	
 always	junger	J/G7	
-always	dünger	D8NG7	
-always	jünger	J8NG7	
+always	dÃ¼nger	D8NG7	
+always	jÃ¼nger	J8NG7	
 always	roger	ROG7	
-always	dröger	DR9G7	
-always	zöger	Z9G7	
+always	drÃ¶ger	DR9G7	
+always	zÃ¶ger	Z9G7	
 always	arger	)G7	
 always	berger	B7G7	
 always	birger	BIRG7	
 always	sorger	S?G7	
 always	burger	BURG7	
-always	bürger	B8RG7	
-always	würger	W8RG7	
-always	böttger	B9TTG7	
+always	bÃ¼rger	B8RG7	
+always	wÃ¼rger	W8RG7	
+always	bÃ¶ttger	B9TTG7	
 always	sauger	S1G7	
-always	säuger	S\G7	
+always	sÃ¤uger	S\G7	
 always	beuger	B2G7	
 always	zeuger	Z2G7	
 always	kluger	KLUG7	
-always	klüger	KL8G7	
-always	pflüger	PFL8G7	
-always	trüger	TR8G7	
-always	krüger	KR8G7	
+always	klÃ¼ger	KL8G7	
+always	pflÃ¼ger	PFL8G7	
+always	trÃ¼ger	TR8G7	
+always	krÃ¼ger	KR8G7	
 prfword	zuger	ZUG7	
-always	züger	Z8G7	
+always	zÃ¼ger	Z8G7	
 always	metzger	METZG7	
 
 # GEs
 prfword	ges	G%	
 
-# ICH (4.1 Lautgruppenkürzungen)
+# ICH (4.1 LautgruppenkÃ¼rzungen)
 word	ich	#	
 midendword	ich	#	
 prfword	dichlor	DI4LOR	
 begmidword	dichlor	DI4L?	
 
-# IE  (4.1 Lautgruppenkürzungen)
+# IE  (4.1 LautgruppenkÃ¼rzungen)
 midendword	ie	0	
 # IEll
 midendword	iell	IEQ	
@@ -1049,7 +1049,7 @@ always	pierrot	PI7ROT
 always	pieta	PIETA	
 ### auch mit Akzent   pieta                      PIEtTA
 always	pietro	PIETRO	
-begmidword	äthiopi	@THIOPI	
+begmidword	Ã¤thiopi	@THIOPI	
 prfword	rupie	RUPIE	
 always	rupien	RUPIC	
 # qIE
@@ -1168,11 +1168,11 @@ begmidword	grazi	GRAZI
 begmidword	pistazi	PI]AZI	
 begmidword	allochezi	AQO4EZI	
 begmidword	alopezi	:OPEZI	
-begmidword	phönizi	PH9NIZI	
+begmidword	phÃ¶nizi	PH9NIZI	
 always	patrizier	PATRIZI7	
 begmidword	alkylanzi	:K'YL+ZI	
 
-# IG  (4.1 Lautgruppenkürzungen)
+# IG  (4.1 LautgruppenkÃ¼rzungen)
 midendword	ig	>	
 midword	ignor	IGN?	
 endword	ignor	IGNOR	
@@ -1198,7 +1198,7 @@ always	aborigines	AB?>*%
 always	trigeminus	TRIG[*US	
 always	sight	SIGHT	
 prfword	sign	SIGN	
-### Akzent              signifié
+### Akzent              signifiÃ©
 prfword	signs	SIGNS	
 always	luigi	LUIGI	
 always	avignon	AVIGNON	
@@ -1206,7 +1206,7 @@ always	savigny	SAVIGN'Y
 always	sauvignon	S1VIGNON	
 always	dwight	DWIGHT	
 
-# IN  (4.1 Lautgruppenkürzungen)
+# IN  (4.1 LautgruppenkÃ¼rzungen)
 always	in	*	
 always	cain	'CAIN	
 always	novocain	NOVO'CA*	
@@ -1238,24 +1238,24 @@ always	antoin	+TOIN
 always	allantoin	AQ+TO*	
 always	multination	MULTIN!N	
 always	aschantinuss	A5+TINU^	
-always	aschantinüss	A5+TIN8^	
+always	aschantinÃ¼ss	A5+TIN8^	
 always	mannequin	M+NE'QU*	
 
-# LICH (4.1 Lautgruppenkürzungen)
+# LICH (4.1 LautgruppenkÃ¼rzungen)
 midendword	lich	_	
 
-# LL  (4.1 Lautgruppenkürzungen)
+# LL  (4.1 LautgruppenkÃ¼rzungen)
 midendword	ll	Q	
 # Alte Rechtschreibung
-always	büffel	B8FFY	
-always	schlängel	5L@NGY	
-begmidword	henkellöch	HCKYL94	
+always	bÃ¼ffel	B8FFY	
+always	schlÃ¤ngel	5L@NGY	
+begmidword	henkellÃ¶ch	HCKYL94	
 always	schunkel	5/KY	
 always	bummel	BUXY	
 always	murmel	MURMY	
 always	kessel	KE^Y	
-always	schüssel	58^Y	
-always	schlüssel	5L8^Y	
+always	schÃ¼ssel	58^Y	
+always	schlÃ¼ssel	5L8^Y	
 before_l_midword	hl	HL	
 before_l_begmidword	fehl	F=L	
 before_l_begmidword	kehl	K=L	
@@ -1266,7 +1266,7 @@ before_l_begmidword	steil	]3L
 always	bouteill	BOUTEIQ	
 before_l_begmidword	april	APRIL	
 
-# MM  (4.1 Lautgruppenkürzungen)
+# MM  (4.1 LautgruppenkÃ¼rzungen)
 before_m_begmidword	heim	H3M	
 before_m_begmidword	leim	L3M	
 before_m_begmidword	lm	LM	
@@ -1276,10 +1276,10 @@ before_m_begmidword	rm	RM
 before_m_begmidword	arm	)M	
 before_m_begmidword	orm	?M	
 before_m_begmidword	aum	1M	
-before_m_begmidword	äum	\M	
+before_m_begmidword	Ã¤um	\M	
 before_m_begmidword	ium	IUM	
 
-# OR  (4.1 Lautgruppenkürzungen)
+# OR  (4.1 LautgruppenkÃ¼rzungen)
 begmidword	or	?	
 always	kongo	KONGO	
 always	jericho	J7#O	
@@ -1288,15 +1288,15 @@ always	gallo	GAQO
 always	eskimo	%KIMO	
 always	oor	OOR	
 always	rororo	RORORO	
-always	rätorom	R@TOROM	
+always	rÃ¤torom	R@TOROM	
 
-# Q   (4.1 Lautgruppenkürzungen)
+# Q   (4.1 LautgruppenkÃ¼rzungen)
 word	q	'Q	
 always	q	'Q	
-# Grossgeschriebene Wortanfänge erhalten sonst keinen Pt.6!
+# Grossgeschriebene WortanfÃ¤nge erhalten sonst keinen Pt.6!
 #=#context ["Q"]$u @6-12345
 
-# SCH (4.1 Lautgruppenkürzungen)
+# SCH (4.1 LautgruppenkÃ¼rzungen)
 word	sch	'5	
 always	sch	5	
 always	maraschino	M)AS4*O	
@@ -1304,13 +1304,13 @@ begmidword	eschatolo	%4ATOLO
 always	lieschen	L0S4C	
 always	wieschen	W0S4C	
 always	ischia	IS4IA	
-always	hänschen	H@NS4C	
+always	hÃ¤nschen	H@NS4C	
 
-# ß   (4.1 Lautgruppenkürzungen)
-always	ß	'^	
+# ÃŸ   (4.1 LautgruppenkÃ¼rzungen)
+always	ÃŸ	'^	
 ### MACH NOCH ....
 
-# SS  (4.1 Lautgruppenkürzungen)
+# SS  (4.1 LautgruppenkÃ¼rzungen)
 midendword	ss	^	
 midword	ssch	S5	
 midendword	sschnee	S5NEE	
@@ -1324,10 +1324,10 @@ syllable	staffel	]AFFY
 syllable	stahl	]AHL	
 syllable	stausee	]1SEE	
 syllable	stauseen	]1SEC	
-syllable	städte	]@D(	
-syllable	städten	]@DTC	
-syllable	städter	]@DT7	
-syllable	stöck	]9$	
+syllable	stÃ¤dte	]@D(	
+syllable	stÃ¤dten	]@DTC	
+syllable	stÃ¤dter	]@DT7	
+syllable	stÃ¶ck	]9$	
 syllable	sylvani	S'YLV+I	
 midendword	ssaal	SSAAL	
 always	flussaal	FLU^AAL	
@@ -1367,7 +1367,7 @@ midendword	sstollen	S]OQC
 midendword	sstolz	S]OLZ	
 midendword	sstrand	S]R+D	
 midendword	sstrauch	S]R14	
-midendword	sstraß	S]RA'^	
+midendword	sstraÃŸ	S]RA'^	
 endword	sstreck	S]RE$	
 endword	sstube	S]UBE	
 midendword	sstuben	S]UBC	
@@ -1375,12 +1375,12 @@ endword	sstute	S]U(
 midendword	sstuten	S]UTC	
 midendword	sstutz	S]UTZ	
 midendword	ssumpf	SSUMPF	
-endword	ssäle	SS@LE	
-midendword	ssälen	SS@LC	
-midendword	ssäuger	SS\G7	
-midendword	ssäugetier	SS\&T0R	
-endword	ssäule	SS\LE	
-midendword	ssäulen	SS\LC	
+endword	ssÃ¤le	SS@LE	
+midendword	ssÃ¤len	SS@LC	
+midendword	ssÃ¤uger	SS\G7	
+midendword	ssÃ¤ugetier	SS\&T0R	
+endword	ssÃ¤ule	SS\LE	
+midendword	ssÃ¤ulen	SS\LC	
 always	niklas	NIKLAS	
 always	nicklas	NI$LAS	
 always	krebs	KREBS	
@@ -1388,7 +1388,7 @@ before_s_begmidword	leibs	L3BS
 always	weibs	W3BS	
 always	kalbs	K:BS	
 always	jakobs	JAKOBS	
-always	jakobstraß	JAKOB]RA'^	
+always	jakobstraÃŸ	JAKOB]RA'^	
 always	ericsson	7I'CSSON	
 always	herolds	H7OLDS	
 always	heroldstab	H7OLD]AB	
@@ -1397,7 +1397,7 @@ always	anissamen	+ISSAMC
 always	johannis	JOH+NIS	
 always	karls	K)LS	
 always	karlstad	K)L]AD	
-begmidword	karlstraß	K)L]RA'^	
+begmidword	karlstraÃŸ	K)L]RA'^	
 before_s_begword	kokos	KOKOS	
 always	kosmos	KOSMOS	
 before_s_begmidword	moos	MOOS	
@@ -1413,7 +1413,7 @@ always	venus	VCUS
 always	taunus	T1NUS	
 always	papyrus	PAP'YRUS	
 
-# ST  (4.1 Lautgruppenkürzungen)
+# ST  (4.1 LautgruppenkÃ¼rzungen)
 word	st	ST	
 always	st	]	
 word	sta	STA	
@@ -1430,7 +1430,7 @@ always	thomasst	THOMAS]
 always	juliusturm	JULIUSTURM	
 always	konfuziustempel	KONFUZIUST[PY	
 
-# TE  (4.1 Lautgruppenkürzungen)
+# TE  (4.1 LautgruppenkÃ¼rzungen)
 midendword	te	(	
 always	tee	TEE	
 midendword	tei	T3	
@@ -1442,7 +1442,7 @@ always	teur	T2R
 always	teutoburg	T2TOBURG	
 always	teuton	T2TON	
 always	saateul	SAAT2L	
-### Verallgemeinerung zu gefährlich?
+### Verallgemeinerung zu gefÃ¤hrlich?
 midendword	teau	TE1	
 always	proteus	PROT2S	
 always	gutedel	GUTEDY	
@@ -1476,26 +1476,26 @@ sufword	tess	TE^
 sufword	test	TE]	
 midendword	test	(]	
 
-# UN  (4.1 Lautgruppenkürzungen)
+# UN  (4.1 LautgruppenkÃ¼rzungen)
 word	un	UN	
 always	un	/	
 always	mount	MOUNT	
 always	bantuneger	B+TUNEG7	
 
-# X   (4.1 Lautgruppenkürzungen)
+# X   (4.1 LautgruppenkÃ¼rzungen)
 word	x	'X	
 always	x	'X	
-# Grossgeschriebene Wortanfänge erhalten sonst keinen Pt.6!
+# Grossgeschriebene WortanfÃ¤nge erhalten sonst keinen Pt.6!
 #=#context ["X"]$u @6-1346
 
-# Y   (4.1 Lautgruppenkürzungen)
+# Y   (4.1 LautgruppenkÃ¼rzungen)
 word	y	'Y	
 always	y	'Y	
-# Grossgeschriebene Wortanfänge erhalten sonst keinen Pt.6!
+# Grossgeschriebene WortanfÃ¤nge erhalten sonst keinen Pt.6!
 #=#context ["Y"]$u @6-13456
 
 
-###############  Weitere erlaubte Kürzungen ####################
+###############  Weitere erlaubte KÃ¼rzungen ####################
 
 word	von	V	
 

@@ -2,11 +2,11 @@
 #
 #  sbs-special.mod
 #
-#  Rausputzen von Hilfsmarkierungen (Kürzungsverbot etc.)
+#  Rausputzen von Hilfsmarkierungen (KÃ¼rzungsverbot etc.)
 #
 #-------------------------------------------------------------------------------
 
-# Kürzungsverbot entfernen
+# KÃ¼rzungsverbot entfernen
 pass2 @a ?
 # Apostroph vor Zahl ('98)
 pass2 @3456-69 @3456-6
@@ -19,7 +19,7 @@ pass2 @3456-b ?
 pass2 @ab @6
 
 # Fehlende Lettersigns bei Zahl-Buchstaben-Verbindung in Kurzschrift bei
-# Buchstaben a-j ergänzen
+# Buchstaben a-j ergÃ¤nzen
 pass2 @ac-1 @6-1
 pass2 @ac-12 @6-12
 pass2 @ac-14 @6-14
@@ -43,22 +43,22 @@ pass2 @ac-6-24 @6-24
 pass2 @ac-6-245 @6-245
 # Restliche Lettersigns bei Zahl-Buchstaben-Verbindung in Kurzschrift entfernen
 pass2 @ac-6 ?
-# Markierung für Zahl-Buchstaben-Verbindung in Vollschrift entfernen
+# Markierung fÃ¼r Zahl-Buchstaben-Verbindung in Vollschrift entfernen
 pass2 @ac ?
 
 # Trennmarke "m" nach Bindestrich
 # This is now handled by the Java bindings 
 #pass2 @36 @36-d
 
-# Korrektur: Kürzung "des" zwischen Bindestrichen auflösen
+# Korrektur: KÃ¼rzung "des" zwischen Bindestrichen auflÃ¶sen
 #pass3 @36-d-3-36-d @36-d-145-123456-36-d
 pass3 @36-3-36 @36-145-123456-36
-# Korrektur: Kürzung "im" zwischen Bindestrichen auflösen
+# Korrektur: KÃ¼rzung "im" zwischen Bindestrichen auflÃ¶sen
 #pass3 @36-d-36a-36-d @36-d-24-134-36-d
 pass3 @36-36a-36 @36-24-134-36
 # Korrektur: Als Bindestrich geschriebens Minuszeichen vor Zahl
 pass3 @0-6-36a-6-3456 @0-4-36-3456
-# Korrektur: Kürzung "ver" nach Bindestrich auflösen
+# Korrektur: KÃ¼rzung "ver" nach Bindestrich auflÃ¶sen
 #pass3 @36-d-36a @36-d-1236-12456
 pass3 @36[@36a] @1236-12456
 # Bei allen weiteren P36 virtuellen Punkt a entfernen

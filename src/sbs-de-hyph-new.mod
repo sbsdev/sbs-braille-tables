@@ -2,14 +2,14 @@
 #
 #  sbs-de-hyph-new.mod
 #
-#  Nur Trennmarken für neue Rechtschreibung erhalten
+#  Nur Trennmarken fÃ¼r neue Rechtschreibung erhalten
 #
 #-------------------------------------------------------------------------------
 
-# Für neue Rechtschreibung reservierte in "normale" Trennmarke ändern
+# FÃ¼r neue Rechtschreibung reservierte in "normale" Trennmarke Ã¤ndern
 pass2 @cb @e
 
-# Für alte Rechtschreibung reservierte Trennmarken entfernen
+# FÃ¼r alte Rechtschreibung reservierte Trennmarken entfernen
 pass2 @ca ?
 pass2 @cd ?
 pass2 @ce ?
