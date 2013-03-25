@@ -1645,7 +1645,7 @@ word                                    ebendieses          EBCt0%
 # DIR (4.4 Zweiformige Kürzungen)
 word                                    dir                 DR
 word                                    dir's               DR'S
-word                                    dr                  'DR
+#word                                   dr                  'DR	(moved to whitelist)
 always                                  dr.                 DR.
 
 # DOCH (4.4 Zweiformige Kürzungen)
@@ -6581,9 +6581,9 @@ always                                  mehr                ,=
 # MIR (4.4 Zweiformige Kürzungen)
 always                                  mir                 MR
 always                                  mir's               MR'S
-word                                    mr                  'MR
+#word                                   mr                  'MR	(moved to whitelist)
 always                                  mr.                 MR.
-word                                    mrs                 'MRS
+#word                                   mrs                 'MRS	(moved to whitelist)
 always                                  mrs.                MRS.
 always                                  mira                MItRA
 always                                  miranda             MItR+tDA
