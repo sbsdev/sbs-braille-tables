@@ -160,7 +160,7 @@ sign          \x2122 2356-45-2345-2356 #8482   TRADE MARK SIGN
 # ===== NUMBER FORMS: 2150-218F ================================================
 
 math          \x2153 3456-1-25               VULGAR FRACTION ONE THIRD
-math          \x2154 3456-12-23              VULGAR FRACTION TWO THIRDS
+math          \x2154 3456-12-25              VULGAR FRACTION TWO THIRDS
 math          \x2155 3456-1-26               VULGAR FRACTION ONE FIFTH
 math          \x2156 3456-12-26              VULGAR FRACTION TWO FIFTHS
 math          \x2157 3456-14-26              VULGAR FRACTION THREE FIFTHS
