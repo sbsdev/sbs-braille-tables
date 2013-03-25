@@ -1,4 +1,4 @@
-#-------------------------------------------------------------------------------
+﻿#-------------------------------------------------------------------------------
 #
 #  sbs-de-g2-place.mod
 #
@@ -7,28 +7,28 @@
 #-------------------------------------------------------------------------------
 
 # ÜBER (4.3.2 Einformige Kürzungen, alleinstehend oder in Wortverbindungen)
-begword	über	,8	
+begword                        über                         ,8w
 
 # UNTER (4.3.2 Einformige Kürzungen, alleinstehend oder in Wortverbindungen)
-begword	unter	,/	
+begword                        unter                        ,/w
 
 # VOR (4.3.2 Einformige Kürzungen, alleinstehend oder in Wortverbindungen)
-begword	vor	,?
+begword                        vor                          ,?w
 
 # STAND STÄND (4.3.6 Kommakürzungen)
-begword	stand	,]	
-begword	ständ	!]	
+begword                        stand                        ,]
+begword                        ständ                        !]
 
 # DEUTSCH (4.4 Zweiformige Kürzungen)
-always	deutsch	D5	
+always                                  deutsch             D5
 
 # GROß GRÖß (4.4 Zweiformige Kürzungen)
-begword	groß	G^	
+begword                        groß                         G^w
 
 # PLATZ PLÄTZ (4.4 Zweiformige Kürzungen)
-endword	platz	PZ	
-endword	platzes	PZ%	
+endword                        platz                        wPZ
+endword                        platzes                      wPZ%
 
 # WEG (4.4 Zweiformige Kürzungen)
-endword	weg	WG	
-endword	wegs	WGS	
+endword                        weg                          wWG
+endword                        wegs                         wWGS
