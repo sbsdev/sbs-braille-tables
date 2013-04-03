@@ -41,9 +41,9 @@
 #=#correct ["\x2013,"]$d "\x2511"
 #=#correct ["\x2014,"]$d "\x2511"
 
-# --- Satzzeichen nach zahlenähnlichen Zeichen ---------------------------------
+# --- Satzzeichen nach zahlen�hnlichen Zeichen ---------------------------------
 
-#=#class puncAfterOrdinal ;:?!()«»
+#=#class puncAfterOrdinal ;:?!()\x00AB\x00BB
 # Prozent
 #=#correct ["%"]%puncAfterOrdinal "%\x250B"
 #=#correct ["%,"] "%\x256C,"
@@ -51,8 +51,41 @@
 #=#correct ["\x2030"]%puncAfterOrdinal "\x2030\x250B"
 #=#correct ["\x2030,"] "\x2030\x256C,"
 # Grad
-#=#correct ["°"]%puncAfterOrdinal "°\x250B"
-#=#correct ["°,"] "°\x256C,"
+#=#correct ["\x00B0"]%puncAfterOrdinal "\x00B0\x250B"
+#=#correct ["\x00B0,"] "\x00B0\x256C,"
+#=#correct "\x00BC"[]%puncAfterOrdinal "\x250B"
+#=#correct "\x00BD"[]%puncAfterOrdinal "\x250B"
+#=#correct "\x00BE"[]%puncAfterOrdinal "\x250B"
+#=#correct "\x2153"[]%puncAfterOrdinal "\x250B"
+#=#correct "\x2154"[]%puncAfterOrdinal "\x250B"
+#=#correct "\x2155"[]%puncAfterOrdinal "\x250B"
+#=#correct "\x2156"[]%puncAfterOrdinal "\x250B"
+#=#correct "\x2157"[]%puncAfterOrdinal "\x250B"
+#=#correct "\x2158"[]%puncAfterOrdinal "\x250B"
+#=#correct "\x2159"[]%puncAfterOrdinal "\x250B"
+#=#correct "\x215a"[]%puncAfterOrdinal "\x250B"
+#=#correct "\x215b"[]%puncAfterOrdinal "\x250B"
+#=#correct "\x215c"[]%puncAfterOrdinal "\x250B"
+#=#correct "\x215d"[]%puncAfterOrdinal "\x250B"
+#=#correct "\x215e"[]%puncAfterOrdinal "\x250B"
+
+# --- Br�che vor Komma
+
+#=#correct "\x00BC"[]"," "'"
+#=#correct "\x00BD"[]"," "'"
+#=#correct "\x00BE"[]"," "'"
+#=#correct "\x2153"[]"," "'"
+#=#correct "\x2154"[]"," "'"
+#=#correct "\x2155"[]"," "'"
+#=#correct "\x2156"[]"," "'"
+#=#correct "\x2157"[]"," "'"
+#=#correct "\x2158"[]"," "'"
+#=#correct "\x2159"[]"," "'"
+#=#correct "\x215a"[]"," "'"
+#=#correct "\x215b"[]"," "'"
+#=#correct "\x215c"[]"," "'"
+#=#correct "\x215d"[]"," "'"
+#=#correct "\x215e"[]"," "'"
 
 # --- Markieren von Zahl-Buchstabenverbindung für Kurzschrift ------------------
 
