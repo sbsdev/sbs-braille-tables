@@ -1,4 +1,4 @@
-# -*- coding: latin-1; -*-
+# -*- coding: utf-8; -*-
 #-------------------------------------------------------------------------------
 #
 #  sbs-de-core.mod
@@ -41,7 +41,7 @@
 #=#correct ["\x2013,"]$d "\x2511"
 #=#correct ["\x2014,"]$d "\x2511"
 
-# --- Satzzeichen nach zahlenähnlichen Zeichen ---------------------------------
+# --- Satzzeichen nach zahlenÃ¤hnlichen Zeichen ---------------------------------
 
 #=#class puncAfterOrdinal ;:?!()\x00AB\x00BB
 # Prozent
@@ -69,7 +69,7 @@
 #=#correct "\x215d"[]%puncAfterOrdinal "\x250B"
 #=#correct "\x215e"[]%puncAfterOrdinal "\x250B"
 
-# --- Brüche vor Komma
+# --- BrÃ¼che vor Komma
 
 #=#correct "\x00BC"[]"," "'"
 #=#correct "\x00BD"[]"," "'"
