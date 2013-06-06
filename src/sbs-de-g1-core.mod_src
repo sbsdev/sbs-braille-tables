@@ -12,13 +12,13 @@
 
 # AU
 always                                  au                  1
-midendword                              aurlaub             AwURtLAUB
+midendword                              aurlaub             AwURtL1B
 always                         propaganda                   PROtPAtGANtDA
-begmidword                          mariaund                M)IAtUND
+begmidword                          mariaund                MAtRIAtUND
 sufword                                kaunda               KAtUNtDA
 always                               galauniform            GAtLAwUNItFORM
 prfword                              manaus                 MAtNAtUS
-always                            kapernaum                 KAtP7tNAtUM
+always                            kapernaum                 KAtPERtNAtUM
 always                             europa                   2ROPA
 before_u_begmidword                 extra                   EXTRA
 before_u_begmidword                 intra                   INTRA
@@ -32,6 +32,7 @@ always                                  äu                  \
 always                            skarabäus                 SKAtRAtB@tUS
 always                            makkabäus                 MAKtKAtB@tUS
 always                             brambäus                 BRAMtB@tUS
+always                             zabadäus                 ZAtBAtD@tUS
 always                             thaddäus                 THADtD@tUS
 always                             zebedäus                 ZEtBEtD@tUS
 always                           scarabae                   SCAtRAtBAE
@@ -68,14 +69,17 @@ midendword                              eidentisch          EwIDENtTI5
 midendword                              eidentität          EwIDENtTItT@T
 midendword                              eideo               EwIDEO
 midendword                              eidyll              EwIDYLL
+always                              eingeigelt              3NtGEtIGELT
 midendword                              eignor              EwIGNOtR
 midword                                 eikon               EwIKOtN
 always                              vorbei                  VORtB3
+always                                seeing                SEEtING
 sufword                              aare                   AARE
 always                            reederei                  REEtDEtR3
 always                           fischerei                  FIt5EtR3
 always                            molkerei                  MOLtKEtR3
 always                               datei                  DAtT3
+always                              proteisch               PROtTEtI5
 always                             polizei                  POtLItZ3
 begmidword                            freikon               FR3tKON
 begmidword                          parteikon               PARtT3wKON
@@ -159,7 +163,9 @@ midendword                              einschrift          EwINw5RIFT
 midword                                 einsuffi            EwINtSUFtFI
 always                               latein                 LAtT3N
 always                                 reinschrift          R3Nw5RIFT
+midendword                              einsel              EwINtSEL
 midendword                              einsekt             EwINtSEKT
+midendword                         steigeinsel              ]3tGEwINtSEL
 midendword                              einserat            EwINtSEtRAT
 midendword                              einserent           EwINtSEtRENT
 midendword                              einserier           EwINtSEtR0R
@@ -222,7 +228,6 @@ midendword                              eisolat             EwISOwLAtT
 midendword                              eisolier            EwISOwL0R
 midendword                              eiterier            EwITEtR0R
 midendword                              eiterat             EwITEtRAT
-always                                 beijing              BEItJING
 begmidword                             beimpf               BEtIMPF
 always                                 beinhalt             BEwINtHALT
 always                             gewebeinsel              GEtWEtBEwINtSEL
@@ -234,9 +239,10 @@ always                                 deindividuation      DEtINDItVItDUtATION
 always                                 deist                DEtI]
 always                               badeinsel              BAtDEwINtSEL
 sufword                              fidei                  FItDEI
-always                          montevideisch               MONtTEtVItDEtI%
+always                          montevideisch               MONtTEtVItDEtI5
 always                               codein                 COtDEtIN
 always                               kodein                 KOtDEtIN
+always                              prodeinotherium         PROtDEtINOtTHEtRItUM
 sufword                            homodei                  HOtMOtDEI
 midendword                             deist                DEtI]
 midendword                             deistisch            DEtI]I5
@@ -295,6 +301,7 @@ always                                  eu                  2
 endword                                 eufer               EwUFER
 endword                                 eufers              EwUFERS
 midendword                              eunkosten           EwUNwKO]EN
+midendword                              eunfall             EwUNtFALL
 always                                 beunruhig            BEtUNwRUHIG
 always                                 beurkund             BEtURtKUNtD
 always                                 beurlaub             BEtURtL1B
@@ -316,6 +323,7 @@ before_u_begmidword                  bade                   BAtDE
 before_u_begmidword                  lade                   LAtDE
 before_u_begmidword                parade                   PAtRAtDE
 always                               tedeum                 TEtDEtUM
+always                             kreideumriss             KR3tDEwUMtRISS
 before_u_begmidword                  code                   COtDE
 always                           gemeindeum                 GEtM3NtDEwUM
 always                              kundeunter              KUNtDEwUNtTER
@@ -323,9 +331,12 @@ always                              landeunter              LANtDEwUNtTER
 always                             spondeus                 SPONtDEtUS
 before_u_begmidword                 hunde                   HUNtDE
 always                               tedeum                 TEtDEtUM
+always                           getreide                   GEtTR3tDE
+always                              gardeuni                GARtDEwUNI
 always                             kaffee                   KAFtFEE
 always                              armeeun                 ARtMEEwUN
 always                                peeun                 PEEwUN
+always                                seeufer               SEEwUFER
 always                                seeum                 SEEwUM
 always                                seeun                 SEEwUN
 begmidword                            seeurlau              SEEwURtL1
@@ -336,6 +347,7 @@ always                              ausgeufert              1StGEwUFERT
 always                                 geulk                GEtULK
 always                              folgeunter              FOLtGEwUNtTER
 always                                 geupdated            GEwUPtDATED
+always                              folgeurlaub             FOLtGEwURtL1B
 always                                 geurteil             GEwURtT3L
 always                              sorgeunter              SORtGEwUNtTER
 always                          rechercheur                 REt4ERt42R
@@ -371,12 +383,15 @@ always                               lineum                 LItNEtUM
 before_u_begmidword                marine                   MAtRItNE
 before_u_begmidword               routine                   ROUtTItNE
 always                                 oeuvre               9UVRE
+always                                boeuf                 B9UF
+always                                soeur                 S9UR
 always                         bakkalaure                   BAKtKAtL1tRE
 word                                 abreu                  ABREU
 word                                 abreus                 ABREUS
 word                                andreu                  ANaDnREU
 word                                andreus                 ANaDnREUS
 word                                 aureus                 1tREtUS
+always                           parterre                   PARtTERRE
 sufword                              reunier                REtUN0R
 sufword                              reunion                REtUNION
 before_u_begmidword                  ware                   WAtRE
@@ -394,18 +409,24 @@ before_u_begmidword                 elite                   ELItTE
 before_u_begmidword                 kälte                   K@LtTE
 always                            giganteum                 GItGANtTEtUM
 sufword                             merteuil                MERtT2IL
+always                              gäste                   G@a]E
+sufword                           thimoteus                 THItMOtTEtUS
 sufword                             matteu                  MATtTEU
 before_u_begmidword                bronze                   BRONtZEw
 always                            andrözeum                 ANDR9tZEtUM
 always                               lyzeum                 LYtZEtUM
 before_u_begmidword                  live                   LIVE
+always                            reserve                   REtSERtVE
 before_u_begmidword                  vize                   VItZE
 
 # IE
 midendword                              ie                  0
 midendword                              iell                ItELL
 endword                                 ieu                 I2
-midendword                              ieux                I2'X
+endword                                 ieur                I2R
+endword                                 ieure               I2RE
+endword                                 ieus                I2S
+midendword                              ieux                I2X
 always                                 aie                  AIE
 always                              nogaier                 NOtGAItER
 always                          schanghai                   5ANGtHAI
@@ -423,6 +444,8 @@ word                                   bien                 BIEN
 begword                                bien                 B0N
 midendword                             bien                 BIEN
 always                                 bienn                BIENN
+begword                                bient                BIENtT
+begword                                bienv                BIENtV
 always                              skabies                 SKAtBIES
 always                             carabietta               CAtRAtBItETtTA
 always                               xabier                 XAtBIER
@@ -431,6 +454,7 @@ always                            amorebieta                AMOtREtBIEtTA
 always                            amphibie                  AMtPHItBIE
 always                            honigbien                 HOtNIGwB0N
 always                             aschbien                 A5wB0N
+always                             ziehbien                 Z0HwB0N
 always                            trickbien                 TRICKwB0N
 always                           mörtelbien                 M9RtTELwB0N
 always                              gambier                 GAMtBItER
@@ -440,7 +464,7 @@ always                           zungenbien                 ZUNtGENwB0N
 always                          furchenbien                 FURt4ENwB0N
 always                           riesenbien                 R0tSENwB0N
 always                            hosenbien                 HOtSENwB0N
-begmidword                         hornbien                 H?NwB0N
+begmidword                         hornbien                 HORNwB0N
 always                           wespenbien                 WESPENwB0N
 always                              snobiety                SNOtBIEtTY
 always                          garderobier                 GARtDEtROtBItER
@@ -449,9 +473,12 @@ sufword                             verbier                 VERtBIER
 always                            adverbi                   ADtVERBI
 always                         arbeiterbien                 ARtB3TERwB0N
 always                            feuerbien                 F2ERwB0N
+always                           maurerbien                 M1tRERwB0N
 always                           futterbien                 FUTtTERwB0N
 always                            mauerbien                 M1ERwB0N
 always                           trauerbien                 TR1ERwB0N
+always                           fleissbien                 FL3SSwB0N
+always                           fleißbien                  FL3^wB0N
 always                          arbeitsbien                 ARtB3TSwB0N
 always                              lesbier                 LEStBItER
 always                           trachtbien                 TRA4TtB0N
@@ -462,12 +489,13 @@ always                             holzbien                 HOLZwB0N
 always                             pelzbien                 PELZwB0N
 #                                      cie
 always                                 ciego                CIEtGO
-sufword                                ciel                 'CIEL
+sufword                                ciel                 CIEL
 always                                 ciento               CIENtTO
-always                                 cierge               'CItERGE
+always                                 cierge               CItERGE
 begmidword                           haciend                HAtCItEND
 always                              glacier                 GLAtCIER
 always                             policier                 POtLItCIER
+always                              belcier                 BELtCIER
 always                               ancien                 ANtCIEN
 always                               ancier                 ANtCIER
 always                              lancier                 LANtC0R
@@ -486,8 +514,10 @@ always                                sciento               SCIENTO
 always                              saucier                 S1CIER
 always                               lucien                 LUtCItEN
 always                                 dieci                DIEtCI
+word                                   died                 DIED
 always                                 diego                DIEtGO
 always                                 dielektr             DItELEKTR
+word                                   diem                 DIEM
 word                                   dien                 D0N
 midendword                             dien                 DIEN
 always                                 diene                D0tNE
@@ -506,6 +536,7 @@ always                             escudier                 EStCUtDIER
 word                                   diet                 DIET
 always                                 diethyl              DItETHYL
 prfword                                dieu                 DI2
+prfword                                dieus                DI2S
 prfword                                dieux                DI2X
 word                                  adie                  ADIE
 sufword                               adieo                 ADIEO
@@ -513,8 +544,8 @@ always                                adieu                 ADI2
 always                            barbadier                 BARtBAtDIER
 always                            brigadier                 BRItGAtDIER
 always                             arkadier                 ARtKAtDIER
-always                             canadier                 'C+AtDI7
-always                             kanadier                 KAtNAtDIER
+always                             canadier                 CANAtDItER
+always                             kanadier                 KAtNAtDItER
 always                            masnadieri                MAStNAtDIEtRI
 always                              gradient                GRAtDItENT
 always                               bedien                 BEtD0N
@@ -529,7 +560,7 @@ always                             komödie                  KOtM9tDIE
 always                            tragödie                  TRAtG9tDIE
 always                              verdien                 VERtD0N
 always                           kapverdier                 KAPtVERtDIER
-sufword                          thibaudier                 THItB1tDI7
+sufword                          thibaudier                 THItB1tDIER
 always                              studie                  ]UtDIE
 always                              studier                 ]UtD0R
 prfword                             studies                 ]UtD0S
@@ -553,6 +584,7 @@ always                                 gieniveau            G0tNItVE1
 word                                  agiez                 AGIEZ
 always                               magier                 MAtGItER
 always                               légier                 LétGIER
+always                            kollegiet                 KOLtLEtGIET
 sufword                               igiea                 IGItEA
 always                              belgier                 BELtGIER
 prfword                             vergier                 VERtGIER
@@ -581,11 +613,16 @@ sufword                             sophien                 SOtPHItEN
 prfword                        philosophien                 PHItLOtSOtPHItEN
 prfword                            trophien                 TROtPHItEN
 #                                     thie
+always                                thierrens             THIERtRENS
 always                                thierry               THIERtRY
 always                             gauthier                 G1tTHIER
 always                              mathien                 MAtTHItEN
 always                              pathien                 PAtTHItEN
+always                         neuropathien                 N2tROtPAtTHItEN
 always                           forsythie                  FORtSYtTHIE
+always                                hiier                 HIIER
+always                               hiiier                 HIIIER
+always                               iiiieh                 IIIIEH
 always                                 kiellini             K0LtLItNI
 always                                 kiew                 KIEW
 always                             thrakien                 THRAtKItEN
@@ -599,10 +636,13 @@ always                          kappadoki                   KAPtPAtDOtKI
 sufword                               skier                 SKItER
 always                        abfahrtsskier                 ABtFAHRTSwSKItER
 always                            laufskier                 L1FwSKItER
+always                         plastikskier                 PLAa]IKwSKItER
 always                          tourenskier                 TOUtRENwSKItER
 always                          wasserskier                 WAStSERwSKItER
 always                               lyki                   LYtKI
+word                                   liebi                LIEtBI
 sufword                                liechti              LIE4tTI
+word                                   lieli                LIEtLI
 #                                      lier
 midendword                             lien                 LIEN
 sufword                                lieu                 LI2
@@ -613,6 +653,7 @@ always                             escalier                 EStCAtLIER
 always                            zerealie                  ZEtREAtLIE
 always                               falier                 FAtLIER
 always                          chemikalie                  4EtMItKAtLIE
+always                             eulalie                  2tLAtLIE
 always                             somalier                 SOtMAtLItER
 always                            formalie                  FORtMAtLIE
 always                          marginalie                  MARtGItNAtLIE
@@ -628,7 +669,7 @@ prfword                            cavalieres               CAtVAtLIEtRES
 always                             cavalieri                CAtVAtLIEtRI
 always                            chevalier                 4EtVAtLItER
 always                             duvalier                 DUtVAtLItER
-sufword                             adeli                   ADYI
+sufword                             adeli                   ADELI
 always                            richelieu                 RI4EtLI2
 begword                             amali                   AMAtLI
 always                             oublier                  OUtBLItER
@@ -639,6 +680,7 @@ always                            sommelier                 SOMtMEtLIER
 sufword                           sennelier                 SENtNEtLIER
 always                            cornelie                  CORtNEtLIE
 always                               relief                 REtLIEF
+always                             aureli                   1tREtLI
 always                         software                     SOFTtWARE
 always                             karelier                 KAtREtLItER
 always                              atelier                 ATEtLItER
@@ -648,10 +690,14 @@ always                             hotelier                 HOtTEtLItER
 always                               velier                 VEtLIER
 always                              guglielmo               GUtGLItELtMO
 sufword                               glien                 GL0N
+always                              saglie                  SAGLIE
+always                           consiglie                  CONtSIGLIE
+sufword                             miglie                  MIGLIE
 sufword                             soglie                  SOGLIE
 always                              dahlie                  DAHtLIE
 always                           immobili                   IMtMOtBItLI
-prfword                            cäcilie                  C@tCItLIE
+always                             cäcilie                  C@tCItLIE
+always                             vigilie                  VItGItLIE
 always                               lilie                  LItLIE
 always                               milieu                 MItLI2
 always                             famili                   FAtMItLI
@@ -666,14 +712,14 @@ midendword                           vilier                 VItLIER
 always                              gallier                 GALtLItER
 always                          montpellier                 MONTwPELtLItER
 sufword                              illiez                 ILtLIEZ
-always                             duillier                 DUILtLI7
-always                              villier                 VILtLItER
-sufword                             hillier                 HILtLItER
-always                              collier                 COLtLItER
-always                              kollier                 KOLtLItER
+always                             duillier                 DUILtLIER
+always                              villier                 VILtLIER
+sufword                             hillier                 HILtLIER
+always                              collier                 COLtLIER
+always                              kollier                 KOLtLIER
 always                         protokollier                 PROtTOtKOLtL0R
-sufword                             bullier                 BUQIER
-sufword                             vullierens              VUQIEtRENS
+sufword                             bullier                 BULtLIER
+sufword                             vullierens              VULtLIEtRENS
 always                            gondolier                 GONtDOtLItER
 always                               folie                  FOtLIE
 always                               joliet                 JOtLItET
@@ -717,6 +763,7 @@ sufword                                niemi                NIEtMI
 midendword                             nien                 NIEN
 prfword                                niente               NIENtTE
 #                                      nier
+always                           prigionieri                PRItGIOtNIEtRI
 always                                 nieuw                NI2W
 always                               daniel                 DAtNIEL
 always                            jordanier                 JORtDAtNItER
@@ -735,11 +782,12 @@ always                             turanier                 TUtRAtNItER
 always                            tansanier                 TANtSAtNItER
 always                          mauretanier                 M1REtTAtNItER
 always                            kastanie                  KA]AtNIE
-sufword                              denier                 DEtNI7
+sufword                              denier                 DEtNIER
 always                            gardeni                   GARtDEtNI
 always                           iphigenie                  IPHItGEtNIE
 syllable                           ingenieur                INtGEtNIt2R
 sufword                           turgeniew                 TURtGENtIEW
+always                             eugenie                  2tGEtNIE
 always                             armenier                 ARtMEtNItER
 always                            messenien                 MEStSEtNItEN
 sufword                              tenier                 TEtNIER
@@ -775,9 +823,10 @@ sufword                             samnier                 SAMtNIER
 always                            insomnien                 INtSOMtNItEN
 always                              henniez                 HENtNItEZ
 always                              zinnie                  ZINtNIE
-always                           bonbonniere                BONtBONtNIEtRE
+always                              bonnier                 BONtNIER
 always                           saisonnier                 SAItSONtNIER
 always                          chansonnier                 4ANtSONtNIER
+always                            bonboniere                BONtBOtNIEtRE
 always                           kaledonier                 KAtLEtDOtNItER
 always                           macedonier                 MAtCEtDOtNItER
 always                           makedonier                 MAtKEtDOtNItER
@@ -788,6 +837,7 @@ begmidword                       patagoni                   PAtTAtGOtNI
 begword                              ioni                   IOtNI
 always                           babylonier                 BAtBYtLOtNItER
 always                           katalonier                 KAtTAtLOtNItER
+always                         lakedämoni                   LAtKEtD@tMOtNI
 always                        lakedaimoni                   LAtKEtDAItMOtNI
 always                             antoniet                 ANtTOtNItET
 always                            slavonier                 SLAtVOtNItER
@@ -802,10 +852,12 @@ always                          spenderniere                SPENtDERwN0RE
 always                           wanderniere                WANtDERwN0RE
 prfword                             hernie                  HERtNIE
 always                              hernien                 HERtNItEN
-always                            bovernier                 BOtV7tNItER
-always                            auvernier                 1tV7tNItER
+sufword                             vernier                 VERtNItER
+always                            bovernier                 BOtVERtNItER
+always                            auvernier                 1tVERtNItER
 always                              dornier                 DORtNIER
 always                          kalifornier                 KAtLItFORtNItER
+always                             fournier                 FOURtNIER
 always                              bosnier                 BOStNItER
 always                             crosnier                 CROStNItER
 always                              daunier                 D1tNIER
@@ -814,14 +866,16 @@ always                            harpunier                 HARtPUtN0R
 always                             petunie                  PEtTUtNIE
 sufword                             javniel                 JAVtNItEL
 always                            bithynier                 BItTHYtNItER
+word                                  foie                  FOIE
+sufword                            vissoie                  VIStSOIE
 always                             sequoien                 SEtQUOItEN
 #                                      pie
 word                                   pie                  PIE
-always                                 piedra               PIEDRA
-always                                 piedestal            PIEtDE]AL
+sufword                                pied                 PIED
 word                                   pies                 PIES
 always                                 piemont              PIEtMONT
 midendword                             pien                 PIEN
+always                              gespien                 GEtSP0N
 always                                 pieta                PIEtTA
 always                                 pietà                PIEtTà
 always                                 pietät               PIEtT@T
@@ -830,6 +884,7 @@ always                                 pietist              PIEtTI]
 always                                 piezo                PIEtZO
 #                                      pier
 sufword                                pierfrancesco        PIERwFRANtCEStCO
+sufword                                pierluigi            PIERwLUItGI
 sufword                          sanspapier                 SANSwPAtPIER
 sufword                                piera                PIEtRA
 sufword                                piero                PIEtRO
@@ -866,12 +921,14 @@ always                           opernarie                  OPERNtARIE
 always                             kanari                   KAtNAtRI
 always                          sopranarie                  SOPRANtARIE
 always                          kistenarie                  KIa]ENtARIE
+always                         prinzenarie                  PRINtZENtARIE
 always                            soloarie                  SOtLOtARIE
 always                               parietal               PAtRIEtTAL
 always                        registerarie                  REtGIa]ERtARIE
 always                           tenorarie                  TEtNORtARIE
 always                         bravourarie                  BRAtVOURtARIE
 always                        mitleidsarie                  MITtL3DStARIE
+midendword                        ungsarie                  UNGStARIE
 always                            bassarie                  BASStARIE
 always                             altarie                  ALTtARIE
 always                            balzarie                  BALZtARIE
@@ -914,6 +971,7 @@ always                            closerie                  CLOtSEtR0
 always                            causerie                  C1tSER0
 always                        advokasser                    ADtVOtKAStSER
 always                         chinoiserie                  4ItNOItSEtR0
+sufword                               brienner              BR0NtNER
 prfword                        chinoiserien                 4ItNOItSEtRItEN
 always                           onfiserie                  ONtFItSEtR0
 endword                          onfiserien                 ONtFItSEtRItEN
@@ -929,7 +987,7 @@ prfword                         tapisserien                 TAtPIStSEtRItEN
 always                          karosserie                  KAtROStSEtR0
 prfword                         karosserien                 KAtROStSEtRItEN
 always                             interieur                INtTEtRI2R
-always                             intérieur                *tTétRIt2R
+always                             intérieur                INtTétRIt2R
 always                                grien                 GR0N
 begmidword                           ugri                   UGRI
 always                             sibirier                 SItBItRItER
@@ -955,7 +1013,7 @@ always                           industrienetz              INtDU]R0wNETZ
 #                                     urie
 sufword                             laurier                 L1tRItER
 sufword                             maurier                 M1tRItER
-always                               curieus                'CUtRIt2S
+always                               curieus                CUtRIt2S
 always                               furie                  FUtRIE
 always                               furier                 FUtR0R
 always                               gurier                 GUtRItER
@@ -971,13 +1029,15 @@ always                               kurier                 KUtR0R
 sufword                              muriel                 MUtRItEL
 always                              courier                 COUtRIER
 always                        börsencourier                 B9RtSENwCOUtR0R
+always                              fourieranalyse          FOUtRIERwANAtLYtSE
+always                              fouriertransformation   FOUtRIERwTRANStFORtMAtTION
 always                            zenturie                  ZENtTUtRIE
 always                            couturier                 COUtTUtRIER
 always                              gavrielides             GAVtRItELItDES
 always                             illyrier                 ILtLYtRItER
 always                           corbeyrier                 CORtBEYtRItER
 sufword                             meyriez                 MEYtRItEZ
-sufword                             veyrier                 VEYtRItER
+always                              veyrier                 VEYtRIER
 always                               syrier                 SYtRItER
 always                                 sien                 SItEN
 #                                      sier
@@ -1018,11 +1078,11 @@ sufword                          montansier                 MONtTANtSIER
 always                           hortensie                  HORtTENtSIE
 always                              corsier                 CORtSIER
 sufword                             morsier                 MORtSIER
-always                             crassier                 'CRA^ItER
+always                             crassier                 CRA^ItER
 sufword                             messier                 MEStSItER
-always                             cressier                 'CRE^ItER
+always                             cressier                 CRE^ItER
 midendword                          aissier                 AIStSItER
-always                             crissier                 'CRI^ItER
+always                             crissier                 CRI^ItER
 always                            jurassier                 JUtRAStSItER
 always                              messieurs               MEStSI2RS
 always                            patissier                 PAtTIStSIER
@@ -1034,7 +1094,6 @@ always                            indossier                 INtDOStS0R
 prfword                            haussier                 H1StSItER
 prfword                            haussiers                H1StSItERS
 sufword                             jussi                   JUStSI
-always                           arkebusier                 ARtKEtBUtSItER
 always                            corbusier                 CORtBUtSIER
 always                           andalusier                 ANtDAtLUtSItER
 always                             salusier                 SAtLUtSIER
@@ -1045,16 +1104,17 @@ sufword                              rysiek                 RYtSIEK
 sufword                              tysiek                 TYtSIEK
 always                                 tien                 TIEN
 #                                      tier
-prfword                                tierra               TIERtRA
 sufword                                tiercelin            TIERtCEtLIN
-sufword                                tievero              TIEtV7O
+prfword                                tierra               TIERtRA
+prfword                                tierras              TIERtRAS
+sufword                                tievero              TIEtVERO
 midendword                            atien                 AtTItEN
 begmidword                          rhäti                   RH@tTI
 always                          chocolatier                 4OtCOtLATIER
 always                             ignatieff                IGtNAtTItEFF
 sufword                           rautatietori              R1tTAtTIEtTOtRI
 always                            privatier                 PRItVAtTIER
-always                            sorbetier                 SORtBEtTI7
+always                            sorbetier                 SORtBEtTIER
 always                             cafetier                 CAtFEtTIER
 always                             cafétier                 CAtFétTIER
 always                             peletier                 PEtLEtTIER
@@ -1069,9 +1129,9 @@ always                             traktier                 TRAKtT0R
 always                              taktier                 TAKtT0R
 sufword                              altieri                ALtTIEtRI
 sufword                             paltieri                PALtTIEtRI
+always                             gaultier                 G1LtTIER
 always                              multie                  MULtTItE
-always                               antiessen              ANtTItEStSEN
-always                               antieuropäisch         ANtTIt2ROtP@tI5
+begword                              anti                   ANtTI
 begword                             santieste               SANtTItE]E
 always                              tantieme                TANtTIEtME
 sufword                             lantier                 LANtTIER
@@ -1086,7 +1146,7 @@ always                              portieren               PORtT0tREN
 begmidword                      samtportier                 SAMTtPORtTIEtR
 always                              portierbar              PORtT0RtBAR
 prfword                             portierst               PORtT0R]
-prfword                             portiert                PORtT0RT
+always                              portiert                PORtT0RT
 always                              portierung              PORtT0tRUNG
 always                            deportier                 DEtPORtT0R
 always                            apportier                 APtPORtT0R
@@ -1097,7 +1157,7 @@ always                         transportier                 TRANStPORtT0R
 always                                stiellappen           ]0LwLAPtPEN
 always                                stiellos              ]0LwLOS
 midendword                            stien                 ]IEN
-sufword                               stierva               ]I7tVA
+sufword                               stierva               ]IERtVA
 sufword                           laugstien                 L1Gt]0N
 word                                castiel                 CAt]IEL
 always                              bestie                  BE]IE
@@ -1105,6 +1165,8 @@ always                              bestiefel               BEt]0tFEL
 always                              bestieg                 BEt]0G
 always                              bestiehl                BEt]0HL
 always                              bestieß                 BEt]0^
+always                              bestiess                BEt]0SS
+begmidword                        kreistier                 KR3SwT0R
 always                              hostie                  HO]IE
 always                              bustier                 BU]IER
 always                            büfettier                 B8tFETtTIER
@@ -1114,9 +1176,10 @@ sufword                             nattier                 NATtTIER
 always                          spaghettiess                SPAGHETTItESS
 sufword                            roettier                 ROETtTIER
 always                           condottier                 CONtDOTtTIER
-always                           charcutier                 4ARtCUtTItER
 always                              gautier                 G1tTItER
+always                           charcutier                 4ARtCUtTItER
 always                            bijoutier                 BItJOUtTIER
+always                               gutierre               GUtTIERtRE
 sufword                             moutier                 MOUtTIER
 #                                     quie
 always                                quietismus            QUIEtTIStMUS
@@ -1128,11 +1191,14 @@ always                                quieu                 QUI2
 endword                               quier                 QUIER
 sufword                               quiera                QUIEtRA
 endword                               quiers                QUIERS
+always                                 vieda                VIEtDA
 begmidword                             viei                 VI3
 always                                 vielleicht           V0LwL34T
 always                                 viellieb             V0LwL0B
 begword                                vien                 VIEN
+begword                              revien                 REtVIEN
 #                                      vier
+always                            bonnevier                 BONtNEtVIER
 always                                 viet                 VIET
 always                                 vieux                VI2X
 always                                 view                 VIEW
@@ -1151,11 +1217,12 @@ sufword                             janvier                 JANtVItER
 always                              bouvier                 BOUtVItER
 always                              touvier                 TOUtVItER
 always                                zvieri                ZVIEtRI
-sufword                                wieliczka            WIEtLI'CZtKA
+sufword                                wieliczka            WIEtLICZtKA
 always                            moldawi                   MOLtDAtWI
 always                          jugoslawi                   JUtGOtSLAtWI
-begmidword                       chlodowiec                 4LOtDOtWIE'C
-sufword                           starowierzy               ]AtROtWIERtZY
+begmidword                       chlodowiec                 4LOtDOtWIEC
+begword                           chodowieck                4OtDOtWIECtK
+begword                           starowier                 ]AtROtWIERtZY
 sufword                                xieng                XIENG
 always                             galaxien                 GAtLAtXItEN
 always                               sexier                 SEXIER
@@ -1174,7 +1241,7 @@ sufword                             frazier                 FRAtZIER
 always                              grazie                  GRAtZIE
 always                            pistazie                  PI]AtZIE
 always                               bezier                 BEtZItER
-always                               bézier                 BétZIt7
+always                               bézier                 BétZItER
 always                          allochezie                  ALtLOt4EtZIE
 sufword                         fontanezier                 FONtTAtNEtZItER
 always                              spezies                 SPEtZIES
@@ -1199,7 +1266,7 @@ always                        bisschen                      BISSt4EN
 always                        bläschen                      BL@St4EN
 always                        blüschen                      BL8St4EN
 always                        brieschen                     BR0St4EN
-always                        brunelleschi                  BR/EQ%t4I
+always                        brunelleschi                  BRUtNELtLESt4I
 always                        bösschen                      B9SSt4EN
 always                        döschen                       D9St4EN
 prfword                       echschen                      E4St4EN
@@ -1211,8 +1278,8 @@ begword                       fresch                        FRESt4
 always                        gänschen                      G@NSt4EN
 always                        gässchen                      G@SSt4EN
 always                        gläschen                      GL@St4EN
-always                        gotteschrist                  GOTtT%w4RI]
-always                        gräschen                      GR@St4C
+always                        gotteschrist                  GOTtTESw4RI]
+always                        gräschen                      GR@St4EN
 always                        häschen                       H@St4EN
 always                        hälschen                      H@LSt4EN
 always                        hänschen                      H@NSt4EN
@@ -1223,6 +1290,8 @@ always                        hülschen                      H8LSt4EN
 always                        ischämie                      ISt4@tM0
 always                        ischämien                     ISt4@tMItEN
 always                        ischia                        ISt4IA
+prfword                       ischias                       I5IAS
+always                        ischyros                      ISt4YtROS
 always                        kabäuschen                    KAtB\St4EN
 always                        käschen                       K@St4EN
 always                        strässchen                    ]R@SSt4EN
@@ -1230,6 +1299,7 @@ always                        kisschen                      KISSt4EN
 always                        kleckschen                    KLECKSt4EN
 always                        klöpschen                     KL9PSt4EN
 always                        klösschen                     KL9SSt4EN
+always                        komtesschen                   KOMtTESSt4EN
 always                        füsschen                      F8SSt4EN
 always                        küsschen                      K8SSt4EN
 always                        läuschen                      L\St4EN
@@ -1273,6 +1343,7 @@ always                       fröschen                       FR9t5EN
 always                        rösschen                      R9SSt4EN
 midendword                    schance                       Sw4ANCE
 midendword                    schao                         Sw4AO
+sufword                      tschao                         T5AO
 midendword                    scharakter                    Sw4AtRAKtTER
 midendword                    schassis                      Sw4AStSIS
 midword                       schauffeu                     Sw41FtF2
@@ -1291,7 +1362,7 @@ always                        scherzando                    S4ERtZANtDO
 always                        schines                       Sw4ItNES
 always                        schlösschen                   5L9SSt4EN
 always                        schösschen                    59SSt4EN
-endword                       schampion                     Sw4AMtPItON
+endword                       schampi                       Sw4AMtPI
 endword                       scharge                       Sw4ARtGE
 endword                       schargen                      Sw4ARtGEN
 midendword                    scharter                      Sw4ARtTER
@@ -1316,7 +1387,7 @@ always                        spässchen                     SP@SSt4EN
 always                        spiesschen                    SP0SSt4EN
 always                        stösschen                     ]9SSt4EN
 always                        sträusschen                   ]R\SSt4EN
-word                          tedeschi                      TEtD%t4I
+word                          tedeschi                      TEtDESt4I
 midendword                    üchschen                      84St4EN
 midendword                    ungschip                      UNGSt4IP
 always                        tässchen                      T@SSt4EN
@@ -1346,6 +1417,7 @@ begmidword                    arbeitst                      ARtB3TSwT
 word                          asst                          ASST
 always                       gasstrom                       GASt]ROM
 always                    augiasstall                       1GIASw]ALL
+always                    ananas                            ANAtNAS
 endword                       sthan                         STHAN
 endword                       sthans                        STHANS
 always                        ästhes                        @StTHES
@@ -1380,6 +1452,7 @@ always                    bureau                            BUtRE1
 always                        austupf                       1SwTUPF
 always                        austusch                      1SwTU5
 always                        auswärtstor                   1SW@RTSwTOR
+always                        averstal                      AVERSwTAL
 always                        bambustisch                   BAMtBUStTI5
 always                        basst                         BASStT
 syllable                      befehls                       BEtFEHLS
@@ -1393,7 +1466,7 @@ prfword                       berufst                       BEtRUF]
 always                        besasst                       BEtSASST
 always                        betriebsteil                  BEtTR0BSwT3L
 always                        betriebstreu                  BEtTR0BSwTR2
-always                        bewältigungs                  BEtW3SwT3L
+always                        bewältigungs                  BEtW@LtTItGUNGS
 always                        beweisteil                    BEtW3SwT3L
 always                        bezirkstier                   BEtZIRKSwT0R
 always                        bibliotheks                   BItBnLInOtTHEKS
@@ -1410,6 +1483,8 @@ always                        büsst                         B8SST
 begmidword                    chipstüt                      4IPStT8tT
 always                        dasasst                       DAtSASST
 always                        distorsion                    DIStTORtSION
+always                        disstress                     DISt]RESS
+always                        disstreß                      DISt]RE^
 always                        durchbruchstal                DUR4tBRU4SwTAL
 always                        dystonie                      DYStTOtN0
 midendword                    ecksturm                      ECKSwTURM
@@ -1418,8 +1493,10 @@ always                        einbruchstal                  3NtBRU4SwTAL
 always                        einesteils                    3NESwT3LS
 always                        eingangstor                   3NGANGSwTOR
 always                        eistanz                       3SwTANZ
+always                        eistauch                      3SwT14
 always                        eistorte                      3SwTORTE
 always                        eistört                       3SwT9RT
+always                        eistürmen                     3SwT8RtMEN
 always                        elendstor                     ELENDSwTOR
 always                        elvistoll                     ELVISwTOLL
 always                        engelstor                     ENtGELStTOR
@@ -1433,7 +1510,8 @@ syllable                      fasst                         FASST
 sufword                       felstal                       FELSwTAL
 sufword                       felsturm                      FELSwTURM
 sufword                       felstürm                      FELSwT8RM
-sufword                       firnisst                      FIRtNISST
+always                        festungstor                   FEa]UNGSwTOR
+always                        firnisst                      FIRtNISST
 always                        flusstal                      FLUSSwTAL
 always                        flösst                        FL9SST
 begmidword                    flüchtlingstr                 FL84TtLINGSwTR
@@ -1446,7 +1524,7 @@ always                        friedenstrupp                 FR0tDENSwTRUPP
 always                        frästisch                     FR@SwTI5
 always                        frühstücksteller              FR8Ht]8CKSwTELtLER
 always                        frühstückstisch               FR8Ht]8CKSwTI5
-always                        jahrstauwasser                FR8Ht]8CKSwTI5
+always                        jahrstauwasser                JAHRSwT1wWAStSER
 always                        fusst                         FUSST
 always                        führungstor                   F8HtRUNGSwTOR
 always                        führungstrupp                 F8HtRUNGSwTRUPP
@@ -1462,6 +1540,9 @@ begmidword                    gefängnist                    GEtF@NGtNISwT
 always                        gefechtsturm                  GEtFE4TSwTURM
 always                        gehaltstüt                    GEtHALTSwT8T
 syllable                      geheimnis                     GEtH3MtNIS
+always                        geistes                       G3a]ES
+always                        georgsturm                    GEtORGSwTURM
+always                        gepäcksturm                   GEtP@CKSwTURM
 always                        gerichtstisch                 GEtRI4TSwTI5
 always                        geschlechtsteil               GEt5LE4TSwT3L
 always                        geschäftsteil                 GEt5@FTSwT3L
@@ -1487,6 +1568,7 @@ always                        glastrichter                  GLASwTRI4tTER
 always                        glastube                      GLASwTUtBE
 always                        glasturm                      GLASwTURM
 always                        glaubenstreu                  GL1tBENSwTR2
+always                        gleisst                       G3SST
 always                        glückstor                     GL8CKSwTOR
 always                        gottest                       GOTtTESwT
 always                        grosst                        GROSST
@@ -1516,7 +1598,7 @@ midendword                    heitstrunk                    H3TSwTRUNK
 always                        hephaistostempel              HEtPHAI]OSwTEMtPEL
 always                        herbstestag                   HERBa]ESwTAG
 always                        herkules                      HERtKUtLES
-always                        hervorstakt                   H7t,?w]AKT
+always                        hervorstakt                   HERtVORw]AKT
 always                        hilfstaucher                  HILFSwT1t4ER
 always                        hilfstrupp                    HILFSwTRUPP
 always                        himmels                       HIMtMELS
@@ -1527,6 +1609,9 @@ always                        hofsteil                      HOFStT3L
 always                        hofstor                       HOFStTOR
 always                        hundsteuer                    HUNDSwT2ER
 always                        iesst                         0SST
+always                       kiesstrand                     K0Sw]RAND
+begmidword                   kiesstränd                     K0Sw]R@NtD
+always                       kiesstück                      K0Sw]8CK
 always                      vliesst                         VL0Sw]
 always                        invasionstrupp                INtVAtSItONSwTRUPP
 always                        ionsteil                      IONSwT3L
@@ -1536,6 +1621,7 @@ always                        irrsinnstat                   IRRtSINNSwTAT
 always                        isistempel                    ISISwTEMtPEL
 word                          isst                          ISST
 always                        indianapolis                  INtDIAtNAtPOtLIS
+midendword                    ingstaufe                     INGSwT1tFE
 begmidword                    isthm                         ISTHM
 midendword                    itätstreu                     IT@TSwTR2
 midendword                    itätstrick                    IT@TSwTRICK
@@ -1554,6 +1640,7 @@ midendword                    kaufstresen                   K1FSwTRESEN
 always                    geschäftstrick                    GEt5@FTSwTRICK
 midendword                    kaufstrick                    K1FSwTRICK
 midendword                    kaufstrip                     K1FSwTRIP
+always                        kaufstrubel                   K1FSwTRUtBEL
 always                        keitsteil                     K3TSwT3L
 midendword                    keitstreu                     K3TSwTR2
 always                        kindestreu                    KINtDESwTR2
@@ -1569,6 +1656,7 @@ always                        kriegstalk                    KR0GSwTALK
 always                        kriegstanz                    KR0GSwTANZ
 always                        kriegsteil                    KR0GSwT3L
 always                        kriegsto                      KR0GSwTO
+always                        kumulus                       KUtMUtLUS
 midendword                    kunftstrick                   KUNFTSwTRICK
 always                        kursteil                      KURSwT3L
 always                        kursusteil                    KURtSUSwT3L
@@ -1580,6 +1668,7 @@ always                        landesteil                    LANtDESwT3L
 syllable                      lasst                         LASST
 syllable                     glasst                         GLASw]
 always                     weglasst                         WEGtLASST
+begmidword                  atlasst                         ATtLASw]
 always                        legionstrupp                  LEtGItONSwTRUPP
 always                        liebestanz                    L0tBESwTANZ
 always                        liebestat                     L0tBESwTAT
@@ -1613,6 +1702,7 @@ begword                       mistak                        MIStTAK
 always                        mittagstrunk                  MITtTAGSwTRUNK
 always                        mitleidstube                  MITtL3DSwTUtBE
 always                        mönchston                     M9N4SwTON
+always                        moosteil                      MOOSwT3L
 always                        moostier                      MOOSwT0R
 always                        moossteil                     MOOSwT3L
 always                        moosstelle                    MOOSw]ELtLE
@@ -1649,11 +1739,13 @@ always                        praktikumstisch               PRAKtTItKUMSwTI5
 syllable                      prasst                        PRASST
 always                        preistisch                    PR3SwTI5
 always                        preistreu                     PR3SwTR2
+word                          pssssst                       PSSSSST
 word                          psssst                        PSSSST
 word                          pssst                         PSSST
 word                          psst                          PSST
 word                          pst                           PST
 always                        ratstisch                     RATSwTI5
+always                        ratsturm                      RATSwTURM
 always                        reichsteil                    R34SwT3L
 always                        reichstempel                  R34SwTEMtPEL
 always                        reichstrupp                   R34SwTRUPP
@@ -1680,7 +1772,7 @@ midendword                    schaftstön                    5AFTSwT9N
 midendword                    schaftstreu                   5AFTSwTR2
 syllable                      schasst                       5ASST
 always                        scheisst                      53SST
-always                        schiffstaufe                  5IFFSwT1tFE
+always                        schiffstau                    5IFFSwT1
 always                        schiffstonnage                5IFFSwTONtNAtGE
 always                        schiffstäuf                   5IFFSwT\F
 always                        schleisst                     5L3SST
@@ -1690,25 +1782,30 @@ always                        schmeisst                     5M3SST
 always                        schosstier                    5OSStT0R
 always                        schreckenstat                 5RECKENSwTAT
 always                        sechsteil                     SE4SwT3L
+always                        seemanns                      SEEwMANNS
 always                        shrimpstüte                   SHRIMPStT8TE
 always                        sicherheitstrupp              SIt4ERtH3TStTRUPP
 begmidword                    sieges                        S0tGES
+always                        sinus                         SItNUS
 always                        sohnestreu                    SOHtNEStTR2
 always                        spannungs                     SPANtNUNGS
 always                        spasst                        SPASST
 always                        spleisst                      SPL3SST
-word                          ssst                          SSST
+prfword                       ssst                          SSST
 midendword                    stapete                       SwTAtPEtTE
 midendword                    stätig                        SwT@tTIG
-always                        stephans                      ]EtPH+S
-midword                       steilhaber                    SwT3LtHAtBER
+midendword                    stangens                      SwTANtGCS
+always                        stephans                      ]EtPHANS
+midendword                    steilhaber                    SwT3LtHAtBER
 endword                       sthal                         SwTHAL
 endword                       sthals                        SwTHALS
 midendword                    sträg                         SwTR@G
+midword                       stoilet                       SwTOItLET
 endword                       storg                         SwTORG
 endword                       storgs                        SwTORGS
-always                        stümpel                       SwT8MtPY
+always                        stümpel                       SwT8MtPEL
 always                        stumult                       SwTUtMULT
+endword                       stussi                        SwTUStSI
 always                        asst                          ASST
 begmidword                  grasst                          GRASw]
 always                        ässt                          @SST
@@ -1716,10 +1813,13 @@ begmidword                   kässt                          K@Sw]
 always                       lässt                          L@SST
 always                       nässt                          N@SST
 always                        esst                          ESST
+always                        esstill                       ESw]ILL
 begmidword                grabesst                          GRAtBESt]
 begmidword                liebesst                          L0tBESw]
+begmidword                mondesst                          MONtDESw]
 begmidword                 todesst                          TOtDESw]
 begmidword                siegesst                          S0tGESw]
+begmidword                bergesst                          BERtGESw]
 begmidword                leibesst                          L3tBESw]
 begmidword                 eidesst                          3tDESt]
 always                  mercedes                            MERtCEtDES
@@ -1735,6 +1835,7 @@ begmidword                sinnesst                          SINtNESw]
 begmidword                jahresst                          JAHtRESw]
 begmidword                heeresst                          HEEtRESw]
 begmidword                meeresst                          MEEtRESw]
+always                  diabetes                            DIAtBEtTES
 midword                     stesst                          ]ESw]
 begmidword                gottesst                          GOTtTESw]
 begmidword                 gutesst                          GUtTESw]
@@ -1756,19 +1857,23 @@ always                     kokos                            KOtKOS
 begmidword                   losst                          LOSw]
 always                    schloss                           5LOSS
 always                        usst                          USST
+always                    julius                            JUtLItUS
 always                       jusstudent                     JUSt]UtDENT
 begmidword                   jusstudi                       JUSt]UtDI
-always                     horusstatue                      HOtRUSt]AtTUE
 always                laurentius                            L1tRENtTItUS
 always                    zyklusst                          ZYtKLUSw]
 always                      sousstück                       SOUSw]8CK
 always                  kaukasus                            K1tKAtSUS
+always                     horusstatue                      HOtRUSt]AtTUE
+always                    petrusstatue                      PEtTRUSt]AtTUE
 always                   papyrus                            PAtPYtRUS
+always                    kaktus                            KAKtTUS
 always                  christus                            4RIa]US
 always                    kultus                            KULtTUS
 begmidword                   busst                          BUSw]
 always                       busstag                        BUSSwTAG
-always                      pius                            BUSSwTAG
+always                      pius                            PIUS
+always                     minus                            MItNUS
 begmidword                 tonusst                          TOtNUSw]
 begmidword                taunusst                          T1tNUSw]
 always                     luxus                            LUtXUS
@@ -1809,6 +1914,8 @@ always                    herbstakt                         HERB]wAKT
 always                      gestakt                         GEt]AKT
 always                      festakt                         FE]wAKT
 always                      testakt                         TE]wAKT
+sufword                     zustakt                         ZUt]AKT
+sufword                  bergestal                          BERtGESwTAL
 sufword                    remstal                          REMSwTAL
 always                     birstal                          BIRSwTAL
 midendword                    stalar                        SwTAtLAR
@@ -1870,7 +1977,7 @@ midendword                    stendenz                      SwTENtDENZ
 midendword                    stensor                       SwTENtSOR
 midendword                    steppich                      SwTEPtPI4
 midendword                    sterm                         SwTERM
-always                   alabaster                          :AtBAa]7
+always                   alabaster                          ALAtBAa]ER
 begmidword                  lästerm                         L@]ERwM
 always                    pflaster                          PFLA]ER
 always                      mastermind                      MA]ERwMIND
@@ -1903,7 +2010,7 @@ always                    schuster                          5Ua]ER
 always                      muster                          MUa]ER
 always                      wustermark                      WUa]ERtMARK
 midendword                    sterrass                      SwTERtRAStS
-always                     knisterrassel                    KNIa]ERwAStSEL
+always                     knisterrassel                    KNIa]ERwRAStSEL
 midendword                    sterrain                      SwTERtRAIN
 midendword                    sterrine                      SwTERtRItNE
 midendword                    sterritori                    SwTERtRItTOtRI
@@ -2024,7 +2131,7 @@ midendword                    sthemen                       SwTHEtMEN
 midword                       stheni                        STHENI
 endword                       sthenie                       STHEN0
 midword                       stheno                        STHENO
-midword                       stheke                        SwTHEtKE
+midendword                    stheke                        SwTHEtKE
 midendword                    stheo                         SwTHEO
 midendword                    stherap                       SwTHEtRAtP
 endword                       stherapien                    SwTHEtRAtPItEN
@@ -2070,11 +2177,13 @@ always                             speckstippe              SPECKt]IPtPE
 always                             stippbesuch              ]IPPwBEtSU4
 always                             stippchen                ]IPPt4EN
 always                             stippe                   ]IPtPE
+always                           lostippe                   LOSwTIPtPE
 always                             stippmilch               ]IPPwMIL4
 always                             stippvisite              ]IPPwVItSItTE
 always                             stipulation              ]ItPUtLAtTItON
 always                             stipulier                ]ItPUtL0R
 midendword                    stiger                        SwTItGER
+midendword                    stirade                       SwTItRAtDE
 midendword                    stitel                        SwTItTEL
 midendword                    stiter                        SwTItTER
 midendword                    stoast                        SwTOA]
@@ -2099,6 +2208,7 @@ midendword                    stoten                        SwTOtTEN
 always                        stosst                        ]OSST
 midendword                    stour                         SwTOUR
 always                                pastoureau            PAa]OUtRE1
+always                                bistouri              BIa]OUtRI
 midendword                    stown                         SwTOWN
 midendword                    stracht                       SwTRA4T
 midendword                    stradition                    SwTRAtDItTItON
@@ -2145,10 +2255,12 @@ always                       astrog                         A]ROG
 always                       östrogen                       9]ROtGEN
 midendword                    stroll                        SwTROLL
 midendword                    strommel                      SwTROMtMEL
+midendword                    strommler                     SwTROMMtLER
 midendword                    strompete                     SwTROMtPEtTE
 midendword                    stropf                        SwTROPF
 midendword                    strophäe                      SwTROtPH@E
 midendword                    stross                        SwTROSS
+midendword                    stroß                         SwTRO^
 midendword                    strost                        SwTRO]
 midendword                    strott                        SwTROTT
 midendword                    strug                         SwTRUG
@@ -2158,6 +2270,7 @@ midendword                    strächtig                     SwTR@4tTIG
 midendword                    sträg                         SwTR@G
 midendword                    sträne                        SwTR@tNE
 midendword                    sträume                       SwTR\ME
+always                      gasträume                       GA]wR\ME
 always                      festräume                       FE]wR\ME
 midendword                    strög                         SwTR9G
 midendword                    ströpf                        SwTR9PF
@@ -2208,6 +2321,7 @@ midendword                    stümelei                      SwT8tMEtL3
 midendword                    stümlich                      SwT8MtLI4
 always                      gestüte                         GEt]8tTE
 always                   pommestüte                         POMtMESwT8tTE
+midendword                 ungstüte                         UNGSwT8tTE
 always                      eistüte                         3StT8tTE
 always                     kekstüte                         KEKStT8tTE
 always                    kaufstüte                         K1FStT8tTE
@@ -2218,10 +2332,10 @@ always                        tagesteller                   TAGESwTELtLER
 always                        tagsteller                    TAGSwTELtLER
 always                        tagstisch                     TAGSwTI5
 syllable                      talkshow                      TALKwSHOW
+always                        tennis                        TENtNIS
 syllable                      thorax                        THORAX
 always                        theseus                       THEtS2S
 midendword                    tionstank                     TItONSwTANK
-always                        tischtennistisch              TI5tTENtNISwTI5
 always                        todestaufe                    TOtDESwT1tFE
 syllable                      tombola                       TOMtBOtLA
 syllable                      trainings                     TRAININGS
@@ -2237,6 +2351,7 @@ always                        ungstat                       UNGSwTAT
 always                        ungsteil                      UNGSwT3L
 always                        ungstisch                     UNGSwTI5
 midendword                    ungstreu                      UNGSwTR2
+always                       dungstreuer                    DUNGw]R2tER
 always                        ungstrick                     UNGSwTRICK
 always                        ungstrupp                     UNGSwTRUPP
 always                        ungsturm                      UNGSwTURM
