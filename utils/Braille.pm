@@ -24,7 +24,7 @@ sub din2dots {
         $result .= "-";
         my $c = $d2d{$din[$i]};
         if(!defined($c)){
-            print "no definition for din[$i] : $din[$i] ".ord($din[$i])." $/";
+            print "no definition for din[$i] : $din[$i] ".ord($din[$i])." on line ".$.." $/";
 	    print "Please remove offending characters from source file$/";
 	    print "or add offending characters to din2dots mapping.$/";
 	    exit(3);
