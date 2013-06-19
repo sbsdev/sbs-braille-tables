@@ -95,3 +95,12 @@ digit         \x2510 36a-36a-3       #9488    BOX DRAWINGS LIGHT DOWN AND LEFT
 
 # Strich und Komma vor Zahl (EUR --,45)
 digit         \x2511 36a-36a-2       #9489    BOX DRAWINGS DOWN LIGHT AND LEFT HEAVY
+
+# EXPONENT (P346)
+punctuation   \x257E 346             #9598    BOX DRAWINGS HEAVY LEFT AND LIGHT RIGHT
+
+# OBERER INDEX (P34)
+punctuation   \x2580  34             #9600    UPPER HALF BLOCK
+
+# UNTERER INDEX (P16)
+punctuation   \x2581 16              #9601    LOWER ONE EIGHTH BLOCK
