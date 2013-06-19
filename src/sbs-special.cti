@@ -73,9 +73,14 @@ punctuation   \x255E 6-456           #9566    BOX DRAWINGS VERTICAL SINGLE AND R
 # KURSIV Ende, Mitten im Wort (P6-3)
 punctuation   \x2561 6-3             #9569    BOX DRAWINGS VERTICAL SINGLE AND LEFT DOUBLE
 
-# COMPUTER BRAILLE Anfang (P6-46)
+# COMPUTER BRAILLE Einzelwort (P6-46)
 punctuation   \x257C 6-46            #9596    BOX DRAWINGS LIGHT LEFT AND HEAVY RIGHT
 
+# COMPUTER BRAILLE Anfang (P46-46)
+punctuation   \x2588 46-46           #9608    BOX DRAWINGS FULL BLOCK
+
+# COMPUTER BRAILLE Ende (P6-3)
+punctuation   \x2589 6-3             #9609    BOX DRAWINGS SEVEN EIGHTHS BLOCK
 
 # AUFHEBUNGSPUNKT vor Komma nach tiefgestellten Zahlen
 # + Wort+Zahl-Ausdruecken (grade 2)
