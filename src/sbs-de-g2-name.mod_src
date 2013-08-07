@@ -10,8 +10,6 @@
 # Trennungen:
 sufword                             gaither                        GAItTH7
 
-
-
 # class definitions
 #=#class a a
 #=#class b b
@@ -61,15 +59,16 @@ always                              daewoo                  DAEtWOO
 always                                 zoo                  ZOO
 
 begword                                 ue                  UE
+sufword                                 ueli                UYI
 begword                                 ui                  UI
 
 # ACH (4.1 Lautgruppenkürzungen)
 midendword                              ach                 <
 begword                                aach                 AA4
 always                               flaach                 FLAA4
-always                                 cach                 'CA4
 prfword                                each                 EA4
 always                                beach                 BEA4
+sufword                               reach                 REA4
 
 # AL  (4.1 Lautgruppenkürzungen)
 begmidword                              al                  :
@@ -78,8 +77,12 @@ always                                  all                 AQ
 always                                 aal                  AAL
 midendword                         ontraalt                 ONtTRAw:T
 always                               cubalib                'CUtBAwLIB
+always                                 dalagatan            D:AtGAtTAN
 sufword                               heal                  HEAL
 prfword                               seals                 SEALS
+always                           beresina                   B7%*A
+before_l_begmidword                  anna                   +tNAw
+always                              bannalec                B+tN:E'C
 
 # AN  (4.1 Lautgruppenkürzungen)
 word                                    an                  +
@@ -109,18 +112,22 @@ always                          kassandra                   KA^+DRA
 always                                 aar                  AAR
 always                         teneriffa                    TC7IFtFA
 begmidword                          barbaross               B)tBAwRO^
+sufword                                ear                  EAR
 sufword                               fear                  FEAR
 sufword                               hear                  HEAR
 sufword                               lear                  LEAR
 always                                leary                 LEAtR'Y
 always                                pearl                 PEARL
 always                               spears                 SPEARS
-begmidword                      shakespear                  SHAK%tPEAR
+begmidword                      shakespear                  SHAKEtSPEAR
 sufword                               reardon               REARtDON
 prfword                              frears                 FREARS
 sufword                               sear                  SEAR
 begword                                laroch               LAtRO4
+always                            baccara                   BA'Ct'C)A
 begmidword                          costaric                'CO]AwRIt'C
+before_r_begmidword                 acqua                   A'C'QUA
+sufword                            macquart                 MA'Ct'QU)T
 
 # AU  (4.1 Lautgruppenkürzungen)
 word                                    au                  '1
@@ -137,6 +144,7 @@ always                            skarabäus                 SK)AtB@tUS
 always                            makkabäus                 MAKtKAtB@tUS
 always                             brambäus                 BRAMtB@tUS
 always                             thaddäus                 THADtD@tUS
+always                             zabadäus                 ZAtBAtD@tUS
 always                             zebedäus                 ZE;tD@tUS
 always                           scarabae                   S'C)AtBAE
 always                             matthäus                 MATtTH@tUS
@@ -183,7 +191,7 @@ begword                                 beaur               BE1tR
 prfword                                 beaus               BE1S
 begword                                 beaut               BE1tT
 always                                  beauty              BE1tT'Y
-prfword                                 beauv               BE1tV
+begword                                 beauv               BE1tV
 prfword                                 beaux               BE1'X
 always                                  beaver              BEAtV7
 prfword                                 bee                 BEE
@@ -208,6 +216,9 @@ prfword                                 bees                BEES
 sufword                                 beesko              BEESKO
 always                                  beet                BEET
 prfword                                 beete               BEE(
+always                                habegger              HABtEGtG7
+always                                  bei                 B3
+always                                  bein                B6
 always                                  beug                B2G
 prfword                                 beuge               B2&
 always                                  beul                B2L
@@ -229,9 +240,8 @@ always                                 abebb                ABtEBB
 sufword                                abel                 ABY
 # BEh
 sufword                                 behaim              B=AIM
-sufword                                 behlt               B=LT
-begword                                 behnk               B=NK
-sufword                                 behr                B=R
+before_konsonant_begword                beh                 B=
+always                                  behr                B=R
 prfword                              gabbeh                 GABtBEH
 begmidword                           gabbeh                 GABtB=
 # BEl
@@ -243,12 +253,15 @@ always                                  belarus             BYAtRUS
 always                                  belarussisch        BYAwRU^I5
 always                                  belemnit            BY[tNIT
 always                                  beleta              BYtETA
+always                                bäbeli                B@tBYI
 begword                              gräbelfin              GR@tBYtF*
 begmidword                              belgi               BYtGI
 always                                  belgrad             BYtGRAD
+always                                  belinski            BY*tSKI
 sufword                           schneebeli                5NEEtBYI
 begmidword                              belind              BY*D
 begmidword                              beliz               BYIZ
+sufword                                 bell                ;Q
 sufword                                 belm                BYtM
 endword                                 beln                BYN
 sufword                                 belo                BYO
@@ -268,10 +281,12 @@ begmidword                              belved              BYtVED
 always                                  belz                BYZ
 word                                   abel                 ABY
 always                                babel                 BAtBY
+word                                  cabello               'CAt;QO
 midendword                            dabel                 DAtBY
 always                                fabel                 FAtBY
 always                                kabel                 KAtBY
 always                                label                 LAtBY
+word                                  cabello               'CAt;QO
 begmidword                           flabellip              FLAt;QIP
 begmidword                           flabellin              FLAt;Q*
 always                                nabel                 NAtBY
@@ -315,6 +330,7 @@ midendword                            tibel                 TItBY
 always                                zibel                 ZItBY
 always                               falbel                 F:tBY
 always                                ambelokipi            AMtBYOtKItPI
+always                               cymbel                 'C'YMtBY
 always                               zimbel                 ZIMtBY
 always                               zymbel                 Z'YMtBY
 always                                 obelisk              OBYISK
@@ -345,6 +361,7 @@ always                                hubel                 HUtBY
 always                                jubel                 JUtBY
 always                                rubel                 RUtBY
 always                                rubella               RUt;QA
+begword                               kybel                 K'YtBY
 # BEm
 endword                                 bem                 B[
 word                                    bemas               B[AS
@@ -376,9 +393,12 @@ always                               grubenotter            GRUtBCwOTtT7
 always                                  ber                 B7
 # BEs
 prfword                                 bes                 B%
-word                                  rubescens             RUtB%t'CCS
+prfword                                 besan               B%AN
+always                                  besan               B%+
 always                                  besazio             B%AtZIO
+word                                  rubescens             RUtB%t'CCS
 always                                  beskovic            B%tKOtVI'C
+always                                  besen               B%C
 always                                  best                ;]
 always                                  bessarabi           ;^)AtBI
 always                                  bessemer            ;^[7
@@ -386,8 +406,11 @@ always                               arabesk                )AtB%K
 always                               arabesqu               )AtB%'QU
 always                                vibescu               VItB%t'CU
 begmidword                            robespierr            ROB%tPI7tR
+sufword                               dybesø                D'YtB%ø
 # BEu
+always                                  beurnevésin         B2RNEtVétS*
 sufword                               gebeut                &tB2T
+always                                  beuv                B2V
 
 # C   (4.1 Lautgruppenkürzungen)
 word                                    c                   'C
@@ -443,6 +466,7 @@ before_h_begmidword                pferde                   PF7tDE
 begmidword                           sheeh                  SHEEwH
 begmidword                            seehas                SEEwHAS
 begword                               see                   SEE
+sufword                               seengen               SEtCtGC
 always                                seehecht              SEEwHE4T
 prfword                               seehechte             SEEwHE4(
 always                                seehei                SEEwH3
@@ -476,6 +500,7 @@ always                               warehaus               W)EwH1S
 begmidword                           warehäus               W)EwH\S
 midendword                              eholz               W)EwH\S
 always                              havreholm               HAVtREtHOLM
+midendword                             sehead               SEwHEAD
 always                               nasehorn               NAtSEwH?N
 always                               nasehörn               NAtSEwH9RN
 before_h_begmidword                 gänse                   G@NtSE
@@ -496,11 +521,10 @@ word                                    ei                  '3
 always                                  ei                  3
 midword                                 eikon               EwIKOtN
 begmidword                            freikon               FR3tKON
-midword                                 eille               EIQE
 midword                                 eilleus             EIQ2S
-begmidword                          marseill                M)tSEIQ
 midword                                 eilloy              EwIQO'Y
 always                             mediceisch               MEtDIt'CEtI5
+always                                 deist                DEtI]
 always                          montevideisch               MONt(tVItDEtI5
 always                               codein                 'COtDE*
 always                               kodein                 KOtDE*
@@ -518,6 +542,7 @@ always                                äneis                 @NEtIS
 always                               aeneis                 AENEtIS
 always                              guineisch               GU*EtI5
 always                                boeing                BOEt*G
+always                               nereid                 N7EtID
 always                          pythagoreisch               P'YtTHAtG?EtI5
 always                            epikureisch               EPItKUtREtI5
 always                             eritreisch               7ITREtI5
@@ -531,6 +556,7 @@ always                                 weight               WEIGHT
 # EIN (4.1 Lautgruppenkürzungen)
 always                                  ein                 6
 always                                 deinonych            DEt*OtN'Y4
+always                                 deinother            DEt*OtTH7
 always                       phenolphtalein                 PHCOLPHtT:Et*
 always                              tropein                 TROtPEt*
 always                                speinuss              SP3wNU^
@@ -554,6 +580,7 @@ before_l_begmidword                  lebe                   LEBE
 always                              spacelab                SPA'CEwLAB
 always                              graceland               GRA'CEwL+D
 always                               facelift               FA'CEwLIFT
+always                              gardeleg                G)tDEwLEG
 always                             stachel                  ]<Y
 always                               hoheluft               HOtHEwLUFT
 always                            mortadell                 M?TAtDEQ
@@ -595,17 +622,20 @@ before_l_begmidword                  ärmel                  @RtMY
 before_l_begmidword                saigne                   SAIGNE
 always                               annelies               +NEwL0S
 begmidword                           annelieschen           +NEwL0St4C
-always                               annelis                +tNEwLIS
+prfword                              annelis                +tNYIS
+begmidword                           annelis                +tNEwLIS
 begmidword                          hannelor                H+tNEwL?
 begmidword                          marnelini               M)tNEwL*I
 always                                coelis                'COEtLIS
 always                                coelos                'COEtLOS
+sufword                             schoelcher              5OELt47
 sufword                               poelsnip              POELtSNIP
+sufword                              troeltsch              TROELT5
 always                              stapel                  ]AtPY
 begmidword                           pipelin                PIPEwL*
 always                               ampel                  AMtPY
 always                              campell                 'CAMtPEQ
-always                               copeland               COPEtL+D
+always                               copeland               'COPEtL+D
 always                              doppel                  DOPtPY
 always                             stoppel                  ]OPtPY
 always                             skrupel                  SKRUtPY
@@ -632,10 +662,16 @@ midendword                              emann               EwM+N
 midendword                              emarie              EwM)0
 midendword                              emark               wM)K
 midendword                              emärk               wM@RK
+prfword                                 emund               EwM/D
+prfword                                 emunds              EwM/DS
+prfword                                 emünde              EwM8NtDE
+prfword                                 emündes             EwM8NtD%
+always                                  emünder             EwM8NtD7
 begword                                aemili               AEMItLI
 always                                daemon                DAEtMON
 before_m_begmidword                reggae                   REGtGAE
 begword                               kaem                  KAEM
+begword                              graem                  GRAEM
 before_m_begmidword                 heide                   H3tDE
 prfword                              freeman                FREEtMAN
 begmidword                           freeman                FREEtM+
@@ -645,14 +681,17 @@ prfword                               leeman                LEEtMAN
 begmidword                            leeman                LEEtM+
 always                            heiligemaria              H3tL>EwM)IA
 always                            heiligemutter             H3tL>EwMUTtT7
+prfword                             brakeman                BRAKEtMAN
+begmidword                          brakeman                BRAKEtM+
 before_m_begmidword                middle                   MIDtDLE
 begword                             mallemanch              MAQEtM+4
 prfword                              coleman                'COLEtMAN
 begmidword                           coleman                'COLEtM+
 sufword                             hoolemeer               HOOtLEtMEER
+prfword                             kahneman                KAHtNEtMAN
+begmidword                          kahneman                KAHtNEtM+
 always                           fontainemelon              FONtTAItNEtMYON
-always                               annemariann            +NEtM)It+N
-always                               annemarie              +tNEtM)0
+before_m_begmidword                  anne                   +tNE
 always                              grönemeyer              GR9tNEwME'Y7
 always                              warnemünd               W)tNEwM8ND
 always                             bournemouth              BOURNEwMOUTH
@@ -662,7 +701,7 @@ sufword                              droemer                DROEtM7
 sufword                             stroemfeld              ]ROEMtFYD
 always                                 remark               REtM)K
 after_e_midendword                       mouth              wMOUTH
-always                              libremont               LItBREwMONT
+always                                bremont               BREwMONT
 always                                tremont               TREwMONT
 before_m_begmidword                ampere                   AMtP7E
 prfword                              foreman                F?EtMAN
@@ -673,6 +712,7 @@ begmidword                          gilseman                GILtSEtM+
 begmidword                           rosemar                ROSEtM)
 always                              rossemaison             RO^EwMAItSON
 always                             krauseminz               KR1tSEwM*Z
+begword                            courtemaîch              'COUR(tMAî4
 begmidword                          travemünd               TRAtVEwM8NtD
 
 # EN  (4.1 Lautgruppenkürzungen)
@@ -688,12 +728,14 @@ begmidword                          heidenelk               H3tDEwNYtK
 begmidword                         pferdenas                PF7tDEwNAS
 always                            aberdeen                  AB7tDEEN
 sufword                               leena                 LEEtNA
+sufword                          magdaleen                  MAGtD:EEN
 sufword                             maleen                  M:EEN
 midendword                         athleen                  ATHtLEEN
 sufword                             aileen                  AItLEEN
 sufword                             eileen                  3LEEN
 always                             marleen                  M)tLEEN
 always                            charleen                  4)tLEEN
+sufword                               peene                 PEEtNE
 always                              doreen                  D?EEN
 always                             laureen                  L1tREEN
 prfword                              steen                  ]EEN
@@ -706,6 +748,8 @@ begmidword                            peenemünd             PEEtNEwM8NtD
 always                          skibbereen                  SKIBtB7EEN
 sufword                            maureen                  M1REEN
 sufword                          hoogeveen                  HOOt&tVEEN
+begword                              sween                  SWEEN
+always                               glienick               GL0tNI$
 sufword                               siena                 SICA
 always                                sienesisch            SIC%I5
 always                              villeneuv               VIQEwN2V
@@ -716,6 +760,7 @@ begword                               loenin                LOEtN*
 sufword                               poena                 POEtNA
 sufword                              groen                  GROEN
 before_n_begmidword                 monte                   MONt(
+always                              montenol                MONtTCOL
 
 # ER  (4.1 Lautgruppenkürzungen)
 always                                  er                  7
@@ -734,6 +779,7 @@ begword                             sphaer                  SPHAER
 sufword                               laer                  LAER
 sufword                           kevelaer                  KEtVYAER
 sufword                          kirchleerau                KIR4tLEER1
+always                             willaert                 WIQAERT
 sufword                           moosleerau                MOOStLEER1
 before_er_begmidword               kohle                    KOHtLE
 prfword                            kohler                   KOHtL7
@@ -749,16 +795,28 @@ always                                oerlikon              OERtLItKON
 begword                               oert                  OERT
 word                                 boer                   BOER
 sufword                           waiboer                   WAItBOER
+sufword                          holsboer                   HOLStBOER
+sufword                         blauwboer                   BL1WtBOER
 sufword                              boern                  BOERN
 word                                 boers                  BOERS
 begword                              moer                   MOER
 endword                                eer                  EER
+endword                               aeer                  AEt7
+always                            mediceer                  MEtDIt'CEt7
+always                            caboceer                  'CAtBOt'CEt7
+word                                 eleer                  YEt7
+always                            eritreer                  7ItTREt7
+always                           epikureer                  EPItKUtREt7
 sufword                                eeri                 EERI
 endword                                eers                 EERS
+prfword                               deer                  DEER
+sufword                               deer                  DEER
+prfword                               deers                 DEERS
 always                                peer                  PEER
 always                               speer                  SPEER
 sufword                              creer                  'CREER
 sufword                             streeritz               ]REEtRITZ
+endword                               seer                  SEt7
 before_er_always                      see                   SEE
 before_e_always                       tee                   TEE
 always                                teer                  TEER
@@ -776,17 +834,22 @@ prfword                              ruher                  RUtH7
 prfword                              ruhern                 RUtH7N
 prfword                              ruhers                 RUtH7S
 always                              taljereep               T:tJEwREEP
+always                               anneros                +tNEwROS
+always                               annerös                +tNEwR9S
 before_er_begmidword             schweine                   5W6E
 before_er_begmidword               sterne                   ]7tNE
 sufword                               moers                 MOERS
 sufword                           hogewoerd                 HOt&tWOERD
 begword                             hauteriv                H1(tRIV
+always                                muerset               MUERtSET
+always                               truereligion           TRUEwRY>ION
 always                            rhinoze                   RHItNOtZE
 
 # ES  (4.1 Lautgruppenkürzungen)
 always                                  es                  %
 always                                  esch                E5
 begword                                 esh                 ESH
+endword                                 esh                 ESH
 endword                                 eseite              EwS3t(
 syllable                                 shalom             SH:OM
 midendword                              eshire              EwSHIRE
@@ -798,6 +861,8 @@ endword                                 esschen             E^t4C
 endword                                 esschens            E^t4CS
 always                                  est                 E]
 midendword                              estell              Ew]EQ
+prfword                                 estienne            E]ItCNE
+prfword                                 estiennes           E]ItCN%
 midendword                              estown              %wTOWN
 midendword                              estund              Ew]/D
 sufword                               faes                  FAES
@@ -806,6 +871,7 @@ prfword                               caesar                'CAEtSAR
 begmidword                            caesar                'CAEtS)
 sufword                               kaes                  KAES
 sufword                              klaes                  KLAES
+begword                              braesid                BRAEtSID
 before_s_always                      bade                   BAtDE
 prfword                              bades                  BAtD%
 prfword                              bades                  BAtD%
@@ -822,10 +888,12 @@ before_s_always                      klee                   KLEE
 always                                meesenburg            MEEtSCwBURG
 sufword                               nees                  NEES
 always                                reesa                 REEtSA
+sufword                            dreesmann                DREEStM+N
 before_s_always                       see                   SEE
 prfword                               sees                  SEES
 prfword                             gesees                  &wSEES
 before_s_always                       tee                   TEE
+always                                weesen                WEEtSC
 begword                                feshk                FESHK
 always                                 keshero              KEtSH7O
 always                               takeshi                TAtKEtSHI
@@ -845,17 +913,23 @@ always                                heesters              HEE]7S
 always                               moleskin               MOLEwSK*
 endword                                 esee                EwSEE
 endword                                 esees               EwSEES
+sufword                              linescio               L*EtS'CIO
+begword                              tynesid                T'YNEwSID
 sufword                                oesch                OE5
 always                                coesfeld              'COESwFYD
 sufword                             defoe                   DEtFOE
 always                                soest                 SOE]
+sufword                            crusoe                   'CRUtSOE
 begword                               fresch                FR%t4
 sufword                               fresh                 FRESH
 begmidword                          shiresauc               SHIREwS1'C
 always                                brescia               BREtS'CIA
+always                                cresciano             'CREtS'CI+O
+always                                öresund               9REwS/D
 always                               matestrauch            MA(w]R14
 always                               matesträucher          MA(w]R\47
-begmidword                           montesin               MONt(tS*
+begmidword                          montesin                MONt(tS*
+word                                  kues                  KUES
 begmidword                           bayessch               BA'Y%5
 
 # EU  (4.1 Lautgruppenkürzungen)
@@ -877,11 +951,16 @@ always                                       theurg         THEURG
 midendword                                   theus          THEtUS
 prfword                                    matheu           MAtTHEU
 prfword                                    matheus          MAtTHEtUS
+always                                  prometheus          PROtMEtTH2S
 always                                       aleuten        :EUtTC
 always                                       aleutisch      :EUtTI5
 always                                     malleus          MAQEtUS
 always                                  egidianeum          EGItDI+EtUM
 always                                 herculaneum          H7t'CUtL+EtUM
+begmidword                                    oeuvr         9UVR
+prfword                                      boeuf          B9UF
+prfword                                      boeufs         B9UFS
+begword                                      coeuv          'C9UV
 word                                       andreu           +aDnREU
 word                                       andreus          +aDnREUS
 word                                        aureus          1tREtUS
@@ -897,11 +976,13 @@ always                                  ge                  &
 sufword                                 geenie              GEEtN0
 sufword                                 geertz              GEERTZ
 sufword                               eiger                 3tG7
+begword                              valger                 V:tG7
 endword                                 geur                G2R
 endword                                 geure               G2RE
 endword                                 geurs               G2RS
 endword                                 geuze               G2ZE
 # GEh
+always                                  gehen               G=C
 sufword                                 gehrig              G=tR>
 sufword                                 gehring             G=tR*G
 # GEi
@@ -946,7 +1027,9 @@ always                             schlegel                 5LEtGY
 always                                pegel                 PEtGY
 always                                regel                 REtGY
 always                                segel                 SEtGY
+always                              binggeli                B*GtGYI
 always                            schmuggel                 5MUGtGY
+always                            witschgeli                WIT5tGYI
 sufword                                igel                 IGY
 midendword                             igel                 >Y
 always                                nigella               N>EQA
@@ -978,6 +1061,7 @@ always                                vögel                 V9tGY
 always                              spargel                 SP)tGY
 always                               mergel                 M7tGY
 always                               pergel                 P7tGY
+begword                              vergelet               V7tGYET
 always                                orgel                 ?tGY
 sufword                              mörgeli                M9RtGYI
 always                               nörgel                 N9RtGY
@@ -995,6 +1079,7 @@ always                               prügel                 PR8tGY
 always                                zügel                 Z8tGY
 # GEm
 prfword                                 gem                 G[
+always                                  gement              G[CT
 always                                  gemini              G[*I
 always                               trigeminus             TRItG[*US
 sufword                                 gempen              G[tPC
@@ -1009,8 +1094,10 @@ sufword                                 geraard             G7AARD
 sufword                               rugera                RUtG7A
 sufword                              grygera                GR'YtG7A
 sufword                                 gerd                G7D
+sufword                               degerloch             DEtG7wLO4
 sufword                              wigger                 W>tG7
 begword                              rugger                 RUGtG7
+always                               bougerie               BOUtG70
 always                                  gers                G7S
 always                                zägerschwil           Z@tG75tWIL
 always                                  gersund             G7wS/D
@@ -1054,6 +1141,7 @@ word                                    geris               G7IS
 prfword                                 gerie               G70
 prfword                                 gerien              G7IC
 always                                 egerkingen           EG7tK*tGC
+begmidword                              gerlafin            G7tLAtF*
 midendword                             ggerli               GtG7LI
 syllable                                gerlind             G7tL*D
 always                                  germ                G7M
@@ -1119,6 +1207,7 @@ always                               wieger                 W0tG7
 always                                leger                 LEtG7
 always                                neger                 NEtG7
 always                                reger                 REtG7
+sufword                               teger                 TEtG7
 always                              integer                 *(G7
 prfword                               weger                 WEG7
 prfword                               wegern                WEG7N
@@ -1136,6 +1225,7 @@ always                              steiger                 ]3tG7
 always                               geiger                 G3tG7
 always                               weiger                 W3tG7
 sufword                             zwijger                 ZWIJtG7
+always                               bilger                 BILtG7
 always                               pilger                 PILtG7
 always                               tilger                 TILtG7
 always                               holger                 HOLtG7
@@ -1203,9 +1293,15 @@ prfword                                 gesers              G%7S
 word                                    gesine              G%*E
 word                                    gesines             G%*%
 sufword                                 gesner              G%tN7
+always                                  gesù                G%ù
+always                                  gesualdo            G%U:tDO
+always                                  gesummino           G%UX*O
+always                               tages                  TAtG%
 sufword                               hegeso                HEtG%O
 always                               onegesios              ONEtG%ItOS
 always                               baggesen               BAGtG%C
+sufword                               eggesin               EGtG%*
+always                               ganges                 G+tG%
 # GEu
 begword                                 geud                G2D
 sufword                                 geuen               G2C
@@ -1245,6 +1341,8 @@ prfword                                bienchen             B0Nt4C
 prfword                                biene                B0tNE
 prfword                                bienen               B0tNC
 always                                 bienn                BICN
+always                                 bienzle              B0NZtLE
+always                                 bienzles             B0NZtL%
 begmidword                          podbielsk               PODtBIYSK
 always                            colombier                 'COtLOMtBI7
 begmidword                        kolumbi                   KOtLUMtBI
@@ -1267,6 +1365,7 @@ always                               ancier                 +t'CI7
 always                              lancier                 L+t'C0R
 always                            arconciel                 )'CONt'CIY
 always                          kappadoci                   KAPtPAtDOt'CI
+always                              mercier                 M7t'CI7
 always                               lucien                 LUt'CItC
 # dIE
 always                                 dieci                DIEt'CI
@@ -1288,6 +1387,7 @@ always                             canadier                 'C+AtDI7
 always                             kanadier                 K+AtDI7
 always                            masnadieri                MAStNAtDI7I
 always                               didier                 DItDI7
+word                                  diesse                DIE^E
 always                              bandiera                B+tDI7A
 always                           clavendier                 'CLAtVCtDI7
 always                            burundier                 BUtR/tDI7
@@ -1311,6 +1411,8 @@ sufword                               igiea                 IGItEA
 sufword                             paigier                 PAItGI7
 prfword                             vergier                 V7tGI7
 always                             georgi                   &?tGI
+word                               georgie                  &?tG0
+word                               georgies                 &?tG0S
 always                             georgin                  &?tG*
 sufword                             gorgier                 G?tGIt7
 sufword                             lesgier                 L%tGIt7
@@ -1327,6 +1429,7 @@ always                             alighieri                :>HI7I
 sufword                              mihiel                 MItHIY
 always                              jophiel                 JOtPHItY
 always                              sophien                 SOtPHIC
+always                                 thierr               THI7R
 always                             gauthier                 G1tTHI7
 prfword                               thieu                 THI2
 prfword                               thieus                THI2S
@@ -1344,10 +1447,13 @@ always                          kappadoki                   KAPtPAtDOtKI
 always                               lyki                   L'YtKI
 # lIE
 sufword                                liechti              LIE4tTI
+word                                   lieli                LIYI
+word                                   lielis               LIYIS
 midendword                             lien                 LItC
 sufword                                lieu                 LI2
 begword                              calien                 'C:IC
 always                               falier                 F:I7
+begmidword                         eulali                   2tL:I
 begmidword                          amali                   AM:I
 begmidword                         somali                   SOtM:I
 always                           journalier                 JOURtN:I7
@@ -1359,10 +1465,14 @@ always                             rosalind                 ROtS:*D
 begmidword                       thessali                   THE^:I
 always                              italien                 IT:IC
 always                           viktuali                   VIKtTUt:I
+always                             ophelien                 OPHYItC
+always                           bersaglier                 B7tSAGLI7
 prfword                           cavalieres                'CAtV:I7%
 always                            cavalieri                 'CAtV:I7I
+sufword                           cäcili                    'C@t'CItLI
 always                            chevalier                 4EtV:I7
 always                             duvalier                 DUtV:I7
+always                             cäcilier                 'C@t'CItLI7
 sufword                               eliezer               YIEtZ7
 always                            richelieu                 R#YI2
 prfword                            kamelie                  KAtMYIE
@@ -1374,13 +1484,16 @@ always                            corneli                   'C?tNYI
 always                             kareli                   K)YI
 always                            borreli                   B?RYI
 always                             letelier                 LEtTYIt7
+always                            muntelier                 M/tTYIt7
 always                               velier                 VYIt7
+always                          rebeuvelier                 REtB2tVYIt7
 sufword                             sogli                   SOGLI
+always                              miglieglia              M>LIEtGLIA
 always                              guglielmo               GUtGLIYtMO
 # HOMONYM
 prfword                             dahlie                  DAHtLIE
 always                              dahlien                 DAHtLIC
-prfword                            cäcili                   'C@t'CItLI
+sufword                            cäcili                   'C@t'CItLI
 prfword                              lilie                  LItLIE
 always                               lilien                 LItLIC
 begmidword                          emili                   [ItLI
@@ -1393,6 +1506,7 @@ always                              gallig                  GAQ>
 always                                llier                 QI7
 sufword                             tallien                 TAQIC
 sufword                              illiez                 IQIEZ
+sufword                            moilliet                 MOIQIET
 always                             duillier                 DUIQI7
 always                              jullien                 JUQItC
 always                              vulliens                VUQICS
@@ -1415,13 +1529,17 @@ midendword                             mien                 MIC
 prfword                                miene                M0tNE
 always                                 mienen               M0tNC
 sufword                            récamier                 Rét'CAtMI7
+sufword                              pamier                 PAtMI7
 always                               ramiel                 RAtMIY
 begmidword                     mesopotami                   M%OtPOtTAtMI
 midendword                            emien                 [IC
+always                         müntschemier                 M8NTt5[I7
 sufword                               imier                 IMI7
 always                              gommier                 GOXI7
 always                              pommier                 POXI7
+always                               pomier                 POtMI7
 always                              daumier                 D1tMI7
+always                              cormier                 'C?tMI7
 begmidword                           mumi                   MUtMI
 # nIE
 sufword                                niemi                NI[I
@@ -1458,7 +1576,7 @@ begmidword                        kastani                   KA]+I
 begmidword                        silvani                   SILtV+I
 sufword                              denier                 DCI7
 always                            gardeni                   G)tDCI
-always                           iphigeni                   IPHItGCI
+always                           iphigeni                   IPH>CI
 sufword                           turgeniew                 TURtGCtIEW
 always                       tschetscheni                   T5ET5CI
 always                       tschetschenin                  T5ET5C*
@@ -1486,10 +1604,14 @@ begmidword                        grusini                   GRUtS*I
 begmidword                      argentini                   )tGCtT*I
 begmidword                         aktini                   AKtT*I
 always                             aktinin                  AKtT**
+always                            martini                   M)tT*I
 sufword                              winiewicz              W*IEtWI'CZ
 prfword                              zinie                  Z*IE
 always                               zinien                 Z*IC
 sufword                             samnier                 SAMtNI7
+always                              mannien                 M+NtNItC
+begmidword                       alemanni                   :EtM+tNI
+always                           alemannin                  :EtM+tN*
 always                              henniez                 HCtNItEZ
 ### und die korrekte Schreibweise ...
 prfword                             zinnie                  Z*tNIE
@@ -1527,6 +1649,7 @@ begmidword                        bithyni                   BItTH'YtNI
 prfword                               boie                  BOIE
 always                                boien                 BOIC
 word                                  foie                  FOIE
+endword                              ssoie                  ^OIE
 always                                voien                 VOIC
 # pIE
 word                                   pie                  PIE
@@ -1537,7 +1660,7 @@ always                                 piemont              PIEtMONT
 midendword                             pien                 PIC
 sufword                                piensa               PICSA
 sufword                                pierfrancesco        PI7wFR+t'C%t'CO
-sufword                                piero                PI7O
+sufword                                pier                 PI7
 sufword                                pierra               PI7tRA
 always                                 pierre               PI7tRE
 always                                 pierres              PI7tR%
@@ -1565,7 +1688,9 @@ sufword                               ariel                 )IY
 prfword                               arielle               )IEQE
 prfword                               arielles              )IEQ%
 always                                arietta               )ItETtTA
+sufword                              hariel                 H)ItY
 always                               marie                  M)0
+always                            dammarie                  DAX)0
 begword                              mariell                M)ItEQ
 sufword                              mariet                 M)ItET
 prfword                              mariette               M)ItET(
@@ -1575,7 +1700,7 @@ always                                arier                 )I7
 word                                  aries                 )It%
 always                              gabriel                 GABRIY
 always                              gabriell                GAtBnRItEQ
-begmidword                          umbrier                 UMtBRIt7
+always                              umbrier                 UMtBRIt7
 begword                              adriet                 ADnRItET
 always                                erien                 7IC
 always                              iberien                 IB7IC
@@ -1588,11 +1713,13 @@ always                             siviriez                 SItVItRIEZ
 begmidword                          henriett                HCtRItETtT
 prfword                             henriette               HCtRItET(
 word                                  oriel                 ?IY
+endword                               orien                 ?IC
 always                                orient                ?ICT
 begmidword                          glori                   GL?I
 begmidword                        cichori                   'C#?I
 begmidword                        zichori                   Z#?I
 always                               noriega                N?IEtGA
+always                            viktori                   VIKtT?I
 always                              carrier                 'C)tRI7
 always                              barrier                 B)tRIt7
 always                              harriet                 H)tRIET
@@ -1600,6 +1727,7 @@ always                              perrier                 P7tRI7
 always                              terrier                 T7tRI7
 always                             guerrieri                GU7tRI7I
 begmidword                          corrier                 'C?tRI7
+sufword                            courrier                 'COURtRI7
 sufword                               triemli               TRI[tLI
 sufword                               triengen              TR0NtGC
 always                                triest                TRIE]
@@ -1619,7 +1747,7 @@ always                              gavrielides             GAVtRItYItD%
 always                             illyrier                 IQ'YtRI7
 always                           corbeyrier                 'C?tBE'YtRIt7
 sufword                             meyriez                 ME'YtRItEZ
-sufword                             veyrier                 VE'YtRI7
+always                              veyrier                 VE'YtRI7
 begmidword                           syri                   S'YtRI
 begmidword                           syrin                  S'YtR*
 begmidword                         assyri                   A^'YtRI
@@ -1666,10 +1794,11 @@ always                             crissier                 'CRI^It7
 midendword                          messieur                ME^I2R
 always                            jurassier                 JUtRA^I7
 sufword                             messier                 ME^It7
-begword                              ossietz                OStSItETZ
+sufword                             bossier                 BO^It7
+begword                              ossietz                O^ItETZ
 always                            corbusier                 'C?tBUtSI7
 begmidword                       andalusi                   +tD:UtSI
-begmidword                         salusier                 S:UtSI7
+sufword                            salusier                 S:UtSI7
 always                            maurusier                 M1tRUtSIt7
 sufword                              susier                 SUtSIt7
 always                            malaysier                 M:A'YtSI7
@@ -1682,6 +1811,7 @@ prfword                                tiens                TICS
 prfword                                tient                TICT
 sufword                                tiercelin            TI7t'CY*
 prfword                                tierra               TI7tRA
+prfword                                tierras              TI7tRAS
 sufword                                tievero              TIEtV7O
 begmidword                          rhäti                   RH@tTI
 always                             ignatieff                IGtNAtTItEFF
@@ -1689,6 +1819,7 @@ always                            sorbetier                 S?t;tTIt7
 always                             peletier                 PYEtTI7
 sufword                              altieri                :tTI7I
 sufword                             paltieri                P:tTI7I
+always                             gaultier                 G1LtTI7
 always                              poitiers                POItTI7S
 begmidword                        helveti                   HYtVEtTI
 always                              poitiers                POItTI7S
@@ -1709,9 +1840,10 @@ sufword                            roettier                 ROETtTI7
 always                           condottier                 'CONtDOTtTI7
 always                           charcutier                 4)t'CUtTIt7
 always                              gautier                 G1tTI7
+begmidword                           gutierr                GUtTI7tR
 always                              moutier                 MOUtTI7
 # uIE
-sufword                             figuier                 FItGUIt7
+sufword                             figuier                 F>UIt7
 always                                quieu                 'QUI2
 endword                               quier                 'QUI7
 endword                               quiers                'QUI7S
@@ -1730,6 +1862,7 @@ begmidword                         endivi                   CtDItVI
 begmidword                          klivi                   KLItVI
 sufword                             olivier                 OLItVI7
 begmidword                         bolivi                   BOtLItVI
+always                           d'annivier                 D'ANtNItVI7
 always                               riviera                RItVI7A
 always                               vivien                 VItVIC
 sufword                             janvier                 J+tVI7
@@ -1764,43 +1897,36 @@ begmidword                      alkylanzi                   :tK'YtL+tZI
 sufword                              arzier                 )tZI7
 always                             pretzien                 PRETtZ0N
 always                          kolkwitzi                   KOLKtWITtZI
+sufword                            weltzien                 WYTtZ0N
 always                            balbuzi                   B:tBUtZI
 
 # IG  (4.1 Lautgruppenkürzungen)
 midendword                              ig                  >
+endword                                 igade               IwGAtDE
 midword                                 ignor               IGN?
 endword                                 ignor               IGNOR
 midendword                              igold               IwGOLD
 midendword                              igolf               IwGOLF
+midendword                              igrund              IwGR/D
 always                                 aig                  AIG
 always                                hai                   HAI
 sufword                               haiger                HAItG7
 always                              sinai                   S*AI
 always                             bonsai                   BONtSAI
 always                               rigigrat               RItGIwGRAT
-always                                 high                 HIGH
 always                              khaki                   KHAtKI
-always                                 light                LIGHT
-always                                 mignon               MIGNON
-always                                 night                NIGHT
 always                             armani                   )tM+I
 always                             champignon               4AMtPIGNON
-always                                 right                RIGHT
 always                                 rigips               RItGIPS
 always                           lollobrigida               LOQOtBRItGItDA
 always                              aborigine               ABt?>*E
 always                              aborigines              ABt?>*%
-sufword                              agrigen                AGnRItGC
 always                                trigeminus            TRIwG[*US
 always                                 sight                SIGHT
 prfword                                sign                 SIGN
 ### Akzent              signifié
 prfword                                signs                SIGNS
-always                                luigi                 LUItGI
 always                                avignon               AVIGNON
-always                               savigny                SAtVIGN'Y
-always                              sauvignon               S1tVIGNON
-always                                dwight                DWIGHT
 
 # IN  (4.1 Lautgruppenkürzungen)
 always                                  in                  *
@@ -1850,6 +1976,7 @@ always                              multination             MULtTIwN!N
 always                           aschantinuss               A5+tTItNU^
 always                           aschantinüss               A5+tTItN8^
 always                           mannequin                  M+NEt'QU*
+always                                duinstraat            DUINw]RAAT
 
 # LICH (4.1 Lautgruppenkürzungen)
 midendword                              lich                _
@@ -1963,6 +2090,7 @@ syllable                                 sylvani            S'YLtV+I
 midendword                              ssaal               SwSAAL
 always                               flussaal               FLU^wAAL
 midendword                              ssee                SwSEE
+always                                cossee                'CO^EE
 always                              chaussee                41^EE
 prfword                             chausseen               41^EC
 always                               odyssee                OD'Y^EE
@@ -1981,6 +2109,8 @@ midendword                              ssonder             SwSONtD7
 endword                                 ssonne              SwSONtNE
 begword                              frissonn               FRI^ONtN
 midendword                              ssonnen             SwSONtNC
+sufword                               massonnen             MA^ONtNC
+sufword                               bossonnen             BO^ONtNC
 midendword                              sspiegel            SwSP0tGY
 midendword                              sspiel              SwSP0L
 always                              aronsstab               )ONSw]AB
@@ -2002,6 +2132,7 @@ midendword                              sstraat             Sw]RAAT
 midendword                              sstrand             Sw]R+D
 midendword                              sstrauch            Sw]R14
 midendword                              sstraß              Sw]RA'^
+midendword                              sstrass             Sw]RA^
 endword                                 sstreck             Sw]RE$
 endword                                 sstube              Sw]UtBE
 midendword                              sstuben             Sw]UtBC
@@ -2043,6 +2174,7 @@ always                            merkur                    M7tKUR
 word                                krauss                  KR1^
 sufword                             kraussneck              KR1^tNE$
 always                             bambus                   BAMtBUS
+always                             bambusch                 BAMtBU5
 always                            pyrrhus                   P'YRRHUS
 always                         laurentius                   L1tRCtTItUS
 always                             gallus                   GAQUS
@@ -2082,7 +2214,10 @@ prfword                              ohmstal                OHMSwTAL
 begmidword                           ohmstal                OHMSwT:
 prfword                          hadrianstor                HAtDRIt+StTOR
 always                           hadrianstor                HAtDRIt+StT?
+begmidword                          mannstrass              M+Nw]RA^
+begmidword                          mannstraß               M+Nw]RAt'^
 always                              mannstreu               M+NStTR2
+always                              mannstropf              M+NStTROPF
 prfword                              birstal                BIRSwTAL
 begmidword                           birstal                BIRSwT:
 always                           agulhasstrom               AGULtHASw]ROM
@@ -2111,6 +2246,8 @@ endword                                 tey                 TE'Y
 midendword                              teau                TE1
 always                               proteus                PROtT2S
 always                               nanteuil               N+tT2IL
+prfword                              monteu                 MONtT2
+prfword                              monteux                MONtT2'X
 sufword                              merteuil               M7tT2IL
 always                                gutedel               GUTwEDY
 
@@ -2133,7 +2270,8 @@ always                                  ter                 T7
 # TEs
 always                                  tes                 T%
 # TEsch
-always                                  tesch               (5
+begword                                 tesch               TE5
+midendword                              tesch               (5
 prfword                              weltesche              WYTwE5E
 prfword                              welteschen             WYTwE5C
 # TEss
@@ -2153,7 +2291,9 @@ sufword                             arjouni                 )tJOUtNI
 always                                bounteous             BOUNtTEOUS
 always                                bounty                BOUNtT'Y
 always                                mount                 MOUNT
+always                             chamounix                4AtMOUtNI'X
 always                              bantuneger              B+TUwNEtG7
+always                                tuunig                TUUtN>
 
 # X   (4.1 Lautgruppenkürzungen)
 word                                    x                   'X
@@ -2171,7 +2311,7 @@ always                                  y                   'Y
 
 # weitere Verbindungen:
 
-always                                  manns               M+NS
+always                                  kanns               M+NS
 
 
 ###############  Weitere erlaubte Kürzungen ####################
