@@ -1,14 +1,11 @@
-
 *~
-/.version
-/aclocal.m4
-/autom4te.cache
-/config.log
-/config.status
-/configure
-/depcomp
-/install-sh
-/missing
-/sbs-braille-tables-*.tar.gz
-Makefile
-Makefile.in
+
+# Maven
+/target/
+
+# Eclipse
+/.classpath
+/.project
+/.settings/
+/.externalToolBuilders
+/maven-eclipse.xml
