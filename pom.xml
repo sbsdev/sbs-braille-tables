@@ -161,6 +161,7 @@
                     <include name="**/lou_checktable"/>
                   </fileset>
                 </copy>
+                <chmod dir="target/liblouis" includes="*" perm="700"/>
               </target>
             </configuration>
           </execution>
@@ -174,10 +175,12 @@
               <target>
                 <exec executable="src/test/check_all_tables.pl" failonerror="yes">
                   <env key="PATH" value="${basedir}/target/liblouis/:${env.PATH}"/>
+                  <env key="LD_LIBRARY_PATH" value="${basedir}/target/liblouis/:${env.LD_LIBRARY_PATH}"/>
                   <env key="LOUIS_TABLEPATH" value="${basedir}/target/generated-resources/tables"/>
                 </exec>
                 <exec executable="src/test/check_combined_tables.pl" failonerror="yes">
                   <env key="PATH" value="${basedir}/target/liblouis/:${env.PATH}"/>
+                  <env key="LD_LIBRARY_PATH" value="${basedir}/target/liblouis/:${env.LD_LIBRARY_PATH}"/>
                   <env key="LOUIS_TABLEPATH" value="${basedir}/target/generated-resources/tables"/>
                 </exec>
               </target>
