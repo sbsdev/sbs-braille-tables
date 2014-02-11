@@ -206,7 +206,7 @@
             <data>
               <type>directory</type>
               <src>target/generated-resources/tables</src>
-              <excludes>unicode.dis</excludes>
+              <excludes>unicode.dis,sbs-de-g1-white.mod,sbs-de-g2-white.mod</excludes>
               <mapper>
                 <type>perm</type>
                 <prefix>/usr/local/share/liblouis/tables</prefix>
