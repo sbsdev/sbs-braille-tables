@@ -12,3 +12,8 @@
 /sbs-braille-tables-*.tar.gz
 Makefile
 Makefile.in
+/debian/sbs-braille-tables.debhelper.log
+/debian/files
+/debian/sbs-braille-tables.substvars
+/debian/sbs-braille-tables/
+/target/

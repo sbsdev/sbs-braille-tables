@@ -17,6 +17,14 @@ sudo make install
 
 This will add the sbs braille tables to the liblouis installed on the system.
 
+PACKAGING
+
+Build a Debian package by running
+
+  debuild -us -uc -b
+
+This will create a deb file in ../.
+
 LICENSE
 
 The tables contained within this package are free software. See the
