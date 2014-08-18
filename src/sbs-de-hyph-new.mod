@@ -10,6 +10,6 @@
 pass2 @cb @e
 
 # Für alte Rechtschreibung reservierte Trennmarken entfernen
-pass2 @ca ?
+pass2 @cf ?
 pass2 @cd ?
 pass2 @ce ?

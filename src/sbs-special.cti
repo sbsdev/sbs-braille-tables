@@ -27,9 +27,6 @@ letter        \x250D e               #9485    BOX DRAWINGS DOWN LIGHT AND RIGHT 
 # FÃ¼r Windows-Test auf "Macron gelegt", in core6.cti wieder setzen ...
 punctuation   \x250E d               #9486  ¯ BOX DRAWINGS DOWN HEAVY AND RIGHT LIGHT
 
-# TRENNMARKE (nur alte Rechtschreibung)
-letter        \x2502 ca              #9474    BOX DRAWINGS LIGHT VERTICAL
-
 # TRENNMARKE (nur neue Rechtschreibung)
 letter        \x2503 cb              #9475    BOX DRAWINGS HEAVY VERTICAL
 
@@ -39,6 +36,8 @@ letter        \x2506 cd              #9478    BOX DRAWINGS LIGHT TRIPLE DASH VER
 # TRENNMARKE ("CK", nur alte Rechtschreibung)
 letter        \x2507 ce              #9479    BOX DRAWINGS HEAVY TRIPLE DASH VERTICAL
 
+# TRENNMARKE (nur alte Rechtschreibung)
+letter        \x2502 cf              #9474    BOX DRAWINGS LIGHT VERTICAL
 
 # VOLLSCHRIFT Einzelwort (P6-3)
 punctuation   \x2559 6-3             #9561    BOX DRAWINGS UP DOUBLE AND RIGHT SINGLE
