@@ -18,6 +18,8 @@
 #=#correct ["[-"]$d "[\x2212"
 # begword nach Wortersatzstrich verhindern
 #=#correct $s["-"] "-\x250A"
+# begword Wortersatzstrich nach Schrägstrich verhindern
+#=#correct ["/-"]$l "/\x2013\x250A"
 # endword vor Wortersatzstrich verhindern
 #=#correct "-\s" "\x250A-\s"
 # endword vor Wortersatzstrich und Komma verhindern
