@@ -7,7 +7,7 @@
 #-------------------------------------------------------------------------------
 
 # Alle Trennmarken ausser "m" entfernen
-pass2 @ca ?
+pass2 @cf ?
 pass2 @cb ?
 pass2 @cd ?
 pass2 @ce ?
