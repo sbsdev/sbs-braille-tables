@@ -1,4 +1,3 @@
-
 *~
 /.version
 /aclocal.m4
@@ -17,3 +16,7 @@ Makefile.in
 /debian/sbs-braille-tables.substvars
 /debian/sbs-braille-tables/
 /target/
+/compile
+/test-driver
+/tests/*.log
+/tests/*.trs
