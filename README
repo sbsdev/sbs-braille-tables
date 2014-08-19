@@ -25,6 +25,8 @@ Build a Debian package by running
 
 This will create a deb file in ../.
 
+To increase the Debian package version edit `debian/changelog`.
+ 
 LICENSE
 
 The tables contained within this package are free software. See the
