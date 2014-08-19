@@ -828,6 +828,7 @@ sufword                               near                  NEAR
 sufword                               pear                  PEAR
 always                                pearl                 PEARL
 always                              appear                  APtPEAR
+always                          shakespear                  SHAK%tPEAR
 always                               spears                 SPEARS
 always                                search                SEAR4
 sufword                               sear                  SEAR
@@ -902,7 +903,7 @@ midendword                              ativ                !V
 # AU  (4.1 Lautgruppenkürzungen)
 word                                    au                  '1
 always                                  au                  1
-always                             kanada                   KAtNAtDA
+always                             kanada                   K+AtDA
 sufword                                kaunda               KAt/tDA
 prfword                              manaus                 M+AtUS
 always                            kapernaum                 KAtP7tNAtUM
@@ -4112,7 +4113,7 @@ always                                  entourag            CtTOUtRAtG
 begmidword                              entranc             CtTR+t'C
 begmidword                              entraîn             CtTRAîN
 begmidword                              entrañ              CtTRAñ
-word                                    entrare             CtTRAtRE
+word                                    entrare             CtTR)E
 always                                  entrec              CtTREt'C
 always                                  entrecht            ^tRT
 always                                 zentrech             ZCTwRE4
@@ -7007,7 +7008,7 @@ always                               einherr                6tH7wR
 sufword                            steinherr                ]6wH7R
 sufword                            schönherr                59NwH7R
 always                                höherr                H9tH7wR
-always                              hierher                 H0RtH7
+always                              hierher                 HRtH7
 always                            hinterher                 H*tT7tH7
 always                                 sherry               SH7tR'Y
 always                                äther                 @TH7
@@ -9531,6 +9532,7 @@ always                                  manna               M+tNA
 always                                  männedorf           M@NtNEtD?F
 always                                  mannequin           M+tNEt'QU*
 word                                    manner              M+tN7
+always                                  mannerheim          M+tN7wH3M
 word                                    manners             M+tN7S
 always                                  mannesmann          M+tN%tM+N
 always                                  mannfred            M+NtFRED
@@ -10610,7 +10612,7 @@ always                                  oor                 OOR
 begmidword                             coor                 'COt?
 begmidword                             koor                 KOt?
 begword                                nano                 N+O
-begmidword			       nanoor                 N+Ow?
+begmidword             nanoor                 N+Ow?
 sufword                              hyporhino              H'YtPOwRH*O
 begword                                poritz               POwRITtZ
 begmidword                             poros                POwROS
@@ -10947,7 +10949,7 @@ always                               messagebox             ME^At&wBO'X
 always                               messaggero             ME^AGtG7O
 always                            vernissag                 V7tNI^AtG
 prfword                           vernissage                V7tNI^At&
-always                         apprentissa                  APtPRECtTI^A
+always                         apprentissa                  APtPRCtTI^A
 word                                   usage                USA&
 prfword                                usages               USAG%
 midendword                            ausagier              1StAG0R
@@ -14114,6 +14116,7 @@ always                              städtereis              ]@Dt(wR3S
 before_r_begmidword                früchte                  FR84t(w
 always                             früchterl                FR84tT7L
 before_r_begmidword                  elite                  YIt(w
+always                           karmeliter                 K)tMYItT7
 always                               halteraum              H:t(wR1M
 always                               kältereg               K@Lt(wREG
 always                               kälteresist            K@Lt(wR%I]
