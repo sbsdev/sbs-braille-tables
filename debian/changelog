@@ -1,3 +1,9 @@
+sbs-braille-tables (1.8.1) unstable; urgency=low
+
+  * More table updates
+
+ -- Christian Egli <christian.egli@sbs.ch>  Tue, 19 Aug 2014 11:30:29 +0200
+
 sbs-braille-tables (1.8) unstable; urgency=low
 
   * Table updates
