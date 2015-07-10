@@ -19,6 +19,10 @@
   
   <name>DAISY Pipeline 2 module :: sbs-braille-tables</name>
   
+  <properties>
+    <tagNameFormat>v@{project.version}</tagNameFormat>
+  </properties>
+
   <dependencies>
     <dependency>
       <groupId>org.liblouis</groupId>
