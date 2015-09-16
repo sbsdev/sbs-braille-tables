@@ -16,7 +16,7 @@ sign                \x0026           12346 &#38;   AMPERSAND
 punctuation         \x0027             6-6 &#39;   APOSTROPHE APOSTROPHE-QUOTE
 punctuation         \x0028             236 &#40;   LEFT PARENTHESIS
 punctuation         \x0029             356 &#41;   RIGHT PARENTHESIS
-punctuation         \x002A              35 &#42;   ASTERISK
+sign		    \x002A              35 &#42;   ASTERISK
 math                \x002B             235 &#43;   PLUS SIGN
 punctuation         \x002C               2 &#44;   COMMA
 punctuation         \x002D              36 &#45;   HYPHEN-MINUS
