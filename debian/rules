@@ -6,3 +6,8 @@
 
 %:
 	dh $@  --with autotools-dev
+
+override_dh_auto_install:
+	$(MAKE) DESTDIR=$$(pwd)/debian/sbs-braille-tables prefix=/usr/local install
+
+override_dh_usrlocal:
