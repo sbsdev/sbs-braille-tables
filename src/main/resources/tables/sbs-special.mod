@@ -7,7 +7,7 @@
 #-------------------------------------------------------------------------------
 
 # Kürzungsverbot entfernen
-pass2 @a ?
+pass2 @abcdef ?
 # Apostroph vor Zahl ('98)
 pass2 @3456-69 @3456-6
 # Punkt vor Zahl (.45)
