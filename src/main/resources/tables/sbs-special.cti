@@ -28,7 +28,7 @@ letter        \x250D e               #9485    BOX DRAWINGS DOWN LIGHT AND RIGHT 
 punctuation   \x250E d               #9486  ¯ BOX DRAWINGS DOWN HEAVY AND RIGHT LIGHT
 
 # TRENNMARKE (nur alte Rechtschreibung)
-letter        \x2502 ca              #9474    BOX DRAWINGS LIGHT VERTICAL
+letter        \x2502 cf              #9474    BOX DRAWINGS LIGHT VERTICAL
 
 # TRENNMARKE (nur neue Rechtschreibung)
 letter        \x2503 cb              #9475    BOX DRAWINGS HEAVY VERTICAL
