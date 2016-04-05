@@ -16,7 +16,38 @@
   <packaging>bundle</packaging>
   
   <name>DAISY Pipeline 2 module :: sbs-braille-tables</name>
-  
+  <description>Liblouis braille tables for SBS</description>
+  <url>https://github.com/sbsdev/sbs-braille-tables</url>
+
+  <licenses>
+    <license>
+      <name>GNU General Lesser Public License (LGPL) version 3.0</name>
+      <url>http://www.gnu.org/licenses/lgpl-3.0.en.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <developers>
+    <developer>
+      <name>Christian Egli</name>
+      <email>christian.egli@sbs.ch</email>
+      <organization>Swiss Library for the Blind, Visually Impaired and Print Disabled</organization>
+      <organizationUrl>http://www.sbs.ch</organizationUrl>
+    </developer>
+    <developer>
+      <name>Christian Waldvogel</name>
+      <email>christian.waldvogel@sbs.ch</email>
+      <organization>Swiss Library for the Blind, Visually Impaired and Print Disabled</organization>
+      <organizationUrl>http://www.sbs.ch</organizationUrl>
+    </developer>
+  </developers>
+
+  <scm>
+    <connection>scm:git:https://github.com/sbsdev/sbs-braille-tables.git</connection>
+    <developerConnection>scm:git:git@github.com:sbsdev/sbs-braille-tables.git</developerConnection>
+    <url>git@github.com:sbsdev/sbs-braille-tables.git</url>
+  </scm>
+
   <properties>
     <tagNameFormat>v@{project.version}</tagNameFormat>
   </properties>
@@ -30,7 +61,7 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  
+
   <build>
     <resources>
       <resource>
