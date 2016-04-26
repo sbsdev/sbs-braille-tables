@@ -25,6 +25,10 @@
 # endword vor Wortersatzstrich und Komma verhindern
 #=#correct "-,\s" "\x250A-,\s"
 
+# --- Korrektur der Gedankenstrich-Probleme ---------------------------------------
+#=#context $s."\x2013" @6-36
+#=#context $s."\x2014" @6-36
+
 # --- Klammer im Wort: Keine Wortgrenze -----------------------------------------
 
 #=#correct $l["("]$l "\x250A(\x250A"
