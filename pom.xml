@@ -12,7 +12,7 @@
   
   <groupId>ch.sbs.pipeline</groupId>
   <artifactId>sbs-braille-tables</artifactId>
-  <version>2.2-SNAPSHOT</version>
+  <version>2.2</version>
   <packaging>bundle</packaging>
   
   <name>DAISY Pipeline 2 module :: sbs-braille-tables</name>
@@ -46,6 +46,7 @@
     <connection>scm:git:https://github.com/sbsdev/sbs-braille-tables.git</connection>
     <developerConnection>scm:git:git@github.com:sbsdev/sbs-braille-tables.git</developerConnection>
     <url>git@github.com:sbsdev/sbs-braille-tables.git</url>
+    <tag>v2.2</tag>
   </scm>
 
   <properties>
