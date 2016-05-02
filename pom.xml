@@ -138,7 +138,9 @@
         </executions>
       </plugin>
       <plugin>
-        <artifactId>maven-nar-plugin</artifactId>
+	<groupId>com.github.maven-nar</groupId>
+        <artifactId>nar-maven-plugin</artifactId>
+        <version>3.4.0</version>
         <executions>
           <execution>
             <phase>generate-test-resources</phase>
