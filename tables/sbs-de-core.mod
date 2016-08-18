@@ -148,6 +148,8 @@ postpunc \x2563    6-3       KURSIV Ende
 prepunc  \x257C    6-46      Computer Braille Einzelwort
 
 # Vollschriftankündigung:
+### TODO: Find out what these rules do different than their
+### counterparts in sbs-special.cti.
 prepunc  \x2559    6-3       VOLLSCHRIFT Einzelwort
 prepunc  \x255A    36a-3     VOLLSCHRIFT Anfang
 postpunc \x255D    6-3       VOLLSCHRIFT Ende
