@@ -1,3 +1,4 @@
+import java.io.File;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -16,6 +17,13 @@ import static org.daisy.pipeline.pax.exam.Options.thisPlatform;
 
 import org.junit.Assert;
 import org.junit.Test;
+
+import org.ops4j.pax.exam.Configuration;
+import static org.ops4j.pax.exam.CoreOptions.composite;
+import static org.ops4j.pax.exam.CoreOptions.options;
+import static org.ops4j.pax.exam.CoreOptions.systemProperty;
+import org.ops4j.pax.exam.Option;
+import org.ops4j.pax.exam.util.PathUtils;
 
 public class OSGiTest extends AbstractTest {
 
@@ -57,6 +65,20 @@ public class OSGiTest extends AbstractTest {
 			                  .transform(text("wochenende")));
 	}
 	
+	@Test
+	public void testWhitelist() {
+		Assert.assertEquals(
+			braille("WOOOH"),
+			translatorProvider.get(mutableQuery().add("liblouis-table", g1_table + ",sbs-de-g1-white.mod").add("output", "ascii"))
+			                  .iterator().next().fromStyledTextToBraille()
+			                  .transform(text("wochenende")));
+		Assert.assertEquals(
+			braille("WOOOHOOOOW!"),
+			translatorProvider.get(mutableQuery().add("liblouis-table", g1_table + ",sbs-de-g1-white-xyz.mod").add("output", "ascii"))
+			                  .iterator().next().fromStyledTextToBraille()
+			                  .transform(text("wochenende")));
+	}
+	
 	@Override
 	protected String[] testDependencies() {
 		return new String[]{
@@ -64,6 +86,15 @@ public class OSGiTest extends AbstractTest {
 			"org.daisy.pipeline.modules.braille:liblouis-native:jar:" + thisPlatform() + ":?",
 			brailleModule("liblouis-tables"),
 		};
+	}
+	
+	@Override @Configuration
+	public Option[] config() {
+		return options(
+			composite(super.config()),
+			systemProperty("ch.sbs.whitelist.base")
+				.value(new File(PathUtils.getBaseDir(), "target/test-classes/whitelist/").getAbsolutePath())
+		);
 	}
 	
 	private Iterable<CSSStyledText> text(String... text) {
