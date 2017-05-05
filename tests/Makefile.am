@@ -4,4 +4,6 @@ dist_check_SCRIPTS =				\
 
 TESTS =	$(dist_check_SCRIPTS)
 
-TESTS_ENVIRONMENT = LOUIS_TABLEPATH=$(top_srcdir)/tables
+TESTS_ENVIRONMENT =				\
+	LOUIS_TABLEPATH=$(top_srcdir)/tables	\
+	PATH=/usr/local/bin:$$PATH

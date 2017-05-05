@@ -12,6 +12,9 @@ $|++;
 # are permitted in any medium without royalty provided the copyright
 # notice and this notice are preserved.
 
+# make sure local installations of liblouis are also found
+$ENV{"PATH"} = "/usr/local/bin:$ENV{'PATH'}";
+
 my $fail = 0;
 
 my @g1_tables = qw(
