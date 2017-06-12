@@ -30,7 +30,7 @@ To update the version number in `tables/sbs-version.utb` first run
 Then build a Debian package by running
 
 ``` console
-debuild -us -uc -b
+debuild -us -uc -b -d
 ```
 
 This will create a deb file in `../.`
