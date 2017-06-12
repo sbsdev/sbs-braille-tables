@@ -14,7 +14,7 @@
 # fehlender Pt.6 (Apo) bei Wort-Zahl-Ausdrücken
 # !! need to double check if this doesn't break other stuff
 
-#=#correct $l[]$d "\x256C"
+#=#noback correct $l[]$d "\x256C"
 
 # fehlender Pt.6 (Apo) fuer Anfuehrungszeichen im Wortinnern
 
@@ -243,10 +243,10 @@ always                                  ähnlich             @_
 # AL  (4.1 Lautgruppenkürzungen)
 begmidword                              al                  :
 # Lautgruppe nach Apostroph verhindern
-#=#correct "'"["al"] "a\x250Al"
-#=#correct "'"["Al"] "A\x250Al"
-#=#correct "'"["aL"] "a\x250AL"
-#=#correct "'"["AL"] "A\x250AL"
+#=#noback correct "'"["al"] "a\x250Al"
+#=#noback correct "'"["Al"] "A\x250Al"
+#=#noback correct "'"["aL"] "a\x250AL"
+#=#noback correct "'"["AL"] "A\x250AL"
 midendword                              alikör              AwLItK9R
 midendword                              alösung             AwL9tSU
 always                                 aal                  AAL
@@ -556,10 +556,10 @@ sufword                                valsoray             V:tS?A'Y
 word                                    an                  +
 begmidword                              an                  +
 # Lautgruppe nach Apostroph verhindern
-#=#correct "'"["an"] "a\x250An"
-#=#correct "'"["An"] "A\x250An"
-#=#correct "'"["aN"] "a\x250AN"
-#=#correct "'"["AN"] "A\x250AN"
+#=#noback correct "'"["an"] "a\x250An"
+#=#noback correct "'"["An"] "A\x250An"
+#=#noback correct "'"["aN"] "a\x250AN"
+#=#noback correct "'"["AN"] "A\x250AN"
 always                                l'a\x250Ancien        L'ANt'CIC
 always                                  anistisch           +!5
 always                                  anation             AN!N
@@ -739,10 +739,10 @@ always                                 zander               Z+tD7
 # AR  (4.1 Lautgruppenkürzungen)
 begmidword                              ar                  )
 # Lautgruppe nach Apostroph verhindern
-#=#correct "'"["ar"] "a\x250Ar"
-#=#correct "'"["Ar"] "A\x250Ar"
-#=#correct "'"["aR"] "a\x250AR"
-#=#correct "'"["AR"] "A\x250AR"
+#=#noback correct "'"["ar"] "a\x250Ar"
+#=#noback correct "'"["Ar"] "A\x250Ar"
+#=#noback correct "'"["aR"] "a\x250AR"
+#=#noback correct "'"["AR"] "A\x250AR"
 before_r_begmidword                  kuba                   KUtBA
 before_r_begmidword               marimba                   M)IMtBA
 before_r_begmidword                 mocca                   MO'Ct'CA
@@ -3793,10 +3793,10 @@ before_m_begmidword                 butze                   BUTtZEw
 # EN  (4.1 Lautgruppenkürzungen)
 word                                    en                  EN
 # Lautgruppe nach Apostroph verhindern
-#=#correct "'"["en"] "e\x250An"
-#=#correct "'"["En"] "E\x250An"
-#=#correct "'"["eN"] "e\x250AN"
-#=#correct "'"["EN"] "E\x250AN"
+#=#noback correct "'"["en"] "e\x250An"
+#=#noback correct "'"["En"] "E\x250An"
+#=#noback correct "'"["eN"] "e\x250AN"
+#=#noback correct "'"["EN"] "E\x250AN"
 midendword                             'en                  'EN
 always                                  en                  C
 syllable                                 nippel             NIPtPY
@@ -8550,10 +8550,10 @@ always                                 zimmer               ZIX7
 # IN  (4.1 Lautgruppenkürzungen)
 always                                  in                  *
 # Lautgruppe nach Apostroph verhindern
-#=#correct "'"["in"] "i\x250An"
-#=#correct "'"["In"] "I\x250An"
-#=#correct "'"["iN"] "i\x250AN"
-#=#correct "'"["IN"] "I\x250AN"
+#=#noback correct "'"["in"] "i\x250An"
+#=#noback correct "'"["In"] "I\x250An"
+#=#noback correct "'"["iN"] "i\x250AN"
+#=#noback correct "'"["IN"] "I\x250AN"
 always                                  inummer             IwNUX7
 always                                cain                  'CAIN
 always                            lidocain                  LItDOt'CA*
@@ -10546,10 +10546,10 @@ always                                 wohn                 WOHN
 # OR  (4.1 Lautgruppenkürzungen)
 begmidword                              or                  ?
 # Lautgruppe nach Apostroph verhindern
-#=#correct "'"["or"] "o\x250Ar"
-#=#correct "'"["Or"] "O\x250Ar"
-#=#correct "'"["oR"] "o\x250AR"
-#=#correct "'"["OR"] "O\x250AR"
+#=#noback correct "'"["or"] "o\x250Ar"
+#=#noback correct "'"["Or"] "O\x250Ar"
+#=#noback correct "'"["oR"] "o\x250AR"
+#=#noback correct "'"["OR"] "O\x250AR"
 midendword                              oreaktion           OwREtAKtTJ
 midendword                              oreduktion          OwREtDUKtTJ
 midword                                 orevol              OwREtVOL

@@ -61,4 +61,4 @@ uplow         \x0058\x0078  1346     #88 #120  Xx LATIN CAPITAL LETTER X - LATIN
 uplow         \x0059\x0079  13456    #89 #121  Yy LATIN CAPITAL LETTER Y - LATIN SMALL LETTER Y
 uplow         \x005A\x007A  1356     #90 #122  Zz LATIN CAPITAL LETTER Z - LATIN SMALL LETTER Z
 
-correct "{{sbs-braille-tables-version}}" "@VERSION@"
+noback correct "{{sbs-braille-tables-version}}" "@VERSION@"

@@ -7,7 +7,7 @@
 #-------------------------------------------------------------------------------
 
 # Für alte Rechtschreibung reservierte in "normale" Trennmarke ändern
-pass2 @cf @e
+noback pass2 @cf @e
 
 # Für neue Rechtschreibung reservierte Trennmarke entfernen
-pass2 @cb ?
+noback pass2 @cb ?

@@ -7,8 +7,8 @@
 #-------------------------------------------------------------------------------
 
 # Alle Trennmarken ausser "m" und "w" entfernen
-pass2 @cf ?
-pass2 @cb ?
-pass2 @cd ?
-pass2 @ce ?
-pass2 @e ?
+noback pass2 @cf ?
+noback pass2 @cb ?
+noback pass2 @cd ?
+noback pass2 @ce ?
+noback pass2 @e ?

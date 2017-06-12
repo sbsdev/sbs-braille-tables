@@ -12,88 +12,88 @@
 
 
 # Bindestrich nach Leerschlag vor Zahl ist Minuszeichen.
-#=#correct $s["-"]$d "\x2212"
+#=#noback correct $s["-"]$d "\x2212"
 # Bindestrich nach öffnender Klammer vor Zahl ist Minuszeichen.
-#=#correct ["(-"]$d "(\x2212"
-#=#correct ["[-"]$d "[\x2212"
+#=#noback correct ["(-"]$d "(\x2212"
+#=#noback correct ["[-"]$d "[\x2212"
 # begword nach Wortersatzstrich verhindern
-#=#correct $s["-"] "-\x250A"
+#=#noback correct $s["-"] "-\x250A"
 # begword Wortersatzstrich nach Schrägstrich verhindern
-#=#correct ["/-"]$l "/\x2013\x250A"
+#=#noback correct ["/-"]$l "/\x2013\x250A"
 # endword vor Wortersatzstrich verhindern
-#=#correct "-\s" "\x250A-\s"
+#=#noback correct "-\s" "\x250A-\s"
 # endword vor Wortersatzstrich und Komma verhindern
-#=#correct "-,\s" "\x250A-,\s"
+#=#noback correct "-,\s" "\x250A-,\s"
 
 # --- Klammer im Wort: Keine Wortgrenze -----------------------------------------
 
-#=#correct $l["("]$l "\x250A(\x250A"
-#=#correct $l[")"]$l "\x250A)\x250A"
-#=#correct $l["["]$l "\x250A[\x250A"
-#=#correct $l["]"]$l "\x250A]\x250A"
+#=#noback correct $l["("]$l "\x250A(\x250A"
+#=#noback correct $l[")"]$l "\x250A)\x250A"
+#=#noback correct $l["["]$l "\x250A[\x250A"
+#=#noback correct $l["]"]$l "\x250A]\x250A"
 
 # --- Apostroph, Punkt, Komma, Strich vor Zahl ---------------------------------
 
-#=#correct $d["'"]$d "'"
-#=#correct ["'"]$d "\x2500"
-#=#correct $dl["."]$d "."
-#=#correct ["."]$d "\x2501"
-#=#correct ["--."]$d "\x2510"
-#=#correct ["\x2013."]$d "\x2510"
-#=#correct ["\x2014."]$d "\x2510"
-#=#correct ["--,"]$d "\x2511"
-#=#correct ["\x2013,"]$d "\x2511"
-#=#correct ["\x2014,"]$d "\x2511"
+#=#noback correct $d["'"]$d "'"
+#=#noback correct ["'"]$d "\x2500"
+#=#noback correct $dl["."]$d "."
+#=#noback correct ["."]$d "\x2501"
+#=#noback correct ["--."]$d "\x2510"
+#=#noback correct ["\x2013."]$d "\x2510"
+#=#noback correct ["\x2014."]$d "\x2510"
+#=#noback correct ["--,"]$d "\x2511"
+#=#noback correct ["\x2013,"]$d "\x2511"
+#=#noback correct ["\x2014,"]$d "\x2511"
 
 # --- Satzzeichen nach zahlenähnlichen Zeichen ---------------------------------
 
 #=#class puncAfterOrdinal ;:?!()\x00AB\x00BB
 # Prozent
-#=#correct ["%"]%puncAfterOrdinal "%\x250B"
-#=#correct ["%,"] "%\x256C,"
+#=#noback correct ["%"]%puncAfterOrdinal "%\x250B"
+#=#noback correct ["%,"] "%\x256C,"
 # Promille
-#=#correct ["\x2030"]%puncAfterOrdinal "\x2030\x250B"
-#=#correct ["\x2030,"] "\x2030\x256C,"
+#=#noback correct ["\x2030"]%puncAfterOrdinal "\x2030\x250B"
+#=#noback correct ["\x2030,"] "\x2030\x256C,"
 # Grad
-#=#correct ["\x00B0"]%puncAfterOrdinal "\x00B0\x250B"
-#=#correct ["\x00B0,"] "\x00B0\x256C,"
-#=#correct "\x00BC"[]%puncAfterOrdinal "\x250B"
-#=#correct "\x00BD"[]%puncAfterOrdinal "\x250B"
-#=#correct "\x00BE"[]%puncAfterOrdinal "\x250B"
-#=#correct "\x2153"[]%puncAfterOrdinal "\x250B"
-#=#correct "\x2154"[]%puncAfterOrdinal "\x250B"
-#=#correct "\x2155"[]%puncAfterOrdinal "\x250B"
-#=#correct "\x2156"[]%puncAfterOrdinal "\x250B"
-#=#correct "\x2157"[]%puncAfterOrdinal "\x250B"
-#=#correct "\x2158"[]%puncAfterOrdinal "\x250B"
-#=#correct "\x2159"[]%puncAfterOrdinal "\x250B"
-#=#correct "\x215a"[]%puncAfterOrdinal "\x250B"
-#=#correct "\x215b"[]%puncAfterOrdinal "\x250B"
-#=#correct "\x215c"[]%puncAfterOrdinal "\x250B"
-#=#correct "\x215d"[]%puncAfterOrdinal "\x250B"
-#=#correct "\x215e"[]%puncAfterOrdinal "\x250B"
+#=#noback correct ["\x00B0"]%puncAfterOrdinal "\x00B0\x250B"
+#=#noback correct ["\x00B0,"] "\x00B0\x256C,"
+#=#noback correct "\x00BC"[]%puncAfterOrdinal "\x250B"
+#=#noback correct "\x00BD"[]%puncAfterOrdinal "\x250B"
+#=#noback correct "\x00BE"[]%puncAfterOrdinal "\x250B"
+#=#noback correct "\x2153"[]%puncAfterOrdinal "\x250B"
+#=#noback correct "\x2154"[]%puncAfterOrdinal "\x250B"
+#=#noback correct "\x2155"[]%puncAfterOrdinal "\x250B"
+#=#noback correct "\x2156"[]%puncAfterOrdinal "\x250B"
+#=#noback correct "\x2157"[]%puncAfterOrdinal "\x250B"
+#=#noback correct "\x2158"[]%puncAfterOrdinal "\x250B"
+#=#noback correct "\x2159"[]%puncAfterOrdinal "\x250B"
+#=#noback correct "\x215a"[]%puncAfterOrdinal "\x250B"
+#=#noback correct "\x215b"[]%puncAfterOrdinal "\x250B"
+#=#noback correct "\x215c"[]%puncAfterOrdinal "\x250B"
+#=#noback correct "\x215d"[]%puncAfterOrdinal "\x250B"
+#=#noback correct "\x215e"[]%puncAfterOrdinal "\x250B"
 
 # --- Brüche vor Komma
 
-#=#correct "\x00BC"[]"," "'"
-#=#correct "\x00BD"[]"," "'"
-#=#correct "\x00BE"[]"," "'"
-#=#correct "\x2153"[]"," "'"
-#=#correct "\x2154"[]"," "'"
-#=#correct "\x2155"[]"," "'"
-#=#correct "\x2156"[]"," "'"
-#=#correct "\x2157"[]"," "'"
-#=#correct "\x2158"[]"," "'"
-#=#correct "\x2159"[]"," "'"
-#=#correct "\x215a"[]"," "'"
-#=#correct "\x215b"[]"," "'"
-#=#correct "\x215c"[]"," "'"
-#=#correct "\x215d"[]"," "'"
-#=#correct "\x215e"[]"," "'"
+#=#noback correct "\x00BC"[]"," "'"
+#=#noback correct "\x00BD"[]"," "'"
+#=#noback correct "\x00BE"[]"," "'"
+#=#noback correct "\x2153"[]"," "'"
+#=#noback correct "\x2154"[]"," "'"
+#=#noback correct "\x2155"[]"," "'"
+#=#noback correct "\x2156"[]"," "'"
+#=#noback correct "\x2157"[]"," "'"
+#=#noback correct "\x2158"[]"," "'"
+#=#noback correct "\x2159"[]"," "'"
+#=#noback correct "\x215a"[]"," "'"
+#=#noback correct "\x215b"[]"," "'"
+#=#noback correct "\x215c"[]"," "'"
+#=#noback correct "\x215d"[]"," "'"
+#=#noback correct "\x215e"[]"," "'"
 
 # --- Markieren von Zahl-Buchstabenverbindung für Kurzschrift ------------------
 
-#=#correct $d[]$l "\x2504"
+#=#noback correct $d[]$l "\x2504"
 
 # --- Emphasis opcodes ---------------------------------------------------------
 

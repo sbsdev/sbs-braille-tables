@@ -5,4 +5,4 @@
 #-------------------------------------------------------------------------------
 
 # Mehrfach-Leerschläge eliminieren
-correct [$s]$s. *
+noback correct [$s]$s. *
