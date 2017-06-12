@@ -21,7 +21,7 @@ PACKAGING
 
 Build a Debian package by running
 
-  debuild -us -uc -b
+  debuild -us -uc -b -d
 
 This will create a deb file in ../.
 
