@@ -162,6 +162,9 @@ endnum  ; ';  Strichpunkt
 endnum  ? '?  Fragezeichen
 
 always  \s? b'?
+### Fragezeichen nach Klammer
+always  (?  ='?
+
 endnum  ! '+  Ausrufezeichen
 
 always  \s! b'+
