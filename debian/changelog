@@ -1,3 +1,11 @@
+sbs-braille-tables (1.8.6) unstable; urgency=medium
+
+  * Update trademark sign, see http://redmine.sbszh.ch/issues/2625
+  * Question mark after bracket should have ', see http://redmine.sbszh.ch/issues/2186
+  * Drop the space before and after arrow, see http://redmine.sbszh.ch/issues/2456
+
+ -- Christian Egli <christian.egli@sbs.ch>  Wed, 15 Nov 2017 17:10:26 +0100
+
 sbs-braille-tables (1.8.3) unstable; urgency=low
 
   * Fix display of hyphenation mark 'a'
