@@ -221,11 +221,9 @@ always  *** '***
 ###                                          Schrägstrich (siehe 2.5.2)
 ###                                          Senkrechter Strich (siehe 2.5.3)
 ###          ...                     ...     Auslassungspunkte
-always  \x2192  b::Ob Pfeil nach rechts
-
-always  \x2190  b9::b Pfeil nach links
-
-always  \x2194  b9::Ob  Pfeil nach links und rechts
+always  \x2192  ::O Pfeil nach rechts
+always  \x2190  9:: Pfeil nach links
+always  \x2194  9::O  Pfeil nach links und rechts
 
 always  & !U  Et-Zeichen
 
