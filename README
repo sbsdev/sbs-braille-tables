@@ -21,7 +21,13 @@ This will add the sbs braille tables to the liblouis installed on the system.
 
 # Packaging
 
-Build a Debian package by running
+To update the version number in `tables/sbs-version.utb` first run
+
+``` console
+./configure
+```
+
+Then build a Debian package by running
 
 ``` console
 debuild -us -uc -b
