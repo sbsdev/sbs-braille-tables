@@ -22,6 +22,7 @@ sign          \x0024 46              #36    $ DOLLAR SIGN
 sign          \x0025 123456          #37    % PERCENT SIGN
 sign          \x0026 12346           #38    & AMPERSAND
 punctuation   \x0027 6               #39    ' APOSTROPHE APOSTROPHE-QUOTE
+lowercase     \x0027 6               #39    ' APOSTROPHE APOSTROPHE-QUOTE        # doesn't work with letter!
 punctuation   \x0028 236             #40    ( LEFT PARENTHESIS
 punctuation   \x0029 356             #41    ) RIGHT PARENTHESIS
 punctuation   \x002A 35              #42    * ASTERISK

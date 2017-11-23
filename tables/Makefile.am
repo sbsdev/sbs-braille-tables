@@ -7,6 +7,13 @@ copied_tables =					\
 	sbs-de-begendcaps.mod			\
 	sbs-de-capsign.mod			\
 	sbs-de-core6.cti			\
+	sbs-de-g1-core-patterns.dic		\
+	sbs-de-g1-core.mod			\
+	sbs-de-g2-core-patterns.dic		\
+	sbs-de-g2-core.mod			\
+	sbs-de-g2-name-patterns.dic		\
+	sbs-de-g2-name.mod			\
+	sbs-de-g2-place.mod			\
 	sbs-de-hyph-new.mod			\
 	sbs-de-hyph-none.mod			\
 	sbs-de-hyph-old.mod			\
@@ -22,10 +29,6 @@ copied_tables =					\
 generated_tables =				\
 	sbs-de-core.mod				\
 	sbs-de-g0-core.mod			\
-	sbs-de-g1-core.mod			\
-	sbs-de-g2-core.mod			\
-	sbs-de-g2-name.mod			\
-	sbs-de-g2-place.mod			\
 	sbs-litdigit-lower.mod			\
 	sbs-litdigit-upper.mod
 
