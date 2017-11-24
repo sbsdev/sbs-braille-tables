@@ -21,6 +21,11 @@
 midword »       '(
 midword «       ')
 
+# fehlender Pt.6 (Apo) bei Ausrufe-/Fragezeichen in Klammern
+
+always (!)    ='+=
+always (?)    ='?=
+
 # fehlender Pt.6 (Apo) bei alleinstehendem Ausrufe- oder Fragezeichen in Klammern
 
 always \s(?     b='?
