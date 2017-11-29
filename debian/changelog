@@ -1,3 +1,10 @@
+sbs-braille-tables (1.8.8) unstable; urgency=medium
+
+  * Fix spacing between operator and operand, see
+    http://redmine.sbszh.ch/issues/2326
+
+ -- Christian Egli <christian.egli@sbs.ch>  Wed, 29 Nov 2017 14:56:31 +0100
+
 sbs-braille-tables (1.8.7) unstable; urgency=medium
 
   * Fix question and exclamation mark inside brackets, see
