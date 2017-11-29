@@ -347,6 +347,7 @@ joinnum Fr  FR
 ### *** 2.9 Fremdsprachliche Einschübe *******************************************
 ### *** 2.10 Mathematische Zeichen und Einschübe *********************************
 # Plus:
+begnum  +\s "+
 midnum  \s+\s b"+#
 midnum  \s+ b"+#
 midnum  + b"+#
@@ -354,6 +355,7 @@ always  + "+
 # Minus:
 begnum  \s- b"v#
 always  \s- b'v
+begnum  \x2212\s "-
 midnum  \s\x2212\s  b"v#
 midnum  \s\x2212  b"v#
 midnum  \x2212  b"v#
@@ -364,6 +366,7 @@ midnum  \s±  b"+v#
 midnum  ±  b"+v#
 always  ±  "+v
 # Gleich:
+begnum  =\s "=
 midnum  \s=\s b"=#
 midnum  \s= b"=#
 midnum  = b"=#
@@ -406,6 +409,7 @@ always  \x2245  "??
 ### FEHLT                              4,      Pfeil nach oben
 ### FEHLT                               4.     Pfeil nach unten
 # Mal(-Kreuz):
+begnum  \x00D7\s "(
 midnum  \s\x00D7\s  b"(#
 midnum  \s\x00D7  b"(#
 midnum  \x00D7  b"(#
@@ -434,6 +438,7 @@ midnum  \s:\s ":#
 midnum  \s: ":#
 midnum  : ":#
 endnum  : ':
+begnum  ÷\s ":
 midnum  \s÷\s  b":#
 midnum  \s÷  b":#
 midnum  ÷  b":#
