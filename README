@@ -41,7 +41,7 @@ As the braille tables Debian package currently only builds with a very
 old version of liblouis we provide a Dockerfile to isolate the build:
 
 ``` console
-docker build -t sbsdev/braille-tables -f Dockerfile.build_with_liblouis_2_5_2
+docker build -t sbsdev/braille-tables -f Dockerfile.build_with_liblouis_2_5_2 .
 docker run --name braille-tables sbsdev/braille-tables
 docker cp braille-tables:/usr/src/sbs-braille-tables_1.8.6_all.deb .
 docker rm braille-tables
