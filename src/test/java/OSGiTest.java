@@ -11,14 +11,9 @@ import static org.daisy.pipeline.braille.common.util.URIs.asURI;
 import org.daisy.pipeline.braille.liblouis.LiblouisTablePath;
 import org.daisy.pipeline.braille.liblouis.LiblouisTranslator;
 
-import static org.daisy.pipeline.pax.exam.Options.brailleModule;
-import static org.daisy.pipeline.pax.exam.Options.domTraversalPackage;
-import static org.daisy.pipeline.pax.exam.Options.felixDeclarativeServices;
-import static org.daisy.pipeline.pax.exam.Options.logbackClassic;
-import static org.daisy.pipeline.pax.exam.Options.logbackConfigFile;
-import static org.daisy.pipeline.pax.exam.Options.mavenBundle;
-import static org.daisy.pipeline.pax.exam.Options.mavenBundlesWithDependencies;
-import static org.daisy.pipeline.pax.exam.Options.thisBundle;
+import org.daisy.pipeline.junit.AbstractTest;
+
+import static org.daisy.pipeline.pax.exam.Options.thisPlatform;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
@@ -26,18 +21,13 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 
 import org.ops4j.pax.exam.Configuration;
-import static org.ops4j.pax.exam.CoreOptions.junitBundles;
+import static org.ops4j.pax.exam.CoreOptions.composite;
 import static org.ops4j.pax.exam.CoreOptions.options;
 import static org.ops4j.pax.exam.CoreOptions.systemProperty;
-import org.ops4j.pax.exam.junit.PaxExam;
 import org.ops4j.pax.exam.Option;
-import org.ops4j.pax.exam.spi.reactors.ExamReactorStrategy;
-import org.ops4j.pax.exam.spi.reactors.PerClass;
 import org.ops4j.pax.exam.util.PathUtils;
 
-@RunWith(PaxExam.class)
-@ExamReactorStrategy(PerClass.class)
-public class OSGiTest {
+public class OSGiTest extends AbstractTest {
 	
 	@Inject
 	LiblouisTablePath path;
@@ -101,22 +91,20 @@ public class OSGiTest {
 			                  .transform(text("wochenende")));
 	}
 	
+	@Override
+	protected String[] testDependencies() {
+		return new String[] {
+			brailleModule("liblouis-core"),
+			"org.daisy.pipeline.modules.braille:liblouis-native:jar:" + thisPlatform() + ":?",
+		};
+	}
+	
 	@Configuration
 	public Option[] config() {
 		return options(
+			composite(super.config()),
 			systemProperty("ch.sbs.whitelist.base")
-				.value(new File(PathUtils.getBaseDir(), "target/test-classes/whitelist/").getAbsolutePath()),
-			logbackConfigFile(),
-			felixDeclarativeServices(),
-			domTraversalPackage(),
-			thisBundle(),
-			junitBundles(),
-			mavenBundlesWithDependencies(
-				brailleModule("liblouis-core"),
-				brailleModule("liblouis-native").forThisPlatform(),
-				logbackClassic()
-			)
-		);
+				.value(new File(PathUtils.getBaseDir(), "target/test-classes/whitelist/").getAbsolutePath()));
 	}
 	
 	private Iterable<CSSStyledText> text(String... text) {
