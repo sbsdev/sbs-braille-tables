@@ -34,7 +34,7 @@ uplow        \x00DA\x00FA      1568          Úú  &#218;&#250;   LATIN LETTER U
 uplow        \x00DB\x00FB      15678         Ûû  &#219;&#251;   LATIN LETTER U WITH CIRCUMFLEX
 uplow        \x00DD\x00FD      24568         Ýý  &#221;&#253;   LATIN LETTER Y WITH ACUTE
 uplow        \x00DE\x00FE      12348         Þþ  &#222;&#254;   LATIN LETTER THORN
-uplow        \x00FF\x0178      134568        Ÿÿ  &#255;&#376;   LATIN LETTER Y WITH DIAERESIS
+uplow        \x0178\x00FF      134568        Ÿÿ  &#255;&#376;   LATIN LETTER Y WITH DIAERESIS
 uplow        \x0152\x0153      246789        Œœ  &#338;&#339;   LATIN LIGATURE OE
 
 #-------------------------------------------------------------------------------
