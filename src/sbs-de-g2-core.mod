@@ -12,20 +12,20 @@ noback correct $l[]$d "\x256C"
 
 # fehlender Pt.6 (Apo) fuer Anfuehrungszeichen im Wortinnern
 
-midword »       '(
-midword «       ')
+midword » 6-236
+midword « 6-356
 
 # fehlender Pt.6 (Apo) bei Ausrufe-/Fragezeichen in Klammern
 
-always (!)    ='+=
-always (?)    ='?=
+always (!) 2356-6-235-2356
+always (?) 2356-6-26-2356
 
 # fehlender Pt.6 (Apo) bei alleinstehendem Ausrufe- oder Fragezeichen in Klammern
 
-always \s(?     b='?
-always \s[?     b'='?
-always \s(!     b='+
-always \s[!     b'='+
+always \s(? 0-2356-6-26
+always \s[? 0-6-2356-6-26
+always \s(! 0-2356-6-235
+always \s[! 0-6-2356-6-235
 
 include sbs-de-g2-core-patterns.dic
 
