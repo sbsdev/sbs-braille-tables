@@ -2,6 +2,31 @@
 # Deutsche Kurzschrift: Grundtabelle #
 ######################################
 
+#  Korrekturen
+#  ---------------
+
+# fehlender Pt.6 (Apo) bei Wort-Zahl-Ausdrücken
+# !! need to double check if this doesn't break other stuff
+
+noback correct $l[]$d "\x256C"
+
+# fehlender Pt.6 (Apo) fuer Anfuehrungszeichen im Wortinnern
+
+midword »       '(
+midword «       ')
+
+# fehlender Pt.6 (Apo) bei Ausrufe-/Fragezeichen in Klammern
+
+always (!)    ='+=
+always (?)    ='?=
+
+# fehlender Pt.6 (Apo) bei alleinstehendem Ausrufe- oder Fragezeichen in Klammern
+
+always \s(?     b='?
+always \s[?     b'='?
+always \s(!     b='+
+always \s[!     b'='+
+
 include sbs-de-g2-core-patterns.dic
 
 word       aber       1                            #  A  #
