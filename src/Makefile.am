@@ -6,20 +6,24 @@ table_files =					\
 	sbs-de-accents.mod			\
 	sbs-de-begendcaps.mod			\
 	sbs-de-capsign.mod			\
-	sbs-de-core.mod_src			\
+	sbs-de-core.mod				\
 	sbs-de-core6.cti			\
-	sbs-de-g0-core.mod_src			\
-	sbs-de-g1-core.mod_src			\
-	sbs-de-g2-core.mod_src			\
-	sbs-de-g2-name.mod_src			\
-	sbs-de-g2-place.mod_src			\
+	sbs-de-g0-core.mod			\
+	sbs-de-g1-core-patterns.dic		\
+	sbs-de-g1-core.mod			\
+	sbs-de-g2-core-patterns.dic		\
+	sbs-de-g2-core.mod			\
+	sbs-de-g2-name-patterns.dic		\
+	sbs-de-g2-name.mod			\
+	sbs-de-g2-place-patterns.dic		\
+	sbs-de-g2-place.mod			\
 	sbs-de-hyph-new.mod			\
 	sbs-de-hyph-none.mod			\
 	sbs-de-hyph-old.mod			\
 	sbs-de-hyph-word.mod			\
 	sbs-de-letsign.mod			\
-	sbs-litdigit-lower.mod_src		\
-	sbs-litdigit-upper.mod_src		\
+	sbs-litdigit-lower.mod			\
+	sbs-litdigit-upper.mod			\
 	sbs-numsign.mod				\
 	sbs-special.cti				\
 	sbs-special.mod				\

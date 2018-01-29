@@ -15,6 +15,7 @@ copied_tables =					\
 	sbs-de-g2-core.mod			\
 	sbs-de-g2-name-patterns.dic		\
 	sbs-de-g2-name.mod			\
+	sbs-de-g2-place-patterns.dic		\
 	sbs-de-g2-place.mod			\
 	sbs-de-hyph-new.mod			\
 	sbs-de-hyph-none.mod			\
