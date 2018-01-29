@@ -11,7 +11,7 @@
 # ===== BOX DRAWING: 2500-257F =================================================
 
 # KUERZUNGSVERBOT und "DUMMY"-TEXT
-letter        \x250A a               #9482    BOX DRAWINGS LIGHT QUADRUPLE DASH VERTICAL
+letter        \x250A abcdef          #9482    BOX DRAWINGS LIGHT QUADRUPLE DASH VERTICAL
 
 # "DUMMY"-ZAHL
 digit         \x250B b               #9483    BOX DRAWINGS HEAVY QUADRUPLE DASH VERTICAL

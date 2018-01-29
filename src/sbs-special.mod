@@ -7,7 +7,7 @@
 #-------------------------------------------------------------------------------
 
 # Kürzungsverbot entfernen
-noback pass2 @a ?
+noback pass2 @abcdef ?
 # Apostroph vor Zahl ('98)
 noback pass2 @3456-69 @3456-6
 # Punkt vor Zahl (.45)
@@ -47,7 +47,7 @@ noback pass2 @ac-6 ?
 noback pass2 @ac ?
 
 # Trennmarke "m" nach Bindestrich
-# This is now handled by the Java bindings 
+# This is now handled by the Java bindings
 #noback pass2 @36 @36-d
 
 # Korrektur: Kürzung "des" zwischen Bindestrichen auflösen

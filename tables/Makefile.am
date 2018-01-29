@@ -6,7 +6,9 @@ copied_tables =					\
 	sbs-de-accents.mod			\
 	sbs-de-begendcaps.mod			\
 	sbs-de-capsign.mod			\
+	sbs-de-core.mod				\
 	sbs-de-core6.cti			\
+	sbs-de-g0-core.mod			\
 	sbs-de-g1-core-patterns.dic		\
 	sbs-de-g1-core.mod			\
 	sbs-de-g2-core-patterns.dic		\
@@ -19,6 +21,8 @@ copied_tables =					\
 	sbs-de-hyph-old.mod			\
 	sbs-de-hyph-word.mod			\
 	sbs-de-letsign.mod			\
+	sbs-litdigit-lower.mod			\
+	sbs-litdigit-upper.mod			\
 	sbs-numsign.mod				\
 	sbs-special.cti				\
 	sbs-special.mod				\
@@ -26,16 +30,9 @@ copied_tables =					\
 	sbs-wordsplit.dis			\
 	sbs.dis
 
-generated_tables =				\
-	sbs-de-core.mod				\
-	sbs-de-g0-core.mod			\
-	sbs-litdigit-lower.mod			\
-	sbs-litdigit-upper.mod
-
-
 version_table = sbs-version.utb
 
-table_files = $(copied_tables) $(generated_tables) $(version_table)
+table_files = $(copied_tables) $(version_table)
 
 tablesdir = $(datadir)/liblouis/tables
 tables_DATA = $(table_files)
@@ -45,6 +42,3 @@ utils_dir = $(top_srcdir)/utils
 
 $(copied_tables): %: $(top_srcdir)/src/%
 	cp $< $@
-
-$(generated_tables): %.mod: $(top_srcdir)/src/%.mod_src
-	PERL5LIB=$(utils_dir)  $(utils_dir)/tab2lou.pl $< $@
