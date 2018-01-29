@@ -20,3 +20,6 @@ Makefile.in
 /test-driver
 /tests/*.log
 /tests/*.trs
+/release.properties
+/pom.xml.releaseBackup
+*.deb
