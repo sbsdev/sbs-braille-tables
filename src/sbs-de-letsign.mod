@@ -11,9 +11,16 @@ letsign 6
 noletsignbefore '
 noletsignafter .'
 
-noletsign cCqQxXyYÀàÁáÅå
-noletsign ÀàÁáÂâÃãÅåÆæÇçÈè
-noletsign ÉéÊêËëÌìÍíÎîÏïÐð
-noletsign ÑñÒòÓóÔôÕõØøÙùÚú
-noletsign ÛûÝýÞþÿ\x0152\x0153
-noletsign \x250A
+noletsign cCqQxXyY\x250A
+noletsign ÀàÁáÂâÃãÅåÆæÇçÈèÉéÊê
+noletsign ËëÌìÍíÎîÏïÐðÑñÒòÓóÔô
+noletsign ÕõØøÙùÚúÛûÝýÞþŸÿŒœĀā
+noletsign ĂăĄąĆćĈĉĊċČčĎďĐđĒēĖė
+noletsign ĘęĚěĞğĢģĤĥĦħĨĩĪīĮįİı
+
+#BUG: noletsign ist auf 128 Zeichen beschraenkt ...
+#noletsign ĲĳĴĵĶķĹĺĻļĽľĿŀŁłŃńŅņ
+#noletsign ŇňŊŋŌōŎŏŐőŔŕŖŗŘřŚśŜŝ
+#noletsign ŞşŠšȘșŢţŤťŦŧȚțŨũŪūŬŭ
+#noletsign ŮůŰűŲųŴŵŶŷŹźŻżŽžǍǎẀẁ
+#noletsign ẂẃẄẅỲỳ

@@ -6,10 +6,6 @@
 # !! need to double check if this doesn't break other stuff
 noback correct $l[]$d "\x256C"
 
-# fehlender Pt.6 (Apo) fuer Anfuehrungszeichen im Wortinnern
-midword »       6-236
-midword «       6-356
-
 # fehlender Pt.6 (Apo) bei Ausrufe-/Fragezeichen in Klammern
 always (!)       2356-6-235-2356
 always (?)       2356-6-26-2356

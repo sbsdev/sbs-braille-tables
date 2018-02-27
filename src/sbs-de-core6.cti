@@ -98,7 +98,7 @@ sign          \x00A3 4-123           #163   £ POUND SIGN
 sign          \x00A4 0               #164   ¤ CURRENCY SIGN
 sign          \x00A5 4-13456         #165   ¥ YEN SIGN
 sign          \x00A6 0               #166   ¦ BROKEN BAR
-sign          \x00A7 4-346           #167   § SECTION SIGN
+sign          \x00A7 346             #167   § SECTION SIGN
 sign          \x00A8 0               #168   ¨ DIAERESIS
 sign          \x00A9 2356-45-14-2356 #169   © COPYRIGHT SIGN
 lowercase     \x00AA 1               #170   ª FEMININE ORDINAL INDICATOR

@@ -8,6 +8,10 @@
 
 # Kürzungsverbot entfernen
 noback pass2 @abcdef ?
+# Grosschreibungsmarken entfernen
+noback pass2 @46a ?      # capsletter
+noback pass2 @45a ?      # begcaps, begcapsword
+noback pass2 @45b ?      # endcaps, endcapsword
 # Apostroph vor Zahl ('98)
 noback pass2 @3456-69 @3456-6
 # Punkt vor Zahl (.45)

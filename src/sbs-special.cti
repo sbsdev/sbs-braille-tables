@@ -11,7 +11,11 @@
 # ===== BOX DRAWING: 2500-257F =================================================
 
 # KUERZUNGSVERBOT und "DUMMY"-TEXT
-letter        \x250A abcdef          #9482    BOX DRAWINGS LIGHT QUADRUPLE DASH VERTICAL
+#old# letter        \x250A a               #9482    BOX DRAWINGS LIGHT QUADRUPLE DASH VERTICAL
+#CHANGED:
+#lowercase (analog Apostroph)
+#virtual dot pattern changed (github-issue: Make tables more "white space aware")
+lowercase     \x250A abcdef   # test: "dummy"-text
 
 # "DUMMY"-ZAHL
 digit         \x250B b               #9483    BOX DRAWINGS HEAVY QUADRUPLE DASH VERTICAL
@@ -21,7 +25,6 @@ letter        \x250C f               #9484    BOX DRAWINGS LIGHT DOWN AND RIGHT
 
 # TRENNMARKE (SILBE)
 letter        \x250D e               #9485    BOX DRAWINGS DOWN LIGHT AND RIGHT HEAVY
-
 
 # TRENNMARKE "m" (Umbruch ohne Zeichen)
 # Für Windows-Test auf "Macron gelegt", in core6.cti wieder setzen ...
@@ -51,8 +54,17 @@ punctuation   \x255D 6-3             #9565    BOX DRAWINGS DOUBLE UP AND LEFT
 # GROSSBUCHSTABE (P46) für sbs-de-abbr.ctb
 sign          \x2564 46              #9572    BOX DRAWINGS DOWN SINGLE AND HORIZONTAL DOUBLE
 
+# GROSSBUCHSTABE (P46a) für opcode capsletter
+sign          \x2565 46a             #9573    BOX DRAWINGS DOWN DOUBLE AND HORIZONTAL SINGLE
+
 # GROSSBUCHSTABENFOLGE (P45) für sbs-de-abbr.ctb
 sign          \x2566 45              #9574    BOX DRAWINGS DOUBLE DOWN AND HORIZONTAL
+
+# GROSSBUCHSTABENFOLGE (P45a) für opcodes begcaps, begcapsword
+sign          \x2567 45a             #9575    BOX DRAWINGS UP SINGLE AND HORIZONTAL DOUBLE
+
+# ENDE GROSSBUCHSTABENFOLGE (P45b) für opcodes endcaps, endcapsword
+sign          \x2568 45b             #9576    BOX DRAWINGS UP DOUBLE AND HORIZONTAL SINGLE
 
 # KLEINBUCHSTABE (P6) für sbs-de-abbr.ctb
 sign          \x2569 6               #9577    BOX DRAWINGS DOUBLE UP AND HORIZONTAL

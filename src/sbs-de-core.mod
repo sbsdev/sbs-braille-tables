@@ -10,7 +10,6 @@
 
 # --- Korrektur der Bindestrich-Probleme ---------------------------------------
 
-
 # Bindestrich nach Leerschlag vor Zahl ist Minuszeichen.
 noback correct $s["-"]$d "\x2212"
 # Bindestrich nach öffnender Klammer vor Zahl ist Minuszeichen.
@@ -25,16 +24,20 @@ noback correct "-\s" "\x250A-\s"
 # endword vor Wortersatzstrich und Komma verhindern
 noback correct "-,\s" "\x250A-,\s"
 
-# --- Klammer im Wort: Keine Wortgrenze -----------------------------------------
+# --- Satzzeichen im Wort: Keine Wortgrenze ------------------------------------
 
 noback correct $l["("]$l "\x250A(\x250A"
 noback correct $l[")"]$l "\x250A)\x250A"
 noback correct $l["["]$l "\x250A[\x250A"
 noback correct $l["]"]$l "\x250A]\x250A"
+noback correct $l["»"]$l "\x250A»\x250A"
+noback correct $l["«"]$l "\x250A«\x250A"
+noback correct $l["\x2039"]$l "\x250A\x2039\x250A"
+noback correct $l["\x203a"]$l "\x250A\x203a\x250A"
 
 # --- Apostroph, Punkt, Komma, Strich vor Zahl ---------------------------------
 
-noback correct $d["'"]$d "'"
+noback correct $d["'"]$d "."
 noback correct ["'"]$d "\x2500"
 noback correct $dl["."]$d "."
 noback correct ["."]$d "\x2501"
@@ -93,7 +96,16 @@ noback correct "\x215e"[]"," "\x256C"
 
 # --- Markieren von Zahl-Buchstabenverbindung für Kurzschrift ------------------
 
+noback correct $d["bis"]!$l "b\x250Ais"
 noback correct $d[]$l "\x2504"
+
+# --- Grosschreibung (wird wieder weggeputzt) ----------------------------------
+
+capsletter  46a
+begcapsword 45a
+endcapsword 45b
+begcaps     45a
+endcaps     45b
 
 # --- Emphasis opcodes ---------------------------------------------------------
 
@@ -115,9 +127,7 @@ prepunc  \x257C    6-46      Computer Braille Einzelwort
 
 # Vollschriftankündigung:
 prepunc  \x2559    6-3       VOLLSCHRIFT Einzelwort
-
 prepunc  \x255A    36a-3     VOLLSCHRIFT Anfang
-
 postpunc \x255D    6-3       VOLLSCHRIFT Ende
 
 
@@ -126,10 +136,12 @@ midnum  ,          2
 endnum  ;          6-23
 
 endnum  ?          6-26
+midword ?          6-26
 always  \s?        0-6-26
 always  (?         2356-6-26
 
 endnum  !          6-235
+midword !          6-235
 always  \s!        0-6-235
 always  !          235
 
@@ -142,6 +154,11 @@ midword )          6-2356
 midnum  )          6-2356-3456
 endnum  )          6-2356
 always  )          2356
+
+midword [          6-6-2356
+midnum  [          6-6-2356-3456
+midword ]          6-6-2356
+midnum  ]          6-6-2356-3456
 
 always  {          5-12356
 always  }          5-12356
@@ -160,9 +177,14 @@ endnum     «      6-356
 endnum     \x201f  6-356
 #postpunc  \x201f  356
 
+# Anfuehrungszeichen im Wortinnern
+midword »       6-236
+midword «       6-356
+midword \x2039   6-6-356
+midword \x203a   6-6-236
+
 midnum  .          3
 always  .\s.\s.    3-3-3
-midnum  '          3        (Gliederung grosser Zahlen)
 
 always  #          4-3456
 
@@ -191,8 +213,10 @@ always  \s°       4-356
 always  \s\x2032   4-35
 always  \s\x2033   4-35-35
 
-begnum  §         346
 joinnum §         346
+joinnum §§       346-346
+word    §         4-346
+word    §§       4-346-346
 
 endnum  .--        3-36a-36a
 endnum  .\x2013    3-36a-36a
@@ -211,6 +235,7 @@ always  /          5-2
 always  \s/\s      0-5-2-0
 
 always  |          0-5-36-0
+#always  \x2022     0-5-36-0   (dagger)
 
 joinnum £         4-123
 joinnum $          4-234
