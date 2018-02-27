@@ -1,3 +1,12 @@
+sbs-braille-tables (1.9.2) unstable; urgency=medium
+
+  * More updates to the lou_maketable based tables
+  * Use character and digit defintions from standard liblouis
+  * No longer ship with home-grown litdigit definitions. Just use the
+    liblouis standard include tables
+
+ -- Christian Egli <christian.egli@sbs.ch>  Tue, 27 Feb 2018 11:44:37 +0100
+
 sbs-braille-tables (1.9.1) unstable; urgency=medium
 
   * Add the updated lou_maketable based tables for the new 2018 German
