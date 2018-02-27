@@ -22,16 +22,9 @@ punctuation         \x002C               2 &#44;   COMMA
 punctuation         \x002D              36 &#45;   HYPHEN-MINUS
 punctuation         \x002E               3 &#46;   FULL STOP PERIOD
 punctuation         \x002F             256 &#47;   SOLIDUS SLASH
-digit               \x0030             346 &#48;   DIGIT ZERO
-digit               \x0031              16 &#49;   DIGIT ONE
-digit               \x0032             126 &#50;   DIGIT TWO
-digit               \x0033             146 &#51;   DIGIT THREE
-digit               \x0034            1456 &#52;   DIGIT FOUR
-digit               \x0035             156 &#53;   DIGIT FIVE
-digit               \x0036            1246 &#54;   DIGIT SIX
-digit               \x0037           12456 &#55;   DIGIT SEVEN
-digit               \x0038            1256 &#56;   DIGIT EIGHT
-digit               \x0039             246 &#57;   DIGIT NINE
+
+include litdigits6DotsPlusDot6.uti
+
 punctuation         \x003A              25 &#58;   COLON
 punctuation         \x003B              23 &#59;   SEMICOLON
 math                \x003C              56 &#60;   LESS-THAN SIGN
