@@ -1,3 +1,10 @@
+sbs-braille-tables (1.9.3) unstable; urgency=medium
+
+  * Add sbs-litdigit-lower.mod back to the distribution as it doesn't have
+    an equivalent table in liblouis
+
+ -- Christian Egli <christian.egli@sbs.ch>  Tue, 13 Mar 2018 11:18:48 +0100
+
 sbs-braille-tables (1.9.2) unstable; urgency=medium
 
   * More updates to the lou_maketable based tables
