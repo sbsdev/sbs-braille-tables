@@ -1,3 +1,10 @@
+sbs-braille-tables (1.9.4) unstable; urgency=medium
+
+  * The digit rules should have been replaced with include of
+    digits6DotsPlusDot6.uti not litdigits6DotsPlusDot6.uti
+
+ -- Christian Egli <christian.egli@sbs.ch>  Tue, 13 Mar 2018 14:07:57 +0100
+
 sbs-braille-tables (1.9.3) unstable; urgency=medium
 
   * Add sbs-litdigit-lower.mod back to the distribution as it doesn't have
