@@ -32,7 +32,7 @@ punctuation   \x002D 36              #45    - HYPHEN-MINUS
 punctuation   \x002E 3               #46    . FULL STOP PERIOD
 punctuation   \x002F 256             #47    / SOLIDUS SLASH
 
-include litdigits6DotsPlusDot6.uti
+include digits6DotsPlusDot6.uti
 
 punctuation   \x003A 25              #58    : COLON
 punctuation   \x003B 23              #59    ; SEMICOLON

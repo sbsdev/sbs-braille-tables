@@ -23,7 +23,7 @@ punctuation   \x007B 12356           #123   {  LEFT CURLY BRACKET
 punctuation   \x007D 23456           #125   }  RIGHT CURLY BRACKET
 punctuation   \x002D 36              #45    - HYPHEN-MINUS
 
-include litdigits6DotsPlusDot6.uti
+include digits6DotsPlusDot6.uti
 
 include latinLetterDef6Dots.uti
 
