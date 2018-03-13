@@ -22,6 +22,7 @@ copied_tables =					\
 	sbs-de-hyph-old.mod			\
 	sbs-de-hyph-word.mod			\
 	sbs-de-letsign.mod			\
+	sbs-litdigit-lower.mod			\
 	sbs-numsign.mod				\
 	sbs-special.cti				\
 	sbs-special.mod				\
