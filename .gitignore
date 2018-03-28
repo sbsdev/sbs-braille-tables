@@ -23,3 +23,5 @@ Makefile.in
 /release.properties
 /pom.xml.releaseBackup
 *.deb
+/do-release-commit-and-tag
+/git-version-gen
