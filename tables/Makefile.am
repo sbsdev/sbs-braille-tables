@@ -1,4 +1,4 @@
-copied_tables =					\
+braille_tables =				\
 	sbs-code.cti				\
 	sbs-de-accents-ch.mod			\
 	sbs-de-accents-reduced.mod		\
@@ -32,13 +32,7 @@ copied_tables =					\
 
 version_table = sbs-version.utb
 
-table_files = $(copied_tables) $(version_table)
+table_files = $(braille_tables) $(version_table)
 
 tablesdir = $(datadir)/liblouis/tables
-tables_DATA = $(table_files)
-CLEANFILES = $(table_files)
-
-utils_dir = $(top_srcdir)/utils
-
-$(copied_tables): %: $(top_srcdir)/src/%
-	cp $< $@
+dist_tables_DATA = $(table_files)

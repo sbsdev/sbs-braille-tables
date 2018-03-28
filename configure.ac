@@ -5,7 +5,6 @@ AM_INIT_AUTOMAKE()
 AC_CONFIG_FILES([
   Makefile
   tables/Makefile
-  src/Makefile
   utils/Makefile
   tables/sbs-version.utb
   tests/Makefile

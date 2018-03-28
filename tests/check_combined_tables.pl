@@ -26,7 +26,6 @@ my @g1_tables = qw(
     sbs-de-letsign.mod
     sbs-de-begendcaps.mod
     sbs-numsign.mod
-    sbs-litdigit-upper.mod
     sbs-litdigit-lower.mod
     sbs-de-core.mod
     sbs-de-g0-core.mod
@@ -50,7 +49,6 @@ my @g2_tables =	qw(
     sbs-de-letsign.mod
     sbs-de-begendcaps.mod
     sbs-numsign.mod
-    sbs-litdigit-upper.mod
     sbs-litdigit-lower.mod
     sbs-de-core.mod
     sbs-de-g2-place.mod
@@ -74,7 +72,6 @@ my @g2_name_tables = qw(
     sbs-de-letsign.mod
     sbs-de-begendcaps.mod
     sbs-numsign.mod
-    sbs-litdigit-upper.mod
     sbs-litdigit-lower.mod
     sbs-de-core.mod
     sbs-de-g2-name.mod
