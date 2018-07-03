@@ -6,6 +6,7 @@ braille_tables =				\
 	sbs-de-accents.mod			\
 	sbs-de-begendcaps.mod			\
 	sbs-de-capsign.mod			\
+	sbs-de-capsign-fake.mod			\
 	sbs-de-core.mod				\
 	sbs-de-core6.cti			\
 	sbs-de-g0-core.mod			\

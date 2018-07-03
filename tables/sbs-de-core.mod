@@ -99,14 +99,6 @@ noback correct "\x215e"[]"," "\x256C"
 noback correct $d["bis"]!$l "b\x250Ais"
 noback correct $d[]$l "\x2504"
 
-# --- Grosschreibung (wird wieder weggeputzt) ----------------------------------
-
-capsletter  46a
-begcapsword 45a
-endcapsword 45b
-begcaps     45a
-endcaps     45b
-
 # --- Emphasis opcodes ---------------------------------------------------------
 
 # Momentaner Workaraound: Hilfszeichen, liblouis kein mode-Wechsel
