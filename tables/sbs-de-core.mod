@@ -312,7 +312,7 @@ midnum  \s:\s      4-25-3456
 midnum  \s:        4-25-3456
 midnum  :          4-25-3456
 endnum  :          6-25
-begnum  ÷\s        4-25-3456
+begnum  ÷\s        4-25
 midnum  \s÷\s     0-4-25-3456
 midnum  \s÷       0-4-25-3456
 midnum  ÷         0-4-25-3456
