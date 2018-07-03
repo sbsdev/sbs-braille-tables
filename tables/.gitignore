@@ -1,5 +1,4 @@
 /Makefile.am.new
-/*.mod
 /*.dis
 /*.dic
 /*.cti
