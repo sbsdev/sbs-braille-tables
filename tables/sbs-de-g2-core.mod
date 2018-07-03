@@ -181,6 +181,7 @@ word       ich)       24-1456-2356                 #  I4=  #
 word       ich"       24-1456-356                  #  I4)  #
 word       ich«       24-1456-356                  #  I4)  #
 word       ich»       24-1456-356                  #  I4)  #
+word       ich┊       24-1456-abcdef               #  I4x  #
 nocross    ie         346                          #  0  #
 nocross    ig         45                           #  >  #
 word       ihm        236                          #  (  #
