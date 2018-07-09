@@ -1,3 +1,16 @@
+sbs-braille-tables (1.10.0) unstable; urgency=medium
+
+  * Drop conversion from mod_src to tables
+  * Upgrade gnulib
+  * Fix a problem in `make distcheck`
+  * Move virtual capitalization to a separate table file. This should help
+    with handling the capitalization of v-forms
+  * Handle "ich" followed by Kürzungsverbot
+  * Do not insert a space before ÷ before a number
+  * Drop the number sign after ÷ before a number
+
+ -- Christian Egli <christian.egli@sbs.ch>  Mon, 09 Jul 2018 14:57:19 +0200
+
 sbs-braille-tables (1.9.4) unstable; urgency=medium
 
   * The digit rules should have been replaced with include of
