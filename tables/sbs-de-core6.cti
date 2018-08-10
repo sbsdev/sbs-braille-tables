@@ -77,8 +77,8 @@ sign          \x00AE 2356-45-1235-2356   #174 ® REGISTERED SIGN
 sign          \x00AF 0               #175   ¯ MACRON
 sign          \x00B0 4-356           #176   ° DEGREE SIGN
 math          \x00B1 235-36          #177   ± PLUS-MINUS SIGN
-sign          \x00B2 346-23          #178   ² SUPERSCRIPT TWO
-sign          \x00B3 346-25          #179   ³ SUPERSCRIPT THREE
+sign          \x00B2 34-23           #178   ² SUPERSCRIPT TWO
+sign          \x00B3 34-25           #179   ³ SUPERSCRIPT THREE
 sign          \x00B4 0               #180   ´ ACUTE ACCENT
 sign          \x00B5 56-134          #181   µ MICRO SIGN
 sign          \x00B6 0               #182   ¶ PILCROW SIGN
