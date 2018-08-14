@@ -84,6 +84,21 @@ punctuation   \x255E 6-456           #9566    BOX DRAWINGS VERTICAL SINGLE AND R
 # KURSIV Ende, Mitten im Wort (P6-3)
 punctuation   \x2561 6-3             #9569    BOX DRAWINGS VERTICAL SINGLE AND LEFT DOUBLE
 
+# Hervorhebung zweiter Art, Einzelwort
+punctuation   \x256D 5-456
+
+# Hervorhebung zweiter Art, Anfang
+punctuation   \x256E 5-5-456
+
+# Hervorhebung zweiter Art, Ende
+punctuation   \x256F 5-3
+
+# Hervorhebung zweiter Art, Anfang mitten im Wort
+punctuation   \x2570 5-456
+
+# Hervorhebung zweiter Art, Ende mitten im Wort
+punctuation   \x2571 5-3
+
 # COMPUTER BRAILLE Einzelwort (P6-46)
 punctuation   \x257C 6-46            #9596    BOX DRAWINGS LIGHT LEFT AND HEAVY RIGHT
 
