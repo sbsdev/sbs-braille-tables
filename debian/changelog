@@ -1,3 +1,11 @@
+sbs-braille-tables (1.10.1) unstable; urgency=medium
+
+  * Add a special sign for colon inside time
+  * "Exponent" is now similar to "oberer Index"
+  * Add special signs for Hervorhebung zweiter Art
+
+ -- Christian Egli <christian.egli@sbs.ch>  Tue, 04 Sep 2018 16:55:47 +0200
+
 sbs-braille-tables (1.10.0) unstable; urgency=medium
 
   * Drop conversion from mod_src to tables
