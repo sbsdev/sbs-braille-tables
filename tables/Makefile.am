@@ -18,10 +18,6 @@ braille_tables =				\
 	sbs-de-g2-name.mod			\
 	sbs-de-g2-place-patterns.dic		\
 	sbs-de-g2-place.mod			\
-	sbs-de-hyph-new.mod			\
-	sbs-de-hyph-none.mod			\
-	sbs-de-hyph-old.mod			\
-	sbs-de-hyph-word.mod			\
 	sbs-de-letsign.mod			\
 	sbs-litdigit-lower.mod			\
 	sbs-numsign.mod				\

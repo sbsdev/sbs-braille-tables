@@ -50,10 +50,6 @@ noback pass2 @ac-6 ?
 # Markierung für Zahl-Buchstaben-Verbindung in Vollschrift entfernen
 noback pass2 @ac ?
 
-# Trennmarke "m" nach Bindestrich
-# This is now handled by the Java bindings
-#noback pass2 @36 @36-d
-
 # Korrektur: Kürzung "des" zwischen Bindestrichen auflösen
 #noback pass3 @36-d-3-36-d @36-d-145-123456-36-d
 noback pass3 @36-3-36 @36-145-123456-36
@@ -68,8 +64,3 @@ noback pass3 @0-6-36a-6-3456 @0-4-36-3456
 noback pass3 @36[@36a] @1236-12456
 # Bei allen weiteren P36 virtuellen Punkt a entfernen
 #noback pass3 @36a @36
-
-# Trennmarke "m" vor Leerzeichen entfernen
-#noback pass3 @d-0 @0
-# Trennmarke "m" vor Komma und Leerzeichen entfernen
-#noback pass3 @d-2-0 @2-0

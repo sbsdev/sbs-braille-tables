@@ -30,10 +30,6 @@ my @g1_tables = qw(
     sbs-de-core.mod
     sbs-de-g0-core.mod
     sbs-de-g1-core.mod
-    sbs-de-hyph-new.mod
-    sbs-de-hyph-none.mod
-    sbs-de-hyph-old.mod
-    sbs-de-hyph-word.mod
     sbs-de-accents.mod
     sbs-de-accents-ch.mod
     sbs-de-accents-reduced.mod
@@ -53,10 +49,6 @@ my @g2_tables =	qw(
     sbs-de-core.mod
     sbs-de-g2-place.mod
     sbs-de-g2-core.mod
-    sbs-de-hyph-new.mod
-    sbs-de-hyph-none.mod
-    sbs-de-hyph-old.mod
-    sbs-de-hyph-word.mod
     sbs-de-accents.mod
     sbs-de-accents-ch.mod
     sbs-de-accents-reduced.mod
@@ -75,10 +67,6 @@ my @g2_name_tables = qw(
     sbs-litdigit-lower.mod
     sbs-de-core.mod
     sbs-de-g2-name.mod
-    sbs-de-hyph-new.mod
-    sbs-de-hyph-none.mod
-    sbs-de-hyph-old.mod
-    sbs-de-hyph-word.mod
     sbs-de-accents.mod
     sbs-de-accents-ch.mod
     sbs-de-accents-reduced.mod
