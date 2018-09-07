@@ -1,3 +1,11 @@
+sbs-braille-tables (1.11.0) unstable; urgency=medium
+
+  * Drop the tables related to hyphenation. The tables no longer contain
+    any hyphenation information, so there is no longer a need to remove
+    that information (in a pass2 step) based on the selected hyphenation.
+
+ -- Christian Egli <christian.egli@sbs.ch>  Fri, 07 Sep 2018 11:20:21 +0200
+
 sbs-braille-tables (1.10.1) unstable; urgency=medium
 
   * Add a special sign for colon inside time
