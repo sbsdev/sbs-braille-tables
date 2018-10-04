@@ -1,3 +1,9 @@
+sbs-braille-tables (1.11.1) unstable; urgency=medium
+
+  * Fix a comment typo
+
+ -- Christian Egli <christian.egli@sbs.ch>  Thu, 04 Oct 2018 19:55:30 +0200
+
 sbs-braille-tables (1.11.0) unstable; urgency=medium
 
   * Drop the tables related to hyphenation. The tables no longer contain
