@@ -113,7 +113,7 @@ punctuation   \x2589 6-3             #9609    BOX DRAWINGS SEVEN EIGHTHS BLOCK
 sign          \x256C ab              #9580    BOX DRAWINGS DOUBLE VERTICAL AND HORIZONTAL
 
 # DOPPELPUNKT für Zeitangaben, i.e. 19:30
-sign          \x2573 6-25            #9586    BOX DRAWINGS LIGHT DIAGONAL UPPER LEFT TO LOWER RIGHT
+sign          \x2573 6-25            #9587    BOX DRAWINGS LIGHT DIAGONAL CROSS
 
 # MARKIERUNG FÜR ZAHL-BUCHSTABE-VERBINDUNG (zum Eliminieren überflüssiger Letter-Signs
 digit         \x2504 ac              #9476    BOX DRAWINGS LIGHT TRIPLE DASH HORIZONTAL
