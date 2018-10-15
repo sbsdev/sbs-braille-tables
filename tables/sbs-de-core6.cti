@@ -110,6 +110,7 @@ punctuation   \x201C 236             #8220          LEFT DOUBLE QUOTATION MARK
 punctuation   \x201D 356             #8221          RIGHT DOUBLE QUOTATION MARK
 punctuation   \x201E 236             #8222          DOUBLE LOW-9 QUOTATION MARK
 punctuation   \x201F 356             #8223          DOUBLE HIGH-REVERSED-9 QUOTATION MARK
+sign          \x2020 4-235           #8224          DAGGER
 sign          \x2030 3456-245-356-356      #8240    PER MILLE SIGN
 sign          \x2031 3456-245-356-356-356  #8241    PER TEN THOUSAND SIGN
 sign          \x2032 4-35            #8242          PRIME

@@ -48,9 +48,13 @@ noback correct ["--,"]$d "\x2511"
 noback correct ["\x2013,"]$d "\x2511"
 noback correct ["\x2014,"]$d "\x2511"
 
+# --- Dagger ("gestorben") -----------------------------------------------------
+
+noback correct ["\x2020"] "gest."
+
 # --- Satzzeichen nach zahlenähnlichen Zeichen ---------------------------------
 
-class puncAfterOrdinal ;:?!()\x00AB\x00BB
+class puncAfterOrdinal ;:?!()[]\x00AB\x00BB
 # Prozent
 noback correct ["%"]%puncAfterOrdinal "%\x250B"
 noback correct ["%,"] "%\x256C,"
@@ -60,6 +64,12 @@ noback correct ["\x2030,"] "\x2030\x256C,"
 # Grad
 noback correct ["\x00B0"]%puncAfterOrdinal "\x00B0\x250B"
 noback correct ["\x00B0,"] "\x00B0\x256C,"
+# Superscript 2
+noback correct ["\x00B2"]%puncAfterOrdinal "\x00B2\x250B"
+noback correct ["\x00B2,"] "\x00B2\x256C,"
+# Superscript 3
+noback correct ["\x00B3"]%puncAfterOrdinal "\x00B3\x250B"
+noback correct ["\x00B3,"] "\x00B3\x256C,"
 noback correct "\x00BC"[]%puncAfterOrdinal "\x250B"
 noback correct "\x00BD"[]%puncAfterOrdinal "\x250B"
 noback correct "\x00BE"[]%puncAfterOrdinal "\x250B"
@@ -137,6 +147,8 @@ midword !          6-235
 always  \s!        0-6-235
 always  !          235
 
+midword :          6-25
+
 midword (          6-2356
 midnum  (          6-2356-3456
 endnum  (          6-2356
@@ -149,8 +161,10 @@ always  )          2356
 
 midword [          6-6-2356
 midnum  [          6-6-2356-3456
+endnum  [          6-6-2356
 midword ]          6-6-2356
 midnum  ]          6-6-2356-3456
+endnum  ]          6-6-2356
 
 always  {          5-12356
 always  }          5-12356

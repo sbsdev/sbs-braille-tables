@@ -1,3 +1,10 @@
+sbs-braille-tables (1.11.4) unstable; urgency=medium
+
+  * Misc updates to braille tables: Dagger, Super script, Ligature, Square
+    brackets, etc.
+
+ -- Christian Egli <christian.egli@sbs.ch>  Mon, 15 Oct 2018 13:33:36 +0200
+
 sbs-braille-tables (1.11.3) unstable; urgency=medium
 
   * Fix a problem with the place patterns dict table.

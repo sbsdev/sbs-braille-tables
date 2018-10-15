@@ -475,7 +475,7 @@ word       sgt        6-234-1245-2345                #  'SGT  #
 word       tsch       6-2345-156                     #  'T5  #
 word       tschk      6-2345-156-13                  #  'T5K  #
 word       un'ora     256-6-135-1235-1               #  /'ORA  #
-word       when       6-2456-125-14                  #  'WHC  #
+word       when       2456-125-14-1345                  #  'WHC  #
 word       where      6-2456-125-12456-15            #  'WH7E  #
 word       whu        6-2456-125-136                 #  'WHU  #
 word       über'aupt  2-1256-6-16-1234-2345          #  ,8'1PT  #
