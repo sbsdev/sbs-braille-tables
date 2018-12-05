@@ -1,0 +1,27 @@
+FROM debian:jessie
+RUN apt-get update && apt-get install -y \
+    autoconf \
+    automake \
+    curl \
+    devscripts \
+    libtool \
+    make \
+    texinfo
+
+ARG LIBLOUIS_VERSION=3.8.0
+
+# compile and install liblouis
+WORKDIR /usr/src/
+RUN curl -L https://github.com/liblouis/liblouis/releases/download/v${LIBLOUIS_VERSION}/liblouis-${LIBLOUIS_VERSION}.tar.gz | tar zx
+WORKDIR /usr/src/liblouis-${LIBLOUIS_VERSION}/
+RUN ./configure --enable-ucs4 && \
+    make && \
+    make install && \
+    ldconfig
+
+# build braille tables
+ADD . /usr/src/sbs-braille-tables
+WORKDIR /usr/src/sbs-braille-tables
+RUN debuild -us -uc -b -d
+
+
