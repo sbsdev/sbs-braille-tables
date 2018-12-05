@@ -4,4 +4,4 @@ Section: text
 Priority: optional
 Architecture: all
 Maintainer: Christian Egli <christian.egli@sbs.ch>
-Description: SBS Liblouis Tables module for DAISY Pipeline2
+Description: Auxiliary liblouis tables to generate good German Braille at SBS.

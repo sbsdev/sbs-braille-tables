@@ -1,0 +1,61 @@
+# Introduction
+
+This project contains auxiliary tables that are used at SBS to
+generate good German Braille using liblouis.
+
+# Documentation
+
+None so far.
+
+# Installation
+
+Unpack the the distribution tarball, go to the directory it creates and run
+
+``` console
+./configure
+make
+sudo make install
+```
+
+This will add the sbs braille tables to the liblouis installed on the
+system (/usr/local/share/liblouis/tables).
+
+Alternatively, create the Debian package (see below) and install it
+with `dpkg -i *.deb`.
+
+# Packaging
+
+To update the version number in `tables/sbs-version.utb` first run
+
+``` console
+./autogen.sh && ./configure
+```
+
+Then build a Debian package by running
+
+``` console
+debuild -us -uc -b -d
+```
+
+This will create a deb file in `../.`
+
+To increase the Debian package version edit `debian/changelog`.
+
+If you do not want to install liblouis locally (which is needed for
+validating the tables) you can use Docker to isolate the build:
+
+``` console
+docker build -t sbsdev/braille-tables -f Dockerfile.build_with_liblouis .
+docker run --name braille-tables sbsdev/braille-tables
+docker cp braille-tables:/usr/src/sbs-braille-tables_1.11.4_all.deb .
+docker rm braille-tables
+```
+
+# License
+
+The tables contained within this package are free software. See the
+file COPYING for copying conditions.
+
+<!-- Local Variables: -->
+<!-- mode: markdown -->
+<!-- End: -->

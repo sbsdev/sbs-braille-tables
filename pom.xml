@@ -57,7 +57,7 @@
     <dependency>
       <groupId>org.liblouis</groupId>
       <artifactId>louis</artifactId>
-      <version>2.5.3</version>
+      <version>3.6.0</version>
       <type>nar</type>
       <scope>test</scope>
     </dependency>
@@ -68,8 +68,21 @@
       <resource>
         <directory>src/main/resources</directory>
         <excludes>
-          <exclude>tables/*</exclude>
+          <exclude>tables/sbs-version.utb</exclude>
         </excludes>
+      </resource>
+      <resource>
+        <directory>tables</directory>
+        <excludes>
+          <exclude>tables/sbs.dis</exclude>
+          <exclude>sbs-version.utb.in</exclude>
+          <exclude>sbs-version.utb</exclude>
+          <exclude>.gitignore</exclude>
+          <exclude>Makefile.am</exclude>
+          <exclude>Makefile.in</exclude>
+          <exclude>Makefile</exclude>
+        </excludes>
+        <targetPath>tables</targetPath>
       </resource>
       <resource>
         <directory>target/generated-resources/tables</directory>
@@ -87,9 +100,9 @@
               <goal>copy-resources</goal>
             </goals>
             <configuration>
-              <outputDirectory>target/generated-resources</outputDirectory>
+              <outputDirectory>${project.build.directory}/generated-resources</outputDirectory>
               <filters>
-                <filter>target/filters/detailed-version.properties</filter>
+                <filter>${project.build.directory}/filters/detailed-version.properties</filter>
               </filters>
               <resources>
                 <resource>
@@ -100,46 +113,13 @@
                   <targetPath>tables</targetPath>
                   <filtering>true</filtering>
                 </resource>
-                <resource>
-                  <directory>src/main/resources/tables</directory>
-                  <excludes>
-                    <exclude>*_src</exclude>
-                    <exclude>sbs-version.utb</exclude>
-                  </excludes>
-                  <targetPath>tables</targetPath>
-                  <filtering>false</filtering>
-                </resource>
               </resources>
             </configuration>
           </execution>
         </executions>
       </plugin>
       <plugin>
-        <artifactId>maven-antrun-plugin</artifactId>
-        <executions>
-          <execution>
-            <id>convert-ascii-tables</id>
-            <phase>process-resources</phase>
-            <goals>
-              <goal>run</goal>
-            </goals>
-            <configuration>
-              <target>
-                <mkdir dir="target/generated-resources/tables" />
-                <apply executable="utils/tab2lou.pl" failonerror="yes" dest="target/generated-resources/tables">
-                  <env key="PERL5LIB" value="${basedir}/utils" />
-                  <srcfile />
-                  <targetfile />
-                  <fileset dir="src/main/resources/tables" includes="*_src" />
-                  <mapper type="glob" from="*_src" to="*" />
-                </apply>
-              </target>
-            </configuration>
-          </execution>
-        </executions>
-      </plugin>
-      <plugin>
-	<groupId>com.github.maven-nar</groupId>
+        <groupId>com.github.maven-nar</groupId>
         <artifactId>nar-maven-plugin</artifactId>
         <version>3.4.0</version>
         <executions>
@@ -172,6 +152,12 @@
                   <groupId>org.liblouis</groupId>
                   <artifactId>louis</artifactId>
                   <classifier>${nar.aol}-executable</classifier>
+                  <type>nar</type>
+                </artifactItem>
+                <artifactItem>
+                  <groupId>org.liblouis</groupId>
+                  <artifactId>louis</artifactId>
+                  <classifier>noarch</classifier>
                   <type>nar</type>
                 </artifactItem>
               </artifactItems>
@@ -209,15 +195,15 @@
             </goals>
             <configuration>
               <target>
-                <exec executable="src/test/check_all_tables.pl" failonerror="yes">
+                <exec executable="tests/check_all_tables.pl" failonerror="yes">
                   <env key="PATH" value="${basedir}/target/liblouis/:${env.PATH}" />
                   <env key="LD_LIBRARY_PATH" value="${basedir}/target/liblouis/:${env.LD_LIBRARY_PATH}" />
-                  <env key="LOUIS_TABLEPATH" value="${basedir}/target/generated-resources/tables" />
+                  <env key="LOUIS_TABLEPATH" value="${basedir}/tables,${basedir}/target/dependency/share/liblouis/tables" />
                 </exec>
-                <exec executable="src/test/check_combined_tables.pl" failonerror="yes">
+                <exec executable="tests/check_combined_tables.pl" failonerror="yes">
                   <env key="PATH" value="${basedir}/target/liblouis/:${env.PATH}" />
                   <env key="LD_LIBRARY_PATH" value="${basedir}/target/liblouis/:${env.LD_LIBRARY_PATH}" />
-                  <env key="LOUIS_TABLEPATH" value="${basedir}/target/generated-resources/tables" />
+                  <env key="LOUIS_TABLEPATH" value="${basedir}/tables,${basedir}/target/dependency/share/liblouis/tables" />
                 </exec>
               </target>
             </configuration>
@@ -234,6 +220,9 @@
           </instructions>
         </configuration>
       </plugin>
+      <!--
+          build Debian package: alternative to "debuild" method explained in README
+      -->
       <plugin>
         <groupId>org.vafer</groupId>
         <artifactId>jdeb</artifactId>
@@ -241,8 +230,25 @@
           <dataSet>
             <data>
               <type>directory</type>
+              <src>src/main/resources/tables</src>
+              <excludes>sbs-version.utb,unicode.dis,sbs-de-g1-white.mod,sbs-de-g2-white.mod</excludes>
+              <mapper>
+                <type>perm</type>
+                <prefix>/usr/local/share/liblouis/tables</prefix>
+              </mapper>
+            </data>
+            <data>
+              <type>directory</type>
+              <src>tables</src>
+              <excludes>sbs.dis,sbs-version.utb.in,sbs-version.utb,.gitignore,Makefile.am,Makefile.in,Makefile</excludes>
+              <mapper>
+                <type>perm</type>
+                <prefix>/usr/local/share/liblouis/tables</prefix>
+              </mapper>
+            </data>
+            <data>
+              <type>directory</type>
               <src>target/generated-resources/tables</src>
-              <excludes>unicode.dis,sbs-de-g1-white.mod,sbs-de-g2-white.mod</excludes>
               <mapper>
                 <type>perm</type>
                 <prefix>/usr/local/share/liblouis/tables</prefix>

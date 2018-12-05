@@ -1,0 +1,6 @@
+/Makefile.am.new
+/*.dis
+/*.dic
+/*.cti
+/sbs-version.utb
+

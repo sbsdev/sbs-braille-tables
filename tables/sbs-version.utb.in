@@ -1,0 +1,30 @@
+#
+#  Copyright (C) 2010 SBS Swiss Library for the Blind, Visually
+#  Impaired and Print Disabled
+#
+#  This file is part of sbs-braille-tables.
+#
+#  sbs-braille-tables is free software: you can redistribute it and/or
+#  modify it under the terms of the GNU Lesser General Public License
+#  as published by the Free Software Foundation, either version 3 of
+#  the License, or (at your option) any later version.
+#
+#  sbs-braille-tables is distributed in the hope that it will be
+#  useful, but WITHOUT ANY WARRANTY; without even the implied warranty
+#  of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+#  Lesser General Public License for more details.
+#
+#  You should have received a copy of the GNU Lesser General Public
+#  License along with liblouis. If not, see
+#  <http://www.gnu.org/licenses/>.
+
+punctuation . 3
+punctuation   \x007B 12356           #123   {  LEFT CURLY BRACKET
+punctuation   \x007D 23456           #125   }  RIGHT CURLY BRACKET
+punctuation   \x002D 36              #45    - HYPHEN-MINUS
+
+include digits6DotsPlusDot6.uti
+
+include latinLetterDef6Dots.uti
+
+noback correct "{{sbs-braille-tables-version}}" "@VERSION@"

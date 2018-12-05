@@ -1,0 +1,132 @@
+sbs-braille-tables (1.11.4) unstable; urgency=medium
+
+  * Misc updates to braille tables: Dagger, Super script, Ligature, Square
+    brackets, etc.
+
+ -- Christian Egli <christian.egli@sbs.ch>  Mon, 15 Oct 2018 13:33:36 +0200
+
+sbs-braille-tables (1.11.3) unstable; urgency=medium
+
+  * Fix a problem with the place patterns dict table.
+
+ -- Christian Egli <christian.egli@sbs.ch>  Thu, 11 Oct 2018 13:27:52 +0200
+
+sbs-braille-tables (1.11.2) unstable; urgency=medium
+
+  * Update the maketable based pattern dict tables to the latest in German
+    Braille.
+
+ -- Christian Egli <christian.egli@sbs.ch>  Thu, 11 Oct 2018 11:12:37 +0200
+
+sbs-braille-tables (1.11.1) unstable; urgency=medium
+
+  * Fix a comment typo
+
+ -- Christian Egli <christian.egli@sbs.ch>  Thu, 04 Oct 2018 19:55:30 +0200
+
+sbs-braille-tables (1.11.0) unstable; urgency=medium
+
+  * Drop the tables related to hyphenation. The tables no longer contain
+    any hyphenation information, so there is no longer a need to remove
+    that information (in a pass2 step) based on the selected hyphenation.
+
+ -- Christian Egli <christian.egli@sbs.ch>  Fri, 07 Sep 2018 11:20:21 +0200
+
+sbs-braille-tables (1.10.1) unstable; urgency=medium
+
+  * Add a special sign for colon inside time
+  * "Exponent" is now similar to "oberer Index"
+  * Add special signs for Hervorhebung zweiter Art
+
+ -- Christian Egli <christian.egli@sbs.ch>  Tue, 04 Sep 2018 16:55:47 +0200
+
+sbs-braille-tables (1.10.0) unstable; urgency=medium
+
+  * Drop conversion from mod_src to tables
+  * Upgrade gnulib
+  * Fix a problem in `make distcheck`
+  * Move virtual capitalization to a separate table file. This should help
+    with handling the capitalization of v-forms
+  * Handle "ich" followed by Kürzungsverbot
+  * Do not insert a space before ÷ before a number
+  * Drop the number sign after ÷ before a number
+
+ -- Christian Egli <christian.egli@sbs.ch>  Mon, 09 Jul 2018 14:57:19 +0200
+
+sbs-braille-tables (1.9.4) unstable; urgency=medium
+
+  * The digit rules should have been replaced with include of
+    digits6DotsPlusDot6.uti not litdigits6DotsPlusDot6.uti
+
+ -- Christian Egli <christian.egli@sbs.ch>  Tue, 13 Mar 2018 14:07:57 +0100
+
+sbs-braille-tables (1.9.3) unstable; urgency=medium
+
+  * Add sbs-litdigit-lower.mod back to the distribution as it doesn't have
+    an equivalent table in liblouis
+
+ -- Christian Egli <christian.egli@sbs.ch>  Tue, 13 Mar 2018 11:18:48 +0100
+
+sbs-braille-tables (1.9.2) unstable; urgency=medium
+
+  * More updates to the lou_maketable based tables
+  * Use character and digit defintions from standard liblouis
+  * No longer ship with home-grown litdigit definitions. Just use the
+    liblouis standard include tables
+
+ -- Christian Egli <christian.egli@sbs.ch>  Tue, 27 Feb 2018 11:44:37 +0100
+
+sbs-braille-tables (1.9.1) unstable; urgency=medium
+
+  * Add the updated lou_maketable based tables for the new 2018 German
+    Braille Standard
+
+ -- Christian Egli <christian.egli@sbs.ch>  Mon, 29 Jan 2018 15:46:33 +0100
+
+sbs-braille-tables (1.9.0) unstable; urgency=medium
+
+  * Upgrade to tables generated with lou_maketable
+
+ -- Christian Egli <christian.egli@sbs.ch>  Thu, 23 Nov 2017 17:40:47 +0100
+
+sbs-braille-tables (1.8.5) unstable; urgency=medium
+
+  * Upgrade to liblouis 3.2.0
+
+ -- Christian Egli <christian.egli@sbs.ch>  Mon, 12 Jun 2017 15:41:20 +0200
+
+sbs-braille-tables (1.8.4) unstable; urgency=medium
+
+  * Upgrade to liblouis 3.0.0
+
+ -- Christian Egli <christian.egli@sbs.ch>  Fri, 05 May 2017 13:05:03 +0200
+
+sbs-braille-tables (1.8.3) unstable; urgency=low
+
+  * Fix display of hyphenation mark 'a'
+
+ -- Christian Egli <christian.egli@sbs.ch>  Thu, 17 Sep 2015 16:23:57 +0200
+
+sbs-braille-tables (1.8.2) unstable; urgency=low
+
+  * Fix ASTERISK in core table
+
+ -- Christian Egli <christian.egli@sbs.ch>  Wed, 16 Sep 2015 12:17:25 +0200
+
+sbs-braille-tables (1.8.1) unstable; urgency=low
+
+  * More table updates
+
+ -- Christian Egli <christian.egli@sbs.ch>  Tue, 19 Aug 2014 11:30:29 +0200
+
+sbs-braille-tables (1.8) unstable; urgency=low
+
+  * Table updates
+
+ -- Christian Egli <christian.egli@sbs.ch>  Mon, 18 Aug 2014 15:22:53 +0200
+
+sbs-braille-tables (1.7.9) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Christian Egli <christian.egli@sbs.ch>  Fri, 23 May 2014 10:03:59 +0200

@@ -1,0 +1,1 @@
+dist_noinst_SCRIPTS = cleanHyphenation.py cleanHyphenation_mod_src.py
