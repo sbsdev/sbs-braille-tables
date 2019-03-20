@@ -15,6 +15,8 @@ noback correct $s["-"]$d "\x2212"
 # Bindestrich nach öffnender Klammer vor Zahl ist Minuszeichen.
 noback correct ["(-"]$d "(\x2212"
 noback correct ["[-"]$d "[\x2212"
+noback correct ["›-"]$d "›\x2212"
+noback correct ["»-"]$d "»\x2212"
 # begword nach Wortersatzstrich verhindern
 noback correct $s["-"] "-\x250A"
 # begword Wortersatzstrich nach Schrägstrich verhindern
@@ -258,6 +260,10 @@ always  +          4-235
 
 begnum  \s-        0-4-36a-3456
 always  \s-        0-6-36a
+always  (-         2356-6-36a
+always  »-         236-6-36a
+always  ›-         6-236-6-36a
+always  [-         6-2356-6-36a
 begnum  \x2212\s   4-36a
 midnum  \s\x2212\s 0-4-36a-3456
 midnum  \s\x2212   0-4-36a-3456
