@@ -36,3 +36,9 @@ tests:
     - " '(\"-#D') "
   - - " »-4« "
     - " (\"-#D') "
+
+  # Übersetzung von 'n' als Wort (zwischen Blanks)
+  - - "rock'n'roll"
+    - "RO$'N'ROQ"
+  - - "rock 'n' roll"
+    - "RO$ ''N' ROQ"
