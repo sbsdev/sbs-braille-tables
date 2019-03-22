@@ -3,7 +3,11 @@ dist_check_SCRIPTS =				\
 	check_combined_tables.pl
 
 dist_yaml_TESTS =				\
-	de-ch-g2.yaml
+	computerbraille.yaml			\
+	g0.yaml					\
+	g2.yaml					\
+	g2-code.yaml				\
+	v-form.yaml
 
 TEST_EXTENSIONS = .yaml .pl
 PL_LOG_COMPILER = $(PERL)
