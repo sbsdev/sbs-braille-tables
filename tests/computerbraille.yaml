@@ -1,0 +1,17 @@
+display: sbs-without-non-breaking-hyphen.dis
+table:
+  - sbs-special.cti
+  - sbs-code.cti
+tests:
+  - - www.xyz.ch
+    - WWW.XYZ.CH
+  - - www.e-text.ch
+    - WWW.E-TEXT.CH
+  - - meier_alex@ubs.com
+    - 'MEIER"_ALEX"@UBS.COM'
+  - - http://www.google-test.ch/test?=:;+%#$
+    - HTTP://WWW.GOOGLE-TEST.CH/TEST?=:;+%#$$
+  - - peter34@gmx.net
+    - "PETER34\"@GMX.NET"
+  - - "@peter34"
+    - "\"@PETER34"

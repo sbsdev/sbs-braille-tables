@@ -1,0 +1,18 @@
+display: sbs-without-non-breaking-hyphen.dis
+table:
+  - sbs-de-core6.cti
+  - sbs-de-accents.cti
+  - sbs-special.cti
+  - sbs-whitespace.mod
+  - sbs-de-capsign-fake.mod
+  - sbs-de-letsign.mod
+  - sbs-numsign.mod
+  - litdigits6Dots.uti
+  - sbs-de-core.mod
+  - sbs-de-g0-core.mod
+  - sbs-de-accents.mod
+  - sbs-special.mod
+tests:
+  # test for text starting with space followed by dash
+  - - "  -steigen"
+    - " '-STEIGEN"

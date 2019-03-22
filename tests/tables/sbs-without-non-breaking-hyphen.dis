@@ -1,0 +1,14 @@
+#-------------------------------------------------------------------------------
+#
+# same as sbs.dis without the NON-BREAKING HYPHEN
+#
+# the  NON-BREAKING HYPHEN is used (and removed) by the java bindings,
+# so in a plain liblouis yaml test we do not use it.
+#
+#-------------------------------------------------------------------------------
+
+display - 36a
+
+include sbs.dis
+
+

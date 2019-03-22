@@ -1,0 +1,279 @@
+display: sbs-without-non-breaking-hyphen.dis
+table:
+  - sbs-de-core6.cti
+  - sbs-de-accents.cti
+  - sbs-special.cti
+  - sbs-whitespace.mod
+  - sbs-de-capsign-fake.mod
+  - sbs-de-letsign.mod
+  - sbs-numsign.mod
+  - litdigits6Dots.uti
+  - sbs-de-core.mod
+  - sbs-de-g2-core.mod
+  - sbs-de-accents.mod
+  - sbs-special.mod
+tests:
+  # Wortersatzstrich initial
+  - - " -bla "
+    - " '-BLA "
+  - - " (-bla) "
+    - " ='-BLA= "
+  - - " [-bla] "
+    - " '='-BLA'= "
+  - - " ›-bla‹ "
+    - " '('-BLA') "
+  - - " »-bla« "
+    - " ('-BLA) "
+
+  # Minuszeichen nach ( [ › »
+  - - " -4 "
+    - " \"-#D "
+  - - " (-4) "
+    - " =\"-#D'= "
+  - - " [-4] "
+    - " '=\"-#D''= "
+  - - " ›-4‹ "
+    - " '(\"-#D') "
+  - - " »-4« "
+    - " (\"-#D') "
+
+  # Übersetzung von 'n' als Wort (zwischen Blanks)
+  - - "rock'n'roll"
+    - "RO$'N'ROQ"
+  - - "rock 'n' roll"
+    - "RO$ ''N' ROQ"
+
+  # Fractions as characters (Fragezeichen)
+  - - ¼?
+    - "#A/'?"
+  - - ½?
+    - "#A;'?"
+  - - ¾?
+    - "#C/'?"
+  - - ⅓?
+    - "#A:'?"
+  - - ⅔?
+    - "#B:'?"
+  - - ⅕?
+    - "#A?'?"
+  - - ⅖?
+    - "#B?'?"
+  - - ⅗?
+    - "#C?'?"
+  - - ⅘?
+    - "#D?'?"
+  - - ⅙?
+    - "#A+'?"
+  - - ⅚?
+    - "#E+'?"
+  - - ⅛?
+    - "#A('?"
+  - - ⅜?
+    - "#C('?"
+  - - ⅝?
+    - "#E('?"
+  - - ⅞?
+    - "#G('?"
+
+  # Fractions as characters (Komma)
+  - - ¼,
+    - "#A/',"
+  - - ½,
+    - "#A;',"
+  - - ¾,
+    - "#C/',"
+  - - ⅓,
+    - "#A:',"
+  - - ⅔,
+    - "#B:',"
+  - - ⅕,
+    - "#A?',"
+  - - ⅖,
+    - "#B?',"
+  - - ⅗,
+    - "#C?',"
+  - - ⅘,
+    - "#D?',"
+  - - ⅙,
+    - "#A+',"
+  - - ⅚,
+    - "#E+',"
+  - - ⅛,
+    - "#A(',"
+  - - ⅜,
+    - "#C(',"
+  - - ⅝,
+    - "#E(',"
+  - - ⅞,
+    - "#G(',"
+
+  # Wortersatzstrich
+  - - " -tragen"
+    - " '-TGC"
+  - # http://redmine.sbszh.ch/issues/1505
+    - Arbeits und blah, -losenheim
+    - ")BS U BLAH, '-LOSCH3M"
+  - - " -losenheim"
+    - " '-LOSCH3M"
+
+  # Pfeilsymbole erscheinen fälschlicherweise IMMER mit Leerzeichen davor und dahinter
+  # http://redmine.sbszh.ch/issues/2456
+  - - Abgase → Umweltverschmutzung
+    - ABGASE ::O UMWYTV75MUTZU
+  - - Siehe Kapitel 3 (→ Kaufvertrag)
+    - "S0HE KAPITY #C =::O K1FV7TG="
+
+  # Automatische Korrektur des Abstands zwischen Operator und Zahl
+  # http://redmine.sbszh.ch/issues/2326
+  - - Kaufpreis × 4
+    - 'K1FPR3S "(#D'
+
+  # Plus
+  - - 222 + 222 222+222 222 +222 wort + wort wort + 222
+    - '#BBB "+#BBB #BBB "+#BBB #BBB "+#BBB W?T "+ W?T W?T "+#BBB'
+
+  # Minus
+  - - 222 − 222 222−222 222 −222 wort − wort wort − 222
+    - '#BBB "-#BBB #BBB "-#BBB #BBB "-#BBB W?T "- W?T W?T "-#BBB'
+
+  # Malkreuz
+  - - 222 × 222 222×222 222 ×222 wort × wort wort × 222
+    - '#BBB "(#BBB #BBB "(#BBB #BBB "(#BBB W?T "( W?T W?T "(#BBB'
+
+  # Geteilt durch
+  - - 222 ÷ 222 222÷222 222 ÷222 wort ÷ wort wort ÷ 222
+    - '#BBB ":#BBB #BBB ":#BBB #BBB ":#BBB W?T ": W?T W?T ":#BBB'
+
+  # Gleich
+  - - 222 = 222 222=222 222 =222 wort = wort wort = 222
+    - '#BBB "=#BBB #BBB "=#BBB #BBB "=#BBB W?T "= W?T W?T "=#BBB'
+
+  # Punkt 6 Apo bei Frage-/Ausrufezeichen in Klammern
+  # http://redmine.sbszh.ch/issues/2324
+  - - "(?) (!)"
+    - "='?= ='+="
+
+  # Korrektur des Trademark-Symbols
+  # http://redmine.sbszh.ch/issues/2270
+  - - foo™
+    - "FOO'=>TM="
+
+  # Übersetzung bei Wörtern mit Stern `*`
+  # http://redmine.sbszh.ch/issues/2187
+  - - Martell
+    - M)(Q
+  - - Martell*
+    - M)(Q'*
+
+  # Fragezeichen nach Klammer fälschlicherweise ohne Pt. 6 Apo
+  # http://redmine.sbszh.ch/issues/2186
+  - - bla (45-55) blo
+    - "BLA =#DE-#EE'= BLO"
+  - - bla ?-55 blo
+    - "BLA '?-#EE BLO"
+  - - bla (?-55) blo
+    - "BLA ='?-#EE'= BLO"
+
+  # Punctuation after numbers
+  - - »Am 10?«
+    - "(AM #AJ'?)"
+
+  # Minus tests
+  - - "−10 Grad"
+    - "\"-#AJ GRAD"
+  - - " -10 Grad"
+    - " \"-#AJ GRAD"
+  - - "(-10 Grad)"
+    - "=\"-#AJ GRAD="
+  - # using a unicode minus
+    - "−10 Grad"
+    - "\"-#AJ GRAD"
+  - - "5-10 Grad"
+    - "#E-#AJ GRAD"
+
+  # Braillequirks
+  - # test for !«
+    - "»Ich bin Bergfahrer!«"
+    - "(# B* B7G,R7+)"
+  - # test for !
+    - "And we look farther on!"
+    - "+D WE LOOK F)TH7 ON+"
+  - # test for stick!!!«
+    - "»Sun-­block on a stick!!!«"
+    - "(S/- BLO$ ON 'A ]I$+++)"
+  - # test for und/oder
+    - "Substanz und/oder deren"
+    - "SUB]+Z U!,O D7C"
+ - # Swallow white space whith embed new lines
+    - "Gedanken – Strich      —"
+    - "&DKC'- ]R#'-"
+  - # Swallow white space whith embed new lines
+    - "Gedanken
+— Strich"
+    - "&DKC'- ]R#"
+  - # Swallow white space whith embed new lines
+    - "Gedanken
+  — Strich"
+    - "&DKC'- ]R#"
+  - # Swallow white space whith embed new lines
+    - "Gedanken
+                         —         Strich"
+    - "&DKC'- ]R#"
+  - # test für Einzelbuchstaben mit Punkt
+    - "A. B. C. D. E. F. G. H. I. J."
+    - "A. B. 'C. D. E. F. G. H. I. J."
+  - # Apostroph (pt. 6) erscheint zweimal bei Apostroph + Einzelbuchstabe
+    # http://redmine.sbszh.ch/issues/show/929
+    - "wie geht's"
+    - "2 G=T'S"
+  - # Problem bei Schrägstrich: Kürzungen
+    # http://redmine.sbszh.ch/issues/show/1005
+    - "Produktion/Test"
+    - "QDUKTION!,TE]"
+  - # Einzelbuchstaben mit Akzenten erhalten fälschlicherweise einen Pt.6
+    # http://redmine.sbszh.ch/issues/show/1010
+    - "à la carte"
+    - "\"[ LA 'C)("
+  - # Leerschläge vor und nach Schrägstrich werden getilgt
+    # http://redmine.sbszh.ch/issues/show/1011
+    - "wort / wort"
+    - "W?T !, W?T"
+  # Check if unicode chars are eaten by liblouis
+  - - "╞"
+    - "'_"
+  - - "╡"
+    - "'."
+  - # Gross, schliess, etc
+    - "Groß schließ Großmutter"
+    - "G^ 5^ G^MUTT7"
+
+  # Misc quirks
+  - - "bli 8:"
+    - "BLI #H':"
+  - - "bli 8!"
+    - "BLI #H'+"
+  - - "bli 8?"
+    - "BLI #H'?"
+  - - "bli 8;"
+    - "BLI #H';"
+  - - "bli 8,"
+    - "BLI #H,"
+  - - "bli 8."
+    - "BLI #H."
+
+  # im tests
+  - - "Bla im Blo"
+    - "BLA - BLO"
+  - - "Heim-Kino"
+    - "H3M-K*O"
+  - - "Das Im-Buch-Lesen"
+    - "D IM-BU4-L%C"
+  - - "Das Konzentriert-Im-Buch-Lesen"
+    - "D KONZCTR0RT-IM-BU4-L%C"
+
+  # line break before ndash
+  # Bug #1212
+  - - "word
+– word"
+    - "W?D'- W?D"
+

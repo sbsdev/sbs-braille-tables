@@ -1,0 +1,55 @@
+display: sbs-without-non-breaking-hyphen.dis
+table:
+  - sbs-de-core6.cti
+  - sbs-de-accents.cti
+  - sbs-special.cti
+  - sbs-whitespace.mod
+  - sbs-de-capsign.mod
+  - sbs-de-letsign.mod
+  - sbs-numsign.mod
+  - litdigits6Dots.uti
+  - sbs-de-core.mod
+  - sbs-de-g2-core.mod
+  - sbs-de-accents.mod
+  - sbs-special.mod
+tests:
+  - - Sie
+    - $S
+  - - Euerem
+    - $27[
+table:
+  - sbs-de-core6.cti
+  - sbs-de-accents.cti
+  - sbs-special.cti
+  - sbs-whitespace.mod
+  - sbs-de-capsign.mod
+  - sbs-de-letsign.mod
+  - sbs-numsign.mod
+  - litdigits6Dots.uti
+  - sbs-de-core.mod
+  - sbs-de-g1-core.mod
+  - sbs-de-accents.mod
+  - sbs-special.mod
+tests:
+  - - Sie
+    - $S0
+  - - Euerem
+    - $2EREM
+table:
+  - sbs-de-core6.cti
+  - sbs-de-accents.cti
+  - sbs-special.cti
+  - sbs-whitespace.mod
+  - sbs-de-capsign.mod
+  - sbs-de-letsign.mod
+  - sbs-numsign.mod
+  - litdigits6Dots.uti
+  - sbs-de-core.mod
+  - sbs-de-g0-core.mod
+  - sbs-de-accents.mod
+  - sbs-special.mod
+tests:
+  - - Sie
+    - $SIE
+  - - Euerem
+    - $EUEREM

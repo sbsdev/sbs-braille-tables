@@ -1,0 +1,9 @@
+display: sbs-without-non-breaking-hyphen.dis
+table:
+  - sbs-special.cti
+  - sbs-code.cti
+tests:
+  - - C:/ordner/inhalt_version_1
+    - "\"C:/ORDNER/INHALT\"_VERSION\"_1"
+  - - "for(i=0;i<=12; i++ { blabla }"
+    - "FOR(I=0;I<=12; I++ [ BLABLA ]"
