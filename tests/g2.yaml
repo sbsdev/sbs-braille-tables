@@ -204,7 +204,7 @@ tests:
   - # test for und/oder
     - "Substanz und/oder deren"
     - "SUB]+Z U!,O D7C"
- - # Swallow white space whith embed new lines
+  - # Swallow white space whith embed new lines
     - "Gedanken – Strich      —"
     - "&DKC'- ]R#'-"
   - # Swallow white space whith embed new lines
