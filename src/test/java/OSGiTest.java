@@ -4,10 +4,10 @@ import java.util.Arrays;
 import java.util.List;
 import javax.inject.Inject;
 
+import org.daisy.common.file.URIs;
 import org.daisy.pipeline.braille.common.CSSStyledText;
 import static org.daisy.pipeline.braille.common.Query.util.mutableQuery;
 import static org.daisy.pipeline.braille.common.util.Strings.join;
-import static org.daisy.pipeline.braille.common.util.URIs.asURI;
 import org.daisy.pipeline.braille.liblouis.LiblouisTablePath;
 import org.daisy.pipeline.braille.liblouis.LiblouisTranslator;
 
@@ -35,7 +35,7 @@ public class OSGiTest extends AbstractTest {
 	@Test
 	public void testTablePath() {
 		assertEquals("http://www.sbs.ch/pipeline/liblouis/tables/", path.getIdentifier().toString());
-		assertTrue(path.resolve(asURI("sbs.dis")) != null);
+		assertTrue(path.resolve(URIs.asURI("sbs.dis")) != null);
 	}
 	
 	@Inject

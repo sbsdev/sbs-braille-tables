@@ -7,8 +7,8 @@ import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import static org.daisy.pipeline.braille.common.util.URIs.asURI;
-import static org.daisy.pipeline.braille.common.util.URLs.asURL;
+import org.daisy.common.file.URIs;
+import org.daisy.common.file.URLs;
 import org.daisy.pipeline.braille.liblouis.LiblouisTablePath;
 
 import org.osgi.service.component.annotations.Activate;
@@ -28,7 +28,6 @@ import org.slf4j.LoggerFactory;
 		"path:String=/tables"
 	}
 )
-
 public class TablePath extends LiblouisTablePath {
 	
 	private final static String WHITELIST_BASE_PROPERTY = "ch.sbs.whitelist.base";
@@ -38,11 +37,11 @@ public class TablePath extends LiblouisTablePath {
 	private URL emptyTable;
 	
 	@Activate
-	protected void activate(ComponentContext context, Map<?,?> properties) throws Exception {
-		super.activate(context, properties);
+	public void activate(Map<?,?> properties) {
+		super.activate(properties, LiblouisTablePath.class);
 		String whitelistBasePath = System.getProperty(WHITELIST_BASE_PROPERTY);
 		whitelistBase = whitelistBasePath == null ? null : new File(whitelistBasePath);
-		emptyTable = resolve(asURI("_empty"));
+		emptyTable = resolve(URIs.asURI("_empty"));
 	}
 	
 	public URL resolve(URI resource) {
@@ -58,7 +57,7 @@ public class TablePath extends LiblouisTablePath {
 					if (whitelistBase != null) {
 						File file = new File(whitelistBase, fileName);
 						if (file.exists())
-							return asURL(file);
+							return URLs.asURL(file);
 						else {
 							logger.error("Whitelist " + fileName + " could not be found in " + whitelistBase);
 							return null; }}
