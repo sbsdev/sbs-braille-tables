@@ -4,15 +4,16 @@ import java.util.Arrays;
 import java.util.List;
 import javax.inject.Inject;
 
+import org.daisy.common.file.URIs;
 import org.daisy.pipeline.braille.common.CSSStyledText;
 import static org.daisy.pipeline.braille.common.Query.util.mutableQuery;
 import static org.daisy.pipeline.braille.common.util.Strings.join;
-import static org.daisy.pipeline.braille.common.util.URIs.asURI;
 import org.daisy.pipeline.braille.liblouis.LiblouisTablePath;
 import org.daisy.pipeline.braille.liblouis.LiblouisTranslator;
 
 import org.daisy.pipeline.junit.AbstractTest;
 
+import static org.daisy.pipeline.pax.exam.Options.mavenBundle;
 import static org.daisy.pipeline.pax.exam.Options.thisPlatform;
 
 import org.junit.Assert;
@@ -82,9 +83,8 @@ public class OSGiTest extends AbstractTest {
 	@Override
 	protected String[] testDependencies() {
 		return new String[]{
-			brailleModule("liblouis-core"),
-			"org.daisy.pipeline.modules.braille:liblouis-native:jar:" + thisPlatform() + ":?",
-			brailleModule("liblouis-tables"),
+			brailleModule("liblouis-utils"),
+			"org.daisy.pipeline.modules.braille:liblouis-utils:jar:" + thisPlatform() + ":?",
 		};
 	}
 	
@@ -93,7 +93,9 @@ public class OSGiTest extends AbstractTest {
 		return options(
 			composite(super.config()),
 			systemProperty("ch.sbs.whitelist.base")
-				.value(new File(PathUtils.getBaseDir(), "target/test-classes/whitelist/").getAbsolutePath())
+				.value(new File(PathUtils.getBaseDir(), "target/test-classes/whitelist/").getAbsolutePath()),
+			// FIXME: BrailleUtils needs older version of jing
+			mavenBundle("org.daisy.libs:jing:20120724.0.0")
 		);
 	}
 	
