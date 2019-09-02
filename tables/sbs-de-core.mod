@@ -19,12 +19,27 @@ noback correct ["›-"]$d "›\x2212"
 noback correct ["»-"]$d "»\x2212"
 # begword nach Wortersatzstrich verhindern
 noback correct $s["-"] "-\x250A"
-# begword Wortersatzstrich nach Schrägstrich verhindern
+# begword nach Satzzeichen und Wortersatzstrich verhindern
+noback correct $s["(-"]$l "(\x2013\x250A"
+noback correct $s["»-"]$l "»\x2013\x250A"
+noback correct $s["›-"]$l "›\x2013\x250A"
+# begword nach Wortersatzstrich nach Schrägstrich verhindern
 noback correct ["/-"]$l "/\x2013\x250A"
+# endword vor Wortersatzstrich vor Schrägstrich verhindern
+noback correct $l["-/"] "\x250A-/"
 # endword vor Wortersatzstrich verhindern
 noback correct "-\s" "\x250A-\s"
-# endword vor Wortersatzstrich und Komma verhindern
+# endword vor Wortersatzstrich und Satzzeichen verhindern (vor Satzzeichen KEIN Pt.6)
+# corrects für Satzzeichen, die einen Pt. 6 benötigen, befinden sich in sbs-de-g2-core.mod
+noback correct "-.\s" "\x250A-.\s"
 noback correct "-,\s" "\x250A-,\s"
+noback correct "-;\s" "\x250A-;\s"
+noback correct "-:\s" "\x250A-:\s"
+noback correct "-‹\s" "\x250A-‹\s"
+# begword/endword vor/nach Auslassungspunkten verhindern
+noback correct $l["..."]$l "\x250A...\x250A"
+noback correct $l["..."] "\x250A..."
+noback correct ["..."]$l "...\x250A"
 
 # --- Satzzeichen im Wort: Keine Wortgrenze ------------------------------------
 

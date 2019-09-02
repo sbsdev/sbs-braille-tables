@@ -2,6 +2,12 @@
 # Deutsche Kurzschrift 2018: Grundtabelle  #
 ############################################
 
+# endword vor Wortersatzstrich und Satzzeichen verhindern (vor Satzzeichen Pt.6)
+noback correct "-!\s" "\x250A-'\x250A!\s"
+noback correct "-?\s" "\x250A-'\x250A?\s"
+noback correct "-)\s" "\x250A-]\s"
+noback correct "-«\s" "\x250A-‹\s"
+
 # fehlender Pt.6 (Apo) bei Wort-Zahl-Ausdrücken
 # !! need to double check if this doesn't break other stuff
 noback correct $l[]$d "\x256C"
