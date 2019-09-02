@@ -21,6 +21,7 @@ noback correct ["»-"]$d "»\x2212"
 noback correct $s["-"] "-\x250A"
 # begword nach Satzzeichen und Wortersatzstrich verhindern
 noback correct $s["(-"]$l "(\x2013\x250A"
+noback correct $s["[-"]$l "[\x2013\x250A"
 noback correct $s["»-"]$l "»\x2013\x250A"
 noback correct $s["›-"]$l "›\x2013\x250A"
 # begword nach Wortersatzstrich nach Schrägstrich verhindern
