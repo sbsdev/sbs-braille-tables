@@ -1,3 +1,5 @@
+SUBDIRS = tables
+
 dist_check_SCRIPTS =				\
 	check_all_tables.pl			\
 	check_combined_tables.pl
@@ -14,7 +16,8 @@ PL_LOG_COMPILER = $(PERL)
 YAML_LOG_COMPILER = lou_checkyaml
 
 TESTS =	$(dist_check_SCRIPTS) $(dist_yaml_TESTS)
+EXTRA_DIST = $(dist_yaml_TESTS)
 
-TESTS_ENVIRONMENT =										\
-	LOUIS_TABLEPATH=$(top_srcdir)/tables,$(top_srcdir)/tests/tables,$(LIBLOUIS_TABLESDIR)	\
+TESTS_ENVIRONMENT =											\
+	LOUIS_TABLEPATH=$(abs_top_srcdir)/tables,$(abs_top_srcdir)/tests/tables,$(LIBLOUIS_TABLESDIR)	\
 	PATH=$(LIBLOUIS_PREFIX)/bin:$$PATH

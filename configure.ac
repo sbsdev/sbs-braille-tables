@@ -8,6 +8,7 @@ AC_CONFIG_FILES([
   utils/Makefile
   tables/sbs-version.utb
   tests/Makefile
+  tests/tables/Makefile
   lib/Makefile
   whitelist/Makefile
 ])
