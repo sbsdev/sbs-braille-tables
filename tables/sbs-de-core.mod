@@ -133,6 +133,9 @@ noback correct $d[]$l "\x2504"
 
 # Momentaner Workaraound: Hilfszeichen, liblouis kein mode-Wechsel
 
+# --- Korrektur der Eszett-Grossschreib-Probleme -------------------------------
+noback correct "ẞ" "ß"
+
 # --- Special Symbol Opcodes ---------------------------------------------------
 
 hyphen  -          36
