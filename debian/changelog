@@ -1,3 +1,10 @@
+sbs-braille-tables (1.12.5) unstable; urgency=medium
+
+  * Revert the Always convert Esszet (ß) to lowercase change as it seems
+    to break dictionary based translation.
+
+ -- Christian Egli <christian.egli@sbs.ch>  Fri, 06 Sep 2019 17:07:15 +0200
+
 sbs-braille-tables (1.12.4) unstable; urgency=medium
 
   * Add corrects for left-pointing angle quotation marks before hyphen.
