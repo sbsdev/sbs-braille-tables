@@ -95,8 +95,7 @@ uplow         \x00C4\x00E4  345      #196 #228  Ää LATIN CAPITAL LETTER A WITH
 uplow         \x00D6\x00F6  246      #214 #246  Öö LATIN CAPITAL LETTER O WITH DIAERESIS
 math          \x00D7 236             #215   × MULTIPLICATION SIGN
 uplow         \x00DC\x00FC  1256     #220 #252   Üü LATIN CAPITAL LETTER U WITH DIAERESIS
-letter        \x00DF 2346      	     #223   ß LATIN SMALL LETTER SHARP S
-letter        \x1e9e 2346      	     #7838  ẞ LATIN CAPITAL LETTER SHARP S
+uplow         \x1e9e\x00DF 2346            #223   ß LATIN SMALL LETTER SHARP S
 math          \x00F7 0               #247   ÷ DIVISION SIGN
 
 # ===== GENERAL PUNCTUATION: 2000-206F =========================================
