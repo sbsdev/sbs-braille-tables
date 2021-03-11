@@ -7,7 +7,7 @@ include sbs-de-g2-place-patterns.dic
 begword    über 2-1256                             #  ,8  #
 begword    unter 2-256                             #  ,/  #
 begword    vor 2-26                                #  ,?  #
-nocross    deutsch 145-156                         #  D5  #
+nocross always    deutsch 145-156                         #  D5  #
 begword    groß 1245-2346                          #  G^  #
 begword    gross 1245-2346                         #  G^  #
 endword    platz 1234-1356                         #  PZ  #
@@ -18,76 +18,76 @@ endword    wegs 2456-1245-234                      #  WGS  #
 # Und dann die name-Tabelle:
 
 sufword    ach        1-1456                       #  A4  #
-nocross    ach        56                           #  <  #
+nocross always    ach        56                           #  <  #
 prfword    al         1-123                        #  AL  #
-nocross    al         25                           #  :  #
-nocross    al'        25-6                         #  :'  #
+nocross always    al         25                           #  :  #
+nocross always    al'        25-6                         #  :'  #
 endword    an         1-1345                       #  AN  #
-nocross    an         235                          #  +  #
-nocross    an'        235-6                        #  +' #
+nocross always    an         235                          #  +  #
+nocross always    an'        235-6                        #  +' #
 prfword    ar         1-1235                       #  AR  #
-nocross    ar         356                          #  )  #
-nocross    ar'        356-6                        #  )'  #
-nocross    ation      5-1345                       #  !N  #
-nocross    ativ       5-1236                       #  !V  #
+nocross always    ar         356                          #  )  #
+nocross always    ar'        356-6                        #  )'  #
+nocross always    ation      5-1345                       #  !N  #
+nocross always    ativ       5-1236                       #  !V  #
 word       au         6-16                         #  '1  #
-nocross    au         16                           #  1  #
+nocross always    au         16                           #  1  #
 prfword    be         12-15                        #  BE  #
-nocross    be         23                           #  ;  #
-nocross    be'        23                           #  ;' #
+nocross always    be         23                           #  ;  #
+nocross always    be'        23                           #  ;' #
 always     c          6-14                         #  'C  #
 always     C          6-14                         #  'C  #
 word       ch         6-1456                       #  '4  #
-nocross    ch         1456                         #  4  #
-nocross    ck         46                           #  $  #
-nocross    eh         2356                         #  =  #
-nocross    eh'        2356-6                       #  ='  #
-nocross    ei         146                          #  3  #
-nocross    ein        1246                         #  6  #
-nocross    el         13456                        #  Y  #
-nocross    em         12356                        #  [  #
-nocross    en         14                           #  C  #
-nocross    er         12456                        #  7  #
-nocross    es         123456                       #  %  #
+nocross always    ch         1456                         #  4  #
+nocross always    ck         46                           #  $  #
+nocross always    eh         2356                         #  =  #
+nocross always    eh'        2356-6                       #  ='  #
+nocross always    ei         146                          #  3  #
+nocross always    ein        1246                         #  6  #
+nocross always    el         13456                        #  Y  #
+nocross always    em         12356                        #  [  #
+nocross always    en         14                           #  C  #
+nocross always    er         12456                        #  7  #
+nocross always    es         123456                       #  %  #
 word       eu         6-126                        #  '2  #
-nocross    eu         126                          #  2  #
+nocross always    eu         126                          #  2  #
 begword    ex         1346                         #  X  #
-nocross    'ex        6-15-6-1346                  #  'E'X  #
-nocross    ge         12346                        #  &  #
+nocross always    'ex        6-15-6-1346                  #  'E'X  #
+nocross always    ge         12346                        #  &  #
 word       hen        125-15-1345                  #  HEN  #
-nocross    ich        3456                         #  #  #
-nocross    ie         346                          #  0  #
-nocross    ig         45                           #  >  #
-nocross    in         35                           #  *  #
-nocross    ismus      5-24                         #  !I  #
-nocross    lich       456                          #  _  #
+nocross always    ich        3456                         #  #  #
+nocross always    ie         346                          #  0  #
+nocross always    ig         45                           #  >  #
+nocross always    in         35                           #  *  #
+nocross always    ismus      5-24                         #  !I  #
+nocross always    lich       456                          #  _  #
 sufword    ll         123-123                      #  LL  #
-nocross    ll         12345                        #  Q  #
+nocross always    ll         12345                        #  Q  #
 sufword    mm         134-134                      #  MM  #
-nocross    mm         1346                         #  X  #
+nocross always    mm         1346                         #  X  #
 prfword    or         135-1235                     #  OR  #
-nocross    or         26                           #  ?  #
-nocross    or'        26-6                         #  ?'  #
+nocross always    or         26                           #  ?  #
+nocross always    or'        26-6                         #  ?'  #
 begword    pro        12345                        #  Q  #
 begword    prou       1234-1235-135-136            #  PROU  #
 always     q          6-12345                      #  'Q  #
 always     Q          6-12345                      #  'Q  #
 word       sch        6-156                        #  '5  #
-nocross    sch        156                          #  5  #
+nocross always    sch        156                          #  5  #
 word       ss         6-234-234                    #  'SS  #
-nocross    ss         2346                         #  ^  #
+nocross always    ss         2346                         #  ^  #
 word       st         234-2345                     #  ST  #
-nocross    st         23456                        #  ]  #
-nocross    te         236                          #  (  #
+nocross always    st         23456                        #  ]  #
+nocross always    te         236                          #  (  #
 word       un         136-1345                     #  UN  #
-nocross    un         256                          #  /  #
+nocross always    un         256                          #  /  #
 always     x          6-1346                       #  'X  #
 always     X          6-1346                       #  'X  #
 always     y          6-13456                      #  'Y  #
 always     Y          6-13456                      #  'Y  #
 word       zu         1356                         #  Z  #
 always     ß          6-2346                       #  '^  #
-nocross    äu         34                           #  \  #
+nocross always    äu         34                           #  \  #
 
 #inkl. "hoffmann"-Namen (aus sbs-base_g2.ctb)
 word       ao         6-1-135                        'AO
