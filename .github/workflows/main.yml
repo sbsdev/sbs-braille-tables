@@ -18,7 +18,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Install dependencies
-      run: sudo apt-get update -qq && sudo apt-get install -y texinfo
+      run: sudo apt-get update -qq && sudo apt-get install -y libyaml-dev texinfo
     - name: Fetch and build liblouis
       run: |
         wget https://github.com/liblouis/liblouis/archive/master.tar.gz
@@ -48,7 +48,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Install dependencies
-      run: sudo apt-get update -qq && sudo apt-get install -y texinfo
+      run: sudo apt-get update -qq && sudo apt-get install -y libyaml-dev texinfo
     - name: Fetch and build liblouis
       run: |
         wget https://github.com/liblouis/liblouis/releases/download/v${LIBLOUIS_VERSION}/liblouis-${LIBLOUIS_VERSION}.tar.gz
