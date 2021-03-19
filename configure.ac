@@ -1,5 +1,4 @@
-AC_INIT([sbs-braille-tables],
-        m4_esyscmd([build-aux/git-version-gen .tarball-version]))
+AC_INIT([sbs-braille-tables],[1.13.0])
 AM_INIT_AUTOMAKE()
 
 AC_CONFIG_FILES([
@@ -9,13 +8,8 @@ AC_CONFIG_FILES([
   tables/sbs-version.utb
   tests/Makefile
   tests/tables/Makefile
-  lib/Makefile
   whitelist/Makefile
 ])
-
-AC_PROG_CC
-gl_EARLY
-gl_INIT
 
 # make sure liblouis is installed
 AC_PATH_PROG(PKG_CONFIG, pkg-config)

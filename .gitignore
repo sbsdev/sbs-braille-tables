@@ -1,5 +1,4 @@
 *~
-/.version
 /aclocal.m4
 /autom4te.cache
 /config.log
@@ -22,7 +21,6 @@ Makefile.in
 /release.properties
 /pom.xml.releaseBackup
 *.deb
-/git-version-gen
 
 # Maven
 /target/
