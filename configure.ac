@@ -14,7 +14,7 @@ AC_CONFIG_FILES([
 # make sure liblouis is installed
 AC_PATH_PROG(PKG_CONFIG, pkg-config)
 
-PKG_CHECK_MODULES(LIBLOUIS, [liblouis >= 3.9.0])
+PKG_CHECK_MODULES(LIBLOUIS, [liblouis >= 3.13.0])
 PKG_CHECK_VAR(LIBLOUIS_PREFIX, liblouis, prefix)
 PKG_CHECK_VAR(LIBLOUIS_TABLESDIR, liblouis, tablesdir)
 
