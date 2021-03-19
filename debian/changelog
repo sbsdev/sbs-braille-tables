@@ -1,3 +1,10 @@
+sbs-braille-tables (1.14.0) unstable; urgency=medium
+
+  * Drop gnulib.
+  * make use of the extended 'nocross' possibilities
+
+ -- Christian Egli <christian.egli@sbs.ch>  Fri, 19 Mar 2021 12:26:28 +0100
+
 sbs-braille-tables (1.13.0) unstable; urgency=medium
 
   * Upgrade to modern liblouis, i.e. use 'nocross always' instead of just
