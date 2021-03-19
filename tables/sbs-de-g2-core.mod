@@ -472,3 +472,7 @@ word	when	2456-125-14-1345	#  'WHC #
 word	where	6-2456-125-12456-15	#  'WH7E #
 word	whu	6-2456-125-136	#  'WHU #
 word	über'aupt	2-1256-6-16-1234-2345	#  ,8'1PT #
+
+# Local Variables:
+# mode: tsv
+# End:
