@@ -2,8 +2,9 @@ sbs-braille-tables (1.14.0) unstable; urgency=medium
 
   * Drop gnulib.
   * make use of the extended 'nocross' possibilities
+  * add test cases for the changed rules
 
- -- Christian Egli <christian.egli@sbs.ch>  Fri, 19 Mar 2021 12:26:28 +0100
+ -- Christian Egli <christian.egli@sbs.ch>  Mon, 22 Mar 2021 14:53:02 +0100
 
 sbs-braille-tables (1.13.0) unstable; urgency=medium
 

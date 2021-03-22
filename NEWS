@@ -6,6 +6,8 @@ sbs-braille-tables NEWS -- history of user-visible changes.  	-*- org -*-
 ** Upgrade to liblouis 3.17
 - Migrate ~nocross~ to ~nocross always~
 - make use of the extended ~nocross~ possibilities
+- add test cases for the rules that have been upgraded to work with
+  ~nocross~
 
 * Noteworthy changes in release 1.2 (2011-02-14)
     - Improve tables
