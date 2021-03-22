@@ -243,9 +243,126 @@ tests:
     - "'_"
   - - "╡"
     - "'."
+
   - # Gross, schliess, etc
-    - "Groß schließ Großmutter"
-    - "G^ 5^ G^MUTT7"
+    - Groß schließ Großmutter
+    - G^ 5^ G^MUTT7
+
+    # ach
+  - - ach achtung flaches dach
+    - A4 A4TU FL<% D<
+
+    # al
+  - - alter al, kalter kanal
+    - :T7 AL, K:T7 K+AL
+
+    # ar
+  - - eine ar arvenwald gart fast gar
+    - "6E AR )VCW:D G)T FA] GAR"
+
+    # be
+  - - be bereitet unbequeme hiebe
+    - "BE ;R3(T /;'QU[E H0BE"
+
+    # ck
+  - - das ck in kuckuck
+    - "D 'CK * KU$U$"
+
+    # dies
+  - - dies ist dieses paradies
+    - D0S ] 0% P)AD0S
+
+    # eh
+  - - ehrlich eh reh dreht
+    - EHR_ EH REH DR=T
+
+    # ent
+  - - entgehen rentner dokument
+    - ^G=C RCTN7 DOKUMCT
+
+    # falls
+  - - ebenfalls fallstrick falls einzelfallstudie
+    - EBCF FQ]RI$ FQS 6ZYFQ]UDIE
+
+    # heit
+  - - einheit schönheitskönigin heiter hoheit
+    - 6H 59NHSK9N>* H3T7 HOH3T
+
+    # ie
+  - - liegt knie ieri
+    - L0GT KN0 I7I
+
+    # ig
+  - - igel figur leipzig
+    - IGY F>UR L3PZ>
+
+    # ihr
+  - - ihr ihretwegen ihrige mihrab
+    - I IETWGC I>E MIHRAB
+
+    # keit
+  - - dankbarkeit heiterkeitserfolg keitel
+    - DKB)K H3T7KS7FG K3TY
+
+    # lich
+  - - licht sonnenlicht fröhlich
+    - L#T SONNC_T FR9H_
+
+    # ll
+  - - llewellyn halle hell
+    - LLEWEQ'YN HAQE HEQ
+
+    # mal
+  - - mal zumal damaliges maximal
+    - "MAL ,ZM DAM>% MA'XIMAL"
+
+    # mm
+  - - mm kamm klemmt
+    - MM KAX KLEXT
+
+    # möcht
+  - - möcht möchten hinmöchtest möchtegern
+    - "M94T 4C H*4E] 4EG7N"
+
+    # nis
+  - - nisse ärgernis hemmnis ergebnislos
+    - "NI^E @RG7X HEXX 7&BXLOS"
+
+    # or
+  - - or orden pforte chor
+    - OR ?DC PF?( 4OR
+
+    # sam
+  - - samt einsamkeit sparsam sam
+    - SAMT 6^K SP)^ SAM
+
+    # schaft
+  - - schaft bürgschaft kundschafter herrschaft
+    - 5AFT B8RG5 K/D57 RR5AFT
+
+    # sein
+  - - sein seine seinerseits dasein
+    - 9 9E 97S3TS DAS6
+
+    # ss
+  - - kasse nuss
+    - KA^E NU^
+
+    # te
+  - - te teppich protest betete
+    - "TE TEPP# Q(] ;(("
+
+    # ung
+  - - ungarn heilung zeitungen
+    - /G)N H3LU ZTUC
+
+    # ver
+  - - verein sport-verein unverantwortlich pulver -versuch
+    - "-6 SP?T-V76 /V7+TW?T_ PULV7 '-V7SU4"
+
+    # war
+  - - war waren warst spielwaren
+    - ) )C )] ,0W)C
 
   # Misc quirks
   - - "bli 8:"
