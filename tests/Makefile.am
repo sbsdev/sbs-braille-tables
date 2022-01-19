@@ -8,7 +8,6 @@ dist_yaml_TESTS =				\
 	computerbraille.yaml			\
 	g0.yaml					\
 	g2.yaml					\
-	g2-code.yaml				\
 	v-form.yaml
 
 TEST_EXTENSIONS = .yaml .pl

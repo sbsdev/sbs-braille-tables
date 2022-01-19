@@ -15,3 +15,9 @@ tests:
     - "PETER34\"@GMX.NET"
   - - "@peter34"
     - "\"@PETER34"
+  - # filenames
+    - C:/ordner/inhalt_version_1
+    - "\"C:/ORDNER/INHALT\"_VERSION\"_1"
+  - # Code
+    - "for(i=0;i<=12; i++ { blabla }"
+    - "FOR(I=0;I<=12; I++ [ BLABLA ]"
