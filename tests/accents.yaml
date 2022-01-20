@@ -1,0 +1,69 @@
+display: sbs-without-non-breaking-hyphen.dis
+table:
+  - sbs-de-core6.cti
+  - sbs-de-accents.cti
+  - sbs-special.cti
+  - sbs-whitespace.mod
+  - sbs-de-core.mod
+  - sbs-de-g2-core.mod
+  - sbs-de-accents-reduced.mod
+  - sbs-special.mod
+tests:
+  # Reduced accents
+  - - "Àà Ââ Çç Èè Éé Êê Ëë Ìì Îî Ïï Òò Ôô Ùù Ûû Œœ"
+    - '"A"A "A"A "C"C "E"E "E"E "E"E "E"E "I"I "I"I "I"I "O"O "O"O "U"U "U"U OEOE'
+  # Reduced accents
+  - - "Áá Ãã Åå Ææ Āā Ăă Ąą Ćć Ĉĉ Ċċ Čč Ďď Đđ Ðð Ēē Ėė Ęę Ěě Ğğ Ģģ"
+    - '"A"A "A"A "A"A "A"A "A"A "A"A "A"A "C"C "C"C "C"C "C"C "D"D "D"D "D"D "E"E "E"E "E"E "E"E "G"G "G"G'
+  - - "Ĥĥ Ħħ Íí Ĩĩ Īī Įį İı Ĳĳ Ĵĵ Ķķ Ĺĺ Ļļ Ľľ Ŀŀ Łł Ńń Ññ Ņņ Ňň Ŋŋ"
+    - '"H"H "H"H "I"I "I"I "I"I "I"I "I"I "J"J "J"J "K"K "L"L "L"L "L"L "L"L "L"L "N"N "N"N "N"N "N"N "N"N'
+  - - "Ōō Óó Õõ Øø Ŏŏ Őő Ŕŕ Ŗŗ Řř Śś Ŝŝ Şş Šš Șș Ţţ Ťť Ŧŧ Țț"
+    - '"O"O "O"O "O"O "O"O "O"O "O"O "R"R "R"R "R"R "S"S "S"S "S"S "S"S "S"S "T"T "T"T "T"T "T"T'
+  - - "Ũũ Ūū Úú Ŭŭ Ůů Űű Ųų Ŵŵ Ŷŷ Źź Żż Žž Ǎǎ Ẁẁ Ẃẃ Ẅẅ Ỳỳ Ýý Þþ Ÿÿ"
+    - '"U"U "U"U "U"U "U"U "U"U "U"U "U"U "W"W "Y"Y "Z"Z "Z"Z "Z"Z "A"A "W"W "W"W "W"W "Y"Y "Y"Y "T"T "Y"Y'
+
+table:
+  - sbs-de-core6.cti
+  - sbs-de-accents.cti
+  - sbs-special.cti
+  - sbs-whitespace.mod
+  - sbs-de-core.mod
+  - sbs-de-g2-core.mod
+  - sbs-de-accents-ch.mod
+  - sbs-special.mod
+tests:
+  # Swiss accents
+  - - "Àà Ââ Çç Èè Éé Êê Ëë Ìì Îî Ïï Òò Ôô Ùù Ûû Œœ"
+    - '"["[ "1"1 "&"& "^"^ "%"% "2"2 "6"6 "\\"\\ "3"3 "7"7 "0"0 "4"4 "]"] "5"5 "9"9'
+  # Reduced accents
+  - - "Áá Ãã Åå Ææ Āā Ăă Ąą Ćć Ĉĉ Ċċ Čč Ďď Đđ Ðð Ēē Ėė Ęę Ěě Ğğ Ģģ"
+    - '"A"A "A"A "A"A "A"A "A"A "A"A "A"A "C"C "C"C "C"C "C"C "D"D "D"D "D"D "E"E "E"E "E"E "E"E "G"G "G"G'
+  - - "Ĥĥ Ħħ Íí Ĩĩ Īī Įį İı Ĳĳ Ĵĵ Ķķ Ĺĺ Ļļ Ľľ Ŀŀ Łł Ńń Ññ Ņņ Ňň Ŋŋ"
+    - '"H"H "H"H "I"I "I"I "I"I "I"I "I"I "J"J "J"J "K"K "L"L "L"L "L"L "L"L "L"L "N"N "N"N "N"N "N"N "N"N'
+  - - "Ōō Óó Õõ Øø Ŏŏ Őő Ŕŕ Ŗŗ Řř Śś Ŝŝ Şş Šš Șș Ţţ Ťť Ŧŧ Țț"
+    - '"O"O "O"O "O"O "O"O "O"O "O"O "R"R "R"R "R"R "S"S "S"S "S"S "S"S "S"S "T"T "T"T "T"T "T"T'
+  - - "Ũũ Ūū Úú Ŭŭ Ůů Űű Ųų Ŵŵ Ŷŷ Źź Żż Žž Ǎǎ Ẁẁ Ẃẃ Ẅẅ Ỳỳ Ýý Þþ Ÿÿ"
+    - '"U"U "U"U "U"U "U"U "U"U "U"U "U"U "W"W "Y"Y "Z"Z "Z"Z "Z"Z "A"A "W"W "W"W "W"W "Y"Y "Y"Y "T"T "Y"Y'
+
+table:
+  - sbs-de-core6.cti
+  - sbs-de-accents.cti
+  - sbs-special.cti
+  - sbs-whitespace.mod
+  - sbs-de-core.mod
+  - sbs-de-g2-core.mod
+  - sbs-de-accents.mod
+  - sbs-special.mod
+tests:
+  # All accents detailed
+  - - "Àà Ââ Çç Èè Éé Êê Ëë Ìì Îî Ïï Òò Ôô Ùù Ûû Œœ"
+    - '"["[ "1"1 "&"& "^"^ "%"% "2"2 "6"6 "\\"\\ "3"3 "7"7 "0"0 "4"4 "]"] "5"5 "9"9'
+  # Reduced accents
+  - - "Áá Ãã Åå Ææ Āā Ăă Ąą Ćć Ĉĉ Ċċ Čč Ďď Đđ Ðð Ēē Ėė Ęę Ěě Ğğ Ģģ"
+    - '"A"A "A"A "A"A "A"A "A"A "A"A "A"A "C"C "C"C "C"C "C"C "D"D "D"D "D"D "E"E "E"E "E"E "E"E "G"G "G"G'
+  - - "Ĥĥ Ħħ Íí Ĩĩ Īī Įį İı Ĳĳ Ĵĵ Ķķ Ĺĺ Ļļ Ľľ Ŀŀ Łł Ńń Ññ Ņņ Ňň Ŋŋ"
+    - '"H"H "H"H "I"I "I"I "I"I "I"I "I"I "J"J "J"J "K"K "L"L "L"L "L"L "L"L "L"L "N"N "N"N "N"N "N"N "N"N'
+  - - "Ōō Óó Õõ Øø Ŏŏ Őő Ŕŕ Ŗŗ Řř Śś Ŝŝ Şş Šš Șș Ţţ Ťť Ŧŧ Țț"
+    - '"O"O "O"O "O"O "O"O "O"O "O"O "R"R "R"R "R"R "S"S "S"S "S"S "S"S "S"S "T"T "T"T "T"T "T"T'
+  - - "Ũũ Ūū Úú Ŭŭ Ůů Űű Ųų Ŵŵ Ŷŷ Źź Żż Žž Ǎǎ Ẁẁ Ẃẃ Ẅẅ Ỳỳ Ýý Þþ Ÿÿ"
+    - '"U"U "U"U "U"U "U"U "U"U "U"U "U"U "W"W "Y"Y "Z"Z "Z"Z "Z"Z "A"A "W"W "W"W "W"W "Y"Y "Y"Y "T"T "Y"Y'

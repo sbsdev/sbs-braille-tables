@@ -5,6 +5,7 @@ dist_check_SCRIPTS =				\
 	check_combined_tables.pl
 
 dist_yaml_TESTS =				\
+	accents.yaml				\
 	computerbraille.yaml			\
 	g0.yaml					\
 	g2.yaml					\

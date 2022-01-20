@@ -8,39 +8,29 @@
 #-------------------------------------------------------------------------------
 
 uplow        \x00C0\x00E0      123568        Àà  &#192;&#224;   LATIN LETTER A WITH GRAVE
-uplow        \x00C1\x00E1      168           Áá  &#193;&#225;   LATIN LETTER A WITH ACUTE
 uplow        \x00C2\x00E2      1678          Ââ  &#194;&#226;   LATIN LETTER A WITH CIRCUMFLEX
-uplow        \x00C3\x00E3      34678         Ãã  &#195;&#227;   LATIN LETTER A WITH TILDE
-uplow        \x00C5\x00E5      345678        Åå  &#197;&#229;   LATIN LETTER A WITH RING ABOVE
-uplow        \x00C6\x00E6      478           Ææ  &#198;&#230;   LATIN LETTER AE
 uplow        \x00C7\x00E7      1234678       Çç  &#199;&#231;   LATIN LETTER C WITH CEDILLA
 uplow        \x00C8\x00E8      23468         Èè  &#200;&#232;   LATIN LETTER E WITH GRAVE
 uplow        \x00C9\x00E9      1234568       Éé  &#201;&#233;   LATIN LETTER E WITH ACUTE
 uplow        \x00CA\x00EA      12678         Êê  &#202;&#234;   LATIN LETTER E WITH CIRCUMFLEX
 uplow        \x00CB\x00EB      12468         Ëë  &#203;&#235;   LATIN LETTER E WITH DIAERESIS
 uplow        \x00CC\x00EC      348           Ìì  &#204;&#236;   LATIN LETTER I WITH GRAVE
-uplow        \x00CD\x00ED      1468          Íí  &#205;&#237;   LATIN LETTER I WITH ACUTE
 uplow        \x00CE\x00EE      14678         Îî  &#206;&#238;   LATIN LETTER I WITH CIRCUMFLEX
 uplow        \x00CF\x00EF      124568        Ïï  &#207;&#239;   LATIN LETTER I WITH DIAERESIS
-uplow        \x00D0\x00F0      23458         Ðð  &#208;&#240;   LATIN LETTER ETH
-uplow        \x00D1\x00F1      13458         Ññ  &#209;&#241;   LATIN LETTER N WITH TILDE
 uplow        \x00D2\x00F2      3468          Òò  &#210;&#242;   LATIN LETTER O WITH GRAVE
-uplow        \x00D3\x00F3      14568         Óó  &#211;&#243;   LATIN LETTER O WITH ACUTE
 uplow        \x00D4\x00F4      145678        Ôô  &#212;&#244;   LATIN LETTER O WITH CIRCUMFLEX
-uplow        \x00D5\x00F5      1358          Õõ  &#213;&#245;   LATIN LETTER O WITH TILDE
-uplow        \x00D8\x00F8      24678         Øø  &#216;&#248;   LATIN LETTER O WITH STROKE
 uplow        \x00D9\x00F9      234568        Ùù  &#217;&#249;   LATIN LETTER U WITH GRAVE
-uplow        \x00DA\x00FA      1568          Úú  &#218;&#250;   LATIN LETTER U WITH ACUTE
 uplow        \x00DB\x00FB      15678         Ûû  &#219;&#251;   LATIN LETTER U WITH CIRCUMFLEX
-uplow        \x00DD\x00FD      24568         Ýý  &#221;&#253;   LATIN LETTER Y WITH ACUTE
-uplow        \x00DE\x00FE      12348         Þþ  &#222;&#254;   LATIN LETTER THORN
-uplow        \x0178\x00FF      134568        Ÿÿ  &#255;&#376;   LATIN LETTER Y WITH DIAERESIS
 uplow        \x0152\x0153      246789        Œœ  &#338;&#339;   LATIN LIGATURE OE
 
 #-------------------------------------------------------------------------------
 #  Akzentbuchstaben (alle reduziert)
 #-------------------------------------------------------------------------------
 
+uplow       \x00C1\x00E1       4-1           Áá  &#193;&#225;   LATIN CAPITAL LETTER A WITH ACUTE - LATIN SMALL LETTER A WITH ACUTE
+uplow       \x00C3\x00E3       4-1           Ãã  &#195;&#227;   LATIN CAPITAL LETTER A WITH TILDE - LATIN SMALL LETTER A WITH TILDE
+uplow       \x00C5\x00E5       4-1           Åå  &#197;&#229;   LATIN CAPITAL LETTER A WITH RING ABOVE - LATIN SMALL LETTER A WITH RING ABOVE
+uplow       \x00C6\x00E6       4-1           Ææ  &#198;&#230;   LATIN CAPITAL LETTER AE - LATIN SMALL LETTER AE
 uplow       \x0100\x0101       4-1           Āā  &#256;&#257;   LATIN CAPITAL LETTER A WITH MACRON - LATIN SMALL LETTER A WITH MACRON
 uplow       \x0102\x0103       4-1           Ăă  &#258;&#259;   LATIN CAPITAL LETTER A WITH BREVE - LATIN SMALL LETTER A WITH BREVE
 uplow       \x0104\x0105       4-1           Ąą  &#260;&#261;   LATIN CAPITAL LETTER A WITH OGONEK - LATIN SMALL LETTER A WITH OGONEK
@@ -50,6 +40,7 @@ uplow       \x010A\x010B       4-14          Ċċ  &#266;&#267;   LATIN CAPITAL 
 uplow       \x010C\x010D       4-14          Čč  &#268;&#269;   LATIN CAPITAL LETTER C WITH CARON - LATIN SMALL LETTER C WITH CARON
 uplow       \x010E\x010F       4-145         Ďď  &#270;&#271;   LATIN CAPITAL LETTER D WITH CARON - LATIN SMALL LETTER D WITH CARON
 uplow       \x0110\x0111       4-145         Đđ  &#272;&#273;   LATIN CAPITAL LETTER D WITH STROKE - LATIN SMALL LETTER D WITH STROKE
+uplow       \x00D0\x00F0       4-145         Ðð  &#208;&#240;   LATIN CAPITAL LETTER ETH - LATIN SMALL LETTER ETH
 uplow       \x0112\x0113       4-15          Ēē  &#274;&#275;   LATIN CAPITAL LETTER E WITH MACRON - LATIN SMALL LETTER E WITH MACRON
 uplow       \x0116\x0117       4-15          Ėė  &#278;&#279;   LATIN CAPITAL LETTER E WITH DOT ABOVE - LATIN SMALL LETTER E WITH DOT ABOVE
 uplow       \x0118\x0119       4-15          Ęę  &#280;&#281;   LATIN CAPITAL LETTER E WITH OGONEK - LATIN SMALL LETTER E WITH OGONEK
@@ -58,6 +49,7 @@ uplow       \x011E\x011F       4-1245        Ğğ  &#286;&#287;   LATIN CAPITAL 
 uplow       \x0122\x0123       4-1245        Ģģ  &#290;&#291;   LATIN CAPITAL LETTER G WITH CEDILLA - LATIN SMALL LETTER G WITH CEDILLA
 uplow       \x0124\x0125       4-125         Ĥĥ  &#292;&#293;   LATIN CAPITAL LETTER H WITH CIRCUMFLEX - LATIN SMALL LETTER H WITH CIRCUMFLEX
 uplow       \x0126\x0127       4-125         Ħħ  &#294;&#295;   LATIN CAPITAL LETTER H WITH STROKE - LATIN SMALL LETTER H WITH STROKE
+uplow       \x00CD\x00ED       4-24          Íí  &#205;&#237;   LATIN CAPITAL LETTER I WITH ACUTE - LATIN SMALL LETTER I WITH ACUTE
 uplow       \x0128\x0129       4-24          Ĩĩ  &#296;&#297;   LATIN CAPITAL LETTER I WITH TILDE - LATIN SMALL LETTER I WITH TILDE
 uplow       \x012A\x012B       4-24          Īī  &#298;&#299;   LATIN CAPITAL LETTER I WITH MACRON - LATIN SMALL LETTER I WITH MACRON
 uplow       \x012E\x012F       4-24          Įį  &#302;&#303;   LATIN CAPITAL LETTER I WITH OGONEK - LATIN SMALL LETTER I WITH OGONEK
@@ -71,10 +63,14 @@ uplow       \x013D\x013E       4-123         Ľľ  &#317;&#318;   LATIN CAPITAL 
 uplow       \x013F\x0140       4-123         Ŀŀ  &#319;&#320;   LATIN CAPITAL LETTER L WITH MIDDLE DOT - LATIN SMALL LETTER L WITH MIDDLE DOT
 uplow       \x0141\x0142       4-123         Łł  &#321;&#322;   LATIN CAPITAL LETTER L WITH STROKE - LATIN SMALL LETTER L WITH STROKE
 uplow       \x0143\x0144       4-1345        Ńń  &#323;&#324;   LATIN CAPITAL LETTER N WITH ACUTE - LATIN SMALL LETTER N WITH ACUTE
+uplow       \x00D1\x00F1       4-1345        Ññ  &#209;&#241;   LATIN CAPITAL LETTER N WITH TILDE - LATIN SMALL LETTER N WITH TILDE
 uplow       \x0145\x0146       4-1345        Ņņ  &#325;&#326;   LATIN CAPITAL LETTER N WITH CEDILLA - LATIN SMALL LETTER N WITH CEDILLA
 uplow       \x0147\x0148       4-1345        Ňň  &#327;&#328;   LATIN CAPITAL LETTER N WITH CARON - LATIN SMALL LETTER N WITH CARON
 uplow       \x014A\x014B       4-1345        Ŋŋ  &#330;&#331;   LATIN CAPITAL LETTER ENG - LATIN SMALL LETTER ENG
 uplow       \x014C\x014D       4-135         Ōō  &#332;&#333;   LATIN CAPITAL LETTER O WITH MACRON - LATIN SMALL LETTER O WITH MACRON
+uplow       \x00D3\x00F3       4-135         Óó  &#211;&#243;   LATIN CAPITAL LETTER O WITH ACUTE - LATIN SMALL CAPITAL LETTER O WITH ACUTE
+uplow       \x00D5\x00F5       4-135         Õõ  &#213;&#245;   LATIN CAPITAL LETTER O WITH TILDE - LATIN SMALL LETTER O WITH TILDE
+uplow       \x00D8\x00F8       4-135         Øø  &#216;&#248;   LATIN CAPITAL LETTER O WITH STROKE - LATIN SMALL LETTER O WITH STROKE
 uplow       \x014E\x014F       4-135         Ŏŏ  &#334;&#335;   LATIN CAPITAL LETTER O WITH BREVE - LATIN SMALL LETTER O WITH BREVE
 uplow       \x0150\x0151       4-135         Őő  &#336;&#337;   LATIN CAPITAL LETTER O WITH DOUBLE ACUTE - LATIN SMALL LETTER O WITH DOUBLE ACUTE
 uplow       \x0154\x0155       4-1235        Ŕŕ  &#340;&#341;   LATIN CAPITAL LETTER R WITH ACUTE - LATIN SMALL LETTER R WITH ACUTE
@@ -91,6 +87,7 @@ uplow       \x0166\x0167       4-2345        Ŧŧ  &#358;&#359;   LATIN CAPITAL 
 uplow       \x021A\x021B       4-2345        Țț                 LATIN CAPITAL LETTER T WITH COMMA BELOW - LATIN SMALL LETTER T WITH COMMA BELOW
 uplow       \x0168\x0169       4-136         Ũũ  &#360;&#361;   LATIN CAPITAL LETTER U WITH TILDE - LATIN SMALL LETTER U WITH TILDE
 uplow       \x016A\x016B       4-136         Ūū  &#362;&#363;   LATIN CAPITAL LETTER U WITH MACRON - LATIN SMALL LETTER U WITH MACRON
+uplow       \x00DA\x00FA       4-136         Úú  &#218;&#250;   LATIN CAPITAL LETTER U WITH ACUTE - LATIN SMALL LETTER U WITH ACUTE
 uplow       \x016C\x016D       4-136         Ŭŭ  &#364;&#365;   LATIN CAPITAL LETTER U WITH BREVE - LATIN SMALL LETTER U WITH BREVE
 uplow       \x016E\x016F       4-136         Ůů  &#366;&#367;   LATIN CAPITAL LETTER U WITH RING ABOVE - LATIN SMALL LETTER U WITH RING ABOVE
 uplow       \x0170\x0171       4-136         Űű  &#368;&#369;   LATIN CAPITAL LETTER U WITH DOUBLE ACUTE - LATIN SMALL LETTER U WITH DOUBLE ACUTE
@@ -105,4 +102,7 @@ uplow       \x1E80\x1E81       4-2456        Ẁẁ  &#7808;&#7809; LATIN CAPITA
 uplow       \x1E82\x1E83       4-2456        Ẃẃ  &#7810;&#7811; LATIN CAPITAL LETTER W WITH ACUTE - LATIN SMALL LETTER W WITH ACUTE
 uplow       \x1E84\x1E85       4-2456        Ẅẅ  &#7812;&#7813; LATIN CAPITAL LETTER W WITH DIAERESIS - LATIN SMALL LETTER W WITH DIAERESIS
 uplow       \x1EF2\x1EF3       4-13456       Ỳỳ  &#7922;&#7923; LATIN CAPITAL LETTER Y WITH GRAVE - LATIN SMALL LETTER Y WITH GRAVE
+uplow       \x00DD\x00FD       4-13456       Ýý  &#221;&#253;   LATIN CAPITAL LETTER Y WITH ACUTE - LATIN LETTER Y WITH ACUTE
+uplow       \x00DE\x00FE       4-2345        Þþ  &#222;&#254;   LATIN CAPITAL LETTER THORN - LATIN SMALL LETTER THORN
+uplow       \x0178\x00FF       4-13456       Ÿÿ  &#255;&#376;   LATIN CAPITAL LETTER Y WITH DIAERESIS - LATIN SMALL LETTER Y WITH DIAERESIS
 
