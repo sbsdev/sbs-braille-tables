@@ -47,7 +47,7 @@ If you do not want to install liblouis locally (which is needed for
 validating the tables) you can use Docker to isolate the build:
 
 ``` console
-docker build -t sbsdev/braille-tables -f Dockerfile.build_with_liblouis .
+docker build -t sbsdev/braille-tables -f Dockerfile .
 docker run --name braille-tables sbsdev/braille-tables
 docker cp braille-tables:/usr/src/sbs-braille-tables_1.11.4_all.deb .
 docker rm braille-tables

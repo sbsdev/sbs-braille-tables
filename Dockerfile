@@ -16,7 +16,7 @@ RUN apt-get update && apt-get install -y \
     texinfo \
    && rm -rf /var/lib/apt/lists/*
 
-ARG LIBLOUIS_VERSION=3.10.0
+ARG LIBLOUIS_VERSION=3.19.0
 ENV SRCDIR=/usr/src/
 
 # compile and install liblouis
