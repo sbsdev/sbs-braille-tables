@@ -1,6 +1,8 @@
 package ch.sbs.pipeline.braille.impl;
 
 import java.io.File;
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
 import java.net.URI;
 import java.net.URL;
 import java.util.Map;
@@ -103,6 +105,19 @@ public class TablePath extends LiblouisTablePath {
 	)
 	protected void bindTableResolver(LiblouisTableResolver resolver) {
 		this.resolver = resolver;
+		// FIXME: This is a dirty hack to make sure that the LiblouisTableRegistry instance actually
+		// registers the table path, because the framework currently does not handle circular
+		// dependencies correctly (if not running with OSGi).
+		try {
+			Method m = TablePath.class.forName("org.daisy.pipeline.braille.liblouis.impl.LiblouisTableRegistry")
+				.getDeclaredMethod("_register", LiblouisTablePath.class);
+			m.setAccessible(true);
+			m.invoke(resolver, this);
+		} catch (ClassNotFoundException e) {
+			// probably running in OSGi
+		} catch (NoSuchMethodException|IllegalAccessException|InvocationTargetException e) {
+			throw new IllegalStateException(e); // should not happen (but brittle)
+		}
 	}
 	
 	private static final Logger logger = LoggerFactory.getLogger(TablePath.class);
