@@ -7,8 +7,7 @@ import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import org.daisy.pipeline.braille.common.util.URIs;
-import org.daisy.pipeline.braille.common.util.URLs;
+import org.daisy.common.file.URLs;
 import org.daisy.pipeline.braille.liblouis.LiblouisTablePath;
 import org.daisy.pipeline.braille.liblouis.LiblouisTableResolver;
 
@@ -32,7 +31,6 @@ import org.slf4j.LoggerFactory;
 		"path:String=/tables"
 	}
 )
-
 public class TablePath extends LiblouisTablePath {
 	
 	private final static String WHITELIST_BASE_PROPERTY = "ch.sbs.whitelist.base";
@@ -42,11 +40,11 @@ public class TablePath extends LiblouisTablePath {
 	private URL emptyTable;
 	
 	@Activate
-	protected void activate(ComponentContext context, Map<?,?> properties) throws Exception {
-		super.activate(context, properties);
+	public void activate(Map<?,?> properties) {
+		super.activate(properties, TablePath.class);
 		String whitelistBasePath = System.getProperty(WHITELIST_BASE_PROPERTY);
 		whitelistBase = whitelistBasePath == null ? null : new File(whitelistBasePath);
-		emptyTable = resolve(URIs.asURI("_empty"));
+		emptyTable = resolve(URLs.asURI("_empty"));
 	}
 	
 	@Override
@@ -58,7 +56,9 @@ public class TablePath extends LiblouisTablePath {
 		if (relative.isAbsolute())
 			relative = getIdentifier().relativize(resource);
 		if (relative.isAbsolute())
-			relative = URIs.relativize(makeUnpackDir(), resource);
+			relative = URLs.relativize(URLs.asURI(makeUnpackDir()), resource);
+		if (whitelistBase != null && relative.isAbsolute())
+			relative = URLs.relativize(URLs.asURI(whitelistBase), resource);
 		if (relative.isAbsolute())
 			return null;
 		
