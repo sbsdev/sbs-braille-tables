@@ -1,5 +1,12 @@
 sbs-braille-tables NEWS -- history of user-visible changes.  	-*- org -*-
 
+* Noteworthy changes in release 1.15 (2023-??-??)
+- Move all detailed accents that are not Swiss to the reduced ones
+  i.e. characters like ø, ã or ÿ are now plain old reduced accents.
+  This fixes part of http://redmine.sbszh.ch/issues/1745
+- Fix missing dot 6 before single letter in front of apstrophe such as
+  "F'".
+
 * Noteworthy changes in release 1.14 (2021-03-22)
 ** Drop gnulib
 - Wasn't really needed, we can manually change the version string
@@ -8,6 +15,34 @@ sbs-braille-tables NEWS -- history of user-visible changes.  	-*- org -*-
 - make use of the extended ~nocross~ possibilities
 - add test cases for the rules that have been upgraded to work with
   ~nocross~
+
+* Noteworthy changes in release 1.13 (2020-09-23)
+- Upgrade to modern liblouis, i.e. use 'nocross always' instead of
+  just 'nocross'.
+
+* Noteworthy changes in release 1.12.5 (2019-09-06)
+- Revert the Always convert Esszet (ß) to lowercase change as it seems
+  to break dictionary based translation.
+
+* Noteworthy changes in release 1.12.4 (2019-09-03)
+- Add corrects for left-pointing angle quotation marks before hyphen.
+- Always convert Esszet (ß) to lowercase.
+- Fix `make distcheck`.
+
+* Noteworthy changes in release 1.12.3 (2019-09-02)
+- Add a correct for hyphen after square bracket
+
+* Noteworthy changes in release 1.12.2 (2019-09-02)
+- Fix some problems with hyphen
+
+* Noteworthy changes in release 1.12.1 (2019-08-20)
+- Add a noletsign for Esszet (ß)
+
+* Noteworthy changes in release 1.12.0 (2019-03-22)
+- Fix a problem with Wortersatzstrich initial
+- Fix a problem with Minuszeichen nach ( [ › »
+- Fix translation of 'n' als Wort (zwischen Blanks)
+- Add YAML tests
 
 * Noteworthy changes in release 1.2 (2011-02-14)
     - Improve tables
