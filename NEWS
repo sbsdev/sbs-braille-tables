@@ -6,6 +6,8 @@ sbs-braille-tables NEWS -- history of user-visible changes.  	-*- org -*-
   This fixes part of http://redmine.sbszh.ch/issues/1745
 - Fix missing dot 6 before single letter in front of apstrophe such as
   "F'".
+- Translate non-breaking space as a special braille pattern, so it can
+  get special treatment in sbsform.
 
 * Noteworthy changes in release 1.14 (2021-03-22)
 ** Drop gnulib
