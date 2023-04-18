@@ -1,3 +1,15 @@
+sbs-braille-tables (1.15.0) unstable; urgency=medium
+
+  * Move all detailed accents that are not Swiss to the reduced ones i.e.
+    characters like ø, ã or ÿ are now plain old reduced accents. This
+    fixes part of http://redmine.sbszh.ch/issues/1745
+  * Fix missing dot 6 before single letter in front of apstrophe such as
+    "F'".
+  * Translate non-breaking space as a special braille pattern, so it can
+    get special treatment in sbsform.
+
+ -- Christian Egli <christian@egli.cc>  Tue, 18 Apr 2023 15:55:19 +0200
+
 sbs-braille-tables (1.14.0) unstable; urgency=medium
 
   * Drop gnulib.
