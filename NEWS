@@ -1,6 +1,6 @@
 sbs-braille-tables NEWS -- history of user-visible changes.  	-*- org -*-
 
-* Noteworthy changes in release 1.15 (2023-??-??)
+* Noteworthy changes in release 1.15 (2023-04-18)
 - Move all detailed accents that are not Swiss to the reduced ones
   i.e. characters like ø, ã or ÿ are now plain old reduced accents.
   This fixes part of http://redmine.sbszh.ch/issues/1745
