@@ -10,7 +10,7 @@ table:
   - litdigits6Dots.uti
   - sbs-de-core.mod
   - sbs-de-g2-core.mod
-  - sbs-de-accents.mod
+  - sbs-de-accents-ch.mod
   - sbs-special.mod
 tests:
   # Wortersatzstrich initial
