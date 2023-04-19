@@ -8,6 +8,8 @@ sbs-braille-tables NEWS -- history of user-visible changes.  	-*- org -*-
   "F'".
 - Translate non-breaking space as a special braille pattern, so it can
   get special treatment in sbsform.
+- Upgrade to liblouis 3.25.0 (replace ~uplow~ by ~lowercase~ and
+  ~base~)
 
 * Noteworthy changes in release 1.14 (2021-03-22)
 ** Drop gnulib

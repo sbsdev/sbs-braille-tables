@@ -7,6 +7,7 @@ sbs-braille-tables (1.15.0) unstable; urgency=medium
     "F'".
   * Translate non-breaking space as a special braille pattern, so it can
     get special treatment in sbsform.
+  * Upgrade to liblouis 3.25.0
 
  -- Christian Egli <christian@egli.cc>  Tue, 18 Apr 2023 15:55:19 +0200
 
