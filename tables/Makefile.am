@@ -1,7 +1,6 @@
 braille_tables =				\
 	sbs-code.cti				\
 	sbs-de-accents-ch.mod			\
-	sbs-de-accents-reduced.mod		\
 	sbs-de-accents.cti			\
 	sbs-de-accents.mod			\
 	sbs-de-begendcaps.mod			\

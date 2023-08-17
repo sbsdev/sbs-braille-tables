@@ -14,6 +14,7 @@ Makefile.in
 /debian/files
 /debian/sbs-braille-tables.substvars
 /debian/sbs-braille-tables/
+/debian/.debhelper/
 /compile
 /test-driver
 /tests/*.log

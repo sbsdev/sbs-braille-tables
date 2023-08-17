@@ -59,7 +59,7 @@ sign          \x005F 4-456           #95    _  LOW LINE
 
 # ===== LATIN-1 SUPPLEMENT: 0080-00FF ==========================================
 
-space         \x00A0 0               #160   NO-BREAK SPACE
+space         \x00A0 bd              #160   NO-BREAK SPACE
 punctuation   \x00A1 6-235           #161   ¡ INVERTED EXCLAMATION MARK
 sign          \x00A2 4-14            #162   ¢ CENT SIGN
 sign          \x00A3 4-123           #163   £ POUND SIGN

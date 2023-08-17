@@ -10,7 +10,7 @@ table:
   - litdigits6Dots.uti
   - sbs-de-core.mod
   - sbs-de-g2-core.mod
-  - sbs-de-accents.mod
+  - sbs-de-accents-ch.mod
   - sbs-special.mod
 tests:
   # Wortersatzstrich initial
@@ -439,3 +439,24 @@ tests:
     - "'W'"
   - - "z'"
     - "'Z'"
+
+display: sbs.dis
+table:
+  - sbs-de-core6.cti
+  - sbs-de-accents.cti
+  - sbs-special.cti
+  - sbs-whitespace.mod
+  - sbs-de-capsign-fake.mod
+  - sbs-de-letsign.mod
+  - sbs-numsign.mod
+  - litdigits6Dots.uti
+  - sbs-de-core.mod
+  - sbs-de-g2-core.mod
+  - sbs-de-accents.mod
+  - sbs-special.mod
+tests:
+  # test for non-breaking space
+  - - " "
+    - "b"
+  - - "vordurchprobe protuberanzakte"
+    - ",?,4PROBEbQTUB7+ZAK("

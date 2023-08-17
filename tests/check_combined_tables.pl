@@ -32,7 +32,6 @@ my @g1_tables = qw(
     sbs-de-g1-core.mod
     sbs-de-accents.mod
     sbs-de-accents-ch.mod
-    sbs-de-accents-reduced.mod
     sbs-special.mod
 );
 
@@ -51,7 +50,6 @@ my @g2_tables =	qw(
     sbs-de-g2-core.mod
     sbs-de-accents.mod
     sbs-de-accents-ch.mod
-    sbs-de-accents-reduced.mod
     sbs-special.mod
 );
 
@@ -69,7 +67,6 @@ my @g2_name_tables = qw(
     sbs-de-g2-name.mod
     sbs-de-accents.mod
     sbs-de-accents-ch.mod
-    sbs-de-accents-reduced.mod
     sbs-special.mod
 );
 

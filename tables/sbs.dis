@@ -76,5 +76,6 @@ display w f
 display p cd
 display k ce
 display a cf
+display b bd		# Non-breaking space
 display \x2011 36a
 

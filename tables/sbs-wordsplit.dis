@@ -75,6 +75,7 @@ display t e
 display w f
 display - 36a
 display a cf
+display \s bd		# Non-breaking space
 display n cb
 display p cd
 display k ce

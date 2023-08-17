@@ -41,7 +41,6 @@ public class TablesTest extends AbstractTest {
 			"sbs-de-g1-core.mod",
 			"sbs-de-accents.mod",
 			"sbs-de-accents-ch.mod",
-			"sbs-de-accents-reduced.mod",
 			"sbs-special.mod"
 		},
 		","
