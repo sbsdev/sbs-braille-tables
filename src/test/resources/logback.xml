@@ -12,6 +12,7 @@
     <appender-ref ref="TEST_LOG"/>
   </root>
 
-  <logger name="org.daisy" level="DEBUG"/>
+  <logger name="org.daisy" level="TRACE"/>
+  <logger name="ch.sbs" level="TRACE"/>
 
 </configuration>

@@ -2,13 +2,13 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Properties;
+
 import javax.inject.Inject;
 
 import org.daisy.pipeline.braille.common.CSSStyledText;
 import static org.daisy.pipeline.braille.common.Query.util.mutableQuery;
 import static org.daisy.pipeline.braille.common.util.Strings.join;
-import static org.daisy.pipeline.braille.common.util.URIs.asURI;
-import org.daisy.pipeline.braille.liblouis.LiblouisTablePath;
 import org.daisy.pipeline.braille.liblouis.LiblouisTranslator;
 
 import org.daisy.pipeline.junit.AbstractTest;
@@ -18,21 +18,12 @@ import static org.daisy.pipeline.pax.exam.Options.thisPlatform;
 import org.junit.Assert;
 import org.junit.Test;
 
-import org.ops4j.pax.exam.Configuration;
-import static org.ops4j.pax.exam.CoreOptions.composite;
-import static org.ops4j.pax.exam.CoreOptions.options;
-import static org.ops4j.pax.exam.CoreOptions.systemProperty;
-import org.ops4j.pax.exam.Option;
 import org.ops4j.pax.exam.util.PathUtils;
 
-public class OSGiTest extends AbstractTest {
+public class TablesTest extends AbstractTest {
 
-	// for some reason this is needed to make the test work
 	@Inject
-	LiblouisTablePath path;
-	
-	@Inject
-	LiblouisTranslator.Provider translatorProvider;
+	public LiblouisTranslator.Provider translatorProvider;
 	
 	private static final String g1_table = join(
 		new String[]{
@@ -59,7 +50,8 @@ public class OSGiTest extends AbstractTest {
 	public void testTranslator() {
 		Assert.assertEquals(
 			braille("WO4ENENDE"),
-			translatorProvider.get(mutableQuery().add("liblouis-table", g1_table).add("output", "ascii"))
+			translatorProvider.get(mutableQuery().add("liblouis-table", g1_table)
+			                                     .add("braille-charset", "http://www.sbs.ch/pipeline/liblouis/tables/sbs.dis"))
 			                  .iterator().next().fromStyledTextToBraille()
 			                  .transform(text("wochenende")));
 	}
@@ -68,12 +60,14 @@ public class OSGiTest extends AbstractTest {
 	public void testWhitelist() {
 		Assert.assertEquals(
 			braille("WOOOH"),
-			translatorProvider.get(mutableQuery().add("liblouis-table", g1_table + ",sbs-de-g1-white.mod").add("output", "ascii"))
+			translatorProvider.get(mutableQuery().add("liblouis-table", g1_table + ",sbs-de-g1-white.mod")
+			                                     .add("braille-charset", "http://www.sbs.ch/pipeline/liblouis/tables/sbs.dis"))
 			                  .iterator().next().fromStyledTextToBraille()
 			                  .transform(text("wochenende")));
 		Assert.assertEquals(
 			braille("WOOOHOOOOW!"),
-			translatorProvider.get(mutableQuery().add("liblouis-table", g1_table + ",sbs-de-g1-white-xyz.mod").add("output", "ascii"))
+			translatorProvider.get(mutableQuery().add("liblouis-table", g1_table + ",sbs-de-g1-white-xyz.mod")
+			                                     .add("braille-charset", "http://www.sbs.ch/pipeline/liblouis/tables/sbs.dis"))
 			                  .iterator().next().fromStyledTextToBraille()
 			                  .transform(text("wochenende")));
 	}
@@ -81,19 +75,16 @@ public class OSGiTest extends AbstractTest {
 	@Override
 	protected String[] testDependencies() {
 		return new String[]{
-			brailleModule("liblouis-core"),
-			"org.daisy.pipeline.modules.braille:liblouis-native:jar:" + thisPlatform() + ":?",
-			brailleModule("liblouis-tables"),
+			brailleModule("liblouis-utils"),
+			"org.daisy.pipeline.modules.braille:liblouis-utils:jar:" + thisPlatform() + ":?",
 		};
 	}
-	
-	@Override @Configuration
-	public Option[] config() {
-		return options(
-			composite(super.config()),
-			systemProperty("ch.sbs.whitelist.base")
-				.value(new File(PathUtils.getBaseDir(), "target/test-classes/whitelist/").getAbsolutePath())
-		);
+
+	@Override
+	protected Properties systemProperties() {
+		Properties p = new Properties();
+		p.setProperty("ch.sbs.whitelist.base", new File(PathUtils.getBaseDir(), "target/test-classes/whitelist/").getAbsolutePath());
+		return p;
 	}
 	
 	private Iterable<CSSStyledText> text(String... text) {
