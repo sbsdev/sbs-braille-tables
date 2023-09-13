@@ -46,7 +46,7 @@ base uppercase        \x0152 \x0153      Œœ  &#338;&#339;   LATIN LIGATURE OE
 lowercase         \x00E1       4-1           á  &#225;   LATIN LETTER A WITH ACUTE
 lowercase         \x00E3       4-1           ã  &#227;   LATIN LETTER A WITH TILDE
 lowercase         \x00E5       4-1           å  &#229;   LATIN LETTER A WITH RING ABOVE
-lowercase         \x00E6       4-1           æ  &#230;   LATIN LETTER AE
+lowercase         \x00E6       1-15          æ  &#230;   LATIN LETTER AE
 lowercase         \x0101       4-1           ā  &#257;   LATIN LETTER A WITH MACRON
 lowercase         \x0103       4-1           ă  &#259;   LATIN LETTER A WITH BREVE
 lowercase         \x0105       4-1           ą  &#261;   LATIN LETTER A WITH OGONEK
