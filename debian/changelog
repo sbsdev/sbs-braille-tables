@@ -1,3 +1,10 @@
+sbs-braille-tables (1.16.0) unstable; urgency=medium
+
+  * Map the Latin Letter AE to simply AE instead of using an accents
+    indicator.
+
+ -- Christian Egli <christian.egli@sbs.ch>  Wed, 13 Sep 2023 15:09:07 +0200
+
 sbs-braille-tables (1.15.0) unstable; urgency=medium
 
   * Move all detailed accents that are not Swiss to the reduced ones i.e.
