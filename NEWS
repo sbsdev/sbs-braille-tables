@@ -1,5 +1,9 @@
 sbs-braille-tables NEWS -- history of user-visible changes.  	-*- org -*-
 
+* Noteworthy changes in release 1.16 (2023-09-13)
+- Map the Latin Letter AE to simply AE instead of using an accents
+  indicator.
+  
 * Noteworthy changes in release 1.15 (2023-04-18)
 - Move all detailed accents that are not Swiss to the reduced ones
   i.e. characters like ø, ã or ÿ are now plain old reduced accents.
