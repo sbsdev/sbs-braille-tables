@@ -1,4 +1,4 @@
-AC_INIT([sbs-braille-tables],[1.15.0])
+AC_INIT([sbs-braille-tables],[1.16.0])
 AM_INIT_AUTOMAKE()
 
 AC_CONFIG_FILES([
